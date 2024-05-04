@@ -13,8 +13,8 @@ const FacialServiceCardContain = () => {
       <FacialServiceCard
         heading="snow white facial"
         para="For brighter and radiant skin canadian willow herb/papain enzymes/cucumber herbal extracts "
-        goto="snow white facial"
-        img="https://img.freepik.com/free-photo/girl-with-face-mask_1157-15431.jpg?t=st=1714704276~exp=1714707876~hmac=e9f142927b7276e8e3b740a642b3eca9b2446f3cf868194ad7a5173b052e47f0&w=996"
+        goto="Snow white facial"
+        img="https://img.freepik.com/free-photo/girl-with-mascara_1157-15459.jpg?t=st=1714801958~exp=1714805558~hmac=b5726627c68e1753cbc1e6e88eaa9411508ca0eceb16e86a9af26e635442f18f&w=996"
       />
       <FacialServiceCard
         heading="Dead Sea Mineral Facial"

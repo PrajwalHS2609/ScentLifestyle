@@ -5,7 +5,7 @@ const HelpNearYouPara = () => {
   return (
     <div className="helpNearYouParaContainer">
     <p>
-      Bodycraft is your friendly neighborhood salon. Choose a safe salon
+      Scent is your friendly neighborhood salon. Choose a safe salon
       experience at any of our 17 outlets, across Bengaluru and Mumbai.
     </p>
   </div>

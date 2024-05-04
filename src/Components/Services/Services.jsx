@@ -85,7 +85,7 @@ const Services = () => {
                 alt="Hair"
               />
             </div>
-            <h3>Hair</h3>
+            <h3><Link to={"/hair"}>Hair</Link></h3>
           </div>
           <div className="serviceSlideContainer">
             <div className="serviceSlideContent">
@@ -94,7 +94,7 @@ const Services = () => {
                 alt="Nails"
               />
             </div>
-            <h3>Nails</h3>
+            <h3><Link to={"/nails"}>Nails</Link></h3>
           </div>
           <div className="serviceSlideContainer">
             <div className="serviceSlideContent">
@@ -103,7 +103,7 @@ const Services = () => {
                 alt="Facial"
               />
             </div>
-            <h3>Facials</h3>
+            <h3><Link to={"/facial"}>Facials</Link></h3>
           </div>
           <div className="serviceSlideContainer">
             <div className="serviceSlideContent">
@@ -112,7 +112,7 @@ const Services = () => {
                 alt="Beauty Essentials"
               />
             </div>
-            <h3>Beauty Essentials</h3>
+            <h3><Link to={"/beauty"}>Beauty Essentials</Link></h3>
           </div>
         
           <div className="serviceSlideContainer">
@@ -122,7 +122,7 @@ const Services = () => {
                 alt="Spa"
               />
             </div>
-            <h3>Spa</h3>
+            <h3><Link to={"/spa"}>Spa</Link></h3>
           </div>
           <div className="serviceSlideContainer">
             <div className="serviceSlideContent">
@@ -131,7 +131,7 @@ const Services = () => {
                 alt="lashes"
               />
             </div>
-            <h3>Lashes</h3>
+            <h3><Link to={"/lashes"}>Lashes</Link></h3>
           </div>
         </Slider>
       </div>

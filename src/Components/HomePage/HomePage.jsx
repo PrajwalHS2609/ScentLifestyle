@@ -13,7 +13,7 @@ import LastComp from "../LastComp/LastComp";
 import HelpNearYou from "../Help/HelpNearYou";
 const HomePage = () => {
   return (
-    <div>
+    <div style={{border:"solid green"}}>
       <Video />
       <Services />
       <Style />

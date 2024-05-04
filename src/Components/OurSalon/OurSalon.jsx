@@ -6,7 +6,7 @@ const OurSalon = () => {
   return (
     <div className="salonContainer">
       <div className="salonContent1">
-        <p>From one salon to a million transformation stories.</p>
+        <p>From one salon to a thousand transformation stories.</p>
         <div className="salonUnderline"></div>
       </div>
       <div className="salonContent2">
