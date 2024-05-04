@@ -161,19 +161,19 @@
 @media screen and (max-width: 600px) {
   .serviceCardContainer {
     /* border: solid red; */
-    height: 500vh;
+    height: 420vh;
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
-    gap: 0%;
-    margin-top: 4%;
+    align-items:center;
+    gap:0px;
+    margin-top: 0%;
   }
   .serviceCardMain {
     /* border: solid yellow; */
     position: relative;
-    width: 100%;
-    height: 320px;
+    width: 90%;
+    height: 460px;
   }
   .serviceCardWrapper > img {
     position: static;
@@ -195,7 +195,7 @@
     border: 2px whitesmoke solid;
     width: 90%;
     height: 45px;
-    bottom: -150px;
+    bottom: -15px;
     left: 5%;
     background-color: white;
   }

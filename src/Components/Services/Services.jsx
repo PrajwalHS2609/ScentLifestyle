@@ -99,7 +99,7 @@ const Services = () => {
           <div className="serviceSlideContainer">
             <div className="serviceSlideContent">
               <img
-                src="https://img.freepik.com/free-photo/beautician-with-brush-applies-white-moisturizing-mask-face-young-girl-client-spa-beauty-salon_343596-4247.jpg?t=st=1714755235~exp=1714758835~hmac=d3230df8acd992ef6023f397c8a650764f817b81178e01600500d87762d5dbc4&w=996"
+                src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt="Facial"
               />
             </div>
@@ -108,7 +108,7 @@ const Services = () => {
           <div className="serviceSlideContainer">
             <div className="serviceSlideContent">
               <img
-                src="https://img.freepik.com/free-photo/side-view-young-woman-using-serum_23-2149887532.jpg?t=st=1714755326~exp=1714758926~hmac=dc2c802166ff6b3565cde76ed3c2f25b4eba2230daba301b09a9bc5148135cd4&w=1060"
+                src="https://images.unsplash.com/photo-1573461160327-b450ce3d8e7f?q=80&w=1965&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt="Beauty Essentials"
               />
             </div>
@@ -118,7 +118,7 @@ const Services = () => {
           <div className="serviceSlideContainer">
             <div className="serviceSlideContent">
               <img
-                src="https://img.freepik.com/free-photo/attractive-african-woman-enjoying-face-massage-spa-salon_176420-13955.jpg?t=st=1714755365~exp=1714758965~hmac=af7a66fc4cd1c002abdb3b4328f0c34e3d7c811db75cedd38150ecccb89917ef&w=996 "
+                src="https://images.unsplash.com/photo-1596178060671-7a80dc8059ea?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt="Spa"
               />
             </div>
@@ -127,7 +127,7 @@ const Services = () => {
           <div className="serviceSlideContainer">
             <div className="serviceSlideContent">
               <img
-                src="https://img.freepik.com/free-photo/closeup-woman-s-eye-with-beautiful-fashion-bright-makeup_186202-7965.jpg?t=st=1714755422~exp=1714759022~hmac=0b84b33e30d54be8618dbee89a96df76811e557534ea32d2d5aeceb530168047&w=996"
+                src="https://images.unsplash.com/photo-1589710751893-f9a6770ad71b?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt="lashes"
               />
             </div>
