@@ -1,0 +1,32 @@
+.returnContainer {
+  /* border: solid green; */
+  /* height: 60vh; */
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+  margin-top: 30px;
+
+}
+.returnHeadContainer {
+  /* border: solid red; */
+  height: 10%;
+  width: 90%;
+ 
+}
+.returnHeadContainer>h1 {
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+.returnParaContainer {
+  /* border: solid blue; */
+  width: 90%;
+  height: 70%;
+  margin-top: 20px;
+}
+.returnParaContainer > ul > li {
+  font-size: 17px;
+  list-style: disc;
+  margin: 20px
+}

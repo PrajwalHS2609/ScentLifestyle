@@ -1,0 +1,39 @@
+.hairReadContainer {
+  /* border: solid; */
+  /* height: 100vh; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 60px;
+  cursor: pointer;
+}
+.hairReadHeadContainer {
+  width: 300px;
+  /* border: solid; */
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hairReadHeadContainer>button{
+  border: none;
+  background-color: white;
+}
+.hairReadDisplayContainer {
+  display: none;
+}
+@media screen and (max-width: 600px) {
+  .hairReadContainer {
+    /* border: solid red; */
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 60px;
+  }
+  .hairReadHeadContainer>h1{
+    font-size: 150%;
+  }
+}

@@ -1,0 +1,120 @@
+.aboutContainer {
+  /* border: solid; */
+  width: 100%;
+  height: 89vh;
+  position: relative;
+  z-index: 1;
+}
+.aboutContainer > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.aboutContent {
+  /* border: solid blue; */
+  height: 100%;
+  width: 700px;
+  position: absolute;
+  z-index: 2;
+  bottom: 0px;
+  right: 0;
+  background-color: #cc222897;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
+}
+.innerAboutContent {
+  /* border: solid red; */
+  width: 90%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-right: 20px;
+}
+.aboutContentTxt1 {
+  /* border: solid; */
+  width: 100%;
+}
+.aboutContentTxt1 > pre {
+  font-size: 37px;
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 2px;
+  color: white;
+}
+.aboutContentTxt1 > pre > span {
+  border-bottom: 5px solid;
+}
+.aboutContentTxt2 {
+  /* border: solid; */
+  width: 100%;
+  height: 60%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+.aboutContentTxt2 > p {
+  font-size: 17px;
+  font-weight: lighter;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 1px;
+  color: white;
+  text-align: center;
+}
+
+.aboutContentTxt3 {
+  /* border: solid; */
+  width: 70%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+}
+.aboutContentTxt3 > pre {
+  font-size: 18px;
+  font-weight: lighter;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 1px;
+  color: white;
+  text-decoration: underline;
+}
+.aboutIcon {
+  color: white;
+}
+@media only screen and (max-width: 600px) {
+  .aboutContainer {
+    /* border: solid; */
+    height: 160vh;
+    width: 100%;
+  }
+  .aboutContent {
+    /* border: solid blue; */
+    height: 100%;
+    width: 100%;
+  }
+  .aboutContentTxt1 > pre {
+    font-size: 200%;
+  }
+  .aboutContentTxt2 > p {
+    font-size: 100%;
+  }
+  .aboutContentTxt3 > pre {
+    font-size: 25px;
+  }
+  .innerAboutContent {
+    /* border: solid red; */
+    height: 90%;
+  }
+}
+@media only screen and (max-width: 990px) and (min-width: 600px) {
+  .aboutContainer {
+    /* border: solid; */
+    width: 100%;
+    height: 89vh;
+    position: relative;
+    z-index: 1;
+  }
+}

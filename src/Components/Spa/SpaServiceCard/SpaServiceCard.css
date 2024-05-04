@@ -1,0 +1,270 @@
+:root {
+  --customRed: #cc2228;
+}
+
+.spaCardContainer {
+  /* border: solid blue; */
+  width: 100%;height: 300vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.spaCardMain {
+  /* border: solid red; */
+  position: relative;
+  width: 25%;
+  margin: 20px;
+}
+.spaCardWrapper {
+  /* border: solid; */
+  height: 320px;
+  width: 90;
+  margin: 15px;
+  position: relative;
+  overflow: hidden;
+}
+.spaCardWrapper > img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transition: 600ms ease-in-out;
+}
+.spaCardWrapper:hover .spaCardImg {
+  transform: scale(1.2);
+}
+
+.spaCardCover {
+  /* border: solid green; */
+  height: 100%;
+  width: 100%;
+  background-color: var(--customRed);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 2;
+  display: none;
+}
+.spaCardWrapper:hover .spaCardCover {
+  display: flex;
+}
+.spaCardTxtContainer {
+  /* border: solid; */
+  width: 90%;
+  height: 90%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 50px;
+}
+.spaCardHead > h1 {
+  font-size: 150%;
+  color: white;
+}
+
+.spaCardPara {
+  font-weight: bold;
+  color: white;
+  text-align: justify;
+}
+.spaCardPara>p{
+  font-size: 90%;
+}
+.spaCardBut > button {
+  /* border: solid; */
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: white;
+  font-weight: bold;
+  border: none;
+  color: var(--customRed);
+}
+.spaGoto {
+  border: 2px whitesmoke solid;
+  display: flex;
+  width: 280px;
+  height: 40px;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  z-index: 3;
+  bottom: -5px;
+  left: 45px;
+  background-color: white;
+}
+.goTo1 {
+  margin-left: 20px;
+}
+.goTo1 > h1 {
+  color: var(--customRed);
+  font-size: 20px;
+}
+.goTo2 {
+  margin-right: 20px;
+}
+.respSpaServiceContainer {
+  /* border: solid green; */
+  height: 300px;
+  width: 100%;
+  margin: 0px;
+  position: relative;
+  overflow: hidden;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+.respSpaServiceCardCover {
+  /* border: solid blue; */
+  height: 150%;
+  width: 100%;
+  background-color: var(--customRed);
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.respSpaServiceCardTxtContainer {
+  /* border: solid yellowgreen; */
+  width: 100%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 0;
+}
+.respSpaServiceCardHead > h1 {
+  font-size: 160%;
+  color: white;
+  text-align: center;
+}
+
+.respSpaServiceCardPara {
+  font-weight: bold;
+  color: white;
+  text-align: justify;
+  word-spacing: 2px;
+  width: 90%;
+}
+.respSpaServiceCardPara > p {
+  font-size: 80%;
+}
+.respSpaServiceCardBut > button {
+  /* border: solid; */
+  width: 200px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: white;
+  font-weight: bold;
+  border: none;
+  color: var(--customRed);
+}
+
+@media only screen and (max-width: 600px) {
+  .spaCardContainer {
+    /* border: solid red; */
+    height: 1010vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10px;
+    overflow: none;
+  }
+  .spaCardMain {
+    /* border: solid yellow; */
+    position: relative;
+    width: 100%;
+    height: 320px;
+  }
+  .spaCardWrapper > img {
+    position: static;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+    transition: 600ms ease-in-out;
+  }
+  .spaCardWrapper {
+    /* border: solid green; */
+    height: 200px;
+    width: 100%;
+    margin: 0px;
+    position: relative;
+    overflow: hidden;
+  }
+  .spaGoto {
+    border: 2px whitesmoke solid;
+    width: 90%;
+    height: 30px;
+    bottom: -110px;
+    left: 15px;
+    background-color: white;
+  }
+  .spaGoto>.goTo1>h1{
+    font-size: 100%;
+  }
+  .respSpaServiceCardCover {
+      /* border: solid blue; */
+      height: 70%;
+      width: 100%;
+      background-color: var(--customRed);
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      margin-bottom: 90px;
+    }
+  .respSpaServiceContainer {
+    display: flex;
+  }
+}
+@media only screen and (max-width: 990px) and (min-width: 600px) {
+  .spaCardContainer {
+    /* border: solid red; */
+    height: 550vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+  }
+  .spaCardMain {
+    /* border: solid yellow; */
+    position: relative;
+    width: 100%;
+    height: 320px;
+  }
+  .spaCardWrapper > img {
+    position: static;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+    transition: 600ms ease-in-out;
+  }
+  .spaCardWrapper {
+    /* border: solid green; */
+    height: 200px;
+    width: 100%;
+    margin: 0px;
+    position: relative;
+    overflow: hidden;
+  }
+  .spaGoto {
+    border: 2px whitesmoke solid;
+    width: 300px;
+    height: 40px;
+    bottom: -200px;
+    left: 33px;
+    background-color: white;
+  }
+  .respSpaServiceContainer {
+    display: flex;
+  }
+}

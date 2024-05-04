@@ -1,0 +1,23 @@
+.naviContainer{
+    /* border: solid; */
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.naviContent{
+    /* border: solid; */
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 70px;
+    color:#cc2228;
+}
+.naviContent>h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    gap: 20px;
+}

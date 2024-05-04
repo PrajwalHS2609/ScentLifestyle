@@ -1,0 +1,29 @@
+.sahakarLocHeadContainer {
+  border: solid green;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sahakarLocHeadContent {
+  border: solid red;
+  height: 100%;
+  width: 50%;
+}
+.sahakarLocHeadItem {
+  border: solid blue;
+  display: flex;
+  justify-content: flex-end ;
+  align-items: center;
+  
+}
+#sahakarLocHeadItem2{
+    height: 50%;
+}
+#sahakarLocHeadItem3{
+    height: 50%;
+}
+.sahakarLocInnerItem{
+    border: solid yellowgreen;
+    height: 100%;width: 50%;
+}

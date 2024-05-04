@@ -1,0 +1,30 @@
+.paymentContainer {
+  /* border: solid green; */
+  /* height: 60vh; */
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.paymentHeadContainer {
+  /* border: solid red; */
+  height: 10%;
+  width: 90%;
+}
+.paymentHeadContainer > h1 {
+  font-size: 50px;
+  font-weight: lighter;
+}
+
+.paymentParaContainer {
+  /* border: solid blue; */
+  width: 90%;
+  height: 70%;
+  margin-top: 20px;
+}
+.paymentParaContainer > ul > li {
+  font-size: 17px;
+  list-style: disc;
+  margin: 20px;
+}

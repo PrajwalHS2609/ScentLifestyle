@@ -1,0 +1,6 @@
+/* .sahakarLocImgContainer{
+    border: solid red;
+} */
+.sahakarLocImgContainer>img{
+    width: 100%;
+}

@@ -1,0 +1,172 @@
+:root {
+    --customRed: #cc2228;
+  }
+
+  .nailSalonImgContainer {
+    /* border: solid red; */
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  /* .servicePageImgContainer > img {
+    height: 80%;
+    width: 90%;
+    position: relative;
+    z-index: 1;
+  } */
+  .nailImgCover {
+    width: 90%;
+    height: 90%;
+    background-color: rgba(0, 0, 0, 0.595);
+    position: relative;
+    z-index: 1;
+    /* background: url("https://videocdn.cdnpk.net/joy/content/video/free/video0460/large_preview/_import_60d2f41e3bcdc1.08424385.mp4");
+    background-repeat: no-repeat;
+    background-size: cover; */
+  }
+  .nailImgCover > video {
+    /* border: red solid; */
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+  }
+  .cover {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.595);
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  .overCoverTxt {
+    /* border: solid; */
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .overCoverTxt > h1 {
+    font-size: 50px;
+    font-weight: lighter;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  .coverUnderline {
+    border: 2px solid;
+    width: 100px;
+    color: var(--customRed);
+  }
+  .overCoverTxt > p {
+    /* border: solid; */
+    text-align: center;
+    width: 95%;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .nailsCardContainer {
+      /* border: solid red; */
+      height: 1000vh;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 20px;
+      overflow: none;
+    }
+    .nailsCardMain {
+      /* border: solid yellow; */
+      position: relative;
+      width: 100%;
+      height: 250px;
+    }
+    .nailsCardWrapper > img {
+      position: static;
+      width: 100%;
+      height: 90%;
+      object-fit: cover;
+      z-index: 1;
+      transition: 600ms ease-in-out;
+    }
+    .nailsCardWrapper {
+      /* border: solid green; */
+      height: 270px;
+      width: 100%;
+      margin: 0px;
+      position: relative;
+      overflow: hidden;
+    }
+    .nailsGoto {
+      border: 2px whitesmoke solid;
+      width: 90%;
+      height: 35px;
+      bottom: -210px;
+      left: 10px;font-size: 100%;
+      background-color: white;
+    }
+   
+    .respFacialServiceCardCover {
+        /* border: solid blue; */
+        height: 100%;
+        width: 100%;
+        background-color: var(--customRed);
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+      }
+    .respFacialServiceContainer {
+      display: flex;
+    }
+  }
+  @media only screen and (max-width: 990px) and (min-width: 600px) {
+    .facialCardContainer {
+      /* border: solid red; */
+      height: 550vh;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 30px;
+    }
+    .facialCardMain {
+      /* border: solid yellow; */
+      position: relative;
+      width: 100%;
+      height: 320px;
+    }
+    .facialCardWrapper > img {
+      position: static;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: 1;
+      transition: 600ms ease-in-out;
+    }
+    .facialCardWrapper {
+      /* border: solid green; */
+      height: 200px;
+      width: 100%;
+      margin: 0px;
+      position: relative;
+      overflow: hidden;
+    }
+    .facialGoto {
+      border: 2px whitesmoke solid;
+      width: 300px;
+      height: 40px;
+      bottom: -200px;
+      left: 33px;
+      background-color: white;
+    }
+    .respFacialServiceContainer {
+      display: flex;
+    }
+  }

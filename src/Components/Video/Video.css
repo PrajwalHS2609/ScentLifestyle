@@ -1,0 +1,137 @@
+.homeFormWrapper {
+  /* border: solid; */
+  height: 80vh;
+  width: 100%;
+  top: 14vh;
+  position: fixed;
+  z-index: 4;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.homeFormExit {
+  /* border: solid; */
+  width: 40%;
+  height: 10%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, 0.645);
+}
+.formIcon {
+  font-size: 150%;
+  color: white;
+  margin-right: 10px;
+}
+.vidContainer {
+  /* border: solid red; */
+  height: 100vh;
+  width: 100%;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+.videoContent {
+  /* border: solid red; */
+  height: 87%;
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+  bottom: 100px;
+  filter: grayscale(1);
+  margin-top: 0px;
+}
+.vidTxt {
+  /* border: solid; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  position: absolute;
+  bottom: 135px;
+  font-size: 20px;
+  text-shadow: 0px 0px 5px black;
+  cursor: pointer;
+}
+.vidTxt > pre:hover {
+  color: #cc2228;
+  text-shadow: none;
+}
+
+.vidIcon {
+  font-size: 20px;
+  margin-top: 10px;
+}
+.videoContainer > source {
+  height: 100%;
+  width: 100%;
+}
+.vidUnderline {
+  border: solid #cc2228 2px;
+  width: 90px;
+  position: absolute;
+  bottom: 30px;
+}
+@media only screen and (max-width: 600px) {
+  .homeFormWrapper {
+    /* border: solid; */
+    height: 80vh;
+    width: 100%;
+
+  }
+  .homeFormExit {
+    /* border: solid; */
+    width: 100%;
+    height: 10%;
+
+  }
+  .vidContainer {
+    /* border: solid red; */
+    width: 100%;
+  }
+  .videoContent {
+    /* border: solid red; */
+    height: 90%;
+    width: 100%;
+  }
+  .vidTxt {
+    bottom: 125px;
+    font-size: 150%;
+  }
+}
+@media screen and (max-width: 990px) and (min-width: 600px) {
+  .homeFormWrapper {
+    /* border: solid; */
+    height: 80vh;
+    width: 100%;
+
+  }
+  .homeFormExit {
+    /* border: solid; */
+    width: 100%;
+    height: 10%;
+
+  }
+  .vidContainer {
+    /* border: solid red; */
+    width: 100%;
+  }
+  .videoContent {
+    /* border: solid red; */
+    height: 90%;
+    width: 100%;
+  }
+  .vidTxt {
+    bottom: 125px;
+    font-size: 25px;
+  }
+}

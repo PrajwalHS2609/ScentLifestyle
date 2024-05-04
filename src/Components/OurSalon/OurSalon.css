@@ -1,0 +1,164 @@
+:root {
+  --customRed: #cc2228;
+}
+.salonContainer {
+  /* border: solid; */
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.salonContent1 {
+  /* border: solid; */
+  width: 500px;
+  height: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+.salonContent1 > p {
+  font-size: 30px;
+  text-align: center;
+  color: var(--customRed);
+}
+.salonUnderline {
+  border: 2px solid;
+  color: var(--customRed);
+  width: 100px;
+}
+.salonContent2 {
+  /* border: solid; */
+  width: 500px;
+  height: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.salonItem {
+  border: solid;
+  color: var(--customRed);
+  border-radius: 50%;
+  height: 100%;
+  width: 20%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.salonItem > p {
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+}
+.salonContent3 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 140px;
+  cursor: pointer;
+}
+.salonContent3 > p {
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: lighter;
+  text-decoration: underline;
+  cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+  .salonContainer {
+    /* border: solid red; */
+    height: 400px;
+    width: 100%;
+    gap: 40px;
+    margin-top: 30px;
+  }
+  .salonItem {
+    /* border: solid green; */
+    height:100px;
+    width: 100px;
+  }
+  .salonContent1 {
+    /* border: solid blue; */
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+  }
+  .salonContent1 > p {
+    font-size: 170%;
+    text-align: center;
+    color: var(--customRed);
+    /* border: solid; */
+    width: 90%;
+  }
+  .salonContent2 {
+    /* border: solid; */
+    width: 100%;
+    height: 120px;
+  }
+  .salonContent3 {
+    /* border: solid; */
+    width: 180px;
+  }
+  .salonItem > p {
+    color: black;
+    font-size: 90%;
+    font-weight: bold;
+    text-align: center;
+  }
+  .salonContent3 > p {
+    font-size: 100%;
+  }
+}
+@media screen and (max-width: 990px) and (min-width: 600px) {
+  .salonContainer {
+    /* border: solid; */
+    height: 400px;
+    width: 100%;
+    gap: 40px;
+    margin-top: 30px;
+  }
+  .salonItem {
+    /* border: solid; */
+    height: 100%;
+    width: 28%;
+  }
+  .salonContent1 {
+    /* border: solid; */
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+  }
+  .salonContent1 > p {
+    font-size: 200%;
+    text-align: center;
+    color: var(--customRed);
+    /* border: solid; */
+    width: 90%;
+  }
+  .salonContent2 {
+    /* border: solid; */
+    width: 100%;
+    height: 120px;
+  }
+  .salonContent3 {
+    /* border: solid; */
+    width: 180px;
+  }
+  .salonItem > p {
+    color: black;
+    font-size: 100%;
+    font-weight: bold;
+  }
+  .salonContent3 > p {
+    font-size: 120%;
+  }
+}

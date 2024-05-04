@@ -1,0 +1,216 @@
+:root {
+  --customRed: #cc2228;
+}
+.serviceCardContainer {
+  /* border: solid blue; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 150vh;
+}
+.serviceCardMain {
+  /* border: solid; */
+  position: relative;
+}
+.serviceCardWrapper {
+  /* border: solid; */
+  height: 450px;
+  width: 450px;
+  margin: 15px;
+  position: relative;
+  overflow: hidden;
+}
+.serviceCardWrapper > img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transition: 600ms ease-in-out;
+}
+.serviceCardWrapper:hover .serviceCardImg {
+  transform: scale(1.2);
+}
+
+.serviceCardCover {
+  /* border: solid; */
+  height: 100%;
+  width: 100%;
+  background-color: var(--customRed);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 2;
+  display: none;
+}
+.serviceCardWrapper:hover .serviceCardCover {
+  display: flex;
+}
+.serviceCardTxtContainer {
+  /* border: solid; */
+  width: 90%;
+  height: 90%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 50px;
+}
+.serviceCardHead > h1 {
+  font-size: 30px;
+  color: white;
+}
+
+.serviceCardPara {
+  font-weight: bold;
+  color: white;
+  text-align: justify;
+  word-spacing: 2px;
+}
+.serviceCardBut > button {
+  /* border: solid; */
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: white;
+  font-weight: bold;
+  border: none;
+  color: var(--customRed);
+}
+.serviceGoto {
+  border: 2px whitesmoke solid;
+  display: flex;
+  width: 350px;
+  height: 60px;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  z-index: 3;
+  bottom: -30px;
+  left: 45px;
+  background-color: white;
+}
+.goTo1 {
+  margin-left: 20px;
+}
+.goTo1 > h1 {
+  color: var(--customRed);
+  font-size: 20px;
+}
+.goTo2 {
+  margin-right: 20px;
+}
+.respContainer {
+  /* border: solid green; */
+  height: 250px;
+  width: 100%;
+  margin: 0px;
+  position: relative;
+  overflow: hidden;
+  display: none;
+}
+.respServiceCardCover {
+  /* border: solid blue; */
+  height: 100%;
+  width: 100%;
+  background-color: var(--customRed);
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.respServiceCardTxtContainer {
+  /* border: solid yellowgreen; */
+  width: 100%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 0;
+}
+.respServiceCardHead > h1 {
+  font-size: 160%;
+  color: white;
+}
+
+.respServiceCardPara {
+  font-weight: bold;
+  color: white;
+  text-align: justify;
+  width: 90%;
+}
+.respServiceCardPara > p {
+  font-size: 100%;
+}
+.respServiceCardBut > button {
+  /* border: solid; */
+  width: 200px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: white;
+  font-weight: bold;
+  border: none;
+  color: var(--customRed);
+}
+
+@media screen and (max-width: 600px) {
+  .serviceCardContainer {
+    /* border: solid red; */
+    height: 500vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0%;
+    margin-top: 4%;
+  }
+  .serviceCardMain {
+    /* border: solid yellow; */
+    position: relative;
+    width: 100%;
+    height: 320px;
+  }
+  .serviceCardWrapper > img {
+    position: static;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+    transition: 600ms ease-in-out;
+  }
+  .serviceCardWrapper {
+    /* border: solid green; */
+    height: 200px;
+    width: 100%;
+    margin: 0px;
+    position: relative;
+    overflow: hidden;
+  }
+  .serviceGoto {
+    border: 2px whitesmoke solid;
+    width: 90%;
+    height: 45px;
+    bottom: -150px;
+    left: 5%;
+    background-color: white;
+  }
+  .serviceGoto > .goTo1 > h1 {
+    font-size: 130%;
+  }
+  .respContainer {
+    display: flex;
+  }
+  .respServiceCardHead > h1 {
+    font-size: 150%;
+  }
+  .respServiceCardPara > p {
+    font-size: 90%;
+  }
+}
+@media screen and (max-width: 990px) and (min-width: 600px) {
+}

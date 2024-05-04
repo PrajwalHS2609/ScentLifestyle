@@ -1,0 +1,148 @@
+import React from "react";
+import "./Partners.css";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+const Partners = () => {
+  function SampleNextArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+      <div
+        className={className}
+        style={{
+          ...style,
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          textAlign: "center",
+          background: "#cc2228",
+          borderTopRightRadius: "10px",
+          borderBottomRightRadius: "14px",
+          height: "40px",
+          cursor:"pointer",
+
+        }}
+        onClick={onClick}
+      />
+    );
+  }
+  function SamplePrevArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+      <div
+        className={className}
+        style={{
+          ...style,
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          textAlign: "center",
+          background: "#cc2228",
+          borderTopLeftRadius: "10px",
+          borderBottomLeftRadius: "10px",
+          height: "40px",
+          cursor:"pointer",
+
+        }}
+        onClick={onClick}
+      />
+    );
+  }
+
+  const settings = {
+    dots: false,
+    infinite: false,
+    speed: 500,
+    slidesToShow: 5,
+    slidesToScroll: 4,
+    nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />,
+    responsive: [
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          initialSlide: 2,
+        },
+      },
+    
+    ],
+  };
+  return (
+    <div className="partnerContainer">
+      <div className="partnerContent" id="partnerContent1">
+        <div className="partnerItem1">
+          <h1>Partners</h1>
+        </div>
+        <div className="partnerUnderline"></div>
+      </div>
+      <div className="partnerContent" id="partnerContent2">
+        <Slider {...settings}>
+          <div className="partnerSlideContainer">
+            <img
+              src="https://www.bouncehere.com/wp-content/uploads/2018/09/BCL.png"
+              alt="BCL"
+            />
+          </div>
+          <div className="partnerSlideContainer">
+            <img
+              src="https://www.bouncehere.com/wp-content/uploads/2018/09/davi.png"
+              alt="davi"
+            />
+          </div>
+          <div className="partnerSlideContainer">
+            <img
+              src="https://www.bouncehere.com/wp-content/uploads/2018/09/depot.png"
+              alt="depot"
+            />
+          </div>
+          <div className="partnerSlideContainer">
+            <img
+              src="https://www.bouncehere.com/wp-content/uploads/2018/08/schwarzkorpf.png "
+              alt="Schwar"
+            />
+          </div>
+          <div className="partnerSlideContainer">
+            <img
+              src="https://www.bouncehere.com/wp-content/uploads/2018/08/wella.png "
+              alt="wella"
+            />
+          </div>
+          <div className="partnerSlideContainer">
+            <img
+              src="https://www.bouncehere.com/wp-content/uploads/2018/08/opi.png"
+              alt="OPI"
+            />
+          </div>
+          <div className="partnerSlideContainer">
+            <img
+              src="https://reflexions.in/cdn/shop/files/reflexions_logo_140x@2x.svg?v=1693911867"
+              alt="BG"
+            />
+          </div>
+          <div className="partnerSlideContainer">
+            <img
+              src="https://oemfile.informamarkets-info.com/FileUpload/CA2022_32978/20221020140941496.jpg "
+              alt="oil"
+            />
+          </div>
+          <div className="partnerSlideContainer">
+            <img
+              src="https://www.bouncehere.com/wp-content/uploads/2018/08/loreal.png"
+              alt="loreal"
+            />
+          </div>
+          <div className="partnerSlideContainer">
+            <img
+              src="https://www.bouncehere.com/wp-content/uploads/2018/08/keraste.png"
+              alt="keraste"
+            />
+          </div>
+        </Slider>
+      </div>
+    </div>
+  );
+};
+
+export default Partners;
