@@ -3,11 +3,12 @@ import NavBg from "./NavBg/NavBg.jsx";
 import FacialImg from "./FacialImg/FacialImg";
 import FacialServiceCardContain from "./FacialCards/FacialServiceCardContain.jsx";
 import Navi3 from "./Navi3/Navi3.jsx";
-import Members from "../Members/Members.jsx";
-import OurSalon from "../OurSalon/OurSalon.jsx";
+import Members from "./../HomePage/Members/Members";
+import OurSalon from "./../HomePage/OurSalon/OurSalon";
 import HelpNearYou from "../Help/HelpNearYou.jsx";
-import HairRead from "../HairServicePage/HairRead/HairRead.jsx";
 import LastComp from "../LastComp/LastComp.jsx";
+import ServiceWhy from "../MainServicePages/ServiceWhy/ServiceWhy.jsx";
+import FacialRead from "./FacialRead/FacialRead.jsx";
 const FacialPage = () => {
   return (
     <div>
@@ -18,7 +19,8 @@ const FacialPage = () => {
       <Members />
       <OurSalon />
       <HelpNearYou />
-      <HairRead />
+      <ServiceWhy/>
+      <FacialRead/>
       <LastComp/>
     </div>
   );

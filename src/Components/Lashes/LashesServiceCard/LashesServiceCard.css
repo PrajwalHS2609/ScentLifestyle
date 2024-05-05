@@ -227,19 +227,21 @@
 }
 @media only screen and (max-width: 990px) and (min-width: 600px) {
   .lashesCardContainer {
-    /* border: solid red; */
-    height: 550vh;
+    border: solid red;
+    height: 70vh;
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    gap: 30px;
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: 10%;
+    overflow: none;
   }
   .lashesCardMain {
-    /* border: solid yellow; */
+    /* border: solid hotpink; */
     position: relative;
     width: 100%;
-    height: 320px;
+    height: 460px;
   }
   .lashesCardWrapper > img {
     position: static;
@@ -259,11 +261,24 @@
   }
   .lashesGoto {
     border: 2px whitesmoke solid;
-    width: 300px;
+    width: 90%;
     height: 40px;
-    bottom: -200px;
-    left: 33px;
+    bottom: 90px;
+    left: 5%;
     background-color: white;
+  }
+  .lashesGoto > .goTo1 > h1 {
+    font-size: 110%;
+  }
+  .respLashesServiceCardCover {
+    border: solid blue;
+    height: 100%;
+    width: 100%;
+    background-color: var(--customRed);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 100px;
   }
   .respLashesServiceContainer {
     display: flex;

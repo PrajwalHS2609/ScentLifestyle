@@ -1,0 +1,61 @@
+.spaReadContainer {
+  /* border: solid; */
+  /* height: 70vh; */
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 60px;
+  cursor: pointer;
+}
+.spaReadHeadContainer {
+  /* border: solid red; */
+  width: 300px;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.spaReadHeadContainer > button {
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+.spaReadDisplayContainer {
+  /* border: solid green; */
+  width: 90%;
+  height: 70%;
+  display: none;
+}
+
+.spaReadDisplayContainer > ul > li {
+  font-size: 100%;
+  margin: 20px;
+  list-style: none;
+}
+.openBut {
+  text-decoration: underline;
+  font-weight: lighter;
+}
+@media screen and (max-width: 600px) {
+  .spaReadContainer {
+    /* border: solid red; */
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .spaReadHeadContainer > h1 {
+    font-size: 150%;
+  }
+  .spaReadDisplayContainer {
+    height: 100%;
+  }
+  .spaReadDisplayContainer ul > ul > li {
+    /* border: solid green; */
+    margin: 5%;
+    font-size: 150%;
+  }
+}

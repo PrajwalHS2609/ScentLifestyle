@@ -1,6 +1,7 @@
 .hairReadContainer {
   /* border: solid; */
-  /* height: 100vh; */
+  /* height: 70vh; */
+  width: 100%;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -9,19 +10,38 @@
   cursor: pointer;
 }
 .hairReadHeadContainer {
+  /* border: solid red; */
   width: 300px;
-  /* border: solid; */
   height: 10vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.hairReadHeadContainer>button{
+.hairReadHeadContainer > button {
   border: none;
   background-color: white;
+  cursor: pointer;
 }
 .hairReadDisplayContainer {
+  /* border: solid green; */
+  width: 90%;
+  height: 70%;
   display: none;
+}
+
+.readmehead2 > h2 {
+  font-size: 150%;
+  color: black;
+}
+
+.hairReadDisplayContainer > ul > li {
+  font-size: 120%;
+  margin: 20px;
+  list-style: none;
+}
+.openBut {
+  text-decoration: underline;
+  font-weight: lighter;
 }
 @media screen and (max-width: 600px) {
   .hairReadContainer {
@@ -31,9 +51,23 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 60px;
+    margin-top:0px;
   }
-  .hairReadHeadContainer>h1{
+  .hairReadHeadContainer > h1 {
     font-size: 150%;
+  }
+  .hairReadDisplayContainer {
+    height: 100%;
+  }
+  .readmehead2 > h2 {
+    font-size: 100%;
+    color: black;
+  }
+  
+  .hairReadDisplayContainer ul >li {
+    /* border: solid green; */
+    margin: 5%;
+    font-size: 100%;
+
   }
 }

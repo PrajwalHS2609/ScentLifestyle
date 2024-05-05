@@ -5,6 +5,8 @@ import ServiceCardContain from './ServiceCards/ServiceCardContain';
 import UnisexSalon from './UnisexSalon/UnisexSalon';
 import LastComp from '../LastComp/LastComp';
 import ServiceNearYou from './ServiceNearYou/ServiceNearYou';
+import ServiceWhy from './ServiceWhy/ServiceWhy';
+import ServiceRead from './ServiceRead/ServiceRead';
 
 const MainServicePage = () => {
   return (
@@ -14,6 +16,8 @@ const MainServicePage = () => {
       <ServiceCardContain/>
       <UnisexSalon/>
       <ServiceNearYou/>
+      <ServiceWhy/>
+      <ServiceRead/>
       <LastComp/>
     </div>
   )

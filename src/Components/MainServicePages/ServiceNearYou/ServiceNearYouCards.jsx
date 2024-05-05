@@ -4,6 +4,12 @@ import SalonCard from "./SalonCard";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Sahakar from "./../../../Images/sahakaranagar.jpg";
+import Lavelle from "./../../../Images/lavelle road.jpg";
+import Jakkur from "./../../../Images/jakkur.jpg";
+import varthur from "./../../../Images/Varthur - whitefield.jpg";
+import Seege from "./../../../Images/seegehalli - whitefield.jpg";
+import jp from "./../../../Images/JP Nagar.jpg";
 const ServiceNearYouCards = () => {
   function SampleNextArrow(props) {
     const { className, style, onClick } = props;
@@ -70,69 +76,23 @@ const ServiceNearYouCards = () => {
   return (
     <>
       <div className="serviceNearYouCardContainer">
-        <SalonCard
-          city="Sahakar Nagar"
-          image="https://cdn-ikppclh.nitrocdn.com/CueiRbtmHDfiLNmOiFYzPbGQWoFHcYmP/assets/images/optimized/rev-c0ad884/www.bodycraft.co.in/wp-content/uploads/Location-Slider-Section-1.png"
-          no="9740322700"
-        />
-        <SalonCard
-          city="Lavelle Road"
-          image="https://cdn-ikppclh.nitrocdn.com/CueiRbtmHDfiLNmOiFYzPbGQWoFHcYmP/assets/images/optimized/rev-c0ad884/www.bodycraft.co.in/wp-content/uploads/Location-Slider-Section-2.png"
-          no="9740222700"
-        />
-        <SalonCard
-          city="Jakkur"
-          image="https://cdn-ikppclh.nitrocdn.com/CueiRbtmHDfiLNmOiFYzPbGQWoFHcYmP/assets/images/optimized/rev-c0ad884/www.bodycraft.co.in/wp-content/uploads/Body-Craft-19-83-1-scaled-1431x994.jpg"
-          no=" 9742212700"
-        />
-        <SalonCard
-          city="Uptown Square"
-          image="https://cdn-ikppclh.nitrocdn.com/CueiRbtmHDfiLNmOiFYzPbGQWoFHcYmP/assets/images/optimized/rev-c0ad884/www.bodycraft.co.in/wp-content/uploads/Location-Slider-Section-1.png"
-          no="9148122700"
-        />
-        <SalonCard
-          city="Meadows"
-          image="https://cdn-ikppclh.nitrocdn.com/CueiRbtmHDfiLNmOiFYzPbGQWoFHcYmP/assets/images/optimized/rev-c0ad884/www.bodycraft.co.in/wp-content/uploads/Location-Slider-Section-2.png"
-          no="9686221700"
-        />
-        <SalonCard
-          city="JP Nagar"
-          image="https://cdn-ikppclh.nitrocdn.com/CueiRbtmHDfiLNmOiFYzPbGQWoFHcYmP/assets/images/optimized/rev-c0ad884/www.bodycraft.co.in/wp-content/uploads/Body-Craft-19-83-1-scaled-1431x994.jpg"
-          no=" 8861222700"
-        />
+        <SalonCard city="Sahakar Nagar" image={Sahakar} no="9740322700" />
+
+        <SalonCard city="Lavelle Road" image={Lavelle} no="9740222700" />
+        <SalonCard city="Jakkur" image={Jakkur} no=" 9742212700" />
+        <SalonCard city="Uptown Square" image={varthur} no="9148122700" />
+        <SalonCard city="Meadows" image={Seege} no="9686221700" />
+        <SalonCard city="JP Nagar" image={jp} no="88612 22700" />
       </div>
       <div className="respServiceNearYouCardContainer">
         <Slider className="respServiceCardSlider" {...settings}>
-          <SalonCard
-            city="Sahakar Nagar"
-            image="https://cdn-ikppclh.nitrocdn.com/CueiRbtmHDfiLNmOiFYzPbGQWoFHcYmP/assets/images/optimized/rev-c0ad884/www.bodycraft.co.in/wp-content/uploads/Location-Slider-Section-1.png"
-            no="9740322700"
-          />
-          <SalonCard
-            city="Lavelle Road"
-            image="https://cdn-ikppclh.nitrocdn.com/CueiRbtmHDfiLNmOiFYzPbGQWoFHcYmP/assets/images/optimized/rev-c0ad884/www.bodycraft.co.in/wp-content/uploads/Location-Slider-Section-2.png"
-            no="9740222700"
-          />
-          <SalonCard
-            city="Jakkur"
-            image="https://cdn-ikppclh.nitrocdn.com/CueiRbtmHDfiLNmOiFYzPbGQWoFHcYmP/assets/images/optimized/rev-c0ad884/www.bodycraft.co.in/wp-content/uploads/Body-Craft-19-83-1-scaled-1431x994.jpg"
-            no=" 9742212700"
-          />
-          <SalonCard
-            city="Uptown Square"
-            image="https://cdn-ikppclh.nitrocdn.com/CueiRbtmHDfiLNmOiFYzPbGQWoFHcYmP/assets/images/optimized/rev-c0ad884/www.bodycraft.co.in/wp-content/uploads/Location-Slider-Section-1.png"
-            no="9148122700"
-          />
-          <SalonCard
-            city="Meadows"
-            image="https://cdn-ikppclh.nitrocdn.com/CueiRbtmHDfiLNmOiFYzPbGQWoFHcYmP/assets/images/optimized/rev-c0ad884/www.bodycraft.co.in/wp-content/uploads/Location-Slider-Section-2.png"
-            no="9686221700"
-          />
-          <SalonCard
-            city="JP Nagar"
-            image="https://cdn-ikppclh.nitrocdn.com/CueiRbtmHDfiLNmOiFYzPbGQWoFHcYmP/assets/images/optimized/rev-c0ad884/www.bodycraft.co.in/wp-content/uploads/Body-Craft-19-83-1-scaled-1431x994.jpg"
-            no=" 8861222700"
-          />
+          <SalonCard city="Sahakar Nagar" image={Sahakar} no="9740322700" />
+
+          <SalonCard city="Lavelle Road" image={Lavelle} no="9740222700" />
+          <SalonCard city="Jakkur" image={Jakkur} no=" 9742212700" />
+          <SalonCard city="Uptown Square" image={varthur} no="9148122700" />
+          <SalonCard city="Meadows" image={Seege} no="9686221700" />
+          <SalonCard city="JP Nagar" image={jp} no="88612 22700" />
         </Slider>
       </div>
     </>

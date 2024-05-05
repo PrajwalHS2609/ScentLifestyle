@@ -22,7 +22,7 @@
 }
 .helpNearYouHeadContent > h1 {
   font-size: 40px;
-  color: var(--customRed);
+
 }
 .helpNearYouUnderline {
   border: 2px solid;
@@ -64,7 +64,10 @@
 .helpCardContainer:hover .helpImg {
   transform: scale(1.2);
 }
-.helpCardContainer:hover .helpCity {
+.helpCardContainer:hover h3 {
+  color: white;
+}
+.helpCardContainer:hover p {
   color: white;
 }
 .helpCardContainer > img {
@@ -72,6 +75,9 @@
   width: 100%;
   height: 100%;
   transition: 300ms ease-in-out;
+}
+.helpCity>h3{
+  color: black;
 }
 .helpCover {
   /* border: solid; */

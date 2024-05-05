@@ -1,0 +1,20 @@
+embed instagram 
+ form value to gmail
+google reviews embedded
+
+change height of navbar or height of logo in tab version of website
+change the height of the navbar of mobile version
+
+make goto height more or make the text size less 
+
+make terms  li width more
+make last comp height less
+check salon in all responsive opt
+check lastComp correctly
+
+olaplex morcconoil scafpro  remove this from partners
+ 
+
+ add button to read more  heading
+
+ in news place add franchise

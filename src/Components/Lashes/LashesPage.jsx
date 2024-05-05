@@ -2,12 +2,13 @@ import React from 'react'
 import NavBg from './NavBg/NavBg'
 import LashesImg from './LashesImg/LashesImg'
 import LastComp from '../LastComp/LastComp'
-import HairRead from '../HairServicePage/HairRead/HairRead'
 import HelpNearYou from '../Help/HelpNearYou'
-import OurSalon from '../OurSalon/OurSalon'
-import Members from '../Members/Members'
+import Members from "./../HomePage/Members/Members";
+import OurSalon from "./../HomePage/OurSalon/OurSalon";
 import LashesServiceCardContain from './LashesServiceCard/LashesServiceCardContain'
 import Navi6 from './Navi6/Navi6'
+import ServiceWhy from '../MainServicePages/ServiceWhy/ServiceWhy'
+import LashesRead from './LashesRead/LashesRead'
 
 const LashesPage = () => {
   return (
@@ -19,7 +20,8 @@ const LashesPage = () => {
       <Members />
       <OurSalon />
       <HelpNearYou />
-      <HairRead />
+      <ServiceWhy/>
+      <LashesRead/>
       <LastComp/>
     </div>
   )

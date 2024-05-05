@@ -64,8 +64,11 @@
 .salonCardContainer:hover .salonImg {
   transform: scale(1.2);
 }
-.salonCardContainer:hover .salonCity {
+.salonCardContainer:hover h3 {
   color: white;
+}
+.salonCity>h3{
+  color: black;
 }
 .salonCardContainer > img {
   position: absolute;
@@ -130,7 +133,7 @@
   display: none;
 }
 .respServiceCardCover > h3 {
-  color: white;
+  color: black;
 }
 .respServiceCardCover > p {
   color: white;

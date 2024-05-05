@@ -1,29 +1,65 @@
+
 .sahakarLocHeadContainer {
-  border: solid green;
-  height: 40vh;
+    border: solid green;
+  height: 36vh;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
+  margin-top: 30px;
 }
+
 .sahakarLocHeadContent {
   border: solid red;
   height: 100%;
   width: 50%;
 }
+#sahakarLocHeadContent1{
+  width: 40%;
+}
 .sahakarLocHeadItem {
   border: solid blue;
   display: flex;
-  justify-content: flex-end ;
+  justify-content: center;
   align-items: center;
-  
 }
-#sahakarLocHeadItem2{
-    height: 50%;
+
+
+#sahakarLocHeadItem2 {
+  border: solid blue;
+  height: 40%;
 }
-#sahakarLocHeadItem3{
-    height: 50%;
+#sahakarLocHeadItem3 {
+  height: 60%;
 }
-.sahakarLocInnerItem{
-    border: solid yellowgreen;
-    height: 100%;width: 50%;
+.sahakarLocInnerItem {
+  border: solid yellowgreen;
+  height: 100%;
+  width: 50%;
+}
+.sahakarLocHeadContact {
+  border: solid;
+  height: 30%;
+}
+.sahakarLocHeadContact1 {
+  /* border: solid; */
+  height: 70%;
+}
+#sahakarLocHeadItem3 {
+  /* border: solid pink; */
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.sahakarLocHeadAdd {
+  /* border: solid green; */
+  width: 50%;
+  font-size: 130%;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--customRed);
 }

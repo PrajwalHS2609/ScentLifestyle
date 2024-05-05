@@ -5,7 +5,7 @@ const HairWhy = () => {
   return (
     <div className="hairWhyContainer">
       <HairWhyCard
-        img="https://cdn-ikppclh.nitrocdn.com/CueiRbtmHDfiLNmOiFYzPbGQWoFHcYmP/assets/images/optimized/rev-c0ad884/www.bodycraft.co.in/wp-content/uploads/services-circle-1.png"
+        img="https://cdn-ikppclh.nitrocdn.com/CueiRbtmHDfiLNmOiFYzPbGQWoFHcYmP/assets/images/optimized/rev-06869cd/www.bodycraft.co.in/wp-content/uploads/services-circle-1.png"
         para="Sassoon-trained stylists & therapists"
       />
       <HairWhyCard

@@ -1,0 +1,61 @@
+.serviceReadContainer {
+  /* border: solid; */
+  /* height: 70vh; */
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.serviceReadHeadContainer {
+  /* border: solid red; */
+  width: 300px;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.serviceReadHeadContainer > button {
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+.serviceReadDisplayContainer {
+  /* border: solid green; */
+  width: 90%;
+  height: 70%;
+  display: none;
+}
+
+.serviceReadDisplayContainer > ul > li {
+  font-size: 100%;
+  margin: 20px;
+  list-style: none;
+}
+.openBut {
+  text-decoration: underline;
+  font-weight: lighter;
+}
+@media screen and (max-width: 600px) {
+  .serviceReadContainer {
+    /* border: solid red; */
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0px;
+  }
+  .serviceReadHeadContainer > h1 {
+    font-size: 150%;
+  }
+  .serviceReadDisplayContainer {
+    height: 100%;
+  }
+  .serviceReadDisplayContainer ul > ul > li {
+    /* border: solid green; */
+    margin: 5%;
+  }
+}

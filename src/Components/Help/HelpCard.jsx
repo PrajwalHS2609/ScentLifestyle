@@ -4,7 +4,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 
 const HelpCard = (props) => {
- 
   return (
     <>
       <div className="helpCardContainer">

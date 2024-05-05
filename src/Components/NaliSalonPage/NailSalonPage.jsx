@@ -4,11 +4,12 @@ import NailSalonImg from "./NailSalonImg/NailSalonImg";
 // import NailSalonService from './NailSalonCard/NailSalonService'
 import LastComp from "../LastComp/LastComp";
 import NailServiceCardContain from "./NailService Card/NailServiceCardContain";
-import Members from "./../Members/Members";
-import OurSalon from "../OurSalon/OurSalon";
+import Members from "./../HomePage/Members/Members";
+import OurSalon from "./../HomePage/OurSalon/OurSalon";
 import HelpNearYou from "../Help/HelpNearYou";
 import HairRead from "./../HairServicePage/HairRead/HairRead";
 import Navi7 from "./Navi7/Navi7";
+import ServiceWhy from './../MainServicePages/ServiceWhy/ServiceWhy';
 
 const NailSalonPage = () => {
   return (
@@ -20,6 +21,7 @@ const NailSalonPage = () => {
       <Members />
       <OurSalon />
       <HelpNearYou />
+      <ServiceWhy/>
       <HairRead />
       <LastComp />
     </div>
