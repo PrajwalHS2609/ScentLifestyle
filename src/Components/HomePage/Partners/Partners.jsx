@@ -88,49 +88,22 @@ const Partners = () => {
               alt="casma"
             />
           </div>
-          <div className="partnerSlideContainer">
-            <img
-              src="https://www.bouncehere.com/wp-content/uploads/2018/09/depot.png"
-              alt="depot"
-            />
-          </div>
-          <div className="partnerSlideContainer">
+
+          <div className="partnerSlideContainer" id="estee">
             <img
               src="https://logowik.com/content/uploads/images/550_estee_lauder.jpg "
-              alt="Schwar"
+              alt="estee"
             />
           </div>
-          <div className="partnerSlideContainer">
-            <img
-              src="https://www.bouncehere.com/wp-content/uploads/2018/08/wella.png "
-              alt="wella"
-            />
-          </div>
-          <div className="partnerSlideContainer">
-            <img
-              src="https://www.bouncehere.com/wp-content/uploads/2018/08/opi.png"
-              alt="OPI"
-            />
-          </div>
-          <div className="partnerSlideContainer" id="">
-            <img
-              src="https://reflexions.in/cdn/shop/files/reflexions_logo_140x@2x.svg?v=1693911867"
-              alt="reflex"
-            />
-          </div>
+
           <div className="partnerSlideContainer">
             <img
               src="https://oemfile.informamarkets-info.com/FileUpload/CA2022_32978/20221020140941496.jpg "
               alt="bg"
             />
           </div>
-          <div className="partnerSlideContainer">
-            <img
-              src="https://www.bouncehere.com/wp-content/uploads/2018/08/loreal.png"
-              alt="loreal"
-            />
-          </div>
-          <div className="partnerSlideContainer" id="kera">
+
+          <div className="partnerSlideContainer"  >
             <img
               src="https://logos-world.net/wp-content/uploads/2020/12/Kerastase-Logo.png"
               alt="keraste"

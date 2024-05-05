@@ -77,7 +77,7 @@ const Menu = () => {
         </li>
         <li><Link to={"/location"}>Memberships</Link></li>
         <li>Shops</li>
-        <li>News</li>
+        <li>Franchise</li>
         <li>Contact us</li>
       </ul>
       <ul onClick={showSideBar} className="mainMenu">
@@ -149,7 +149,7 @@ const Menu = () => {
             <h1>Shops</h1>
           </ul>
           <ul>
-            <h1>News</h1>
+            <h1>Franchise</h1>
           </ul>
           <ul>
             <h1>Contact Us</h1>

@@ -35,7 +35,7 @@ const NailServiceCardContain = () => {
         img="https://img.freepik.com/free-photo/carefree-young-woman-with-party-makeup-expressing-happiness-inspired-brunette-girl-laughing-dark-wall_197531-14013.jpg?t=st=1714632051~exp=1714635651~hmac=6b5297f358a7454784f6c04c74476ff6b112275f46ab480eb7f88a616617d9d2&w=900"
       />
       <NailServiceCard
-        heading="Organic MainCure"
+        heading="Organic ManiCure"
         // para="Choose from a range of different hair spa treatments based on your hair type and needs at a Bodycraft salon near you. They can also be customised to treat various hair concerns, such as oiliness, frizz, dryness, and an itchy scalp. Get an intense hair spa to relax and rejuvenate your scalp and tresses with our Olaplex treatment specially designed for chemically treated hair. It prevents instances of breakage, reverses damage, and makes hair healthier."
         goto="Organic MainCure"
         img="https://img.freepik.com/free-photo/close-up-nail-care-treatment_23-2149262899.jpg?t=st=1714632077~exp=1714635677~hmac=19785bd7df5bd245579b0f35dda4b9aa9f04efc4a8c1999df24b1dcc29fbce83&w=360"

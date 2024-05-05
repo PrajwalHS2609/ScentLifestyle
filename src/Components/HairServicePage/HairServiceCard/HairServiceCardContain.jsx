@@ -10,7 +10,7 @@ const HairServiceCardContain = () => {
         para="
         Get cutting-edge haircuts and trims at SCENT salon for women and men. Our skilled stylists provide trending styles and professional blow-dry for a stunning look. Whether classic or modern, our unisex salon offers options for all occasions. Experience a transformation with Dyson tools. Check out our latest offers in Bangalore today!"
         goto="Haircut & Styling"
-        img="https://img.freepik.com/free-photo/hairdresser-taking-care-her-client_23-2149319763.jpg?t=st=1714391249~exp=1714394849~hmac=7a3369becdf02ecb20b94a284c58f7b2ec2a07d0ba28d54ed81968a84697a039&w=996"
+        img="https://img.freepik.com/free-photo/male-client-visiting-barbershop_1163-2023.jpg?t=st=1714904444~exp=1714908044~hmac=78090ee2d32a7e80d8713f8fa4efc9b7b29338cf4fcf7d13d1b491e1a56908ee&w=996"
       />
       <HairServiceCard
         heading="Highlights & Streaks"
