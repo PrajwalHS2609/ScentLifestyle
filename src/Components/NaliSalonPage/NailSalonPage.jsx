@@ -7,9 +7,9 @@ import NailServiceCardContain from "./NailService Card/NailServiceCardContain";
 import Members from "./../HomePage/Members/Members";
 import OurSalon from "./../HomePage/OurSalon/OurSalon";
 import HelpNearYou from "../Help/HelpNearYou";
-import HairRead from "./../HairServicePage/HairRead/HairRead";
 import Navi7 from "./Navi7/Navi7";
 import ServiceWhy from './../MainServicePages/ServiceWhy/ServiceWhy';
+import NailRead from "./NailSalonRead/NailRead";
 
 const NailSalonPage = () => {
   return (
@@ -22,7 +22,7 @@ const NailSalonPage = () => {
       <OurSalon />
       <HelpNearYou />
       <ServiceWhy/>
-      <HairRead />
+      <NailRead/>
       <LastComp />
     </div>
   );

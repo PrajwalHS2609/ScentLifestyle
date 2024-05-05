@@ -1,0 +1,63 @@
+.nailReadContainer {
+  /* border: solid; */
+  /* height: 70vh; */
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.nailReadHeadContainer {
+  /* border: solid red; */
+  width: 300px;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nailReadHeadContainer > button {
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+.nailReadDisplayContainer {
+  /* border: solid green; */
+  width: 90%;
+  height: 70%;
+  display: none;
+}
+
+.nailReadDisplayContainer > ul > li {
+  font-size: 100%;
+  margin: 20px;
+  list-style: none;
+}
+.openBut {
+  text-decoration: underline;
+  font-weight: lighter;
+}
+@media screen and (max-width: 600px) {
+  .nailReadContainer {
+    /* border: solid red; */
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0px;
+  }
+  .nailReadHeadContainer > h1 {
+    font-size: 150%;
+  }
+  .nailReadDisplayContainer {
+    height: 100%;
+  }
+  .nailReadDisplayContainer ul > li {
+    /* border: solid green; */
+    margin: 5%;
+    font-size: 100%;
+
+  }
+}
