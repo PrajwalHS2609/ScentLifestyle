@@ -39,9 +39,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 .partnerSlideContainer > img {
-  /* border:solid; */
+  /* border: solid; */
   height: 85%;
   width: 90%;
   margin-top: 15px;
@@ -50,8 +51,15 @@
 #estee > img {
   width: 100%;
   height: 100%;
-  margin-top: 0px;margin-left: 0;
+  margin-top: 0px;
+  margin-left: 0;
+}
 
+#keraste > img {
+  width: 70%;
+  height: 25%;
+  margin-top: 30%;
+  margin-left:15%;
 }
 
 @media only screen and (max-width: 600px) {
@@ -78,12 +86,27 @@
   }
 
   .partnerSlideContainer > img {
+    /* border: solid blue; */
     height: 100%;
     width: 90%;
     object-fit: contain;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 0px;
+  }
+  #estee > img {
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+    margin-left: 0;
+  }
+  
+  #keraste > img {
+    width: 70%;
+    height: 25%;
+    margin-top: 30%;
+    margin-left:15%;
   }
 }
 

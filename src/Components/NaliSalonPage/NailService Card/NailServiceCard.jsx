@@ -13,9 +13,9 @@ const NailServiceCard = (props) => {
           <div className="nailCardHead">
             <h1>{props.heading}</h1>
           </div>
-          {/* <div className="nailCardPara">
+          <div className="nailCardPara">
             <p>{props.para}</p>
-          </div> */}
+          </div>
           <div className="nailCardBut">
             <button>BOOK AN APPOINTMENT</button>
           </div>
@@ -24,7 +24,7 @@ const NailServiceCard = (props) => {
       </div>
       <Link to={props.link}>
       <div className="nailGoto">
-        <div className="goTo1">
+        <div className="nailGoTo1">
           <h1>{props.goto}</h1>
         </div>
         <div className="goTo2">

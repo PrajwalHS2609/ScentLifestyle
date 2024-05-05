@@ -103,9 +103,9 @@ const Partners = () => {
             />
           </div>
 
-          <div className="partnerSlideContainer"  >
+          <div className="partnerSlideContainer"  id="keraste">
             <img
-              src="https://logos-world.net/wp-content/uploads/2020/12/Kerastase-Logo.png"
+              src="https://www.powerreviews.com/wp-content/uploads/2020/11/kerastase-logo-768x217.png"
               alt="keraste"
             />
           </div>

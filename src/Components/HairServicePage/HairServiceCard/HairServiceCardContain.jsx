@@ -27,7 +27,7 @@ const HairServiceCardContain = () => {
       />
       <HairServiceCard
         heading="Hair Treatments"
-        // para="Choose from a range of different hair spa treatments based on your hair type and needs at a Bodycraft salon near you. They can also be customised to treat various hair concerns, such as oiliness, frizz, dryness, and an itchy scalp. Get an intense hair spa to relax and rejuvenate your scalp and tresses with our Olaplex treatment specially designed for chemically treated hair. It prevents instances of breakage, reverses damage, and makes hair healthier."
+        para="Experience luxurious hair treatments at SCENT Salon Spa. Our hair experts offer a range of treatments tailored to your hair's specific needs, whether it's hydration, repair, or nourishment. From deep conditioning masks to scalp treatments, we'll pamper your locks and leave them looking healthier and more vibrant than ever."
         goto="Hair Treatments"
         img="https://img.freepik.com/premium-photo/hairdresser-drying-womans-hair_798657-17098.jpg?w=900"
       />
@@ -40,7 +40,8 @@ const HairServiceCardContain = () => {
       />
       <HairServiceCard
         heading="Mustache"
-        // para="Choose from a range of different hair spa treatments based on your hair type and needs at a Bodycraft salon near you. They can also be customised to treat various hair concerns, such as oiliness, frizz, dryness, and an itchy scalp. Get an intense hair spa to relax and rejuvenate your scalp and tresses with our Olaplex treatment specially designed for chemically treated hair. It prevents instances of breakage, reverses damage, and makes hair healthier."
+        para="
+        Get the perfect mustache style at SCENT Salon Spa. Our skilled barbers will shape and groom your mustache to perfection, ensuring you leave with a polished and handsome look. Whether you prefer a classic style or something more modern, we've got you covered. Book your appointment today and elevate your grooming game with SCENT."
         goto="Mustache"
         img="https://img.freepik.com/free-photo/half-man-s-face-with-beard_171337-17203.jpg?t=st=1714371661~exp=1714375261~hmac=b0ab5f1a49059c0c64246cc3f4f3dce7cda027e06eb204a96195ded5f2f8453d&w=900"
       />

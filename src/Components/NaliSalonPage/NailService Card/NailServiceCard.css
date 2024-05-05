@@ -98,19 +98,19 @@
   left: 45px;
   background-color: white;
 }
-.goTo1 {
+.nailGoTo1 {
   margin-left: 20px;
 }
-.goTo1 > h1 {
+.nailGoTo1 > h1 {
   color: var(--customRed);
   font-size: 20px;
 }
-.nailGoto > .goTo2 {
+.nailGoto > .nailGoTo2 {
   margin-right: 20px;
 }
 .respNailServiceContainer {
   /* border: solid green; */
-  height: 160px;
+  height: 200px;
   width: 100%;
   margin: 0px;
   position: relative;
@@ -169,12 +169,11 @@
 @media only screen and (max-width: 600px) {
   .nailCardContainer {
     /* border: solid red; */
-    height: 1000vh;
+    height: 1100vh;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    gap: 0;
     overflow: none;
   }
   .nailCardMain {
@@ -193,7 +192,7 @@
   }
   .nailCardWrapper {
     /* border: solid green; */
-    height: 240px;
+    height: 220px;
     width: 100%;
     margin: 0px;
     position: relative;
@@ -202,10 +201,14 @@
   .nailGoto {
     border: 2px whitesmoke solid;
     width: 90%;
-    height: 30px;
-    bottom: -20px;
-    left: 20px;
+    height: 40px;
+    bottom: -50px;
+    left: 15px;
     background-color: white;
+  }
+  .nailGoTo1 > h1 {
+    color: var(--customRed);
+    font-size: 100%;
   }
   .respNailServiceCardCover {
     /* border: solid blue; */
