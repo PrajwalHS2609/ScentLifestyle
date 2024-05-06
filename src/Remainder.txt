@@ -8,11 +8,8 @@ make goto height more or make the text size less
 
 make terms  li width more
 make last comp height less
-check salon in all responsive opt
 check lastComp correctly
-
-remove other partners and adjust it properly 
 
  add button to read more  heading
 
- in news place add franchise
+

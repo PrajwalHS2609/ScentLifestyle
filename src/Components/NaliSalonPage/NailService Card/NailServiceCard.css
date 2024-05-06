@@ -224,22 +224,23 @@
   }
 }
 @media only screen and (max-width: 990px) and (min-width: 600px) {
-  .hairCardContainer {
+  .nailCardContainer {
     /* border: solid red; */
-    height: 550vh;
+    height: 600vh;
     width: 100%;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 30px;
+    justify-content: center;
+    align-items: flex-start;
+    overflow: none;gap: 0;margin: 0;
   }
-  .hairCardMain {
+  .nailCardMain {
     /* border: solid yellow; */
     position: relative;
-    width: 100%;
-    height: 320px;
+    width: 40%;
+    height: 400px;
+    margin: 10px;
   }
-  .hairCardWrapper > img {
+  .nailCardWrapper > img {
     position: static;
     width: 100%;
     height: 100%;
@@ -247,23 +248,201 @@
     z-index: 1;
     transition: 600ms ease-in-out;
   }
-  .hairCardWrapper {
+  .nailCardWrapper {
+    /* border: solid green; */
+    height: 220px;
+    width: 100%;
+    margin: 0px;
+    position: relative;
+    overflow: hidden;
+  }
+  .nailGoto {
+    border: 2px whitesmoke solid;
+    width: 90%;
+    height: 40px;
+    bottom: -40px;
+    left: 15px;
+    background-color: white;
+  }
+  .nailGoTo1 > h1 {
+    color: var(--customRed);
+    font-size: 100%;
+  }
+  .respNailServiceCardCover {
+    /* border: solid blue; */
+    height: 100%;
+    width: 100%;
+    background-color: var(--customRed);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .respNailServiceContainer {
+    display: flex;
+  }
+}
+@media only screen and (max-width: 1200px) and (min-width: 990px) {
+  .nailCardContainer {
+    /* border: solid blue; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 400vh;
+  }
+  .nailCardMain {
+    /* border: solid red; */
+    position: relative;
+    width: 35%;
+    margin: 30px;
+  }
+  .nailCardWrapper {
+    /* border: solid; */
+    height: 320px;
+    width: 100%;
+    margin: 0px;
+    position: relative;
+    overflow: hidden;
+  }
+  .nailCardWrapper > img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: 600ms ease-in-out;
+  }
+  .nailCardWrapper:hover .nailCardImg {
+    transform: scale(1.2);
+  }
+  
+  .nailCardCover {
+    /* border: solid green; */
+    height: 100%;
+    width: 100%;
+    background-color: var(--customRed);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+    display: none;
+  }
+  .nailCardWrapper:hover .nailCardCover {
+    display: flex;
+  }
+  .nailCardTxtContainer {
+    /* border: solid; */
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 50px;
+  }
+  .nailCardHead > h1 {
+    font-size: 150%;
+    color: white;
+  }
+  
+  .nailCardPara {
+    font-weight: bold;
+    color: white;
+    text-align: justify;
+  }
+  .nailCardPara > p {
+    font-size: 90%;
+  }
+  .nailCardBut > button {
+    /* border: solid; */
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: white;
+    font-weight: bold;
+    border: none;
+    color: var(--customRed);
+  }
+  .nailGoto {
+    border: 2px whitesmoke solid;
+    display: flex;
+    width: 90%;
+    height: 40px;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    z-index: 3;
+    bottom: -20px;
+    left: 20px;
+    background-color: white;
+  }
+  .nailGoTo1 {
+    margin-left: 20px;
+  }
+  .nailGoTo1 > h1 {
+    color: var(--customRed);
+    font-size: 20px;
+  }
+  .nailGoto > .nailGoTo2 {
+    margin-right: 20px;
+  }
+  .respNailServiceContainer {
     /* border: solid green; */
     height: 200px;
     width: 100%;
     margin: 0px;
     position: relative;
     overflow: hidden;
+    display: none;
+    justify-content: center;
+    align-items: center;
   }
-  .hairGoto {
-    border: 2px whitesmoke solid;
-    width: 300px;
-    height: 40px;
-    bottom: -200px;
-    left: 33px;
-    background-color: white;
-  }
-  .respHairServiceContainer {
+  .respNailServiceCardCover {
+    /* border: solid blue; */
+    height: 100%;
+    width: 100%;
+    background-color: var(--customRed);
     display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  
+  .respNailServiceCardTxtContainer {
+    /* border: solid yellowgreen; */
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 0;
+  }
+  .respNailServiceCardHead > h1 {
+    font-size: 130%;
+    color: white;
+  }
+  
+  .respNailServiceCardPara {
+    font-weight: bold;
+    color: white;
+    text-align: justify;
+    word-spacing: 2px;
+    width: 90%;
+  }
+  .respNailServiceCardPara > p {
+    font-size: 80%;
+  }
+  .respNailServiceCardBut > button {
+    /* border: solid; */
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: white;
+    font-weight: bold;
+    border: none;
+    color: var(--customRed);
   }
 }

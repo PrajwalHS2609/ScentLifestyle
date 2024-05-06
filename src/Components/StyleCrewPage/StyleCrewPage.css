@@ -1,0 +1,74 @@
+.navbg {
+  background-color: black;
+  height: 100px;
+}
+.styleCrewPageContainer {
+  /* border: solid; */
+}
+.styleCrewHeadContainer {
+  /* border: solid; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.styleCrewHeadContainer > h1 {
+  font-size: 60px;
+  /* border: solid; */
+  color: transparent;
+  background-color: #cc2228;
+  background-clip: text;
+  filter: grayscale(1);
+  transition: 300ms ease-out;
+}
+
+.styleCrewHead:hover {
+  filter: grayscale(0);
+}
+.styleCrewParaContainer {
+  /* border: solid; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 50px;
+}
+.styleCrewParaContainer > p {
+  text-align: center;
+  width: 80%;
+  font-size: 16px;
+}
+.styleCrewImgContainer {
+  /* border: solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+.styleCrewImagesWrapper {
+  /* border: solid blue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin: 10px;
+  height: 400px;
+}
+
+.styleCrewImgContent {
+  /* border: solid green; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.styleCrewUnderline {
+  border: solid transparent;
+  width: 40%;
+  border-radius: 100%;
+  box-shadow: 0 10px 5px black;
+}

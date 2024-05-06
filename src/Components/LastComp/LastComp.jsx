@@ -7,16 +7,17 @@ import {
   faYoutube,
   faXTwitter,
   faGoogle,
-  faWhatsapp
+  faWhatsapp,
 } from "@fortawesome/free-brands-svg-icons";
 import { Link } from "react-router-dom";
+import TSS from "./../../Images/TSS.png"
 const LastComp = () => {
   return (
     <div className="lastContainer">
       <div className="lastContent1">
         <div className="lastItem1" id="lastItem1">
           <div className="lastTxt1">
-            <h1>Services</h1>
+            <h1><Link to={"/service"}>Services</Link></h1>
           </div>
           <div className="lastTxt2">
             <div className="lastTxt">
@@ -41,11 +42,14 @@ const LastComp = () => {
         </div>
         <div className="lastItem1" id="lastItem2">
           <div className="lastTxt1">
-            <h1>About us</h1>
+            <h1>
+              <Link to={"/about"}>About us</Link>
+            </h1>
           </div>
           <div className="lastTxt2">
-            <div className="lastTxt">Philosophy</div>
-            <div className="lastTxt">Style Crew</div>
+            <div className="lastTxt"><Link to={"/philosophy"}>Philosophy</Link></div>
+            <div className="lastTxt"><Link to={"/crew"}>Style Crew</Link></div>
+            <div className="lastTxt"><Link to={"/myself"}>All About Myself</Link></div>
           </div>
         </div>
         <div className="lastItem1" id="lastItem4">
@@ -53,20 +57,33 @@ const LastComp = () => {
             <h1>Work</h1>
           </div>
           <div className="lastTxt2">
-            <div className="lastTxt">Lookbook</div>
-            <div className="lastTxt">Media</div>
+            <div className="lastTxt">Membership</div>
+            <div className="lastTxt">Shops</div>
+            <div className="lastTxt">Franchise</div>
           </div>
         </div>
         <div className="lastItem1" id="lastItem5">
           <div className="lastTxt1" id="lastTxtTerms">
-           <Link to={"/terms"}><h1>Terms</h1></Link> 
+            <h1>
+              <Link to={"/terms"}>Terms</Link>{" "}
+            </h1>
           </div>
           <div className="lastTxt2">
-            <div className="lastTxt"><Link to={"/terms"}>Returns & Refund Policy</Link></div>
-            <div className="lastTxt"><Link to={"/terms"}>Cancellation Policy</Link></div>
-            <div className="lastTxt"><Link to={"/terms"}>Payment Mode</Link></div>
-            <div className="lastTxt"><Link to={"/terms"}>Pricing Policy</Link></div>
-            <div className="lastTxt"><Link to={"/terms"}>Shipping</Link></div>
+            <div className="lastTxt">
+              <Link to={"/terms"} >Returns & Refund Policy</Link>
+            </div>
+            <div className="lastTxt">
+              <Link to={"/terms"}>Cancellation Policy</Link>
+            </div>
+            <div className="lastTxt">
+              <Link to={"/terms"}>Payment Mode</Link>
+            </div>
+            <div className="lastTxt">
+              <Link to={"/terms"}>Pricing Policy</Link>
+            </div>
+            <div className="lastTxt">
+              <Link to={"/terms"}>Shipping</Link>
+            </div>
           </div>
         </div>
         <div className="lastItem1" id="lastItem3">
@@ -95,7 +112,7 @@ const LastComp = () => {
               </div>
             </div>
             <div className="innerSocialBlocks">
-            <div className="block">
+              <div className="block">
                 <FontAwesomeIcon
                   icon={faGoogle}
                   className="lastIcon"
@@ -120,11 +137,11 @@ const LastComp = () => {
       <div className="lastContent2">
         <div className="lastCopy">
           <div className="lastCopy1">
-            <p>BOUNCE © Copyright 2019</p>
+            <p>SCENT © Copyright 2023</p>
           </div>
           <div className="lastCopy1">
             <img
-              src="https://www.bouncehere.com/wp-content/themes/bounce/images/spalon.png"
+              src={TSS}
               alt=""
             />
           </div>

@@ -10,7 +10,8 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 25px;margin-top: 40px;
+  gap: 25px;
+  margin-top: 40px;
 }
 .helpNearYouHeadContent {
   /* border: solid red; */
@@ -22,7 +23,7 @@
 }
 .helpNearYouHeadContent > h1 {
   font-size: 40px;
-
+  text-align: center;
 }
 .helpNearYouUnderline {
   border: 2px solid;
@@ -76,7 +77,7 @@
   height: 100%;
   transition: 300ms ease-in-out;
 }
-.helpCity>h3{
+.helpCity > h3 {
   color: black;
 }
 .helpCover {
@@ -198,19 +199,19 @@
 @media screen and (max-width: 990px) and (min-width: 600px) {
   .helpNearYouContainer {
     /* border: solid; */
-    height: 200vh;
+    height: 180vh;
     width: 100%;
     justify-content: flex-start;
   }
 
   .helpNearYouHeadContent > h1 {
-    font-size: 45px;
+    font-size: 150%;
   }
   .helpNearYouParaContainer {
     text-align: center;
   }
   .helpNearYouParaContainer > p {
-    font-size: 25px;
+    font-size: 100%;
   }
   .helpNearYouCardContainer {
     /* border:solid red; */
@@ -225,5 +226,102 @@
     /* border: solid green; */
     width: 44%;
     height: 300px;
+  }
+}
+@media screen and (max-width: 1200px) and (min-width: 990px) {
+  .helpNearYouContainer {
+    /* border: solid; */
+    height: 140vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 40px;
+  }
+  .helpNearYouHeadContent {
+    /* border: solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .helpNearYouHeadContent > h1 {
+    font-size: 40px;
+  }
+  .helpNearYouUnderline {
+    border: 2px solid;
+    width: 80px;
+    color: var(--customRed);
+  }
+  .helpNearYouParaContainer > p {
+    font-size: 18px;
+  }
+
+  .helpNearYouCardContainer {
+    /* border:solid red; */
+    height: 120vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .helpCardContainer {
+    /* border: solid green; */
+    width: 40%;
+    height: 300px;
+    background-image: url("https://cdn-ikppclh.nitrocdn.com/CueiRbtmHDfiLNmOi…/wp-content/uploads/Location-Slider-Section-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: 300ms ease-in-out;
+  }
+  .helpCardContainer:hover .helpCover {
+    background-color: var(--customTransRed);
+  }
+  .helpCardContainer:hover .helpImg {
+    transform: scale(1.2);
+  }
+  .helpCardContainer:hover h3 {
+    color: white;
+  }
+  .helpCardContainer:hover p {
+    color: white;
+  }
+  .helpCardContainer > img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: 300ms ease-in-out;
+  }
+  .helpCity > h3 {
+    color: black;
+  }
+  .helpCover {
+    /* border: solid; */
+    height: 90px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: absolute;
+  }
+  .helpCity {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-weight: bold;
   }
 }

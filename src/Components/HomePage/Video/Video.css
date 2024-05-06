@@ -96,7 +96,7 @@
   }
   .videoContent {
     /* border: solid red; */
-    top:10%;
+    top: 10%;
     height: 80%;
     width: 100%;
   }
@@ -109,7 +109,7 @@
   .homeFormWrapper {
     /* border: solid; */
     height: 80vh;
-    width: 100%;
+    width: 90%;
   }
   .homeFormExit {
     /* border: solid; */
@@ -126,7 +126,19 @@
     width: 100%;
   }
   .vidTxt {
-    bottom: 125px;
-    font-size: 25px;
+    bottom: 60px;
+    font-size: 120%;
+  }
+}
+@media screen and (max-width: 1200px) and (min-width: 990px) {
+  .homeFormWrapper {
+    /* border: solid; */
+    height: 80vh;
+    width: 90%;
+  }
+  .homeFormExit {
+    /* border: solid; */
+    width: 100%;
+    height: 10%;
   }
 }

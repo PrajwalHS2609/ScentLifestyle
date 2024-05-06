@@ -37,15 +37,18 @@
 .aboutContentTxt1 {
   /* border: solid; */
   width: 100%;
+  height: 100px;
 }
 .aboutContentTxt1 > pre {
   font-size: 37px;
   font-family: "Times New Roman", Times, serif;
   letter-spacing: 2px;
   color: white;
+  text-align: start;
 }
 .aboutContentTxt1 > pre > span {
   border-bottom: 5px solid;
+  text-align: center;
 }
 .aboutContentTxt2 {
   /* border: solid; */
@@ -90,6 +93,52 @@
     height: 160vh;
     width: 100%;
   }
+  .innerAboutContent {
+    /* border: solid red; */
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-right: 20px;
+    gap: 90px;
+  }
+  .aboutContent {
+    /* border: solid blue; */
+    height: 100%;
+    width: 100%;
+  }
+  .aboutContentTxt1 > pre {
+    font-size: 130%;
+  }
+  .aboutContentTxt2 > p {
+    font-size: 100%;
+  }
+  .aboutContentTxt3 > pre {
+    font-size: 100%;
+  }
+  .innerAboutContent {
+    /* border: solid red; */
+    height: 90%;
+  }
+}
+@media only screen and (max-width: 990px) and (min-width: 600px) {
+  .aboutContainer {
+    /* border: solid; */
+    height: 100vh;
+    width: 100%;
+  }
+  .innerAboutContent {
+    /* border: solid red; */
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-right: 20px;
+  }
   .aboutContent {
     /* border: solid blue; */
     height: 100%;
@@ -107,14 +156,5 @@
   .innerAboutContent {
     /* border: solid red; */
     height: 90%;
-  }
-}
-@media only screen and (max-width: 990px) and (min-width: 600px) {
-  .aboutContainer {
-    /* border: solid; */
-    width: 100%;
-    height: 89vh;
-    position: relative;
-    z-index: 1;
   }
 }

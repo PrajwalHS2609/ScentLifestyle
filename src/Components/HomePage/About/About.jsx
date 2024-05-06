@@ -13,8 +13,10 @@ const About = () => {
         <div className="innerAboutContent">
           <div className="aboutContentTxt1">
             <pre>
-              <span>More</span> than a Salon
+              <span>Beyond the Salon</span> <pre></pre>
+              Where Beauty Meets Luxury
             </pre>
+            {/* <div className="aboutUnderline"></div> */}
           </div>
           <div className="aboutContentTxt2">
             <p>
@@ -24,7 +26,6 @@ const About = () => {
               Personal care is complimentary with all salon services such as
               Hairstyling, coloring, nail and skin treatments. we understand
               elegance, we make it happen. Pampering yourself is on your mind?
-              
               <span>Spa, pedicure, manicure, massage…name it.</span>
             </p>
 

@@ -13,12 +13,18 @@ import SpaPages from "./Components/Spa/SpaPages";
 import LashesPage from "./Components/Lashes/LashesPage";
 import TermsPage from "./Components/Terms/TermsPage";
 import LocationPage from "./Components/LocationPage/LocationPage";
+import AboutPage from "./Components/AboutPage/AboutPage";
+import ScrollTo from "./Components/ScrollTo/ScrollTo";
+import ScentPhiloPage from "./Components/ScentPhiloPage/ScentPhiloPage";
+import StyleCrewPage from "./Components/StyleCrewPage/StyleCrewPage";
+import AboutMyselfPage from "./Components/AboutMyselfPage/AboutMyselfPage";
 
 const App = () => {
   return (
     <div>
       <BrowserRouter>
         <NavBar />
+        <ScrollTo/>
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/service" element={<MainServicePage />} />
@@ -31,6 +37,10 @@ const App = () => {
           <Route path="/lashes" element={<LashesPage />} />
           <Route path="/terms" element={<TermsPage />} />
           <Route path="/location" element={<LocationPage />} />
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="/philosophy" element={<ScentPhiloPage />} />
+          <Route path="/crew" element={<StyleCrewPage/>} />
+          <Route path="/myself" element={<AboutMyselfPage/>} />
         </Routes>
       </BrowserRouter>
     </div>

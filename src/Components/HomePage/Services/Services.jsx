@@ -68,13 +68,23 @@ const Services = () => {
           prevArrow: <SamplePrevArrow />,
         },
       },
+      {
+        breakpoint: 990,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          initialSlide: 2,
+          nextArrow: <SampleNextArrow />,
+          prevArrow: <SamplePrevArrow />,
+        },
+      },
     ],
   };
   return (
     <div className="serviceContainer">
       <div className="serviceContent" id="serviceContent1">
         <p>Our</p>
-        <pre>Services</pre>
+        <pre>Salon Services</pre>
       </div>
       <div className="serviceContent" id="serviceContent2">
         <Slider {...settings}>

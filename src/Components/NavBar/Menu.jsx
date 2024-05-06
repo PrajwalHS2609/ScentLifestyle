@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const Menu = () => {
   let [drop, setDrop] = useState(false);
   let dropRef = useRef();
-  
+
   let showSideBar = () => {
     const sideBar = document.querySelector(".respMenu");
     sideBar.style.display = "flex";
@@ -16,7 +16,7 @@ const Menu = () => {
   let hideSideBar = () => {
     const sideBar = document.querySelector(".respMenu");
     // sideBar.style.display = "none";
-    sideBar.style.transform = "translateX(500px)";
+    sideBar.style.transform = "translateX(620px)";
   };
 
   let handleDropDown = () => {
@@ -34,7 +34,9 @@ const Menu = () => {
     <div className="menuContainer">
       <ul className="menuContent">
         <li>
-          <Link to={"/"}>Home</Link>
+          <Link to={"/"}>
+            Home
+          </Link>
         </li>
         <li>
           <Link to={"/service"}>Service</Link>
@@ -75,7 +77,9 @@ const Menu = () => {
             </div>
           </div>
         </li>
-        <li><Link to={"/location"}>Memberships</Link></li>
+        <li>
+          <Link to={"/location"}>Memberships</Link>
+        </li>
         <li>Shops</li>
         <li>Franchise</li>
         <li>Contact us</li>
@@ -93,7 +97,8 @@ const Menu = () => {
             </h1>
             <h1 className="cross">
               <FontAwesomeIcon
-                icon={faX} onClick={hideSideBar}
+                icon={faX}
+                onClick={hideSideBar}
                 className="respIcon"
               ></FontAwesomeIcon>
             </h1>
@@ -112,32 +117,44 @@ const Menu = () => {
             <span className="respMenuSpan" ref={dropRef}>
               <li>
                 <h2>
-                  <Link onClick={hideSideBar} to={"/hair"}>Hair</Link>
+                  <Link onClick={hideSideBar} to={"/hair"}>
+                    Hair
+                  </Link>
                 </h2>
               </li>
               <li>
                 <h2>
-                  <Link onClick={hideSideBar} to={"/nails"}>Nail</Link>
+                  <Link onClick={hideSideBar} to={"/nails"}>
+                    Nail
+                  </Link>
                 </h2>
               </li>
               <li>
                 <h2>
-                  <Link onClick={hideSideBar} to={"/facial"}>Facials</Link>
+                  <Link onClick={hideSideBar} to={"/facial"}>
+                    Facials
+                  </Link>
                 </h2>
               </li>
               <li>
                 <h2>
-                  <Link onClick={hideSideBar} to={"/beauty"}>Beauty Essentials</Link>
+                  <Link onClick={hideSideBar} to={"/beauty"}>
+                    Beauty Essentials
+                  </Link>
                 </h2>
               </li>
               <li>
                 <h2>
-                  <Link onClick={hideSideBar} to={"/spa"}>Spa</Link>
+                  <Link onClick={hideSideBar} to={"/spa"}>
+                    Spa
+                  </Link>
                 </h2>
               </li>
               <li>
                 <h2>
-                  <Link onClick={hideSideBar} to={"/lashes"}>Lashes</Link>
+                  <Link onClick={hideSideBar} to={"/lashes"}>
+                    Lashes
+                  </Link>
                 </h2>
               </li>
             </span>

@@ -1,15 +1,16 @@
-import React from 'react'
-import './HelpNearYou.css'
+import React from "react";
+import "./HelpNearYou.css";
 
 const HelpNearYouPara = () => {
   return (
     <div className="helpNearYouParaContainer">
-    <p>
-      Scent is your friendly neighborhood salon. Choose a safe salon
-      experience at any of our 17 outlets, across Bengaluru and Mumbai.
-    </p>
-  </div>
-  )
-}
+      <p>
+        Scent Salon is your trusted neighborhood destination. Experience safety
+        and quality at any of our 6 outlets conveniently located
+        across Bengaluru.
+      </p>
+    </div>
+  );
+};
 
-export default HelpNearYouPara
+export default HelpNearYouPara;

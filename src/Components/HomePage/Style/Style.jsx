@@ -5,14 +5,14 @@ const Style = () => {
     <div className="styleContainer">
       <div className="styleContent">
         <div className="styleTxt">
-          <h1>Style. As a science and an artform.</h1>
+          <h1>SCENT Salon - Where Beauty Blossoms</h1>
         </div>
         <div className="styleUnderline"></div>
       </div>
       <div className="styleContent">
         <p>
-          From offering a mastery in hair sciences, to our high fashion
-          clientele, Bounce works towards transforming beauty, inside and out.
+          Experience the essence of beauty at Scent Salon, where every visit is
+          a journey to blossoming radiance.
         </p>
       </div>
     </div>

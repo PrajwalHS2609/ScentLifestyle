@@ -5,10 +5,9 @@ import HairSalon from "./HairSalon/HairSalon";
 import LastComp from "../LastComp/LastComp";
 import HairServiceImg from "./HairServiceImg/HairServiceImg";
 import NavBg2 from "./NavBg2/NavBg2";
-import HairNearYou from "./NearYou/HairNearYou";
-import HairWhy from "./HairWhy/HairWhy";
 import HairRead from "./HairRead/HairRead";
 import ServiceWhy from './../MainServicePages/ServiceWhy/ServiceWhy';
+import HelpNearYou from "../Help/HelpNearYou";
 const HairServicePage = () => {
   return (
     <div className="hairMain">
@@ -17,8 +16,9 @@ const HairServicePage = () => {
       <Navi1 />
       <HairServiceCardContain />
       <HairSalon />
-      <HairNearYou />
+      {/* <HairNearYou /> */}
       {/* <HairWhy /> */}
+      <HelpNearYou/>
       <ServiceWhy/>
       <HairRead/>
       <LastComp />

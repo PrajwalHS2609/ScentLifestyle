@@ -146,3 +146,93 @@
     font-size: 90%;
   }
 }
+@media screen and (max-width: 990px) and (min-width: 600px) {
+  .homeFormContainer {
+    /* border: solid green; */
+    width: 100%;
+    height: 90%;
+  }
+
+  .homeFormContainer > form > fieldset > table > tr > td {
+    /* border: solid blue; */
+    width: 90%;
+    height: 35px;
+  }
+  .homeFormContainer > form > fieldset > table > tr {
+    /* border: solid purple; */
+    width: 90%;
+    gap: 20px;
+  }
+  .homeFormContainer > form > fieldset > table > tr > label {
+    color: white;
+    /* border: solid greenyellow; */
+    font-size: 120%;
+    width: 50%;
+  }
+  
+  .homeFormContainer > form > fieldset > table > tr > td > input {
+    height: 100%;
+    width: 50%;
+    font-size: 90%;
+  }
+}
+@media screen and (max-width: 990px) and (min-width: 600px) {
+  .homeFormContainer {
+    /* border: solid green; */
+    width: 100%;
+    height: 90%;
+  }
+
+  .homeFormContainer > form > fieldset > table > tr > td {
+    /* border: solid blue; */
+    width: 90%;
+    height: 35px;
+  }
+  .homeFormContainer > form > fieldset > table > tr {
+    /* border: solid purple; */
+    width: 90%;
+    gap: 20px;
+  }
+  .homeFormContainer > form > fieldset > table > tr > label {
+    color: white;
+    /* border: solid greenyellow; */
+    font-size: 120%;
+    width: 50%;
+  }
+  
+  .homeFormContainer > form > fieldset > table > tr > td > input {
+    height: 100%;
+    width: 50%;
+    font-size: 90%;
+  }
+}
+@media screen and (max-width: 1200px) and (min-width: 990px) {
+  .homeFormContainer {
+    /* border: solid green; */
+    width: 100%;
+    height: 90%;
+  }
+
+  .homeFormContainer > form > fieldset > table > tr > td {
+    /* border: solid blue; */
+    width: 90%;
+    height: 35px;
+  }
+  .homeFormContainer > form > fieldset > table > tr {
+    /* border: solid purple; */
+    width: 90%;
+    gap: 20px;
+  }
+  .homeFormContainer > form > fieldset > table > tr > label {
+    color: white;
+    /* border: solid greenyellow; */
+    font-size: 120%;
+    width: 50%;
+  }
+  
+  .homeFormContainer > form > fieldset > table > tr > td > input {
+    height: 100%;
+    width: 50%;
+    font-size: 90%;
+  }
+}

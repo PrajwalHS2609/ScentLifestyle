@@ -52,7 +52,7 @@
   color: white;
   font-weight: lighter;
 }
-#lastTxtTerms>a>h1{
+#lastTxtTerms > a > h1 {
   font-size: 30px;
   color: white;
   font-weight: lighter;
@@ -83,7 +83,7 @@
   height: 27%;
   width: 90%;
   display: flex;
-  justify-content: space-between;
+  justify-content:center;
   align-items: center;
 }
 
@@ -93,11 +93,12 @@
   color: white;
   font-size: 100%;
   cursor: pointer;
+  
 }
 .lastCopy {
   /* border: solid; */
   width: 450px;
-  height: 80px;
+  height: 90px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -108,11 +109,11 @@
   width: 50%;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center;overflow: hidden;
   color: white;
 }
 .lastCopy1 > img {
-  width: 70%;
+  width: 150%;
 }
 .socialBlocks {
   /* border: solid white; */
@@ -139,7 +140,7 @@
   justify-content: flex-start;
   align-items: center;
 }
-.lastTxt1 > a > h1 {
+.lastTxt1 > h1 > a {
   text-decoration: none;
   color: white;
 }
@@ -149,7 +150,7 @@
     /* border: solid blue; */
     height: 270vh;
     width: 100%;
-    justify-content:flex-start;
+    justify-content: flex-start;
     align-items: center;
     flex-direction: column;
     margin-top: 50px;
@@ -159,7 +160,7 @@
     height: 90%;
     width: 100%;
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: flex-start;
     flex-direction: column;
     gap: 2%;
@@ -179,8 +180,9 @@
   }
   #lastItem2 {
     height: 200px;
-    margin-top:35px;
+    margin-top: 35px;
   }
+
   #lastItem3 {
     height: 100px;
   }
@@ -212,16 +214,20 @@
     font-size: 150%;
     color: white;
   }
+  .lastTxt1 > h1 > a {
+    color: white;
+  }
   #lastItem3 {
     /* border: solid yellowgreen; */
     height: 300px;
-    width: 80%;margin-top: 30px;
+    width: 80%;
+    margin-top: 30px;
   }
   .lastContent2 {
     /* border: solid blue; */
     border-top: 3px solid white;
     height: 10%;
-    width: 100%;
+    width: 90%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -255,7 +261,7 @@
     height: 33%;
     width: 100%;
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
   }
   .lastTxt1 > a > h1 {
@@ -263,29 +269,33 @@
     color: white;
   }
 
-  .lastCopy {
-    /* border: solid; */
-    width: 100%;
-    height: 300px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: column;
-  }
   .lastCopy1 {
     /* border: solid red; */
-    height: 100%;
+    height:100%;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
+  } 
+  .lastCopy {
+    /* border: solid; */
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .lastCopy1 > img {
+    width: 100%;
   }
   .lastCopy1 > p {
     font-size: 100%;
   }
   .lastCopy1 {
-    width: 50%;
+    width: 100%;
   }
 }
 @media screen and (max-width: 990px) and (min-width: 600px) {
@@ -293,7 +303,7 @@
     /* border: solid blue; */
     height: 270vh;
     width: 100%;
-    justify-content:flex-start;
+    justify-content: flex-start;
     align-items: center;
     flex-direction: column;
     margin-top: 50px;
@@ -303,7 +313,7 @@
     height: 90%;
     width: 100%;
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: flex-start;
     flex-direction: column;
     gap: 2%;
@@ -312,19 +322,20 @@
 
   .lastItem1 {
     /* border: solid green; */
-    height: 300px;
+    height: 320px;
     width: 90%;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     flex-direction: column;
-    gap: 15px;
+    gap: 10px;
     margin-left: 30px;
   }
   #lastItem2 {
     height: 200px;
-    margin-top:35px;
+    margin-top: 35px;
   }
+
   #lastItem3 {
     height: 100px;
   }
@@ -356,10 +367,14 @@
     font-size: 150%;
     color: white;
   }
+  .lastTxt1 > h1 > a {
+    color: white;
+  }
   #lastItem3 {
     /* border: solid yellowgreen; */
     height: 300px;
-    width: 80%;margin-top: 30px;
+    width: 80%;
+    margin-top: 30px;
   }
   .lastContent2 {
     /* border: solid blue; */
@@ -375,7 +390,9 @@
     /* border: solid pink; */
     height: 80%;
     width: 100%;
-    display: flex;justify-content: center;align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;margin-left: 40px;
   }
   #socialTxt {
     /* border: solid yellow; */
@@ -387,7 +404,7 @@
     width: 30%;
   }
   .lastIcon {
-    /* border:solid purple; */
+    /* border: solid purple; */
     width: 60%;
     height: 60%;
     display: flex;
@@ -397,9 +414,9 @@
   .block {
     /* border: solid yellow; */
     height: 33%;
-    width: 100%;
+    width: 60%;
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
   }
   .lastTxt1 > a > h1 {
@@ -407,28 +424,179 @@
     color: white;
   }
 
-  .lastCopy {
-    /* border: solid; */
-    width: 100%;
-    height: 300px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: column;
-  }
+
   .lastCopy1 {
     /* border: solid red; */
-    height: 100%;
+    height:100%;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
+  } 
+  .lastCopy {
+    /* border: solid; */
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
   .lastCopy1 > p {
     font-size: 100%;
   }
   .lastCopy1 {
     width: 50%;
+  }
+  .lastCopy1 > img {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1200px) and (min-width: 990px) {
+  .lastContainer {
+    /* border: solid red; */
+    height: 500px;
+    background-color: #cc2228;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+  .lastContent1 {
+    /* border: solid blue; */
+    height: 73%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+    background-color: black;
+  }
+  #socialTxt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .lastItem1 {
+    /* border: solid green; */
+    height: 300px;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 10px;
+  }
+
+  .lastTxt1 {
+    /* border: solid purple; */
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .lastTxt > a {
+    color: white;
+    text-decoration: none;
+  }
+  .lastTxt1 > h1 {
+    font-size: 20px;
+    color: white;
+    font-weight: lighter;
+  }
+  #lastTxtTerms > a > h1 {
+    font-size: 30px;
+    color: white;
+    font-weight: lighter;
+  }
+  .lastTxt2 {
+    /* border: solid red; */
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .lastTxt {
+    /* border: solid; */
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+  }
+  .lastTxt:hover {
+    text-decoration: underline;
+  }
+  .lastContent2 {
+    border-top: 2px solid white;
+    height: 27%;
+    width: 90%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+  }
+
+  .lastIcon {
+    width: 100%;
+    height: 80%;
+    color: white;
+    font-size: 100%;
+    cursor: pointer;
+  }
+  .lastCopy {
+    /* border: solid; */
+    width: 450px;
+    height: 90px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+  }
+  .lastCopy1 {
+    /* border: solid; */
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;overflow: hidden;
+    color: white;
+  }
+  .lastCopy1 > img {
+    width: 150%;
+  }
+  .socialBlocks {
+    /* border: solid white; */
+    height: 73%;
+    width: 200px;
+    display: flex;
+  }
+  .innerSocialBlocks {
+    /* border: solid transparent; */
+    height: 100%;
+    width: 50%;
+  }
+  .lastIcon {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .block {
+    /* border: solid yellow; */
+    height: 33%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .lastTxt1 > h1 > a {
+    text-decoration: none;
+    color: white;
   }
 }
