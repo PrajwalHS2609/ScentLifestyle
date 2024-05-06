@@ -4,6 +4,7 @@ import AboutHead from './AboutHead'
 import AboutTxt from './AboutTxt'
 import "./AboutPage.css"
 import AboutNavBg from './AboutNavBg'
+import LastComp from '../LastComp/LastComp'
 const AboutPage = () => {
   return (
     <div className='aboutContainer'>
@@ -11,6 +12,7 @@ const AboutPage = () => {
       <AboutImg/>
       <AboutHead/>
       <AboutTxt/>
+      <LastComp/>
     </div>
   )
 }

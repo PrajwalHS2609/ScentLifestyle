@@ -26,9 +26,61 @@
 }
 .aboutMyselfContactContainer {
   border: solid;
-  width: 50%;border-radius: 10px;
+  width: 50%;
+  border-radius: 10px;
   height: 70px;
   display: flex;
   margin-top: 6%;
-  justify-content: center;align-items: center;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 600px) {
+  .abtnavbg {
+    background-color: black;
+    height: 100px;
+    width: 100%;
+  }
+
+  .aboutMyselfPageContainer {
+    /* border: solid; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .aboutMyselfImgContainer {
+    /* border: solid green; */
+  }
+  .aboutMyselfTxtContainer {
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+  .aboutMyselfTxtContainer > h1 {
+    /* border: solid; */
+    text-align: center;
+    width: 90%;
+  }
+  .aboutMyselfTxtContainer > li {
+    /* border: solid; */
+    list-style: none;
+    margin: 10px;
+    font-size: 100%;
+  }
+  .aboutMyselfContactContainer {
+    /* border: solid; */
+    width: 90%;
+    border-radius: 10px;
+    height: 70px;
+    display: flex;
+    margin-top: 6%;
+    justify-content: center;
+    align-items: center;
+  }
+  .aboutMyselfContactContainer > h1 {
+    font-size: 150%;
+  }
 }
