@@ -78,7 +78,7 @@ const Menu = () => {
           </div>
         </li>
         <li>
-          <Link to={"/location"}>Memberships</Link>
+          <Link to={""}>Memberships</Link>
         </li>
         <li>Shops</li>
         <li>Franchise</li>

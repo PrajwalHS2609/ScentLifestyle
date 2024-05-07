@@ -55,7 +55,7 @@
   flex-wrap: wrap;
 }
 .instaFeedVidContainer {
-  /* border: solid red; */
+  border: solid transparent;
   width: 328px;
   margin: 10px;
   height: 550px;

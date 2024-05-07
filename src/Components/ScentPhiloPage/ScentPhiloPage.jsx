@@ -9,8 +9,10 @@ const ScentPhiloPage = () => {
   return (
     <div className='scentPhiloPageContainer'>
         <PhiloNavBg/>
+        <div className="scentPhiloPageContent">
       <ScentPhiloHead/>
       <ScentPhiloTxt/>
+      </div>
       <LastComp/>
     </div>
   )

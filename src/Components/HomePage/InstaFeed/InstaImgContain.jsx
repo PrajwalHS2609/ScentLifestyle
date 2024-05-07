@@ -78,7 +78,7 @@ const InstaImgContain = () => {
     );
   }
   var settings = {
-    dots: true,
+    dots: false,
     infinite: false,
     speed: 500,
     slidesToShow: 4,
@@ -144,9 +144,6 @@ const InstaImgContain = () => {
         <div className="instaInnerSlider">
           <InstaImages vid="https://www.instagram.com/reel/C1Gok7NJkHc/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" />
         </div>
-        {/* <div className="instaInnerSlider">
-          <InstaImages vid="https://www.instagram.com/reel/C0lw6ysPsMW/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" />
-        </div> */}
       </Slider>
     </div>
   );

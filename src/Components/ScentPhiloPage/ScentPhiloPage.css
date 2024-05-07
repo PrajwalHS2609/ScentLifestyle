@@ -5,6 +5,14 @@
 .scentPhiloPageContainer {
   /* border: solid blue; */
 }
+.scentPhiloPageContent {
+  /* border: solid green; */
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
 .scentPhiloHeadContainer {
   /* border: solid red; */
   height: 200px;
@@ -127,7 +135,7 @@
     height: 100%;
   }
 }
-@media screen and (max-width: 990px) and (min-width:600px){
+@media screen and (max-width: 990px) and (min-width: 600px) {
   .scentPhiloPageContainer {
     /* border: solid blue; */
   }

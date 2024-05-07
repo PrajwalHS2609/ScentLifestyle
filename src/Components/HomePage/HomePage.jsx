@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Suspense } from "react";
 import Video from "./Video/Video"
 import Services from './Services/Services';
 import Style from './Style/Style';
@@ -7,11 +7,12 @@ import Members from './Members/Members';
 import OurSalon from './OurSalon/OurSalon';
 import Work from './Work/Work';
 import Partners from './Partners/Partners';
-import InstaFeed from './InstaFeed/InstaFeed';
+// import InstaFeed from './InstaFeed/InstaFeed';
 import HelpNearYou from '../Help/HelpNearYou';
 import HomeRead from './HomeRead/HomeRead';
 import LastComp from './../LastComp/LastComp';
-
+const InstaFeed=React.lazy(()=>import("./InstaFeed/InstaFeed"))
+  
 const HomePage = () => {
   return (
     <div>
@@ -23,7 +24,9 @@ const HomePage = () => {
       <OurSalon />
       <Work />
       <Partners />
+      <Suspense fallback={<p>This is Loading....</p>}>
       <InstaFeed/>
+      </Suspense>
       {/* <MakeOver /> */}
       <HelpNearYou />
      <HomeRead/>

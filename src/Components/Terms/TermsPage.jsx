@@ -16,7 +16,7 @@ const TermsPage = () => {
       <Payment />
       <Pricing />
       <Shipping />
-      <LastComp />
+      <LastComp/>
     </div>
   );
 };

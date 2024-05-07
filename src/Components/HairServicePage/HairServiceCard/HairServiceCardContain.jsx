@@ -1,7 +1,9 @@
 import React from "react";
 import HairServiceCard from "./HairServiceCard";
 import "./HairServiceCard.css";
-
+import cut from "./../../../Images/hair cut.jpg"
+import  color from "./../../../Images/hair colour (3).jpg"
+import beard from "./../../../Images/beard styling.jpg"
 const HairServiceCardContain = () => {
   return (
     <div className="hairCardContainer">
@@ -10,14 +12,14 @@ const HairServiceCardContain = () => {
         para="
         Get cutting-edge haircuts and trims at SCENT salon for women and men. Our skilled stylists provide trending styles and professional blow-dry for a stunning look. Whether classic or modern, our unisex salon offers options for all occasions. Experience a transformation with Dyson tools. Check out our latest offers in Bangalore today!"
         goto="Haircut & Styling"
-        img="https://img.freepik.com/free-photo/male-client-visiting-barbershop_1163-2023.jpg?t=st=1714904444~exp=1714908044~hmac=78090ee2d32a7e80d8713f8fa4efc9b7b29338cf4fcf7d13d1b491e1a56908ee&w=996"
+        img={cut}
       />
       <HairServiceCard
         heading="Highlights & Streaks"
         para="
         Transform your look with our Hair Colour & Highlights services. Choose from bold global hair colours to delicate highlights, meticulously crafted by our skilled stylists. Each colour is tailored to your style, ensuring a personalized and stunning result that boosts your confidence and radiance."
         goto="Highlights & Streaks"
-        img="https://img.freepik.com/premium-photo/beauty-young-woman-portrait_200196-667.jpg?w=900"
+        img=""
       />
       <HairServiceCard
         heading="Hair Spa"
@@ -35,7 +37,7 @@ const HairServiceCardContain = () => {
         heading="Beard Styling"
         para="Creating distinctive beard styles that reflect your personality. Our skilled professionals specialize in the art of beard grooming, crafting looks from classic to modern. Using meticulous shaping techniques, we tailor each style to accentuate your unique features, ensuring a stunning result that complements your individuality."
         goto="Beard Styling"
-        img="https://img.freepik.com/free-photo/brunette-man-lies-with-open-eyes-while-barber-cuts-his-beard_1304-2776.jpg?t=st=1714371443~exp=1714375043~hmac=c0f11cdac36f9320bcaab047cdc9aa22c09ce87a30a1ad54c87e29df3bf59882&w=900"
+        img={beard}
         link={"/beard"}
       />
       <HairServiceCard

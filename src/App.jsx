@@ -18,6 +18,7 @@ import ScrollTo from "./Components/ScrollTo/ScrollTo";
 import ScentPhiloPage from "./Components/ScentPhiloPage/ScentPhiloPage";
 import StyleCrewPage from "./Components/StyleCrewPage/StyleCrewPage";
 import AboutMyselfPage from "./Components/AboutMyselfPage/AboutMyselfPage";
+import MembershipPage from "./Components/MembershipPage/MembershipPage";
 
 const App = () => {
   return (
@@ -41,6 +42,7 @@ const App = () => {
           <Route path="/philosophy" element={<ScentPhiloPage />} />
           <Route path="/crew" element={<StyleCrewPage/>} />
           <Route path="/myself" element={<AboutMyselfPage/>} />
+          <Route path="/membership" element={<MembershipPage/>} />
         </Routes>
       </BrowserRouter>
     </div>

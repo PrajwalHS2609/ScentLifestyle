@@ -3,6 +3,11 @@ import "./Members.css";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import crew1 from "./../../../Images/Rose - Salon Director.jpeg.jpg"
+import crew2 from "./../../../Images/Sam - Creative Director.jpg"
+import crew3 from "./../../../Images/Lobsang - Top Stylist.jpg"
+import crew4 from "./../../../Images/Kevin - Top Stylist.jpg"
+
 const MembersSlide = () => {
   function SampleNextArrow(props) {
     const { className, style, onClick } = props;
@@ -49,7 +54,7 @@ const MembersSlide = () => {
 
   const settings = {
     dots: false,
-    infinite: false,
+    infinite: true,
     speed: 500,
     slidesToShow: 4,
     slidesToScroll: 4,
@@ -80,51 +85,35 @@ const MembersSlide = () => {
         <Slider {...settings}>
           <div className="memberSlide">
             <img
-              src="https://website2.tryseoservices.com/wp-content/uploads/2024/03/3.png"
+              src={crew1}
               alt=""
             />
-            <h1>Martin Doe</h1>
-            <pre>TATTOO</pre>
+            <h1>Rose</h1>
+            <pre>Salon Director</pre>
           </div>
           <div className="memberSlide">
             <img
-              src="https://website2.tryseoservices.com/wp-content/uploads/2024/03/6.png"
+              src={crew2}
               alt=""
             />
-            <h1>Jennifer Scott</h1>
-            <pre>MAKEUP</pre>
+            <h1>Sam</h1>
+            <pre>Creative Director</pre>
           </div>
           <div className="memberSlide">
             <img
-              src="https://website2.tryseoservices.com/wp-content/uploads/2024/03/1.png"
+              src={crew3}
               alt=""
             />
-            <h1>Jonathan Doe</h1>
-            <pre>BARBER</pre>
+            <h1>Lobsang</h1>
+            <pre>Top Stylist</pre>
           </div>
           <div className="memberSlide">
             <img
-              src="https://website2.tryseoservices.com/wp-content/uploads/2024/03/4.png "
+              src={crew4}
               alt=""
             />
-            <h1>Martin Doe</h1>
-            <pre>TATTOO</pre>
-          </div>
-          <div className="memberSlide">
-            <img
-              src="https://website2.tryseoservices.com/wp-content/uploads/2024/03/2.png"
-              alt=""
-            />
-            <h1>Jennifer Scott</h1>
-            <pre>TATTOO</pre>
-          </div>
-          <div className="memberSlide">
-            <img
-              src="https://website2.tryseoservices.com/wp-content/uploads/2024/03/5.png"
-              alt=""
-            />
-            <h1>Jonathan Doe</h1>
-            <pre>TATTOO</pre>
+            <h1>Kevin</h1>
+            <pre>Top Stylist</pre>
           </div>
         </Slider>
       </div>

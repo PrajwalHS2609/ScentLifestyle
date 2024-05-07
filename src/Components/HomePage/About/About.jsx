@@ -2,6 +2,7 @@ import React from "react";
 import "./About.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 const About = () => {
   return (
     <div className="aboutContainer">
@@ -13,10 +14,10 @@ const About = () => {
         <div className="innerAboutContent">
           <div className="aboutContentTxt1">
             <pre>
-              <span>Beyond the Salon</span> <pre></pre>
+              <span>Beyond the Salon</span> <br />
+              <div className="aboutUnderline"></div>
               Where Beauty Meets Luxury
             </pre>
-            {/* <div className="aboutUnderline"></div> */}
           </div>
           <div className="aboutContentTxt2">
             <p>
@@ -42,7 +43,9 @@ const About = () => {
             </p>
           </div>
           <div className="aboutContentTxt3">
-            <pre>MORE ABOUT US </pre>
+            <pre>
+              <Link to={"/about"}> MORE ABOUT US </Link>
+            </pre>
             <FontAwesomeIcon
               icon={faAngleRight}
               className="aboutIcon"
