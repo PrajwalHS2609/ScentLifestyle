@@ -23,7 +23,7 @@ const HomePage = () => {
       <OurSalon />
       <Work />
       <Partners />
-      {/* <InstaFeed/> */}
+      <InstaFeed/>
       {/* <MakeOver /> */}
       <HelpNearYou />
      <HomeRead/>
