@@ -107,7 +107,7 @@
 @media screen and (max-width: 1200px) and (min-width: 990px) {
   .unisexSalonContainer {
     /* border: solid red; */
-    height: 70vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;

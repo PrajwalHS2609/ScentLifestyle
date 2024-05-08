@@ -1,16 +1,16 @@
 import React from 'react'
 import AboutImg from './AboutImg'
-import AboutHead from './AboutHead'
 import AboutTxt from './AboutTxt'
 import "./AboutPage.css"
 import AboutNavBg from './AboutNavBg'
 import LastComp from '../LastComp/LastComp'
+import AboutPageHead from './AboutPageHead'
 const AboutPage = () => {
   return (
-    <div className='aboutContainer'>
+    <div className='aboutPgContainer'>
       <AboutNavBg/>
       <AboutImg/>
-      <AboutHead/>
+      <AboutPageHead/>
       <AboutTxt/>
       <LastComp/>
     </div>

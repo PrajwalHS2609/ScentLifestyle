@@ -4,7 +4,7 @@ import AboutMyselfImg from "./AboutMyselfImg";
 import AboutMyselfContact from "./AboutMyselfContact";
 import "./AboutMyselfPage.css"
 import AboutMyselfNavBg from "./AboutMyselfNavBg";
-import LastComp from './../LastComp/LastComp';
+import LastComp from "../LastComp/LastComp";
 const AboutMyselfPage = () => {
   return (
     <div className="aboutMyselfPageContainer">
@@ -12,7 +12,8 @@ const AboutMyselfPage = () => {
       <AboutMyselfImg />
       <AboutMyselfTxt />
       <AboutMyselfContact />
-      <LastComp/>
+      <LastComp/> 
+
     </div>
   );
 };

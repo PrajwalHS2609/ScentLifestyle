@@ -161,7 +161,7 @@
 @media only screen and (max-width: 1200px) and (min-width: 990px) {
   .partnerContainer {
     /* border: solid green; */
-    height: 400px;
+    height: 350px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;

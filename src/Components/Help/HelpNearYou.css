@@ -231,7 +231,7 @@
 @media screen and (max-width: 1200px) and (min-width: 990px) {
   .helpNearYouContainer {
     /* border: solid; */
-    height: 140vh;
+    height: 180vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -257,6 +257,7 @@
   }
   .helpNearYouParaContainer > p {
     font-size: 18px;
+    text-align: center;
   }
 
   .helpNearYouCardContainer {

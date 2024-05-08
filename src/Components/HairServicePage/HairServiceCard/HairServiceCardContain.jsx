@@ -1,9 +1,8 @@
 import React from "react";
 import HairServiceCard from "./HairServiceCard";
 import "./HairServiceCard.css";
-import cut from "./../../../Images/hair cut.jpg"
-import  color from "./../../../Images/hair colour (3).jpg"
-import beard from "./../../../Images/beard styling.jpg"
+import cut from "./../../../Images/hair cut.jpg";
+import beard from "./../../../Images/beard styling.jpg";
 const HairServiceCardContain = () => {
   return (
     <div className="hairCardContainer">
@@ -19,7 +18,7 @@ const HairServiceCardContain = () => {
         para="
         Transform your look with our Hair Colour & Highlights services. Choose from bold global hair colours to delicate highlights, meticulously crafted by our skilled stylists. Each colour is tailored to your style, ensuring a personalized and stunning result that boosts your confidence and radiance."
         goto="Highlights & Streaks"
-        img=""
+        img="https://img.freepik.com/premium-photo/beauty-young-woman-portrait_200196-667.jpg?w=900"
       />
       <HairServiceCard
         heading="Hair Spa"

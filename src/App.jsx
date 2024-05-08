@@ -19,6 +19,7 @@ import ScentPhiloPage from "./Components/ScentPhiloPage/ScentPhiloPage";
 import StyleCrewPage from "./Components/StyleCrewPage/StyleCrewPage";
 import AboutMyselfPage from "./Components/AboutMyselfPage/AboutMyselfPage";
 import MembershipPage from "./Components/MembershipPage/MembershipPage";
+import FranchisePage from "./Components/FranchisePage/FranchisePage";
 
 const App = () => {
   return (
@@ -43,6 +44,7 @@ const App = () => {
           <Route path="/crew" element={<StyleCrewPage/>} />
           <Route path="/myself" element={<AboutMyselfPage/>} />
           <Route path="/membership" element={<MembershipPage/>} />
+          <Route path="/franchise" element={<FranchisePage/>} />
         </Routes>
       </BrowserRouter>
     </div>

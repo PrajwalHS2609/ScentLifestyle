@@ -5,7 +5,7 @@
 }
 
 .aboutMyselfPageContainer {
-  /* border: solid; */
+  /* border: solid red; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -25,7 +25,7 @@
   font-size: 16px;
 }
 .aboutMyselfContactContainer {
-  border: solid;
+  /* border: solid; */
   width: 50%;
   border-radius: 10px;
   height: 70px;
@@ -132,5 +132,43 @@
   }
   .aboutMyselfContactContainer > h1 {
     font-size: 150%;
+  }
+}
+@media screen and (max-width: 1200px) and (min-width: 990px) {
+  .abtnavbg {
+    background-color: black;
+    height: 100px;
+    width: 100%;
+  }
+
+  .aboutMyselfPageContainer {
+    /* border: solid red; */
+    display: flex;
+    align-items: center;width: 100%;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .aboutMyselfImgContainer {
+    /* border: solid green; */
+  }
+  .aboutMyselfTxtContainer {
+    /* border: solid; */
+    width: 90%;
+    margin-top: 10%;
+  }
+  .aboutMyselfTxtContainer > li {
+    list-style: none;
+    margin: 30px;
+    font-size: 130%;
+  }
+  .aboutMyselfContactContainer {
+    border: solid black;
+    width: 50%;
+    border-radius: 10px;
+    height: 70px;
+    display: flex;
+    margin-top: 6%;
+    justify-content: center;
+    align-items: center;
   }
 }

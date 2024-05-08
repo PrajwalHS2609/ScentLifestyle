@@ -106,6 +106,16 @@ const InstaImgContain = () => {
           prevArrow: <SamplePrevArrow />,
         },
       },
+      {
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          initialSlide: 2,
+          nextArrow: <SampleNextArrow />,
+          prevArrow: <SamplePrevArrow />,
+        },
+      },
     ],
   };
   return (

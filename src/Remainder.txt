@@ -1,15 +1,6 @@
-embed instagram 
  form value to gmail
 google reviews embedded
-
-change height of navbar or height of logo in tab version of website
-
-make goto height more or make the text size less 
-
-make terms  li width more
-make last comp height less
-check lastComp correctly
-
  add button to read more  heading
 
 
+menu dropdown click not on txt but on bar

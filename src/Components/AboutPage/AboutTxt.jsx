@@ -3,7 +3,7 @@ import "./AboutPage.css";
 
 const AboutTxt = () => {
   return (
-    <div className="aboutTxtContainer">
+    <div className="aboutPgTxtContainer">
       <p>Scent is a sanctum where life comes to beauty and beauty to life.</p>
       <p>
         a makeover at scent will be the crown of your looks. Our salons are

@@ -83,13 +83,13 @@
 .serviceGoto {
   border: 2px whitesmoke solid;
   display: flex;
-  width: 350px;
+  width: 80%;
   height: 60px;
   justify-content: space-between;
   align-items: center;
   position: absolute;
   z-index: 3;
-  bottom: -30px;
+  bottom: -20px;
   left: 45px;
   background-color: white;
 }
@@ -275,7 +275,7 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    height: 200vh;
+    height: 260vh;
   }
   .serviceCardMain {
     /* border: solid; */
@@ -350,14 +350,14 @@
   .serviceGoto {
     border: 2px whitesmoke solid;
     display: flex;
-    width: 350px;
+    width: 80%;
     height: 60px;
     justify-content: space-between;
     align-items: center;
     position: absolute;
     z-index: 3;
-    bottom: -30px;
-    left: 45px;
+    bottom: -20px;
+    left: 50px;
     background-color: white;
   }
   .goTo1 {

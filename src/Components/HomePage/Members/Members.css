@@ -171,7 +171,7 @@
 @media screen and (max-width: 1200px) and (min-width: 990px) {
   .membersMainContainer {
     /* border: solid; */
-    height: 70vh;
+    height: 80vh;
     margin-top: 100px;
     display: flex;
     justify-content: center;
@@ -213,7 +213,7 @@
   }
   .memberSlideContent {
     /* border: solid red; */
-    width: 90%;
+    width: 95%;
     height: 90%;
   }
   .memberSlide {

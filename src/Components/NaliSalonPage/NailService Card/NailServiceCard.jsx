@@ -1,11 +1,36 @@
 import React from 'react'
 import "./NailServiceCard.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { faArrowRight,faX } from "@fortawesome/free-solid-svg-icons";
 import { Link } from 'react-router-dom';
+import HairForm from '../../HairServicePage/HairForm/HairForm';
 const NailServiceCard = (props) => {
+  let handlePopUp = () => {
+    let open = document.querySelector(".hairFormWrapper");
+    open.style.display = "flex";
+  };
+  let handleExit = () => {
+    let close = document.querySelector(".hairFormWrapper");
+    close.style.display = "none";
+  };
+
+  const HairFormContain = () => {
+    return (
+      <div className="hairFormWrapper">
+        <div className="hairFormExit">
+          <FontAwesomeIcon
+            icon={faX}
+            className="formIcon"
+            onClick={handleExit}
+          ></FontAwesomeIcon>
+        </div>
+        <HairForm />
+      </div>
+    );
+  };
   return (
     <div className="nailCardMain">
+      <HairFormContain/>
     <div className="nailCardWrapper">
         <img className="nailCardImg" src={props.img} alt="" />
       <div className="nailCardCover">
@@ -17,7 +42,7 @@ const NailServiceCard = (props) => {
             <p>{props.para}</p>
           </div>
           <div className="nailCardBut">
-            <button>BOOK AN APPOINTMENT</button>
+            <button onClick={handlePopUp}>BOOK AN APPOINTMENT</button>
           </div>
         </div>
       </div>
@@ -47,7 +72,7 @@ const NailServiceCard = (props) => {
             <p>{props.para}</p>
           </div>
           <div className="respNailServiceCardBut">
-            <button>BOOK AN APPOINTMENT</button>
+            <button onClick={handlePopUp} >BOOK AN APPOINTMENT</button>
           </div>
         </div>
       </div>

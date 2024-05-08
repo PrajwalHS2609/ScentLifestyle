@@ -57,9 +57,9 @@ const LastComp = () => {
             <h1>Work</h1>
           </div>
           <div className="lastTxt2">
-            <div className="lastTxt">Membership</div>
+            <div className="lastTxt"><Link to={"/membership"}>Membership</Link></div>
             <div className="lastTxt">Shops</div>
-            <div className="lastTxt">Franchise</div>
+            <div className="lastTxt"><Link to={"/franchise"}>Franchise</Link></div>
           </div>
         </div>
         <div className="lastItem1" id="lastItem5">

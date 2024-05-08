@@ -78,10 +78,10 @@ const Menu = () => {
           </div>
         </li>
         <li>
-          <Link to={""}>Memberships</Link>
+          <Link to={"/membership"}>Memberships</Link>
         </li>
         <li>Shops</li>
-        <li>Franchise</li>
+        <li><Link to={"/franchise"}>Franchise</Link></li>
         <li>Contact us</li>
       </ul>
       <ul onClick={showSideBar} className="mainMenu">
@@ -160,13 +160,13 @@ const Menu = () => {
             </span>
           </ul>
           <ul>
-            <h1>Membership</h1>
+            <h1><Link onClick={hideSideBar} to={"/membership"}>Membership</Link></h1>
           </ul>
           <ul>
             <h1>Shops</h1>
           </ul>
           <ul>
-            <h1>Franchise</h1>
+            <h1><Link onClick={hideSideBar} to={"/franchise"}>Franchise</Link></h1>
           </ul>
           <ul>
             <h1>Contact Us</h1>
