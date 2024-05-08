@@ -34,9 +34,7 @@ const Menu = () => {
     <div className="menuContainer">
       <ul className="menuContent">
         <li>
-          <Link to={"/"}>
-            Home
-          </Link>
+          <Link to={"/"}>Home</Link>
         </li>
         <li>
           <Link to={"/service"}>Service</Link>
@@ -45,43 +43,46 @@ const Menu = () => {
             className="menuIcon"
           ></FontAwesomeIcon>
           <div className="menuDrop" id="menudrop2">
-            <div className="dropItems" id="dropItem2">
-              <Link to={"/hair"}>
+            <Link to={"/hair"}>
+              <div className="dropItems" id="dropItem2">
                 <pre> Hair</pre>
-              </Link>
-            </div>
-            <div className="dropItems" id="dropItem2">
-              <Link to={"/nails"}>
+              </div>
+            </Link>
+
+            <Link to={"/nails"}>
+              <div className="dropItems" id="dropItem2">
                 <pre> Nails</pre>
-              </Link>
-            </div>
-            <div className="dropItems" id="dropItem2">
-              <Link to={"/facial"}>
+              </div>
+            </Link>
+            <Link to={"/facial"}>
+              <div className="dropItems" id="dropItem2">
                 <pre> Facials</pre>
-              </Link>
-            </div>
-            <div className="dropItems" id="dropItem2">
-              <Link to={"/beauty"}>
+              </div>
+            </Link>
+            <Link to={"/beauty"}>
+              <div className="dropItems" id="dropItem2">
                 <pre> Beauty essentials</pre>
-              </Link>
-            </div>
-            <div className="dropItems" id="dropItem2">
-              <Link to={"/spa"}>
+              </div>
+            </Link>
+            <Link to={"/spa"}>
+              <div className="dropItems" id="dropItem2">
                 <pre> Spa</pre>
-              </Link>
-            </div>
-            <div className="dropItems" id="dropItem2">
-              <Link to={"/lashes"}>
+              </div>
+            </Link>
+            <Link to={"/lashes"}>
+              <div className="dropItems" id="dropItem2">
                 <pre> Lashes</pre>
-              </Link>
-            </div>
+              </div>
+            </Link>
           </div>
         </li>
         <li>
           <Link to={"/membership"}>Memberships</Link>
         </li>
         <li>Shops</li>
-        <li><Link to={"/franchise"}>Franchise</Link></li>
+        <li>
+          <Link to={"/franchise"}>Franchise</Link>
+        </li>
         <li>Contact us</li>
       </ul>
       <ul onClick={showSideBar} className="mainMenu">
@@ -160,13 +161,21 @@ const Menu = () => {
             </span>
           </ul>
           <ul>
-            <h1><Link onClick={hideSideBar} to={"/membership"}>Membership</Link></h1>
+            <h1>
+              <Link onClick={hideSideBar} to={"/membership"}>
+                Membership
+              </Link>
+            </h1>
           </ul>
           <ul>
             <h1>Shops</h1>
           </ul>
           <ul>
-            <h1><Link onClick={hideSideBar} to={"/franchise"}>Franchise</Link></h1>
+            <h1>
+              <Link onClick={hideSideBar} to={"/franchise"}>
+                Franchise
+              </Link>
+            </h1>
           </ul>
           <ul>
             <h1>Contact Us</h1>

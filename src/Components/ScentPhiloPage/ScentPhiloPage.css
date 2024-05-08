@@ -81,6 +81,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: 5%;
   }
   .scentPhiloHeadContainer > h1 {
     border: solid;

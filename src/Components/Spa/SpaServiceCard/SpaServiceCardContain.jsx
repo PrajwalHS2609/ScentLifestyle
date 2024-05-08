@@ -61,25 +61,25 @@ const SpaServiceCardContain = () => {
       />
       <SpaServiceCard
         heading="Scent Signature Massage"
-        para=""
+        para="Experience pure bliss with our SCENT Signature Massage. This exclusive treatment combines various massage techniques tailored to your needs, providing ultimate relaxation and rejuvenation. Let our skilled therapists soothe your body and mind, leaving you feeling refreshed and revitalized."
         goto="Scent Signature Massage"
         img="https://img.freepik.com/free-photo/beautiful-young-woman-spa-salon_155003-3473.jpg?t=st=1714718030~exp=1714721630~hmac=2c73b51a5fdd7529d04a7ca7ef9fea91f33ded7a63d2948f11c4e7217eff06d7&w=900"
       />
       <SpaServiceCard
         heading="Stone Therapy"
-        para=""
+        para="Experience deep relaxation with our Stone Therapy at SCENT Salon Spa, where heated stones melt away stress and promote tranquility, leaving you revitalized."
         goto="Stone Therapy"
         img="https://img.freepik.com/free-photo/close-up-hands-holding-spa-stones_23-2149089222.jpg?t=st=1714718071~exp=1714721671~hmac=96496ec0aed3f6162b37a41e87c6eb60c771b4d7b91606115ac5f3cd5b61719c&w=360"
       />
       <SpaServiceCard
         heading="Body Polish"
-        para=""
+        para="Revitalize your skin with our Body Polish treatment at SCENT Salon Spa. Our exfoliating scrub gently buffs away dead skin cells, revealing soft and radiant skin underneath. Treat yourself to this luxurious experience and leave feeling refreshed and rejuvenated."
         goto="Body Polish"
         img="https://img.freepik.com/free-photo/beautiful-young-woman-with-flowers-using-scrub_186202-8347.jpg?t=st=1714718121~exp=1714721721~hmac=1f55e86f1017918a03cd62c0b9a2e97616f46a76dafe398ffe5ae0a96b2d36d1&w=826"
       />
       <SpaServiceCard
         heading="Body Scrub"
-        para=""
+        para="Experience silky smooth skin with our Body Scrub treatment at SCENT Salon Spa. Our exfoliating scrub removes dead skin cells, leaving your skin soft, smooth, and rejuvenated. Indulge in this pampering experience and reveal your glowing skin."
         goto="Body Scrub"
         img="https://img.freepik.com/free-photo/side-view-woman-getting-massaged-spa_23-2149871261.jpg?t=st=1714718233~exp=1714721833~hmac=62f8b21d7b9888237d76705d9030c9db76fd498c3c4e48fb84d3b09e579a63d4&w=900"
       />

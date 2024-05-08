@@ -108,7 +108,7 @@
 .menuContent > li:hover .menuDrop {
   display: flex;
 }
-.dropItems > a {
+a {
   color: white;
   text-decoration: none;
 }
@@ -121,6 +121,8 @@
   justify-content: flex-start;
   align-items: center;
   cursor: pointer;
+  color: white;
+  text-decoration: none;
 }
 .dropItems:hover {
   background-color: white;
@@ -280,7 +282,6 @@
   .mainMenu {
     display: flex;
   }
-
 }
 
 @media only screen and (max-width: 990px) and (min-width: 600px) {

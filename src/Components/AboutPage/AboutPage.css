@@ -89,7 +89,7 @@
     background-color: #cc2228;
     background-clip: text;
     filter: grayscale(1);
-    transition: 300ms ease-out;
+    transition: 300ms ease-out;text-align: center;
   }
   .aboutPgHead:hover {
     filter: grayscale(0);
