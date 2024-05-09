@@ -13,7 +13,7 @@ const SchwCard = (props) => {
             <h1>{props.txt}</h1>
           </div>
           <button>
-            <a href="https://wa.me/09742232700/?text=urlencodedtext">
+            <a href="https://api.whatsapp.com/send?phone=919742232700">
               Buy
               <FontAwesomeIcon
                 icon={faWhatsapp}

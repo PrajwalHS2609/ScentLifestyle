@@ -17,7 +17,7 @@ const ServiceCards = (props) => {
               <p>{props.para}</p>
             </div>
             <div className="serviceCardBut">
-              <a href="https://wa.me/09742232700/?text=urlencodedtext">
+              <a href="https://api.whatsapp.com/send?phone=919742232700">
                 <button>BOOK AN APPOINTMENT</button>
               </a>
             </div>
