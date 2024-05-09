@@ -70,7 +70,7 @@
   text-align: justify;
   word-spacing: 2px;
 }
-.serviceCardBut > button {
+.serviceCardBut > a > button {
   /* border: solid; */
   width: 200px;
   height: 50px;
@@ -147,7 +147,7 @@
 .respServiceCardPara > p {
   font-size: 100%;
 }
-.respServiceCardBut > button {
+.respServiceCardBut > a > button {
   /* border: solid; */
   width: 200px;
   height: 30px;
@@ -190,6 +190,16 @@
     margin: 0px;
     position: relative;
     overflow: hidden;
+  }
+  .respServiceCardBut > a > button {
+    /* border: solid; */
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: white;
+    font-weight: bold;
+    border: none;
+    color: var(--customRed);
   }
   .serviceGoto {
     border: 2px whitesmoke solid;
@@ -246,6 +256,16 @@
     position: relative;
     overflow: hidden;
   }
+  .respServiceCardBut > a > button {
+    /* border: solid; */
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: white;
+    font-weight: bold;
+    border: none;
+    color: var(--customRed);
+  }
   .serviceGoto {
     border: 2px whitesmoke solid;
     width: 90%;
@@ -275,7 +295,7 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    height: 260vh;
+    height: 190vh;
   }
   .serviceCardMain {
     /* border: solid; */
@@ -337,7 +357,7 @@
     text-align: justify;
     word-spacing: 2px;
   }
-  .serviceCardBut > button {
+  .serviceCardBut > a > button {
     /* border: solid; */
     width: 200px;
     height: 50px;
@@ -414,7 +434,7 @@
   .respServiceCardPara > p {
     font-size: 100%;
   }
-  .respServiceCardBut > button {
+  .respServiceCardBut > a > button {
     /* border: solid; */
     width: 200px;
     height: 30px;

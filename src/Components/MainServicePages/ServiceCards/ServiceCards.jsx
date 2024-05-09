@@ -1,36 +1,11 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowRight,faX } from "@fortawesome/free-solid-svg-icons";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
-import HairForm from "../../HairServicePage/HairForm/HairForm";
-const ServiceCards = (props) => {
-  let handlePopUp = () => {
-    let open = document.querySelector(".hairFormWrapper");
-    open.style.display = "flex";
-  };
-  let handleExit = () => {
-    let close = document.querySelector(".hairFormWrapper");
-    close.style.display = "none";
-  };
 
-  const HairFormContain = () => {
-    return (
-      <div className="hairFormWrapper">
-        <div className="hairFormExit">
-          <FontAwesomeIcon
-            icon={faX}
-            className="formIcon"
-            onClick={handleExit}
-          ></FontAwesomeIcon>
-        </div>
-        <HairForm />
-      </div>
-    );
-  };
+const ServiceCards = (props) => {
   return (
     <div className="serviceCardMain">
-            <HairFormContain/>
-
       <div className="serviceCardWrapper">
         <img className="serviceCardImg" src={props.img} alt="" />
         <div className="serviceCardCover">
@@ -42,7 +17,9 @@ const ServiceCards = (props) => {
               <p>{props.para}</p>
             </div>
             <div className="serviceCardBut">
-              <button onClick={handlePopUp}>BOOK AN APPOINTMENT</button>
+              <a href="https://wa.me/9742232700/?text=urlencodedtext">
+                <button>BOOK AN APPOINTMENT</button>
+              </a>
             </div>
           </div>
         </div>
@@ -72,7 +49,9 @@ const ServiceCards = (props) => {
               <p>{props.para}</p>
             </div>
             <div className="respServiceCardBut">
-              <button onClick={handlePopUp}>BOOK AN APPOINTMENT</button>
+              <a href="https://wa.me/9742232700/?text=urlencodedtext">
+                <button>BOOK AN APPOINTMENT</button>
+              </a>
             </div>
           </div>
         </div>

@@ -7,7 +7,8 @@
   width: 100%;
   top: 14vh;
   position: fixed;
-  z-index: 4;left: 0%;
+  z-index: 4;
+  left: 0%;
   display: none;
   justify-content: center;
   align-items: center;
@@ -44,7 +45,6 @@
   /* border: solid red; */
   position: relative;
   margin: 30px;
-
 }
 .hairCardWrapper {
   /* border: solid; */
@@ -102,7 +102,7 @@
   text-align: justify;
   word-spacing: 2px;
 }
-.hairCardBut > button {
+.hairCardBut > a > button {
   /* border: solid; */
   width: 200px;
   height: 50px;
@@ -181,7 +181,7 @@
 .respHairServiceCardPara > p {
   font-size: 80%;
 }
-.respHairServiceCardBut > button {
+.respHairServiceCardBut > a > button {
   /* border: solid; */
   width: 200px;
   height: 30px;
@@ -199,13 +199,14 @@
     width: 100%;
     top: 14vh;
     position: fixed;
-    z-index: 4;left: 0%;
+    z-index: 4;
+    left: 0%;
     display: none;
     justify-content: center;
     align-items: center;
     flex-direction: column;
   }
-  
+
   .hairFormExit {
     /* border: solid; */
     width: 100%;
@@ -270,13 +271,14 @@
     width: 100%;
     top: 14vh;
     position: fixed;
-    z-index: 4;left: 0%;
+    z-index: 4;
+    left: 0%;
     display: none;
     justify-content: center;
     align-items: center;
     flex-direction: column;
   }
-  
+
   .hairFormExit {
     /* border: solid; */
     width: 60%;
@@ -335,31 +337,7 @@
   }
 }
 @media only screen and (max-width: 1200px) and (min-width: 990px) {
-  .hairFormWrapper {
-    /* border: solid; */
-    height: 80vh;
-    width: 100%;
-    top: 14vh;
-    position: fixed;
-    z-index: 4;left: 0%;
-    display: none;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-  
-  .hairFormExit {
-    /* border: solid; */
-    width: 60%;
-    height: 10%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    backdrop-filter: blur(10px);
-    background-color: rgba(0, 0, 0, 0.645);
-  }
+
   .hairCardContainer {
     /* border: solid blue; */
     width: 100%;
@@ -367,7 +345,7 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    height: 230vh;
+    height: 160vh;
   }
   .hairCardMain {
     /* border: solid red; */
@@ -376,7 +354,7 @@
   }
   .hairCardWrapper {
     /* border: solid; */
-    height:370px;
+    height: 370px;
     width: 100%;
     margin: 0px;
     position: relative;
@@ -431,7 +409,7 @@
     text-align: justify;
     word-spacing: 2px;
   }
-  .hairCardBut > button {
+  .hairCardBut > a > button {
     /* border: solid; */
     width: 200px;
     height: 50px;
@@ -510,7 +488,7 @@
   .respHairServiceCardPara > p {
     font-size: 80%;
   }
-  .respHairServiceCardBut > button {
+  .respHairServiceCardBut > a > button {
     /* border: solid; */
     width: 200px;
     height: 30px;

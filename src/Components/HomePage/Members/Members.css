@@ -30,7 +30,7 @@
   align-items: center;
 }
 .secondMemberHeading > h1 {
-  font-size: 60px;
+  font-size: 60px;color: black;
 }
 .secondMemberHeading > h1 > span {
   color: var(--customRed);
@@ -82,7 +82,7 @@
     width: 100%;
   }
   .secondMemberHeading > h1 {
-    font-size: 300%;
+    font-size: 300%;color: black;
   }
 
   .memberSlideContainer {
@@ -199,6 +199,7 @@
   }
   .secondMemberHeading > h1 {
     font-size: 60px;
+    color: black;
   }
   .secondMemberHeading > h1 > span {
     color: var(--customRed);
@@ -214,7 +215,7 @@
   .memberSlideContent {
     /* border: solid red; */
     width: 95%;
-    height: 90%;
+    height: 70%;
   }
   .memberSlide {
     /* border:blue solid; */

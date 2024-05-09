@@ -1,6 +1,6 @@
- form value to gmail
-google reviews embedded
- add button to read more  heading
+add button to read more  heading
 
+onclick on submit form the page should be refreshed
 
-menu dropdown click not on txt but on bar
+check responsive for 1200px
+facial image as a water mark

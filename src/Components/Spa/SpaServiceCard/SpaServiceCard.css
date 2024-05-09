@@ -75,7 +75,7 @@
 .spaCardPara > p {
   font-size: 90%;
 }
-.spaCardBut > button {
+.spaCardBut > a > button {
   /* border: solid; */
   width: 200px;
   height: 50px;
@@ -156,7 +156,7 @@
 .respSpaServiceCardPara > p {
   font-size: 80%;
 }
-.respSpaServiceCardBut > button {
+.respSpaServiceCardBut > a > button {
   /* border: solid; */
   width: 200px;
   height: 30px;
@@ -228,10 +228,10 @@
 @media only screen and (max-width: 990px) and (min-width: 600px) {
   .spaCardContainer {
     /* border: solid red; */
-    height: 500vh;
+    height: 520vh;
     width: 100%;
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: flex-start;
     gap: 0;
     margin: 0;
@@ -288,7 +288,7 @@
   .spaCardContainer {
     /* border: solid blue; */
     width: 100%;
-    height: 410vh;
+    height: 350vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -318,7 +318,7 @@
   .spaCardWrapper:hover .spaCardImg {
     transform: scale(1.2);
   }
-  
+
   .spaCardCover {
     /* border: solid green; */
     height: 100%;
@@ -349,7 +349,7 @@
     font-size: 150%;
     color: white;
   }
-  
+
   .spaCardPara {
     font-weight: bold;
     color: white;
@@ -391,5 +391,4 @@
   .goTo2 {
     margin-right: 20px;
   }
- 
 }

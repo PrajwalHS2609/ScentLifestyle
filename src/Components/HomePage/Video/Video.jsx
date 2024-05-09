@@ -2,38 +2,14 @@ import React from "react";
 import "./Video.css";
 import scentVid from "./../../../video/ScentHomeVid.mp4";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowDown, faX } from "@fortawesome/free-solid-svg-icons";
-import HomeForm from "../HomeForm/HomeForm";
+import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
 
 const Video = () => {
-  let handlePopUp = () => {
-    let open = document.querySelector(".homeFormWrapper");
-    open.style.display = "flex";
-  };
-  let handleExit = () => {
-    let close = document.querySelector(".homeFormWrapper");
-    close.style.display = "none";
-  };
-  const HomeFormContain = () => {
-    return (
-      <div className="homeFormWrapper">
-        <div className="homeFormExit">
-          <FontAwesomeIcon
-            icon={faX}
-            className="formIcon"
-            onClick={handleExit}
-          ></FontAwesomeIcon>
-        </div>
-        <HomeForm />
-      </div>
-    );
-  };
-  return (
+   return (
     <div className="vidContainer">
-      <HomeFormContain />
       <video className="videoContent" src={scentVid} autoPlay loop muted />
       <div className="vidTxt">
-        <pre onClick={handlePopUp}>Book an Appointment Now</pre>
+       <a href="https://wa.me/9742232700/?text=urlencodedtext"> <pre>Book an Appointment Now</pre></a>
         <FontAwesomeIcon
           icon={faArrowDown}
           className="vidIcon"

@@ -75,7 +75,7 @@
 .nailCardPara > p {
   font-size: 90%;
 }
-.nailCardBut > button {
+.nailCardBut > a > button {
   /* border: solid; */
   width: 200px;
   height: 50px;
@@ -155,7 +155,7 @@
 .respNailServiceCardPara > p {
   font-size: 80%;
 }
-.respNailServiceCardBut > button {
+.respNailServiceCardBut > a > button {
   /* border: solid; */
   width: 200px;
   height: 30px;
@@ -231,7 +231,9 @@
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    overflow: none;gap: 0;margin: 0;
+    overflow: none;
+    gap: 0;
+    margin: 0;
   }
   .nailCardMain {
     /* border: solid yellow; */
@@ -289,7 +291,7 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    height: 500vh;
+    height: 400vh;
   }
   .nailCardMain {
     /* border: solid red; */
@@ -315,7 +317,7 @@
   .nailCardWrapper:hover .nailCardImg {
     transform: scale(1.2);
   }
-  
+
   .nailCardCover {
     /* border: solid green; */
     height: 100%;
@@ -346,7 +348,7 @@
     font-size: 150%;
     color: white;
   }
-  
+
   .nailCardPara {
     font-weight: bold;
     color: white;
@@ -355,7 +357,7 @@
   .nailCardPara > p {
     font-size: 90%;
   }
-  .nailCardBut > button {
+  .nailCardBut > a > button {
     /* border: solid; */
     width: 200px;
     height: 50px;
@@ -408,7 +410,7 @@
     justify-content: flex-start;
     align-items: flex-start;
   }
-  
+
   .respNailServiceCardTxtContainer {
     /* border: solid yellowgreen; */
     width: 100%;
@@ -424,7 +426,7 @@
     font-size: 130%;
     color: white;
   }
-  
+
   .respNailServiceCardPara {
     font-weight: bold;
     color: white;
@@ -435,7 +437,7 @@
   .respNailServiceCardPara > p {
     font-size: 80%;
   }
-  .respNailServiceCardBut > button {
+  .respNailServiceCardBut > a > button {
     /* border: solid; */
     width: 200px;
     height: 30px;

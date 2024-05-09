@@ -62,11 +62,14 @@
   text-shadow: 0px 0px 5px black;
   cursor: pointer;
 }
-.vidTxt > pre:hover {
+.vidTxt > a > pre:hover {
   color: #cc2228;
   text-shadow: none;
 }
-
+.vidTxt > a > pre {
+  text-decoration: none;
+  color: white;
+}
 .vidIcon {
   font-size: 20px;
   margin-top: 10px;

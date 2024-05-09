@@ -20,6 +20,7 @@ const Partners = () => {
           borderBottomRightRadius: "14px",
           height: "40px",
           cursor: "pointer",
+          color: "red",
         }}
         onClick={onClick}
       />

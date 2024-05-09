@@ -65,7 +65,7 @@
 @media only screen and (max-width: 600px) {
   .partnerContainer {
     /* border: solid green; */
-    height: 350px;
+    height: 300px;
     width: 100%;
   }
   .partnerItem1 > h1 {

@@ -6,7 +6,11 @@ const MembersHeading = () => {
       <div className="firstMemberHeading">
         <h1>Meet our</h1>
       </div>
-      <div className="secondMemberHeading"><h1>Creative <span>Team</span></h1></div>
+      <div className="secondMemberHeading">
+        <h1>
+          Creative <span>Team</span>
+        </h1>
+      </div>
     </div>
   );
 };

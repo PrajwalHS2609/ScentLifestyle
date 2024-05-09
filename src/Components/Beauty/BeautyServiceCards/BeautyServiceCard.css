@@ -75,7 +75,7 @@
 .beautyCardPara > p {
   font-size: 90%;
 }
-.beautyCardBut > button {
+.beautyCardBut > a > button {
   /* border: solid; */
   width: 200px;
   height: 50px;
@@ -155,7 +155,7 @@
 .respBeautyServiceCardPara > p {
   font-size: 80%;
 }
-.respBeautyServiceCardBut > button {
+.respBeautyServiceCardBut > a > button {
   /* border: solid; */
   width: 200px;
   height: 30px;
@@ -227,7 +227,7 @@
     height: 230vh;
     width: 100%;
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: flex-start;
     gap: 0;
     overflow: none;
@@ -282,7 +282,7 @@
   .beautyCardContainer {
     /* border: solid blue; */
     width: 100%;
-    height: 170vh;
+    height: 140vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -312,7 +312,7 @@
   .beautyCardWrapper:hover .beautyCardImg {
     transform: scale(1.2);
   }
-  
+
   .beautyCardCover {
     /* border: solid green; */
     height: 100%;
@@ -343,7 +343,7 @@
     font-size: 150%;
     color: white;
   }
-  
+
   .beautyCardPara {
     font-weight: bold;
     color: white;
@@ -352,7 +352,7 @@
   .beautyCardPara > p {
     font-size: 90%;
   }
-  .beautyCardBut > button {
+  .beautyCardBut > a > button {
     /* border: solid; */
     width: 200px;
     height: 50px;
@@ -385,6 +385,4 @@
   .goTo2 {
     margin-right: 20px;
   }
- 
-  
 }

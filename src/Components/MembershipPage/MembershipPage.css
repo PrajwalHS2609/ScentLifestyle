@@ -130,7 +130,7 @@ h4 {
     height: 350px;
     width: 50%;
     border-radius: 0px;
-    background-color: var(--customBlack);
+    background-color: #cc2228;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -216,7 +216,7 @@ h4 {
     height: 350px;
     width: 50%;
     border-radius: 0px;
-    background-color: var(--customBlack);
+    background-color: #cc2228;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -286,7 +286,7 @@ h4 {
   .membershipParaContainer {
     /* border: solid; */
     margin-top: 5%;
-    height: 70vh;
+    height: 50vh;
   }
   .membershipParaContainer > p {
     font-size: 20px;
@@ -306,6 +306,7 @@ h4 {
     height: 350px;
     width: 40%;
     border-radius: 10px;
+    background-color: #cc2228;
     display: flex;
     justify-content: center;
     align-items: center;

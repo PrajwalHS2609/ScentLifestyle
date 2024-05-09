@@ -1,84 +1,63 @@
-import React from 'react'
+import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowRight,faX } from "@fortawesome/free-solid-svg-icons";
-import { Link } from 'react-router-dom';
-import "./BeautyServiceCard.css"
-import HairForm from '../../HairServicePage/HairForm/HairForm';
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
+import "./BeautyServiceCard.css";
 const BeautyServiceCard = (props) => {
-  let handlePopUp = () => {
-    let open = document.querySelector(".hairFormWrapper");
-    open.style.display = "flex";
-  };
-  let handleExit = () => {
-    let close = document.querySelector(".hairFormWrapper");
-    close.style.display = "none";
-  };
-
-  const HairFormContain = () => {
-    return (
-      <div className="hairFormWrapper">
-        <div className="hairFormExit">
-          <FontAwesomeIcon
-            icon={faX}
-            className="formIcon"
-            onClick={handleExit}
-          ></FontAwesomeIcon>
-        </div>
-        <HairForm />
-      </div>
-    );
-  };
   return (
     <div className="beautyCardMain">
-      <HairFormContain/>
-    <div className="beautyCardWrapper">
+      <div className="beautyCardWrapper">
         <img className="beautyCardImg" src={props.img} alt="" />
-      <div className="beautyCardCover">
-        <div className="beautyCardTxtContainer">
-          <div className="beautyCardHead">
-            <h1>{props.heading}</h1>
-          </div>
-          <div className="beautyCardPara">
-            <p>{props.para}</p>
-          </div>
-          <div className="beautyCardBut">
-            <button onClick={handlePopUp}>BOOK AN APPOINTMENT</button>
+        <div className="beautyCardCover">
+          <div className="beautyCardTxtContainer">
+            <div className="beautyCardHead">
+              <h1>{props.heading}</h1>
+            </div>
+            <div className="beautyCardPara">
+              <p>{props.para}</p>
+            </div>
+            <div className="beautyCardBut">
+              <a href="https://wa.me/9742232700/?text=urlencodedtext">
+                <button>BOOK AN APPOINTMENT</button>
+              </a>
+            </div>
           </div>
         </div>
-      </div>
       </div>
       <Link to={props.link}>
-      <div className="beautyGoto">
-        <div className="goTo1">
-          <h1>{props.goto}</h1>
+        <div className="beautyGoto">
+          <div className="goTo1">
+            <h1>{props.goto}</h1>
+          </div>
+          <div className="goTo2">
+            <p>
+              <FontAwesomeIcon
+                icon={faArrowRight}
+                className="beautyCardIcon"
+              ></FontAwesomeIcon>
+            </p>
+          </div>
         </div>
-        <div className="goTo2">
-          <p>
-            <FontAwesomeIcon
-              icon={faArrowRight}
-              className="beautyCardIcon"
-            ></FontAwesomeIcon>
-          </p>
-        </div>
-      </div>
       </Link>
       <div className="respBeautyServiceContainer">
-      <div className="respBeautyServiceCardCover">
-        <div className="respBeautyServiceCardTxtContainer">
-          <div className="respBeautyServiceCardHead">
-            <h1>{props.heading}</h1>
-          </div>
-          <div className="respBeautyServiceCardPara">
-            <p>{props.para}</p>
-          </div>
-          <div className="respBeautyServiceCardBut">
-            <button onClick={handlePopUp}>BOOK AN APPOINTMENT</button>
+        <div className="respBeautyServiceCardCover">
+          <div className="respBeautyServiceCardTxtContainer">
+            <div className="respBeautyServiceCardHead">
+              <h1>{props.heading}</h1>
+            </div>
+            <div className="respBeautyServiceCardPara">
+              <p>{props.para}</p>
+            </div>
+            <div className="respBeautyServiceCardBut">
+              <a href="https://wa.me/9742232700/?text=urlencodedtext">
+                <button>BOOK AN APPOINTMENT</button>
+              </a>
+            </div>
           </div>
         </div>
       </div>
-      </div>
     </div>
-  )
-}
+  );
+};
 
-export default BeautyServiceCard
+export default BeautyServiceCard;

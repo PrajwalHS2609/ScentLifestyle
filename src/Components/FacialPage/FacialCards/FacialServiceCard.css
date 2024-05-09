@@ -75,7 +75,7 @@
 .facialCardPara > p {
   font-size: 90%;
 }
-.facialCardBut > button {
+.facialCardBut > a > button {
   /* border: solid; */
   width: 200px;
   height: 50px;
@@ -103,7 +103,8 @@
 }
 .goTo1 > h1 {
   color: var(--customRed);
-  font-size: 120%;text-align: center;
+  font-size: 120%;
+  text-align: center;
 }
 .goTo2 {
   margin-right: 20px;
@@ -153,9 +154,10 @@
   width: 90%;
 }
 .respFacialServiceCardPara > p {
-  font-size: 80%;
+  font-size: 100%;
+  text-align: center;
 }
-.respFacialServiceCardBut > button {
+.respFacialServiceCardBut > a > button {
   /* border: solid; */
   width: 200px;
   height: 30px;
@@ -223,6 +225,7 @@
   }
   .respFacialServiceContainer {
     display: flex;
+    border: solid;
   }
 }
 @media only screen and (max-width: 990px) and (min-width: 600px) {
@@ -264,22 +267,38 @@
     border: 2px whitesmoke solid;
     width: 90%;
     height: 40px;
-    bottom: -125px;
+    bottom: -155px;
     text-align: center;
     left: 15px;
     background-color: white;
   }
   .respFacialServiceContainer {
     display: flex;
+    border: solid;
+    margin-top: 0px;
+  }
+  .respFacialServiceCardCover {
+    /* border: solid blue; */
+    height: 150%;
+    width: 100%;
+    background-color: var(--customRed);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .respFacialServiceCardTxtContainer {
+    gap: 30px;
+  }
+  .respFacialServiceCardHead > h1 {
+    font-size: 150%;
+    color: white;
   }
 }
 @media only screen and (max-width: 1200px) and (min-width: 990px) {
-
-  
   .facialCardContainer {
     /* border: solid blue; */
     width: 100%;
-    height: 450vh;
+    height: 350vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -309,7 +328,7 @@
   .facialCardWrapper:hover .facialCardImg {
     transform: scale(1.2);
   }
-  
+
   .facialCardCover {
     /* border: solid green; */
     height: 100%;
@@ -340,7 +359,7 @@
     font-size: 150%;
     color: white;
   }
-  
+
   .facialCardPara {
     font-weight: bold;
     color: white;
@@ -349,7 +368,7 @@
   .facialCardPara > p {
     font-size: 90%;
   }
-  .facialCardBut > button {
+  .facialCardBut > a > button {
     /* border: solid; */
     width: 200px;
     height: 50px;
@@ -366,7 +385,8 @@
     height: 40px;
     justify-content: space-between;
     align-items: center;
-    position: absolute;text-align: center;
+    position: absolute;
+    text-align: center;
     z-index: 3;
     bottom: -5px;
     left: 45px;
@@ -402,7 +422,7 @@
     justify-content: flex-start;
     align-items: flex-start;
   }
-  
+
   .respFacialServiceCardTxtContainer {
     /* border: solid yellowgreen; */
     width: 100%;
@@ -418,7 +438,7 @@
     font-size: 120%;
     color: white;
   }
-  
+
   .respFacialServiceCardPara {
     font-weight: bold;
     color: white;
@@ -429,7 +449,7 @@
   .respFacialServiceCardPara > p {
     font-size: 80%;
   }
-  .respFacialServiceCardBut > button {
+  .respFacialServiceCardBut > a > button {
     /* border: solid; */
     width: 200px;
     height: 30px;

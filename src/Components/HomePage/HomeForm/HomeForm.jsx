@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import "./HomeForm.css";
 
 const HomeForm = () => {
-
   let [data, setData] = useState({
     userName: "",
     email: "",
@@ -31,7 +30,7 @@ const HomeForm = () => {
     console.log(payload);
   };
   return (
-    <div className="homeFormContainer" >
+    <div className="homeFormContainer">
       <form action="" onSubmit={handleSubmit}>
         <fieldset>
           <legend>
@@ -48,6 +47,8 @@ const HomeForm = () => {
                   id="name"
                   name="name"
                   value={name}
+                  required
+                  autoComplete="off"
                   onChange={handleData}
                 />
               </td>
@@ -60,6 +61,8 @@ const HomeForm = () => {
                   id="email"
                   name="email"
                   value={email}
+                  required
+                  autoComplete="off"
                   onChange={handleData}
                 />
               </td>
@@ -72,6 +75,8 @@ const HomeForm = () => {
                   id="phone"
                   name="phone"
                   value={phone}
+                  required
+                  autoComplete="off"
                   onChange={handleData}
                 />
               </td>
@@ -79,13 +84,20 @@ const HomeForm = () => {
             <tr>
               <label htmlFor="serv">Service :</label>
               <td>
-                <select name="" id="">
-                  <option value=""> Services type</option>
-                  <option value="">Hair Service</option>
-                  <option value="">Nail Service</option>
-                  <option value="">Facial Service</option>
-                  <option value="">Spa Service</option>
-                  <option value="">Lashes Service</option>
+                <select
+                  name="service"
+                  value={service}
+                  onChange={handleData}
+                  id="serv"
+                  required
+                  autoComplete="off"
+                >
+                  <option value="Service"> Services type</option>
+                  <option value="hair">Hair Service</option>
+                  <option value="nail">Nail Service</option>
+                  <option value="facial">Facial Service</option>
+                  <option value="spa">Spa Service</option>
+                  <option value="lashes">Lashes Service</option>
                 </select>
               </td>
             </tr>
@@ -98,6 +110,8 @@ const HomeForm = () => {
                   name="location"
                   value={location}
                   onChange={handleData}
+                  required
+                  autoComplete="off"
                 />
               </td>
             </tr>

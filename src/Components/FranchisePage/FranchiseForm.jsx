@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./FranchisePage.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser, faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
+import emailjs from "@emailjs/browser"
 const FranchiseForm = () => {
   let [data, setData] = useState({
     userName: "",
@@ -11,7 +12,7 @@ const FranchiseForm = () => {
     location: "",
   });
 
-  let { name, email, phone, detail, location } = data;
+  let { name, email, phone, detail } = data;
 
   let handleData = (e) => {
     let name = e.target.name;
@@ -21,14 +22,14 @@ const FranchiseForm = () => {
 
   let handleSubmit = (e) => {
     e.preventDefault();
-    let payload = {
-      name,
-      email,
-      phone,
-      detail,
-      location,
-    };
-    console.log(payload);
+    emailjs.sendForm('service_wwo15yl',"template_dq6vg9f",e.target,"YMANvl26uUKa6DQU3")
+    // let payload = {
+    //   name,
+    //   email,
+    //   phone,
+    //   detail,
+    // };
+    // console.log(payload);
   };
   return (
     <div className="franchiseFormContainer">
@@ -52,6 +53,8 @@ const FranchiseForm = () => {
                   value={name}
                   placeholder="Name"
                   onChange={handleData}
+                  autoComplete="no"
+                  required
                 />
               </td>
             </tr>
@@ -69,6 +72,8 @@ const FranchiseForm = () => {
                   value={email}
                   placeholder="Email"
                   onChange={handleData}
+                  autoComplete="no"
+                  required
                 />
               </td>
             </tr>
@@ -86,6 +91,8 @@ const FranchiseForm = () => {
                   value={phone}
                   placeholder="Phone"
                   onChange={handleData}
+                  autoComplete="no"
+                  required
                 />
               </td>
             </tr>
@@ -101,6 +108,8 @@ const FranchiseForm = () => {
                 cols={26}
                 rows={3}
                 onChange={handleData}
+                autoComplete="no"
+                required
               />
             </tr>
             <button className="sub">Submit</button>
