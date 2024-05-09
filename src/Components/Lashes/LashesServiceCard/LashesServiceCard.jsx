@@ -17,7 +17,7 @@ const LashesServiceCard = (props) => {
               <p>{props.para}</p>
             </div>
             <div className="lashesCardBut">
-              <a href="https://wa.me/9742232700/?text=urlencodedtext">
+              <a href="https://wa.me/09742232700/?text=urlencodedtext">
                 <button>BOOK AN APPOINTMENT</button>
               </a>
             </div>

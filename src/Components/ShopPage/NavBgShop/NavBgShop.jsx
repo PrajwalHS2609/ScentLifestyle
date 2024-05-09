@@ -1,6 +1,6 @@
 import React from 'react'
-import "./NavBgBeauty.css"
-const NavBgBeauty = () => {
+import "./NavBgShop.css"
+const NavBgShop = () => {
   return (
     <div className='navbg'>
       
@@ -8,4 +8,4 @@ const NavBgBeauty = () => {
   )
 }
 
-export default NavBgBeauty
+export default NavBgShop

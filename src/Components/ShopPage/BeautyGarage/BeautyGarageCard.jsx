@@ -23,7 +23,7 @@ const BeautyGarageCard = (props) => {
           </pre>
         </div>
         <button>
-        <a href="https://wa.me/9742232700/?text=urlencodedtext">
+        <a href="https://wa.me/09742232700/?text=urlencodedtext">
           Buy 
           <FontAwesomeIcon
             icon={faWhatsapp}

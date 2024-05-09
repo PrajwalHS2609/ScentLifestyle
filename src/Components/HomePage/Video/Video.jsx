@@ -9,7 +9,7 @@ const Video = () => {
     <div className="vidContainer">
       <video className="videoContent" src={scentVid} autoPlay loop muted />
       <div className="vidTxt">
-       <a href="https://wa.me/9742232700/?text=urlencodedtext"> <pre>Book an Appointment Now</pre></a>
+       <a href="https://wa.me/09742232700/?text=urlencodedtext"> <pre>Book an Appointment Now</pre></a>
         <FontAwesomeIcon
           icon={faArrowDown}
           className="vidIcon"
