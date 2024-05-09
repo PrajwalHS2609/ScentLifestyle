@@ -79,7 +79,9 @@ const Menu = () => {
         <li>
           <Link to={"/membership"}>Memberships</Link>
         </li>
-        <li>Shops</li>
+        <li>
+          <Link to={"/shop"}>Shops</Link>
+        </li>
         <li>
           <Link to={"/franchise"}>Franchise</Link>
         </li>
@@ -168,7 +170,9 @@ const Menu = () => {
             </h1>
           </ul>
           <ul>
-            <h1>Shops</h1>
+            <h1>
+              <Link to={"/shop"}>Shops</Link>{" "}
+            </h1>
           </ul>
           <ul>
             <h1>

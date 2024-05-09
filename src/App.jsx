@@ -20,6 +20,7 @@ import StyleCrewPage from "./Components/StyleCrewPage/StyleCrewPage";
 import AboutMyselfPage from "./Components/AboutMyselfPage/AboutMyselfPage";
 import MembershipPage from "./Components/MembershipPage/MembershipPage";
 import FranchisePage from "./Components/FranchisePage/FranchisePage";
+import ShopPage from "./Components/ShopPage/ShopPage";
 
 const App = () => {
   return (
@@ -45,6 +46,7 @@ const App = () => {
           <Route path="/myself" element={<AboutMyselfPage/>} />
           <Route path="/membership" element={<MembershipPage/>} />
           <Route path="/franchise" element={<FranchisePage/>} />
+          <Route path="/shop" element={<ShopPage/>} />
         </Routes>
       </BrowserRouter>
     </div>
