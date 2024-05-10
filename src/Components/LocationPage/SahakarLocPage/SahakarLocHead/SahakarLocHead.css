@@ -1,6 +1,5 @@
-
 .sahakarLocHeadContainer {
-    border: solid green;
+  /* border: solid green; */
   height: 36vh;
   display: flex;
   justify-content: space-evenly;
@@ -9,40 +8,55 @@
 }
 
 .sahakarLocHeadContent {
-  border: solid red;
+  /* border: solid red; */
   height: 100%;
   width: 50%;
 }
-#sahakarLocHeadContent1{
+#sahakarLocHeadContent1 {
   width: 40%;
 }
 .sahakarLocHeadItem {
-  border: solid blue;
+  /* border: solid blue; */
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
-
 #sahakarLocHeadItem2 {
-  border: solid blue;
+  /* border: solid blue; */
   height: 40%;
 }
 #sahakarLocHeadItem3 {
   height: 60%;
 }
 .sahakarLocInnerItem {
-  border: solid yellowgreen;
+  /* border: solid yellowgreen; */
   height: 100%;
   width: 50%;
 }
 .sahakarLocHeadContact {
-  border: solid;
+  /* border: solid; */
   height: 30%;
 }
 .sahakarLocHeadContact1 {
   /* border: solid; */
   height: 70%;
+}
+.sahakarLocHeadTiming {
+  /* border: solid red; */
+  height: 30%;
+}
+.sahakarLocHeadTiming1 {
+  /* border: solid; */
+  height: 70%;
+}
+.sahakarLocHeadTiming1 > p {
+  /* border: solid blue; */
+  font-size: 110%;
+  width: 75%;
+}
+.sahakarLocHeadContact1 > h2 {
+  font-size: 110%;
+  color: black;
 }
 #sahakarLocHeadItem3 {
   /* border: solid pink; */

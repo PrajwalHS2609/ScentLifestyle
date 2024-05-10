@@ -1,10 +1,11 @@
 import React from "react";
 import "./SahakarLocImg.css";
+import loc1 from "./../../../../Images/sahakaranagar.jpg"
 const SahakarLocImg = () => {
   return (
     <div className="sahakarLocImgContainer">
       <img
-        src="https://www.bodycraft.co.in/wp-content/uploads/2018/06/KOR-Featured.jpg"
+        src={loc1}
         alt=""
       />
     </div>

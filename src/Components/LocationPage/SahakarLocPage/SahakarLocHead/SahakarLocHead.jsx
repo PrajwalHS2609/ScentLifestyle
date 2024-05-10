@@ -14,13 +14,15 @@ const SahakarLocHead = () => {
             <div className="sahakarLocHeadContact">
               <h3>CONTACT NUMBER</h3>
             </div>
-            <div className="sahakarLocHeadContact1"></div>
+            <div className="sahakarLocHeadContact1"> <h2>9740322700</h2></div>
           </div>
           <div className="sahakarLocInnerItem">
             <div className="sahakarLocHeadTiming">
               <h3>Timing</h3>
             </div>
-            <div className="sahakarLocHeadTiming1"></div>
+            <div className="sahakarLocHeadTiming1">
+             <p>Opens at 10 am - Closes at 8 pm</p>
+            </div>
           </div>
         </div>
         <div className="sahakarLocHeadItem" id="sahakarLocHeadItem3">
