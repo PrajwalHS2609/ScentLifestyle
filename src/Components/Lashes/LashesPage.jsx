@@ -12,7 +12,7 @@ import LashesRead from "./LashesRead/LashesRead";
 import Partners from "../HomePage/Partners/Partners";
 import InstaFeed from "../HomePage/InstaFeed/InstaFeed";
 import { Helmet } from "react-helmet";
-import TextLocReviews from './../LocationPage/TextLocReviews/TextLocReviews';
+import TextLocReviews from "./../LocationPage/TextLocReviews/TextLocReviews";
 
 const LashesPage = () => {
   return (
@@ -23,7 +23,7 @@ const LashesPage = () => {
           SCENT Eye Lashes in Bangalore | Eyelash Extensions Salon Near Me
         </title>
         <meta
-          name="Indulge in premium SCENT spa services in Bangalore. Explore our luxurious body massages and rejuvenate your mind and body. Book now for ultimate relaxation!"
+          name="Transform your look with stunning eyelash extensions at SCENT Salon. Enhance your beauty with permanent lashes that make your eyes look beautiful and dynamic. Book your appointment today!"
           content="Scent application"
         />
       </Helmet>
@@ -36,8 +36,8 @@ const LashesPage = () => {
       <Partners />
       <InstaFeed />
       <HelpNearYou />
-      <TextLocReviews/>
-      <TextLocReviews/>
+      <TextLocReviews />
+      <TextLocReviews />
       <ServiceWhy />
       <LashesRead />
       <LastComp />

@@ -43,15 +43,15 @@ const Menu = () => {
             className="menuIcon"
           ></FontAwesomeIcon>
           <div className="menuDrop" id="menudrop2">
-            <Link to={"/hair"}>
+            <Link to={"/hair-salon"}>
               <div className="dropItems" id="dropItem2">
-                <pre> Hair</pre>
+                <pre> Hair Salon</pre>
               </div>
             </Link>
 
-            <Link to={"/nails"}>
+            <Link to={"/nails-salon"}>
               <div className="dropItems" id="dropItem2">
-                <pre> Nails</pre>
+                <pre> Nails Salon</pre>
               </div>
             </Link>
             <Link to={"/facial"}>
@@ -59,9 +59,9 @@ const Menu = () => {
                 <pre> Facials</pre>
               </div>
             </Link>
-            <Link to={"/beauty"}>
+            <Link to={"/beauty-essentials"}>
               <div className="dropItems" id="dropItem2">
-                <pre> Beauty essentials</pre>
+                <pre> Beauty Essentials</pre>
               </div>
             </Link>
             <Link to={"/spa"}>
@@ -69,15 +69,15 @@ const Menu = () => {
                 <pre> Spa</pre>
               </div>
             </Link>
-            <Link to={"/lashes"}>
+            <Link to={"/eye-lashes"}>
               <div className="dropItems" id="dropItem2">
-                <pre> Lashes</pre>
+                <pre>Eye Lashes</pre>
               </div>
             </Link>
           </div>
         </li>
         <li>
-          <Link to={"/membership"}>Memberships</Link>
+          <Link to={"/salon-membership"}>Salon Memberships</Link>
         </li>
         <li>
           <Link to={"/shop"}>Shops</Link>
@@ -120,15 +120,15 @@ const Menu = () => {
             <span className="respMenuSpan" ref={dropRef}>
               <li>
                 <h2>
-                  <Link onClick={hideSideBar} to={"/hair"}>
-                    Hair
+                  <Link onClick={hideSideBar} to={"/hair-salon"}>
+                    Hair Salon
                   </Link>
                 </h2>
               </li>
               <li>
                 <h2>
-                  <Link onClick={hideSideBar} to={"/nails"}>
-                    Nail
+                  <Link onClick={hideSideBar} to={"/nails-salon"}>
+                    Nails Salon
                   </Link>
                 </h2>
               </li>
@@ -141,7 +141,7 @@ const Menu = () => {
               </li>
               <li>
                 <h2>
-                  <Link onClick={hideSideBar} to={"/beauty"}>
+                  <Link onClick={hideSideBar} to={"/beauty-essentials"}>
                     Beauty Essentials
                   </Link>
                 </h2>
@@ -155,8 +155,8 @@ const Menu = () => {
               </li>
               <li>
                 <h2>
-                  <Link onClick={hideSideBar} to={"/lashes"}>
-                    Lashes
+                  <Link onClick={hideSideBar} to={"/eye-lashes"}>
+                    Eye Lashes
                   </Link>
                 </h2>
               </li>
@@ -164,14 +164,14 @@ const Menu = () => {
           </ul>
           <ul>
             <h1>
-              <Link onClick={hideSideBar} to={"/membership"}>
-                Membership
+              <Link onClick={hideSideBar} to={"/salon-membership"}>
+                Salon Membership
               </Link>
             </h1>
           </ul>
           <ul>
             <h1>
-              <Link to={"/shop"}>Shops</Link>{" "}
+              <Link onClick={hideSideBar} to={"/shop"}>Shops</Link>{" "}
             </h1>
           </ul>
           <ul>

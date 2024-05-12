@@ -8,7 +8,6 @@ import Members from "./Members/Members";
 import OurSalon from "./OurSalon/OurSalon";
 import Work from "./Work/Work";
 import Partners from "./Partners/Partners";
-// import InstaFeed from './InstaFeed/InstaFeed';
 import HelpNearYou from "../Help/HelpNearYou";
 import HomeRead from "./HomeRead/HomeRead";
 import LastComp from "./../LastComp/LastComp";
@@ -38,7 +37,6 @@ const HomePage = () => {
       <Suspense fallback={<p>This is Loading....</p>}>
         <InstaFeed />
       </Suspense>
-      {/* <MakeOver /> */}
       <HelpNearYou />
       <HomeRead />
       <LastComp />

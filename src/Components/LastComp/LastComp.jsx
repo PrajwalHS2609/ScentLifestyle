@@ -21,22 +21,22 @@ const LastComp = () => {
           </div>
           <div className="lastTxt2">
             <div className="lastTxt">
-              <Link to={"/hair"}>Hair</Link>
+              <Link to={"/hair-salon"}>Hair</Link>
             </div>
             <div className="lastTxt">
-              <Link to={"/nails"}>Nails</Link>
+              <Link to={"/nails-salon"}>Nails</Link>
             </div>
             <div className="lastTxt">
               <Link to={"/facial"}>Facial</Link>
             </div>
             <div className="lastTxt">
-              <Link to={"/beauty"}>Beauty Essentials</Link>
+              <Link to={"/beauty-essentials"}>Beauty Essentials</Link>
             </div>
             <div className="lastTxt">
               <Link to={"/spa"}>Spa</Link>
             </div>
             <div className="lastTxt">
-              <Link to={"/Lashes"}>Lashes</Link>
+              <Link to={"/eye-lashes"}>Lashes</Link>
             </div>
           </div>
         </div>
@@ -57,7 +57,7 @@ const LastComp = () => {
             <h1>Work</h1>
           </div>
           <div className="lastTxt2">
-            <div className="lastTxt"><Link to={"/membership"}>Membership</Link></div>
+            <div className="lastTxt"><Link to={"/salon-membership"}>Membership</Link></div>
             <div className="lastTxt">Shops</div>
             <div className="lastTxt"><Link to={"/franchise"}>Franchise</Link></div>
           </div>

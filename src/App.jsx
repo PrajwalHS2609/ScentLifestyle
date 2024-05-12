@@ -36,18 +36,18 @@ const App = () => {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/service" element={<MainServicePage />} />
-          <Route path="/hair" element={<HairServicePage />} />
-          <Route path="/nails" element={<NailSalonPage />} />
+          <Route path="/hair-salon" element={<HairServicePage />} />
+          <Route path="/nails-salon" element={<NailSalonPage />} />
           <Route path="/facial" element={<FacialPage />} />
-          <Route path="/beauty" element={<BeautyPage />} />
+          <Route path="/beauty-essentials" element={<BeautyPage />} />
           <Route path="/spa" element={<SpaPages />} />
-          <Route path="/lashes" element={<LashesPage />} />
+          <Route path="/eye-lashes" element={<LashesPage />} />
           <Route path="/terms" element={<TermsPage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/philosophy" element={<ScentPhiloPage />} />
           <Route path="/crew" element={<StyleCrewPage />} />
           <Route path="/myself" element={<AboutMyselfPage />} />
-          <Route path="/membership" element={<MembershipPage />} />
+          <Route path="/salon-membership" element={<MembershipPage />} />
           <Route path="/franchise" element={<FranchisePage />} />
           <Route path="/shop" element={<ShopPage />} />
           <Route path="/location" element={<LocationPage />} />
