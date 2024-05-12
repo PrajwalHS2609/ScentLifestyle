@@ -1,0 +1,11 @@
+.uptownLocPageContainer {
+  /* border: solid; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.uptownLocPageContent {
+  /* border: solid green; */
+  width: 100%;
+}

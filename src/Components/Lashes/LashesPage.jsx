@@ -9,6 +9,8 @@ import LashesServiceCardContain from './LashesServiceCard/LashesServiceCardConta
 import Navi6 from './Navi6/Navi6'
 import ServiceWhy from '../MainServicePages/ServiceWhy/ServiceWhy'
 import LashesRead from './LashesRead/LashesRead'
+import Partners from '../HomePage/Partners/Partners'
+import InstaFeed from '../HomePage/InstaFeed/InstaFeed'
 
 const LashesPage = () => {
   return (
@@ -17,8 +19,10 @@ const LashesPage = () => {
       <LashesImg/>
       <Navi6/>
       <LashesServiceCardContain/>
-      <Members />
-      <OurSalon />
+      <Members/>
+      <OurSalon/>
+      <Partners/>
+      <InstaFeed/>
       <HelpNearYou />
       <ServiceWhy/>
       <LashesRead/>

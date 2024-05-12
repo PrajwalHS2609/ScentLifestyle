@@ -1,0 +1,17 @@
+.lavellelMapLocContainer {
+    /* border: solid yellow; */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-direction: column;
+    width: 100%;height: 70vh;
+  }
+  .lavellelLocMapHeadContainer {
+    /* border: solid red; */
+    width: 92%;
+  }
+  .lavellelRoadMap{
+    /* border: solid; */
+    width: 92%;
+
+  }

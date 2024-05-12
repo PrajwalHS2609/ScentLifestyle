@@ -1,10 +1,11 @@
 .sahakarLocPageContainer {
   /* border: solid; */
-  display: flex;justify-content: center;
+  display: flex;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-.sahakarLocPageContent{
+.sahakarLocPageContent {
   /* border: solid green; */
-  width: 70%;
+  width: 100%;
 }

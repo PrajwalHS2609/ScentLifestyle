@@ -9,6 +9,8 @@ import HelpNearYou from "../Help/HelpNearYou.jsx";
 import LastComp from "../LastComp/LastComp.jsx";
 import ServiceWhy from "../MainServicePages/ServiceWhy/ServiceWhy.jsx";
 import FacialRead from "./FacialRead/FacialRead.jsx";
+import Partners from "../HomePage/Partners/Partners.jsx";
+import InstaFeed from "../HomePage/InstaFeed/InstaFeed.jsx";
 const FacialPage = () => {
   return (
     <div>
@@ -16,8 +18,10 @@ const FacialPage = () => {
       <FacialImg />
       <Navi3 />
       <FacialServiceCardContain />
-      <Members />
-      <OurSalon />
+      <Members/>
+      <OurSalon/>
+      <Partners/>
+      <InstaFeed/>
       <HelpNearYou />
       <ServiceWhy/>
       <FacialRead/>

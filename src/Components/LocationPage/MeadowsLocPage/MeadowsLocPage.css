@@ -1,0 +1,12 @@
+.meadowsLocPageContainer {
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .meadowsLocPageContent {
+    /* border: solid green; */
+    width: 100%;
+  }
+  

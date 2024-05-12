@@ -9,6 +9,8 @@ import BeautyServiceCardContain from "./BeautyServiceCards/BeautyServiceCardCont
 import Navi4 from './Navi4/Navi4';
 import ServiceWhy from "../MainServicePages/ServiceWhy/ServiceWhy";
 import BeautyRead from "./BeautyRead/BeautyRead";
+import Partners from "../HomePage/Partners/Partners";
+import InstaFeed from "../HomePage/InstaFeed/InstaFeed";
 
 const BeautyPage = () => {
   return (
@@ -17,8 +19,10 @@ const BeautyPage = () => {
       <BeautyImg />
       <Navi4/>
       <BeautyServiceCardContain/>
-      <Members />
-      <OurSalon />
+      <Members/>
+      <OurSalon/>
+      <Partners/>
+      <InstaFeed/>
       <HelpNearYou />
       <ServiceWhy/>
       <BeautyRead/>

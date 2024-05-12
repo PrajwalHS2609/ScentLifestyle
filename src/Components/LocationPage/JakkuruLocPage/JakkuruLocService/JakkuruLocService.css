@@ -1,0 +1,25 @@
+.jakkuruLocServiceContainer {
+    border: solid red;
+    height: 50vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;margin-top: 3%;
+  }
+  .jakkuruLocServiceHeadContainer {
+    border: solid;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 92%;
+  }
+  .jakkuruLocServiceMainContainer {
+    border: solid blue;
+    height: 80%;
+    width: 92%;
+  }
+  /* .jakkuruLocServiceMainContent {
+    border: solid blue;
+    height: 80%;
+    width: 92%;
+  } */

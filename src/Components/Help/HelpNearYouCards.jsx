@@ -4,12 +4,12 @@ import "./HelpNearYou.css";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Sahakar from "./../../Images/sahakaranagar.jpg"
-import Lavelle from "./../../Images/lavelle road.jpg"
-import Jakkur from "./../../Images/jakkur.jpg"
-import varthur from "./../../Images/Varthur - whitefield.jpg"
-import Seege from "./../../Images/seegehalli - whitefield.jpg"
-import jp from "./../../Images/JP Nagar.jpg"
+import Sahakar from "./../../Images/sahakaranagar.jpg";
+import Lavelle from "./../../Images/lavelle road.jpg";
+import Jakkur from "./../../Images/jakkur.jpg";
+import varthur from "./../../Images/Varthur - whitefield.jpg";
+import Seege from "./../../Images/seegehalli - whitefield.jpg";
+import jp from "./../../Images/JP Nagar.jpg";
 
 const HelpNearYouCards = () => {
   function SampleNextArrow(props) {
@@ -81,33 +81,29 @@ const HelpNearYouCards = () => {
           city="Sahakar Nagar"
           image={Sahakar}
           no="9740322700"
+          link="/sahakar"
         />
 
         <HelpCard
           city="Lavelle Road"
           image={Lavelle}
           no="9740222700"
+          link="/lavellel"
         />
         <HelpCard
           city="Jakkur"
           image={Jakkur}
           no=" 9742212700"
+          link="/jakkur"
         />
         <HelpCard
           city="Uptown Square"
           image={varthur}
           no="9148122700"
+          link="/uptown"
         />
-        <HelpCard
-          city="Meadows"
-          image={Seege}
-          no="9686221700"
-        />
-        <HelpCard
-          city="JP Nagar"
-          image={jp}
-          no="88612 22700"
-        />
+        <HelpCard city="Meadows" image={Seege} no="9686221700" link="/meadowsp" />
+        <HelpCard city="JP Nagar" image={jp} no="88612 22700" link="/jp" />
       </div>
 
       <div className="respHelpNearYouCardContainer">
@@ -116,33 +112,34 @@ const HelpNearYouCards = () => {
             city="Sahakar Nagar"
             image={Sahakar}
             no=" 9740322700"
+            link="/sahakar"
           />
 
           <HelpCard
             city="Lavelle Road"
             image={Lavelle}
             no="9740222700"
+            link="/lavellel"
           />
           <HelpCard
             city="Jakkur"
             image={Jakkur}
             no="9742212700"
+            link="/jakkur"
           />
           <HelpCard
             city="Varthur"
             image={varthur}
             no="9148122700"
+            link="/uptown"
           />
           <HelpCard
             city="Seegelli"
             image={Seege}
             no="9686221700"
+            link="/meadows"
           />
-          <HelpCard
-            city="JP Nagar"
-            image={jp}
-            no="8861222700"
-          />
+          <HelpCard city="JP Nagar" image={jp} no="8861222700" link="/jp" />
         </Slider>
       </div>
     </>

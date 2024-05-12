@@ -1,4 +1,4 @@
-.sahakarLocHeadContainer {
+.locationHeadContainer {
   /* border: solid green; */
   height: 36vh;
   display: flex;
@@ -7,65 +7,65 @@
   margin-top: 30px;
 }
 
-.sahakarLocHeadContent {
+.locationHeadContent {
   /* border: solid red; */
   height: 100%;
   width: 50%;
 }
-#sahakarLocHeadContent1 {
+#LocationHeadContent1 {
   width: 40%;
 }
-.sahakarLocHeadItem {
+.locationHeadItem {
   /* border: solid blue; */
   display: flex;
   justify-content: center;
   align-items: center;
 }
-#sahakarLocHeadItem2 {
+#locationHeadItem2 {
   /* border: solid blue; */
   height: 40%;
 }
-#sahakarLocHeadItem3 {
+#locationHeadItem3 {
   height: 60%;
 }
-.sahakarLocInnerItem {
+.locationInnerItem {
   /* border: solid yellowgreen; */
   height: 100%;
   width: 50%;
 }
-.sahakarLocHeadContact {
+.locationHeadContact {
   /* border: solid; */
   height: 30%;
 }
-.sahakarLocHeadContact1 {
+.locationHeadContact1 {
   /* border: solid; */
   height: 70%;
 }
-.sahakarLocHeadTiming {
+.locationHeadTiming {
   /* border: solid red; */
   height: 30%;
 }
-.sahakarLocHeadTiming1 {
+.locationHeadTiming1 {
   /* border: solid; */
   height: 70%;
 }
-.sahakarLocHeadTiming1 > p {
+.locationHeadTiming1 > p {
   /* border: solid blue; */
   font-size: 110%;
   width: 75%;
 }
-.sahakarLocHeadContact1 > h2 {
+.locationHeadContact1 > h2 {
   font-size: 110%;
   color: black;
 }
-#sahakarLocHeadItem3 {
+#locationHeadItem3 {
   /* border: solid pink; */
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: flex-start;
   flex-direction: column;
 }
-.sahakarLocHeadAdd {
+.locationHeadAdd {
   /* border: solid green; */
   width: 50%;
   font-size: 130%;

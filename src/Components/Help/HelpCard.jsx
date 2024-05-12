@@ -2,6 +2,7 @@ import React from "react";
 import "./HelpNearYou.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 
 const HelpCard = (props) => {
   return (
@@ -10,7 +11,9 @@ const HelpCard = (props) => {
         <img className="helpImg" src={props.image} alt="" />
         <div className="helpCover">
           <div className="helpCity">
-            <h3>{props.city} </h3>
+            <h3>
+              <Link to={props.link} >{props.city}</Link>
+            </h3>
             <p>
               <FontAwesomeIcon
                 icon={faPhone}
@@ -29,8 +32,8 @@ const HelpCard = (props) => {
             <FontAwesomeIcon
               icon={faPhone}
               className="menuIcon"
-            ></FontAwesomeIcon>: 
-              {props.no}
+            ></FontAwesomeIcon>
+            :{props.no}
           </p>
         </div>
       </div>

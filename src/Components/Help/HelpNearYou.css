@@ -65,7 +65,7 @@
 .helpCardContainer:hover .helpImg {
   transform: scale(1.2);
 }
-.helpCardContainer:hover h3 {
+.helpCardContainer:hover h3>a {
   color: white;
 }
 .helpCardContainer:hover p {

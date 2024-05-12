@@ -1,0 +1,13 @@
+.jakkuruMapLocContainer {
+    /* border: solid green; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;height: 70vh;
+    margin-top: 5%;
+  }
+  .jakkuruLocMapHeadContainer {
+    /* border: solid red; */
+    width: 92%;
+  }

@@ -1,10 +1,15 @@
 import React from "react";
-import SahakarLocPage from "./SahakarLocPage/SahakarLocPage";
+import { Link } from "react-router-dom";
+import LocationNavBg from "./LocationNavBg/LocationNavBg";
+import HelpNearYou from "../Help/HelpNearYou";
+import LastComp from "../LastComp/LastComp";
 
 const LocationPage = () => {
   return (
-    <div>
-      <SahakarLocPage/>
+    <div className="locationContainer">
+ <LocationNavBg/>
+ <HelpNearYou/>
+ <LastComp/>
     </div>
   );
 };

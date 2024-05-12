@@ -1,3 +1,21 @@
-.locArrowContainer{
-    border: solid;
+.locArrowContainer {
+  /* border: solid; */
+  height: 10vh;
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.leftArrow,
+.rightArrow {
+  border: solid;
+  display: flex;
+  width: 3%;
+  height: 60%;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+}
+.arrowIcon {
+  font-size: 200%;
 }

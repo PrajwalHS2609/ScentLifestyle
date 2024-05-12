@@ -1,0 +1,17 @@
+.meadowsMapLocContainer {
+    /* border: solid yellow; */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-direction: column;
+    width: 100%;height: 70vh;
+  }
+  .meadowsLocMapHeadContainer {
+    /* border: solid red; */
+    width: 92%;
+  }
+  .meadowsMap{
+    /* border: solid; */
+    width: 92%;
+  
+  }

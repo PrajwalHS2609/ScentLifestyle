@@ -10,6 +10,8 @@ import HelpNearYou from "../Help/HelpNearYou";
 import Navi7 from "./Navi7/Navi7";
 import ServiceWhy from './../MainServicePages/ServiceWhy/ServiceWhy';
 import NailRead from "./NailSalonRead/NailRead";
+import InstaFeed from "../HomePage/InstaFeed/InstaFeed";
+import Partners from "../HomePage/Partners/Partners";
 
 const NailSalonPage = () => {
   return (
@@ -18,8 +20,10 @@ const NailSalonPage = () => {
       <NailSalonImg />
       <Navi7/>
       <NailServiceCardContain />
-      <Members />
-      <OurSalon />
+      <Members/>
+      <OurSalon/>
+      <Partners/>
+      <InstaFeed/>
       <HelpNearYou />
       <ServiceWhy/>
       <NailRead/>

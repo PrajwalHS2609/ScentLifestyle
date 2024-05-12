@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./SahakarLocMap.css"
 const SahakarNagarMap = () => {
   return (
     <div className="sahakarNagarMap">
