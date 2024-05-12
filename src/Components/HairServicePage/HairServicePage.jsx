@@ -13,14 +13,19 @@ import OurSalon from "../HomePage/OurSalon/OurSalon";
 import Partners from "../HomePage/Partners/Partners";
 import InstaFeed from "../HomePage/InstaFeed/InstaFeed";
 import { Helmet } from "react-helmet";
+import TextLocReviews from "../LocationPage/TextLocReviews/TextLocReviews";
 const HairServicePage = () => {
   return (
     <div className="hairMain">
       <Helmet>
         <meta charSet="utf-8" />
         <title>
-        Hair Salon in Bangalore for Cuts, Highlights, Treatments & Spa        </title>
-        <meta name="description" content="Helmet application" />
+          Hair Salon in Bangalore for Cuts, Highlights, Treatments & Spa{" "}
+        </title>
+        <meta
+          name="Experience top-notch haircut and styling services at our premier hair salon in Bangalore. Book your appointment with SCENT Salon today and enjoy exclusive offers!"
+          content="Scent application"
+        />
       </Helmet>
       <NavBg2 />
       <HairServiceImg />
@@ -32,6 +37,7 @@ const HairServicePage = () => {
       <Partners />
       <InstaFeed />
       <HelpNearYou />
+      <TextLocReviews/>
       <ServiceWhy />
       <HairRead />
       <LastComp />

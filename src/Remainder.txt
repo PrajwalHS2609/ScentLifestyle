@@ -2,5 +2,3 @@ add button to read more  heading
 
 onclick on submit form the page should be refreshed
 
-check responsive for 1200px
-facial image as a water mark

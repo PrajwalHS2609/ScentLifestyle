@@ -20,7 +20,7 @@ const SpaPages = () => {
         <title>
           SCENT Salon Spa in Bangalore - Hair, Nail, Skin, Beauty Essentials
         </title>
-        <meta name="description" content="Helmet application" />
+        <meta name="Indulge in premium SCENT spa services in Bangalore. Explore our luxurious body massages and rejuvenate your mind and body. Book now for ultimate relaxation!" content="Scent application" />
       </Helmet>
       <NavBg />
       <SpaImg />

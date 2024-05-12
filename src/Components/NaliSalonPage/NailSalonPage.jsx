@@ -12,10 +12,18 @@ import ServiceWhy from './../MainServicePages/ServiceWhy/ServiceWhy';
 import NailRead from "./NailSalonRead/NailRead";
 import InstaFeed from "../HomePage/InstaFeed/InstaFeed";
 import Partners from "../HomePage/Partners/Partners";
+import { Helmet } from "react-helmet";
+import TextLocReviews from './../LocationPage/TextLocReviews/TextLocReviews';
 
 const NailSalonPage = () => {
   return (
     <div>
+        <Helmet>
+        <meta charSet="utf-8" />
+        <title>
+        SCENT Nail Services in Bangalore -  Nail arts Salon Near Me</title>
+        <meta name="Discover the best nail salon for women in Bangalore! Treat yourself to luxurious nail extensions, nail art, and polish services. Book your appointment today for flawless nails!" content="Scent application" />
+      </Helmet>
       <NavBg />
       <NailSalonImg />
       <Navi7/>
@@ -25,6 +33,7 @@ const NailSalonPage = () => {
       <Partners/>
       <InstaFeed/>
       <HelpNearYou />
+      <TextLocReviews/>
       <ServiceWhy/>
       <NailRead/>
       <LastComp />
