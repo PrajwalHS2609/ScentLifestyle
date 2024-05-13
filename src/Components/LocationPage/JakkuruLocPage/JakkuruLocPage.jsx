@@ -31,6 +31,7 @@ const JakkuruLocPage = () => {
           loc="Jakkur"
           phone="+91-9742212700"
           address="Dr.Shivaram Karanth Nagar, Jakkuru, Bengaluru, Karnataka 560077"
+          map={<JakkuruLocMap/>}
         />
           <ServiceCardContain />
         <UnisexSalon />
@@ -38,7 +39,6 @@ const JakkuruLocPage = () => {
         <OurSalon />
         <Partners />
         <InstaFeed />
-        <JakkuruLocMap />
         <TextLocReviews />
         <LocEnquire />
         <JakkurLocRead/>

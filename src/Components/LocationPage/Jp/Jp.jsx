@@ -16,20 +16,20 @@ import "./Jp.css";
 import loc6 from "./../../../Images/JP Nagar.jpg";
 import TextLocReviews from "../TextLocReviews/TextLocReviews";
 import JpLocRead from "./JpLocRead/JpLocRead";
-import LocationNavi from './../LocationNavi/LocationNavi';
+import LocationNavi from "./../LocationNavi/LocationNavi";
 const Jp = () => {
   return (
     <div className="jpLocPageContainer">
       <LocationNavBg />
       <LocationImg img={loc6} />
-      <LocationNavi
-      loc="J P Nagar"/>
+      <LocationNavi loc="J P Nagar" />
       <LocationArrow leftLink={"/meadows"} rightLink={"/sahakar"} />
       <div className="jpLocPageContent">
         <LocationHead
           loc="J P nagar"
           phone="+91-8861222700"
           address="20th Main Road, Jp Nagar 2nd Phase, Bangalore - 560078, Opp Nexa Showroom "
+          map={<JpLocMap />}
         />
         <ServiceCardContain />
         <UnisexSalon />
@@ -37,10 +37,9 @@ const Jp = () => {
         <OurSalon />
         <Partners />
         <InstaFeed />
-        <JpLocMap />
         <TextLocReviews />
         <LocEnquire />
-        <JpLocRead/>
+        <JpLocRead />
       </div>
       <LastComp />
     </div>

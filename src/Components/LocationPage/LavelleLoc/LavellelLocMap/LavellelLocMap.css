@@ -4,44 +4,23 @@
     justify-content: space-between;
     align-items: flex-end;
     flex-direction: column;
-    width: 100%;height: 70vh;
+    width: 100%;
+    height: 70vh;
+    margin-top: 0%;
   }
-  .lavellelLocMapHeadContainer {
-    /* border: solid red; */
-    width: 92%;
-  }
-  .lavellelRoadMap{
-    /* border: solid; */
-    width: 92%;
 
-  }
   @media screen and (max-width: 600px) {
     .lavellelMapLocContainer {
       /* border: solid green; */
       display: flex;
-      justify-content: space-evenly;
-      align-items: center;
-      flex-direction: column;
-      width: 100%;
-      height: 100vh;
-      margin-top: 5%;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    margin-top: 5%;
     }
-    .lavellelLocMapHeadContainer {
-      /* border: solid red; */
-      width: 92%;
-    }
-    .lavellelLocMapHeadContainer > h1 {
-      font-size: 150%;
-      text-align: center;
-    }
-    .lavellelMap {
-      /* border: solid; */
-      width: 100%;
-    }
-    .map {
-      width: 100%;
-      margin-right: 0;
-    }
+  
   }
   @media screen and (max-width: 990px) and (min-width: 600px) {
     .lavellelMapLocContainer {
@@ -54,50 +33,18 @@
       height: 100vh;
       margin-top: 5%;
     }
-    .lavellelLocMapHeadContainer {
-      /* border: solid red; */
-      width: 92%;
-      height: 10%;
-    }
-    .lavellelLocMapHeadContainer > h1 {
-      font-size: 150%;
-      text-align: center;
-    }
-    .lavellelMap {
-      /* border: solid; */
-      width: 100%;
-    }
-    .map {
-      width: 100%;
-      margin-right: 0;
-    }
+
   }
   @media screen and (max-width: 1200px) and (min-width: 600px) {
     .lavellelMapLocContainer {
       /* border: solid green; */
       display: flex;
-      justify-content: space-evenly;
+      justify-content:center;
       align-items: center;
       flex-direction: column;
       width: 100%;
-      height: 100vh;
-      margin-top: 5%;
-    }
-    .lavellelLocMapHeadContainer {
-      /* border: solid red; */
-      width: 92%;
-      height: 10%;
-    }
-    .lavellelLocMapHeadContainer > h1 {
-      font-size: 150%;
-      text-align: center;
-    }
-    .lavellelMap {
-      /* border: solid; */
-      width: 100%;
-    }
-    .map {
-      width: 100%;
+      height: 100%;
+      margin-left: 0%;
     }
   }
   

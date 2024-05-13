@@ -31,6 +31,7 @@ const UpTownLocPage = () => {
           phone="+91-9148122700"
           address=" Uptown square, State Highway 35, Seegehalli, Whitefield - Hoskote
     Rd, Bengaluru, Karnataka 560067"
+          map={<UptownLocMap />}
         />
         <ServiceCardContain />
         <UnisexSalon />
@@ -38,10 +39,10 @@ const UpTownLocPage = () => {
         <OurSalon />
         <Partners />
         <InstaFeed />
-        <UptownLocMap />
+        {/* <UptownLocMap /> */}
         <TextLocReviews />
         <LocEnquire />
-        <UptownLocRead/>
+        <UptownLocRead />
       </div>
       <LastComp />
     </div>

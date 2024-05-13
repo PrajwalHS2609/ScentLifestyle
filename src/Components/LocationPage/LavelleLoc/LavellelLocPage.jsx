@@ -31,6 +31,7 @@ const LavellelLocPage = () => {
           phone="+91-9740222700"
           address=" No. 67/2, 1st Floor, Opposite. 3rd Cross Lavelle Road, Bengaluru,
         Karnataka 560001"
+        map={<LavellelLocMap/>}
         />
         <ServiceCardContain />
         <UnisexSalon />

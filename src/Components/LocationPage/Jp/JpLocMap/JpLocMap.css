@@ -6,18 +6,9 @@
   flex-direction: column;
   width: 100%;
   height: 70vh;
+  margin-top: 0%;
 }
-.jpLocMapHeadContainer {
-  /* border: solid red; */
-  width: 92%;
-}
-.jpNagarMap {
-  /* border: solid; */
-  width: 92%;
-}
-.map {
-  margin-right: 370px;
-}
+
 @media screen and (max-width: 600px) {
   .jpLocMapContainer {
     /* border: solid green; */
@@ -29,22 +20,7 @@
     height: 100vh;
     margin-top: 5%;
   }
-  .jpLocMapHeadContainer {
-    /* border: solid red; */
-    width: 92%;
-  }
-  .jpLocMapHeadContainer > h1 {
-    font-size: 150%;
-    text-align: center;
-  }
-  .jpMap {
-    /* border: solid; */
-    width: 100%;
-  }
-  .map {
-    width: 100%;
-    margin-right: 0;
-  }
+
 }
 @media screen and (max-width: 990px) and (min-width: 600px) {
   .jpLocMapContainer {
@@ -57,49 +33,18 @@
     height: 100vh;
     margin-top: 5%;
   }
-  .jpLocMapHeadContainer {
-    /* border: solid red; */
-    width: 92%;
-    height: 10%;
-  }
-  .jpLocMapHeadContainer > h1 {
-    font-size: 150%;
-    text-align: center;
-  }
-  .jpMap {
-    /* border: solid; */
-    width: 100%;
-  }
-  .map {
-    width: 100%;
-    margin-right: 0;
-  }
+
 }
-@media screen and (max-width: 1200px) and (min-width: 600px) {
-  jpMapLocContainer {
+@media screen and (max-width: 1200px) and (min-width: 990px) {
+  .jpMapLocContainer {
     /* border: solid green; */
     display: flex;
-    justify-content: space-evenly;
+    justify-content:center;
     align-items: center;
     flex-direction: column;
     width: 100%;
-    height: 100vh;
-    margin-top: 5%;
+    height: 100%;
+    margin-left: 0%;
   }
-  jpLocMapHeadContainer {
-    /* border: solid red; */
-    width: 92%;
-    height: 10%;
-  }
-  jpLocMapHeadContainer > h1 {
-    font-size: 150%;
-    text-align: center;
-  }
-  jpMap {
-    /* border: solid; */
-    width: 100%;
-  }
-  .map {
-    width: 100%;
-  }
+
 }

@@ -32,6 +32,7 @@ const MeadowsLocPage = () => {
           address=" Palm Meadows, No. 3/3, Ramaiah building, Palm Meadows, Boulevard
 Varthur Main Road Ramagondanahalli, Whitefield Bengaluru Karnataka
 560066"
+map={<MeadowsLocMap/>}
         />
         <ServiceCardContain />
         <UnisexSalon />
@@ -39,10 +40,9 @@ Varthur Main Road Ramagondanahalli, Whitefield Bengaluru Karnataka
         <OurSalon />
         <Partners />
         <InstaFeed />
-        <MeadowsLocMap />
         <TextLocReviews />
         <LocEnquire />
-        <MeadowsLocRead/>
+        <MeadowsLocRead />
       </div>
       <LastComp />
     </div>
