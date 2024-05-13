@@ -1,0 +1,61 @@
+.jpLocReadContainer {
+    /* border: solid; */
+    /* height: 70vh; */
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 60px;
+    cursor: pointer;
+  }
+  .jpLocReadHeadContainer {
+    /* border: solid red; */
+    width: 300px;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .jpLocReadHeadContainer > button {
+    border: none;
+    background-color: white;
+    cursor: pointer;
+  }
+  .jpLocReadDisplayContainer {
+    /* border: solid green; */
+    width: 90%;
+    height: 70%;
+    display: none;
+  }
+  
+  .jpLocReadDisplayContainer > ul > li {
+    font-size: 120%;
+    margin: 20px;
+    list-style: none;
+  }
+  .openBut {
+    text-decoration: underline;
+    font-weight: lighter;
+  }
+  @media screen and (max-width: 600px) {
+    .jpLocReadContainer {
+      /* border: solid red; */
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin-top: 15px;
+    }
+    .jpLocReadHeadContainer > h1 {
+      font-size: 120%;
+    }
+    .jpLocReadDisplayContainer {
+      height: 100%;
+    }
+    .jpLocReadDisplayContainer > ul > li {
+      font-size: 100%;
+    }
+    }
+  

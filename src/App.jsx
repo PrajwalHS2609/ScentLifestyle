@@ -26,6 +26,7 @@ import JakkuruLocPage from "./Components/LocationPage/JakkuruLocPage/JakkuruLocP
 import UpTownLocPage from "./Components/LocationPage/UpTownLocPage/UpTownLocPage";
 import MeadowsLocPage from "./Components/LocationPage/MeadowsLocPage/MeadowsLocPage";
 import Jp from "./Components/LocationPage/Jp/Jp";
+import ContactPage from "./Components/ContactPage/ContactPage";
 
 const App = () => {
   return (
@@ -50,6 +51,7 @@ const App = () => {
           <Route path="/salon-membership" element={<MembershipPage />} />
           <Route path="/franchise" element={<FranchisePage />} />
           <Route path="/shop" element={<ShopPage />} />
+          <Route path="/contact-us" element={<ContactPage />} />
           <Route path="/location" element={<LocationPage />} />
           <Route path="/sahakar" element={<SahakarLocPage />} />
           <Route path="/lavellel" element={<LavellelLocPage />} />

@@ -77,3 +77,115 @@ h3,
 h4 {
   color: var(--customRed);
 }
+@media screen and (max-width:600px) {
+  .locationHeadContainer {
+    /* border: solid green; */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+  .locationHeadContent {
+    /* border: solid red; */
+    width: 90%;
+  }
+  #locationHeadContent1 {
+    height: 20%;
+
+  }
+  #LocationHeadContent1 {
+    /* border: solid blue; */
+    width: 100%;
+  }
+  .locationHeadItem {
+    /* border: solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #locationHeadItem1>h1{
+    width: 100%;text-align: center;
+  }
+  #locationHeadItem2 {
+    /* border: solid blue; */
+    height: 40%;
+  }
+  #locationHeadItem3 {
+    height: 40%;
+  }
+  .locationInnerItem {
+    /* border: solid yellowgreen; */
+    height: 50%;
+    width: 100%;
+    text-align: center;
+  }
+  .locationHeadTiming1 > p {
+    /* border: solid blue; */
+    font-size: 110%;
+    width: 100%;
+  }
+  .locationHeadAdd {
+    /* border: solid green; */
+    width: 100%;
+    font-size: 130%;text-align: center;
+  }
+}
+@media screen and (max-width:990px) and (min-width:600px) {
+  .locationHeadContainer {
+    /* border: solid green; */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+  .locationHeadContent {
+    /* border: solid red; */
+    width: 90%;
+  }
+  #locationHeadContent1 {
+    height: 20%;
+
+  }
+  #LocationHeadContent1 {
+    /* border: solid blue; */
+    width: 100%;
+  }
+  .locationHeadItem {
+    /* border: solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #locationHeadItem1>h1{
+    width: 100%;text-align: center;
+  }
+  #locationHeadItem2 {
+    /* border: solid blue; */
+    height: 40%;
+  }
+  #locationHeadItem3 {
+    height: 40%;
+  }
+  .locationInnerItem {
+    /* border: solid yellowgreen; */
+    height: 50%;
+    width: 100%;
+    text-align: center;
+  }
+  .locationHeadTiming1 > p {
+    /* border: solid blue; */
+    font-size: 110%;
+    width: 100%;
+  }
+  .locationHeadAdd {
+    /* border: solid green; */
+    width: 100%;
+    font-size: 130%;text-align: center;
+  }
+}

@@ -17,6 +17,7 @@ import InstaFeed from "../../HomePage/InstaFeed/InstaFeed";
 import UptownLocMap from "./UptownLocMap/UptownLocMap";
 import LocationNavi from "../LocationNavi/LocationNavi";
 import TextLocReviews from "../TextLocReviews/TextLocReviews";
+import UptownLocRead from "./UptownLocRead/UptownLocRead";
 const UpTownLocPage = () => {
   return (
     <div className="uptownLocPageContainer">
@@ -40,6 +41,7 @@ const UpTownLocPage = () => {
         <UptownLocMap />
         <TextLocReviews />
         <LocEnquire />
+        <UptownLocRead/>
       </div>
       <LastComp />
     </div>

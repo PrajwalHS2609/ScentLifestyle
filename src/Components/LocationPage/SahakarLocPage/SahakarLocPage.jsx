@@ -5,7 +5,6 @@ import SahakarLocMap from "./SahakarLocMap/SahakarLocMap";
 import LastComp from "./../../LastComp/LastComp";
 import LocEnquire from "../LocEnquire/LocEnquire";
 import LocationArrow from "../LocationArrow/LocationArrow";
-import GoogleReviews from "../GoogleReviews/GoogleReviews";
 import LocationHead from "../LocationHead/LocationHead";
 import LocationImg from "../LocationImg/LocationImg";
 import loc1 from "./../../../Images/sahakaranagar.jpg";
@@ -17,6 +16,7 @@ import Partners from "../../HomePage/Partners/Partners";
 import InstaFeed from "../../HomePage/InstaFeed/InstaFeed";
 import LocationNavi from "../LocationNavi/LocationNavi";
 import TextLocReviews from "../TextLocReviews/TextLocReviews";
+import SahakarReadLoc from "./SahakarReadLoc/SahakarReadLoc";
 const SahakarLocPage = () => {
   return (
     <div className="sahakarLocPageContainer">
@@ -40,8 +40,8 @@ const SahakarLocPage = () => {
         <InstaFeed />
         <SahakarLocMap />
         <TextLocReviews/>
-        {/* <GoogleReviews /> */}
         <LocEnquire />
+        <SahakarReadLoc/>
       </div>
       <LastComp />
     </div>

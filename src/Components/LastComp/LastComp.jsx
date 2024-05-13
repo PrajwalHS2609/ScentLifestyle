@@ -5,19 +5,21 @@ import {
   faFacebook,
   faInstagram,
   faYoutube,
+  faPinterest,
   faXTwitter,
-  faGoogle,
   faWhatsapp,
 } from "@fortawesome/free-brands-svg-icons";
 import { Link } from "react-router-dom";
-import TSS from "./../../Images/TSS.png"
+import TSS from "./../../Images/TSS.png";
 const LastComp = () => {
   return (
     <div className="lastContainer">
       <div className="lastContent1">
         <div className="lastItem1" id="lastItem1">
           <div className="lastTxt1">
-            <h1><Link to={"/service"}>Services</Link></h1>
+            <h1>
+              <Link to={"/service"}>Services</Link>
+            </h1>
           </div>
           <div className="lastTxt2">
             <div className="lastTxt">
@@ -47,9 +49,15 @@ const LastComp = () => {
             </h1>
           </div>
           <div className="lastTxt2">
-            <div className="lastTxt"><Link to={"/philosophy"}>Philosophy</Link></div>
-            <div className="lastTxt"><Link to={"/crew"}>Style Crew</Link></div>
-            <div className="lastTxt"><Link to={"/myself"}>All About Myself</Link></div>
+            <div className="lastTxt">
+              <Link to={"/philosophy"}>Philosophy</Link>
+            </div>
+            <div className="lastTxt">
+              <Link to={"/crew"}>Style Crew</Link>
+            </div>
+            <div className="lastTxt">
+              <Link to={"/myself"}>All About Myself</Link>
+            </div>
           </div>
         </div>
         <div className="lastItem1" id="lastItem4">
@@ -57,9 +65,13 @@ const LastComp = () => {
             <h1>Work</h1>
           </div>
           <div className="lastTxt2">
-            <div className="lastTxt"><Link to={"/salon-membership"}>Membership</Link></div>
+            <div className="lastTxt">
+              <Link to={"/salon-membership"}>Membership</Link>
+            </div>
             <div className="lastTxt">Shops</div>
-            <div className="lastTxt"><Link to={"/franchise"}>Franchise</Link></div>
+            <div className="lastTxt">
+              <Link to={"/franchise"}>Franchise</Link>
+            </div>
           </div>
         </div>
         <div className="lastItem1" id="lastItem5">
@@ -70,7 +82,7 @@ const LastComp = () => {
           </div>
           <div className="lastTxt2">
             <div className="lastTxt">
-              <Link to={"/terms"} >Returns & Refund Policy</Link>
+              <Link to={"/terms"}>Returns & Refund Policy</Link>
             </div>
             <div className="lastTxt">
               <Link to={"/terms"}>Cancellation Policy</Link>
@@ -93,42 +105,54 @@ const LastComp = () => {
           <div className="socialBlocks">
             <div className="innerSocialBlocks">
               <div className="block">
-                <FontAwesomeIcon
-                  icon={faInstagram}
-                  className="lastIcon"
-                ></FontAwesomeIcon>
+                <a href="https://www.instagram.com/scentlifestyle/">
+                  <FontAwesomeIcon
+                    icon={faInstagram}
+                    className="lastIcon"
+                  ></FontAwesomeIcon>
+                </a>
               </div>
               <div className="block">
-                <FontAwesomeIcon
-                  icon={faFacebook}
-                  className="lastIcon"
-                ></FontAwesomeIcon>
+                <a href="https://www.facebook.com/ScentSalonSpas/">
+                  <FontAwesomeIcon
+                    icon={faFacebook}
+                    className="lastIcon"
+                  ></FontAwesomeIcon>
+                </a>
               </div>
               <div className="block">
-                <FontAwesomeIcon
-                  icon={faXTwitter}
-                  className="lastIcon"
-                ></FontAwesomeIcon>
+                <a href="https://in.pinterest.com/scentlifestyle/">
+                  <FontAwesomeIcon
+                    icon={faPinterest}
+                    className="lastIcon"
+                  ></FontAwesomeIcon>
+                </a>
               </div>
             </div>
             <div className="innerSocialBlocks">
               <div className="block">
-                <FontAwesomeIcon
-                  icon={faGoogle}
-                  className="lastIcon"
-                ></FontAwesomeIcon>
+                <a href="https://twitter.com/scentlifestyle">
+                  <FontAwesomeIcon
+                    icon={faXTwitter}
+                    className="lastIcon"
+                  ></FontAwesomeIcon>
+                </a>
               </div>
               <div className="block">
-                <FontAwesomeIcon
-                  icon={faYoutube}
-                  className="lastIcon"
-                ></FontAwesomeIcon>
+                <a href="https://www.youtube.com/@scentlifestyle">
+                  <FontAwesomeIcon
+                    icon={faYoutube}
+                    className="lastIcon"
+                  ></FontAwesomeIcon>
+                </a>
               </div>
               <div className="block">
-                <FontAwesomeIcon
-                  icon={faWhatsapp}
-                  className="lastIcon"
-                ></FontAwesomeIcon>
+                <a href="https://api.whatsapp.com/send?phone=919742232700">
+                  <FontAwesomeIcon
+                    icon={faWhatsapp}
+                    className="lastIcon"
+                  ></FontAwesomeIcon>
+                </a>
               </div>
             </div>
           </div>
@@ -140,10 +164,9 @@ const LastComp = () => {
             <p>SCENT © Copyright 2023</p>
           </div>
           <div className="lastCopy1">
-            <img
-              src={TSS}
-              alt=""
-            />
+            <a href="https://tryseoservices.com/">
+              <img src={TSS} alt="" />
+            </a>
           </div>
         </div>
       </div>

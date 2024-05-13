@@ -19,3 +19,72 @@
 .arrowIcon {
   font-size: 200%;
 }
+@media screen and (max-Width:600px) {
+  .locArrowContainer {
+    /* border: solid; */
+    height: 5vh;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .leftArrow,
+.rightArrow {
+  border: solid;
+  display: flex;
+  width: 10%;
+  height:100%;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+}
+.arrowIcon {
+  font-size: 100%;
+}
+}
+@media screen and (max-width:990px) and (min-width:600px) {
+  .locArrowContainer {
+    /* border: solid; */
+    height: 5vh;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .leftArrow,
+.rightArrow {
+  border: solid;
+  display: flex;
+  width: 5%;
+  height:100%;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+}
+.arrowIcon {
+  font-size: 100%;
+}
+}
+@media screen and (max-width:1200px) and (min-width:990px) {
+  .locArrowContainer {
+    /* border: solid; */
+    height: 10vh;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .leftArrow,
+  .rightArrow {
+    border: solid;
+    display: flex;
+    width: 5%;
+    height: 60%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+  }
+  .arrowIcon {
+    font-size: 200%;
+  }
+}

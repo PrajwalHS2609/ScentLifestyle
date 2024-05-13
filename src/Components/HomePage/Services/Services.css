@@ -82,9 +82,10 @@ a {
   }
   #serviceContent2 {
     /* border: solid red; */
-    width: 80%;
+    width: 70%;
     height: 300px;
   }
+
   .serviceSlideContent {
     /* border: solid; */
     height: 100%;

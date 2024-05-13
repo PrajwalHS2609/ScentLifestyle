@@ -1,0 +1,61 @@
+.uptownLocReadContainer {
+    /* border: solid; */
+    /* height: 70vh; */
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 60px;
+    cursor: pointer;
+  }
+  .uptownLocReadHeadContainer {
+    /* border: solid red; */
+    width: 300px;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .uptownLocReadHeadContainer > button {
+    border: none;
+    background-color: white;
+    cursor: pointer;
+  }
+  .uptownLocReadDisplayContainer {
+    /* border: solid green; */
+    width: 90%;
+    height: 70%;
+    display: none;
+  }
+  
+  .uptownLocReadDisplayContainer > ul > li {
+    font-size: 120%;
+    margin: 20px;
+    list-style: none;
+  }
+  .openBut {
+    text-decoration: underline;
+    font-weight: lighter;
+  }
+  @media screen and (max-width: 600px) {
+    .uptownLocReadContainer {
+      /* border: solid red; */
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin-top: 20px;
+    }
+    .uptownLocReadHeadContainer > h1 {
+      font-size: 120%;
+    }
+    .uptownLocReadDisplayContainer {
+      height: 100%;
+    }
+    .uptownLocReadDisplayContainer > ul > li {
+      font-size: 100%;
+    }
+    }
+  

@@ -5,7 +5,6 @@ import LocationArrow from "../LocationArrow/LocationArrow";
 import LocEnquire from "../LocEnquire/LocEnquire";
 import LastComp from "../../LastComp/LastComp";
 import JakkuruLocMap from "./JakkuruLocMap/JakkuruLocMap";
-import GoogleReviews from "../GoogleReviews/GoogleReviews";
 import LocationHead from "../LocationHead/LocationHead";
 import LocationImg from "../LocationImg/LocationImg";
 import loc3 from "./../../../Images/jakkur.jpg";
@@ -17,6 +16,7 @@ import InstaFeed from "../../HomePage/InstaFeed/InstaFeed";
 import ServiceCardContain from "../../MainServicePages/ServiceCards/ServiceCardContain";
 import LocationNavi from './../LocationNavi/LocationNavi';
 import TextLocReviews from "../TextLocReviews/TextLocReviews";
+import JakkurLocRead from "./JakkurLocRead/JakkurLocRead";
 const JakkuruLocPage = () => {
   return (
     <div className="jakkuruLocPageContainer">
@@ -38,10 +38,10 @@ const JakkuruLocPage = () => {
         <OurSalon />
         <Partners />
         <InstaFeed />
-        {/* <JakkuruLocService /> */}
         <JakkuruLocMap />
         <TextLocReviews />
         <LocEnquire />
+        <JakkurLocRead/>
       </div>
       <LastComp />
     </div>

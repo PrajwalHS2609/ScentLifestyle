@@ -10,9 +10,19 @@ import Members from '../HomePage/Members/Members'
 import OurSalon from '../HomePage/OurSalon/OurSalon'
 import Partners from '../HomePage/Partners/Partners'
 import InstaFeed from '../HomePage/InstaFeed/InstaFeed'
+import { Helmet } from 'react-helmet'
 const MembershipPage = () => {
   return (
     <div className='membershipPageContainer'>
+           <Helmet>
+        <meta charSet="utf-8" />
+        <title>
+        SCENT Salon Membership - Save 10% to 30% 		        </title>
+        <meta
+          name="Unlock exclusive benefits with SCENT Salon Membership and save 10% to 30% on all services. Join now for discounts on hair, nails, spa, and more!								"
+          content="scent application"
+        />
+      </Helmet>
         <MembershipNavBg/>
         <MembershipImg/>
       <MembershipHead/>

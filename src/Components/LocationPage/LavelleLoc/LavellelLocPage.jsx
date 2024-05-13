@@ -16,11 +16,14 @@ import OurSalon from "../../HomePage/OurSalon/OurSalon";
 import Partners from "../../HomePage/Partners/Partners";
 import InstaFeed from "../../HomePage/InstaFeed/InstaFeed";
 import TextLocReviews from "../TextLocReviews/TextLocReviews";
+import LocationNavi from "../LocationNavi/LocationNavi";
+import LavellelReadLoc from "./LavellelReadLoc/LavellelReadLoc";
 const LavellelLocPage = () => {
   return (
     <div className="sahakarLocPageContainer">
       <LocationNavBg />
       <LocationImg img={loc2} />
+      <LocationNavi loc="Lavellel Road"/>
       <LocationArrow leftLink={"/sahakar"} rightLink={"/jakkuru"} />
       <div className="sahakarLocPageContent">
         <LocationHead
@@ -38,6 +41,7 @@ const LavellelLocPage = () => {
         <LavellelLocMap />
         <TextLocReviews />
         <LocEnquire />
+        <LavellelReadLoc/>
       </div>
       <LastComp />
     </div>

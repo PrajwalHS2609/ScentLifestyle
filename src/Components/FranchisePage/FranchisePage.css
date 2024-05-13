@@ -46,7 +46,7 @@
 }
 .franchiseFormContainer {
   /* border: solid green; */
-  width: 40%;
+  width:550px;
   height: 70vh;
   border-radius: 10px;
   backdrop-filter: blur(10px);
@@ -640,7 +640,7 @@ textarea::placeholder {
     height: 100px;
   }
   .franchiseImgContainer {
-    border: solid;
+    /* border: solid; */
     width: 100%;
     height: 400px;
     background-color: #060505;
@@ -675,7 +675,7 @@ textarea::placeholder {
   }
   .franchiseFormContainer {
     /* border: solid green; */
-    width: 60%;
+    width: 400px;
     height: 70vh;
     border-radius: 10px;
     backdrop-filter: blur(10px);
@@ -689,8 +689,8 @@ textarea::placeholder {
 
   .franchiseFormContainer > form {
     /* border: solid red; */
-    width: 90%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
   }
   .franchiseFormContainer > form > fieldset {
     width: 100%;
@@ -719,9 +719,9 @@ textarea::placeholder {
   }
   .franchiseFormContainer > form > fieldset > table > tr {
     /* border: solid purple; */
-    width: 60%;
+    width: 80%;
     display: flex;
-    justify-content: flex-end;
+    justify-content:center;
     align-items: flex-start;
     gap: 30px;
   }

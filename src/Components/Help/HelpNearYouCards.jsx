@@ -102,7 +102,12 @@ const HelpNearYouCards = () => {
           no="9148122700"
           link="/uptown"
         />
-        <HelpCard city="Meadows" image={Seege} no="9686221700" link="/meadowsp" />
+        <HelpCard
+          city="Meadows"
+          image={Seege}
+          no="9686221700"
+          link="/meadows"
+        />
         <HelpCard city="JP Nagar" image={jp} no="88612 22700" link="/jp" />
       </div>
 

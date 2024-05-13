@@ -6,6 +6,7 @@ import "./Services.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
+import ServiceHead from "./ServiceHead";
 const Services = () => {
   function SampleNextArrow(props) {
     const { className, style, onClick } = props;
@@ -82,10 +83,7 @@ const Services = () => {
   };
   return (
     <div className="serviceContainer">
-      <div className="serviceContent" id="serviceContent1">
-        <p>Our</p>
-        <pre>Salon Services</pre>
-      </div>
+    <ServiceHead/>
       <div className="serviceContent" id="serviceContent2">
         <Slider {...settings}>
           <div className="serviceSlideContainer">

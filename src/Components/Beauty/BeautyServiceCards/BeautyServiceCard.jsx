@@ -49,7 +49,7 @@ const BeautyServiceCard = (props) => {
               <p>{props.para}</p>
             </div>
             <div className="respBeautyServiceCardBut">
-              <a href="https://wa.me/9742232700/?text=urlencodedtext">
+              <a href="https://api.whatsapp.com/send?phone=919742232700">
                 <button>BOOK AN APPOINTMENT</button>
               </a>
             </div>

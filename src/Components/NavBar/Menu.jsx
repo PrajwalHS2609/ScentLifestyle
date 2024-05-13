@@ -85,7 +85,7 @@ const Menu = () => {
         <li>
           <Link to={"/franchise"}>Franchise</Link>
         </li>
-        <li>Contact us</li>
+        <li><Link to={"/contact-us"}>Contact us</Link></li>
       </ul>
       <ul onClick={showSideBar} className="mainMenu">
         <FontAwesomeIcon icon={faBars} className="hamIcon"></FontAwesomeIcon>

@@ -15,16 +15,42 @@
   justify-content: flex-start;
   align-items: center;
 }
-.enquireLocContent>button{
+.enquireLocContent > button {
+  border: none;
+  height: 90%;
+  width: 40%;
+  border-radius: 10px;
+  background-color: #cc2228;
+}
+.enquireLocContent > button > a {
+  text-align: center;
+  font-size: 150%;
+  color: white;
+  text-decoration: none;
+}
+@media screen and (max-width: 600px) {
+  .enquireLocContainer {
+    /* border: blue solid; */
+    margin-top: 5%;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .enquireLocContent {
+    /* border: solid; */
+    width: 91%;
+    height: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+  }
+  .enquireLocContent > button {
     border: none;
     height: 90%;
-    width: 40%;
+    width: 90%;
     border-radius: 10px;
-    background-color:#cc2228 ;
-}
-.enquireLocContent>button>a{
-    text-align: center;
-    font-size: 150%;
-    color: white;
-    text-decoration: none;
+    background-color: #cc2228;
+  }
 }

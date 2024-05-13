@@ -9,18 +9,21 @@ import Members from "../../HomePage/Members/Members";
 import OurSalon from "../../HomePage/OurSalon/OurSalon";
 import Partners from "../../HomePage/Partners/Partners";
 import InstaFeed from "../../HomePage/InstaFeed/InstaFeed";
-import GoogleReviews from "../GoogleReviews/GoogleReviews";
 import LocEnquire from "../LocEnquire/LocEnquire";
 import LastComp from "../../LastComp/LastComp";
 import JpLocMap from "./JpLocMap/JpLocMap";
 import "./Jp.css";
 import loc6 from "./../../../Images/JP Nagar.jpg";
 import TextLocReviews from "../TextLocReviews/TextLocReviews";
+import JpLocRead from "./JpLocRead/JpLocRead";
+import LocationNavi from './../LocationNavi/LocationNavi';
 const Jp = () => {
   return (
     <div className="jpLocPageContainer">
       <LocationNavBg />
       <LocationImg img={loc6} />
+      <LocationNavi
+      loc="J P Nagar"/>
       <LocationArrow leftLink={"/meadows"} rightLink={"/sahakar"} />
       <div className="jpLocPageContent">
         <LocationHead
@@ -37,6 +40,7 @@ const Jp = () => {
         <JpLocMap />
         <TextLocReviews />
         <LocEnquire />
+        <JpLocRead/>
       </div>
       <LastComp />
     </div>

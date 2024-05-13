@@ -23,7 +23,7 @@ const HomePage = () => {
         </title>
         <meta
           name="SCENT Salon Spa in Bangalore. Unisex Premium Salon for Hair, Nail, Skin, Beauty Essentials, Eyelashes, Spa & Facials! Book an Appointment Now!"
-          content="scent application"
+          content="Scent application"
         />
       </Helmet>
       <Video />

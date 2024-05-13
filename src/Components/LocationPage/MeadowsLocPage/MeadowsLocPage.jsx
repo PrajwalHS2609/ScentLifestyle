@@ -3,7 +3,6 @@ import LocationNavBg from "../LocationNavBg/LocationNavBg";
 import LocationArrow from "../LocationArrow/LocationArrow";
 import LocEnquire from "../LocEnquire/LocEnquire";
 import LastComp from "../../LastComp/LastComp";
-import GoogleReviews from "../GoogleReviews/GoogleReviews";
 import LocationHead from "../LocationHead/LocationHead";
 import LocationImg from "../LocationImg/LocationImg";
 import loc5 from "./../../../Images/seegehalli - whitefield.jpg";
@@ -16,11 +15,15 @@ import InstaFeed from "../../HomePage/InstaFeed/InstaFeed";
 import MeadowsLocMap from "./MeadowsLocMap/MeadowsLocMap";
 import "./MeadowsLocPage.css";
 import TextLocReviews from "../TextLocReviews/TextLocReviews";
+import LocationNavi from "../LocationNavi/LocationNavi";
+import MeadowsLocRead from "./MeadowsLocRead/MeadowsLocRead";
 const MeadowsLocPage = () => {
   return (
     <div className="meadowsLocPageContainer">
       <LocationNavBg />
       <LocationImg img={loc5} />
+      <LocationNavi loc="Meadows" />
+
       <LocationArrow leftLink={"/uptown"} rightLink={"/jp"} />
       <div className="meadowsLocPageContent">
         <LocationHead
@@ -39,6 +42,7 @@ Varthur Main Road Ramagondanahalli, Whitefield Bengaluru Karnataka
         <MeadowsLocMap />
         <TextLocReviews />
         <LocEnquire />
+        <MeadowsLocRead/>
       </div>
       <LastComp />
     </div>
