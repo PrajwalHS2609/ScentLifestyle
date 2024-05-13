@@ -1,7 +1,5 @@
 import React from "react";
 import "./JpLocMap.css";
-import JpLocMapHead from "./JpLocMapHead";
-import JpNagarMap from "./JpNagarMap";
 import LocationMap from "../../LocationMap/LocationMap";
 
 const JpLocMap = () => {

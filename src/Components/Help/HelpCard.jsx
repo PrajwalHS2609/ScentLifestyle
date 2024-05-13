@@ -12,7 +12,7 @@ const HelpCard = (props) => {
         <div className="helpCover">
           <div className="helpCity">
             <h3>
-              <Link to={props.link} >{props.city}</Link>
+              <Link to={props.link}>{props.city}</Link>
             </h3>
             <p>
               <FontAwesomeIcon
@@ -27,7 +27,9 @@ const HelpCard = (props) => {
       <div className="respHelpCardContainer">
         <img className="respImage" src={props.image} alt="" />
         <div className="respHelpCardCover">
-          <h3>{props.city} </h3>
+          <h3>
+            <Link to={props.link}>{props.city}</Link>{" "}
+          </h3>
           <p>
             <FontAwesomeIcon
               icon={faPhone}

@@ -28,10 +28,11 @@
   gap: 10px;
 }
 .contacts1,
-.contacts2 {
+.contacts2,
+.contacts3 {
   /* border: solid blue; */
   width: 90%;
-  height: 20vh;
+  height: 22vh;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -52,6 +53,17 @@
   color: white;
 }
 .contacts2 > p {
+  color: white;
+  font-size: 120%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+.contacts3 > h1 {
+  color: white;
+}
+.contacts3 > p {
   color: white;
   font-size: 120%;
   display: flex;
@@ -114,7 +126,4 @@
     justify-content: center;
     align-items: center;
   }
-
-
-
 }

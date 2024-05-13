@@ -4,7 +4,6 @@ import LastComp from "../../LastComp/LastComp";
 import LocationArrow from "../LocationArrow/LocationArrow";
 import LocationNavBg from "../LocationNavBg/LocationNavBg";
 import "./UpTownLocPage.css";
-import GoogleReviews from "../GoogleReviews/GoogleReviews";
 import LocationHead from "../LocationHead/LocationHead";
 import LocationImg from "../LocationImg/LocationImg";
 import loc4 from "./../../../Images/Varthur - whitefield.jpg";

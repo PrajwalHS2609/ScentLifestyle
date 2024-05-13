@@ -2,7 +2,6 @@ import React from "react";
 import "./LavellelLocPage.css";
 import LocationNavBg from "./../LocationNavBg/LocationNavBg";
 import LocEnquire from "../LocEnquire/LocEnquire";
-import GoolgeReviews from "../GoogleReviews/GoogleReviews";
 import LocationArrow from "../LocationArrow/LocationArrow";
 import LastComp from "../../LastComp/LastComp";
 import LavellelLocMap from "./LavellelLocMap/LavellelLocMap";

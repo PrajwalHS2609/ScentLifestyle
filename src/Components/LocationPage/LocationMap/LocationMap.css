@@ -126,7 +126,7 @@
   .locationMapHeadContainer > h1 {
     text-align: center;
   }
-  ..locationMapContainer {
+  .locationMapContainer {
     /* border: solid yellow; */
     display: flex;
     justify-content: space-between;

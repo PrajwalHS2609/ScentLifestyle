@@ -65,7 +65,7 @@
 .helpCardContainer:hover .helpImg {
   transform: scale(1.2);
 }
-.helpCardContainer:hover h3>a {
+.helpCardContainer:hover h3 > a {
   color: white;
 }
 .helpCardContainer:hover p {
@@ -136,7 +136,7 @@
   width: 80%;
   display: none;
 }
-.respHelpCardCover > h3 {
+.respHelpCardCover > h3 > a {
   color: white;
 }
 .respHelpCardCover > p {

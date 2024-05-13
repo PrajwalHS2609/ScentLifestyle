@@ -12,7 +12,7 @@
 
 @media screen and (max-width: 600px) {
   .sahakarMapLocContainer {
-    /* border: solid green; */
+    border: solid green;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -36,7 +36,7 @@
   }
 
 }
-@media screen and (max-width: 1200px) and (min-width: 600px) {
+@media screen and (max-width: 1200px) and (min-width: 990px) {
   .sahakarMapLocContainer {
       /* border: solid green; */
       display: flex;

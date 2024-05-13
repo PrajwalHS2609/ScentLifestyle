@@ -26,7 +26,7 @@ const Jp = () => {
       <LocationArrow leftLink={"/meadows"} rightLink={"/sahakar"} />
       <div className="jpLocPageContent">
         <LocationHead
-          loc="J P nagar"
+          loc="J P Nagar"
           phone="+91-8861222700"
           address="20th Main Road, Jp Nagar 2nd Phase, Bangalore - 560078, Opp Nexa Showroom "
           map={<JpLocMap />}

@@ -33,6 +33,16 @@ const Contacts = () => {
           9591522700
         </p>
       </div>
+      <div className="contacts3">
+        <h1>For Membership</h1>
+        <p>
+          <FontAwesomeIcon
+            icon={faPhone}
+            className="franIcon"
+          ></FontAwesomeIcon>
+          9742212700
+        </p>
+      </div>
     </div>
   );
 };

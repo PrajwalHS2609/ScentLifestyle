@@ -1,6 +1,4 @@
 import React from "react";
-import SahakarLocMapHead from "./SahakarLocMapHead";
-import SahakarNagarMap from "./SahakarNagarMap";
 import LocationMap from "../../LocationMap/LocationMap";
 
 const SahakarLocMap = () => {
