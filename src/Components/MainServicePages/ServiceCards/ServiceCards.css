@@ -222,10 +222,10 @@
     font-size: 90%;
   }
 }
-@media screen and (max-width: 990px) and (min-width: 600px) {
+@media screen and (min-width: 768px) {
   .serviceCardContainer {
     /* border: solid red; */
-    height: 250vh;
+    height: 100%;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -236,9 +236,9 @@
   .serviceCardMain {
     /* border: solid yellow; */
     position: relative;
-    width: 45%;
+    width: 40%;
     height: 460px;
-    margin: 10px;
+    margin: 30px;
   }
   .serviceCardWrapper > img {
     position: static;
@@ -286,8 +286,120 @@
   .respServiceCardPara > p {
     font-size: 90%;
   }
+
 }
-@media screen and (max-width: 1200px) and (min-width: 990px) {
+@media screen and (min-width: 990px) {
+  .respContainer{
+    display: none;
+   }
+    .serviceCardContainer {
+      /* border: solid blue; */
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      height: 100%;
+    }
+    .serviceCardMain {
+      /* border: solid; */
+      position: relative;
+      margin: 30px;width:400px ;height: 400px;
+    }
+    .serviceCardWrapper {
+      /* border: solid; */
+      height: 100%;
+      width: 100%;
+      margin: 15px;
+      position: relative;
+      overflow: hidden;
+    }
+    .serviceCardWrapper > img {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+      transition: 600ms ease-in-out;
+    }
+    .serviceCardWrapper:hover .serviceCardImg {
+      transform: scale(1.2);
+    }
+  
+    .serviceCardCover {
+      /* border: solid; */
+      height: 100%;
+      width: 100%;
+      background-color: var(--customRed);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      z-index: 2;
+      display: none;
+    }
+    .serviceCardWrapper:hover .serviceCardCover {
+      display: flex;
+    }
+    .serviceCardTxtContainer {
+      /* border: solid; */
+      width: 90%;
+      height: 90%;
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      flex-direction: column;
+      gap: 30px;
+      margin-top: 50px;
+    }
+    .serviceCardHead > h1 {
+      font-size: 30px;
+      color: white;
+    }
+  
+    .serviceCardPara {
+      font-weight: bold;
+      color: white;
+      text-align: justify;
+      word-spacing: 2px;
+    }
+    .serviceCardBut > a > button {
+      /* border: solid; */
+      width: 200px;
+      height: 50px;
+      border-radius: 10px;
+      background-color: white;
+      font-weight: bold;
+      border: none;
+      color: var(--customRed);
+    }
+    .serviceGoto {
+      border: 2px whitesmoke solid;
+      display: flex;
+      width: 80%;
+      height: 50px;
+      justify-content: space-between;
+      align-items: center;
+      position: absolute;
+      z-index: 3;
+      bottom: -40px;
+      left: 45px;
+      background-color: white;
+    }
+    .goTo1 {
+      margin-left: 20px;
+    }
+    .goTo1 > h1 {
+      color: var(--customRed);
+      font-size: 20px;
+    }
+    .goTo2 {
+      margin-right: 20px;
+    }
+}
+@media screen and (min-width: 1200px) {
+ .respContainer{
+  display: none;
+ }
   .serviceCardContainer {
     /* border: solid blue; */
     width: 100%;
@@ -295,16 +407,17 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    height: 250vh;
+    height: 100%;
   }
   .serviceCardMain {
     /* border: solid; */
     position: relative;
+    margin: 30px;width:400px ;height: 400px;
   }
   .serviceCardWrapper {
     /* border: solid; */
-    height: 450px;
-    width: 450px;
+    height: 100%;
+    width: 100%;
     margin: 15px;
     position: relative;
     overflow: hidden;
@@ -371,117 +484,12 @@
     border: 2px whitesmoke solid;
     display: flex;
     width: 80%;
-    height: 60px;
-    justify-content: space-between;
-    align-items: center;
-    position: absolute;
-    z-index: 3;
-    bottom: -20px;
-    left: 45px;
-    background-color: white;
-  }
-  .goTo1 {
-    margin-left: 20px;
-  }
-  .goTo1 > h1 {
-    color: var(--customRed);
-    font-size: 20px;
-  }
-  .goTo2 {
-    margin-right: 20px;
-  }
-
-}
-@media screen and (max-width:1440px) and (min-width:1200px) {
-  .serviceCardContainer {
-    /* border: solid blue; */
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    height: 210vh;
-  }
-  .serviceCardMain {
-    /* border: solid; */
-    position: relative;
-  }
-  .serviceCardWrapper {
-    /* border: solid; */
-    height: 450px;
-    width: 450px;
-    margin: 15px;
-    position: relative;
-    overflow: hidden;
-  }
-  .serviceCardWrapper > img {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    transition: 600ms ease-in-out;
-  }
-  .serviceCardWrapper:hover .serviceCardImg {
-    transform: scale(1.2);
-  }
-  
-  .serviceCardCover {
-    /* border: solid; */
-    height: 100%;
-    width: 100%;
-    background-color: var(--customRed);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    z-index: 2;
-    display: none;
-  }
-  .serviceCardWrapper:hover .serviceCardCover {
-    display: flex;
-  }
-  .serviceCardTxtContainer {
-    /* border: solid; */
-    width: 90%;
-    height: 90%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-direction: column;
-    gap: 30px;
-    margin-top: 50px;
-  }
-  .serviceCardHead > h1 {
-    font-size: 30px;
-    color: white;
-  }
-  
-  .serviceCardPara {
-    font-weight: bold;
-    color: white;
-    text-align: justify;
-    word-spacing: 2px;
-  }
-  .serviceCardBut > a > button {
-    /* border: solid; */
-    width: 200px;
     height: 50px;
-    border-radius: 10px;
-    background-color: white;
-    font-weight: bold;
-    border: none;
-    color: var(--customRed);
-  }
-  .serviceGoto {
-    border: 2px whitesmoke solid;
-    display: flex;
-    width: 80%;
-    height: 60px;
     justify-content: space-between;
     align-items: center;
     position: absolute;
     z-index: 3;
-    bottom: -20px;
+    bottom: -35px;
     left: 45px;
     background-color: white;
   }
@@ -495,6 +503,5 @@
   .goTo2 {
     margin-right: 20px;
   }
-
-  
 }
+

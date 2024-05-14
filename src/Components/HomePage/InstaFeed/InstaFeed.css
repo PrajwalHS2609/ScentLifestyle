@@ -168,7 +168,7 @@
     text-decoration: underline;
   }
   .instaContent4 {
-    /* border: solid blue; */
+    border: solid blue;
     height: 100%;
     width: 90%;
     display: flex;

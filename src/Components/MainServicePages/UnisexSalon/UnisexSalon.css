@@ -76,10 +76,10 @@
   }
 }
 
-@media screen and (max-width: 990px) and (min-width: 600px) {
+@media screen and (min-width: 768px) {
   .unisexSalonContainer {
     /* border: solid red; */
-    height: 90vh;
+    height: 100%;
     width: 100%;
     margin-top: 50px;
   }
@@ -104,10 +104,10 @@
     font-size: 100%;
   }
 }
-@media screen and (max-width: 1200px) and (min-width: 990px) {
+@media screen and (min-width: 1200px) {
   .unisexSalonContainer {
     /* border: solid red; */
-    height: 100vh;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
