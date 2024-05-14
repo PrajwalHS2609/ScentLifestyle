@@ -282,7 +282,7 @@
   .beautyCardContainer {
     /* border: solid blue; */
     width: 100%;
-    height: 140vh;
+    height: 155vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -291,8 +291,116 @@
   .beautyCardMain {
     /* border: solid red; */
     position: relative;
-    width: 40%;
-    margin: 20px;
+    width: 30%;
+    margin: 30px;
+  }
+  .beautyCardWrapper {
+    /* border: solid; */
+    height: 320px;
+    width: 100%;
+    margin: 0px;
+    position: relative;
+    overflow: hidden;
+  }
+  .beautyCardWrapper > img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: 600ms ease-in-out;
+  }
+  .beautyCardWrapper:hover .beautyCardImg {
+    transform: scale(1.2);
+  }
+
+  .beautyCardCover {
+    /* border: solid green; */
+    height: 100%;
+    width: 100%;
+    background-color: var(--customRed);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+    display: none;
+  }
+  .beautyCardWrapper:hover .beautyCardCover {
+    display: flex;
+  }
+  .beautyCardTxtContainer {
+    /* border: solid; */
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 50px;
+  }
+  .beautyCardHead > h1 {
+    font-size: 150%;
+    color: white;
+  }
+
+  .beautyCardPara {
+    font-weight: bold;
+    color: white;
+    text-align: justify;
+  }
+  .beautyCardPara > p {
+    font-size: 90%;
+  }
+  .beautyCardBut > a > button {
+    /* border: solid; */
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: white;
+    font-weight: bold;
+    border: none;
+    color: var(--customRed);
+  }
+  .beautyGoto {
+    border: 2px whitesmoke solid;
+    display: flex;
+    width: 90%;
+    height: 40px;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    z-index: 3;
+    bottom: -15px;
+    left: 20px;
+    background-color: white;
+  }
+  .goTo1 {
+    margin-left: 20px;
+  }
+  .goTo1 > h1 {
+    color: var(--customRed);
+    font-size: 20px;
+  }
+  .goTo2 {
+    margin-right: 20px;
+  }
+}
+@media only screen and (max-width: 1440px) and (min-width: 1200px) {
+  .beautyCardContainer {
+    /* border: solid blue; */
+    width: 100%;
+    height: 160vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .beautyCardMain {
+    /* border: solid red; */
+    position: relative;
+    width: 30%;
+    margin: 30px;
   }
   .beautyCardWrapper {
     /* border: solid; */

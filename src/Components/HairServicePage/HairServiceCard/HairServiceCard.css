@@ -349,7 +349,8 @@
   .hairCardMain {
     /* border: solid red; */
     position: relative;
-    width: 35%;height: 300px;
+    width: 35%;
+    height: 300px;
   }
   .hairCardWrapper {
     /* border: solid; */
@@ -427,7 +428,7 @@
     align-items: center;
     position: absolute;
     z-index: 3;
-    bottom: -30px;
+    bottom: -20px;
     left: 20px;
     background-color: white;
   }
@@ -533,7 +534,7 @@
     align-items: center;
     position: absolute;
     z-index: 3;
-    bottom: -30px;
+    bottom: -25px;
     left: 25px;
     background-color: white;
   }
