@@ -146,7 +146,7 @@
   }
   .salonContent2 {
     /* border: solid; */
-    width: 100%;
+    width: 70%;
     height: 120px;
   }
   .salonContent3 {
@@ -161,5 +161,73 @@
   }
   .salonContent3 > p {
     font-size: 100%;
+  }
+}
+@media screen and (max-width: 1200px) and (min-width: 990px) {
+  .salonContainer {
+    /* border: solid green; */
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .salonContent1 {
+    /* border: solid; */
+    width: 500px;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+  }
+  .salonContent1 > p {
+    font-size: 30px;
+    text-align: center;
+    color: var(--customRed);
+  }
+  .salonUnderline {
+    border: 2px solid;
+    color: var(--customRed);
+    width: 100px;
+  }
+  .salonContent2 {
+    /* border: solid; */
+    width: 500px;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .salonItem {
+    border: solid;
+    color: var(--customRed);
+    border-radius: 50%;
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .salonItem > p {
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .salonContent3 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 140px;
+    cursor: pointer;
+  }
+  .salonContent3 > p {
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    text-decoration: underline;
+    cursor: pointer;
   }
 }

@@ -44,7 +44,7 @@ const About = () => {
           </div>
           <div className="aboutContentTxt3">
             <pre>
-              <Link to={"/about"}> MORE ABOUT US </Link>
+              <Link to={"/about"}>MORE ABOUT US</Link>
             </pre>
             <FontAwesomeIcon
               icon={faAngleRight}

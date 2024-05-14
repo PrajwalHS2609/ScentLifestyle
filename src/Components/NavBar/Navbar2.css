@@ -357,8 +357,8 @@ a {
     height: 100%;
   }
   .menuContainer {
-    /* border: solid black; */
-    width: 70%;
+    /* border: solid red; */
+    width: 80%;
     height: 100%;
     display: flex;
     justify-content: center;

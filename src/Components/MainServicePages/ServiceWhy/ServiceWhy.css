@@ -195,3 +195,64 @@
     font-weight: bold;
   }
 }
+@media screen and (max-width: 1440px) and (min-width: 1200px) {
+  .serviceWhyContainer {
+    /* border: solid red; */
+    height: 120vh;
+    width: 90%;
+    margin-left: 5%;
+  }
+  .serviceWhyHeadContainer {
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 10%;
+  }
+  .serviceWhyUnderline {
+    border: 2px solid;
+    color: var(--customRed);
+    width: 5%;
+  }
+  .serviceWhyMainContainer {
+    /* border: solid green; */
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .serviceWhyCardContainer {
+    /* border: solid; */
+    height: 180px;
+    width: 180px;
+    margin: 1%;
+  }
+  .serviceWhyCardContent1 {
+    /* border: solid green; */
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .serviceWhyCardContent1 > img {
+    width: 50%;
+    height: 50%;
+  }
+
+  .serviceWhyCardContent2 {
+    /* border: solid blue; */
+    height: 20%;
+  }
+  .serviceWhyCardContent2 > p {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100%;
+    font-weight: bold;
+  }
+}

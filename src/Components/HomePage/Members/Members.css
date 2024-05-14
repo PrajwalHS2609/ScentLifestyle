@@ -171,7 +171,7 @@
 @media screen and (max-width: 1200px) and (min-width: 990px) {
   .membersMainContainer {
     /* border: solid; */
-    height: 80vh;
+    height: 90vh;
     margin-top: 100px;
     display: flex;
     justify-content: center;
@@ -248,7 +248,7 @@
 @media screen and (max-width:1440px) and (min-width: 1200px) {
   .membersMainContainer {
     /* border: solid; */
-    height: 60vh;
+    height: 90vh;
     margin-top: 100px;
     display: flex;
     justify-content: center;

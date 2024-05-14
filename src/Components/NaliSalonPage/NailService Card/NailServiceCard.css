@@ -285,13 +285,13 @@
 }
 @media only screen and (max-width: 1200px) and (min-width: 990px) {
   .nailCardContainer {
-    /* border: solid blue; */
+    border: solid blue;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    height: 400vh;
+    height: 500vh;
   }
   .nailCardMain {
     /* border: solid red; */
