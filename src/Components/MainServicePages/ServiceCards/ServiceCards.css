@@ -295,18 +295,16 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    height: 200vh;
+    height: 250vh;
   }
   .serviceCardMain {
     /* border: solid; */
     position: relative;
-    height: 50vh;
-    margin: 10px;
   }
   .serviceCardWrapper {
-    /* border: solid brown; */
-    height: 350px;
-    width: 350px;
+    /* border: solid; */
+    height: 450px;
+    width: 450px;
     margin: 15px;
     position: relative;
     overflow: hidden;
@@ -349,7 +347,7 @@
     margin-top: 50px;
   }
   .serviceCardHead > h1 {
-    font-size: 20px;
+    font-size: 30px;
     color: white;
   }
 
@@ -357,7 +355,7 @@
     font-weight: bold;
     color: white;
     text-align: justify;
-    word-spacing: 0px;
+    word-spacing: 2px;
   }
   .serviceCardBut > a > button {
     /* border: solid; */
@@ -373,13 +371,12 @@
     border: 2px whitesmoke solid;
     display: flex;
     width: 80%;
-    height: 40px;
+    height: 60px;
     justify-content: space-between;
     align-items: center;
     position: absolute;
-    text-align: center;
     z-index: 3;
-    bottom: -5px;
+    bottom: -20px;
     left: 45px;
     background-color: white;
   }
@@ -393,27 +390,26 @@
   .goTo2 {
     margin-right: 20px;
   }
+
 }
-@media screen and (max-width: 1440px) and (min-width: 1200px) {
+@media screen and (max-width:1440px) and (min-width:1200px) {
   .serviceCardContainer {
-    /* border: solid blue; */
+    border: solid blue;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    height: 160vh;
+    height: 210vh;
   }
   .serviceCardMain {
     /* border: solid; */
     position: relative;
-    height: 52vh;
-    margin: 10px;
   }
   .serviceCardWrapper {
-    /* border: solid brown; */
-    height: 350px;
-    width: 350px;
+    /* border: solid; */
+    height: 450px;
+    width: 450px;
     margin: 15px;
     position: relative;
     overflow: hidden;
@@ -428,7 +424,7 @@
   .serviceCardWrapper:hover .serviceCardImg {
     transform: scale(1.2);
   }
-
+  
   .serviceCardCover {
     /* border: solid; */
     height: 100%;
@@ -456,15 +452,15 @@
     margin-top: 50px;
   }
   .serviceCardHead > h1 {
-    font-size: 20px;
+    font-size: 30px;
     color: white;
   }
-
+  
   .serviceCardPara {
     font-weight: bold;
     color: white;
     text-align: justify;
-    word-spacing: 0px;
+    word-spacing: 2px;
   }
   .serviceCardBut > a > button {
     /* border: solid; */
@@ -480,13 +476,12 @@
     border: 2px whitesmoke solid;
     display: flex;
     width: 80%;
-    height: 40px;
+    height: 60px;
     justify-content: space-between;
     align-items: center;
     position: absolute;
-    text-align: center;
     z-index: 3;
-    bottom: 0px;
+    bottom: -20px;
     left: 45px;
     background-color: white;
   }
@@ -500,4 +495,6 @@
   .goTo2 {
     margin-right: 20px;
   }
+
+  
 }
