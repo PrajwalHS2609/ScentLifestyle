@@ -394,7 +394,7 @@
 }
 @media screen and (max-width:1440px) and (min-width:1200px) {
   .serviceCardContainer {
-    border: solid blue;
+    /* border: solid blue; */
     width: 100%;
     display: flex;
     justify-content: center;
