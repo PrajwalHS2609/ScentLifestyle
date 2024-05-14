@@ -30,7 +30,8 @@
   align-items: center;
 }
 .secondMemberHeading > h1 {
-  font-size: 60px;color: black;
+  font-size: 40px;
+  color: black;
 }
 .secondMemberHeading > h1 > span {
   color: var(--customRed);
@@ -82,7 +83,8 @@
     width: 100%;
   }
   .secondMemberHeading > h1 {
-    font-size: 300%;color: black;
+    font-size: 300%;
+    color: black;
   }
 
   .memberSlideContainer {
@@ -198,7 +200,7 @@
     align-items: center;
   }
   .secondMemberHeading > h1 {
-    font-size: 60px;
+    font-size: 40px;
     color: black;
   }
   .secondMemberHeading > h1 > span {
@@ -245,7 +247,7 @@
     font-size: 18px;
   }
 }
-@media screen and (max-width:1440px) and (min-width: 1200px) {
+@media screen and (max-width: 1440px) and (min-width: 1200px) {
   .membersMainContainer {
     /* border: solid; */
     height: 90vh;
@@ -275,7 +277,7 @@
     align-items: center;
   }
   .secondMemberHeading > h1 {
-    font-size: 60px;
+    font-size: 40px;
     color: black;
   }
   .secondMemberHeading > h1 > span {

@@ -94,7 +94,7 @@ const HelpNearYouCards = () => {
           city="Jakkur"
           image={Jakkur}
           no=" 9742212700"
-          link="/jakkur"
+          link="/jakkuru"
         />
         <HelpCard
           city="Uptown Square"

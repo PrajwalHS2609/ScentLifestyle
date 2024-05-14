@@ -1,6 +1,6 @@
 import React from "react";
 import LocationMap from "../../LocationMap/LocationMap";
-
+import "./SahakarLocMap.css"
 const SahakarLocMap = () => {
   return (
     <div className="sahakarMapLocContainer">

@@ -38,7 +38,6 @@ const LavellelLocPage = () => {
         <OurSalon />
         <Partners />
         <InstaFeed />
-        <LavellelLocMap />
         <TextLocReviews />
         <LocEnquire />
         <LavellelReadLoc/>
