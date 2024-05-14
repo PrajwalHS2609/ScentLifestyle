@@ -28,7 +28,7 @@ const JakkuruLocPage = () => {
       <LocationArrow leftLink={"/lavellel"} rightLink={"/uptown"} />
       <div className="jakkuruLocPageContent">
         <LocationHead
-          loc="Jakkur"
+          loc="Jakkuru"
           phone="+91-9742212700"
           address="Dr.Shivaram Karanth Nagar, Jakkuru, Bengaluru, Karnataka 560077"
           map={<JakkuruLocMap/>}
