@@ -68,7 +68,7 @@ const LastComp = () => {
             <div className="lastTxt">
               <Link to={"/salon-membership"}>Membership</Link>
             </div>
-            <div className="lastTxt">Shops</div>
+            <div className="lastTxt"><Link to={"/shop"}>Shops</Link></div>
             <div className="lastTxt">
               <Link to={"/franchise"}>Franchise</Link>
             </div>
