@@ -1,5 +1,4 @@
 import React from "react";
-import NavBg from "./NavBg/NavBg";
 import SpaImg from "./SpaImg/SpaImg";
 import Members from "./../HomePage/Members/Members";
 import OurSalon from "./../HomePage/OurSalon/OurSalon";
@@ -11,6 +10,7 @@ import SpaRead from "./SpaRead/SpaRead";
 import Partners from "../HomePage/Partners/Partners";
 import InstaFeed from "../HomePage/InstaFeed/InstaFeed";
 import { Helmet } from "react-helmet";
+import NavBg from "../NavBg/NavBg";
 
 const SpaPages = () => {
   return (
@@ -22,7 +22,7 @@ const SpaPages = () => {
         </title>
         <meta name="Indulge in premium SCENT spa services in Bangalore. Explore our luxurious body massages and rejuvenate your mind and body. Book now for ultimate relaxation!" content="Scent application" />
       </Helmet>
-      <NavBg />
+      <NavBg/>
       <SpaImg />
       <Navi5 />
       <SpaServiceCardContain />

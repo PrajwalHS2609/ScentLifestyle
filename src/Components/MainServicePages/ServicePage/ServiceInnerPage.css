@@ -1,7 +1,7 @@
 :root {
   --customRed: #cc2228;
 }
-.navbg {
+.navbgService {
   background-color: black;
   height: 100px;
 }
@@ -75,7 +75,7 @@
 }
 
 @media screen and (max-width: 600px) {
-  .navbg {
+  .navbgService{
     background-color: black;
     height: 110px;
     width: 100%;
@@ -98,4 +98,10 @@
  .imgCover>video{
   object-position: 0px;
  }
+}
+@media screen and (max-width:1440px) and (min-width:1200px) {
+  .navbgService {
+    background-color: black;
+    height: 120px;
+  }
 }

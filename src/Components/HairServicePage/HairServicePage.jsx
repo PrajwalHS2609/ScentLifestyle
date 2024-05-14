@@ -4,7 +4,6 @@ import HairServiceCardContain from "./HairServiceCard/HairServiceCardContain";
 import HairSalon from "./HairSalon/HairSalon";
 import LastComp from "../LastComp/LastComp";
 import HairServiceImg from "./HairServiceImg/HairServiceImg";
-import NavBg2 from "./NavBg2/NavBg2";
 import HairRead from "./HairRead/HairRead";
 import ServiceWhy from "./../MainServicePages/ServiceWhy/ServiceWhy";
 import HelpNearYou from "../Help/HelpNearYou";
@@ -14,6 +13,7 @@ import Partners from "../HomePage/Partners/Partners";
 import InstaFeed from "../HomePage/InstaFeed/InstaFeed";
 import { Helmet } from "react-helmet";
 import TextLocReviews from "../LocationPage/TextLocReviews/TextLocReviews";
+import NavBg from "../NavBg/NavBg";
 const HairServicePage = () => {
   return (
     <div className="hairMain">
@@ -27,7 +27,7 @@ const HairServicePage = () => {
           content="Scent application"
         />
       </Helmet>
-      <NavBg2 />
+      <NavBg />
       <HairServiceImg />
       <Navi1 />
       <HairServiceCardContain />

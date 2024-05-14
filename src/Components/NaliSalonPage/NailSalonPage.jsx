@@ -1,5 +1,4 @@
 import React from "react";
-import NavBg from "../MainServicePages/ServicePage/NavBg";
 import NailSalonImg from "./NailSalonImg/NailSalonImg";
 // import NailSalonService from './NailSalonCard/NailSalonService'
 import LastComp from "../LastComp/LastComp";
@@ -14,6 +13,7 @@ import InstaFeed from "../HomePage/InstaFeed/InstaFeed";
 import Partners from "../HomePage/Partners/Partners";
 import { Helmet } from "react-helmet";
 import TextLocReviews from './../LocationPage/TextLocReviews/TextLocReviews';
+import NavBg from "./../NavBg/NavBg";
 
 const NailSalonPage = () => {
   return (
@@ -24,7 +24,7 @@ const NailSalonPage = () => {
         SCENT Nail Services in Bangalore -  Nail arts Salon Near Me</title>
         <meta name="Discover the best nail salon for women in Bangalore! Treat yourself to luxurious nail extensions, nail art, and polish services. Book your appointment today for flawless nails!" content="Scent application" />
       </Helmet>
-      <NavBg />
+<NavBg/>
       <NailSalonImg />
       <Navi7/>
       <NailServiceCardContain />

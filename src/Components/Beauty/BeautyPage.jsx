@@ -1,5 +1,4 @@
 import React from "react";
-import NavBg from "./NavBg/NavBg";
 import BeautyImg from "./BeautyImg/BeautyImg";
 import Members from "./../HomePage/Members/Members";
 import OurSalon from "./../HomePage/OurSalon/OurSalon";
@@ -13,6 +12,7 @@ import Partners from "../HomePage/Partners/Partners";
 import InstaFeed from "../HomePage/InstaFeed/InstaFeed";
 import { Helmet } from "react-helmet";
 import TextLocReviews from "../LocationPage/TextLocReviews/TextLocReviews";
+import NavBg from "../NavBg/NavBg";
 
 const BeautyPage = () => {
   return (
@@ -36,7 +36,7 @@ const BeautyPage = () => {
       <Partners />
       <InstaFeed />
       <HelpNearYou />
-      <TextLocReviews/>
+      <TextLocReviews />
       <ServiceWhy />
       <BeautyRead />
       <LastComp />

@@ -1,5 +1,4 @@
 import React from "react";
-import NavBg from "./NavBg/NavBg.jsx";
 import FacialImg from "./FacialImg/FacialImg";
 import FacialServiceCardContain from "./FacialCards/FacialServiceCardContain.jsx";
 import Navi3 from "./Navi3/Navi3.jsx";
@@ -13,6 +12,7 @@ import Partners from "../HomePage/Partners/Partners.jsx";
 import InstaFeed from "../HomePage/InstaFeed/InstaFeed.jsx";
 import { Helmet } from "react-helmet";
 import TextLocReviews from "../LocationPage/TextLocReviews/TextLocReviews.jsx";
+import NavBg from "../NavBg/NavBg.jsx";
 const FacialPage = () => {
   return (
     <div>

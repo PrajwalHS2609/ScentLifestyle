@@ -1,10 +1,11 @@
 import React from "react";
 import "./AboutMyselfPage.css";
+import { Link } from "react-router-dom";
 
 const AboutMyselfContact = () => {
   return (
     <div className="aboutMyselfContactContainer">
-      <h1>why wait? contact us now!</h1>
+      <h1><Link to={"/contact-us"}>why wait? contact us now!</Link></h1>
     </div>
   );
 };

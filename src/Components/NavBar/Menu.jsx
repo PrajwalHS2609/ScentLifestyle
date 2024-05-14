@@ -85,7 +85,9 @@ const Menu = () => {
         <li>
           <Link to={"/franchise"}>Franchise</Link>
         </li>
-        <li><Link to={"/contact-us"}>Contact us</Link></li>
+        <li>
+          <Link to={"/contact-us"}>Contact us</Link>
+        </li>
       </ul>
       <ul onClick={showSideBar} className="mainMenu">
         <FontAwesomeIcon icon={faBars} className="hamIcon"></FontAwesomeIcon>
@@ -171,7 +173,9 @@ const Menu = () => {
           </ul>
           <ul>
             <h1>
-              <Link onClick={hideSideBar} to={"/shop"}>Shops</Link>{" "}
+              <Link onClick={hideSideBar} to={"/shop"}>
+                Shops
+              </Link>{" "}
             </h1>
           </ul>
           <ul>
@@ -182,13 +186,17 @@ const Menu = () => {
             </h1>
           </ul>
           <ul>
-            <h1>Contact Us</h1>
+            <h1>
+              <Link onClick={hideSideBar} to={"/contact-us"}>
+                Contact Us
+              </Link>
+            </h1>
           </ul>
           <ul>
             <h1></h1>
             <h1></h1>
             <h1></h1>
-            <h2></h2>
+            <h1></h1>
           </ul>
         </div>
       </div>

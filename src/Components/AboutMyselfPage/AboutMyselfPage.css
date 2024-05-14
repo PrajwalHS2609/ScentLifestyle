@@ -11,9 +11,7 @@
   justify-content: center;
   flex-direction: column;
 }
-.aboutMyselfImgContainer {
-  /* border: solid green; */
-}
+
 .aboutMyselfTxtContainer {
   /* border: solid; */
   width: 90%;
@@ -25,14 +23,20 @@
   font-size: 16px;
 }
 .aboutMyselfContactContainer {
-  /* border: solid; */
-  width: 50%;
+  border: solid;
+  width: 30%;
   border-radius: 10px;
   height: 70px;
   display: flex;
   margin-top: 6%;
   justify-content: center;
   align-items: center;
+  color:#CC2228 ;
+
+}
+.aboutMyselfContactContainer>h1>a{
+  text-decoration: none;
+  color:#CC2228 ;
 }
 @media screen and (max-width: 600px) {
   .abtnavbg {
@@ -71,7 +75,7 @@
     font-size: 100%;
   }
   .aboutMyselfContactContainer {
-    /* border: solid; */
+    border: solid;
     width: 90%;
     border-radius: 10px;
     height: 70px;
@@ -80,8 +84,9 @@
     justify-content: center;
     align-items: center;
   }
-  .aboutMyselfContactContainer > h1 {
-    font-size: 150%;
+  .aboutMyselfContactContainer>h1>a{
+    text-decoration: none;
+    color:#CC2228 ;
   }
 }
 @media screen and (max-width: 990px) and (min-width: 600px) {
@@ -130,8 +135,9 @@
     justify-content: center;
     align-items: center;
   }
-  .aboutMyselfContactContainer > h1 {
-    font-size: 150%;
+  .aboutMyselfContactContainer>h1>a{
+    text-decoration: none;
+    color:#CC2228 ;
   }
 }
 @media screen and (max-width: 1200px) and (min-width: 990px) {
@@ -144,7 +150,8 @@
   .aboutMyselfPageContainer {
     /* border: solid red; */
     display: flex;
-    align-items: center;width: 100%;
+    align-items: center;
+    width: 100%;
     justify-content: center;
     flex-direction: column;
   }
@@ -162,13 +169,26 @@
     font-size: 130%;
   }
   .aboutMyselfContactContainer {
-    border: solid black;
-    width: 50%;
+    border: solid;
+    width: 40%;
     border-radius: 10px;
     height: 70px;
     display: flex;
     margin-top: 6%;
     justify-content: center;
     align-items: center;
+    color:#CC2228 ;
+
+  }
+  .aboutMyselfContactContainer>h1>a{
+    text-decoration: none;
+    color:#CC2228 ;
+  }
+}
+@media screen and (max-width: 1440px) and (min-width: 1200px) {
+  .abtnavbg {
+    background-color: black;
+    height: 120px;
+    width: 100%;
   }
 }

@@ -1,5 +1,4 @@
 import React from "react";
-import NavBg from "./NavBg/NavBg";
 import LashesImg from "./LashesImg/LashesImg";
 import LastComp from "../LastComp/LastComp";
 import HelpNearYou from "../Help/HelpNearYou";
@@ -13,6 +12,7 @@ import Partners from "../HomePage/Partners/Partners";
 import InstaFeed from "../HomePage/InstaFeed/InstaFeed";
 import { Helmet } from "react-helmet";
 import TextLocReviews from "./../LocationPage/TextLocReviews/TextLocReviews";
+import NavBg from "../NavBg/NavBg";
 
 const LashesPage = () => {
   return (
@@ -27,7 +27,7 @@ const LashesPage = () => {
           content="Scent application"
         />
       </Helmet>
-      <NavBg />
+      <NavBg/>
       <LashesImg />
       <Navi6 />
       <LashesServiceCardContain />
@@ -36,7 +36,6 @@ const LashesPage = () => {
       <Partners />
       <InstaFeed />
       <HelpNearYou />
-      <TextLocReviews />
       <TextLocReviews />
       <ServiceWhy />
       <LashesRead />

@@ -1,4 +1,1 @@
 onclick on submit form the page should be refreshed
-make location responsive 
-add location navi to all locations
-

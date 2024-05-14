@@ -1,20 +1,20 @@
-import React from 'react'
-import AboutImg from './AboutImg'
-import AboutTxt from './AboutTxt'
-import "./AboutPage.css"
-import AboutNavBg from './AboutNavBg'
-import LastComp from '../LastComp/LastComp'
-import AboutPageHead from './AboutPageHead'
+import React from "react";
+import AboutImg from "./AboutImg";
+import AboutTxt from "./AboutTxt";
+import "./AboutPage.css";
+import LastComp from "../LastComp/LastComp";
+import AboutPageHead from "./AboutPageHead";
+import NavBg from "../NavBg/NavBg";
 const AboutPage = () => {
   return (
-    <div className='aboutPgContainer'>
-      <AboutNavBg/>
-      <AboutImg/>
-      <AboutPageHead/>
-      <AboutTxt/>
-      <LastComp/>
+    <div className="aboutPgContainer">
+      <NavBg />
+      <AboutImg />
+      <AboutPageHead />
+      <AboutTxt />
+      <LastComp />
     </div>
-  )
-}
+  );
+};
 
-export default AboutPage
+export default AboutPage;

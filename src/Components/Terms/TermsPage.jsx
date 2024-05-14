@@ -4,13 +4,13 @@ import Return from "./Return/Return";
 import Payment from "./Payment/Payment";
 import Pricing from "./Pricing/Pricing";
 import Shipping from "./Shipping/Shipping";
-import NavBgTerms from "./NavBgTerms2/NavBg2Terms";
 import LastComp from "./../LastComp/LastComp";
+import NavBg from "../NavBg/NavBg";
 
 const TermsPage = () => {
   return (
     <div>
-      <NavBgTerms />
+      <NavBg/>
       <Return />
       <Cancel />
       <Payment />

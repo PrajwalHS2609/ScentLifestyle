@@ -2,14 +2,14 @@ import React from "react";
 import StyleCrewHead from "./StyleCrewHead";
 import StyleCrewPara from "./StyleCrewPara";
 import StyleCrewImg from "./StyleCrewImg";
-import StyleCrewNavBg from "./StyleCrewNavBg";
 import "./StyleCrewPage.css";
 import LastComp from "../LastComp/LastComp";
+import NavBg from "../NavBg/NavBg";
 
 const StyleCrewPage = () => {
   return (
     <div className="styleCrewPageContainer">
-      <StyleCrewNavBg />
+      <NavBg />
       <StyleCrewHead />
       <StyleCrewPara />
       <StyleCrewImg />

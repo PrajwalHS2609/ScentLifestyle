@@ -1,0 +1,33 @@
+.navBg {
+  background-color: black;
+  height: 100px;
+}
+
+@media screen and (max-width: 600px) {
+  .navBg {
+    background-color: black;
+    height: 100px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 990px) and (min-width: 600px) {
+  .navBg {
+    background-color: black;
+    height: 100px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1200px) and (min-width: 990px) {
+  .navBg {
+    background-color: black;
+    height: 100px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1440px) and (min-width: 1200px) {
+  .navBg {
+    background-color: black;
+    height: 120px;
+  }
+}
