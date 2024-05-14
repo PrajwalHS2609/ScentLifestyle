@@ -295,12 +295,12 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    height: 210vh;
+    height: 200vh;
   }
   .serviceCardMain {
     /* border: solid; */
     position: relative;
-    height: 60vh;
+    height: 50vh;
     margin: 10px;
   }
   .serviceCardWrapper {
@@ -377,9 +377,10 @@
     justify-content: space-between;
     align-items: center;
     position: absolute;
+    text-align: center;
     z-index: 3;
-    bottom: 70px;
-    left: 40px;
+    bottom: -5px;
+    left: 45px;
     background-color: white;
   }
   .goTo1 {
@@ -401,7 +402,7 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    height: 130vh;
+    height: 160vh;
   }
   .serviceCardMain {
     /* border: solid; */
@@ -483,9 +484,10 @@
     justify-content: space-between;
     align-items: center;
     position: absolute;
+    text-align: center;
     z-index: 3;
-    bottom: 10px;
-    left: 40px;
+    bottom: 0px;
+    left: 45px;
     background-color: white;
   }
   .goTo1 {

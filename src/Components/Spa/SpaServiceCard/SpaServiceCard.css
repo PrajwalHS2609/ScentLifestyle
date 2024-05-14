@@ -288,7 +288,7 @@
   .spaCardContainer {
     /* border: solid blue; */
     width: 100%;
-    height: 350vh;
+    height: 400vh;
     display: flex;
     justify-content: center;
     align-items: center;
