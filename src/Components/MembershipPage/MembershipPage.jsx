@@ -26,11 +26,11 @@ const MembershipPage = () => {
       <MembershipImg />
       <MembershipHead />
       <MembershipPara />
+      <MembershipPrice />
       <Members />
       <OurSalon />
       <Partners />
       <InstaFeed />
-      <MembershipPrice />
       <LastComp />
     </div>
   );

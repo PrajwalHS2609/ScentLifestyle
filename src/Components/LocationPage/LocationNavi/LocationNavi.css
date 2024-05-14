@@ -66,3 +66,9 @@
     font-weight: lighter;
   }
 }
+@media screen and (max-width:1440px) and (min-width:1200px) {
+  .locNaviContent > h1 {
+    font-size: 25px;
+    font-weight: lighter;
+  }
+}

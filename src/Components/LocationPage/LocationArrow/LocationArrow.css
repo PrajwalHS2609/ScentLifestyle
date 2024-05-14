@@ -88,3 +88,15 @@
     font-size: 200%;
   }
 }
+@media screen and (max-width:1440px) and (min-width:1200px) {
+  .leftArrow,
+  .rightArrow {
+    border: solid;
+    display: flex;
+    width: 4%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+  }
+}

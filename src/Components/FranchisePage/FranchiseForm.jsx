@@ -30,6 +30,8 @@ const FranchiseForm = () => {
     //   detail,
     // };
     // console.log(payload);
+    window.location.assign("/franchise");
+
   };
   return (
     <div className="franchiseFormContainer">
@@ -112,7 +114,7 @@ const FranchiseForm = () => {
                 required
               />
             </tr>
-            <button className="sub">Submit</button>
+            <button className="sub" type="handlesubmit">Submit</button>
           </table>
         </fieldset>
       </form>

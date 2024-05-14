@@ -836,3 +836,9 @@ textarea::placeholder {
     align-items: center;
   }
 }
+@media screen and (max-width: 1440px) and (min-width: 1200px) {
+  .navbg {
+    background-color: black;
+    height: 120px;
+  }
+}

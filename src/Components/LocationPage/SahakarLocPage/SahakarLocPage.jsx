@@ -28,7 +28,7 @@ const SahakarLocPage = () => {
       <LocationArrow leftLink={"/jp"} rightLink={"/lavellel"} />
       <div className="sahakarLocPageContent">
         <LocationHead
-          loc="Sahakar nagar"
+          loc="Sahakar Nagar"
           phone="+91-9740322700"
           address="F block, 325/8, 60 Feet Rd, Opp Axis Bank, Sahakar Nagar, Byatarayanapura, Bengaluru, Karnataka 560092"
           map={<SahakarLocMap/>}

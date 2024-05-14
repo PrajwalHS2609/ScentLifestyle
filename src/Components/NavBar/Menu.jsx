@@ -45,13 +45,13 @@ const Menu = () => {
           <div className="menuDrop" id="menudrop2">
             <Link to={"/hair-salon"}>
               <div className="dropItems" id="dropItem2">
-                <pre> Hair Salon</pre>
+                <pre> Hair</pre>
               </div>
             </Link>
 
             <Link to={"/nails-salon"}>
               <div className="dropItems" id="dropItem2">
-                <pre> Nails Salon</pre>
+                <pre> Nails</pre>
               </div>
             </Link>
             <Link to={"/facial"}>
@@ -123,14 +123,14 @@ const Menu = () => {
               <li>
                 <h2>
                   <Link onClick={hideSideBar} to={"/hair-salon"}>
-                    Hair Salon
+                    Hair 
                   </Link>
                 </h2>
               </li>
               <li>
                 <h2>
                   <Link onClick={hideSideBar} to={"/nails-salon"}>
-                    Nails Salon
+                    Nails 
                   </Link>
                 </h2>
               </li>
@@ -175,7 +175,7 @@ const Menu = () => {
             <h1>
               <Link onClick={hideSideBar} to={"/shop"}>
                 Shops
-              </Link>{" "}
+              </Link> 
             </h1>
           </ul>
           <ul>
