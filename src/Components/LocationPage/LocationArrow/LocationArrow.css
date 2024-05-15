@@ -93,10 +93,13 @@
   .rightArrow {
     border: solid;
     display: flex;
-    width: 4%;
+    width: 3%;
     height: 50%;
     justify-content: center;
     align-items: center;
     border-radius: 100%;
+  }
+  .arrowIcon {
+    font-size: 150%;
   }
 }

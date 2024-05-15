@@ -22,16 +22,14 @@ const SahakarLocPage = () => {
     <div className="sahakarLocPageContainer">
       <LocationNavBg />
       <LocationImg img={loc1} />
-      <LocationNavi
-      loc="Sahakar Nagar"
-      />
+      <LocationNavi loc="Sahakar Nagar" />
       <LocationArrow leftLink={"/jp"} rightLink={"/lavelle"} />
       <div className="sahakarLocPageContent">
         <LocationHead
           loc="Sahakar Nagar"
           phone="+91-9740322700"
           address="F block, 325/8, 60 Feet Rd, Opp Axis Bank, Sahakar Nagar, Byatarayanapura, Bengaluru, Karnataka 560092"
-          map={<SahakarLocMap/>}
+          map={<SahakarLocMap />}
         />
         <ServiceCardContain />
         <UnisexSalon />
@@ -39,9 +37,9 @@ const SahakarLocPage = () => {
         <OurSalon />
         <Partners />
         <InstaFeed />
-        <TextLocReviews/>
+        <TextLocReviews />
         <LocEnquire />
-        <SahakarReadLoc/>
+        <SahakarReadLoc />
       </div>
       <LastComp />
     </div>

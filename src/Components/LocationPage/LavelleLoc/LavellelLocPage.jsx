@@ -19,12 +19,12 @@ import LocationNavi from "../LocationNavi/LocationNavi";
 import LavellelReadLoc from "./LavellelReadLoc/LavellelReadLoc";
 const LavellelLocPage = () => {
   return (
-    <div className="sahakarLocPageContainer">
+    <div className="lavellelLocPageContainer">
       <LocationNavBg />
       <LocationImg img={loc2} />
       <LocationNavi loc="Lavelle Road"/>
       <LocationArrow leftLink={"/sahakar"} rightLink={"/jakkuru"} />
-      <div className="sahakarLocPageContent">
+      <div className="lavellelLocPageContent">
         <LocationHead
           loc="Lavelle Road"
           phone="+91-9740222700"
