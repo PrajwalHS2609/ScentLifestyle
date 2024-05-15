@@ -1,6 +1,5 @@
 import React from "react";
 import LastComp from "../LastComp/LastComp";
-import Navi from "./Navi/Navi";
 import BeardStyle from "./BeardStyling/BeardStyle";
 import BeardImgPara from "./BeardImg/BeardImg";
 import NavBg from "../NavBg/NavBg";
@@ -10,19 +9,20 @@ import OurSalon from "../HomePage/OurSalon/OurSalon";
 import Members from "../HomePage/Members/Members";
 import InstaFeed from "../HomePage/InstaFeed/InstaFeed";
 import TextLocReviews from "../LocationPage/TextLocReviews/TextLocReviews";
+import InnerNavi from "../InnerServicePage/InnerNavi/InnerNavi";
 
 const BeardStylingPage = () => {
   return (
     <div>
       <NavBg />
       <BeardImgPara />
-      <Navi />
+      <InnerNavi service="Hair " currService="Beard Styling" />
       <BeardStyle />
       <OurSalon />
-      <Members /> 
-      <InstaFeed/>
+      <Members />
+      <InstaFeed />
       <HelpNearYou />
-      <TextLocReviews/>
+      <TextLocReviews />
       <ServiceWhy />
       <LastComp />
     </div>

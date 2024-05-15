@@ -28,6 +28,6 @@
 @media screen and (max-width: 1440px) and (min-width: 1200px) {
   .navBg {
     background-color: black;
-    height: 120px;
+    height: 100px;
   }
 }

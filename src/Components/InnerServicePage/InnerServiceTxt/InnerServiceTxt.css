@@ -1,0 +1,42 @@
+:root {
+  --customRed: #cc2228;
+}
+.innerServiceTxtContainer {
+  /* border: solid red; */
+  height: 35vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.innerServiceTxtHeadContainer {
+  /* border: solid; */
+  height: 70px;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: var(--customRed);
+}
+.innerServiceTxtHeadContainer > h1 {
+  font-size: 40px;
+  color: var(--customRed);
+}
+.innerServiceTxtUnderline {
+  border: 2px solid;
+  width: 60px;
+  color: var(--customRed);
+}
+.innerServiceTxtParaContainer {
+  /* border: solid; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.innerServiceTxtParaContainer > p {
+  /* border: solid blue; */
+  text-align: center;
+  width: 90%;
+  font-size: 18px;
+}

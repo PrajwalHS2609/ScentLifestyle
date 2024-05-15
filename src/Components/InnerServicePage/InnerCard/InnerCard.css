@@ -1,0 +1,310 @@
+:root {
+    --customRed: #cc2228;
+  }
+
+  .innerCardContainer {
+    border: 2px solid;
+    width: 420px;
+    height: 210px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    margin: 10px;
+  }
+  .innerCardContent {
+    /* border: solid blue; */
+    width: 90%;
+    height: 150px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .innerCardContent > h1 {
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .innerCardContent > h1 > span {
+    color: var(--customRed);
+  }
+  .innerCardContent > h1 > span > span {
+    font-weight: lighter;
+  }
+  .innerCardGoto {
+    /* border: solid; */
+    position: absolute;
+    bottom: -20px;
+    height: 40px;
+    width: 90%;
+    border-radius: 5px;
+    background-color: var(--customRed);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .innerCardGoto > h1 {
+    font-size: 20px;
+    color: white;
+    margin-left: 10px;
+  }
+  .innerCardGoto:hover {
+    border: solid;
+    color: var(--customRed);
+    background-color: white;
+  }
+  .innerCardGoto:hover h1 {
+    color: var(--customRed);
+  }
+  @media screen and (max-width: 600px) {
+    .innerCardContainer {
+      border: 2px solid;
+      width:90%;
+      height: 30vh;
+      border-radius: 5px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      flex-direction: column;
+      position: relative;
+      margin: 20px;
+    }
+    .innerCardContent {
+      /* border: solid blue; */
+      width: 95%;
+      height: 90%;
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .innerCardContent > h1 {
+      font-size: 100%;text-align: center;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+  
+    .innerCardContent > h1 > span {
+      color: var(--customRed);
+    }
+    .innerCardContent > h1 > span > span {
+      font-weight: lighter;
+    }
+    .innerCardGoto {
+      /* border: solid; */
+      position: absolute;
+      bottom: -20px;
+      height: 30px;
+      width: 90%;
+      border-radius: 5px;
+      background-color: var(--customRed);
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+    }
+    .innerCardGoto > h1 {
+      font-size: 100%;
+      color: white;
+      margin-left: 10px;
+    }
+    .innerCardGoto:hover {
+      border: solid;
+      color: var(--customRed);
+      background-color: white;
+    }
+    .innerCardGoto:hover h1 {
+      color: var(--customRed);
+    }
+  }
+  @media screen and (min-width: 768px) {
+    .beardStyleContainer {
+      /* border: solid; */
+      height: 100%;
+      margin-top: 50px;
+    }
+
+    .innerCardContainer {
+      border: 2px solid;
+      width: 420px;
+      height: 210px;
+      border-radius: 5px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      position: relative;
+      margin: 50px;
+    }
+    .innerCardContent {
+      /* border: solid blue; */
+      width: 90%;
+      height: 150px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .innerCardContent > h1 {
+      font-size: 22px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+  
+    .innerCardContent > h1 > span {
+      color: var(--customRed);
+    }
+    .innerCardContent > h1 > span > span {
+      font-weight: lighter;
+    }
+    .innerCardGoto {
+      /* border: solid; */
+      position: absolute;
+      bottom: -20px;
+      height: 40px;
+      width: 90%;
+      border-radius: 5px;
+      background-color: var(--customRed);
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+    }
+    .innerCardGoto > h1 {
+      font-size: 20px;
+      color: white;
+      margin-left: 10px;
+    }
+    .innerCardGoto:hover {
+      border: solid;
+      color: var(--customRed);
+      background-color: white;
+    }
+    .innerCardGoto:hover h1 {
+      color: var(--customRed);
+    }
+  }
+  @media screen and (min-width: 990px) {
+
+    .innerCardContainer {
+      border: 2px solid;
+      width: 420px;
+      height: 210px;
+      border-radius: 5px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      position: relative;
+      margin: 20px;
+    }
+    .innerCardContent {
+      /* border: solid blue; */
+      width: 90%;
+      height: 150px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .innerCardContent > h1 {
+      font-size: 22px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+  
+    .innerCardContent > h1 > span {
+      color: var(--customRed);
+    }
+    .innerCardContent > h1 > span > span {
+      font-weight: lighter;
+    }
+    .innerCardGoto {
+      /* border: solid; */
+      position: absolute;
+      bottom: -20px;
+      height: 40px;
+      width: 90%;
+      border-radius: 5px;
+      background-color: var(--customRed);
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+    }
+    .innerCardGoto > h1 {
+      font-size: 20px;
+      color: white;
+      margin-left: 10px;
+    }
+    .innerCardGoto:hover {
+      border: solid;
+      color: var(--customRed);
+      background-color: white;
+    }
+    .innerCardGoto:hover h1 {
+      color: var(--customRed);
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    .innerCardContainer {
+      border: 2px solid;
+      width: 420px;
+      height: 210px;
+      border-radius: 5px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      position: relative;
+      margin: 20px;
+    }
+    .innerCardContent {
+      /* border: solid blue; */
+      width: 90%;
+      height: 150px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .innerCardContent > h1 {
+      font-size: 22px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+  
+    .innerCardContent > h1 > span {
+      color: var(--customRed);
+    }
+    .innerCardContent > h1 > span > span {
+      font-weight: lighter;
+    }
+    .innerCardGoto {
+      /* border: solid; */
+      position: absolute;
+      bottom: -20px;
+      height: 40px;
+      width: 90%;
+      border-radius: 5px;
+      background-color: var(--customRed);
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+    }
+    .innerCardGoto > h1 {
+      font-size: 20px;
+      color: white;
+      margin-left: 10px;
+    }
+    .innerCardGoto:hover {
+      border: solid;
+      color: var(--customRed);
+      background-color: white;
+    }
+    .innerCardGoto:hover h1 {
+      color: var(--customRed);
+    }
+  }
+  
