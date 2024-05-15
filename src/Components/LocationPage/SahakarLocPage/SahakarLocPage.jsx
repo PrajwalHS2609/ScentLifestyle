@@ -3,7 +3,6 @@ import "./SahakarLocPage.css";
 import LocationNavBg from "../LocationNavBg/LocationNavBg";
 import SahakarLocMap from "./SahakarLocMap/SahakarLocMap";
 import LastComp from "./../../LastComp/LastComp";
-import LocEnquire from "../LocEnquire/LocEnquire";
 import LocationArrow from "../LocationArrow/LocationArrow";
 import LocationHead from "../LocationHead/LocationHead";
 import LocationImg from "../LocationImg/LocationImg";
@@ -38,7 +37,6 @@ const SahakarLocPage = () => {
         <Partners />
         <InstaFeed />
         <TextLocReviews />
-        <LocEnquire />
         <SahakarReadLoc />
       </div>
       <LastComp />

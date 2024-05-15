@@ -1,5 +1,4 @@
 import React from "react";
-import LocEnquire from "../LocEnquire/LocEnquire";
 import LastComp from "../../LastComp/LastComp";
 import LocationArrow from "../LocationArrow/LocationArrow";
 import LocationNavBg from "../LocationNavBg/LocationNavBg";
@@ -40,7 +39,6 @@ const UpTownLocPage = () => {
         <InstaFeed />
         {/* <UptownLocMap /> */}
         <TextLocReviews />
-        <LocEnquire />
         <UptownLocRead />
       </div>
       <LastComp />

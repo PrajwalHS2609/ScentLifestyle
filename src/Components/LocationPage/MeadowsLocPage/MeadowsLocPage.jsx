@@ -1,7 +1,6 @@
 import React from "react";
 import LocationNavBg from "../LocationNavBg/LocationNavBg";
 import LocationArrow from "../LocationArrow/LocationArrow";
-import LocEnquire from "../LocEnquire/LocEnquire";
 import LastComp from "../../LastComp/LastComp";
 import LocationHead from "../LocationHead/LocationHead";
 import LocationImg from "../LocationImg/LocationImg";
@@ -41,7 +40,6 @@ Varthur Main Road Ramagondanahalli, Whitefield Bengaluru Karnataka
         <Partners />
         <InstaFeed />
         <TextLocReviews />
-        <LocEnquire />
         <MeadowsLocRead />
       </div>
       <LastComp />

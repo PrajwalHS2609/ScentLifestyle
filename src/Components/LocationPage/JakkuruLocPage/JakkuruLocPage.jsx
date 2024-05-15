@@ -2,7 +2,6 @@ import React from "react";
 import "./JakkuruLocPage.css";
 import LocationNavBg from "../LocationNavBg/LocationNavBg";
 import LocationArrow from "../LocationArrow/LocationArrow";
-import LocEnquire from "../LocEnquire/LocEnquire";
 import LastComp from "../../LastComp/LastComp";
 import JakkuruLocMap from "./JakkuruLocMap/JakkuruLocMap";
 import LocationHead from "../LocationHead/LocationHead";
@@ -40,7 +39,6 @@ const JakkuruLocPage = () => {
         <Partners />
         <InstaFeed />
         <TextLocReviews />
-        <LocEnquire />
         <JakkurLocRead/>
       </div>
       <LastComp />

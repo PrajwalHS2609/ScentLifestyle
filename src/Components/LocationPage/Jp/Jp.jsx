@@ -9,7 +9,6 @@ import Members from "../../HomePage/Members/Members";
 import OurSalon from "../../HomePage/OurSalon/OurSalon";
 import Partners from "../../HomePage/Partners/Partners";
 import InstaFeed from "../../HomePage/InstaFeed/InstaFeed";
-import LocEnquire from "../LocEnquire/LocEnquire";
 import LastComp from "../../LastComp/LastComp";
 import JpLocMap from "./JpLocMap/JpLocMap";
 import "./Jp.css";
@@ -38,7 +37,6 @@ const Jp = () => {
         <Partners />
         <InstaFeed />
         <TextLocReviews />
-        <LocEnquire />
         <JpLocRead />
       </div>
       <LastComp />
