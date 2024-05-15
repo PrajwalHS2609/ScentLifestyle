@@ -4,7 +4,7 @@ const InstaPara = () => {
   return (
     <div className="instaParaContainer">
       <pre>Our day-today work</pre>
-      <p>Follow us @scent</p>
+      <p><a href="https://www.instagram.com/scentlifestyle/">Follow us @scentlifestyle</a></p>
     </div>
   );
 };

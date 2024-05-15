@@ -1,11 +1,15 @@
 import React from "react";
-import NavBg from "../FacialPage/NavBg/NavBg";
-import Why from "./Why/Why";
-import BeardNear from "./BeardServiceNear/BeardNear";
 import LastComp from "../LastComp/LastComp";
 import Navi from "./Navi/Navi";
 import BeardStyle from "./BeardStyling/BeardStyle";
 import BeardImgPara from "./BeardImg/BeardImg";
+import NavBg from "../NavBg/NavBg";
+import ServiceWhy from "../MainServicePages/ServiceWhy/ServiceWhy";
+import HelpNearYou from "../Help/HelpNearYou";
+import OurSalon from "../HomePage/OurSalon/OurSalon";
+import Members from "../HomePage/Members/Members";
+import InstaFeed from "../HomePage/InstaFeed/InstaFeed";
+import TextLocReviews from "../LocationPage/TextLocReviews/TextLocReviews";
 
 const BeardStylingPage = () => {
   return (
@@ -14,8 +18,12 @@ const BeardStylingPage = () => {
       <BeardImgPara />
       <Navi />
       <BeardStyle />
-      <BeardNear />
-      <Why />
+      <OurSalon />
+      <Members /> 
+      <InstaFeed/>
+      <HelpNearYou />
+      <TextLocReviews/>
+      <ServiceWhy />
       <LastComp />
     </div>
   );

@@ -39,7 +39,7 @@
   font-weight: lighter;
   font-size: 20px;
 }
-.instaParaContainer > p {
+.instaParaContainer > p > a {
   font-weight: lighter;
   font-size: 15px;
   text-decoration: underline;

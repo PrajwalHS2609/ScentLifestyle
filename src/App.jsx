@@ -27,6 +27,7 @@ import UpTownLocPage from "./Components/LocationPage/UpTownLocPage/UpTownLocPage
 import MeadowsLocPage from "./Components/LocationPage/MeadowsLocPage/MeadowsLocPage";
 import Jp from "./Components/LocationPage/Jp/Jp";
 import ContactPage from "./Components/ContactPage/ContactPage";
+import BeardStylingPage from './Components/BeardServicePage/BeardStylingPage';
 
 const App = () => {
   return (
@@ -38,6 +39,7 @@ const App = () => {
           <Route path="/" element={<HomePage />} />
           <Route path="/service" element={<MainServicePage />} />
           <Route path="/hair-salon" element={<HairServicePage />} />
+          <Route path="/beard" element={<BeardStylingPage />} />
           <Route path="/nails-salon" element={<NailSalonPage />} />
           <Route path="/facial" element={<FacialPage />} />
           <Route path="/beauty-essentials" element={<BeautyPage />} />
