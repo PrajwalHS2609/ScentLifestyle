@@ -22,7 +22,7 @@ const Navi = () => {
               className="serviceCardIcon"
             ></FontAwesomeIcon>
           </p>
-       <Link to={"/hair"}>Hair Salon</Link>
+       <Link to={"/hair"}>Hair</Link>
           <p>
             <FontAwesomeIcon
               icon={faAngleRight}

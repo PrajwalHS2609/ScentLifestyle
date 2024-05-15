@@ -44,7 +44,7 @@
   margin-top: 30px;
 }
 .beardStyleCardContainer {
-  border:2px solid;
+  border: 2px solid;
   width: 420px;
   height: 210px;
   border-radius: 5px;
@@ -64,7 +64,6 @@
   align-items: flex-start;
   flex-direction: column;
   gap: 10px;
-  
 }
 .beardStyleCardContent > h1 {
   font-size: 22px;
@@ -74,8 +73,8 @@
 .beardStyleCardContent > h1 > span {
   color: var(--customRed);
 }
-.beardStyleCardContent > h1 > span >span {
-font-weight: lighter;
+.beardStyleCardContent > h1 > span > span {
+  font-weight: lighter;
 }
 .beardStyleGoto {
   /* border: solid; */
@@ -94,317 +93,420 @@ font-weight: lighter;
   color: white;
   margin-left: 10px;
 }
-.beardStyleGoto:hover{
-  border: solid;color: var(--customRed);
-  background-color:white;
-}
-.beardStyleGoto:hover h1{
-  color: var(--customRed);
-}
-
-@media screen and (min-width:768px) {
-  .beardStyleContainer {
-  /* border: solid; */
- height: 100%;
-  margin-top: 50px;
-}
-.beardStyleHeadContainer {
-  /* border: solid; */
-  height: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-.beardStyleHeadContainer > h1 {
-  color: var(--customRed);
-}
-.beardStyleUnderline {
-  /* border: solid; */
-  width: 80px;
-  color: var(--customRed);
-}
-.beardStyleParaContainer {
-  /* border: solid; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 10px;
-}
-.beardStyleParaContainer > p {
-  text-align: center;
-  width: 90%;
-  font-size: 20px;
-}
-.beardStyleCardWrapper {
-  /* border: solid red; */
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  margin-top: 30px;
-}
-.beardStyleCardContainer {
-  border:2px solid;
-  width: 420px;
-  height: 210px;
-  border-radius: 5px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  position: relative;
-  margin: 50px;
-}
-.beardStyleCardContent {
-  /* border: solid blue; */
-  width: 90%;
-  height: 150px;
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  flex-direction: column;
-  gap: 10px;
-  
-}
-.beardStyleCardContent > h1 {
-  font-size: 22px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.beardStyleCardContent > h1 > span {
-  color: var(--customRed);
-}
-.beardStyleCardContent > h1 > span >span {
-font-weight: lighter;
-}
-.beardStyleGoto {
-  /* border: solid; */
-  position: absolute;
-  bottom: -20px;
-  height: 40px;
-  width: 90%;
-  border-radius: 5px;
-  background-color: var(--customRed);
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}
-.beardStyleGoto > h1 {
-  font-size: 20px;
-  color: white;
-  margin-left: 10px;
-}
-.beardStyleGoto:hover{
-  border: solid;color: var(--customRed);
-  background-color:white;
-}
-.beardStyleGoto:hover h1{
-  color: var(--customRed);
-}
-}
-@media screen and (min-width:990px) {
-  .beardStyleContainer {
-  /* border: solid; */
- height: 100%;
-  margin-top: 50px;
-}
-.beardStyleHeadContainer {
-  /* border: solid; */
-  height: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-.beardStyleHeadContainer > h1 {
-  color: var(--customRed);
-}
-.beardStyleUnderline {
+.beardStyleGoto:hover {
   border: solid;
-  width: 80px;
+  color: var(--customRed);
+  background-color: white;
+}
+.beardStyleGoto:hover h1 {
   color: var(--customRed);
 }
-.beardStyleParaContainer {
-  /* border: solid; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 10px;
-}
-.beardStyleParaContainer > p {
-  text-align: center;
-  width: 90%;
-  font-size: 20px;
-}
-.beardStyleCardWrapper {
-  /* border: solid red; */
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  margin-top: 30px;
-}
-.beardStyleCardContainer {
-  border:2px solid;
-  width: 420px;
-  height: 210px;
-  border-radius: 5px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  position: relative;
-  margin: 20px;
-}
-.beardStyleCardContent {
-  /* border: solid blue; */
-  width: 90%;
-  height: 150px;
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  flex-direction: column;
-  gap: 10px;
-  
-}
-.beardStyleCardContent > h1 {
-  font-size: 22px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.beardStyleCardContent > h1 > span {
-  color: var(--customRed);
-}
-.beardStyleCardContent > h1 > span >span {
-font-weight: lighter;
-}
-.beardStyleGoto {
-  /* border: solid; */
-  position: absolute;
-  bottom: -20px;
-  height: 40px;
-  width: 90%;
-  border-radius: 5px;
-  background-color: var(--customRed);
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}
-.beardStyleGoto > h1 {
-  font-size: 20px;
-  color: white;
-  margin-left: 10px;
-}
-.beardStyleGoto:hover{
-  border: solid;color: var(--customRed);
-  background-color:white;
-}
-.beardStyleGoto:hover h1{
-  color: var(--customRed);
-}
-}
-@media screen and (min-width:1200px) {
+@media screen and (max-width: 600px) {
   .beardStyleContainer {
-  /* border: solid; */
- height: 100%;
-  margin-top: 50px;
-}
-.beardStyleHeadContainer {
-  /* border: solid; */
-  height: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-.beardStyleHeadContainer > h1 {
-  color: var(--customRed);
-}
-.beardStyleUnderline {
-  border: solid;
-  width: 80px;
-  color: var(--customRed);
-}
-.beardStyleParaContainer {
-  /* border: solid; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 10px;
-}
-.beardStyleParaContainer > p {
-  text-align: center;
-  width: 90%;
-  font-size: 20px;
-}
-.beardStyleCardWrapper {
-  /* border: solid red; */
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  margin-top: 30px;
-}
-.beardStyleCardContainer {
-  border:2px solid;
-  width: 420px;
-  height: 210px;
-  border-radius: 5px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  position: relative;
-  margin: 20px;
-}
-.beardStyleCardContent {
-  /* border: solid blue; */
-  width: 90%;
-  height: 150px;
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  flex-direction: column;
-  gap: 10px;
-  
-}
-.beardStyleCardContent > h1 {
-  font-size: 22px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+    /* border: solid; */
+    height: 100%;
+    margin-top: 50px;
+  }
+  .beardStyleHeadContainer {
+    /* border: solid; */
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .beardStyleHeadContainer > h1 {
+    color: var(--customRed);
+  }
+  .beardStyleUnderline {
+    /* border: solid; */
+    width: 80px;
+    color: var(--customRed);
+  }
+  .beardStyleParaContainer {
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  }
+  .beardStyleParaContainer > p {
+    text-align: center;
+    width: 90%;
+    font-size: 20px;
+  }
+  .beardStyleCardWrapper {
+    /* border: solid red; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+  .beardStyleCardContainer {
+    border: 2px solid;
+    width:90%;
+    height: 30vh;
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    margin: 20px;
+  }
+  .beardStyleCardContent {
+    /* border: solid blue; */
+    width: 95%;
+    height: 90%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .beardStyleCardContent > h1 {
+    font-size: 100%;text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
 
-.beardStyleCardContent > h1 > span {
-  color: var(--customRed);
+  .beardStyleCardContent > h1 > span {
+    color: var(--customRed);
+  }
+  .beardStyleCardContent > h1 > span > span {
+    font-weight: lighter;
+  }
+  .beardStyleGoto {
+    /* border: solid; */
+    position: absolute;
+    bottom: -20px;
+    height: 30px;
+    width: 90%;
+    border-radius: 5px;
+    background-color: var(--customRed);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .beardStyleGoto > h1 {
+    font-size: 100%;
+    color: white;
+    margin-left: 10px;
+  }
+  .beardStyleGoto:hover {
+    border: solid;
+    color: var(--customRed);
+    background-color: white;
+  }
+  .beardStyleGoto:hover h1 {
+    color: var(--customRed);
+  }
 }
-.beardStyleCardContent > h1 > span >span {
-font-weight: lighter;
+@media screen and (min-width: 768px) {
+  .beardStyleContainer {
+    /* border: solid; */
+    height: 100%;
+    margin-top: 50px;
+  }
+  .beardStyleHeadContainer {
+    /* border: solid; */
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .beardStyleHeadContainer > h1 {
+    color: var(--customRed);
+  }
+  .beardStyleUnderline {
+    /* border: solid; */
+    width: 80px;
+    color: var(--customRed);
+  }
+  .beardStyleParaContainer {
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  }
+  .beardStyleParaContainer > p {
+    text-align: center;
+    width: 90%;
+    font-size: 20px;
+  }
+  .beardStyleCardWrapper {
+    /* border: solid red; */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+  .beardStyleCardContainer {
+    border: 2px solid;
+    width: 420px;
+    height: 210px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    margin: 50px;
+  }
+  .beardStyleCardContent {
+    /* border: solid blue; */
+    width: 90%;
+    height: 150px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .beardStyleCardContent > h1 {
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .beardStyleCardContent > h1 > span {
+    color: var(--customRed);
+  }
+  .beardStyleCardContent > h1 > span > span {
+    font-weight: lighter;
+  }
+  .beardStyleGoto {
+    /* border: solid; */
+    position: absolute;
+    bottom: -20px;
+    height: 40px;
+    width: 90%;
+    border-radius: 5px;
+    background-color: var(--customRed);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .beardStyleGoto > h1 {
+    font-size: 20px;
+    color: white;
+    margin-left: 10px;
+  }
+  .beardStyleGoto:hover {
+    border: solid;
+    color: var(--customRed);
+    background-color: white;
+  }
+  .beardStyleGoto:hover h1 {
+    color: var(--customRed);
+  }
 }
-.beardStyleGoto {
-  /* border: solid; */
-  position: absolute;
-  bottom: -20px;
-  height: 40px;
-  width: 90%;
-  border-radius: 5px;
-  background-color: var(--customRed);
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
+@media screen and (min-width: 990px) {
+  .beardStyleContainer {
+    /* border: solid; */
+    height: 100%;
+    margin-top: 50px;
+  }
+  .beardStyleHeadContainer {
+    /* border: solid; */
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .beardStyleHeadContainer > h1 {
+    color: var(--customRed);
+  }
+  .beardStyleUnderline {
+    border: solid;
+    width: 80px;
+    color: var(--customRed);
+  }
+  .beardStyleParaContainer {
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  }
+  .beardStyleParaContainer > p {
+    text-align: center;
+    width: 90%;
+    font-size: 20px;
+  }
+  .beardStyleCardWrapper {
+    /* border: solid red; */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+  .beardStyleCardContainer {
+    border: 2px solid;
+    width: 420px;
+    height: 210px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    margin: 20px;
+  }
+  .beardStyleCardContent {
+    /* border: solid blue; */
+    width: 90%;
+    height: 150px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .beardStyleCardContent > h1 {
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .beardStyleCardContent > h1 > span {
+    color: var(--customRed);
+  }
+  .beardStyleCardContent > h1 > span > span {
+    font-weight: lighter;
+  }
+  .beardStyleGoto {
+    /* border: solid; */
+    position: absolute;
+    bottom: -20px;
+    height: 40px;
+    width: 90%;
+    border-radius: 5px;
+    background-color: var(--customRed);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .beardStyleGoto > h1 {
+    font-size: 20px;
+    color: white;
+    margin-left: 10px;
+  }
+  .beardStyleGoto:hover {
+    border: solid;
+    color: var(--customRed);
+    background-color: white;
+  }
+  .beardStyleGoto:hover h1 {
+    color: var(--customRed);
+  }
 }
-.beardStyleGoto > h1 {
-  font-size: 20px;
-  color: white;
-  margin-left: 10px;
-}
-.beardStyleGoto:hover{
-  border: solid;color: var(--customRed);
-  background-color:white;
-}
-.beardStyleGoto:hover h1{
-  color: var(--customRed);
-}
+@media screen and (min-width: 1200px) {
+  .beardStyleContainer {
+    /* border: solid; */
+    height: 100%;
+    margin-top: 50px;
+  }
+  .beardStyleHeadContainer {
+    /* border: solid; */
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .beardStyleHeadContainer > h1 {
+    color: var(--customRed);
+  }
+  .beardStyleUnderline {
+    border: solid;
+    width: 80px;
+    color: var(--customRed);
+  }
+  .beardStyleParaContainer {
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  }
+  .beardStyleParaContainer > p {
+    text-align: center;
+    width: 90%;
+    font-size: 20px;
+  }
+  .beardStyleCardWrapper {
+    /* border: solid red; */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+  .beardStyleCardContainer {
+    border: 2px solid;
+    width: 420px;
+    height: 210px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    margin: 20px;
+  }
+  .beardStyleCardContent {
+    /* border: solid blue; */
+    width: 90%;
+    height: 150px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .beardStyleCardContent > h1 {
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .beardStyleCardContent > h1 > span {
+    color: var(--customRed);
+  }
+  .beardStyleCardContent > h1 > span > span {
+    font-weight: lighter;
+  }
+  .beardStyleGoto {
+    /* border: solid; */
+    position: absolute;
+    bottom: -20px;
+    height: 40px;
+    width: 90%;
+    border-radius: 5px;
+    background-color: var(--customRed);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .beardStyleGoto > h1 {
+    font-size: 20px;
+    color: white;
+    margin-left: 10px;
+  }
+  .beardStyleGoto:hover {
+    border: solid;
+    color: var(--customRed);
+    background-color: white;
+  }
+  .beardStyleGoto:hover h1 {
+    color: var(--customRed);
+  }
 }
