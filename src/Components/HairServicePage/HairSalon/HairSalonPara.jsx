@@ -5,7 +5,7 @@ const HairSalonPara = () => {
     <div className="hairSalonParaContainer">
       <p>
         Step into the salon for best-in-class haircuts, hair colour, hair spa
-        and hair smoothening treatments, done by Sassoon-trained hair stylists.
+        and hair smoothening treatments, done by trained hair stylists.
         Great hair days truly begin at Scent Hair Salon
       </p>
     </div>

@@ -25,7 +25,7 @@ const SahakarLocPage = () => {
       <LocationNavi
       loc="Sahakar Nagar"
       />
-      <LocationArrow leftLink={"/jp"} rightLink={"/lavellel"} />
+      <LocationArrow leftLink={"/jp"} rightLink={"/lavelle"} />
       <div className="sahakarLocPageContent">
         <LocationHead
           loc="Sahakar Nagar"

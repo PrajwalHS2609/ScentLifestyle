@@ -22,17 +22,17 @@ const MeadowsLocPage = () => {
     <div className="meadowsLocPageContainer">
       <LocationNavBg />
       <LocationImg img={loc5} />
-      <LocationNavi loc="Meadows" />
+      <LocationNavi loc="Palm Meadows" />
 
       <LocationArrow leftLink={"/uptown"} rightLink={"/jp"} />
       <div className="meadowsLocPageContent">
         <LocationHead
-          loc="Meadows"
+          loc="Palm Meadows"
           phone="+91-9686221700"
           address=" Palm Meadows, No. 3/3, Ramaiah building, Palm Meadows, Boulevard
 Varthur Main Road Ramagondanahalli, Whitefield Bengaluru Karnataka
 560066"
-map={<MeadowsLocMap/>}
+          map={<MeadowsLocMap />}
         />
         <ServiceCardContain />
         <UnisexSalon />

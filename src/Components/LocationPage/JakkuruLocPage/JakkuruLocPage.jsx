@@ -25,7 +25,7 @@ const JakkuruLocPage = () => {
       <LocationNavi
       loc="Jakkur"
       />
-      <LocationArrow leftLink={"/lavellel"} rightLink={"/uptown"} />
+      <LocationArrow leftLink={"/lavelle"} rightLink={"/uptown"} />
       <div className="jakkuruLocPageContent">
         <LocationHead
           loc="Jakkuru"

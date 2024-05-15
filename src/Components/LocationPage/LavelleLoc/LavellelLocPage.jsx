@@ -22,11 +22,11 @@ const LavellelLocPage = () => {
     <div className="sahakarLocPageContainer">
       <LocationNavBg />
       <LocationImg img={loc2} />
-      <LocationNavi loc="Lavellel Road"/>
+      <LocationNavi loc="Lavelle Road"/>
       <LocationArrow leftLink={"/sahakar"} rightLink={"/jakkuru"} />
       <div className="sahakarLocPageContent">
         <LocationHead
-          loc="Lavellel Road"
+          loc="Lavelle Road"
           phone="+91-9740222700"
           address=" No. 67/2, 1st Floor, Opposite. 3rd Cross Lavelle Road, Bengaluru,
         Karnataka 560001"
