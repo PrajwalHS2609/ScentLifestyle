@@ -1,5 +1,6 @@
 import React from "react";
 import "./LocationHead.css";
+import LocEnquire from './../LocEnquire/LocEnquire';
 const LocationHead = (props) => {
   return (
     <div className="locationHeadContainer">
@@ -34,6 +35,9 @@ const LocationHead = (props) => {
               <h3>Address</h3>
             </div>
             <div className="locationHeadAdd">{props.address}</div>
+          </div>
+          <div className="locationButton">
+            <LocEnquire/>
           </div>
         </div>
       </div>

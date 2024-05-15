@@ -109,7 +109,7 @@ h4 {
   }
   #locationHeadContent2 {
     /* border: solid rebeccapurple; */
-    height: 40vh;
+    height: 45vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -121,7 +121,7 @@ h4 {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50%;
+    height: 70%;
     width: 90%;
     gap: 10%;
   }
@@ -139,7 +139,7 @@ h4 {
     font-weight: bold;
   }
   .locationHeadContact1 > h2 {
-    font-size: 100%;
+    font-size: 90%;
     color: black;
   }
   #locationHeadItem3 {
@@ -158,6 +158,14 @@ h4 {
   .locationHeadTiming1 > p {
     font-size: 100%;
     text-align: center;
+  }
+  .locationButton {
+    /* border: solid green; */
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
   }
   h1,
   h2,
@@ -252,6 +260,14 @@ h4 {
   h4 {
     color: #cc2228;
   }
+  .locationButton {
+    /* border: solid green; */
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
 }
 
 @media screen and (min-width: 990px) {
@@ -331,6 +347,12 @@ h4 {
   .locationHeadTiming1 > p {
     font-size: 100%;
   }
+  .locationButton {
+    /* border: solid; */
+    width: 100%;
+    height: 30%;
+  }
+
   h1,
   h2,
   h3,
@@ -403,7 +425,7 @@ h4 {
   }
   #locationHeadItem3 {
     /* border: solid; */
-    width: 60%;
+    width: 70%;
     height: 40%;
     display: flex;
     justify-content: space-evenly;
@@ -413,11 +435,22 @@ h4 {
   .locationHeadAdd {
     font-size: 120%;
     display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: start;
   }
   .locationHeadTiming1 > p {
     font-size: 100%;
   }
+  .locationButton {
+    /* border: solid; */
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   h1,
   h2,
   h3,
