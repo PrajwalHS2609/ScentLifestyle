@@ -11,8 +11,8 @@ import FacialRead from "./FacialRead/FacialRead.jsx";
 import Partners from "../HomePage/Partners/Partners.jsx";
 import InstaFeed from "../HomePage/InstaFeed/InstaFeed.jsx";
 import { Helmet } from "react-helmet";
-import TextLocReviews from "../LocationPage/TextLocReviews/TextLocReviews.jsx";
 import NavBg from "../NavBg/NavBg.jsx";
+import TextLocReviews from "../TextLocReviews/TextLocReviews.jsx";
 const FacialPage = () => {
   return (
     <div>

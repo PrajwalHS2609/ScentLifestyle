@@ -11,8 +11,8 @@ import BeautyRead from "./BeautyRead/BeautyRead";
 import Partners from "../HomePage/Partners/Partners";
 import InstaFeed from "../HomePage/InstaFeed/InstaFeed";
 import { Helmet } from "react-helmet";
-import TextLocReviews from "../LocationPage/TextLocReviews/TextLocReviews";
 import NavBg from "../NavBg/NavBg";
+import TextLocReviews from "../TextLocReviews/TextLocReviews";
 
 const BeautyPage = () => {
   return (

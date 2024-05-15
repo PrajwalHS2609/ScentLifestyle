@@ -198,8 +198,8 @@
 
 @media screen and (max-width: 990px) and (min-width: 600px) {
   .helpNearYouContainer {
-    /* border: solid; */
-    height: 160vh;
+    border: solid;
+    height: 180vh;
     width: 100%;
     justify-content: flex-start;
   }

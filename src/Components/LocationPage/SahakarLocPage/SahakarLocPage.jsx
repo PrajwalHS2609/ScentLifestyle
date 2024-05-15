@@ -14,8 +14,8 @@ import OurSalon from "../../HomePage/OurSalon/OurSalon";
 import Partners from "../../HomePage/Partners/Partners";
 import InstaFeed from "../../HomePage/InstaFeed/InstaFeed";
 import LocationNavi from "../LocationNavi/LocationNavi";
-import TextLocReviews from "../TextLocReviews/TextLocReviews";
 import SahakarReadLoc from "./SahakarReadLoc/SahakarReadLoc";
+import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 const SahakarLocPage = () => {
   return (
     <div className="sahakarLocPageContainer">

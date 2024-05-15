@@ -14,8 +14,8 @@ import Partners from "../../HomePage/Partners/Partners";
 import InstaFeed from "../../HomePage/InstaFeed/InstaFeed";
 import UptownLocMap from "./UptownLocMap/UptownLocMap";
 import LocationNavi from "../LocationNavi/LocationNavi";
-import TextLocReviews from "../TextLocReviews/TextLocReviews";
 import UptownLocRead from "./UptownLocRead/UptownLocRead";
+import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 const UpTownLocPage = () => {
   return (
     <div className="uptownLocPageContainer">

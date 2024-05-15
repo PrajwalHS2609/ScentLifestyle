@@ -22,7 +22,7 @@ const InnerNavi = (props) => {
               className="serviceCardIcon"
             ></FontAwesomeIcon>
           </p>
-          <Link to={"/beard"}>{props.service}</Link>
+          <Link to={props.link}>{props.service}</Link>
           <p>
             <FontAwesomeIcon
               icon={faAngleRight}

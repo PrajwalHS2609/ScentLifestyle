@@ -8,7 +8,7 @@ import HelpNearYou from "../Help/HelpNearYou";
 import OurSalon from "../HomePage/OurSalon/OurSalon";
 import Members from "../HomePage/Members/Members";
 import InstaFeed from "../HomePage/InstaFeed/InstaFeed";
-import TextLocReviews from "../LocationPage/TextLocReviews/TextLocReviews";
+import TextLocReviews from "../TextLocReviews/TextLocReviews";
 import InnerNavi from "../InnerServicePage/InnerNavi/InnerNavi";
 
 const BeardStylingPage = () => {
@@ -16,7 +16,7 @@ const BeardStylingPage = () => {
     <div>
       <NavBg />
       <BeardImgPara />
-      <InnerNavi service="Hair " currService="Beard Styling" />
+      <InnerNavi service="Hair " currService="Beard Styling" link={"/hair-salon"}/>
       <BeardStyle />
       <OurSalon />
       <Members />

@@ -13,9 +13,9 @@ import Members from "../../HomePage/Members/Members";
 import OurSalon from "../../HomePage/OurSalon/OurSalon";
 import Partners from "../../HomePage/Partners/Partners";
 import InstaFeed from "../../HomePage/InstaFeed/InstaFeed";
-import TextLocReviews from "../TextLocReviews/TextLocReviews";
 import LocationNavi from "../LocationNavi/LocationNavi";
 import LavellelReadLoc from "./LavellelReadLoc/LavellelReadLoc";
+import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 const LavellelLocPage = () => {
   return (
     <div className="lavellelLocPageContainer">

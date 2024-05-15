@@ -14,8 +14,8 @@ import Partners from "../../HomePage/Partners/Partners";
 import InstaFeed from "../../HomePage/InstaFeed/InstaFeed";
 import ServiceCardContain from "../../MainServicePages/ServiceCards/ServiceCardContain";
 import LocationNavi from './../LocationNavi/LocationNavi';
-import TextLocReviews from "../TextLocReviews/TextLocReviews";
 import JakkurLocRead from "./JakkurLocRead/JakkurLocRead";
+import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 const JakkuruLocPage = () => {
   return (
     <div className="jakkuruLocPageContainer">

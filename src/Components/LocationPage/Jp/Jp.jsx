@@ -13,9 +13,9 @@ import LastComp from "../../LastComp/LastComp";
 import JpLocMap from "./JpLocMap/JpLocMap";
 import "./Jp.css";
 import loc6 from "./../../../Images/JP Nagar.jpg";
-import TextLocReviews from "../TextLocReviews/TextLocReviews";
 import JpLocRead from "./JpLocRead/JpLocRead";
 import LocationNavi from "./../LocationNavi/LocationNavi";
+import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 const Jp = () => {
   return (
     <div className="jpLocPageContainer">

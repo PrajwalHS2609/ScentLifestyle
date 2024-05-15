@@ -13,9 +13,9 @@ import Partners from "../../HomePage/Partners/Partners";
 import InstaFeed from "../../HomePage/InstaFeed/InstaFeed";
 import MeadowsLocMap from "./MeadowsLocMap/MeadowsLocMap";
 import "./MeadowsLocPage.css";
-import TextLocReviews from "../TextLocReviews/TextLocReviews";
 import LocationNavi from "../LocationNavi/LocationNavi";
 import MeadowsLocRead from "./MeadowsLocRead/MeadowsLocRead";
+import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 const MeadowsLocPage = () => {
   return (
     <div className="meadowsLocPageContainer">

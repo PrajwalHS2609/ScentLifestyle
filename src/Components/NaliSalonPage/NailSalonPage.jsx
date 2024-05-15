@@ -12,8 +12,8 @@ import NailRead from "./NailSalonRead/NailRead";
 import InstaFeed from "../HomePage/InstaFeed/InstaFeed";
 import Partners from "../HomePage/Partners/Partners";
 import { Helmet } from "react-helmet";
-import TextLocReviews from './../LocationPage/TextLocReviews/TextLocReviews';
 import NavBg from "./../NavBg/NavBg";
+import TextLocReviews from "../TextLocReviews/TextLocReviews";
 
 const NailSalonPage = () => {
   return (
