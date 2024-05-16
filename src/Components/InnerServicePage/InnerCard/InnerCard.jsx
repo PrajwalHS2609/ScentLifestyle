@@ -13,11 +13,9 @@ const InnerCard = (props) => {
       </h1> */}
       </div>
       <div className="innerCardGoto">
-        <h1>
-          <a href="https://api.whatsapp.com/send?phone=919742232700">
-            BOOK NOW
-          </a>
-        </h1>
+        <a href="https://api.whatsapp.com/send?phone=919742232700">
+          <h1>BOOK NOW</h1>
+        </a>
       </div>
     </div>
   );
