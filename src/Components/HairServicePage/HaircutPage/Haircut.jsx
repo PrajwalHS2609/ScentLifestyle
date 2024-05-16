@@ -17,7 +17,7 @@ const Haircut = () => {
         <InnerNavi
           link={"/hair-salon"}
           service="Hair Service"
-          currService="Haircut & styling"
+          currService="Haircut & Styling"
         />
         <div className="haircutCardContainer">
           <InnerCard
