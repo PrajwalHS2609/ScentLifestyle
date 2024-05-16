@@ -27,8 +27,10 @@ import UpTownLocPage from "./Components/LocationPage/UpTownLocPage/UpTownLocPage
 import MeadowsLocPage from "./Components/LocationPage/MeadowsLocPage/MeadowsLocPage";
 import Jp from "./Components/LocationPage/Jp/Jp";
 import ContactPage from "./Components/ContactPage/ContactPage";
-import BeardStylingPage from "./Components/BeardServicePage/BeardStylingPage";
 import Haircut from "./Components/HairServicePage/HaircutPage/Haircut";
+import HairColor from "./Components/HairServicePage/HairColorPage/HairColor";
+import HairSpa from "./Components/HairServicePage/HairSpa/HairSpa";
+import BeardStyle from './Components/HairServicePage/BeardStylePage/BeardStyle';
 
 const App = () => {
   return (
@@ -41,7 +43,9 @@ const App = () => {
           <Route path="/service" element={<MainServicePage />} />
           <Route path="/hair-salon" element={<HairServicePage />} />
           <Route path="/haircut" element={<Haircut />} />
-          <Route path="/beard" element={<BeardStylingPage />} />
+          <Route path="/haircolor" element={<HairColor />} />
+          <Route path="/hairspa" element={<HairSpa />} />
+          <Route path="/beard" element={<BeardStyle/>} />
           <Route path="/nails-salon" element={<NailSalonPage />} />
           <Route path="/facial" element={<FacialPage />} />
           <Route path="/beauty-essentials" element={<BeautyPage />} />

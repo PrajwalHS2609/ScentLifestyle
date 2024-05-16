@@ -21,12 +21,16 @@ const HairServiceCardContain = () => {
         Transform your look with our Hair Colour & Highlights services. Choose from bold global hair colours to delicate highlights, meticulously crafted by our skilled stylists. Each colour is tailored to your style, ensuring a personalized and stunning result that boosts your confidence and radiance."
         goto="Highlights & Streaks"
         img="https://img.freepik.com/premium-photo/beauty-young-woman-portrait_200196-667.jpg?w=900"
+        link={"/haircolor"}
+
       />
       <HairServiceCard
         heading="Hair Spa"
         para=" At SCENT salon nearby, select from various hair spa treatments for your specific needs. Customize options to tackle oiliness, frizz, dryness, and scalp itchiness. Experience our intense hair spa with Olaplex treatment for chemically treated hair, for relaxation and rejuvenation. See reduced breakage, reversed damage, and improved hair health."
         goto="Hair Spa"
         img="https://img.freepik.com/premium-photo/spa-treatments-top-view-hairdressera-s-hands-washing-hair-her-customer-salon-before-hairstyling-process_283617-2683.jpg?w=900"
+        link={"/hairspa"}
+
       />
       <HairServiceCard
         heading="Hair Treatments"

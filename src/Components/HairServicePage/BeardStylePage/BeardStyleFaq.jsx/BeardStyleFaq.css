@@ -1,0 +1,135 @@
+.beardStyleFaqContainer {
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 5%;
+  }
+  .beardStyleFaqContainer > ul {
+    /* border: solid; */
+    width: 90%;
+  }
+  .beardStyleFaqContainer > ul > li {
+    margin: 2%;
+    list-style: none;
+    font-size: 120%;
+  }
+  .beardStyleFaqContainer > ul > li > span {
+    color: #cc2228;
+  }
+  .beardStyleFaqContainer > ul > li > p {
+    font-size: 90%;
+  }
+  @media screen and (min-width: 320px) {
+    .beardStyleFaqContainer {
+      /* border: solid; */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 20px;
+      margin-top:10%;
+    }
+    .beardStyleFaqContainer > h2 {
+      text-align: center;
+      font-size: 120%;
+    }
+    .beardStyleFaqContainer > ul {
+      /* border: solid; */
+      width: 95%;
+    }
+    .beardStyleFaqContainer > ul > li {
+      margin: 10%;
+      list-style: none;
+      font-size: 120%;
+    }
+    .beardStyleFaqContainer > ul > li > span {
+      color: #cc2228;
+    }
+    .beardStyleFaqContainer > ul > li > p {
+      font-size: 90%;
+    }
+  }
+  @media screen and (min-width: 728px) {
+      .beardStyleFaqContainer {
+        /* border: solid; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 5%;
+      }
+      .beardStyleFaqContainer > ul {
+        /* border: solid; */
+        width: 90%;
+      }
+      .beardStyleFaqContainer > ul > li {
+        margin: 2%;
+        list-style: none;
+        font-size: 120%;
+      }
+      .beardStyleFaqContainer > ul > li > span {
+        color: #cc2228;
+      }
+      .beardStyleFaqContainer > ul > li > p {
+        font-size: 90%;
+      }
+    }
+    
+  @media screen and (min-width: 990px) {
+      .beardStyleFaqContainer {
+        /* border: solid; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 5%;
+      }
+      .beardStyleFaqContainer > ul {
+        /* border: solid; */
+        width: 90%;
+      }
+      .beardStyleFaqContainer > ul > li {
+        margin: 2%;
+        list-style: none;
+        font-size: 120%;
+      }
+      .beardStyleFaqContainer > ul > li > span {
+        color: #cc2228;
+      }
+      .beardStyleFaqContainer > ul > li > p {
+        font-size: 90%;
+      }
+    }
+    
+  @media screen and (min-width: 1200px) {
+    .beardStyleFaqContainer {
+      /* border: solid; */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 20px;
+      margin-top: 5%;
+    }
+    .beardStyleFaqContainer > ul {
+      /* border: solid; */
+      width: 90%;
+    }
+    .beardStyleFaqContainer > ul > li {
+      margin: 2%;
+      list-style: none;
+      font-size: 120%;
+    }
+    .beardStyleFaqContainer > ul > li > span {
+      color: #cc2228;
+    }
+    .beardStyleFaqContainer > ul > li > p {
+      font-size: 90%;
+    }
+  }
+  

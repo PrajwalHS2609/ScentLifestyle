@@ -1,0 +1,35 @@
+.hairColorContent {
+    /* border: solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50%;
+  }
+  .hairColorCardContainer {
+    /* border: solid; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  @media screen and (min-width: 320px) {
+    .hairColorContent {
+      /* border: solid red; */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 50%;
+    }
+    .hairColorCardContainer {
+      /* border: solid; */
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+  }
+  
