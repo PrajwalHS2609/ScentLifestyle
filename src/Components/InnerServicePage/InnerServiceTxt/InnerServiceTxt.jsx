@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./InnerServiceTxt.css"
 const InnerServiceTxt = (props) => {
   return (
     <div className="innerServiceTxtContainer">

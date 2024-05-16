@@ -8,21 +8,36 @@ import LocationHead from "../LocationHead/LocationHead";
 import LocationImg from "../LocationImg/LocationImg";
 import loc1 from "./../../../Images/sahakaranagar.jpg";
 import ServiceCardContain from "../../MainServicePages/ServiceCards/ServiceCardContain";
-import UnisexSalon from "../../MainServicePages/UnisexSalon/UnisexSalon";
 import Members from "../../HomePage/Members/Members";
 import OurSalon from "../../HomePage/OurSalon/OurSalon";
 import Partners from "../../HomePage/Partners/Partners";
 import InstaFeed from "../../HomePage/InstaFeed/InstaFeed";
 import LocationNavi from "../LocationNavi/LocationNavi";
-import SahakarReadLoc from "./SahakarReadLoc/SahakarReadLoc";
 import TextLocReviews from "../../TextLocReviews/TextLocReviews";
+import SahakarLocAbout from "./SahakarLocAbout/SahakarLocAbout";
+import { Helmet } from "react-helmet";
 const SahakarLocPage = () => {
   return (
     <div className="sahakarLocPageContainer">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>
+          SCENT Salon in Sahakar Nagar - Hair, Nail, Facial, Spa, Eyelashes &
+          Beauty Essentials
+        </title>
+        <meta
+          name="SCENT Salon in Sahakar Nagar - Hair, Nail, Facial, Spa, Eyelashes & Beauty Essentials. Book your appointment with SCENT Salon today and enjoy exclusive offers!"
+          content="Scent sahakar nagar location"
+        />
+        <link
+          rel="sahakar nagar"
+          href="https://scentlifestyle.com/salon-in-sahakar-nagar"
+        />
+      </Helmet>
       <LocationNavBg />
       <LocationImg img={loc1} />
       <LocationNavi loc="Sahakar Nagar" />
-      <LocationArrow leftLink={"/jp"} rightLink={"/lavelle"} />
+      <LocationArrow leftLink={"/salon-in-jpnagar"} rightLink={"/salon-in-lavelle-road"} />
       <div className="sahakarLocPageContent">
         <LocationHead
           loc="Sahakar Nagar"
@@ -31,13 +46,12 @@ const SahakarLocPage = () => {
           map={<SahakarLocMap />}
         />
         <ServiceCardContain />
-        <UnisexSalon />
+        <SahakarLocAbout />
+        <TextLocReviews />
         <Members />
         <OurSalon />
         <Partners />
         <InstaFeed />
-        <TextLocReviews />
-        <SahakarReadLoc />
       </div>
       <LastComp />
     </div>

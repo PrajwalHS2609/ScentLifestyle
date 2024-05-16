@@ -1,31 +1,11 @@
-import React, { useRef, useState } from "react";
-import "./JakkurLocRead.css";
-const JakkurLocRead = () => {
-  let [toggle, setToggle] = useState(false);
-  let switchRef = useRef();
-  let open = () => {
-    if (!toggle) {
-      setToggle(true);
-      switchRef.current.style.display = "block";
-    } else {
-      setToggle(false);
-      switchRef.current.style.display = "none";
-    }
-  };
+import React from "react";
+import "./JakkuruLocAbout";
+const JakkuruLocAbout = () => {
   return (
-    <div className="jakkurLocReadContainer">
-      <div className="jakkurLocReadHeadContainer">
-        <button>
-          <h1 className="openBut" onClick={open}>
-            Read More
-          </h1>
-        </button>
-      </div>
-      <div ref={switchRef} className="jakkurLocReadDisplayContainer">
+    <div className="meadowsLocAboutContainer">
+      <h1>Luxuriate in Serenity: Scent Salon & Spa in Jakkuru, Bangalore</h1>
+      <p>
         <ul>
-          <li>
-            Luxuriate in Serenity: Scent Salon & Spa in Jakkuru, Bangalore
-          </li>
           <li>
             Indulge in a world of luxury and tranquility at Scent Salon & Spa in
             Jakkuru, Bangalore. Our salon offers a haven of relaxation where you
@@ -73,9 +53,9 @@ const JakkurLocRead = () => {
             and discover the true meaning of luxury and relaxation.
           </li>
         </ul>
-      </div>
+      </p>
     </div>
   );
 };
 
-export default JakkurLocRead;
+export default JakkuruLocAbout;

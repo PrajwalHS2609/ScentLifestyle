@@ -4,7 +4,6 @@ import LocationImg from "../LocationImg/LocationImg";
 import LocationArrow from "../LocationArrow/LocationArrow";
 import LocationHead from "../LocationHead/LocationHead";
 import ServiceCardContain from "../../MainServicePages/ServiceCards/ServiceCardContain";
-import UnisexSalon from "../../MainServicePages/UnisexSalon/UnisexSalon";
 import Members from "../../HomePage/Members/Members";
 import OurSalon from "../../HomePage/OurSalon/OurSalon";
 import Partners from "../../HomePage/Partners/Partners";
@@ -13,16 +12,31 @@ import LastComp from "../../LastComp/LastComp";
 import JpLocMap from "./JpLocMap/JpLocMap";
 import "./Jp.css";
 import loc6 from "./../../../Images/JP Nagar.jpg";
-import JpLocRead from "./JpLocRead/JpLocRead";
 import LocationNavi from "./../LocationNavi/LocationNavi";
 import TextLocReviews from "../../TextLocReviews/TextLocReviews";
+import JpLocAbout from "./JpLocAbout/JpLocAbout";
+import { Helmet } from "react-helmet";
 const Jp = () => {
   return (
     <div className="jpLocPageContainer">
+       <Helmet>
+        <meta charSet="utf-8" />
+        <title>
+        SCENT Salon in JP Nagar - Hair, Nail, Facial, Spa, Eyelashes & Beauty Essentials
+        </title>
+        <meta
+          name="SCENT Salon in JP Nagar - Hair, Nail, Facial, Spa, Eyelashes & Beauty Essentials. Book your appointment with SCENT Salon today and enjoy exclusive offers!"
+          content="Scent  jp nagar location"
+        />
+        <link
+          rel="jp nagar"
+          href="https://scentlifestyle.com/salon-in-jpnagar"
+        />
+      </Helmet>
       <LocationNavBg />
       <LocationImg img={loc6} />
       <LocationNavi loc="J P Nagar" />
-      <LocationArrow leftLink={"/meadows"} rightLink={"/sahakar"} />
+      <LocationArrow leftLink={"/salon-in-whitefield"} rightLink={"/salon-in-sahakar-nagar"} />
       <div className="jpLocPageContent">
         <LocationHead
           loc="J P Nagar"
@@ -31,13 +45,12 @@ const Jp = () => {
           map={<JpLocMap />}
         />
         <ServiceCardContain />
-        <UnisexSalon />
+        <JpLocAbout />
+        <TextLocReviews />
         <Members />
         <OurSalon />
         <Partners />
         <InstaFeed />
-        <TextLocReviews />
-        <JpLocRead />
       </div>
       <LastComp />
     </div>

@@ -70,7 +70,7 @@ h3,
 h4 {
   color: #cc2228;
 }
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 320px) {
   .locationHeadContainer {
     /* border: solid green; */
     display: flex;

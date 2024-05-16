@@ -3,11 +3,11 @@
 }
 .innerServiceTxtContainer {
   /* border: solid red; */
-  height: 35vh;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  flex-direction: column;margin-top: 5%;
 }
 .innerServiceTxtHeadContainer {
   /* border: solid; */
@@ -20,12 +20,12 @@
   color: var(--customRed);
 }
 .innerServiceTxtHeadContainer > h1 {
-  font-size: 40px;
+  font-size: 150%;text-align: center;
   color: var(--customRed);
 }
 .innerServiceTxtUnderline {
   border: 2px solid;
-  width: 60px;
+  width: 10%;
   color: var(--customRed);
 }
 .innerServiceTxtParaContainer {
@@ -38,5 +38,5 @@
   /* border: solid blue; */
   text-align: center;
   width: 90%;
-  font-size: 18px;
+  font-size: 110%;
 }

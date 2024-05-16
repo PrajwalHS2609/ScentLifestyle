@@ -7,22 +7,36 @@ import LocationHead from "../LocationHead/LocationHead";
 import LocationImg from "../LocationImg/LocationImg";
 import loc4 from "./../../../Images/Varthur - whitefield.jpg";
 import ServiceCardContain from "../../MainServicePages/ServiceCards/ServiceCardContain";
-import UnisexSalon from "../../MainServicePages/UnisexSalon/UnisexSalon";
 import Members from "../../HomePage/Members/Members";
 import OurSalon from "../../HomePage/OurSalon/OurSalon";
 import Partners from "../../HomePage/Partners/Partners";
 import InstaFeed from "../../HomePage/InstaFeed/InstaFeed";
 import UptownLocMap from "./UptownLocMap/UptownLocMap";
 import LocationNavi from "../LocationNavi/LocationNavi";
-import UptownLocRead from "./UptownLocRead/UptownLocRead";
 import TextLocReviews from "../../TextLocReviews/TextLocReviews";
+import UpTownLocAbout from "./UpTownLocAbout/UpTownLocAbout";
+import { Helmet } from "react-helmet";
 const UpTownLocPage = () => {
   return (
     <div className="uptownLocPageContainer">
+       <Helmet>
+        <meta charSet="utf-8" />
+        <title>
+        SCENT Salon in Uptown, Whitefield - Hair, Nail, Facial, Spa, Eyelashes & Beauty Essentials					
+        </title>
+        <meta
+          name="SCENT Salon in Uptown, Whitefield - Hair, Nail, Facial, Spa, Eyelashes & Beauty Essentials. Book your appointment with SCENT Salon today and enjoy exclusive offers!"
+          content="Scent uptown whitefield location"
+        />
+        <link
+          rel="uptown whitefield"
+          href="https://scentlifestyle.com/salon-in-uptown-whitefield"
+        />
+      </Helmet>
       <LocationNavBg />
       <LocationImg img={loc4} />
       <LocationNavi loc="UpTown Square" />
-      <LocationArrow leftLink={"/jakkuru"} rightLink={"/meadows"} />
+      <LocationArrow leftLink={"/salon-in-jakkuru"} rightLink={"/salon-in-whitefield"} />
       <div className="uptownLocPageContent">
         <LocationHead
           loc="Uptown Square"
@@ -32,14 +46,12 @@ const UpTownLocPage = () => {
           map={<UptownLocMap />}
         />
         <ServiceCardContain />
-        <UnisexSalon />
+        <UpTownLocAbout />
+        <TextLocReviews />
         <Members />
         <OurSalon />
         <Partners />
         <InstaFeed />
-        {/* <UptownLocMap /> */}
-        <TextLocReviews />
-        <UptownLocRead />
       </div>
       <LastComp />
     </div>

@@ -1,0 +1,34 @@
+.haircutContent {
+  /* border: solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50%;
+}
+.haircutCardContainer {
+  /* border: solid; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+@media screen and (min-width: 320px) {
+  .haircutContent {
+    /* border: solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50%;
+  }
+  .haircutCardContainer {
+    /* border: solid; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}

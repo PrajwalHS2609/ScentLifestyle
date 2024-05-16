@@ -89,34 +89,34 @@ const HelpNearYouCards = () => {
           city="Sahakar Nagar"
           image={Sahakar}
           no="9740322700"
-          link="/sahakar"
+          link="/salon-in-sahakar-nagar"
         />
 
         <HelpCard
           city="Lavelle Road"
           image={Lavelle}
           no="9740222700"
-          link="/lavelle"
+          link="/salon-in-lavelle-road"
         />
         <HelpCard
           city="Jakkur"
           image={Jakkur}
           no=" 9742212700"
-          link="/jakkuru"
+          link="/salon-in-jakkuru"
         />
         <HelpCard
           city="Uptown Square"
           image={varthur}
           no="9148122700"
-          link="/uptown"
+          link="/salon-in-uptown-whitefield"
         />
         <HelpCard
           city="Meadows"
           image={Seege}
           no="9686221700"
-          link="/meadows"
+          link="/salon-in-whitefield"
         />
-        <HelpCard city="JP Nagar" image={jp} no="88612 22700" link="/jp" />
+        <HelpCard city="JP Nagar" image={jp} no="88612 22700" link="/salon-in-jpnagar" />
       </div>
 
       <div className="respHelpNearYouCardContainer">
@@ -125,34 +125,34 @@ const HelpNearYouCards = () => {
             city="Sahakar Nagar"
             image={Sahakar}
             no=" 9740322700"
-            link="/sahakar"
+            link="/salon-in-sahakar-nagar"
           />
 
           <HelpCard
             city="Lavelle Road"
             image={Lavelle}
             no="9740222700"
-            link="/lavellel"
+            link="/salon-in-lavellel-road"
           />
           <HelpCard
             city="Jakkuru"
             image={Jakkur}
             no="9742212700"
-            link="/jakkuru"
+            link="/salon-in-jakkuru"
           />
           <HelpCard
             city="Varthur"
             image={varthur}
             no="9148122700"
-            link="/uptown"
+            link="/salon-in-uptown-whitefield"
           />
           <HelpCard
             city="Seegelli"
             image={Seege}
             no="9686221700"
-            link="/meadows"
+            link="/salon-in-whitefield"
           />
-          <HelpCard city="JP Nagar" image={jp} no="8861222700" link="/jp" />
+          <HelpCard city="JP Nagar" image={jp} no="8861222700" link="/salon-in-jpnagar" />
         </Slider>
       </div>
     </>

@@ -158,7 +158,7 @@
   color: var(--customRed);
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 320px) {
   .serviceCardContainer {
     /* border: solid red; */
     height: 480vh;

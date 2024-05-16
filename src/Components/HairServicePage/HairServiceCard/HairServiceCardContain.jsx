@@ -12,6 +12,8 @@ const HairServiceCardContain = () => {
         Get cutting-edge haircuts and trims at SCENT salon for women and men. Our skilled stylists provide trending styles and professional blow-dry for a stunning look. Whether classic or modern, our unisex salon offers options for all occasions. Experience a transformation with Dyson tools. Check out our latest offers in Bangalore today!"
         goto="Haircut & Styling"
         img={cut}
+        link={"/haircut"}
+
       />
       <HairServiceCard
         heading="Highlights & Streaks"

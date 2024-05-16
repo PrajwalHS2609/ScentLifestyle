@@ -8,21 +8,34 @@ import LocationHead from "../LocationHead/LocationHead";
 import LocationImg from "../LocationImg/LocationImg";
 import loc2 from "./../../../Images/lavelle road.jpg";
 import ServiceCardContain from "../../MainServicePages/ServiceCards/ServiceCardContain";
-import UnisexSalon from "../../MainServicePages/UnisexSalon/UnisexSalon";
 import Members from "../../HomePage/Members/Members";
 import OurSalon from "../../HomePage/OurSalon/OurSalon";
 import Partners from "../../HomePage/Partners/Partners";
 import InstaFeed from "../../HomePage/InstaFeed/InstaFeed";
 import LocationNavi from "../LocationNavi/LocationNavi";
-import LavellelReadLoc from "./LavellelReadLoc/LavellelReadLoc";
 import TextLocReviews from "../../TextLocReviews/TextLocReviews";
+import LavelleLocAbout from "./LavelleLocAbout/LavelleLocAbout";
+import { Helmet } from "react-helmet";
 const LavellelLocPage = () => {
   return (
     <div className="lavellelLocPageContainer">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>
+        SCENT Salon in Lavelle Road - Hair, Nail, Facial, Spa, Eyelashes & Beauty Essentials</title>
+        <meta
+          name="SCENT Salon in Lavelle Road - Hair, Nail, Facial, Spa, Eyelashes & Beauty Essentials. Book your appointment with SCENT Salon today and enjoy exclusive offers!"
+          content="Scent lavelle road location"
+        />
+        <link
+          rel="lavelle road"
+          href="https://scentlifestyle.com/salon-in-lavelle-road		"
+        />
+      </Helmet>
       <LocationNavBg />
       <LocationImg img={loc2} />
       <LocationNavi loc="Lavelle Road"/>
-      <LocationArrow leftLink={"/sahakar"} rightLink={"/jakkuru"} />
+      <LocationArrow leftLink={"/salon-in-sahakar-nagar"} rightLink={"/salon-in-jakkuru"} />
       <div className="lavellelLocPageContent">
         <LocationHead
           loc="Lavelle Road"
@@ -32,13 +45,12 @@ const LavellelLocPage = () => {
         map={<LavellelLocMap/>}
         />
         <ServiceCardContain />
-        <UnisexSalon />
+        <LavelleLocAbout />
+        <TextLocReviews />
         <Members />
         <OurSalon />
         <Partners />
         <InstaFeed />
-        <TextLocReviews />
-        <LavellelReadLoc/>
       </div>
       <LastComp />
     </div>

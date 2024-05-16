@@ -1,33 +1,15 @@
-import React, { useRef, useState } from "react";
-import "./JpLocRead.css";
-const JpLocRead = () => {
-  let [toggle, setToggle] = useState(false);
-  let switchRef = useRef();
-  let open = () => {
-    if (!toggle) {
-      setToggle(true);
-      switchRef.current.style.display = "block";
-    } else {
-      setToggle(false);
-      switchRef.current.style.display = "none";
-    }
-  };
+import React from "react";
+import "./JpLocAbout.css";
+const JpLocAbout = () => {
   return (
-    <div className="jpLocReadContainer">
-      <div className="jpLocReadHeadContainer">
-        <button>
-          <h1 className="openBut" onClick={open}>
-            Read More
-          </h1>
-        </button>
-      </div>
-      <div ref={switchRef} className="jpLocReadDisplayContainer">
+    <div className="meadowsLocAboutContainer">
+      <h1>
+        Scent Salon & Spa JP Nagar, Bangalore – Your Destination for Beauty and
+        Wellness!
+      </h1>
+      <p>
         <ul>
-          <li>
-            Scent Salon & Spa JP Nagar, Bangalore – Your Destination for Beauty
-            and Wellness!
-          </li>
-          <li>
+        <li>
             Escape the chaos of everyday life and indulge in a luxurious
             experience at Scent Salon & Spa in JP Nagar, Bangalore. Our salon
             and spa offer a wide range of services designed to help you look and
@@ -72,9 +54,9 @@ const JpLocRead = () => {
             today and experience the perfect blend of luxury and relaxation.
           </li>
         </ul>
-      </div>
+      </p>
     </div>
   );
 };
 
-export default JpLocRead;
+export default JpLocAbout;

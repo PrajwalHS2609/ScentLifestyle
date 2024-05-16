@@ -9,14 +9,12 @@ import OurSalon from "../HomePage/OurSalon/OurSalon";
 import Members from "../HomePage/Members/Members";
 import InstaFeed from "../HomePage/InstaFeed/InstaFeed";
 import TextLocReviews from "../TextLocReviews/TextLocReviews";
-import InnerNavi from "../InnerServicePage/InnerNavi/InnerNavi";
 
 const BeardStylingPage = () => {
   return (
     <div>
       <NavBg />
-      <BeardImgPara />
-      <InnerNavi service="Hair " currService="Beard Styling" link={"/hair-salon"}/>
+      {/* <BeardImgPara /> */}
       <BeardStyle />
       <OurSalon />
       <Members />

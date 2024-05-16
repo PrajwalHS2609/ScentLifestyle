@@ -1,32 +1,13 @@
-import React, { useRef, useState } from "react";
-import "./UptownLocRead.css";
-const UptownLocRead = () => {
-  let [toggle, setToggle] = useState(false);
-  let switchRef = useRef();
-  let open = () => {
-    if (!toggle) {
-      setToggle(true);
-      switchRef.current.style.display = "block";
-    } else {
-      setToggle(false);
-      switchRef.current.style.display = "none";
-    }
-  };
+import React from "react";
+import "./UpTownLocAbout.css";
+const UpTownLocAbout = () => {
   return (
-    <div className="uptownLocReadContainer">
-      <div className="uptownLocReadHeadContainer">
-        <button>
-          <h1 className="openBut" onClick={open}>
-            Read More
-          </h1>
-        </button>
-      </div>
-      <div ref={switchRef} className="uptownLocReadDisplayContainer">
+    <div className="uptownLocAboutContainer">
+      <h1>
+        Discover Luxury at Scent Salon & Spa in Up Town Whitefield, Bangalore
+      </h1>
+      <p>
         <ul>
-          <li>
-            Discover Luxury at Scent Salon & Spa in Up Town Whitefield,
-            Bangalore
-          </li>
           <li>
             Nestled in the heart of Up Town Whitefield, Scent Salon & Spa offers
             an unparalleled experience of luxury and relaxation. Our salon and
@@ -41,7 +22,7 @@ const UptownLocRead = () => {
             walks through our doors.
           </li>
           <li>
-            <h2>Our Services</h2>
+            <h3>Our Services</h3>
           </li>
           <li>
             <span>Hair Services:</span> Whether you're looking for a trendy
@@ -76,7 +57,7 @@ const UptownLocRead = () => {
             set of lashes to suit your style.
           </li>
           <li>
-            <h2>Why Choose Us?</h2>
+            <h3>Why Choose Us?</h3>
           </li>
           <li>
             <span>Convenient Location:</span> Located in Up Town Whitefield, our
@@ -100,7 +81,7 @@ const UptownLocRead = () => {
             competitive prices without compromising on quality.
           </li>
           <li>
-            <h2>Book Your Appointment Today!</h2>
+            <h3>Book Your Appointment Today!</h3>
           </li>
           <li>
             Ready to experience the ultimate in beauty and relaxation? Book your
@@ -109,9 +90,9 @@ const UptownLocRead = () => {
             forward to welcoming you to our salon and spa soon!
           </li>
         </ul>
-      </div>
+      </p>
     </div>
   );
 };
 
-export default UptownLocRead;
+export default UpTownLocAbout;

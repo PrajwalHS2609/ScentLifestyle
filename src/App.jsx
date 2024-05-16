@@ -27,7 +27,8 @@ import UpTownLocPage from "./Components/LocationPage/UpTownLocPage/UpTownLocPage
 import MeadowsLocPage from "./Components/LocationPage/MeadowsLocPage/MeadowsLocPage";
 import Jp from "./Components/LocationPage/Jp/Jp";
 import ContactPage from "./Components/ContactPage/ContactPage";
-import BeardStylingPage from './Components/BeardServicePage/BeardStylingPage';
+import BeardStylingPage from "./Components/BeardServicePage/BeardStylingPage";
+import Haircut from "./Components/HairServicePage/HaircutPage/Haircut";
 
 const App = () => {
   return (
@@ -39,6 +40,7 @@ const App = () => {
           <Route path="/" element={<HomePage />} />
           <Route path="/service" element={<MainServicePage />} />
           <Route path="/hair-salon" element={<HairServicePage />} />
+          <Route path="/haircut" element={<Haircut />} />
           <Route path="/beard" element={<BeardStylingPage />} />
           <Route path="/nails-salon" element={<NailSalonPage />} />
           <Route path="/facial" element={<FacialPage />} />
@@ -55,12 +57,15 @@ const App = () => {
           <Route path="/shop" element={<ShopPage />} />
           <Route path="/contact-us" element={<ContactPage />} />
           <Route path="/location" element={<LocationPage />} />
-          <Route path="/sahakar" element={<SahakarLocPage />} />
-          <Route path="/lavelle" element={<LavellelLocPage />} />
-          <Route path="/jakkuru" element={<JakkuruLocPage />} />
-          <Route path="/uptown" element={<UpTownLocPage />} />
-          <Route path="/meadows" element={<MeadowsLocPage />} />
-          <Route path="/jp" element={<Jp/>} />
+          <Route path="/salon-in-sahakar-nagar" element={<SahakarLocPage />} />
+          <Route path="/salon-in-lavelle-road" element={<LavellelLocPage />} />
+          <Route path="/salon-in-jakkuru" element={<JakkuruLocPage />} />
+          <Route
+            path="/salon-in-uptown-whitefield"
+            element={<UpTownLocPage />}
+          />
+          <Route path="/salon-in-whitefield" element={<MeadowsLocPage />} />
+          <Route path="/salon-in-jpnagar" element={<Jp />} />
         </Routes>
       </BrowserRouter>
     </div>
