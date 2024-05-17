@@ -12,7 +12,7 @@ const HairServiceCardContain = () => {
         Get cutting-edge haircuts and trims at SCENT salon for women and men. Our skilled stylists provide trending styles and professional blow-dry for a stunning look. Whether classic or modern, our unisex salon offers options for all occasions. Experience a transformation with Dyson tools. Check out our latest offers in Bangalore today!"
         goto="Haircut & Styling"
         img={cut}
-        link={"/haircut"}
+        link={"/haircut-and-styling"}
 
       />
       <HairServiceCard
@@ -21,7 +21,7 @@ const HairServiceCardContain = () => {
         Transform your look with our Hair Colour & Highlights services. Choose from bold global hair colours to delicate highlights, meticulously crafted by our skilled stylists. Each colour is tailored to your style, ensuring a personalized and stunning result that boosts your confidence and radiance."
         goto="Highlights & Streaks"
         img="https://img.freepik.com/premium-photo/beauty-young-woman-portrait_200196-667.jpg?w=900"
-        link={"/haircolor"}
+        link={"/highlights-and-streaks"}
 
       />
       <HairServiceCard
@@ -29,7 +29,7 @@ const HairServiceCardContain = () => {
         para=" At SCENT salon nearby, select from various hair spa treatments for your specific needs. Customize options to tackle oiliness, frizz, dryness, and scalp itchiness. Experience our intense hair spa with Olaplex treatment for chemically treated hair, for relaxation and rejuvenation. See reduced breakage, reversed damage, and improved hair health."
         goto="Hair Spa"
         img="https://img.freepik.com/premium-photo/spa-treatments-top-view-hairdressera-s-hands-washing-hair-her-customer-salon-before-hairstyling-process_283617-2683.jpg?w=900"
-        link={"/hairspa"}
+        link={"/hair-spa"}
 
       />
       <HairServiceCard

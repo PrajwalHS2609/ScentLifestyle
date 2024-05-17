@@ -42,9 +42,9 @@ const App = () => {
           <Route path="/" element={<HomePage />} />
           <Route path="/service" element={<MainServicePage />} />
           <Route path="/hair-salon" element={<HairServicePage />} />
-          <Route path="/haircut" element={<Haircut />} />
-          <Route path="/haircolor" element={<HairColor />} />
-          <Route path="/hairspa" element={<HairSpa />} />
+          <Route path="/haircut-and-styling" element={<Haircut />} />
+          <Route path="/highlights-and-streaks" element={<HairColor />} />
+          <Route path="/hair-spa" element={<HairSpa />} />
           <Route path="/beard" element={<BeardStyle/>} />
           <Route path="/nails-salon" element={<NailSalonPage />} />
           <Route path="/facial" element={<FacialPage />} />

@@ -68,7 +68,7 @@ const FacialServiceCardContain = () => {
         heading="Hydra Lifting Ocean Miracle"
         para="Firming anti-ageing marine biotechnology combined with  properties of quinton sea water"
         goto="Hydra Lifting Ocean Miracle"
-        img="https://img.freepik.com/free-photo/serene-image-beautiful-woman-enjoying-spa-day-submerged-crystalclear-pool-with-floatin_1268-31061.jpg?t=st=1714715824~exp=1714719424~hmac=b7d5952671041277d8eeefc8480715f2b23bf3af4aac2157a024f32a51e52d88&w=1380"
+        img="https://img.freepik.com/premium-photo/woman-with-blue-eyes-blue-glittery-face-is-shown_802234-30425.jpg?w=900"
       />
       <FacialServiceCard
         heading="Luminous Lightening Facial"
