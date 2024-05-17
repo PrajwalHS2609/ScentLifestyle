@@ -1,0 +1,135 @@
+.hairTreatmentFaqContainer {
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 5%;
+  }
+  .hairTreatmentFaqContainer > ul {
+    /* border: solid; */
+    width: 90%;
+  }
+  .hairTreatmentFaqContainer > ul > li {
+    margin: 2%;
+    list-style: none;
+    font-size: 120%;
+  }
+  .hairTreatmentFaqContainer > ul > li > span {
+    color: #cc2228;
+  }
+  .hairTreatmentFaqContainer > ul > li > p {
+    font-size: 90%;
+  }
+  @media screen and (min-width: 320px) {
+    .hairTreatmentFaqContainer {
+      /* border: solid; */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 20px;
+      margin-top:10%;
+    }
+    .hairTreatmentFaqContainer > h2 {
+      text-align: center;
+      font-size: 120%;
+    }
+    .hairTreatmentFaqContainer > ul {
+      /* border: solid; */
+      width: 95%;
+    }
+    .hairTreatmentFaqContainer > ul > li {
+      margin: 10%;
+      list-style: none;
+      font-size: 120%;
+    }
+    .hairTreatmentFaqContainer > ul > li > span {
+      color: #cc2228;
+    }
+    .hairTreatmentFaqContainer > ul > li > p {
+      font-size: 90%;
+    }
+  }
+  @media screen and (min-width: 728px) {
+      .hairTreatmentFaqContainer {
+        /* border: solid; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 5%;
+      }
+      .hairTreatmentFaqContainer > ul {
+        /* border: solid; */
+        width: 90%;
+      }
+      .hairTreatmentFaqContainer > ul > li {
+        margin: 2%;
+        list-style: none;
+        font-size: 120%;
+      }
+      .hairTreatmentFaqContainer > ul > li > span {
+        color: #cc2228;
+      }
+      .hairTreatmentFaqContainer > ul > li > p {
+        font-size: 90%;
+      }
+    }
+    
+  @media screen and (min-width: 990px) {
+      .hairTreatmentFaqContainer {
+        /* border: solid; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 5%;
+      }
+      .hairTreatmentFaqContainer > ul {
+        /* border: solid; */
+        width: 90%;
+      }
+      .hairTreatmentFaqContainer > ul > li {
+        margin: 2%;
+        list-style: none;
+        font-size: 120%;
+      }
+      .hairTreatmentFaqContainer > ul > li > span {
+        color: #cc2228;
+      }
+      .hairTreatmentFaqContainer > ul > li > p {
+        font-size: 90%;
+      }
+    }
+    
+  @media screen and (min-width: 1200px) {
+    .hairTreatmentFaqContainer {
+      /* border: solid; */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 20px;
+      margin-top: 5%;
+    }
+    .hairTreatmentFaqContainer > ul {
+      /* border: solid; */
+      width: 90%;
+    }
+    .hairTreatmentFaqContainer > ul > li {
+      margin: 2%;
+      list-style: none;
+      font-size: 120%;
+    }
+    .hairTreatmentFaqContainer > ul > li > span {
+      color: #cc2228;
+    }
+    .hairTreatmentFaqContainer > ul > li > p {
+      font-size: 90%;
+    }
+  }
+  

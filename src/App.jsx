@@ -31,6 +31,8 @@ import Haircut from "./Components/HairServicePage/HaircutPage/Haircut";
 import HairColor from "./Components/HairServicePage/HairColorPage/HairColor";
 import HairSpa from "./Components/HairServicePage/HairSpa/HairSpa";
 import BeardStyle from './Components/HairServicePage/BeardStylePage/BeardStyle';
+import HairTreatment from "./Components/HairServicePage/HairTreatment/HairTreatment";
+import Mustache from './Components/HairServicePage/Mustache/Mustache';
 
 const App = () => {
   return (
@@ -43,9 +45,11 @@ const App = () => {
           <Route path="/service" element={<MainServicePage />} />
           <Route path="/hair-salon" element={<HairServicePage />} />
           <Route path="/haircut-and-styling" element={<Haircut />} />
-          <Route path="/highlights-and-streaks" element={<HairColor />} />
+          <Route path="/hair-highlights-and-streaks" element={<HairColor />} />
           <Route path="/hair-spa" element={<HairSpa />} />
+          <Route path="/hair-treatments" element={<HairTreatment/>} />
           <Route path="/beard" element={<BeardStyle/>} />
+          <Route path="/mustache-styling" element={<Mustache/>} />
           <Route path="/nails-salon" element={<NailSalonPage />} />
           <Route path="/facial" element={<FacialPage />} />
           <Route path="/beauty-essentials" element={<BeautyPage />} />
