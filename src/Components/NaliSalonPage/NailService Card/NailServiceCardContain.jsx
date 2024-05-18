@@ -36,25 +36,28 @@ const NailServiceCardContain = () => {
       />
       <NailServiceCard
         heading="Organic ManiCure"
-        para="Experience the ultimate pampering with our Organic Manicure. Using natural and organic products, our skilled technicians will nourish and hydrate your nails and cuticles, leaving them healthy and beautiful."
+        para="Experience ultimate pampering with our Organic Manicure. Our skilled technicians use natural products to nourish and beautify your nails and cuticles."
         goto="Organic MainCure"
         img="https://img.freepik.com/free-photo/close-up-nail-care-treatment_23-2149262899.jpg?t=st=1714632077~exp=1714635677~hmac=19785bd7df5bd245579b0f35dda4b9aa9f04efc4a8c1999df24b1dcc29fbce83&w=360"
       />
       <NailServiceCard
         heading="Classic PediCure"
-        para="Treat your feet to the care they deserve with our Classic Pedicure. Sit back, relax, and enjoy a soothing foot soak, followed by nail shaping, cuticle care, and a moisturizing massage. Walk out feeling refreshed and rejuvenated."
+        para="
+        Treat your feet with our Classic Pedicure. Enjoy a soothing soak, nail shaping, cuticle care, and a moisturizing massage. Leave feeling refreshed and rejuvenated."
         goto="Classic PediCure"
         img="https://img.freepik.com/premium-photo/closeup-photo-beautiful-female-foot-with-pedicure-hands-with-manicure_488220-13300.jpg?w=360"
       />
       <NailServiceCard
         heading="Organic PediCure"
-        para="Indulge in our Organic Pedicure, featuring natural products to revitalize your feet. Enjoy a foot soak, gentle exfoliation, nail shaping, and cuticle care with organic ingredients. Leave feeling refreshed and pampered."
+        para="
+        Indulge in our Organic Pedicure with natural products. Enjoy a foot soak, exfoliation, nail shaping, and cuticle care. Leave feeling refreshed and pampered."
         goto="Organic PediCure"
         img="https://img.freepik.com/free-photo/pedicurist-master-makes-pedicure-woman-s-legs-spa-treatment-concept_186202-7773.jpg?t=st=1714630388~exp=1714633988~hmac=640a1d0aea95f3965395d2446f018b13f9c97ae39561f635596843cb3bdb97d3&w=826"
       />
       <NailServiceCard
         heading="Candle Spa ManiCure"
-        para="Try our Candle Spa Manicure for luxury and expert nail care. Enjoy a warm wax treatment, nail shaping, cuticle care, and a hydrating massage for soft, tranquil hands."
+        para="
+        Try our Candle Spa Manicure for luxurious nail care. Enjoy a warm wax treatment, nail shaping, cuticle care, and a hydrating massage for soft, tranquil hands."
         goto="Candle Spa ManiCure"
         img="https://img.freepik.com/premium-photo/closeup-beautiful-woman-hands-getting-manicure-spa-salon_141188-4310.jpg?w=900"
       />

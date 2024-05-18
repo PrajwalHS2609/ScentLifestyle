@@ -61,7 +61,7 @@ const SpaServiceCardContain = () => {
       />
       <SpaServiceCard
         heading="Scent Signature Massage"
-        para="Experience pure bliss with our SCENT Signature Massage. This exclusive treatment combines various massage techniques tailored to your needs, providing ultimate relaxation and rejuvenation. Let our skilled therapists soothe your body and mind, leaving you feeling refreshed and revitalized."
+        para="Experience bliss with our SCENT Signature Massage. This exclusive treatment combines tailored techniques for ultimate relaxation and rejuvenation. Let our skilled therapists refresh your body and mind."
         goto="Scent Signature Massage"
         img="https://img.freepik.com/free-photo/beautiful-young-woman-spa-salon_155003-3473.jpg?t=st=1714718030~exp=1714721630~hmac=2c73b51a5fdd7529d04a7ca7ef9fea91f33ded7a63d2948f11c4e7217eff06d7&w=900"
       />
