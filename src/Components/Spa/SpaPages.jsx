@@ -11,6 +11,8 @@ import Partners from "../HomePage/Partners/Partners";
 import InstaFeed from "../HomePage/InstaFeed/InstaFeed";
 import { Helmet } from "react-helmet";
 import NavBg from "../NavBg/NavBg";
+import TextLocReviews from "./../TextLocReviews/TextLocReviews";
+import ServiceWhy from "../MainServicePages/ServiceWhy/ServiceWhy";
 
 const SpaPages = () => {
   return (
@@ -20,9 +22,12 @@ const SpaPages = () => {
         <title>
           SCENT Salon Spa in Bangalore - Hair, Nail, Skin, Beauty Essentials
         </title>
-        <meta name="Indulge in premium SCENT spa services in Bangalore. Explore our luxurious body massages and rejuvenate your mind and body. Book now for ultimate relaxation!" content="Scent application" />
+        <meta
+          name="Indulge in premium SCENT spa services in Bangalore. Explore our luxurious body massages and rejuvenate your mind and body. Book now for ultimate relaxation!"
+          content="Scent application"
+        />
       </Helmet>
-      <NavBg/>
+      <NavBg />
       <SpaImg />
       <Navi5 />
       <SpaServiceCardContain />
@@ -31,6 +36,8 @@ const SpaPages = () => {
       <Partners />
       <InstaFeed />
       <HelpNearYou />
+      <TextLocReviews />
+      <ServiceWhy />
       <SpaRead />
       <LastComp />
     </div>

@@ -1,6 +1,5 @@
 import React from "react";
 import BeautyGarage from "./BeautyGarage/BeautyGarage";
-import "./ShopPage.css";
 import Olaplex from "./Olaplex/Olaplex";
 import Schw from "./Schw/Schw";
 import { Helmet } from "react-helmet";
