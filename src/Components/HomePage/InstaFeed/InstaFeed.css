@@ -182,6 +182,17 @@
     height: 90%;
     position: relative;
   }
+  .instaSlider {
+    /* border: solid teal; */
+    height: 100%;
+    width: 100%;
+    margin-right: 50px;
+  }
+  .instaInnerSlider {
+    /* border: solid; */
+    height: 100%;
+    width: 50%;
+  }
 }
 @media screen and (max-width: 1200px) and (min-width: 990px) {
   .instaContainer {

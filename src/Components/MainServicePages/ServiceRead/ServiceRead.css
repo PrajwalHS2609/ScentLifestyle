@@ -8,6 +8,7 @@
   flex-direction: column;
   margin-top: 10px;
   cursor: pointer;
+  margin-top: 100px;
 }
 .serviceReadHeadContainer {
   /* border: solid red; */
@@ -38,18 +39,19 @@
   text-decoration: underline;
   font-weight: lighter;
 }
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 320px) {
   .serviceReadContainer {
     /* border: solid red; */
     display: flex;
     width: 100%;
+    height: 100%;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     margin-top: 0px;
   }
   .serviceReadHeadContainer > h1 {
-    font-size: 150%;
+    font-size: 120%;
   }
   .serviceReadDisplayContainer {
     height: 100%;
@@ -57,5 +59,51 @@
   .serviceReadDisplayContainer ul > ul > li {
     /* border: solid green; */
     margin: 5%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .serviceReadContainer {
+    /* border: solid red; */
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0px;
+  }
+  .serviceReadHeadContainer > h1 {
+    font-size: 120%;
+  }
+  .serviceReadDisplayContainer {
+    height: 100%;
+  }
+  .serviceReadDisplayContainer ul > ul > li {
+    /* border: solid green; */
+    margin: 5%;
+    font-size: 100%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .serviceReadContainer {
+    /* border: solid red; */
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0px;
+  }
+  .serviceReadHeadContainer > h1 {
+    font-size: 120%;
+  }
+  .serviceReadDisplayContainer {
+    height: 100%;
+  }
+  .serviceReadDisplayContainer ul > ul > li {
+    /* border: solid green; */
+    margin: 5%;
+    font-size: 100%;
   }
 }

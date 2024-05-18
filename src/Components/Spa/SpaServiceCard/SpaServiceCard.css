@@ -164,7 +164,7 @@
   border: none;
   color: var(--customRed);
 }
-@media screen and (min-width: 320px) and (max-width:600px){
+@media screen and (min-width: 320px){
   .spaCardContainer {
     /* border: solid blue; */
     width: 100%;

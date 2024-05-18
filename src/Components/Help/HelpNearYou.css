@@ -199,7 +199,7 @@
 @media screen and (max-width: 990px) and (min-width: 600px) {
   .helpNearYouContainer {
     /* border: solid; */
-    height: 180vh;
+    height: 100%;
     width: 100%;
     justify-content: flex-start;
   }
@@ -231,7 +231,7 @@
 @media screen and (max-width: 1200px) and (min-width: 990px) {
   .helpNearYouContainer {
     /* border: solid; */
-    height: 190vh;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -329,7 +329,7 @@
 @media screen and (max-width: 1440px) and (min-width: 1200px) {
   .helpNearYouContainer {
     /* border: solid; */
-    height: 1200px;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;

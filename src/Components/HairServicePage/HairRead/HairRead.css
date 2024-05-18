@@ -43,7 +43,7 @@
   text-decoration: underline;
   font-weight: lighter;
 }
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 600px) {
   .hairReadContainer {
     /* border: solid red; */
     display: flex;
@@ -54,20 +54,20 @@
     margin-top:0px;
   }
   .hairReadHeadContainer > h1 {
-    font-size: 150%;
+    font-size: 120%;
   }
   .hairReadDisplayContainer {
     height: 100%;
   }
   .readmehead2 > h2 {
-    font-size: 100%;
+    font-size: 120%;
     color: black;
   }
   
   .hairReadDisplayContainer ul >li {
     /* border: solid green; */
     margin: 5%;
-    font-size: 100%;
+    font-size: 120%;
 
   }
 }
