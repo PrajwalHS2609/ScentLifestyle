@@ -8,21 +8,17 @@ const HairServiceCardContain = () => {
     <div className="hairCardContainer">
       <HairServiceCard
         heading="Haircut & Styling"
-        para="
-        Get cutting-edge haircuts and trims at SCENT salon for women and men. Our skilled stylists provide trending styles and professional blow-dry for a stunning look. Whether classic or modern, our unisex salon offers options for all occasions. Experience a transformation with Dyson tools. Check out our latest offers in Bangalore today!"
+        para="Get stylish haircuts and trims at SCENT salon. Our stylists offer trendy styles and professional blow-drys for any occasion. Experience a Dyson transformation. Visit us in Bangalore for offers!"
         goto="Haircut & Styling"
         img={cut}
         link={"/haircut-and-styling"}
-
       />
       <HairServiceCard
         heading="Highlights & Streaks"
-        para="
-        Transform your look with our Hair Colour & Highlights services. Choose from bold global hair colours to delicate highlights, meticulously crafted by our skilled stylists. Each colour is tailored to your style, ensuring a personalized and stunning result that boosts your confidence and radiance."
+        para="Transform your look with our Hair Colour & Highlights. Choose from bold colours to delicate highlights, crafted by skilled stylists for a personalized, stunning result."
         goto="Highlights & Streaks"
         img="https://img.freepik.com/premium-photo/beauty-young-woman-portrait_200196-667.jpg?w=900"
         link={"/hair-highlights-and-streaks"}
-
       />
       <HairServiceCard
         heading="Hair Spa"
@@ -30,7 +26,6 @@ const HairServiceCardContain = () => {
         goto="Hair Spa"
         img="https://img.freepik.com/premium-photo/spa-treatments-top-view-hairdressera-s-hands-washing-hair-her-customer-salon-before-hairstyling-process_283617-2683.jpg?w=900"
         link={"/hair-spa"}
-
       />
       <HairServiceCard
         heading="Hair Treatments"
@@ -53,7 +48,6 @@ const HairServiceCardContain = () => {
         goto="Mustache"
         img="https://img.freepik.com/free-photo/half-man-s-face-with-beard_171337-17203.jpg?t=st=1714371661~exp=1714375261~hmac=b0ab5f1a49059c0c64246cc3f4f3dce7cda027e06eb204a96195ded5f2f8453d&w=900"
         link={"/mustache-styling"}
-
       />
     </div>
   );

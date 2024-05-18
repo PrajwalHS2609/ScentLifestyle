@@ -1,11 +1,11 @@
 import React from "react";
 import "./AboutPage.css";
-
+import loc1 from "./../../Images/sahakaranagar.jpg"
 const AboutImg = () => {
   return (
     <div className="aboutPgImgContainer">
       <img
-        src="https://scentlifestyle.com/wp-content/uploads/2019/03/sc9.jpg"
+        src={loc1}
         alt=""
       />
     </div>

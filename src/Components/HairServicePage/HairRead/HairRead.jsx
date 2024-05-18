@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
 import "./HairRead.css";
 
-const HairRead = (props) => {
+const HairRead = () => {
   let [toggle, setToggle] = useState(false);
   let switchRef = useRef();
   let open = () => {
