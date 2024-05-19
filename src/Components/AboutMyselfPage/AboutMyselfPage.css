@@ -31,12 +31,11 @@
   margin-top: 6%;
   justify-content: center;
   align-items: center;
-  color:#CC2228 ;
-
+  color: #cc2228;
 }
-.aboutMyselfContactContainer>h1>a{
+.aboutMyselfContactContainer > h1 > a {
   text-decoration: none;
-  color:#CC2228 ;
+  color: #cc2228;
 }
 @media screen and (max-width: 600px) {
   .abtnavbg {
@@ -54,6 +53,11 @@
   }
   .aboutMyselfImgContainer {
     /* border: solid green; */
+    width: 100%;
+  }
+  .aboutMyselfImgContainer > img {
+    width: 100%;
+    height: 100%;
   }
   .aboutMyselfTxtContainer {
     /* border: solid; */
@@ -75,7 +79,7 @@
     font-size: 100%;
   }
   .aboutMyselfContactContainer {
-    border: solid;
+    border: solid red;
     width: 90%;
     border-radius: 10px;
     height: 70px;
@@ -84,9 +88,11 @@
     justify-content: center;
     align-items: center;
   }
-  .aboutMyselfContactContainer>h1>a{
+  .aboutMyselfContactContainer > h1 {
+    /* border: solid; */
     text-decoration: none;
-    color:#CC2228 ;
+    color: #cc2228;
+    text-align: center;
   }
 }
 @media screen and (max-width: 990px) and (min-width: 600px) {
@@ -104,7 +110,7 @@
     flex-direction: column;
   }
   .aboutMyselfImgContainer {
-    /* border: solid green; */
+    border: solid green;
   }
   .aboutMyselfTxtContainer {
     /* border: solid; */
@@ -135,9 +141,10 @@
     justify-content: center;
     align-items: center;
   }
-  .aboutMyselfContactContainer>h1>a{
+  .aboutMyselfContactContainer > h1 > a {
     text-decoration: none;
-    color:#CC2228 ;
+    color: #cc2228;
+    text-align: center;
   }
 }
 @media screen and (max-width: 1200px) and (min-width: 990px) {
@@ -177,12 +184,11 @@
     margin-top: 6%;
     justify-content: center;
     align-items: center;
-    color:#CC2228 ;
-
+    color: #cc2228;
   }
-  .aboutMyselfContactContainer>h1>a{
+  .aboutMyselfContactContainer > h1 > a {
     text-decoration: none;
-    color:#CC2228 ;
+    color: #cc2228;
   }
 }
 @media screen and (max-width: 1440px) and (min-width: 1200px) {
