@@ -5,6 +5,14 @@ import "./HairSpa.css";
 import InnerNavi from "./../../InnerServicePage/InnerNavi/InnerNavi";
 import InnerCard from "../../InnerServicePage/InnerCard/InnerCard";
 import HairSpaFaq from "./HairSpaFaq/HairSpaFaq";
+import Members from "../../HomePage/Members/Members";
+import OurSalon from "../../HomePage/OurSalon/OurSalon";
+import Partners from "../../HomePage/Partners/Partners";
+import InstaFeed from "../../HomePage/InstaFeed/InstaFeed";
+import HelpNearYou from "../../Help/HelpNearYou";
+import TextLocReviews from "../../TextLocReviews/TextLocReviews";
+import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
+import LastComp from './../../LastComp/LastComp';
 const HairSpa = () => {
   return (
     <div className="hairSpaContainer">
@@ -89,9 +97,20 @@ const HairSpa = () => {
             para="Our specialized treatment is dedicated to perfectly straightening and smoothing your fringe or bangs, beautifully framing your face."
           />
         </div>
-        <InnerServiceTxt head="HAIR SPA SERVICES IN BANGALORE" para="SCENT is your friendly neighborhood salon. Enjoy a safe salon experience at any of our 6 outlets across Bengaluru city."/>    
-         <HairSpaFaq/>
-          </div>
+        <InnerServiceTxt
+          head="HAIR SPA SERVICES IN BANGALORE"
+          para="SCENT is your friendly neighborhood salon. Enjoy a safe salon experience at any of our 6 outlets across Bengaluru city."
+        />
+        <HairSpaFaq />
+      </div>
+      <Members />
+      <OurSalon />
+      <Partners />
+      <InstaFeed />
+      <HelpNearYou />
+      <TextLocReviews />
+      <ServiceWhy />
+      <LastComp/>
     </div>
   );
 };

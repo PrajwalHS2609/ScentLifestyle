@@ -4,7 +4,15 @@ import NavBg from "../../NavBg/NavBg";
 import InnerServiceTxt from "../../InnerServicePage/InnerServiceTxt/InnerServiceTxt";
 import InnerNavi from "../../InnerServicePage/InnerNavi/InnerNavi";
 import InnerCard from "../../InnerServicePage/InnerCard/InnerCard";
-import BeardStyleFaq from './BeardStyleFaq.jsx/BeardStyleFaq';
+import BeardStyleFaq from "./BeardStyleFaq.jsx/BeardStyleFaq";
+import ServiceWhy from "./../../MainServicePages/ServiceWhy/ServiceWhy";
+import TextLocReviews from "./../../TextLocReviews/TextLocReviews";
+import HelpNearYou from "./../../Help/HelpNearYou";
+import InstaFeed from "./../../HomePage/InstaFeed/InstaFeed";
+import Partners from "./../../HomePage/Partners/Partners";
+import OurSalon from "./../../HomePage/OurSalon/OurSalon";
+import Members from "./../../HomePage/Members/Members";
+import LastComp from "../../LastComp/LastComp";
 const BeardStyle = () => {
   return (
     <div className="beardStyleContainer">
@@ -15,7 +23,7 @@ const BeardStyle = () => {
           para="Crafting unique beard styles that define your personality. From classic to modern, our skilled professionals specialize in the art of beard grooming, using meticulous shaping techniques to create stunning styles tailored to accentuate your unique features."
         />
         <InnerNavi
-          link={"/beard-styling"}
+          link={"/hair-salon"}
           service="Hair Service"
           currService="Beard Styling"
         />
@@ -45,9 +53,20 @@ const BeardStyle = () => {
             para="Spoil yourself with a deluxe beard spa session for a rejuvenating experience filled with treatments that boost hair health and soothe the skin."
           />
         </div>
-        <InnerServiceTxt head="BEARD STYLING SERVICES IN BANGALORE" para="Experience the artistry of flawless grooming with SCENT Salon's exceptional beard styling services! Unleash your style and uncover the closest haven for beard grooming near you to revolutionize your appearance right now!"/>
-     <BeardStyleFaq/>
+        <InnerServiceTxt
+          head="BEARD STYLING SERVICES IN BANGALORE"
+          para="Experience the artistry of flawless grooming with SCENT Salon's exceptional beard styling services! Unleash your style and uncover the closest haven for beard grooming near you to revolutionize your appearance right now!"
+        />
+        <BeardStyleFaq />
       </div>
+      <Members />
+      <OurSalon />
+      <Partners />
+      <InstaFeed />
+      <HelpNearYou />
+      <TextLocReviews />
+      <ServiceWhy />
+      <LastComp/>
     </div>
   );
 };

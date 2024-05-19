@@ -5,6 +5,14 @@ import InnerServiceTxt from "../../InnerServicePage/InnerServiceTxt/InnerService
 import InnerCard from "../../InnerServicePage/InnerCard/InnerCard";
 import InnerNavi from "../../InnerServicePage/InnerNavi/InnerNavi";
 import NavBg from "./../../NavBg/NavBg";
+import Members from "../../HomePage/Members/Members";
+import OurSalon from "../../HomePage/OurSalon/OurSalon";
+import Partners from "../../HomePage/Partners/Partners";
+import InstaFeed from "../../HomePage/InstaFeed/InstaFeed";
+import HelpNearYou from "../../Help/HelpNearYou";
+import TextLocReviews from "../../TextLocReviews/TextLocReviews";
+import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
+import LastComp from "../../LastComp/LastComp";
 const Mustache = () => {
   return (
     <div className="mustacheContainer">
@@ -52,6 +60,14 @@ At SCENT Salon, we understand that a well-groomed mustache can make a powerful s
         />
         <MustacheFaq />
       </div>
+      <Members />
+      <OurSalon />
+      <Partners />
+      <InstaFeed />
+      <HelpNearYou />
+      <TextLocReviews />
+      <ServiceWhy />
+      <LastComp />
     </div>
   );
 };

@@ -30,8 +30,7 @@ const FranchiseForm = () => {
     //   detail,
     // };
     // console.log(payload);
-    window.location.assign("/franchise");
-
+    // window. location. reload("/franchise")
   };
   return (
     <div className="franchiseFormContainer">
