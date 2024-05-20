@@ -16,13 +16,14 @@ import LocationNavi from "../LocationNavi/LocationNavi";
 import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 import MeadowsLocAbout from "./MeadowsLocAbout/MeadowsLocAbout";
 import { Helmet } from "react-helmet";
+import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
 const MeadowsLocPage = () => {
   return (
     <div className="meadowsLocPageContainer">
       <Helmet>
         <meta charSet="utf-8" />
         <title>
-        SCENT Salon in Whitefield - Hair, Nail, Facial, Spa, Eyelashes &
+          SCENT Salon in Whitefield - Hair, Nail, Facial, Spa, Eyelashes &
           Beauty Essentials
         </title>
         <meta
@@ -38,7 +39,10 @@ const MeadowsLocPage = () => {
       <LocationImg img={loc5} />
       <LocationNavi loc="Palm Meadows Whitefield" />
 
-      <LocationArrow leftLink={"/salon-in-uptown-whitefield"} rightLink={"/salon-in-jpnagar"} />
+      <LocationArrow
+        leftLink={"/salon-in-uptown-whitefield"}
+        rightLink={"/salon-in-jpnagar"}
+      />
       <div className="meadowsLocPageContent">
         <LocationHead
           loc="Palm Meadows Whitefield"
@@ -50,11 +54,12 @@ Varthur Main Road Ramagondanahalli, Whitefield Bengaluru Karnataka
         />
         <ServiceCardContain />
         <MeadowsLocAbout />
+        <TextLocReviews />
         <Members />
         <OurSalon />
         <Partners />
         <InstaFeed />
-        <TextLocReviews />
+        <ServiceWhy />
       </div>
       <LastComp />
     </div>

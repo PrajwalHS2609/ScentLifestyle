@@ -16,6 +16,7 @@ import LocationNavi from "../LocationNavi/LocationNavi";
 import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 import UpTownLocAbout from "./UpTownLocAbout/UpTownLocAbout";
 import { Helmet } from "react-helmet";
+import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
 const UpTownLocPage = () => {
   return (
     <div className="uptownLocPageContainer">
@@ -52,6 +53,7 @@ const UpTownLocPage = () => {
         <OurSalon />
         <Partners />
         <InstaFeed />
+        <ServiceWhy/> 
       </div>
       <LastComp />
     </div>

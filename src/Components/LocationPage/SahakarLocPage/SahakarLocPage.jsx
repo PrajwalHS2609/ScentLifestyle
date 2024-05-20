@@ -16,6 +16,7 @@ import LocationNavi from "../LocationNavi/LocationNavi";
 import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 import SahakarLocAbout from "./SahakarLocAbout/SahakarLocAbout";
 import { Helmet } from "react-helmet";
+import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
 const SahakarLocPage = () => {
   return (
     <div className="sahakarLocPageContainer">
@@ -52,6 +53,7 @@ const SahakarLocPage = () => {
         <OurSalon />
         <Partners />
         <InstaFeed />
+        <ServiceWhy/>
       </div>
       <LastComp />
     </div>

@@ -16,6 +16,7 @@ import LocationNavi from "./../LocationNavi/LocationNavi";
 import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 import JakkuruLocAbout from "./JakkuruLocAbout/JakkuruLocAbout";
 import { Helmet } from "react-helmet";
+import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
 const JakkuruLocPage = () => {
   return (
     <div className="jakkuruLocPageContainer">
@@ -51,6 +52,7 @@ const JakkuruLocPage = () => {
         <OurSalon />
         <Partners />
         <InstaFeed />
+        <ServiceWhy/>
       </div>
       <LastComp />
     </div>
