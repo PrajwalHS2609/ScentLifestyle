@@ -35,7 +35,7 @@ const LavellelLocPage = () => {
       <LocationNavBg />
       <LocationImg img={loc2} />
       <LocationNavi loc="Lavelle Road"/>
-      <LocationArrow leftLink={"/salon-in-sahakar-nagar"} rightLink={"/salon-in-jakkuru"} />
+      <LocationArrow leftLink={"/salon-in-sahakar-nagar"} rightLink={"/salon-in-jakkur"} />
       <div className="lavellelLocPageContent">
         <LocationHead
           loc="Lavelle Road"

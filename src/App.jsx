@@ -67,7 +67,7 @@ const App = () => {
           <Route path="/location" element={<LocationPage />} />
           <Route path="/salon-in-sahakar-nagar" element={<SahakarLocPage />} />
           <Route path="/salon-in-lavelle-road" element={<LavellelLocPage />} />
-          <Route path="/salon-in-jakkuru" element={<JakkuruLocPage />} />
+          <Route path="/salon-in-jakkur" element={<JakkuruLocPage />} />
           <Route
             path="/salon-in-uptown-whitefield"
             element={<UpTownLocPage />}

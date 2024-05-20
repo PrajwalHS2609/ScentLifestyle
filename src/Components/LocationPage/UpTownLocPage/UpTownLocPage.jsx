@@ -36,7 +36,7 @@ const UpTownLocPage = () => {
       <LocationNavBg />
       <LocationImg img={loc4} />
       <LocationNavi loc="UpTown Square" />
-      <LocationArrow leftLink={"/salon-in-jakkuru"} rightLink={"/salon-in-whitefield"} />
+      <LocationArrow leftLink={"/salon-in-jakkur"} rightLink={"/salon-in-whitefield"} />
       <div className="uptownLocPageContent">
         <LocationHead
           loc="Uptown Square"
