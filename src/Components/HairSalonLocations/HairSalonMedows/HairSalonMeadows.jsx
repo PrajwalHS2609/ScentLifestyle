@@ -31,11 +31,21 @@ const HairSalonMeadows = () => {
           </div>
           <div className="hairSalonLocationWelcomePara">
             Welcome to SCENT Salon, your premier destination for outstanding
-            hair care services in Meadows, Whitefield. Our salon is dedicated to
-            providing a luxurious experience, where each client receives
-            personalized attention and expert care. Whether you're looking for a
-            fresh haircut, a stunning color transformation, or specialized hair
-            treatments, SCENT Salon is here to meet all your hair care needs.
+            <Link to={"/hair-salon-in-meadows-whitefield"}>
+              hair care services in Meadows, Whitefield
+            </Link>
+            . Our salon is dedicated to providing a luxurious experience, where
+            each client receives personalized attention and expert care. Whether
+            you're looking for a
+            <Link to={"/haircut-and-styling"}> fresh haircut</Link>, a{" "}
+            <span></span>
+            <Link to={"/hair-highlights-and-streaks"}>
+              stunning color transformation
+            </Link>
+            , or{" "}
+            <Link to={"/hair-treatment"}> specialized hair treatments</Link>,{" "}
+            <Link to={"/"}> SCENT Salon</Link> is here to meet all your hair
+            care needs.
           </div>
           <div className="hairSalonLocationService">
             <h2>Our Hair Salon Services</h2>
@@ -126,14 +136,22 @@ const HairSalonMeadows = () => {
           <div className="hairSalonLocationBookPara">
             <p>
               Ready for a hair transformation? Schedule your appointment at
-              SCENT Salon in Meadows, Whitefield today. Whether you need a chic
-              haircut, a vibrant color change, or a restorative treatment, our
-              expert team is here to help you achieve your hair goals.
+              <span> </span>
+              <Link to={"/hair-salon-in-meadows-whitefield"}>
+                SCENT Salon in Meadows, Whitefield
+              </Link>
+              today. Whether you need a chic haircut, a vibrant color change, or
+              a restorative treatment, our expert team is here to help you
+              achieve your hair goals.
             </p>
             <p>
               Visit SCENT Salon and discover why we are the preferred choice for
-              hair care in Meadows, Whitefield. We look forward to welcoming you
-              and providing an exceptional salon experience.
+              <span> </span>
+              <Link to={"/hair-salon-in-meadows-whitefield"}>
+                hair care in Meadows, Whitefield
+              </Link>
+              . We look forward to welcoming you and providing an exceptional
+              salon experience.
             </p>
           </div>
         </div>
