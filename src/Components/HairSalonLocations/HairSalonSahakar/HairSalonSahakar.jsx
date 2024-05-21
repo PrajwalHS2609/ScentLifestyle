@@ -4,6 +4,13 @@ import { Link } from "react-router-dom";
 import "../HairSalonLocation.css";
 import LastComp from "../../LastComp/LastComp";
 import Footer from "../../Footer/Footer";
+import Members from "../../HomePage/Members/Members";
+import OurSalon from "../../HomePage/OurSalon/OurSalon";
+import Partners from "../../HomePage/Partners/Partners";
+import InstaFeed from "../../HomePage/InstaFeed/InstaFeed";
+import HelpNearYou from "../../Help/HelpNearYou";
+import TextLocReviews from "../../TextLocReviews/TextLocReviews";
+import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
 const HairSalonSahakar = () => {
   return (
     <div className="hairSalonLocation">
@@ -143,8 +150,15 @@ const HairSalonSahakar = () => {
           </div>
         </div>
       </div>
-      <Footer/>
-      <LastComp/>
+      <Footer />
+      <Members />
+      <OurSalon />
+      <Partners />
+      <InstaFeed />
+      <HelpNearYou />
+      <TextLocReviews />
+      <ServiceWhy />
+      <LastComp />
     </div>
   );
 };
