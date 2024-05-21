@@ -30,9 +30,16 @@ import ContactPage from "./Components/ContactPage/ContactPage";
 import Haircut from "./Components/HairServicePage/HaircutPage/Haircut";
 import HairColor from "./Components/HairServicePage/HairColorPage/HairColor";
 import HairSpa from "./Components/HairServicePage/HairSpa/HairSpa";
-import BeardStyle from './Components/HairServicePage/BeardStylePage/BeardStyle';
+import BeardStyle from "./Components/HairServicePage/BeardStylePage/BeardStyle";
 import HairTreatment from "./Components/HairServicePage/HairTreatment/HairTreatment";
-import Mustache from './Components/HairServicePage/Mustache/Mustache';
+import Mustache from "./Components/HairServicePage/Mustache/Mustache";
+import HairSalonSahakar from "./Components/HairSalonLocations/HairSalonSahakar/HairSalonSahakar";
+import HairSalonLavelle from "./Components/HairSalonLocations/HairSalonLavelle/HairSalonLavelle";
+import HairSalonJakkur from "./Components/HairSalonLocations/HairSalonJakkur/HairSalonJakkur";
+import HairSalonUptown from "./Components/HairSalonLocations/HairSalonUptown/HairSalonUptown";
+import HairSalonMeadows from "./Components/HairSalonLocations/HairSalonMedows/HairSalonMeadows";
+import HairSalonJp from "./Components/HairSalonLocations/HairSalonJp/HairSalonJp";
+import HairSalonLocation from "./Components/HairSalonLocations/HairSalonLocation";
 
 const App = () => {
   return (
@@ -47,9 +54,9 @@ const App = () => {
           <Route path="/haircut-and-styling" element={<Haircut />} />
           <Route path="/hair-highlights-and-streaks" element={<HairColor />} />
           <Route path="/hair-spa" element={<HairSpa />} />
-          <Route path="/hair-treatments" element={<HairTreatment/>} />
-          <Route path="/beard" element={<BeardStyle/>} />
-          <Route path="/mustache-styling" element={<Mustache/>} />
+          <Route path="/hair-treatments" element={<HairTreatment />} />
+          <Route path="/beard" element={<BeardStyle />} />
+          <Route path="/mustache-styling" element={<Mustache />} />
           <Route path="/nails-salon" element={<NailSalonPage />} />
           <Route path="/facial" element={<FacialPage />} />
           <Route path="/beauty-essentials" element={<BeautyPage />} />
@@ -74,6 +81,29 @@ const App = () => {
           />
           <Route path="/salon-in-whitefield" element={<MeadowsLocPage />} />
           <Route path="/salon-in-jpnagar" element={<Jp />} />
+          <Route
+            path="/hair-salon-in-sahakar-nagar"
+            element={<HairSalonSahakar />}
+          />
+          <Route
+            path="/hair-salon-in-lavelle-road"
+            element={<HairSalonLavelle />}
+          />
+          <Route path="/hair-salon-in-jakkur" element={<HairSalonJakkur />} />
+          <Route
+            path="/hair-salon-in-uptown-whitefield"
+            element={<HairSalonUptown />}
+          />
+          <Route
+            path="/hair-salon-in-meadows-whitefield"
+            element={<HairSalonMeadows />}
+          />
+          <Route
+            path="/hair-salon-in-jp-nagar-bangalore"
+            element={<HairSalonJp />}
+          />
+
+          <Route path="/dummy" element={<HairSalonLocation />} />
         </Routes>
       </BrowserRouter>
     </div>

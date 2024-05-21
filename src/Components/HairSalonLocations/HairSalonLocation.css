@@ -1,0 +1,70 @@
+.hairSalonLocationWrapper {
+  /* border: solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.hairSalonLocationContent {
+  /* border: solid blue; */
+  margin-top: 20px;
+  width: 90%;
+}
+.hairSalonLocationTitle {
+  /* border: solid green; */
+  text-align: center;
+}
+.hairSalonLocationDesp {
+  /* border: solid; */
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.hairSalonLocationDesp > p {
+  font-size: 20px;
+  width: 70%;
+}
+.hairSalonLocationWelcomeHead {
+  /* border: solid green; */
+  margin-top: 30px;
+  text-align: center;
+}
+.hairSalonLocationWelcomePara {
+  font-size: 20px;
+  margin-top: 10px;
+}
+.hairSalonLocationWelcomePara > a {
+  color: blue;
+  text-decoration: underline;
+}
+.hairSalonLocationService {
+  margin-top: 20px;
+}
+.hairSalonLocationServiceList > ol > li {
+  margin: 20px;
+  font-size: 20px;
+}
+.hairSalonLocationServiceList > ol > li > span {
+  color: #cc2228;
+  font-weight: bold;
+}
+.hairSalonLocationWhyList > ol > li {
+  margin: 20px;
+  list-style: none;
+  font-size: 20px;
+}
+.hairSalonLocationWhyList > ol > li > span {
+  color: #cc2228;
+  font-weight: bold;
+}
+.hairSalonLocationBookPara {
+  /* border: solid; */
+  margin-top: 10px;
+  font-size: 20px;
+}
+.hairSalonLocationBookPara > p > a {
+  color: blue;
+  text-decoration: underline;
+}
