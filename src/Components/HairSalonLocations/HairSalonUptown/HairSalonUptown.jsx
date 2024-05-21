@@ -11,10 +11,27 @@ import InstaFeed from "../../HomePage/InstaFeed/InstaFeed";
 import HelpNearYou from "../../Help/HelpNearYou";
 import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
+import { Helmet } from "react-helmet";
+import HairServiceImg from "../../HairServicePage/HairServiceImg/HairServiceImg";
+import Navi1 from "../../HairServicePage/Navi1/Navi1";
+import HairServiceCardContain from "../../HairServicePage/HairServiceCard/HairServiceCardContain";
 const HairSalonUptown = () => {
   return (
     <div className="hairSalonLocation">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>
+          Hair Salon in Bangalore for Cuts, Highlights, Treatments & Spa{" "}
+        </title>
+        <meta
+          name="Experience top-notch haircut and styling services at our premier hair salon in Bangalore. Book your appointment with SCENT Salon today and enjoy exclusive offers!"
+          content="Scent application"
+        />
+      </Helmet>
       <NavBg />
+      <HairServiceImg />
+      <Navi1 />
+      <HairServiceCardContain />
       <div className="hairSalonLocationWrapper">
         <div className="hairSalonLocationContent">
           <div className="hairSalonLocationTitle">
@@ -36,10 +53,10 @@ const HairSalonUptown = () => {
             </h2>
           </div>
           <div className="hairSalonLocationWelcomePara">
-           Welcome to SCENT Salon, the premier destination for
-            top-notch hair care services in Uptown, Whitefield. Our salon is
-            dedicated to offering exceptional hairstyling, coloring, and
-            treatment services that cater to your individual needs. At{" "}
+            Welcome to SCENT Salon, the premier destination for top-notch hair
+            care services in Uptown, Whitefield. Our salon is dedicated to
+            offering exceptional hairstyling, coloring, and treatment services
+            that cater to your individual needs. At{" "}
             <Link to={"/hair-salon-in-uptown-whitefield"}>
               SCENT Hair Salon
             </Link>

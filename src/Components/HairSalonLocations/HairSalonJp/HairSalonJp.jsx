@@ -11,10 +11,27 @@ import InstaFeed from "../../HomePage/InstaFeed/InstaFeed";
 import HelpNearYou from "../../Help/HelpNearYou";
 import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
+import HairServiceCardContain from "../../HairServicePage/HairServiceCard/HairServiceCardContain";
+import Navi1 from "../../HairServicePage/Navi1/Navi1";
+import HairServiceImg from "../../HairServicePage/HairServiceImg/HairServiceImg";
+import { Helmet } from "react-helmet";
 const HairSalonJp = () => {
   return (
     <div className="hairSalonLocation">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>
+          Hair Salon in Bangalore for Cuts, Highlights, Treatments & Spa{" "}
+        </title>
+        <meta
+          name="Experience top-notch haircut and styling services at our premier hair salon in Bangalore. Book your appointment with SCENT Salon today and enjoy exclusive offers!"
+          content="Scent application"
+        />
+      </Helmet>
       <NavBg />
+      <HairServiceImg />
+      <Navi1 />
+      <HairServiceCardContain />
       <div className="hairSalonLocationWrapper">
         <div className="hairSalonLocationContent">
           <div className="hairSalonLocationTitle">
