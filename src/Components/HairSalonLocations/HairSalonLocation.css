@@ -68,3 +68,8 @@
   color: #cc2228;
   text-decoration: underline;
 }
+@media (min-width: 320px) and (max-width: 600px) {
+  .hairSalonLocationTitle > h1 {
+    font-size: 25px;
+  }
+}
