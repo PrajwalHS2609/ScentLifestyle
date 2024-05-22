@@ -50,7 +50,7 @@ const InstaImgContain = () => {
           borderBottomRightRadius: "100%",
           cursor: "pointer",
           position: "absolute",
-          zIndex:"3",
+          zIndex: "3",
           right: "1%",
         }}
         onClick={onClick}
@@ -65,12 +65,12 @@ const InstaImgContain = () => {
         style={{
           ...style,
           background: "grey",
-          color:"red",
+          color: "red",
           borderTopLeftRadius: "10px",
           borderBottomLeftRadius: "10px",
           cursor: "pointer",
           position: "absolute",
-          zIndex:"3",
+          zIndex: "3",
           left: "1%",
         }}
         onClick={onClick}
@@ -121,38 +121,47 @@ const InstaImgContain = () => {
   return (
     <div className="instaImgWrapper">
       <Slider {...settings} className="instaSlider">
-        <div className="instaInnerSlider" >
-          <InstaImages vid="https://www.instagram.com/reel/C4yET19puUB/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" />
+        <div className="instaInnerSlider">
+          <InstaImages vid="https://youtube.com/shorts/lEknNyC97zY?feature=share" />
         </div>
         <div className="instaInnerSlider">
-          <InstaImages vid="https://www.instagram.com/reel/CzxW7ieJjD7/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" />
+          <InstaImages vid="https://youtube.com/shorts/Ww3HdIRN-Gk?feature=share" />
         </div>
         <div className="instaInnerSlider">
-          <InstaImages vid="https://www.instagram.com/reel/CzyxnjpJqg4/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" />
+          <InstaImages vid="https://youtube.com/shorts/9OOgFzW3bZU?feature=share" />
         </div>
         <div className="instaInnerSlider">
-          <InstaImages vid="https://www.instagram.com/reel/C5IqNgGJak4/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" />
+          <InstaImages vid="https://youtube.com/shorts/C-VHUH8bCx4?feature=share" />
         </div>
         <div className="instaInnerSlider">
-          <InstaImages vid="https://www.instagram.com/reel/C49q57zJgUY/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" />
+          <InstaImages vid="https://youtube.com/shorts/1rYcCGMMB3s?feature=share" />
         </div>
         <div className="instaInnerSlider">
-          <InstaImages vid="https://www.instagram.com/reel/C2Jbf4fpTlP/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" />
+          <InstaImages vid="https://youtube.com/shorts/YCxQiRrxRT0?feature=share" />
         </div>
         <div className="instaInnerSlider">
-          <InstaImages vid="https://www.instagram.com/reel/C1_n0pzpT5f/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" />
+          <InstaImages vid="https://youtube.com/shorts/OKAD-nm_snw?feature=share" />
         </div>
         <div className="instaInnerSlider">
-          <InstaImages vid="https://www.instagram.com/reel/C14cntpp-QX/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" />
+          <InstaImages vid="https://youtube.com/shorts/n9Qp7mV4ES8?feature=share" />
         </div>
         <div className="instaInnerSlider">
-          <InstaImages vid="https://www.instagram.com/reel/C1v_VEBJeAd/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" />
+          <InstaImages vid="https://youtube.com/shorts/4A0hxkRywDk?feature=share" />
         </div>
         <div className="instaInnerSlider">
-          <InstaImages vid="https://www.instagram.com/reel/C1V5iflv1Sx/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" />
+          <InstaImages vid="https://youtube.com/shorts/WcAyVijIvw4?feature=share" />
         </div>
         <div className="instaInnerSlider">
-          <InstaImages vid="https://www.instagram.com/reel/C1Gok7NJkHc/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" />
+          <InstaImages vid="https://youtube.com/shorts/6rSSozqcpQo" />
+        </div>
+        <div className="instaInnerSlider">
+          <InstaImages vid="https://youtube.com/shorts/abIXf7Cw1Cw?feature=share" />
+        </div>
+        <div className="instaInnerSlider">
+          <InstaImages vid="https://youtube.com/shorts/VRN7I6G38Ms?feature=share" />
+        </div>
+        <div className="instaInnerSlider">
+          <InstaImages vid="https://youtube.com/shorts/FTCoQQGPcNo?feature=share" />
         </div>
       </Slider>
     </div>

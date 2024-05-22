@@ -7,7 +7,7 @@ const InstaFeed = () => {
   return (
     <div className="instaContainer">
      <InstaHead/>
-     <InstaPara/>
+     {/* <InstaPara/> */}
      <InstaImgContain/>
      </div>
   );

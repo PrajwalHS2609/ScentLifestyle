@@ -4,7 +4,7 @@ import "./InstaFeed.css"
 const InstaHead = () => {
   return (
     <div className="instaHeadContainer">
-      <h1>Instafeed</h1>
+      <h1>Customer Experience</h1>
       <div className="instaUnderline"></div>
     </div>
   );
