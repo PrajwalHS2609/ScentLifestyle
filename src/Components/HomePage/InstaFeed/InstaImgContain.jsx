@@ -32,7 +32,6 @@ const InstaImgContain = () => {
           borderTopLeftRadius: "10px",
           borderBottomLeftRadius: "10px",
           cursor: "pointer",
-          // display: "none",
         }}
         onClick={onClick}
       />

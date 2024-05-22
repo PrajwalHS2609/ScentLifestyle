@@ -94,8 +94,8 @@
     flex-direction: column;
   }
   .instaHeadContainer > h1 {
-    font-size: 40px;
-    color: var(--customRed);
+    font-size: 30px;
+    color: var(--customRed);text-align: center;
   }
   .instaUnderline {
     border: 2px solid;
