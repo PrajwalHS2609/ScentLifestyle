@@ -63,7 +63,7 @@ const HairSalonJakkur = () => {
             <Link to={"/haircut-and-styling"}>stylish haircut</Link>,
             <Link to={"/hair-highlights-and-streaks"}>vibrant hair color</Link>,
             or a <Link to={"/hair-treatment"}>rejuvenating hair treatment</Link>
-            ,{" "}
+            ,
             <Link to={"/hair-salon-in-jakkur"}>SCENT Hair Salon in Jakkur</Link>{" "}
             is the perfect place to indulge in top-tier hair services.
           </div>

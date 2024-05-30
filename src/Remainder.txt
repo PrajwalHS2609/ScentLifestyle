@@ -1,1 +1,0 @@
-onclick on submit form the page should be refreshed
