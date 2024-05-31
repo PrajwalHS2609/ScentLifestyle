@@ -4,13 +4,6 @@ import { Helmet } from "react-helmet";
 const NailSalonImg = () => {
   return (
     <div className="nailSalonImgContainer">
-      <Helmet>
-        <meta charSet="utf-8" />
-        <title>
-          Hair Salon in Bangalore for Cuts, Highlights, Treatments & Spa{" "}
-        </title>
-        <link rel="canonical" href="http://mysite.com/example" />
-      </Helmet>
       <div className="nailImgCover">
         <video
           src="https://videos.pexels.com/video-files/3997851/3997851-uhd_4096_2160_25fps.mp4"

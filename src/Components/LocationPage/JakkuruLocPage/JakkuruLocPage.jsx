@@ -20,14 +20,15 @@ import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
 const JakkuruLocPage = () => {
   return (
     <div className="jakkuruLocPageContainer">
-       <Helmet>
+      <Helmet>
         <meta charSet="utf-8" />
         <title>
-        SCENT Salon in Jakkuru - Hair, Nail, Facial, Spa, Eyelashes & Beauty Essentials
+          SCENT Salon in Jakkuru - Hair, Nail, Facial, Spa, Eyelashes & Beauty
+          Essentials
         </title>
         <meta
-          name="SCENT Salon in Jakkuru - Hair, Nail, Facial, Spa, Eyelashes & Beauty Essentials. Book your appointment with SCENT Salon today and enjoy exclusive offers!"
-          content="Scent jakkuru location"
+          name="description of jakkur location"
+          content="SCENT Salon in Jakkuru - Hair, Nail, Facial, Spa, Eyelashes & Beauty Essentials. Book your appointment with SCENT Salon today and enjoy exclusive offers!"
         />
         <link
           rel="jakkuru"
@@ -37,7 +38,10 @@ const JakkuruLocPage = () => {
       <LocationNavBg />
       <LocationImg img={loc3} />
       <LocationNavi loc="Jakkuru" />
-      <LocationArrow leftLink={"/salon-in-lavelle-road"} rightLink={"/salon-in-uptown-whitefield"} />
+      <LocationArrow
+        leftLink={"/salon-in-lavelle-road"}
+        rightLink={"/salon-in-uptown-whitefield"}
+      />
       <div className="jakkuruLocPageContent">
         <LocationHead
           loc="Jakkuru"
@@ -52,7 +56,7 @@ const JakkuruLocPage = () => {
         <OurSalon />
         <Partners />
         <InstaFeed />
-        <ServiceWhy/>
+        <ServiceWhy />
       </div>
       <LastComp />
     </div>

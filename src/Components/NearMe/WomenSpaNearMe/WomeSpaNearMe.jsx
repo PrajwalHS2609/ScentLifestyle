@@ -24,9 +24,9 @@ const WomeSpaNearMe = () => {
         <meta charSet="utf-8" />
         <title>Women Spa Near Me |Best Women Sap in Bangalore </title>
         <meta
-          name="Women Spa in Bangalore Near Sahakar Nagar, Jakkur,Jp Nagar, Lavelle Road,UpTown-Whitefield and Meadows-Whitefield
-        Call Now"
-          content="Scent application"
+          name="description on women spa near me"
+          content="Women Spa in Bangalore Near Sahakar Nagar, Jakkur,Jp Nagar, Lavelle Road,UpTown-Whitefield and Meadows-Whitefield
+          Call Now"
         />
       </Helmet>
       <NavBg />

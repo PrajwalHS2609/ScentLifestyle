@@ -23,8 +23,8 @@ const HairServicePage = () => {
           Hair Salon in Bangalore for Cuts, Highlights, Treatments & Spa{" "}
         </title>
         <meta
-          name="Experience top-notch haircut and styling services at our premier hair salon in Bangalore. Book your appointment with SCENT Salon today and enjoy exclusive offers!"
-          content="Scent application"
+          name="description of hair services"
+          content="Experience top-notch haircut and styling services at our premier hair salon in Bangalore. Book your appointment with SCENT Salon today and enjoy exclusive offers!"
         />
       </Helmet>
       <NavBg />

@@ -25,10 +25,10 @@ const HairSalonJp = () => {
           Treatments
         </title>
         <meta
-          name=" SCENT Hair Salon in JP Nagar, Bangalore – Hair Cut & Styling, Hair
+          name=" description of hair salon in JP Nagar"
+          content="SCENT Hair Salon in JP Nagar, Bangalore – Hair Cut & Styling, Hair
           Colour, Hair Treatments & more services. Book an Appointment
           Today!"
-          content="Scent application"
         />
       </Helmet>
       <NavBg />

@@ -25,10 +25,10 @@ const HairSalonMeadows = () => {
           Treatments
         </title>
         <meta
-          name="SCENT Hair Salon in Meadows, Whitefield – Hair Cut & Styling, Hair
+          name="description of hair salon in Meadows whitefield"
+          content="SCENT Hair Salon in Meadows, Whitefield – Hair Cut & Styling, Hair
           Colour, Hair Treatments & more services. Book an Appointment
           Today!"
-          content="Scent application"
         />
       </Helmet>
       <NavBg />

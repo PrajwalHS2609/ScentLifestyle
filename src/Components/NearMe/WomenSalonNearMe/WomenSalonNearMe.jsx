@@ -25,9 +25,9 @@ const WomenSalonNearMe = () => {
         <meta charSet="utf-8" />
         <title>Women Salon Near Me |Best Women Salon in Bangalore </title>
         <meta
-          name="Women Salon in Bangalore Near Sahakar Nagar, Jakkur,Jp Nagar, Lavelle Road,UpTown-Whitefield and Meadows-Whitefield
-        Call Now"
-          content="Scent application"
+          name="description on women salon near me"
+          content="Women Salon in Bangalore Near Sahakar Nagar, Jakkur,Jp Nagar, Lavelle Road,UpTown-Whitefield and Meadows-Whitefield
+          Call Now"
         />
       </Helmet>
       <NavBg />

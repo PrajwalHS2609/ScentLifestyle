@@ -12,7 +12,7 @@ import HelpNearYou from "../../Help/HelpNearYou";
 import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
 import LastComp from "../../LastComp/LastComp";
-import HeadMassageMain from './HeadMassageMain';
+import HeadMassageMain from "./HeadMassageMain";
 
 const HeadMassageNearMe = () => {
   return (
@@ -21,9 +21,9 @@ const HeadMassageNearMe = () => {
         <meta charSet="utf-8" />
         <title>Head Massage Near Me |Best Head Massage in Bangalore </title>
         <meta
-          name="Head Massage in Bangalore Near Sahakar Nagar, Jakkur,Jp Nagar, Lavelle Road,UpTown-Whitefield and Meadows-Whitefield
+          name="description on head massage "
+          content="Head Massage in Bangalore Near Sahakar Nagar, Jakkur,Jp Nagar, Lavelle Road,UpTown-Whitefield and Meadows-Whitefield
           Call Now"
-          content="Scent application"
         />
       </Helmet>
       <NavBg />

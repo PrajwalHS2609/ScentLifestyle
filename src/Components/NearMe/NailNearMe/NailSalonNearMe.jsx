@@ -21,9 +21,9 @@ const NailSalonNearMe = () => {
         <meta charSet="utf-8" />
         <title>Nail Salon Near Me |Best Nail Salon in Bangalore </title>
         <meta
-          name="Nail Salon in Bangalore Near Sahakar Nagar, Jakkur,Jp Nagar, Lavelle Road,UpTown-Whitefield and Meadows-Whitefield
+          name="despriction on nails salon near me"
+          content="Nail Salon in Bangalore Near Sahakar Nagar, Jakkur,Jp Nagar, Lavelle Road,UpTown-Whitefield and Meadows-Whitefield
           Call Now"
-          content="Scent application"
         />
       </Helmet>
       <NavBg />

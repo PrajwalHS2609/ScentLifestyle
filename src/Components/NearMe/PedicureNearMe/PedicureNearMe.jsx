@@ -1,5 +1,4 @@
 import React from "react";
-import { Helmet } from "react-helmet";
 import NavBg from "../../NavBg/NavBg";
 import NailSalonImg from "../../NaliSalonPage/NailSalonImg/NailSalonImg";
 import Navi7 from "../../NaliSalonPage/Navi7/Navi7";
@@ -13,6 +12,7 @@ import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
 import PediNearMe from "./PediNearMe";
 import LastComp from "../../LastComp/LastComp";
+import { Helmet } from "react-helmet";
 
 const PedicureNearMe = () => {
   return (
@@ -21,9 +21,9 @@ const PedicureNearMe = () => {
         <meta charSet="utf-8" />
         <title>Pedicure Near Me |Best Pedicure in Bangalore </title>
         <meta
-          name="Pedicure in Bangalore Near Sahakar Nagar, Jakkur,Jp Nagar, Lavelle Road,UpTown-Whitefield and Meadows-Whitefield
-        Call Now"
-          content="Scent application"
+          name=" description on pedicure near me"
+          content="Pedicure in Bangalore Near Sahakar Nagar, Jakkur,Jp Nagar, Lavelle Road,UpTown-Whitefield and Meadows-Whitefield
+          Call Now"
         />
       </Helmet>
       <NavBg />

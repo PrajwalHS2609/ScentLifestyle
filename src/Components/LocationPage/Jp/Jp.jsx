@@ -26,8 +26,8 @@ const Jp = () => {
         SCENT Salon in JP Nagar - Hair, Nail, Facial, Spa, Eyelashes & Beauty Essentials
         </title>
         <meta
-          name="SCENT Salon in JP Nagar - Hair, Nail, Facial, Spa, Eyelashes & Beauty Essentials. Book your appointment with SCENT Salon today and enjoy exclusive offers!"
-          content="Scent  jp nagar location"
+          name="description of jp nagar"
+          content="SCENT Salon in JP Nagar - Hair, Nail, Facial, Spa, Eyelashes & Beauty Essentials. Book your appointment with SCENT Salon today and enjoy exclusive offers!"
         />
         <link
           rel="jp nagar"

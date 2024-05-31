@@ -22,9 +22,9 @@ const GentsSalonNearMe = () => {
       <meta charSet="utf-8" />
       <title>Gents Salon Near Me |Best Gents Salon in Bangalore </title>
       <meta
-        name="Gents Salon in Bangalore Near Sahakar Nagar, Jakkur,Jp Nagar, Lavelle Road,UpTown-Whitefield and Meadows-Whitefield
-      Call Now"
-        content="Scent application"
+        name="description on gents salon"
+        content="Gents Salon in Bangalore Near Sahakar Nagar, Jakkur,Jp Nagar, Lavelle Road,UpTown-Whitefield and Meadows-Whitefield
+        Call Now"
       />
     </Helmet>
     <NavBg />

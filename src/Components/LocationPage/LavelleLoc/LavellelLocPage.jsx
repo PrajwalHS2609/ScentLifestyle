@@ -25,8 +25,8 @@ const LavellelLocPage = () => {
         <title>
         SCENT Salon in Lavelle Road - Hair, Nail, Facial, Spa, Eyelashes & Beauty Essentials</title>
         <meta
-          name="SCENT Salon in Lavelle Road - Hair, Nail, Facial, Spa, Eyelashes & Beauty Essentials. Book your appointment with SCENT Salon today and enjoy exclusive offers!"
-          content="Scent lavelle road location"
+          name="description on lavelle Road"
+          content="SCENT Salon in Lavelle Road - Hair, Nail, Facial, Spa, Eyelashes & Beauty Essentials. Book your appointment with SCENT Salon today and enjoy exclusive offers!"
         />
         <link
           rel="lavelle road"

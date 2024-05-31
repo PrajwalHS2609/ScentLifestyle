@@ -12,8 +12,8 @@ const ShopPage = () => {
         <meta charSet="utf-8" />
         <title>Buy Hair Treatment Products Online at Best Price </title>
         <meta
-          name="Buy Hair Treatment Products Online at Best Price. Olaplex, Beauty Garage, Casamara, Estee Lauder, Kerastase and more at SCENT. 							"
-          content="scent application"
+          name="description on scent shop"
+          content="Buy Hair Treatment Products Online at Best Price. Olaplex, Beauty Garage, Casamara, Estee Lauder, Kerastase and more at SCENT."
         />
       </Helmet>
       <NavBg />

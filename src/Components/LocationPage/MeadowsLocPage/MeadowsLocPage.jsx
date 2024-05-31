@@ -27,8 +27,8 @@ const MeadowsLocPage = () => {
           Beauty Essentials
         </title>
         <meta
-          name="SCENT Salon in Whitefield - Hair, Nail, Facial, Spa, Eyelashes & Beauty Essentials. Book your appointment with SCENT Salon today and enjoy exclusive offers!"
-          content="Scent palm meadows whitefield location"
+          name="description on whitefield"
+          content="SCENT Salon in Whitefield - Hair, Nail, Facial, Spa, Eyelashes & Beauty Essentials. Book your appointment with SCENT Salon today and enjoy exclusive offers!"
         />
         <link
           rel="palm meadows whitefield"

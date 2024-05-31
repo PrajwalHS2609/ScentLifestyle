@@ -25,10 +25,10 @@ const HairSalonSahakar = () => {
           Treatments
         </title>
         <meta
-          name="SCENT Hair Salon in Sahakar Nagar – Hair Cut & Styling, Hair
+          name="description of hair salon in sahakar Nagar"
+          content="SCENT Hair Salon in Sahakar Nagar – Hair Cut & Styling, Hair
           Colour, Hair Treatments & more services. Book an Appointment
           Today!"
-          content="Scent application"
         />
       </Helmet>
       <NavBg />

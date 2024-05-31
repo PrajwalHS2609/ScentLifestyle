@@ -24,9 +24,9 @@ const HairSalonJakkur = () => {
           Hair Salon in Jakkur – Hair Cut & Styling, Colour & Hair Treatments
         </title>
         <meta
-          name="SCENT Hair Salon in Jakkur – Hair Cut & Styling, Hair Colour, Hair
+          name="description of hair salon in Jakkur"
+          content="SCENT Hair Salon in Jakkur – Hair Cut & Styling, Hair Colour, Hair
           Treatments & more services. Book an Appointment Today!"
-          content="Scent application"
         />
       </Helmet>
       <NavBg />

@@ -22,8 +22,8 @@ const FacialPage = () => {
           SCENT Facial Services in Bangalore - Facial Salon Near Me
         </title>
         <meta
-          name="Experience the SCENT salon facial treatment for a radiant and refreshed look. Book your appointment now and pamper your skin with some well-deserved care!"
-          content="Scent application"
+          name="description of facial"
+          content="Experience the SCENT salon facial treatment for a radiant and refreshed look. Book your appointment now and pamper your skin with some well-deserved care!"
         />
       </Helmet>
       <NavBg />

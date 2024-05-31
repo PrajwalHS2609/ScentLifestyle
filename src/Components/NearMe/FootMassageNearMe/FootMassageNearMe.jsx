@@ -20,9 +20,9 @@ const FootMassageNearMe = () => {
       <meta charSet="utf-8" />
       <title>Foot Massage Near Me |Best Foot Massage in Bangalore </title>
       <meta
-        name="Foot Massage in Bangalore Near Sahakar Nagar, Jakkur,Jp Nagar, Lavelle Road,UpTown-Whitefield and Meadows-Whitefield
+        name="description on foot massage near me"
+        content="Foot Massage in Bangalore Near Sahakar Nagar, Jakkur,Jp Nagar, Lavelle Road,UpTown-Whitefield and Meadows-Whitefield
         Call Now"
-        content="Scent application"
       />
     </Helmet>
     <NavBg />

@@ -5,7 +5,6 @@ const HairSalonLocation = () => {
   return (
     <div className="hairSalonLocation">
       <NavBg />
-     
     </div>
   );
 };

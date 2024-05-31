@@ -24,8 +24,8 @@ const HomePage = () => {
           SCENT Salon Spa in Bangalore - Hair, Nail, Skin, Beauty Essentials
         </title>
         <meta
-          name="SCENT Salon Spa in Bangalore. Unisex Premium Salon for Hair, Nail, Skin, Beauty Essentials, Eyelashes, Spa & Facials! Book an Appointment Now!"
-          content="Scent application"
+          name="description of scent home"
+          content="SCENT Salon Spa in Bangalore. Unisex Premium Salon for Hair, Nail, Skin, Beauty Essentials, Eyelashes, Spa & Facials! Book an Appointment Now!"
         />
       </Helmet>
       <Video />

@@ -23,8 +23,8 @@ const LashesPage = () => {
           SCENT Eye Lashes in Bangalore | Eyelash Extensions Salon Near Me
         </title>
         <meta
-          name="Transform your look with stunning eyelash extensions at SCENT Salon. Enhance your beauty with permanent lashes that make your eyes look beautiful and dynamic. Book your appointment today!"
-          content="Scent application"
+          name="description of lashes"
+          content="Transform your look with stunning eyelash extensions at SCENT Salon. Enhance your beauty with permanent lashes that make your eyes look beautiful and dynamic. Book your appointment today!"
         />
       </Helmet>
       <NavBg/>

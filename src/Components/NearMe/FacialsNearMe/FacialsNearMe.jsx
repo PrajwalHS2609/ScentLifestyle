@@ -21,9 +21,9 @@ const FacialsNearMe = () => {
         <meta charSet="utf-8" />
         <title>Facials Near Me |Best Facials in Bangalore </title>
         <meta
-          name="Facials in Bangalore Near Sahakar Nagar, Jakkur,Jp Nagar, Lavelle Road,UpTown-Whitefield and Meadows-Whitefield
+          name="description of facials near me"
+          content="Facials in Bangalore Near Sahakar Nagar, Jakkur,Jp Nagar, Lavelle Road,UpTown-Whitefield and Meadows-Whitefield
           Call Now"
-          content="Scent application"
         />
       </Helmet>
       <NavBg />

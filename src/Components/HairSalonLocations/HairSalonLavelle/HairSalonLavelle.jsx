@@ -25,10 +25,10 @@ const HairSalonLavelle = () => {
           Treatments
         </title>
         <meta
-          name="SCENT Hair Salon in Lavelle Road – Hair Cut & Styling, Hair
+          name="description of hair salon in Lavelle Road"
+          content="SCENT Hair Salon in Lavelle Road – Hair Cut & Styling, Hair
           Colour, Hair Treatments & more services. Book an Appointment
           Today!"
-          content="Scent application"
         />
       </Helmet>
       <NavBg />

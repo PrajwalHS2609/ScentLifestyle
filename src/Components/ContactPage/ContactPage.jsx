@@ -18,8 +18,8 @@ const ContactPage = () => {
         <meta charSet="utf-8" />
         <title>Contact SCENT Salon for Services, Membership & Franchise</title>
         <meta
-          name="Contact SCENT Salon for all your beauty needs, including services, membership benefits, and franchise opportunities. We're here to help you look and feel your best!"
-          content="Scent application"
+          name="description of Contact"
+          content="Contact SCENT Salon for all your beauty needs, including services, membership benefits, and franchise opportunities. We're here to help you look and feel your best!"
         />
       </Helmet>
       <LocationNavBg />

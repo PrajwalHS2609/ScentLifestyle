@@ -27,8 +27,8 @@ const SahakarLocPage = () => {
           Beauty Essentials
         </title>
         <meta
-          name="SCENT Salon in Sahakar Nagar - Hair, Nail, Facial, Spa, Eyelashes & Beauty Essentials. Book your appointment with SCENT Salon today and enjoy exclusive offers!"
-          content="Scent sahakar nagar location"
+          name="description on sahakar Nagar"
+          content="SCENT Salon in Sahakar Nagar - Hair, Nail, Facial, Spa, Eyelashes & Beauty Essentials. Book your appointment with SCENT Salon today and enjoy exclusive offers!"
         />
         <link
           rel="sahakar nagar"

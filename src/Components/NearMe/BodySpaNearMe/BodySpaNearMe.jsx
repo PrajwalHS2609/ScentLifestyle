@@ -21,9 +21,9 @@ const BodySpaNearMe = () => {
         <meta charSet="utf-8" />
         <title>Body Spa Near Me |Best Body Spa in Bangalore </title>
         <meta
-          name="Body Spa in Bangalore Near Sahakar Nagar, Jakkur,Jp Nagar, Lavelle Road,UpTown-Whitefield and Meadows-Whitefield
+          name="description on body spa near me"
+          content="Body Spa in Bangalore Near Sahakar Nagar, Jakkur,Jp Nagar, Lavelle Road,UpTown-Whitefield and Meadows-Whitefield
           Call Now"
-          content="Scent application"
         />
       </Helmet>
       <NavBg />

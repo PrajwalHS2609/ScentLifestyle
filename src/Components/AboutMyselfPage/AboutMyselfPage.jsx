@@ -23,7 +23,6 @@ const AboutMyselfPage = () => {
         <AboutMyselfContact />
       </div>
       <div>
-        {" "}
         <Members />
         <OurSalon />
         <Partners />

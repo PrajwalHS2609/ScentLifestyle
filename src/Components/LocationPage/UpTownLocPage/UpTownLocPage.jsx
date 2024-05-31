@@ -26,8 +26,8 @@ const UpTownLocPage = () => {
         SCENT Salon in Uptown, Whitefield - Hair, Nail, Facial, Spa, Eyelashes & Beauty Essentials					
         </title>
         <meta
-          name="SCENT Salon in Uptown, Whitefield - Hair, Nail, Facial, Spa, Eyelashes & Beauty Essentials. Book your appointment with SCENT Salon today and enjoy exclusive offers!"
-          content="Scent uptown whitefield location"
+          name="description on Uptown"
+          content="SCENT Salon in Uptown, Whitefield - Hair, Nail, Facial, Spa, Eyelashes & Beauty Essentials. Book your appointment with SCENT Salon today and enjoy exclusive offers!"
         />
         <link
           rel="uptown whitefield"

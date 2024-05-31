@@ -22,9 +22,9 @@ const HairTreatmentNearMe = () => {
         <meta charSet="utf-8" />
         <title>Hair Treatment Near Me |Best Hair Treatment in Bangalore </title>
         <meta
-          name="Hair Treatment in Bangalore Near Sahakar Nagar, Jakkur,Jp Nagar, Lavelle Road,UpTown-Whitefield and Meadows-Whitefield
+          name="description on hair treatment near me"
+          content="Hair Treatment in Bangalore Near Sahakar Nagar, Jakkur,Jp Nagar, Lavelle Road,UpTown-Whitefield and Meadows-Whitefield
           Call Now"
-          content="Scent application"
         />
       </Helmet>
       <NavBg />
