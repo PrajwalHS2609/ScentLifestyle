@@ -6,7 +6,7 @@ const FranchiseCard = (props) => {
       <div className="franchiseCardIcon">{props.franchiseIcon}</div>
       <div className="franchiseCardTxt">
         <span>{props.contName}</span>
-        <p><a id="franchiseLink" href="919591522700">{props.franchiseContact}</a></p>
+        <p><a id="franchiseLink" href="tel:919591522700">{props.franchiseContact}</a></p>
       </div>
     </div>
   );
