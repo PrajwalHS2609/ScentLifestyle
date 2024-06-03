@@ -49,6 +49,9 @@
   gap: 20px;
   font-size: 120%;
 }
+.contacts1 > p>a{
+  color:white;
+}
 .contacts2 > h1 {
   color: white;
 }
@@ -60,6 +63,9 @@
   align-items: center;
   gap: 20px;
 }
+.contacts2 > p>a{
+  color:white;
+}
 .contacts3 > h1 {
   color: white;
 }
@@ -70,6 +76,9 @@
   justify-content: flex-start;
   align-items: center;
   gap: 20px;
+}
+.contacts3 > p>a{
+  color:white;
 }
 @media screen and (max-width: 600px) {
   .contactMainContainer {
