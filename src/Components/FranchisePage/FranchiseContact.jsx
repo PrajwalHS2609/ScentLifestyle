@@ -13,7 +13,7 @@ const FranchiseContact = () => {
             className="franIcon"
           ></FontAwesomeIcon>
         }
-        franchiseContact="franchisee@scentlifestyle.com"
+        franchiseMail="franchisee@scentlifestyle.com"
       />
       <FranchiseCard
         franchiseIcon={

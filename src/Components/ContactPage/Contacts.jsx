@@ -23,7 +23,7 @@ const Contacts = () => {
             icon={faEnvelope}
             className="franIcon"
           ></FontAwesomeIcon>
-          franchisee@scentlifestyle.com
+          <a href="franchisee@scentlifestyle.com"> franchisee@scentlifestyle.com</a>
         </p>
         <p>
           <FontAwesomeIcon
