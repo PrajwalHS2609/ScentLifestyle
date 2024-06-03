@@ -13,7 +13,7 @@ const Contacts = () => {
             icon={faPhone}
             className="franIcon"
           ></FontAwesomeIcon>
-          9742212700
+          9742232700
         </p>
       </div>
       <div className="contacts2">
@@ -30,7 +30,7 @@ const Contacts = () => {
             icon={faPhone}
             className="franIcon"
           ></FontAwesomeIcon>
-          9591522700
+          9742232700
         </p>
       </div>
       <div className="contacts3">
@@ -40,7 +40,7 @@ const Contacts = () => {
             icon={faPhone}
             className="franIcon"
           ></FontAwesomeIcon>
-          9742212700
+          9742232700
         </p>
       </div>
     </div>
