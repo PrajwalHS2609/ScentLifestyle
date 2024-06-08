@@ -30,6 +30,7 @@ const Menu = () => {
       console.log("up");
     }
   };
+
   return (
     <div className="menuContainer">
       <ul className="menuContent">
@@ -123,14 +124,14 @@ const Menu = () => {
               <li>
                 <h2>
                   <Link onClick={hideSideBar} to={"/hair-salon"}>
-                    Hair 
+                    Hair
                   </Link>
                 </h2>
               </li>
               <li>
                 <h2>
                   <Link onClick={hideSideBar} to={"/nails-salon"}>
-                    Nails 
+                    Nails
                   </Link>
                 </h2>
               </li>
@@ -175,7 +176,7 @@ const Menu = () => {
             <h1>
               <Link onClick={hideSideBar} to={"/shop"}>
                 Shops
-              </Link> 
+              </Link>
             </h1>
           </ul>
           <ul>

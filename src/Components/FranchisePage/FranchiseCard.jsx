@@ -12,7 +12,7 @@ const FranchiseCard = (props) => {
           </a>
         </p>
         <p>
-          <a id="franchiseLink" href="franchisee@scentlifestyle.com">
+          <a id="franchiseLink" href="mailto:franchisee@scentlifestyle.com">
             {props.franchiseMail}
           </a>
         </p>
