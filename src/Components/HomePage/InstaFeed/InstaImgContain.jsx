@@ -91,8 +91,8 @@ const InstaImgContain = () => {
           slidesToShow: 1,
           slidesToScroll: 1,
           initialSlide: 2,
-          nextArrow: <SampleNextArrowResp />,
-          prevArrow: <SamplePrevArrowResp />,
+          nextArrow: <SampleNextArrow />,
+          prevArrow: <SamplePrevArrow />,
         },
       },
       {

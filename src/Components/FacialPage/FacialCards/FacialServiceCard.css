@@ -111,23 +111,24 @@
 }
 .respFacialServiceContainer {
   /* border: solid green; */
-  height: 80%;
+  height: 250px;
   width: 100%;
-  margin-top: -30px;
+  margin: 0px;
   position: relative;
   overflow: hidden;
   display: none;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 .respFacialServiceCardCover {
   /* border: solid blue; */
-  height: 150%;
-  width: 100%;
+  height: 100%;
+  width: 90%;
   background-color: var(--customRed);
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
 }
 
 .respFacialServiceCardTxtContainer {
@@ -150,7 +151,6 @@
   font-weight: bold;
   color: white;
   text-align: justify;
-  word-spacing: 2px;
   width: 90%;
 }
 .respFacialServiceCardPara > p {
@@ -168,34 +168,33 @@
   color: var(--customRed);
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 320px) {
   .facialCardContainer {
     /* border: solid red; */
-    height: 1000vh;
+    height: 100%;
     width: 100%;
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 20px;
-    overflow: none;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0px;margin: 0;
   }
   .facialCardMain {
-    /* border: solid yellow; */
+    border: solid yellow;
     position: relative;
-    width: 100%;
-    height: 250px;
+    height: 480px;
+    max-width: 500px;
+    margin: 20px;
   }
   .facialCardWrapper > img {
     position: static;
     width: 100%;
-    height: 90%;
-    object-fit: cover;
-    z-index: 1;
-    transition: 600ms ease-in-out;
+    height: 100%;
+
   }
   .facialCardWrapper {
     /* border: solid green; */
-    height: 270px;
+    height: 200px;
     width: 100%;
     margin: 0px;
     position: relative;
@@ -228,7 +227,7 @@
     /* border: solid; */
   }
 }
-@media only screen and (max-width: 990px) and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
   .facialCardContainer {
     /* border: solid red; */
     height: 600vh;
@@ -243,9 +242,9 @@
   .facialCardMain {
     /* border: solid yellow; */
     position: relative;
-    width: 40%;
-    height: 320px;
-    margin: 10px;
+    max-width: 300px;
+    height: 460px;
+    margin: 30px;
   }
   .facialCardWrapper > img {
     position: static;
@@ -294,7 +293,10 @@
     color: white;
   }
 }
-@media only screen and (max-width: 1200px) and (min-width: 990px) {
+@media only screen and (min-width: 990px) {
+  .respFacialServiceContainer {
+    display: none;
+  }
   .facialCardContainer {
     /* border: solid blue; */
     width: 100%;
@@ -307,8 +309,9 @@
   .facialCardMain {
     /* border: solid red; */
     position: relative;
-    width: 36%;
     margin: 30px;
+    min-width: 400px;
+    height: 400px;
   }
   .facialCardWrapper {
     /* border: solid; */
@@ -404,114 +407,115 @@
     margin-right: 20px;
   }
 }
-  @media only screen and (max-width: 1440px) and (min-width: 1200px) {
-    .facialCardContainer {
-      /* border: solid blue; */
-      width: 100%;
-      height: 400vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-wrap: wrap;
-    }
-    .facialCardMain {
-      /* border: solid red; */
-      position: relative;
-      width: 36%;
-      margin: 30px;
-    }
-    .facialCardWrapper {
-      /* border: solid; */
-      height: 320px;
-      width: 90;
-      margin: 15px;
-      position: relative;
-      overflow: hidden;
-    }
-    .facialCardWrapper > img {
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      z-index: 1;
-      transition: 600ms ease-in-out;
-    }
-    .facialCardWrapper:hover .facialCardImg {
-      transform: scale(1.2);
-    }
-
-    .facialCardCover {
-      /* border: solid green; */
-      height: 100%;
-      width: 100%;
-      background-color: var(--customRed);
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      position: absolute;
-      z-index: 2;
-      display: none;
-    }
-    .facialCardWrapper:hover .facialCardCover {
-      display: flex;
-    }
-    .facialCardTxtContainer {
-      /* border: solid; */
-      width: 90%;
-      height: 90%;
-      display: flex;
-      justify-content: flex-start;
-      align-items: flex-start;
-      flex-direction: column;
-      gap: 20px;
-      margin-top: 50px;
-    }
-    .facialCardHead > h1 {
-      font-size: 150%;
-      color: white;
-    }
-
-    .facialCardPara {
-      font-weight: bold;
-      color: white;
-      text-align: justify;
-    }
-    .facialCardPara > p {
-      font-size: 90%;
-    }
-    .facialCardBut > a > button {
-      /* border: solid; */
-      width: 200px;
-      height: 50px;
-      border-radius: 10px;
-      background-color: white;
-      font-weight: bold;
-      border: none;
-      color: var(--customRed);
-    }
-    .facialGoto {
-      border: 2px whitesmoke solid;
-      display: flex;
-      width: 80%;
-      height: 40px;
-      justify-content: space-between;
-      align-items: center;
-      position: absolute;
-      text-align: center;
-      z-index: 3;
-      bottom: -5px;
-      left: 45px;
-      background-color: white;
-    }
-    .goTo1 {
-      margin-left: 20px;
-    }
-    .goTo1 > h1 {
-      color: var(--customRed);
-      font-size: 120%;
-    }
-    .goTo2 {
-      margin-right: 20px;
-    }
+@media only screen and (min-width: 1200px) {
+  .respFacialServiceContainer {
+    display: none;
+  }
+  .facialCardContainer {
+    /* border: solid blue; */
+    width: 100%;
+    height: 400vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .facialCardMain {
+    /* border: solid red; */
+    position: relative;
+    margin: 30px;
+    min-width: 400px;
+    height: 400px;
+  }
+  .facialCardWrapper {
+    /* border: solid; */
+    height: 320px;
+    width: 90;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+  }
+  .facialCardWrapper > img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+    transition: 600ms ease-in-out;
   }
 
+
+  .facialCardCover {
+    /* border: solid green; */
+    height: 100%;
+    width: 100%;
+    background-color: var(--customRed);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+    display: none;
+  }
+  .facialCardWrapper:hover .facialCardCover {
+    display: flex;
+  }
+  .facialCardTxtContainer {
+    /* border: solid; */
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 50px;
+  }
+  .facialCardHead > h1 {
+    font-size: 150%;
+    color: white;
+  }
+
+  .facialCardPara {
+    font-weight: bold;
+    color: white;
+    text-align: justify;
+  }
+  .facialCardPara > p {
+    font-size: 90%;
+  }
+  .facialCardBut > a > button {
+    /* border: solid; */
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: white;
+    font-weight: bold;
+    border: none;
+    color: var(--customRed);
+  }
+  .facialGoto {
+    border: 2px whitesmoke solid;
+    display: flex;
+    width: 80%;
+    height: 40px;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    text-align: center;
+    z-index: 3;
+    bottom: -5px;
+    left: 45px;
+    background-color: white;
+  }
+  .goTo1 {
+    margin-left: 20px;
+  }
+  .goTo1 > h1 {
+    color: var(--customRed);
+    font-size: 120%;
+  }
+  .goTo2 {
+    margin-right: 20px;
+  }
+}

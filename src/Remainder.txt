@@ -1,0 +1,1 @@
+change the arrow of react slick

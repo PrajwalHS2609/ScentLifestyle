@@ -166,7 +166,7 @@
   color: var(--customRed);
 }
 
-@media screen and (min-width: 320px)  {
+@media screen and (min-width: 320px) {
   .nailCardContainer {
     /* border: solid blue; */
     width: 100%;
@@ -175,18 +175,21 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    gap: 0px;
+    margin-top: 0%;
   }
   .nailCardMain {
-    /* border: solid red; */
+    border: solid red;
     position: relative;
-    width: 90%;
-    margin: 10%;
+    height: 480px;
+    max-width: 300px;
+    margin: 20px;
   }
   .respNailServiceContainer {
     display: flex;
   }
   .nailCardWrapper {
-    /* border: solid; */
+    border: solid;
     height: 200px;
     width: 100%;
     margin: 0px;
@@ -199,24 +202,6 @@
     height: 100%;
     z-index: 1;
     transition: 600ms ease-in-out;
-  }
-  .nailCardWrapper:hover .nailCardImg {
-    transform: scale(1.2);
-  }
-  .nailCardWrapper:hover .nailCardCover {
-    display: none;
-  }
-  .nailCardCover {
-    /* border: solid green; */
-    height: 100%;
-    width: 100%;
-    background-color: var(--customRed);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    z-index: 2;
-    display: none;
   }
 
   .nailCardTxtContainer {
@@ -292,8 +277,9 @@
   .nailCardMain {
     /* border: solid red; */
     position: relative;
-    width: 40%;
-    margin: 5%;
+    max-width: 300px;
+    height: 460px;
+    margin: 30px;
   }
   .respNailServiceContainer {
     display: flex;
@@ -403,8 +389,9 @@
   .nailCardMain {
     /* border: solid red; */
     position: relative;
-    width: 35%;
-    margin: 5%;
+    margin: 30px;
+    min-width: 400px;
+    height: 400px;
   }
   .nailCardWrapper {
     /* border: solid; */
@@ -514,8 +501,9 @@
   .nailCardMain {
     /* border: solid red; */
     position: relative;
-    width: 35%;
-    margin: 5%;
+    margin: 30px;
+    min-width: 400px;
+    height: 400px;
   }
   .nailCardWrapper {
     /* border: solid; */
