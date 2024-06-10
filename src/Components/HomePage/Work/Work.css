@@ -54,8 +54,6 @@
 }
 .workContentTxt2 > p {
   font-size: 17px;
-  font-weight: lighter;
-  font-family: sans-serif;
   letter-spacing: 1px;
   color: white;
 }
@@ -69,8 +67,6 @@
 }
 .workContentTxt3 > pre {
   font-size: 18px;
-  font-weight: lighter;
-  font-family: monospace;
   letter-spacing: 1px;
   color: white;
   text-decoration: underline;
@@ -187,7 +183,6 @@
   }
   .workContentTxt1 > pre {
     font-size: 37px;
-    font-family: monospace;
     letter-spacing: 2px;
     color: white;
   }
@@ -201,8 +196,6 @@
   }
   .workContentTxt2 > p {
     font-size: 17px;
-    font-weight: lighter;
-    font-family: sans-serif;
     letter-spacing: 1px;
     color: white;
   }
@@ -216,8 +209,6 @@
   }
   .workContentTxt3 > pre {
     font-size: 18px;
-    font-weight: lighter;
-    font-family: monospace;
     letter-spacing: 1px;
     color: white;
     text-decoration: underline;
@@ -269,7 +260,6 @@
   }
   .workContentTxt1 > pre {
     font-size: 37px;
-    font-family: monospace;
     letter-spacing: 2px;
     color: white;
   }
@@ -283,8 +273,6 @@
   }
   .workContentTxt2 > p {
     font-size: 17px;
-    font-weight: lighter;
-    font-family: sans-serif;
     letter-spacing: 1px;
     color: white;
   }
@@ -298,8 +286,6 @@
   }
   .workContentTxt3 > pre {
     font-size: 18px;
-    font-weight: lighter;
-    font-family: monospace;
     letter-spacing: 1px;
     color: white;
     text-decoration: underline;

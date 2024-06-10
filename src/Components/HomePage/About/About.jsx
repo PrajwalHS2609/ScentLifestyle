@@ -13,11 +13,11 @@ const About = () => {
       <div className="aboutContent">
         <div className="innerAboutContent">
           <div className="aboutContentTxt1">
-            <pre>
+            <h1>
               <span>Beyond the Salon</span> <br />
               <div className="aboutUnderline"></div>
               Where Beauty Meets Luxury
-            </pre>
+            </h1>
           </div>
           <div className="aboutContentTxt2">
             <p>
@@ -28,9 +28,10 @@ const About = () => {
               Hairstyling, coloring, nail and skin treatments. we understand
               elegance, we make it happen. Pampering yourself is on your mind?
               <span>Spa, pedicure, manicure, massage…name it.</span>
-            </p>
+            </p> 
 
             <p>We indulge you.</p>
+            
             <p>
               We have seven salons located in the significant locations in the
               city. Premium services with a touch of hedonism, opulence, and
@@ -42,15 +43,16 @@ const About = () => {
               you are!
             </p>
           </div>
-          <div className="aboutContentTxt3">
-            <pre>
-              <Link to={"/about"}>MORE ABOUT US</Link>
-            </pre>
-            <FontAwesomeIcon
-              icon={faAngleRight}
-              className="aboutIcon"
-            ></FontAwesomeIcon>
-          </div>
+            <div className="aboutContentTxt3">
+              <p>
+                <Link to={"/about"}>MORE ABOUT US</Link>
+                <FontAwesomeIcon
+                icon={faAngleRight}
+                className="aboutIcon"
+              ></FontAwesomeIcon>
+              </p>
+            
+            </div>
         </div>
       </div>
     </div>
