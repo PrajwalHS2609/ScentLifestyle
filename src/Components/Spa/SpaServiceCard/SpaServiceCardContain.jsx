@@ -19,7 +19,7 @@ const SpaServiceCardContain = () => {
       />
       <ServiceCards
         heading="Thai Reflexology"
-        para="Treat yourself to a Thai reflexology session at SCENT Salon Spa. Our skilled therapists use gentle pressure techniques on your feet to promote relaxation, enhance circulation, and restore balance. Discover the advantages of this treatment today!"
+        para="Indulge in Thai reflexology at SCENT Salon Spa. Our skilled therapists use gentle pressure techniques on your feet to promote relaxation, circulation, and balance restoration. Experience the benefits today!"
         goto="Thai Reflexology"
         img="https://img.freepik.com/free-photo/man-suction-session_23-2148824034.jpg?t=st=1714716687~exp=1714720287~hmac=b32e7f03c025748995d8ef999aa3ee8efe8bf78f0bda28651fdeb046dcd46794&w=900"
       />
@@ -37,7 +37,8 @@ const SpaServiceCardContain = () => {
       />
       <ServiceCards
         heading="Thai Massage"
-        para="Relax and rejuvenate with our authentic Thai massage at SCENT Salon Spa. Let our skilled therapists ease tension, improve circulation, and promote overall well-being with traditional techniques. Experience the ultimate in relaxation today!"
+        para="
+Experience authentic Thai massage at SCENT Salon Spa. Our skilled therapists use traditional techniques to ease tension, improve circulation, and promote overall well-being. Relax and rejuvenate today!"
         goto="Thai Massage"
         img="https://img.freepik.com/free-photo/young-couple-relaxing-back-massage-health-spa-focus-is-young-woman_637285-2209.jpg?t=st=1714717752~exp=1714721352~hmac=e2e68b5d3366ddafbd090982891ec3e3b26f49c44c9e61b25c383ed434516290&w=360"
       />
@@ -80,7 +81,7 @@ const SpaServiceCardContain = () => {
       />
       <ServiceCards
         heading="Body Scrub"
-        para="Experience silky smooth skin with our Body Scrub treatment at SCENT Salon Spa. Our exfoliating scrub removes dead skin cells, leaving your skin soft, smooth, and rejuvenated. Indulge in this pampering experience and reveal your glowing skin."
+        para="Indulge in silky smooth skin with our Body Scrub at SCENT Salon Spa. Our exfoliating treatment leaves your skin soft, smooth, and rejuvenated. Experience the glow today!"
         goto="Body Scrub"
         img="https://img.freepik.com/free-photo/side-view-woman-getting-massaged-spa_23-2149871261.jpg?t=st=1714718233~exp=1714721833~hmac=62f8b21d7b9888237d76705d9030c9db76fd498c3c4e48fb84d3b09e579a63d4&w=900"
       />

@@ -1,10 +1,11 @@
 import React from "react";
 import "./LashesServiceCard.css";
 import LashesServiceCard from "./LashesServiceCard";
+import ServiceCards from "../../MainServicePages/ServiceCards/ServiceCards";
 const LashesServiceCardContain = () => {
   return (
     <div className="lashesCardContainer">
-      <LashesServiceCard
+      <ServiceCards
         heading="Eye Lash Extensions"
         para="Enhance the volume of your lashes with our corner set eyelash extensions, designed to add thickness and depth to your natural lashes."
         goto="Eye Lash Extensions"
