@@ -1,31 +1,33 @@
 .nearContainer {
-    /* border: solid red; */
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 20px;
-    margin-top: 20px;
-  }
-  .nearHeadContainer {
-    /* border: solid; */
-    width: 90%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 20px;
-  }
-  .nearHeadContainer > p {
-    font-size: 20px;
-  }
-  .compContainer {
-    width: 90%;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: column;
-    gap: 10px;
-  }
-  
+  /* border: solid red; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 20px;
+}
+.nearHeadContainer {
+  /* border: solid; */
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.nearHeadContainer > p {
+  font-size: 20px;
+}
+.compContainer {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 10px;
+}
+.compContainer > h2 {
+  color: #cc2228;
+}

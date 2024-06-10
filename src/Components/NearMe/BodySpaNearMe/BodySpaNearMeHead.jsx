@@ -1,5 +1,6 @@
 import React from "react";
 import "../NearMe.css";
+import { Link } from "react-router-dom";
 
 const BodySpaNearMeHead = () => {
   return (
@@ -8,10 +9,9 @@ const BodySpaNearMeHead = () => {
       <p>
         Finding a sanctuary where you can escape the stresses of daily life and
         indulge in luxurious body treatments is essential for holistic
-        well-being. If you're on the lookout for a "body spa near me," SCENT
-        Salon is your ultimate destination. Conveniently located, SCENT Salon is
-        renowned for its exceptional body spa services, designed to rejuvenate
-        your mind, body, and spirit.
+        your ultimate destination. Conveniently located, <Link to={"/"}>SCENT Salon</Link> is renowned
+        for its exceptional <Link to={"/spa"} >body spa services</Link>, designed to rejuvenate your mind,
+        body, and spirit.
       </p>
     </div>
   );

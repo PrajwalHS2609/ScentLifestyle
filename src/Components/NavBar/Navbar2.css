@@ -1,6 +1,6 @@
 .navContainer {
   /* border: solid; */
-  height: 12vh;
+  height: 13vh;
   width: 100%;
   background-color: black;
   display: flex;
@@ -13,7 +13,7 @@
 }
 .navContainer1 {
   /* border: solid; */
-  height: 12vh;
+  height: 13vh;
   width: 100%;
   background-color: transparent;
   display: flex;
@@ -317,7 +317,7 @@ a {
 @media only screen and (max-width: 1200px) and (min-width: 990px) {
   .navContainer {
     /* border: solid; */
-    height: 12vh;
+    height: 13vh;
     width: 100%;
     background-color: black;
     display: flex;

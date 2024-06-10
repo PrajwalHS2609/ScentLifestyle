@@ -8,10 +8,12 @@ const FacialsNearMeHead = () => {
       <p>
         When it comes to maintaining a radiant complexion and healthy skin,
         facials are an essential part of any beauty regimen. If you're on the
-        lookout for "facials near me," SCENT Salon is the perfect destination.
-        Conveniently located and renowned for its exceptional skincare services,
-        SCENT Salon offers a variety of facial treatments designed to address
-        diverse skin concerns and enhance your natural beauty.
+        lookout for <a href="/facials-near-me">"facials near me"</a>, SCENT
+        Salon is the perfect destination. Conveniently located and renowned for
+        its exceptional skincare services,
+        <a href="/facial">SCENT Salon offers a variety of facial treatments</a>
+        designed to address diverse skin concerns and enhance your natural
+        beauty.
       </p>
     </div>
   );
