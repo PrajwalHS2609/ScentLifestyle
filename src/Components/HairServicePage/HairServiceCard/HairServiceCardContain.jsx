@@ -3,24 +3,25 @@ import HairServiceCard from "./HairServiceCard";
 import "./HairServiceCard.css";
 import cut from "./../../../Images/hair cut.jpg";
 import beard from "./../../../Images/beard styling.jpg";
+import ServiceCards from "../../MainServicePages/ServiceCards/ServiceCards";
 const HairServiceCardContain = () => {
   return (
     <div className="hairCardContainer">
-      <HairServiceCard
+      <ServiceCards
         heading="Haircut & Styling"
         para="Get stylish haircuts and trims at SCENT salon. Our stylists offer trendy styles and professional blow-drys for any occasion. Experience a Dyson transformation. Visit us in Bangalore for offers!"
         goto="Haircut & Styling"
         img={cut}
         link={"/haircut-and-styling"}
       />
-      <HairServiceCard
+      <ServiceCards
         heading="Highlights & Streaks"
         para="Transform your look with our Hair Colour & Highlights. Choose from bold colours to delicate highlights, crafted by skilled stylists for a personalized, stunning result."
         goto="Highlights & Streaks"
         img="https://img.freepik.com/premium-photo/beauty-young-woman-portrait_200196-667.jpg?w=900"
         link={"/hair-highlights-and-streaks"}
       />
-      <HairServiceCard
+      <ServiceCards
         heading="Hair Spa"
         para=" At SCENT salon nearby, select from various hair spa treatments for your specific needs. Customize options to tackle oiliness, frizz, dryness, and scalp itchiness. Experience our intense hair spa with Olaplex treatment for chemically treated hair, for relaxation and rejuvenation. See reduced breakage, reversed damage, and improved hair health."
         goto="Hair Spa"
@@ -34,14 +35,14 @@ const HairServiceCardContain = () => {
         img="https://img.freepik.com/premium-photo/hairdresser-drying-womans-hair_798657-17098.jpg?w=900"
         link={"/hair-treatments"}
       />
-      <HairServiceCard
+      <ServiceCards
         heading="Beard Styling"
         para="Creating distinctive beard styles that reflect your personality. Our skilled professionals specialize in the art of beard grooming, crafting looks from classic to modern. Using meticulous shaping techniques, we tailor each style to accentuate your unique features, ensuring a stunning result that complements your individuality."
         goto="Beard Styling"
         img={beard}
         link={"/beard"}
       />
-      <HairServiceCard
+      <ServiceCards
         heading="Mustache"
         para="
         Get the perfect mustache style at SCENT Salon Spa. Our skilled barbers will shape and groom your mustache to perfection, ensuring you leave with a polished and handsome look. Whether you prefer a classic style or something more modern, we've got you covered. Book your appointment today and elevate your grooming game with SCENT."

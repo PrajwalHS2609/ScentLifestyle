@@ -142,7 +142,7 @@
 .respServiceCardPara {
   font-weight: bold;
   color: white;
-  text-align: justify;
+  text-align: start;
   width: 90%;
 }
 .respServiceCardPara > p {

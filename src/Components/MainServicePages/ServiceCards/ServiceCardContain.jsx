@@ -41,7 +41,7 @@ const ServiceCardContain = () => {
       />
       <ServiceCards
         heading="Lashes"
-        para="Elevate your look with SCENT Eye Lashes. Our expert technicians specialize in extensions for fuller, longer lashes that enhance your natural beauty. Experience the allure of fluttery lashes that define your eyes and add glamour to any occasion."
+        para="Enhance your natural beauty with SCENT Eye Lashes. Our expert technicians specialize in extensions for fuller, longer lashes that define your eyes and add glamour to any occasion."
         goto="Lashes"
         img="https://img.freepik.com/free-photo/beautiful-girl-with-colorful-makeup_144627-8211.jpg?t=st=1714367151~exp=1714370751~hmac=fca3742432526ccba755a379861de7457c0ad8edba9a41185ccc4f8ddbd68301&w=900"
         link={"/eye-lashes"}
