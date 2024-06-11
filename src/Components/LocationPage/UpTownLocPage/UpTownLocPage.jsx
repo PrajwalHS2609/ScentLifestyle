@@ -21,16 +21,16 @@ const UpTownLocPage = () => {
   return (
     <div className="uptownLocPageContainer">
        <Helmet>
-        <meta charSet="utf-8" />
+        <meta charSet="UTF-8" />
         <title>
         SCENT Salon in Uptown, Whitefield - Hair, Nail, Facial, Spa, Eyelashes & Beauty Essentials					
         </title>
         <meta
-          name="description on Uptown"
+          name="description"
           content="SCENT Salon in Uptown, Whitefield - Hair, Nail, Facial, Spa, Eyelashes & Beauty Essentials. Book your appointment with SCENT Salon today and enjoy exclusive offers!"
         />
         <link
-          rel="uptown whitefield"
+          rel="canonical"
           href="https://scentlifestyle.com/salon-in-uptown-whitefield"
         />
       </Helmet>

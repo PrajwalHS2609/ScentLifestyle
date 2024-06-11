@@ -19,12 +19,12 @@ const HomePage = () => {
   return (
     <div>
       <Helmet>
-        <meta charSet="utf-8" />
+        <meta charSet="UTF-8" />
         <title>
           SCENT Salon Spa in Bangalore - Hair, Nail, Skin, Beauty Essentials
         </title>
         <meta
-          name="description of scent home"
+          name="description"
           content="SCENT Salon Spa in Bangalore. Unisex Premium Salon for Hair, Nail, Skin, Beauty Essentials, Eyelashes, Spa & Facials! Book an Appointment Now!"
         />
       </Helmet>

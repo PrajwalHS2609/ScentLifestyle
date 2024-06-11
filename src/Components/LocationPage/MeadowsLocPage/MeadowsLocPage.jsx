@@ -21,17 +21,17 @@ const MeadowsLocPage = () => {
   return (
     <div className="meadowsLocPageContainer">
       <Helmet>
-        <meta charSet="utf-8" />
+        <meta charSet="UTF-8" />
         <title>
           SCENT Salon in Whitefield - Hair, Nail, Facial, Spa, Eyelashes &
           Beauty Essentials
         </title>
         <meta
-          name="description on whitefield"
+          name="description"
           content="SCENT Salon in Whitefield - Hair, Nail, Facial, Spa, Eyelashes & Beauty Essentials. Book your appointment with SCENT Salon today and enjoy exclusive offers!"
         />
         <link
-          rel="palm meadows whitefield"
+          rel="canonical"
           href="https://scentlifestyle.com/salon-in-whitefield		"
         />
       </Helmet>

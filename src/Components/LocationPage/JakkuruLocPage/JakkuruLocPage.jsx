@@ -21,17 +21,17 @@ const JakkuruLocPage = () => {
   return (
     <div className="jakkuruLocPageContainer">
       <Helmet>
-        <meta charSet="utf-8" />
+        <meta charSet="UTF-8" />
         <title>
           SCENT Salon in Jakkuru - Hair, Nail, Facial, Spa, Eyelashes & Beauty
           Essentials
         </title>
         <meta
-          name="description of jakkur location"
+          name="description"
           content="SCENT Salon in Jakkuru - Hair, Nail, Facial, Spa, Eyelashes & Beauty Essentials. Book your appointment with SCENT Salon today and enjoy exclusive offers!"
         />
         <link
-          rel="jakkuru"
+          rel="canonical"
           href="https://scentlifestyle.com/salon-in-jakkuru	"
         />
       </Helmet>

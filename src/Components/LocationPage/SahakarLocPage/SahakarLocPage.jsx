@@ -21,17 +21,17 @@ const SahakarLocPage = () => {
   return (
     <div className="sahakarLocPageContainer">
       <Helmet>
-        <meta charSet="utf-8" />
+        <meta charSet="UTF-8" />
         <title>
           SCENT Salon in Sahakar Nagar - Hair, Nail, Facial, Spa, Eyelashes &
           Beauty Essentials
         </title>
         <meta
-          name="description on sahakar Nagar"
+          name="description"
           content="SCENT Salon in Sahakar Nagar - Hair, Nail, Facial, Spa, Eyelashes & Beauty Essentials. Book your appointment with SCENT Salon today and enjoy exclusive offers!"
         />
         <link
-          rel="sahakar nagar"
+          rel="canonical"
           href="https://scentlifestyle.com/salon-in-sahakar-nagar"
         />
       </Helmet>

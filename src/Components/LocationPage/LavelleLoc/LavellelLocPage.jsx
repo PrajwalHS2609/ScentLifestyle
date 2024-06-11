@@ -21,15 +21,15 @@ const LavellelLocPage = () => {
   return (
     <div className="lavellelLocPageContainer">
       <Helmet>
-        <meta charSet="utf-8" />
+        <meta charSet="UTF-8" />
         <title>
         SCENT Salon in Lavelle Road - Hair, Nail, Facial, Spa, Eyelashes & Beauty Essentials</title>
         <meta
-          name="description on lavelle Road"
+          name="description"
           content="SCENT Salon in Lavelle Road - Hair, Nail, Facial, Spa, Eyelashes & Beauty Essentials. Book your appointment with SCENT Salon today and enjoy exclusive offers!"
         />
         <link
-          rel="lavelle road"
+          rel="canonical"
           href="https://scentlifestyle.com/salon-in-lavelle-road		"
         />
       </Helmet>
