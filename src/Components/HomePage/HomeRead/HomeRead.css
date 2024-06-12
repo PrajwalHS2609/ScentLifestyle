@@ -37,6 +37,7 @@
   width: 90%;
   height: 70%;
   display: none;
+  cursor: default;
 }
 .homeReadDisplayContainer > ul > li {
   font-size: 120%;
