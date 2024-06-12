@@ -21,19 +21,19 @@
   justify-content: center;
   align-items: center;
 }
-.firstMemberHeading > h1 {
-  font-size: 30px;
+.firstMemberHeading > h4 {
+  font-size: 50px;
 }
 .secondMemberHeading {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.secondMemberHeading > h1 {
+.secondMemberHeading > h4 {
   font-size: 40px;
   color: black;
 }
-.secondMemberHeading > h1 > span {
+.secondMemberHeading > h4 > span {
   color: var(--customRed);
 }
 .memberSlideContainer {
@@ -63,7 +63,7 @@
   margin-left: 15px;
   filter: grayscale(1);
 }
-.memberSlide > h1 {
+.memberSlide > h3 {
   /* border: solid; */
   display: flex;
   justify-content: center;
@@ -83,11 +83,10 @@
     height: 100%;
     width: 100%;
   }
-  .secondMemberHeading > h1 {
+  .secondMemberHeading > h4 {
     font-size: 300%;
     color: black;
   }
-
   .memberSlideContainer {
     /* border: solid red; */
     max-width: 300px;
@@ -108,7 +107,7 @@
     width: 100%;
     padding: 20px;
   }
-  .memberSlide > h1 {
+  .memberSlide > h3 {
     /* border: solid; */
     font-size: 150%;
   }
@@ -134,7 +133,7 @@
     width: 100%;
     padding: 10px;
   }
-  .secondMemberHeading > h1 {
+  .secondMemberHeading > h4 {
     font-size: 300%;
   }
 
@@ -157,7 +156,7 @@
     max-width: 300px;
     margin: 1px;
   }
-  .memberSlide > h1 {
+  .memberSlide > h3 {
     /* border: solid; */
     font-size: 100%;
   }
@@ -197,7 +196,7 @@
     justify-content: center;
     align-items: center;
   }
-  .firstMemberHeading > h1 {
+  .firstMemberHeading > h4 {
     font-size: 30px;
   }
   .secondMemberHeading {
@@ -205,17 +204,17 @@
     justify-content: center;
     align-items: center;
   }
-  .secondMemberHeading > h1 {
+  .secondMemberHeading > h4 {
     font-size: 40px;
     color: black;
   }
-  .secondMemberHeading > h1 > span {
+  .secondMemberHeading > h4 > span {
     color: var(--customRed);
   }
   .memberSlideContainer {
     /* border: solid; */
     height: 100%;
-   max-width: 90%;
+    max-width: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -238,7 +237,7 @@
     height: 80%;
     margin-left: 15px;
   }
-  .memberSlide > h1 {
+  .memberSlide > h3 {
     /* border: solid; */
     display: flex;
     justify-content: center;
@@ -274,7 +273,7 @@
     justify-content: center;
     align-items: center;
   }
-  .firstMemberHeading > h1 {
+  .firstMemberHeading > h4 {
     font-size: 30px;
   }
   .secondMemberHeading {
@@ -282,11 +281,11 @@
     justify-content: center;
     align-items: center;
   }
-  .secondMemberHeading > h1 {
+  .secondMemberHeading > h4 {
     font-size: 40px;
     color: black;
   }
-  .secondMemberHeading > h1 > span {
+  .secondMemberHeading > h4 > span {
     color: var(--customRed);
   }
   .memberSlideContainer {
@@ -315,7 +314,7 @@
     height: 80%;
     margin-left: 15px;
   }
-  .memberSlide > h1 {
+  .memberSlide > h3 {
     /* border: solid; */
     display: flex;
     justify-content: center;

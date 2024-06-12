@@ -20,7 +20,7 @@ const LashesPage = () => {
       <Helmet>
         <meta charSet="UTF-8" />
         <title>
-          SCENT Eye Lashes in Bangalore | Eyelash Extensions Salon Near Me
+           Eye Lashes in Bangalore | Eyelash Extensions Salon Near Me
         </title>
         <meta
           name="description"

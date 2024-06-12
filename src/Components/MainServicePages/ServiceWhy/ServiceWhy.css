@@ -14,6 +14,11 @@
   flex-direction: column;
   height: 10%;
 }
+.serviceWhyHeadContainer > h6 {
+  font-size: 30px;
+  color: var(--customRed);
+}
+
 .serviceWhyUnderline {
   border: 2px solid;
   color: var(--customRed);
@@ -169,12 +174,12 @@
     /* border: solid green; */
     width: 100%;
     height: 100%;
-    margin-top: 15%;
+    margin-top: 5%;
   }
   .serviceWhyUnderline {
     border: 2px solid;
     color: var(--customRed);
-    width: 10%;
+    width: 5%;
   }
   .serviceWhyMainContainer {
     /* border: solid green; */

@@ -4,7 +4,7 @@ import "./ServiceWhy.css"
 const ServiceWhyHead = () => {
   return (
     <div className='serviceWhyHeadContainer'>
-      <h1>WHY US ?</h1>
+      <h6>WHY US ?</h6>
       <p className='serviceWhyUnderline'></p>
     </div>
   )

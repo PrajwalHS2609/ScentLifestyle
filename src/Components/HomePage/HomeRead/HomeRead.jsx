@@ -18,9 +18,10 @@ const HomeRead = () => {
     <div className="homeReadContainer">
       <div className="homeReadHeadContainer">
         <button>
-          <h1 className="openBut" onClick={open}>
-            Read More
-          </h1>
+          <h6 className="openBut" onClick={open}>
+            Read More{" "}
+          </h6>
+          <h1>Scent Salon In Bangalore</h1>
         </button>
       </div>
       <div ref={switchRef} className="homeReadDisplayContainer">
@@ -51,7 +52,6 @@ const HomeRead = () => {
             hospitality. Visit us today and discover the ultimate beauty
             destination in Bangalore!
           </li>
-      
         </ul>
       </div>
     </div>

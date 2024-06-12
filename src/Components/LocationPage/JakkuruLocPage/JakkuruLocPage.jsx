@@ -23,7 +23,7 @@ const JakkuruLocPage = () => {
       <Helmet>
         <meta charSet="UTF-8" />
         <title>
-          SCENT Salon in Jakkuru - Hair, Nail, Facial, Spa, Eyelashes & Beauty
+          Salon in Jakkuru - Hair, Nail, Facial, Spa, Eyelashes & Beauty
           Essentials
         </title>
         <meta

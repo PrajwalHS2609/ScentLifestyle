@@ -13,11 +13,11 @@ const About = () => {
       <div className="aboutContent">
         <div className="innerAboutContent">
           <div className="aboutContentTxt1">
-            <h1>
+            <h4>
               <span>Beyond the Salon</span> <br />
               <div className="aboutUnderline"></div>
               Where Beauty Meets Luxury
-            </h1>
+            </h4>
           </div>
           <div className="aboutContentTxt2">
             <p>

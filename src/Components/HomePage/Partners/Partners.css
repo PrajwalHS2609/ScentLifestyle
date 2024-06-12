@@ -18,9 +18,8 @@
   align-items: center;
   flex-direction: column;
 }
-.partnerItem1 > h1 {
+.partnerItem1 > h5 {
   font-size: 30px;
-  font-weight: lighter;
   color: var(--customRed);
 }
 .partnerUnderline {
@@ -68,9 +67,7 @@
     height: 300px;
     width: 100%;
   }
-  .partnerItem1 > h1 {
-    font-size: 200%;
-  }
+
   #partnerContent2 {
     /* border: solid red; */
     height: 250px;
@@ -116,9 +113,7 @@
     height: 350px;
     width: 100%;
   }
-  .partnerItem1 > h1 {
-    font-size: 200%;
-  }
+
   #partnerContent2 {
     /* border: solid red; */
     height: 200px;
@@ -175,11 +170,7 @@
     align-items: center;
     flex-direction: column;
   }
-  .partnerItem1 > h1 {
-    font-size: 30px;
-    font-weight: lighter;
-    color: var(--customRed);
-  }
+
   .partnerUnderline {
     border: 2px solid;
     width: 75px;

@@ -71,7 +71,7 @@ const Partners = () => {
     <div className="partnerContainer">
       <div className="partnerContent" id="partnerContent1">
         <div className="partnerItem1">
-          <h1>Partners</h1>
+          <h5>Partners</h5>
         </div>
         <div className="partnerUnderline"></div>
       </div>

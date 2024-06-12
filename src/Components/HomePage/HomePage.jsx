@@ -37,7 +37,7 @@ const HomePage = () => {
       <Work />
       <Partners />
       <Suspense fallback={<p>This is Loading....</p>}>
-        <InstaFeed />
+      <InstaFeed />
       </Suspense>
       <HelpNearYou />
       <TextLocReviews />

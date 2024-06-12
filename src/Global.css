@@ -13,6 +13,7 @@ h1 {
   font-family: "Times New Roman", Times, serif;
 }
 
-:root{
-  --customColorTrans:#cc222897
+:root {
+  --customColor: #cc2228;
+  --customColorTrans: #cc222897;
 }

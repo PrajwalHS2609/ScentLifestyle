@@ -4,8 +4,10 @@ import "./Services.css";
 const ServiceHead = () => {
   return (
     <div className="serviceContent" id="serviceContent1">
-      <h1>Our</h1>
-      <h1><span>Salon Services</span></h1>
+      <h2>
+        Our <br />
+        <span> Salon Services</span>
+      </h2>
     </div>
   );
 };

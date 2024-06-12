@@ -192,7 +192,7 @@ a {
   background-color: #1d1d20;
   width: 100%;
 }
-.respMenuScroll > ul > h1 {
+.respMenuScroll > ul > h2 {
   color: white;
   height: 80px;
   display: flex;
@@ -203,7 +203,7 @@ a {
   font-weight: lighter;
   margin-left: 10px;
 }
-.respMenuScroll > ul > h2 {
+.respMenuSpan > li > h4 {
   color: white;
   height: 10px;
   display: flex;
@@ -214,11 +214,11 @@ a {
   font-weight: lighter;
   margin-left: 10px;
 }
-.respMenuScroll > ul > h1 > a {
+.respMenuScroll > ul > h2 > a {
   color: white;
   text-decoration: none;
 }
-.respMenuScroll > ul > span > li {
+.respMenuSpan > li {
   list-style: none;
   border-top: solid 1px black;
   background-color: #25252a;
@@ -228,7 +228,7 @@ a {
   align-items: center;
   width: 100%;
 }
-.respMenuScroll > ul > span > li > h2 {
+.respMenuSpan > li > h4 {
   color: white;
   list-style: none;
   margin-left: 30px;
@@ -236,7 +236,7 @@ a {
   font-family: monospace;
   font-weight: lighter;
 }
-.respMenuScroll > ul > span > li > h2 > a {
+.respMenuSpan li > h4 > a {
   text-decoration: none;
   color: white;
 }
@@ -260,6 +260,10 @@ a {
 .respDropIcon {
   /* border: solid; */
   margin-left: 50px;
+}
+.respMenuGap {
+  /* border: solid red; */
+  height: 225px;
 }
 @media only screen and (max-width: 600px) {
   .navContainer {
@@ -461,7 +465,6 @@ a {
     margin-right: -200px;
     display: none;
   }
-  
 }
 @media only screen and (max-width: 1440px) and (min-width: 1200px) {
   .navContainer {
@@ -610,5 +613,4 @@ a {
     margin-right: -200px;
     display: none;
   }
-  
 }

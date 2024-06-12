@@ -96,21 +96,21 @@ const Menu = () => {
       <div className="respMenu">
         <div className="respMenuScroll">
           <ul>
-            <h1>
+            <h2>
               <Link onClick={hideSideBar} to={"/"}>
                 Home
               </Link>
-            </h1>
-            <h1 className="cross">
+            </h2>
+            <h2 className="cross">
               <FontAwesomeIcon
                 icon={faX}
                 onClick={hideSideBar}
                 className="respIcon"
               ></FontAwesomeIcon>
-            </h1>
+            </h2>
           </ul>
           <ul className="serviceDrop">
-            <h1>
+            <h2>
               <Link onClick={hideSideBar} to={"/service"}>
                 Services
               </Link>
@@ -119,85 +119,84 @@ const Menu = () => {
                 icon={faSortDown}
                 className="respDropIcon"
               ></FontAwesomeIcon>
-            </h1>
+            </h2>
             <span className="respMenuSpan" ref={dropRef}>
               <li>
-                <h2>
+                <h4>
                   <Link onClick={hideSideBar} to={"/hair-salon"}>
                     Hair
                   </Link>
-                </h2>
+                </h4>
               </li>
               <li>
-                <h2>
+                <h4>
                   <Link onClick={hideSideBar} to={"/nails-salon"}>
                     Nails
                   </Link>
-                </h2>
+                </h4>
               </li>
               <li>
-                <h2>
+                <h4>
                   <Link onClick={hideSideBar} to={"/facial"}>
                     Facials
                   </Link>
-                </h2>
+                </h4>
               </li>
               <li>
-                <h2>
+                <h4>
                   <Link onClick={hideSideBar} to={"/beauty-essentials"}>
                     Beauty Essentials
                   </Link>
-                </h2>
+                </h4>
               </li>
               <li>
-                <h2>
+                <h4>
                   <Link onClick={hideSideBar} to={"/spa"}>
                     Spa
                   </Link>
-                </h2>
+                </h4>
               </li>
               <li>
-                <h2>
+                <h4>
                   <Link onClick={hideSideBar} to={"/eye-lashes"}>
                     Eye Lashes
                   </Link>
-                </h2>
+                </h4>
               </li>
             </span>
           </ul>
           <ul>
-            <h1>
+            <h2>
               <Link onClick={hideSideBar} to={"/salon-membership"}>
                 Salon Membership
               </Link>
-            </h1>
+            </h2>
           </ul>
           <ul>
-            <h1>
+            <h2>
               <Link onClick={hideSideBar} to={"/shop"}>
                 Shops
               </Link>
-            </h1>
+            </h2>
           </ul>
           <ul>
-            <h1>
+            <h2>
               <Link onClick={hideSideBar} to={"/franchise"}>
                 Franchise
               </Link>
-            </h1>
+            </h2>
           </ul>
           <ul>
-            <h1>
+            <h2>
               <Link onClick={hideSideBar} to={"/contact-us"}>
                 Contact Us
               </Link>
-            </h1>
+            </h2>
           </ul>
           <ul>
-            <h1></h1>
-            <h1></h1>
-            <h1></h1>
-            <h1></h1>
+            <div className="respMenuGap">
+              
+            </div>
           </ul>
         </div>
       </div>

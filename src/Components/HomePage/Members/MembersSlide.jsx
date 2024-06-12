@@ -20,7 +20,7 @@ const MembersSlide = () => {
           justifyContent: "center",
           alignItems: "center",
           textAlign: "center",
-          background: "#cc2228",
+          // background: "#cc2228",
           borderTopRightRadius: "10px",
           borderBottomRightRadius: "14px",
           height: "40px",
@@ -41,7 +41,7 @@ const MembersSlide = () => {
           justifyContent: "center",
           alignItems: "center",
           textAlign: "center",
-          background: "#cc2228",
+          // background: "#cc2228",
           borderTopLeftRadius: "10px",
           borderBottomLeftRadius: "10px",
           height: "40px",
@@ -54,7 +54,7 @@ const MembersSlide = () => {
 
   const settings = {
     dots: false,
-    infinite: true,
+    infinite: false,
     speed: 500,
     slidesToShow: 4,
     slidesToScroll: 4,
@@ -88,7 +88,7 @@ const MembersSlide = () => {
               src={crew1}
               alt=""
             />
-            <h1>Rose</h1>
+            <h3>Rose</h3>
             <pre>Salon Director</pre>
           </div>
           <div className="memberSlide">
@@ -96,7 +96,7 @@ const MembersSlide = () => {
               src={crew2}
               alt=""
             />
-            <h1>Sam</h1>
+            <h3>Sam</h3>
             <pre>Creative Director</pre>
           </div>
           <div className="memberSlide">
@@ -104,7 +104,7 @@ const MembersSlide = () => {
               src={crew3}
               alt=""
             />
-            <h1>Lobsang</h1>
+            <h3>Lobsang</h3>
             <pre>Top Stylist</pre>
           </div>
           <div className="memberSlide">
@@ -112,7 +112,7 @@ const MembersSlide = () => {
               src={crew4}
               alt=""
             />
-            <h1>Kevin</h1>
+            <h3>Kevin</h3>
             <pre>Top Stylist</pre>
           </div>
         </Slider>

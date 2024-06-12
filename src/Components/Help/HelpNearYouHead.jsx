@@ -5,7 +5,7 @@ const HelpNearYouHead = () => {
   return (
     <div className="helpNearYouHeadContainer">
     <div className="helpNearYouHeadContent">
-      <h1>DISCOVER A SALON NEAR YOU</h1>
+      <h5>DISCOVER A SALON NEAR YOU</h5>
       <div className="helpNearYouUnderline"></div>
     </div>
   </div>
