@@ -11,7 +11,7 @@ const BeautyGarageCard = (props) => {
       </div>
       <div className="beautyGarageCardTxt">
         <div className="beautyGarageCardHead">
-          <h1>{props.head}</h1>
+          <h2>{props.head}</h2>
         </div>
         <div className="beautyGarageCardPrice">
           <pre>

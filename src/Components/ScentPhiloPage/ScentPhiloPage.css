@@ -21,7 +21,7 @@
   align-items: center;
   flex-direction: column;
 }
-.scentPhiloHeadContainer > h1 {
+.scentPhiloHeadContainer > h2 {
   font-size: 60px;
   border: solid;
   color: transparent;
@@ -55,10 +55,10 @@
   font-size: 20px;
   margin: 10px;
 }
-.scentPhiloTxtContent1 > h1 {
+.scentPhiloTxtContent1 > h2 {
   color: black;
 }
-.scentPhiloTxtContent1 > h1 > span {
+.scentPhiloTxtContent1 > h2 > span {
   color: #cc2228;
 }
 .scentPhiloTxtContent2 {
@@ -83,7 +83,7 @@
     flex-direction: column;
     margin-top: 5%;
   }
-  .scentPhiloHeadContainer > h1 {
+  .scentPhiloHeadContainer > h2 {
     border: solid;
     font-size: 60px;
     color: transparent;
@@ -119,11 +119,11 @@
     font-size: 20px;
     margin: 10px;
   }
-  .scentPhiloTxtContent1 > h1 {
+  .scentPhiloTxtContent1 > h2 {
     color: black;
     font-size: 150%;
   }
-  .scentPhiloTxtContent1 > h1 > span {
+  .scentPhiloTxtContent1 > h2 > span {
     color: #cc2228;
   }
   .scentPhiloTxtContent2 {
@@ -148,7 +148,7 @@
     align-items: center;
     flex-direction: column;
   }
-  .scentPhiloHeadContainer > h1 {
+  .scentPhiloHeadContainer > h2 {
     border: solid;
     font-size: 60px;
     color: transparent;
@@ -184,11 +184,11 @@
     font-size: 20px;
     margin: 10px;
   }
-  .scentPhiloTxtContent1 > h1 {
+  .scentPhiloTxtContent1 > h2 {
     color: black;
     font-size: 150%;
   }
-  .scentPhiloTxtContent1 > h1 > span {
+  .scentPhiloTxtContent1 > h2 > span {
     color: #cc2228;
   }
   .scentPhiloTxtContent2 {

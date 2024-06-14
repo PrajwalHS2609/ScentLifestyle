@@ -7,7 +7,7 @@ const Contacts = () => {
   return (
     <div className="contactsContainer">
       <div className="contacts1">
-        <h1>Contact Us</h1>
+        <h2>Contact Us</h2>
         <p>
           <FontAwesomeIcon
             icon={faPhone}
@@ -17,7 +17,7 @@ const Contacts = () => {
         </p>
       </div>
       <div className="contacts2">
-        <h1>For Franchise</h1>
+        <h2>For Franchise</h2>
         <p>
           <FontAwesomeIcon
             icon={faEnvelope}
@@ -36,7 +36,7 @@ const Contacts = () => {
         </p>
       </div>
       <div className="contacts3">
-        <h1>For Membership</h1>
+        <h2>For Membership</h2>
         <p>
           <FontAwesomeIcon
             icon={faPhone}

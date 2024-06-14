@@ -48,7 +48,7 @@
     flex-direction: column;
     margin-top: 0px;
   }
-  .nailReadHeadContainer > h1 {
+  .nailReadHeadContainer > h2 {
     font-size: 150%;
   }
   .nailReadDisplayContainer {

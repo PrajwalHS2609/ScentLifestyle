@@ -11,7 +11,7 @@ const FacialServiceCard = (props) => {
         <div className="facialCardCover">
           <div className="facialCardTxtContainer">
             <div className="facialCardHead">
-              <h1>{props.heading}</h1>
+              <h3>{props.heading}</h3>
             </div>
             <div className="facialCardPara">
               <p>{props.para}</p>
@@ -27,7 +27,7 @@ const FacialServiceCard = (props) => {
       <Link to={props.link}>
         <div className="facialGoto">
           <div className="goTo1">
-            <h1>{props.goto}</h1>
+            <h3>{props.goto}</h3>
           </div>
           <div className="goTo2">
             <p>
@@ -43,7 +43,7 @@ const FacialServiceCard = (props) => {
         <div className="respFacialServiceCardCover">
           <div className="respFacialServiceCardTxtContainer">
             <div className="respFacialServiceCardHead">
-              <h1>{props.heading}</h1>
+              <h3>{props.heading}</h3>
             </div>
             <div className="respFacialServiceCardPara">
               <p>{props.para}</p>

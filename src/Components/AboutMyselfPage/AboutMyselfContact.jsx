@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const AboutMyselfContact = () => {
   return (
     <div className="aboutMyselfContactContainer">
-      <h1><Link to={"/contact-us"}>why wait? contact us now!</Link></h1>
+      <h2><Link to={"/contact-us"}>why wait? contact us now!</Link></h2>
     </div>
   );
 };

@@ -3,10 +3,10 @@ import "./SahakarLocAbout.css";
 const SahakarLocAbout = () => {
   return (
     <div className="sahakarLocAboutContainer">
-      <h1>
+      <h2>
         SCENT Salon & Spa Sahakar Nagar, Bangalore – Your Ultimate Beauty
         Destination!
-      </h1>
+      </h2>
       <p>
         <ul>
           <li>

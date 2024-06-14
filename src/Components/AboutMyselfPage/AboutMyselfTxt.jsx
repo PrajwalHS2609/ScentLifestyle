@@ -4,7 +4,7 @@ import "./AboutMyselfPage.css";
 const AboutMyselfTxt = () => {
   return (
     <div className="aboutMyselfTxtContainer">
-      <h1>going organic the scent way</h1>
+      <h2>going organic the scent way</h2>
       <li>
         All About Myself is elegance compressed into a beauty bar. Use it for
         yourself or gift to a friend: spread the Scent lifestyle! Go organic the

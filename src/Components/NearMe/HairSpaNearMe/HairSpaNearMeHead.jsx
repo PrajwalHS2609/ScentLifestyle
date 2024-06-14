@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const HairSpaNearMeHead = () => {
   return (
     <div className="nearHeadContainer">
-      <h1>Hair Spa Near Me: Revitalize Your Locks at SCENT Salon </h1>
+      <h2>Hair Spa Near Me: Revitalize Your Locks at SCENT Salon </h2>
       <p>
         Maintaining healthy and beautiful hair is a priority for many, and
         finding the perfect <Link to={"/hair-spa"}>hair spa</Link> can make all

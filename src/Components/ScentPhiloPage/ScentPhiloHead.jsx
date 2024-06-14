@@ -4,7 +4,7 @@ import "./ScentPhiloPage.css"
 const ScentPhiloHead = () => {
   return (
     <div className='scentPhiloHeadContainer'>
-      <h1 className='philoHead'>scent philosophy</h1>
+      <h2 className='philoHead'>scent philosophy</h2>
       <div className="philoUnderline"></div>
     </div>
   )

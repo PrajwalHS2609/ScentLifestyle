@@ -4,7 +4,7 @@ import "./Olaplex.css"
 const OlaplexHead = () => {
   return (
     <div className='olaplexHeadContainer'>
-       <h1>Olaplex</h1>
+       <h2>Olaplex</h2>
       <div className="olaplexUnderline"></div>
     </div>
   )

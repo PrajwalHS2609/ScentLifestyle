@@ -4,7 +4,7 @@ import "./FranchisePage.css";
 const FranchiseHead = () => {
   return (
     <div className="franchiseHeadContainer">
-      <h1> A Lucrative Opportunity for you to build a beauty empire</h1>
+      <h2> A Lucrative Opportunity for you to build a beauty empire</h2>
     </div>
   );
 };

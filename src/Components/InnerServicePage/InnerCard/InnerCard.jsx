@@ -4,7 +4,7 @@ const InnerCard = (props) => {
   return (
     <div className="innerCardContainer">
       <div className="innerCardContent">
-        <h1>{props.head}</h1>
+        <h2>{props.head}</h2>
         <p>{props.para}</p>
         {/* <h1>
         <span>
@@ -14,7 +14,7 @@ const InnerCard = (props) => {
       </div>
       <div className="innerCardGoto">
         <a href="https://api.whatsapp.com/send?phone=919742232700">
-          <h1>BOOK NOW</h1>
+          <p>BOOK NOW</p>
         </a>
       </div>
     </div>

@@ -11,7 +11,7 @@ const NailServiceCard = (props) => {
         <div className="nailCardCover">
           <div className="nailCardTxtContainer">
             <div className="nailCardHead">
-              <h1>{props.heading}</h1>
+              <h3>{props.heading}</h3>
             </div>
             <div className="nailCardPara">
               <p>{props.para}</p>
@@ -27,7 +27,7 @@ const NailServiceCard = (props) => {
       <Link to={props.link}>
         <div className="nailGoto">
           <div className="nailGoTo1">
-            <h1>{props.goto}</h1>
+            <h3>{props.goto}</h3>
           </div>
           <div className="goTo2">
             <p>
@@ -43,7 +43,7 @@ const NailServiceCard = (props) => {
         <div className="respNailServiceCardCover">
           <div className="respNailServiceCardTxtContainer">
             <div className="respNailServiceCardHead">
-              <h1>{props.heading}</h1>
+              <h3>{props.heading}</h3>
             </div>
             <div className="respNailServiceCardPara">
               <p>{props.para}</p>

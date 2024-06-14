@@ -11,7 +11,7 @@ const HairServiceCard = (props) => {
         <div className="hairCardCover">
           <div className="hairCardTxtContainer">
             <div className="hairCardHead">
-              <h1>{props.heading}</h1>
+              <h3>{props.heading}</h3>
             </div>
             <div className="hairCardPara">
               <p>{props.para}</p>
@@ -27,7 +27,7 @@ const HairServiceCard = (props) => {
       <Link to={props.link}>
         <div className="hairGoto">
           <div className="goTo1">
-            <h1>{props.goto}</h1>
+            <h3>{props.goto}</h3>
           </div>
           <div className="goTo2">
             <p>
@@ -43,7 +43,7 @@ const HairServiceCard = (props) => {
         <div className="respHairServiceCardCover">
           <div className="respHairServiceCardTxtContainer">
             <div className="respHairServiceCardHead">
-              <h1>{props.heading}</h1>
+              <h3>{props.heading}</h3>
             </div>
             <div className="respHairServiceCardPara">
               <p>{props.para}</p>

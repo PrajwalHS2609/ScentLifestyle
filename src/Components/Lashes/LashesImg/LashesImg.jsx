@@ -11,7 +11,7 @@ const LashesImg = () => {
         ></video>
         <div className="cover">
           <div className="overCoverTxt">
-            <h1>Lashes</h1>
+            <h2>Lashes</h2>
             <div className="coverUnderline"></div>
             <pre> </pre>
             <p>

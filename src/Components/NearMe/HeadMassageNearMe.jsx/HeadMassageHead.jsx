@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const HeadMassageHead = () => {
   return (
     <div className="nearHeadContainer">
-      <h1>Head Massage Salon Near Me: Relax and Rejuvenate at SCENT Salon </h1>
+      <h2>Head Massage Salon Near Me: Relax and Rejuvenate at SCENT Salon </h2>
       <p>
         In today's fast-paced world, finding moments of relaxation and
         rejuvenation is essential for overall well-being. If you're searching

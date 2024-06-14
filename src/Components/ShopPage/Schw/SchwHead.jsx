@@ -3,7 +3,7 @@ import "./Schw.css"
 const SchwHead = () => {
   return (
     <div className='schwHeadContainer'>
-      <h1>Schwarzkopf</h1>
+      <h2>Schwarzkopf</h2>
       <div className="schwUnderline"></div>
     </div>
   )

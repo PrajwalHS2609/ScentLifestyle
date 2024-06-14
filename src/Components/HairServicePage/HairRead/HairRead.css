@@ -29,7 +29,7 @@
   display: none;
 }
 
-.readmehead2 > h2 {
+.readmehead2 > h3 {
   font-size: 150%;
   color: black;
 }
@@ -53,13 +53,13 @@
     flex-direction: column;
     margin-top:0px;
   }
-  .hairReadHeadContainer > h1 {
+  .hairReadHeadContainer > h2 {
     font-size: 120%;
   }
   .hairReadDisplayContainer {
     height: 100%;
   }
-  .readmehead2 > h2 {
+  .readmehead2 > h3 {
     font-size: 120%;
     color: black;
   }

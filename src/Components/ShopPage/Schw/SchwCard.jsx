@@ -10,7 +10,7 @@ const SchwCard = (props) => {
         </div>
         <div className="schwCardTxt">
           <div className="schwCardHead">
-            <h1>{props.txt}</h1>
+            <h2>{props.txt}</h2>
           </div>
           <button>
             <a href="https://api.whatsapp.com/send?phone=919742232700">

@@ -24,14 +24,14 @@
   flex-direction: column;
   gap: 10px;
 }
-.innerCardContent > h1 {
+.innerCardContent > h2 {
   font-size: 150%;
 }
 
-.innerCardContent > h1 > span {
+.innerCardContent > h2 > span {
   color: var(--customRed);
 }
-.innerCardContent > h1 > span > span {
+.innerCardContent > h2 > span > span {
   font-weight: lighter;
 }
 .innerCardGoto {
@@ -49,7 +49,7 @@
 .innerCardGoto > a {
   width: 100%;
 }
-.innerCardGoto > a > h1 {
+.innerCardGoto > a > p {
   /* border: solid black; */
   font-size: 20px;
   color: white;
@@ -60,9 +60,7 @@
   color: var(--customRed);
   background-color: white;
 }
-.innerCardGoto:hover > a > h1 {
-  color: var(--customRed);
-}
+
 @media screen and (min-width: 320px) {
   .innerCardContainer {
     border: 2px solid;
@@ -86,18 +84,12 @@
     flex-direction: column;
     gap: 20px;
   }
-  .innerCardContent > h1 {
+  .innerCardContent > h2 {
     font-size: 120%;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 
-  .innerCardContent > h1 > span {
-    color: var(--customRed);
-  }
-  .innerCardContent > h1 > span > span {
-    font-weight: lighter;
-  }
   .innerCardGoto {
     /* border: solid; */
     position: absolute;
@@ -113,7 +105,7 @@
   .innerCardGoto > a {
     width: 100%;
   }
-  .innerCardGoto > a > h1 {
+  .innerCardGoto > a > p {
     font-size: 100%;
     color: white;
     margin-left: 10px;
@@ -122,9 +114,6 @@
     border: solid;
     color: var(--customRed);
     background-color: white;
-  }
-  .innerCardGoto:hover h1 {
-    color: var(--customRed);
   }
 }
 @media screen and (min-width: 768px) {
@@ -156,16 +145,15 @@
     flex-direction: column;
     gap: 10px;
   }
-  .innerCardContent > h1 {
+  .innerCardContent > h2 {
     font-size: 100%;
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 
-  .innerCardContent > h1 > span {
+  .innerCardContent > h2 > span {
     color: var(--customRed);
   }
-  .innerCardContent > h1 > span > span {
+  .innerCardContent > h2 > span > span {
     font-weight: lighter;
   }
   .innerCardGoto {
@@ -183,7 +171,7 @@
   .innerCardGoto > a {
     width: 100%;
   }
-  .innerCardGoto > a > h1 {
+  .innerCardGoto > a > p {
     font-size: 100%;
     color: white;
     margin-left: 10px;
@@ -193,7 +181,7 @@
     color: var(--customRed);
     background-color: white;
   }
-  .innerCardGoto:hover h1 {
+  .innerCardGoto:hover p {
     color: var(--customRed);
   }
 }
@@ -221,17 +209,11 @@
     gap: 10px;
   }
 
-  .innerCardContent > h1 {
+  .innerCardContent > h2 {
     font-size: 120%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 
-  .innerCardContent > h1 > span {
-    color: var(--customRed);
-  }
-  .innerCardContent > h1 > span > span {
-    font-weight: lighter;
-  }
   .innerCardGoto {
     /* border: solid; */
     position: absolute;
@@ -247,7 +229,7 @@
   .innerCardGoto > a {
     width: 100%;
   }
-  .innerCardGoto > a > h1 {
+  .innerCardGoto > a > p {
     font-size: 120%;
     color: white;
     margin-left: 10px;
@@ -257,7 +239,7 @@
     color: var(--customRed);
     background-color: white;
   }
-  .innerCardGoto:hover h1 {
+  .innerCardGoto:hover p {
     color: var(--customRed);
   }
 }
@@ -284,17 +266,7 @@
     flex-direction: column;
     gap: 10px;
   }
-  .innerCardContent > h1 {
-    font-size: 120%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
 
-  .innerCardContent > h1 > span {
-    color: var(--customRed);
-  }
-  .innerCardContent > h1 > span > span {
-    font-weight: lighter;
-  }
   .innerCardGoto {
     /* border: solid; */
     position: absolute;
@@ -310,7 +282,7 @@
   .innerCardGoto > a {
     width: 100%;
   }
-  .innerCardGoto > a > h1 {
+  .innerCardGoto > a > p {
     font-size: 120%;
     color: white;
     margin-left: 10px;
@@ -319,8 +291,5 @@
     border: solid;
     color: var(--customRed);
     background-color: white;
-  }
-  .innerCardGoto:hover h1 {
-    color: var(--customRed);
   }
 }

@@ -55,7 +55,7 @@
   align-items: center;
   flex-direction: column;
 }
-.serviceOverCoverTxt > h1 {
+.serviceOverCoverTxt > h2 {
   font-size: 50px;
   font-weight: lighter;
   color: white;
@@ -85,7 +85,7 @@
     height: 70vh;
     width: 100%;
   }
-  .serviceOverCoverTxt > h1 {
+  .serviceOverCoverTxt > h2 {
     font-size: 200%;
   }
   .serviceOverCoverTxt > p {
@@ -150,7 +150,7 @@
     align-items: center;
     flex-direction: column;
   }
-  .serviceOverCoverTxt > h1 {
+  .serviceOverCoverTxt > h2 {
     font-size: 50px;
     font-weight: lighter;
     color: white;
@@ -220,7 +220,7 @@
     align-items: center;
     flex-direction: column;
   }
-  .serviceOverCoverTxt > h1 {
+  .serviceOverCoverTxt > h2 {
     font-size: 50px;
     font-weight: lighter;
     color: white;

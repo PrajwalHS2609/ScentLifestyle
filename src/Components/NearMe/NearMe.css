@@ -17,6 +17,9 @@
   flex-direction: column;
   gap: 20px;
 }
+.nearHeadContainer > h2 {
+  font-size: 30px;
+}
 .nearHeadContainer > p {
   font-size: 20px;
 }

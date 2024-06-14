@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 const NailNearHead = () => {
   return (
     <div className="nearHeadContainer">
-      <h1>
+      <h2>
         Nail Salon Near Me: Discover the Best Nail Services at SCENT Salon
-      </h1>
+      </h2>
       <p>
         When you search for a <Link to={"/nails-salon-near-me"}>"nail salon near me,"</Link> you want a place that offers
         exceptional services, a welcoming atmosphere, and skilled technicians

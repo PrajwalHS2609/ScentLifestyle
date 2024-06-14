@@ -17,9 +17,9 @@ const LastComp = () => {
       <div className="lastContent1">
         <div className="lastItem1" id="lastItem1">
           <div className="lastTxt1">
-            <h1>
+            <h2>
               <Link to={"/service"}>Services</Link>
-            </h1>
+            </h2>
           </div>
           <div className="lastTxt2">
             <div className="lastTxt">
@@ -44,9 +44,9 @@ const LastComp = () => {
         </div>
         <div className="lastItem1" id="lastItem2">
           <div className="lastTxt1">
-            <h1>
+            <h2>
               <Link to={"/about"}>About us</Link>
-            </h1>
+            </h2>
           </div>
           <div className="lastTxt2">
             <div className="lastTxt">
@@ -62,7 +62,7 @@ const LastComp = () => {
         </div>
         <div className="lastItem1" id="lastItem4">
           <div className="lastTxt1">
-            <h1>Work</h1>
+            <h2>Work</h2>
           </div>
           <div className="lastTxt2">
             <div className="lastTxt">
@@ -76,9 +76,9 @@ const LastComp = () => {
         </div>
         <div className="lastItem1" id="lastItem5">
           <div className="lastTxt1" id="lastTxtTerms">
-            <h1>
+            <h2>
               <Link to={"/terms"}>Terms</Link>{" "}
-            </h1>
+            </h2>
           </div>
           <div className="lastTxt2">
             <div className="lastTxt">
@@ -100,7 +100,7 @@ const LastComp = () => {
         </div>
         <div className="lastItem1" id="lastItem3">
           <div className="lastTxt1" id="socialTxt">
-            <h1>Social Media</h1>
+            <h2>Social Media</h2>
           </div>
           <div className="socialBlocks">
             <div className="innerSocialBlocks">

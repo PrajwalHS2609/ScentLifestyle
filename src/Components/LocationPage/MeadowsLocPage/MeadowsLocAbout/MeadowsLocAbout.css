@@ -13,8 +13,9 @@
     justify-content: space-evenly;
     align-items: center;
   }
-  .meadowsLocAboutContainer>h1{
+  .meadowsLocAboutContainer>h2{
   text-align: center;
+  font-size: 30px;
   }
   .meadowsLocAboutContainer > p > ul > li {
     list-style: none;

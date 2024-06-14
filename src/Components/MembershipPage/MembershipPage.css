@@ -24,7 +24,7 @@
   flex-direction: column;
   margin-top: 5%;
 }
-.membershipHeadContainer > h1 {
+.membershipHeadContainer > h2 {
   font-size: 60px;
 }
 .membershipUnderline {
@@ -70,7 +70,7 @@
   align-items: center;
   flex-direction: column;
 }
-.membershipCardTxt > h1,
+.membershipCardTxt > h2,
 h4 {
   color: white;
 }
@@ -83,7 +83,7 @@ h4 {
   justify-content: center;
   align-items: center;
 }
-.membershipPrice > h2 {
+.membershipPrice > h3 {
   color: white;
 }
 .rupeeicon {
@@ -102,7 +102,7 @@ h4 {
   .membershipImgContainer > img {
     width: 100%;
   }
-  .membershipHeadContainer > h1 {
+  .membershipHeadContainer > h2 {
     font-size: 200%;
   }
 
@@ -146,7 +146,7 @@ h4 {
     align-items: center;
     flex-direction: column;
   }
-  .membershipCardTxt > h1,
+  .membershipCardTxt > h2,
   h4 {
     color: white;
   }
@@ -159,7 +159,7 @@ h4 {
     justify-content: center;
     align-items: center;
   }
-  .membershipPrice > h2 {
+  .membershipPrice > h3 {
     color: white;
   }
   .rupeeicon {
@@ -183,7 +183,7 @@ h4 {
   .membershipHeadContainer {
     margin-top: 15%;
   }
-  .membershipHeadContainer > h1 {
+  .membershipHeadContainer > h2 {
     font-size: 230%;
   }
 
@@ -232,7 +232,7 @@ h4 {
     align-items: center;
     flex-direction: column;
   }
-  .membershipCardTxt > h1,
+  .membershipCardTxt > h2,
   h4 {
     color: white;
   }
@@ -245,7 +245,7 @@ h4 {
     justify-content: center;
     align-items: center;
   }
-  .membershipPrice > h2 {
+  .membershipPrice > h3 {
     color: white;
   }
   .rupeeicon {
@@ -276,7 +276,7 @@ h4 {
     flex-direction: column;
     margin-top: 5%;
   }
-  .membershipHeadContainer > h1 {
+  .membershipHeadContainer > h2 {
     font-size: 60px;
   }
   .membershipUnderline {
@@ -322,7 +322,7 @@ h4 {
     align-items: center;
     flex-direction: column;
   }
-  .membershipCardTxt > h1,
+  .membershipCardTxt > h2,
   h4 {
     color: white;
   }
@@ -335,7 +335,7 @@ h4 {
     justify-content: center;
     align-items: center;
   }
-  .membershipPrice > h2 {
+  .membershipPrice > h3 {
     color: white;
   }
   .rupeeicon {

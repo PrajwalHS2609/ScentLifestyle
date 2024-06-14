@@ -3,7 +3,7 @@ import "./Payment.css"
 const PaymentHead = () => {
   return (
     <div className='paymentHeadContainer'>
-      <h1>Payment Modes</h1>
+      <h2>Payment Modes</h2>
     </div>
   )
 }

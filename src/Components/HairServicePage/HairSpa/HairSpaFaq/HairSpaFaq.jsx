@@ -3,8 +3,8 @@ import "./HairSpaFaq.css";
 const HairSpaFaq = () => {
   return (
     <div className="haircutFaqContainer">
-      <h1>FAQ's</h1>
-      <h2>Find the Best Hair Spa Services Near You</h2>
+      <h2>FAQ's</h2>
+      <h3>Find the Best Hair Spa Services Near You</h3>
       <ul>
         <li>
           <span>What is a hair spa?</span>

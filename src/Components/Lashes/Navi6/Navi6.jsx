@@ -7,7 +7,7 @@ const Navi6 = () => {
   return (
     <div className="navi6Container">
       <div className="navi6Content">
-        <h1>
+        <h2>
           <Link to={"/"}>Home</Link>
           <p>
             <FontAwesomeIcon
@@ -23,7 +23,7 @@ const Navi6 = () => {
             ></FontAwesomeIcon>
           </p>
           <span> Lashes </span>
-        </h1>
+        </h2>
       </div>
     </div>
   );

@@ -11,7 +11,7 @@ const HairServiceImg = () => {
         ></video>
         <div className="hairCover">
           <div className="hairOverCoverTxt">
-            <h1>HAIR SERVICES</h1>
+            <h2>HAIR SERVICES</h2>
             <div className="hairCoverUnderline"></div>
             <pre> </pre>
             <p>

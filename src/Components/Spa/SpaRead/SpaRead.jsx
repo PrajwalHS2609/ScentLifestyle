@@ -18,9 +18,9 @@ const SpaRead = () => {
     <div className="spaReadContainer">
       <div className="spaReadHeadContainer">
         <button>
-          <h1 className="openBut" onClick={open}>
+          <h2 className="openBut" onClick={open}>
             Read More
-          </h1>
+          </h2>
         </button>
       </div>
       <div ref={switchRef} className="spaReadDisplayContainer">

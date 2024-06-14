@@ -3,9 +3,9 @@ import "./UpTownLocAbout.css";
 const UpTownLocAbout = () => {
   return (
     <div className="uptownLocAboutContainer">
-      <h1>
+      <h2>
         Discover Luxury at Scent Salon & Spa in Up Town Whitefield, Bangalore
-      </h1>
+      </h2>
       <p>
         <ul>
           <li>

@@ -36,10 +36,10 @@ const HairSalonJakkur = () => {
       <div className="hairSalonLocationWrapper">
         <div className="hairSalonLocationContent">
           <div className="hairSalonLocationTitle">
-            <h1>
+            <h2>
               Hair Salon in Jakkur – Hair Cut & Styling, Colour & Hair
               Treatments
-            </h1>
+            </h2>
           </div>
           <div className="hairSalonLocationDesp">
             <p>

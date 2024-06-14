@@ -10,7 +10,7 @@ const ServicePageImg = () => {
         ></video>
         <div className="serviceCover">
           <div className="serviceOverCoverTxt">
-            <h1>SALON SERVICES</h1>
+            <h2>SALON SERVICES</h2>
             <div className="serviceCoverUnderline"></div>
             <pre> </pre>
             <p>

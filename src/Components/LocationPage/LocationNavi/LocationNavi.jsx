@@ -7,7 +7,7 @@ const LocationNavi = (props) => {
   return (
     <div className="locNaviContainer">
       <div className="locNaviContent">
-        <h1>
+        <h2>
           <Link to={"/"}>Home</Link>
           <p>
             <FontAwesomeIcon
@@ -23,7 +23,7 @@ const LocationNavi = (props) => {
             ></FontAwesomeIcon>
           </p> 
           <p><span>{props.loc}</span></p>
-        </h1>
+        </h2>
       </div>
     </div>
   );

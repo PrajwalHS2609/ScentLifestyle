@@ -5,9 +5,9 @@ import { Link } from "react-router-dom";
 const GentsSalonHead = () => {
   return (
     <div className="nearHeadContainer">
-      <h1>
+      <h2>
         Gents Hair Salon Near Me: Experience Premium Grooming at SCENT Salon
-      </h1>
+      </h2>
       <p>
         Finding a quality hair salon that caters specifically to men can be
         challenging. If you're on the hunt for a <Link to={"/gents-salon-near-me"}>"gents hair salon near me,"</Link>

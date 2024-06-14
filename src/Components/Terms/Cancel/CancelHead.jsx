@@ -4,7 +4,7 @@ import "./Cancel.css"
 const CancelHead = () => {
   return (
     <div className='cancelHeadContainer'>
-      <h1>Cancellation Policy</h1>
+      <h2>Cancellation Policy</h2>
     </div>
   )
 }

@@ -38,7 +38,7 @@
   align-items: center;
   flex-direction: column;
 }
-.contacts1 > h1 {
+.contacts1 > h2 {
   color: white;
 }
 .contacts1 > p {
@@ -49,10 +49,10 @@
   gap: 20px;
   font-size: 120%;
 }
-.contacts1 > p>a{
-  color:white;
+.contacts1 > p > a {
+  color: white;
 }
-.contacts2 > h1 {
+.contacts2 > h2 {
   color: white;
 }
 .contacts2 > p {
@@ -63,10 +63,10 @@
   align-items: center;
   gap: 20px;
 }
-.contacts2 > p>a{
-  color:white;
+.contacts2 > p > a {
+  color: white;
 }
-.contacts3 > h1 {
+.contacts3 > h2 {
   color: white;
 }
 .contacts3 > p {
@@ -77,8 +77,8 @@
   align-items: center;
   gap: 20px;
 }
-.contacts3 > p>a{
-  color:white;
+.contacts3 > p > a {
+  color: white;
 }
 @media screen and (max-width: 600px) {
   .contactMainContainer {
@@ -98,7 +98,9 @@
     height: 80%;
     gap: 50px;
   }
-  .contacts1>h1,.contacts2>h1,.contacts3>h1{
+  .contacts1 > h2,
+  .contacts2 > h2,
+  .contacts3 > h2 {
     font-size: 150%;
   }
 }
@@ -119,9 +121,6 @@
     width: 100%;
     height: 80%;
     gap: 50px;
-  }
-  .contacts1>h1,.contacts2>h1,.contacts3>h1{
-    font-size: 150%;
   }
 }
 @media screen and (max-width: 1200px) and (min-width: 990px) {

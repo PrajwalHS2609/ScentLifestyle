@@ -3,7 +3,7 @@ import "./NailExtensionFaq.css";
 const NailExtensionFaq = () => {
   return (
     <div className="nailExtensionFaqContainer">
-      <h1>FAQ's</h1>
+      <h2>FAQ's</h2>
       <h2></h2>
       <ul>
         <li>

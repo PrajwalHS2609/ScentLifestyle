@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const PediNearHead = () => {
   return (
     <div className="nearHeadContainer">
-      <h1>Pedicure Near Me: Experience the Best at SCENT Salon</h1>
+      <h2>Pedicure Near Me: Experience the Best at SCENT Salon</h2>
       <p>
         When you search for a <Link to={"/pedicure-near-me"}>"pedicure near me,"</Link> you're not just looking for a
         basic foot care service; you're seeking a luxurious, relaxing experience

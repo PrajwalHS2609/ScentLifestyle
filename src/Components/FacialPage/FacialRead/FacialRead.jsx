@@ -18,9 +18,9 @@ const FacialRead = () => {
     <div className="facialReadContainer">
       <div className="facialReadHeadContainer">
         <button>
-          <h1 className="openBut" onClick={open}>
+          <h2 className="openBut" onClick={open}>
             Read More
-          </h1>
+          </h2>
         </button>
       </div>
       <div ref={switchRef} className="facialReadDisplayContainer">

@@ -14,7 +14,7 @@
   margin-left: 70px;
   color: #cc2228;
 }
-.navi7Content > h1 {
+.navi7Content > h2 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22,11 +22,11 @@
   gap: 20px;
   font-weight: lighter;
 }
-.navi7Content > h1 > a {
+.navi7Content > h2 > a {
   color: #cc2228;
   text-decoration: none;
 }
-.navi7Content > h1 > span {
+.navi7Content > h2 > span {
   font-weight: bold;
 }
 @media only screen and (max-width: 600px) {
@@ -45,7 +45,7 @@
 
  
   }
-  .navi7Content > h1 {
+  .navi7Content > h2 {
     font-size: 90%;
     font-weight: lighter;
   }
@@ -64,7 +64,7 @@
     align-items: flex-start;
  
   }
-  .navi7Content > h1 {
+  .navi7Content > h2 {
     font-size: 20px;
     font-weight: lighter;
   }

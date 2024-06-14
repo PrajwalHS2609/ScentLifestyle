@@ -27,7 +27,7 @@
   flex-direction: column;
   font-size: 30px;
 }
-.aboutPgHeadContainer > h1 {
+.aboutPgHeadContainer > h2 {
   /* border: solid; */
   color: transparent;
   background-color: #cc2228;
@@ -82,7 +82,7 @@
     align-items: center;
     flex-direction: column;
   }
-  .aboutPgHeadContainer > h1 {
+  .aboutPgHeadContainer > h2 {
     /* border: solid; */
     color: transparent;
     font-size: 180%;
@@ -143,7 +143,7 @@
     align-items: center;
     flex-direction: column;
   }
-  .aboutPgHeadContainer > h1 {
+  .aboutPgHeadContainer > h2 {
     /* border: solid; */
     color: transparent;
     font-size: 180%;
@@ -205,7 +205,7 @@
     flex-direction: column;
     font-size: 30px;
   }
-  .aboutPgHeadContainer > h1 {
+  .aboutPgHeadContainer > h2 {
     /* border: solid; */
     color: transparent;
     background-color: #cc2228;

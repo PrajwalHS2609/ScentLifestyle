@@ -20,7 +20,7 @@
   flex-direction: column;
   color: var(--customRed);
 }
-.innerServiceTxtHeadContainer > h1 {
+.innerServiceTxtHeadContainer > h2 {
   font-size: 150%;
   text-align: center;
   color: var(--customRed);
@@ -63,7 +63,7 @@
     flex-direction: column;
     color: var(--customRed);
   }
-  .innerServiceTxtHeadContainer > h1 {
+  .innerServiceTxtHeadContainer > h2 {
     font-size: 120%;
     text-align: center;
     color: var(--customRed);
@@ -106,7 +106,7 @@
     flex-direction: column;
     color: var(--customRed);
   }
-  .innerServiceTxtHeadContainer > h1 {
+  .innerServiceTxtHeadContainer > h2 {
     font-size: 150%;
     text-align: center;
     color: var(--customRed);
@@ -149,7 +149,7 @@
     flex-direction: column;
     color: var(--customRed);
   }
-  .innerServiceTxtHeadContainer > h1 {
+  .innerServiceTxtHeadContainer > h2 {
     font-size: 150%;
     text-align: center;
     color: var(--customRed);
@@ -192,7 +192,7 @@
     flex-direction: column;
     color: var(--customRed);
   }
-  .innerServiceTxtHeadContainer > h1 {
+  .innerServiceTxtHeadContainer > h2 {
     font-size: 150%;
     text-align: center;
     color: var(--customRed);

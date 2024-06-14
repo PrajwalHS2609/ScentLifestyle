@@ -5,28 +5,28 @@ const MemberShipPriceCard = (props) => {
   return (
     <div className="membershipCardContainer">
       <div className="membershipCardTxt">
-        <h1>{props.txt}</h1>
+        <h2>{props.txt}</h2>
         <h4>(inclusive of tax)</h4>
       </div>
       <div className="membershipPrice">
-        <h2>{props.rupee}</h2>
+        <h3>{props.rupee}</h3>
         <pre> </pre>
-        <h2>{props.price1}</h2>
+        <h3>{props.price1}</h3>
       </div>
       <div className="membershipPrice">
-        <h2>{props.rupee}</h2>
+        <h3>{props.rupee}</h3>
         <pre> </pre>
-        <h2>{props.price2}</h2>
+        <h3>{props.price2}</h3>
       </div>
       <div className="membershipPrice">
-        <h2>{props.rupee}</h2>
+        <h3>{props.rupee}</h3>
         <pre> </pre>
-        <h2>{props.price3}</h2>
+        <h3>{props.price3}</h3>
       </div>
       <div className="membershipPrice">
-        <h2>{props.rupee}</h2>
+        <h3>{props.rupee}</h3>
         <pre> </pre>
-        <h2>{props.price4}</h2>
+        <h3>{props.price4}</h3>
       </div>
     </div>
   );

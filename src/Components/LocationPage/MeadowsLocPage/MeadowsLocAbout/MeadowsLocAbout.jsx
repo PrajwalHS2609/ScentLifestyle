@@ -3,10 +3,10 @@ import "./MeadowsLocAbout.css";
 const MeadowsLocAbout = () => {
   return (
     <div className="meadowsLocAboutContainer">
-      <h1>
+      <h2>
         Experience Luxury and Relaxation at Scent Salon & Spa in Whitefield,
         Bangalore
-      </h1>
+      </h2>
       <p>
         <ul>
           <li>

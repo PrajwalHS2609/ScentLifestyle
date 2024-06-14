@@ -3,10 +3,10 @@ import "./JpLocAbout.css";
 const JpLocAbout = () => {
   return (
     <div className="meadowsLocAboutContainer">
-      <h1>
+      <h2>
         Scent Salon & Spa JP Nagar, Bangalore – Your Destination for Beauty and
         Wellness!
-      </h1>
+      </h2>
       <p>
         <ul>
         <li>

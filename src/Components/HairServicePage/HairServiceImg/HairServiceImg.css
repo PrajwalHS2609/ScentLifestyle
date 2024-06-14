@@ -52,7 +52,7 @@
   align-items: center;
   flex-direction: column;
 }
-.hairOverCoverTxt > h1 {
+.hairOverCoverTxt > h2 {
   font-size: 200%;
   font-weight: lighter;
   color: white;

@@ -3,7 +3,7 @@ import "./JakkuruLocAbout";
 const JakkuruLocAbout = () => {
   return (
     <div className="meadowsLocAboutContainer">
-      <h1>Luxuriate in Serenity: Scent Salon & Spa in Jakkuru, Bangalore</h1>
+      <h2>Luxuriate in Serenity: Scent Salon & Spa in Jakkuru, Bangalore</h2>
       <p>
         <ul>
           <li>

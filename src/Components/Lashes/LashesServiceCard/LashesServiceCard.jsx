@@ -11,7 +11,7 @@ const LashesServiceCard = (props) => {
         <div className="lashesCardCover">
           <div className="lashesCardTxtContainer">
             <div className="lashesCardHead">
-              <h1>{props.heading}</h1>
+              <h3>{props.heading}</h3>
             </div>
             <div className="lashesCardPara">
               <p>{props.para}</p>
@@ -27,7 +27,7 @@ const LashesServiceCard = (props) => {
       <Link to={props.link}>
         <div className="lashesGoto">
           <div className="goTo1">
-            <h1>{props.goto}</h1>
+            <h3>{props.goto}</h3>
           </div>
           <div className="goTo2">
             <p>
@@ -43,7 +43,7 @@ const LashesServiceCard = (props) => {
         <div className="respLashesServiceCardCover">
           <div className="respLashesServiceCardTxtContainer">
             <div className="respLashesServiceCardHead">
-              <h1>{props.heading}</h1>
+              <h3>{props.heading}</h3>
             </div>
             <div className="respLashesServiceCardPara">
               <p>{props.para}</p>

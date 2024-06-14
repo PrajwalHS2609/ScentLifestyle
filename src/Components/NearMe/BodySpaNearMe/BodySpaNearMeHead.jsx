@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const BodySpaNearMeHead = () => {
   return (
     <div className="nearHeadContainer">
-      <h1>Body Spa Near Me: Indulge in Ultimate Relaxation at SCENT Salon </h1>
+      <h2>Body Spa Near Me: Indulge in Ultimate Relaxation at SCENT Salon </h2>
       <p>
         Finding a sanctuary where you can escape the stresses of daily life and
         indulge in luxurious body treatments is essential for holistic

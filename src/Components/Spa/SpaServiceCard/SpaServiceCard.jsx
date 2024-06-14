@@ -11,7 +11,7 @@ const SpaServiceCard = (props) => {
       <div className="spaCardCover">
         <div className="spaCardTxtContainer">
           <div className="spaCardHead">
-            <h1>{props.heading}</h1>
+            <h3>{props.heading}</h3>
           </div>
           <div className="spaCardPara">
             <p>{props.para}</p>
@@ -27,7 +27,7 @@ const SpaServiceCard = (props) => {
       <Link to={props.link}>
       <div className="spaGoto">
         <div className="goTo1">
-          <h1>{props.goto}</h1>
+          <h3>{props.goto}</h3>
         </div>
         <div className="goTo2">
           <p>
@@ -43,7 +43,7 @@ const SpaServiceCard = (props) => {
       <div className="respSpaServiceCardCover">
         <div className="respSpaServiceCardTxtContainer">
           <div className="respSpaServiceCardHead">
-            <h1>{props.heading}</h1>
+            <h3>{props.heading}</h3>
           </div>
           <div className="respSpaServiceCardPara">
             <p>{props.para}</p>

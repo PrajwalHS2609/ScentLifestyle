@@ -20,7 +20,7 @@
   flex-direction: column;
   color: var(--customRed);
 }
-.unisexHeadContainer > h1 {
+.unisexHeadContainer > h2 {
   font-size: 40px;
   color: var(--customRed);
 }
@@ -64,7 +64,7 @@
     flex-direction: column;
     color: var(--customRed);
   }
-  .unisexHeadContainer > h1 {
+  .unisexHeadContainer > h2 {
     font-size: 150%;
     color: var(--customRed);text-align:center ;
   }
@@ -94,7 +94,7 @@
     flex-direction: column;
     color: var(--customRed);
   }
-  .unisexHeadContainer > h1 {
+  .unisexHeadContainer > h2 {
     font-size: 150%;
     color: var(--customRed);text-align:center ;
   }
@@ -125,7 +125,7 @@
     flex-direction: column;
     color: var(--customRed);
   }
-  .unisexHeadContainer > h1 {
+  .unisexHeadContainer > h2 {
     font-size: 40px;
     color: var(--customRed);
   }

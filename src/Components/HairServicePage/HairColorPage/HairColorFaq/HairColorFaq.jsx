@@ -3,7 +3,7 @@ import "./HairColorFaq.css"
 const HairColorFaq = () => {
   return (
     <div className="hairColorFaqContainer">
-      <h1>FAQ's</h1>
+      <h2>FAQ's</h2>
       <h2>Book your Next Hair Colour Appointment in Bangalore with SCENT</h2>
       <ul>
         <li>

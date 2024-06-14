@@ -48,12 +48,12 @@
   color: white;
   text-decoration: none;
 }
-.lastTxt1 > h1 {
+.lastTxt1 > h2 {
   font-size: 20px;
   color: white;
   font-weight: lighter;
 }
-#lastTxtTerms > a > h1 {
+#lastTxtTerms > a > h2 {
   font-size: 30px;
   color: white;
   font-weight: lighter;
@@ -150,7 +150,7 @@
   align-items: center;
 }
 
-.lastTxt1 > h1 > a {
+.lastTxt1 > h2 > a {
   text-decoration: none;
   color: white;
 }
@@ -204,7 +204,7 @@
     height: 100px;
     width: 100%;
   }
-  .lastTxt1 > h1 {
+  .lastTxt1 > h2 {
     font-size: 200%;
   }
   .lastTxt2 {
@@ -224,7 +224,7 @@
     font-size: 150%;
     color: white;
   }
-  .lastTxt1 > h1 > a {
+  .lastTxt1 > h2 > a {
     color: white;
   }
   #lastItem3 {
@@ -274,7 +274,7 @@
     justify-content: center;
     align-items: center;
   }
-  .lastTxt1 > a > h1 {
+  .lastTxt1 > a > h2 {
     text-decoration: none;
     color: white;
   }
@@ -357,7 +357,7 @@
     height: 100px;
     width: 100%;
   }
-  .lastTxt1 > h1 {
+  .lastTxt1 > h2 {
     font-size: 200%;
   }
   .lastTxt2 {
@@ -377,7 +377,7 @@
     font-size: 150%;
     color: white;
   }
-  .lastTxt1 > h1 > a {
+  .lastTxt1 > h2 > a {
     color: white;
   }
   #lastItem3 {
@@ -430,7 +430,7 @@
     justify-content: center;
     align-items: center;
   }
-  .lastTxt1 > a > h1 {
+  .lastTxt1 > a > h2 {
     text-decoration: none;
     color: white;
   }
@@ -514,12 +514,12 @@
     color: white;
     text-decoration: none;
   }
-  .lastTxt1 > h1 {
+  .lastTxt1 > h2 {
     font-size: 20px;
     color: white;
     font-weight: lighter;
   }
-  #lastTxtTerms > a > h1 {
+  #lastTxtTerms > a > h2 {
     font-size: 30px;
     color: white;
     font-weight: lighter;
@@ -607,7 +607,7 @@
     justify-content: flex-start;
     align-items: center;
   }
-  .lastTxt1 > h1 > a {
+  .lastTxt1 > h2 > a {
     text-decoration: none;
     color: white;
   }
@@ -664,12 +664,12 @@
     color: white;
     text-decoration: none;
   }
-  .lastTxt1 > h1 {
+  .lastTxt1 > h2 {
     font-size: 20px;
     color: white;
     font-weight: lighter;
   }
-  #lastTxtTerms > a > h1 {
+  #lastTxtTerms > a > h2 {
     font-size: 30px;
     color: white;
     font-weight: lighter;
@@ -757,7 +757,7 @@
     justify-content: flex-start;
     align-items: center;
   }
-  .lastTxt1 > h1 > a {
+  .lastTxt1 > h2 > a {
     text-decoration: none;
     color: white;
   }

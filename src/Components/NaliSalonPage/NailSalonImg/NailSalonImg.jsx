@@ -13,7 +13,7 @@ const NailSalonImg = () => {
         ></video>
         <div className="cover">
           <div className="overCoverTxt">
-            <h1>Nail Service</h1>
+            <h2>Nail Service</h2>
             <div className="coverUnderline"></div>
             <pre> </pre>
             <p>

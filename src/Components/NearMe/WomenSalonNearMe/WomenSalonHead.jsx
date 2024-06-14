@@ -5,10 +5,10 @@ import { Link } from "react-router-dom";
 const WomenSalonHead = () => {
   return (
     <div className="nearHeadContainer">
-      <h1>
+      <h2>
         Women’s Salon Near Me: Experience Unmatched Beauty Services at SCENT
         Salon
-      </h1>
+      </h2>
       <p>
         When you search for a <Link to={"/women-salon-near-me"}> "women's salon near me,"</Link> you are looking for more
         than just a place to get your hair cut or nails done; you're seeking a

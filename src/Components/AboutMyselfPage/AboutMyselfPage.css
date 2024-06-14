@@ -33,7 +33,7 @@
   align-items: center;
   color: #cc2228;
 }
-.aboutMyselfContactContainer > h1 > a {
+.aboutMyselfContactContainer > h2 > a {
   text-decoration: none;
   color: #cc2228;
 }
@@ -67,7 +67,7 @@
     flex-direction: column;
     width: 100%;
   }
-  .aboutMyselfTxtContainer > h1 {
+  .aboutMyselfTxtContainer > h2 {
     /* border: solid; */
     text-align: center;
     width: 90%;
@@ -88,7 +88,7 @@
     justify-content: center;
     align-items: center;
   }
-  .aboutMyselfContactContainer > h1 {
+  .aboutMyselfContactContainer > h2 {
     /* border: solid; */
     text-decoration: none;
     color: #cc2228;
@@ -120,7 +120,7 @@
     flex-direction: column;
     width: 100%;
   }
-  .aboutMyselfTxtContainer > h1 {
+  .aboutMyselfTxtContainer > h2 {
     /* border: solid; */
     text-align: center;
     width: 90%;
@@ -141,7 +141,7 @@
     justify-content: center;
     align-items: center;
   }
-  .aboutMyselfContactContainer > h1 > a {
+  .aboutMyselfContactContainer > h2 > a {
     text-decoration: none;
     color: #cc2228;
     text-align: center;
@@ -186,7 +186,7 @@
     align-items: center;
     color: #cc2228;
   }
-  .aboutMyselfContactContainer > h1 > a {
+  .aboutMyselfContactContainer > h2 > a {
     text-decoration: none;
     color: #cc2228;
   }

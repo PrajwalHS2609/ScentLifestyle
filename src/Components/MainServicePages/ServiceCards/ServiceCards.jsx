@@ -11,7 +11,7 @@ const ServiceCards = (props) => {
         <div className="serviceCardCover">
           <div className="serviceCardTxtContainer">
             <div className="serviceCardHead">
-              <h1>{props.heading}</h1>
+              <h3>{props.heading}</h3>
             </div>
             <div className="serviceCardPara">
               <p>{props.para}</p>
@@ -27,7 +27,7 @@ const ServiceCards = (props) => {
       <Link to={props.link}>
         <div className="serviceGoto">
           <div className="goTo1">
-            <h1>{props.goto}</h1>
+            <h3>{props.goto}</h3>
           </div>
           <div className="goTo2">
             <p>
@@ -43,7 +43,7 @@ const ServiceCards = (props) => {
         <div className="respServiceCardCover">
           <div className="respServiceCardTxtContainer">
             <div className="respServiceCardHead">
-              <h1>{props.heading}</h1>
+              <h3>{props.heading}</h3>
             </div>
             <div className="respServiceCardPara">
               <p>{props.para}</p>

@@ -52,7 +52,7 @@
   align-items: center;
   flex-direction: column;
 }
-.overCoverTxt > h1 {
+.overCoverTxt > h2 {
   font-size: 50px;
   font-weight: lighter;
   color: white;

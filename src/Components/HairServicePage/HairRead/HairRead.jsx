@@ -18,9 +18,9 @@ const HairRead = () => {
     <div className="hairReadContainer">
       <div className="hairReadHeadContainer">
         <button>
-          <h1 className="openBut" onClick={open}>
+          <h2 className="openBut" onClick={open}>
             Read More
-          </h1>
+          </h2>
         </button>
       </div>
       <div ref={switchRef} className="hairReadDisplayContainer">
@@ -32,11 +32,11 @@ const HairRead = () => {
           </li>
         </ul>
         <ul className="readmehead2">
-          <h2>
+          <h3>
             At SCENT Hair Salon, we are dedicated to providing you with the best
             hair care services tailored to your unique needs. Our expert
             stylists specialize in a wide range of services, including:
-          </h2>
+          </h3>
           <li>
             Haircuts & Styling: Whether you're looking for a trendy new haircut
             or a classic style, our skilled stylists will work with you to

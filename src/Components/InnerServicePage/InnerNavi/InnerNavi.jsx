@@ -7,7 +7,7 @@ const InnerNavi = (props) => {
   return (
     <div className="innerNaviContainer">
       <div className="innerNaviContent">
-        <h1>
+        <h2>
           <Link to={"/"}> Home</Link>
           <p>
             <FontAwesomeIcon
@@ -30,7 +30,7 @@ const InnerNavi = (props) => {
             ></FontAwesomeIcon>
           </p>
           <span>{props.currService}</span>
-        </h1>
+        </h2>
       </div>
     </div>
   );

@@ -5,10 +5,10 @@ import { Link } from "react-router-dom";
 const WomenSpaHead = () => {
   return (
     <div className="nearHeadContainer">
-      <h1>
+      <h2>
         Women's Spa Near Me: Discover the Ultimate Relaxation Experience at
         SCENT Salon
-      </h1>
+      </h2>
       <p>
         Finding a rejuvenating retreat is essential for modern women who juggle
         numerous roles and responsibilities. If you're searching for a <Link to={"/women-spa-near-me"}>"women's

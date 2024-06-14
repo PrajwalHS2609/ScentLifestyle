@@ -22,6 +22,13 @@
   .hairSpaFaqContainer > ul > li > p {
     font-size: 90%;
   }
+  .haircutFaqContainer>h2{
+    font-size: 30px
+  }
+  .haircutFaqContainer>h3{
+    font-size: 20px
+  }
+
   @media screen and (min-width: 320px) {
     .hairSpaFaqContainer {
       /* border: solid; */

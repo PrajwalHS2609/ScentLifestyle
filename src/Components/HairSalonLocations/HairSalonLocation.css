@@ -69,7 +69,7 @@
   text-decoration: underline;
 }
 @media (min-width: 320px) and (max-width: 600px) {
-  .hairSalonLocationTitle > h1 {
+  .hairSalonLocationTitle > h2 {
     font-size: 25px;
   }
 }

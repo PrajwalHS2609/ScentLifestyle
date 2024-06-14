@@ -18,9 +18,9 @@ const ScentPhiloTxt = () => {
           services, accessories all evolving a’la mode. come indulge, as we say,
           at scent,
         </p>
-\        <h1>
+\        <h2>
           “haircut <span>just</span> an excuse …”
-        </h1>
+        </h2>
       </div>
       <div className="scentPhiloTxtContent2">
         <video src={philoVid} autoPlay loop muted></video>

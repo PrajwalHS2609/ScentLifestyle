@@ -4,7 +4,7 @@ import "./Pricing.css"
 const PricingHead = () => {
   return (
     <div className="pricingHeadContainer">
-      <h1> Pricing Policy</h1>
+      <h2> Pricing Policy</h2>
     </div>
   );
 };

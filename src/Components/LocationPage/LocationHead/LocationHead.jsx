@@ -5,7 +5,7 @@ const LocationHead = (props) => {
   return (
     <div className="locationHeadContainer">
       <div className="locationHeadItem" id="locationHeadItem1">
-        <h1>ScentLifestyle Salon in {props.loc}</h1>
+        <h2>ScentLifestyle Salon in {props.loc}</h2>
       </div>
       <div className="locationWrapper">
         <div className="locationHeadContent" id="locationHeadContent1">
