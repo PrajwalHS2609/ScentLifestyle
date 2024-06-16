@@ -23,7 +23,7 @@ const SpaPages = () => {
           SCENT Salon Spa in Bangalore - Hair, Nail, Skin, Beauty Essentials
         </title>
         <meta
-          name="description on sap"
+          name="description"
           content="Indulge in premium SCENT spa services in Bangalore. Explore our luxurious body massages and rejuvenate your mind and body. Book now for ultimate relaxation!"
         />
       </Helmet>

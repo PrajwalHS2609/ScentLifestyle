@@ -24,7 +24,7 @@ const MainServicePage = () => {
           Scent Salon Services in Bangalore | Hair & Spa Services Near Me
         </title>
         <meta
-          name="description on services"
+          name="description"
           content="Experience SCENT's top-quality salon & spa services, from haircuts for men & women, facials, waxing, bridal makeup, to spa treatments. Book now at our Sahakar Nagar, Lavelle Road, JP Nagar, Jakkuru, and Whitefield locations."
         />
       </Helmet>

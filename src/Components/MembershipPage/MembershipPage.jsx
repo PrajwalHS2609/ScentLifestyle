@@ -18,7 +18,7 @@ const MembershipPage = () => {
         <meta charSet="utf-8" />
         <title>SCENT Salon Membership - Save 10% to 30% </title>
         <meta
-          name="description on membership"
+          name="description"
           content="Unlock exclusive benefits with SCENT Salon Membership and save 10% to 30% on all services. Join now for discounts on hair, nails, spa, and more!"
         />
       </Helmet>

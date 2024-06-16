@@ -17,7 +17,7 @@ const FranchisePage = () => {
           SCENT Salon Franchise in India | Beauty Salon Business Opportunity
         </title>
         <meta
-          name="description of franchise" 
+          name="description" 
           content="Join the SCENT Salon franchise family and be part of a renowned brand in India. Benefit from our proven business model and comprehensive support to run your own successful salon."
         />
       </Helmet>
