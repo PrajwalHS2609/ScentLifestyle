@@ -25,7 +25,7 @@ const HairSalonJp = () => {
           Treatments
         </title>
         <meta
-          name=" description of hair salon in JP Nagar"
+          name=" description"
           content="SCENT Hair Salon in JP Nagar, Bangalore – Hair Cut & Styling, Hair
           Colour, Hair Treatments & more services. Book an Appointment
           Today!"

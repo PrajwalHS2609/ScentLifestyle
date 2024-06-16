@@ -25,7 +25,7 @@ const HairSalonMeadows = () => {
           Treatments
         </title>
         <meta
-          name="description of hair salon in Meadows whitefield"
+          name="description"
           content="SCENT Hair Salon in Meadows, Whitefield – Hair Cut & Styling, Hair
           Colour, Hair Treatments & more services. Book an Appointment
           Today!"

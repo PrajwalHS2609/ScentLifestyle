@@ -1,6 +1,5 @@
 import React from "react";
 import "./NailSalonImg.css";
-import { Helmet } from "react-helmet";
 const NailSalonImg = () => {
   return (
     <div className="nailSalonImgContainer">

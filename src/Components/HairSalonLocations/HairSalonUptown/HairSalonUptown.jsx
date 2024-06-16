@@ -25,7 +25,7 @@ const HairSalonUptown = () => {
           Treatments
         </title>
         <meta
-          name="description of hair salon in Uptown, Whitefield "
+          name="description"
           content=" SCENT Hair Salon in Uptown, Whitefield – Hair Cut & Styling, Hair
           Colour, Hair Treatments & more services. Book an Appointment
           Today!"

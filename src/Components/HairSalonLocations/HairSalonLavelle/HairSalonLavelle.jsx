@@ -25,7 +25,7 @@ const HairSalonLavelle = () => {
           Treatments
         </title>
         <meta
-          name="description of hair salon in Lavelle Road"
+          name="description"
           content="SCENT Hair Salon in Lavelle Road – Hair Cut & Styling, Hair
           Colour, Hair Treatments & more services. Book an Appointment
           Today!"
