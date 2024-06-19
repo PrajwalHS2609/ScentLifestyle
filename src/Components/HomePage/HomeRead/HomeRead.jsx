@@ -22,7 +22,9 @@ const HomeRead = () => {
           <h6 className="openBut" onClick={open}>
             Read More
           </h6>
+          <header>
           <h1>Scent Salon In Bangalore</h1>
+          </header>
         </button>
       </div>
       <div ref={switchRef} className="homeReadDisplayContainer">
