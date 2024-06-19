@@ -11,7 +11,7 @@ const OlaplexCard = (props) => {
       </div>
       <div className="olaplexCardTxt">
         <div className="olaplexCardHead">
-          <h1>{props.txt}</h1>
+          <h2>{props.txt}</h2>
   </div>
         <button>
         <a href="https://api.whatsapp.com/send?phone=919742232700">
