@@ -23,7 +23,7 @@ const HomeRead = () => {
             Read More
           </h6>
           <header>
-          <h1>Scent Salon In Bangalore</h1>
+            <h1>Scent Salon In Bangalore</h1>
           </header>
         </button>
       </div>
