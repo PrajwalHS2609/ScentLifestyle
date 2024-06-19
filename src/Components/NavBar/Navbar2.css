@@ -1,5 +1,5 @@
 .navContainer {
-  /* border: solid; */
+  /* border: solid red; */
   height: 13vh;
   width: 100%;
   background-color: black;
@@ -65,7 +65,6 @@
   align-items: center;
   height: 100%;
   list-style: none;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 18px;
   font-weight: lighter;
   letter-spacing: 1px;
@@ -147,7 +146,7 @@ a {
 }
 .hamIcon {
   color: white;
-  margin-right: 230px;
+  margin-right:300px;
   font-size: 25px;
 }
 .respMenu {

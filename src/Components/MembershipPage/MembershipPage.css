@@ -25,7 +25,7 @@
   margin-top: 5%;
 }
 .membershipHeadContainer > h2 {
-  font-size: 60px;
+  font-size: 30px;
 }
 .membershipUnderline {
   border: 2px red solid;
@@ -103,7 +103,7 @@ h4 {
     width: 100%;
   }
   .membershipHeadContainer > h2 {
-    font-size: 200%;
+    font-size: 30px;
   }
 
   .membershipParaContainer > p {
@@ -184,7 +184,7 @@ h4 {
     margin-top: 15%;
   }
   .membershipHeadContainer > h2 {
-    font-size: 230%;
+    font-size: 30px;
   }
 
   .membershipParaContainer > p {
@@ -277,7 +277,7 @@ h4 {
     margin-top: 5%;
   }
   .membershipHeadContainer > h2 {
-    font-size: 60px;
+    font-size: 30px;
   }
   .membershipUnderline {
     border: 2px red solid;

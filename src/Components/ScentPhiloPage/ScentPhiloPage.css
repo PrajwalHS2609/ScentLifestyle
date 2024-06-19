@@ -12,6 +12,7 @@
   justify-content: space-evenly;
   align-items: center;
   flex-direction: column;
+  gap: 30px;
 }
 .scentPhiloHeadContainer {
   /* border: solid red; */
@@ -23,12 +24,13 @@
 }
 .scentPhiloHeadContainer > h2 {
   font-size: 60px;
-  border: solid;
+  /* border: solid; */
   color: transparent;
   background-color: #cc2228;
   background-clip: text;
   filter: grayscale(1);
   transition: 300ms ease-out;
+  text-align: center;
 }
 .philoHead:hover {
   filter: grayscale(0);
@@ -48,7 +50,7 @@
 }
 .scentPhiloTxtContent1 {
   /* border: solid; */
-  width: 60%;
+  width: 50%;
   height: 100%;
 }
 .scentPhiloTxtContent1 > p {
@@ -70,134 +72,90 @@
   width: 100%;
   height: 100%;
 }
-@media screen and (max-width: 600px) {
-  .scentPhiloPageContainer {
-    /* border: solid blue; */
+@media screen and (min-width: 320px) and (max-width:768px) {
+  .scentPhiloPageContent {
+    /* border: solid green; */
+    height: 100%;
   }
   .scentPhiloHeadContainer {
     /* border: solid red; */
-    height: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 5%;
+    height: 100%;
+
   }
   .scentPhiloHeadContainer > h2 {
-    border: solid;
-    font-size: 60px;
-    color: transparent;
-    background-color: #cc2228;
-    background-clip: text;
-    filter: grayscale(1);
-    transition: 300ms ease-out;
-    text-align: center;
-  }
-  .philoHead:hover {
-    filter: grayscale(0);
-  }
-  .philoUnderline {
-    border: solid 1px;
-    margin-top: 20px;
-    width: 200px;
+    font-size: 40px;
+    /* border: solid; */
   }
   .scentPhiloTxtContainer {
     /* border: solid; */
-    height: 100vh;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 10px;
   }
   .scentPhiloTxtContent1 {
     /* border: solid; */
     width: 90%;
     height: 100%;
   }
-  .scentPhiloTxtContent1 > p {
-    font-size: 20px;
-    margin: 10px;
-  }
-  .scentPhiloTxtContent1 > h2 {
-    color: black;
-    font-size: 150%;
-  }
-  .scentPhiloTxtContent1 > h2 > span {
-    color: #cc2228;
-  }
   .scentPhiloTxtContent2 {
     /* border: solid blue; */
-    width: 100%;
-    height: 40%;
-  }
-  .scentPhiloTxtContent2 > video {
-    width: 100%;
+    width: 90%;
     height: 100%;
   }
 }
-@media screen and (max-width: 990px) and (min-width: 600px) {
-  .scentPhiloPageContainer {
-    /* border: solid blue; */
+@media screen and (min-width: 768px) {
+  .scentPhiloPageContent {
+    /* border: solid green; */
+    height: 100%;
   }
   .scentPhiloHeadContainer {
     /* border: solid red; */
-    height: 200px;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
   }
   .scentPhiloHeadContainer > h2 {
-    border: solid;
-    font-size: 60px;
-    color: transparent;
-    background-color: #cc2228;
-    background-clip: text;
-    filter: grayscale(1);
-    transition: 300ms ease-out;
-    text-align: center;
-  }
-  .philoHead:hover {
-    filter: grayscale(0);
-  }
-  .philoUnderline {
-    border: solid 1px;
-    margin-top: 20px;
-    width: 200px;
+    font-size: 40px;
+    /* border: solid; */
   }
   .scentPhiloTxtContainer {
     /* border: solid; */
-    height: 100vh;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 10px;
   }
   .scentPhiloTxtContent1 {
     /* border: solid; */
     width: 90%;
     height: 100%;
   }
-  .scentPhiloTxtContent1 > p {
-    font-size: 20px;
-    margin: 10px;
-  }
-  .scentPhiloTxtContent1 > h2 {
-    color: black;
-    font-size: 150%;
-  }
-  .scentPhiloTxtContent1 > h2 > span {
-    color: #cc2228;
-  }
   .scentPhiloTxtContent2 {
     /* border: solid blue; */
-    width: 100%;
-    height: 40%;
-  }
-  .scentPhiloTxtContent2 > video {
-    width: 100%;
+    width: 90%;
     height: 100%;
+  }
+}
+@media screen and (min-width:990px) {
+  .scentPhiloTxtContainer {
+    /* border: solid; */
+    height: 100%;width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+
+}
+@media screen and (min-width:1200px) {
+  .scentPhiloTxtContent2 {
+    /* border: solid blue; */
+    width: 50%;
+    height:300px;
   }
 }

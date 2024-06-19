@@ -22,7 +22,7 @@
   align-items: center;
 }
 .firstMemberHeading > h4 {
-  font-size: 50px;
+  font-size: 30px;
 }
 .secondMemberHeading {
   display: flex;
@@ -84,7 +84,7 @@
     width: 100%;
   }
   .secondMemberHeading > h4 {
-    font-size: 300%;
+    font-size: 30px;
     color: black;
   }
   .memberSlideContainer {
@@ -134,7 +134,7 @@
     padding: 10px;
   }
   .secondMemberHeading > h4 {
-    font-size: 300%;
+    font-size: 30px;
   }
 
   .memberSlideContainer {
