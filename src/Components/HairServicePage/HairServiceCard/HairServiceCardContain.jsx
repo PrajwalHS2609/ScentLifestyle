@@ -28,7 +28,7 @@ const HairServiceCardContain = () => {
         img="https://img.freepik.com/premium-photo/spa-treatments-top-view-hairdressera-s-hands-washing-hair-her-customer-salon-before-hairstyling-process_283617-2683.jpg?w=900"
         link={"/hair-spa"}
       />
-      <HairServiceCard
+      <ServiceCards
         heading="Hair Treatments"
         para="Indulge in luxurious hair treatments at SCENT Salon Spa. Our experts cater to your hair's needs, from hydration to repair. With deep conditioning masks and scalp treatments, we'll revitalize your locks for a healthier, vibrant look."
         goto="Hair Treatments"
@@ -37,8 +37,7 @@ const HairServiceCardContain = () => {
       />
       <ServiceCards
         heading="Beard Styling"
-        para="
-At SCENT, we specialize in crafting unique beard styles that match your personality. Our skilled professionals use precise shaping techniques to enhance your features, ensuring a stunning look that reflects your individuality."
+        para="At SCENT, we specialize in crafting unique beard styles that match your personality. Our skilled professionals use precise shaping techniques to enhance your features, ensuring a stunning look that reflects your individuality."
         goto="Beard Styling"
         img={beard}
         link={"/beard"}

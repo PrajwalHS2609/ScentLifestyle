@@ -28,6 +28,7 @@
   height: 100%;
   z-index: 1;
   transition: 600ms ease-in-out;
+  object-position: 0,0;
 }
 .serviceCardWrapper:hover .serviceCardImg {
   transform: scale(1.2);
@@ -422,7 +423,7 @@
     /* border: solid; */
     height: 100%;
     width: 100%;
-    margin: 15px;
+    margin: 0;
     position: relative;
     overflow: hidden;
   }

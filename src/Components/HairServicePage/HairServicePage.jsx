@@ -20,10 +20,10 @@ const HairServicePage = () => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>
-          Hair Salon in Bangalore for Cuts, Highlights, Treatments & Spa{" "}
+          Hair Salon in Bangalore for Cuts, Highlights, Treatments & Spa
         </title>
         <meta
-          name="description of hair services"
+          name="description"
           content="Experience top-notch haircut and styling services at our premier hair salon in Bangalore. Book your appointment with SCENT Salon today and enjoy exclusive offers!"
         />
       </Helmet>

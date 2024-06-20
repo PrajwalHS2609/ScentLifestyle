@@ -7,15 +7,16 @@
   align-items: center;
   flex-direction: column;
   margin-top: 40px;
-  cursor: pointer;
 }
 .homeReadHeadContainer {
   /* border: solid red; */
-  width: 390px;
+  width: 100%;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  gap: 20px;
 }
 .homeReadHeadContainer > button {
   border: none;
@@ -27,25 +28,78 @@
   text-decoration: underline;
   font-weight: lighter;
 }
-.homeReadHeadContainer > button > header > h1 {
+.homeReadContainer > header > h1 {
   margin: 20px;
-  font-size: 30px;
+  font-size: 40px;
   color: var(--customColor);
   display: block;
+  font-weight: lighter;
+}
+.homeReadHeadContainer > ul {
+  /* border: solid red; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.homeReadHeadContainer > ul > li {
+  width: 90%;
+  font-size: 20px;
+  list-style: none;
+  margin: 10px;
+}
+.homeReadHeadContainer > ul > li > a {
+  color: var(--customColor);
 }
 .homeReadDisplayContainer {
   /* border: solid green; */
-  width: 90%;
-  height: 70%;
+  width: 100%;
+  height: 100%;
   display: none;
   cursor: default;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.homeReadDisplayContainer > h3 {
+  font-size: 25px;
+}
+.homeReadDisplayContainer > ul > li > h4 {
+  font-size: 20px;font-weight: lighter;
+}
+.homeReadDisplayContainer > ul {
+  /* border: solid red; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.homeReadDisplayHead {
+  /* border: solid green; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.homeReadDisplayHead > h3 {
+  width: 90%;
+  text-align: start;
+  font-size: 20px;
 }
 .homeReadDisplayContainer > ul > li {
-  font-size: 120%;
-  margin: 20px;
+  /* border: solid blue; */
+  width: 90%;
+  font-size: 20px;
   list-style: none;
+  margin: 10px;
 }
-@media screen and (min-width: 320px) and (min-width: 768px) {
+.homeReadDisplayContainer > ul > li > a {
+  color: var(--customColor);
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
   .homeReadContainer {
     /* border: solid red; */
     display: flex;
