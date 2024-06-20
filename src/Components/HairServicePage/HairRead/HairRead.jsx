@@ -20,7 +20,28 @@ const HairRead = () => {
         <h1>Hair Salon in Bangalore </h1>
       </header>
       <div className="hairReadHeadContainer">
-       
+        <ul>
+          <li>
+            <h4>Experience Excellence at SCENT Hair Salon in Bangalore</h4>
+            <p>
+              Step into SCENT Hair Salon in Bangalore for best-in-class
+              haircuts, hair color, hair spa, and hair smoothing treatments, all
+              performed by our highly trained hair stylists. Great hair days
+              truly begin at SCENT Hair Salon in Bangalore.
+            </p>
+          </li>
+          <li>
+            <h4>Welcome to SCENT Hair Salon</h4>
+            <p>
+              At SCENT Hair Salon, we redefine beauty and style with six
+              luxurious locations across Bangalore, including Lavelle Road, JP
+              Nagar, Sahakar Nagar, Jakkur, and Whitefield. Each of our salons
+              is designed to provide a relaxing, comfortable environment where
+              you can escape the hustle and bustle of everyday life and indulge
+              in top-notch hair care services.
+            </p>
+          </li>
+        </ul>
         <button>
           <h2 className="openBut" onClick={open}>
             Read More
@@ -199,7 +220,7 @@ const HairRead = () => {
               programs add value and enhance the overall client experience at
               SCENT Hair Salon in Bangalore.
             </p>
-            <br/>
+            <br />
             <p>
               SCENT Hair Salon in Bangalore is more than just a salon; it's a
               sanctuary where beauty and wellness converge. With a team of
