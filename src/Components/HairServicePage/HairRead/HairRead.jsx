@@ -220,6 +220,7 @@ const HairRead = () => {
               programs add value and enhance the overall client experience at
               SCENT Hair Salon in Bangalore.
             </p>
+            <br/>
             <p>
               SCENT Hair Salon in Bangalore is more than just a salon; it's a
               sanctuary where beauty and wellness converge. With a team of
