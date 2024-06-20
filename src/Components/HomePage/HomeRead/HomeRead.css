@@ -22,6 +22,7 @@
   border: none;
   background-color: white;
   cursor: pointer;
+  padding: 30px;
 }
 .homeReadHeadContainer > button > h6 {
   font-size: 20px;
@@ -67,7 +68,11 @@
   font-size: 25px;
 }
 .homeReadDisplayContainer > ul > li > h4 {
-  font-size: 20px;font-weight: lighter;
+  font-size: 20px;
+  font-weight: lighter;
+}
+.homeReadDisplayContainer > ul > li > p>a {
+  color: var(--customColor);
 }
 .homeReadDisplayContainer > ul {
   /* border: solid red; */
@@ -88,7 +93,9 @@
   width: 90%;
   text-align: start;
   font-size: 20px;
+  margin-top: 10px;
 }
+
 .homeReadDisplayContainer > ul > li {
   /* border: solid blue; */
   width: 90%;

@@ -1,6 +1,5 @@
 import React, { useRef, useState } from "react";
 import "./HomeRead.css";
-import { Link } from "react-router-dom";
 
 const HomeRead = () => {
   let [toggle, setToggle] = useState(false);
@@ -21,11 +20,6 @@ const HomeRead = () => {
         <h1>Scent Salon In Bangalore</h1>
       </header>
       <div className="homeReadHeadContainer">
-        <button>
-          <h6 className="openBut" onClick={open}>
-            Read More
-          </h6>
-        </button>
         <ul>
           <li>
             Welcome to <a href="https://scentlifestyle.com/">SCENT Salon Spa</a>
@@ -74,6 +68,11 @@ const HomeRead = () => {
             , we provide everything you need to look and feel your best.
           </li>
         </ul>
+        <button>
+          <h6 className="openBut" onClick={open}>
+            Read More
+          </h6>
+        </button>
       </div>
       <div ref={switchRef} className="homeReadDisplayContainer">
         <ul>
@@ -225,7 +224,10 @@ const HomeRead = () => {
             <h4>Specialized Treatments: </h4>
             <p>
               Beyond the basics, SCENT{" "}
-              <a href="https://scentlifestyle.com/facial"> Salon in Bangalore </a>{" "}
+              <a href="https://scentlifestyle.com/facial">
+                {" "}
+                Salon in Bangalore{" "}
+              </a>{" "}
               provides specialized treatments like collagen-boosting therapies,
               hydrafacials, and
               <a href="https://scentlifestyle.com/facial">

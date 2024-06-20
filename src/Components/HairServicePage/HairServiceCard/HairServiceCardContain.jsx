@@ -1,5 +1,4 @@
 import React from "react";
-import HairServiceCard from "./HairServiceCard";
 import "./HairServiceCard.css";
 import cut from "./../../../Images/hair cut.jpg";
 import beard from "./../../../Images/beard styling.jpg";
