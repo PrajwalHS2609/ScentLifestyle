@@ -69,9 +69,9 @@ const HomeRead = () => {
           </li>
         </ul>
         <button>
-          <h6 className="openBut" onClick={open}>
+          <h2 className="openBut" onClick={open}>
             Read More
-          </h6>
+          </h2>
         </button>
       </div>
       <div ref={switchRef} className="homeReadDisplayContainer">
