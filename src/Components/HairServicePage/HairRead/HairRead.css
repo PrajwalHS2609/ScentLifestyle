@@ -51,8 +51,17 @@
   font-size: 20px;
   list-style: none;
   margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 10px;
 }
-.hairReadHeadContainer > ul > li >p> a {
+.hairReadHeadContainer > ul > li > h4 {
+  font-size: 20px;
+  font-weight: lighter;
+}
+.hairReadHeadContainer > ul > li > p > a {
   color: var(--customColor);
 }
 .hairReadDisplayContainer {
@@ -104,6 +113,12 @@
   font-size: 20px;
   list-style: none;
   margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 10px;
+
 }
 .hairReadDisplayContainer > ul > li > a {
   color: var(--customColor);
