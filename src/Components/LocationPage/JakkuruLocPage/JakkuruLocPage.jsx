@@ -32,7 +32,7 @@ const JakkuruLocPage = () => {
         />
         <link
           rel="canonical"
-          href="https://scentlifestyle.com/salon-in-jakkuru	"
+          href="https://scentlifestyle.com/salon-in-jakkur	"
         />
       </Helmet>
       <LocationNavBg />

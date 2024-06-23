@@ -40,7 +40,7 @@ import HairSalonUptown from "./Components/HairSalonLocations/HairSalonUptown/Hai
 import HairSalonMeadows from "./Components/HairSalonLocations/HairSalonMedows/HairSalonMeadows";
 import HairSalonJp from "./Components/HairSalonLocations/HairSalonJp/HairSalonJp";
 import NailSalonNearMe from "./Components/NearMe/NailNearMe/NailSalonNearMe";
-import PedicureNearMe from './Components/NearMe/PedicureNearMe/PedicureNearMe';
+import PedicureNearMe from "./Components/NearMe/PedicureNearMe/PedicureNearMe";
 import WomeSpaNearMe from "./Components/NearMe/WomenSpaNearMe/WomeSpaNearMe";
 import HairSpaNearMe from "./Components/NearMe/HairSpaNearMe/HairSpaNearMe";
 import WomenSalonNearMe from "./Components/NearMe/WomenSalonNearMe/WomenSalonNearMe";
@@ -48,7 +48,7 @@ import FacialsNearMe from "./Components/NearMe/FacialsNearMe/FacialsNearMe";
 import HairTreatmentNearMe from "./Components/NearMe/HairTreatmentNearMe/HairTreatmentNearMe";
 import BodySpaNearMe from "./Components/NearMe/BodySpaNearMe/BodySpaNearMe";
 import GentsSalonNearMe from "./Components/NearMe/GentsSalon/GentsSalonNearMe";
-import HeadMassageNearMe from './Components/NearMe/HeadMassageNearMe.jsx/HeadMassageNearMe';
+import HeadMassageNearMe from "./Components/NearMe/HeadMassageNearMe.jsx/HeadMassageNearMe";
 import FootMassageNearMe from "./Components/NearMe/FootMassageNearMe/FootMassageNearMe";
 
 const App = () => {
@@ -118,11 +118,14 @@ const App = () => {
           <Route path="/hair-spa-near-me" element={<HairSpaNearMe />} />
           <Route path="/women-salon-near-me" element={<WomenSalonNearMe />} />
           <Route path="/facials-near-me" element={<FacialsNearMe />} />
-          <Route path="/hair-treatment-near-me" element={<HairTreatmentNearMe />} />
-          <Route path="/body-spa-near-me" element={<BodySpaNearMe/>} />
-          <Route path="/gents-salon-near-me" element={<GentsSalonNearMe/>} />
-          <Route path="/head-massage-near-me" element={<HeadMassageNearMe/>} />
-          <Route path="/foot-massage-near-me" element={<FootMassageNearMe/>} />
+          <Route
+            path="/hair-treatment-near-me"
+            element={<HairTreatmentNearMe />}
+          />
+          <Route path="/body-spa-near-me" element={<BodySpaNearMe />} />
+          <Route path="/gents-salon-near-me" element={<GentsSalonNearMe />} />
+          <Route path="/head-massage-near-me" element={<HeadMassageNearMe />} />
+          <Route path="/foot-massage-near-me" element={<FootMassageNearMe />} />
         </Routes>
       </BrowserRouter>
     </div>
