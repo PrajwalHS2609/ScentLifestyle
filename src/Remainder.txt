@@ -1,3 +1,4 @@
 change the arrow of react slick
 arrange videos to center
 images changes and download
+make readmore txt to center

@@ -105,7 +105,6 @@
   align-items: flex-start;
   flex-direction: column;
   gap: 10px;
-
 }
 .hairReadDisplayContainer > ul > li > a {
   color: var(--customColor);
@@ -119,9 +118,11 @@
     align-items: center;
     flex-direction: column;
     margin-top: 0px;
+    text-align: justify;
+
   }
-  .hairReadHeadContainer > h2 {
-    font-size: 120%;
+  .hairReadHeadContainer > h1 {
+    text-align: center;
   }
   .hairReadDisplayContainer {
     height: 100%;

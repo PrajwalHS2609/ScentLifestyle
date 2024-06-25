@@ -109,6 +109,7 @@
     align-items: center;
     flex-direction: column;
     margin-top: 0px;
+    text-align: justify;
   }
   .nailReadHeadContainer > h2 {
     font-size: 150%;

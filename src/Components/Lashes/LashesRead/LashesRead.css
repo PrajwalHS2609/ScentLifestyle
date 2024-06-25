@@ -128,10 +128,10 @@
     align-items: center;
     flex-direction: column;
     margin-top: 0px;
+    text-align: justify;
+
   }
-  .lashesReadHeadContainer > h2 {
-    font-size: 150%;
-  }
+
   .lashesReadDisplayContainer {
     height: 100%;
   }
