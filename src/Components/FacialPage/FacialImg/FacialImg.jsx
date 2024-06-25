@@ -12,7 +12,7 @@ const FacialImg = () => {
         ></video>
         <div className="cover">
           <div className="overCoverTxt">
-            <h1>FACIAL SERVICES</h1>
+            <h1>Facial Services</h1>
             <div className="coverUnderline"></div>
             <pre> </pre>
             <p>

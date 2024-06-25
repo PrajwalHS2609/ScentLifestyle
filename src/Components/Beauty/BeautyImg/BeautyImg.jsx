@@ -11,7 +11,7 @@ const BeautyImg = () => {
         ></video>
         <div className="cover">
           <div className="overCoverTxt">
-            <h2>BEAUTY ESSENTIALS</h2>
+            <h2>Beauty Essentials</h2>
             <div className="coverUnderline"></div>
             <pre> </pre>
             <p>

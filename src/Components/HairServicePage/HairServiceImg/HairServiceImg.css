@@ -44,8 +44,8 @@
   align-items: center;
   color: white;
 }
-.HairOverCoverTxt {
-  border: solid;
+.hairOverCoverTxt {
+  /* border: solid; */
   width: 90%;
   display: flex;
   justify-content: center;
@@ -53,13 +53,13 @@
   flex-direction: column;
 }
 .hairOverCoverTxt > h2 {
-  font-size: 200%;
+  font-size: 50px;
   font-weight: lighter;
   color: white;
   text-align: center;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
-.hairOverUnderline {
+.hairCoverUnderline {
   border: 2px solid;
   width: 100px;
   color: var(--customRed);

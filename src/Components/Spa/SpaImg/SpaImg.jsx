@@ -11,7 +11,7 @@ const SpaImg = () => {
         ></video>
         <div className="cover">
           <div className="overCoverTxt">
-            <h2>SPA SERVICE</h2>
+            <h2>Spa Services</h2>
             <div className="coverUnderline"></div>
             <pre> </pre>
             <p>
