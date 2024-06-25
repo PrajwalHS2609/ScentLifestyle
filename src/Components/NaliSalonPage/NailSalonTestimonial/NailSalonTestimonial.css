@@ -1,0 +1,78 @@
+.nailTestimonialContainer {
+  /* border: solid red; */
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.nailTestimonialHeadContainer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 10px;
+}
+.nailTestimonialMainContainer {
+  /* border: solid green; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nailTestimonialCardContainer {
+  /* border:1px solid var(--customColor); */
+  width: 30%;
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 5px rgb(115, 115, 115);
+}
+.nailTestimonialCardContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.nailTestimonialCardItem1 {
+  /* border: solid; */
+  width: 80px;
+  border-radius: 100%;
+  height: 80px;
+  margin-top: -70px;
+  background-color: var(--customColor);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nailTestimonialCardItem1 > img {
+  width: 60%;
+  height: 60%;
+  object-fit: contain;
+}
+.nailTestimonialCardItem2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.nailTestimonialCardItem2 > p {
+  color: black;
+  text-align: justify;
+}
+.nailTestimonialCardItem2 > p > span {
+  color: var(--customColor);
+  font-weight: bold;
+  font-size: 20px;
+}
+.nailTestimonialCardItem2 > h4 {
+  width: 100%;
+  text-align: end;
+  font-weight: lighter;
+}

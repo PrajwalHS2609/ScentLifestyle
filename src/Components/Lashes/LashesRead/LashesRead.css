@@ -6,16 +6,55 @@
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
-  margin-top: 10px;
-  cursor: pointer;
+  margin-top: 40px;
+}
+.lashesReadContainer > header > h1 {
+  margin: 20px;
+  font-size: 40px;
+  color: var(--customColor);
+  display: block;
+  font-weight: lighter;
+  text-align: center;
 }
 .lashesReadHeadContainer {
   /* border: solid red; */
-  width: 300px;
-  height: 10vh;
+  width: 100%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.lashesReadHeadContainer > ul {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.lashesReadHeadContainer > ul > li {
+  /* border: solid green; */
+  width: 90%;
+  font-size: 20px;
+  list-style: none;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 10px;
+}
+.lashesReadHeadContainer > ul > li > h2 {
+  text-align: center;
+  width: 100%;
+}
+.lashesReadHeadContainer > ul > li > p > a {
+  color: var(--customColor);
+}
+.lashesReadHeadContainer > ul > li > h4 {
+  font-size: 20px;
+  font-weight: lighter;
 }
 .lashesReadHeadContainer > button {
   border: none;
@@ -24,20 +63,62 @@
 }
 .lashesReadDisplayContainer {
   /* border: solid green; */
-  width: 90%;
-  height: 70%;
+  width: 100%;
+  height: 100%;
   display: none;
+  cursor: default;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.lashesReadDisplayContainer > ul {
+  /* border: solid red; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.lashesReadDisplayContainer > ul > li {
+  /* border: solid blue; */
+  width: 90%;
+  font-size: 20px;
+  list-style: none;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 10px;
+}
+.lashesReadDisplayContainer > ul > li > ul > h3 {
+  font-size: 20px;
+  font-weight: lighter;
+  color: var(--customColor);
 }
 
-.lashesReadDisplayContainer > ul > li {
-  font-size: 100%;
+.lashesReadDisplayContainer > ul > li > ul > li {
+  list-style: decimal;
+  margin-left: 30px;
   margin: 20px;
-  list-style: none;
+}
+.lashesReadDisplayContainer > ul > li > ul > li > span {
+  color: var(--customColor);
+}
+
+.lashesReadDisplayContainer > ul > li > p > a {
+  color: var(--customColor);
 }
 .openBut {
   text-decoration: underline;
   font-weight: lighter;
 }
+.lashesReadDisplayContainer > ul > li > p > span {
+  color: var(--customColor);
+}
+
 @media screen and (max-width: 600px) {
   .lashesReadContainer {
     /* border: solid red; */
@@ -58,6 +139,5 @@
     /* border: solid green; */
     margin: 5%;
     font-size: 100%;
-
   }
 }

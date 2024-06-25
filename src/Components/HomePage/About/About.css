@@ -122,7 +122,7 @@
     width: 50%;
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 990px) {
   .innerAboutContent {
     /* border: solid blue; */
     width: 50%;
@@ -141,7 +141,7 @@
   }
   .aboutContentTxt2 > p {
     color: white;
-    font-size: 15px;
+    font-size: 20px;
   }
   .aboutContentTxt3 > p {
     /* border: solid green; */

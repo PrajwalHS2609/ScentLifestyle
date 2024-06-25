@@ -6,16 +6,55 @@
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
-  margin-top: 60px;
-  cursor: pointer;
+  margin-top: 40px;
+}
+.beautyReadContainer > header > h1 {
+  margin: 20px;
+  font-size: 40px;
+  color: var(--customColor);
+  display: block;
+  font-weight: lighter;
+  text-align: center;
 }
 .beautyReadHeadContainer {
   /* border: solid red; */
-  width: 300px;
-  height: 10vh;
+  width: 100%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.beautyReadHeadContainer > ul {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.beautyReadHeadContainer > ul > li {
+  /* border: solid green; */
+  width: 90%;
+  font-size: 20px;
+  list-style: none;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 10px;
+}
+.beautyReadHeadContainer > ul > li > h2 {
+  text-align: center;
+  width: 100%;
+}
+.beautyReadHeadContainer > ul > li > p > a {
+  color: var(--customColor);
+}
+.beautyReadHeadContainer > ul > li > h4 {
+  font-size: 20px;
+  font-weight: lighter;
 }
 .beautyReadHeadContainer > button {
   border: none;
@@ -24,20 +63,59 @@
 }
 .beautyReadDisplayContainer {
   /* border: solid green; */
-  width: 90%;
-  height: 70%;
+  width: 100%;
+  height: 100%;
   display: none;
+  cursor: default;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.beautyReadDisplayContainer > ul {
+  /* border: solid red; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.beautyReadDisplayContainer > ul > li {
+  /* border: solid blue; */
+  width: 90%;
+  font-size: 20px;
+  list-style: none;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 10px;
+}
+.beautyReadDisplayContainer > ul > li > ul > h3 {
+  font-size: 20px;
+  font-weight: lighter;
+  color: var(--customColor);
+}
+.beautyReadDisplayContainer > ul > li > ul > li {
+  list-style: disc;margin-left: 30px;margin: 20px;
+}
+.beautyReadDisplayContainer > ul > li > ul > li > span {
+  color: var(--customColor);
 }
 
-.beautyReadDisplayContainer > ul > li {
-  font-size: 120%;
-  margin: 20px;
-  list-style: none;
+.beautyReadDisplayContainer > ul > li > p > a {
+  color: var(--customColor);
 }
 .openBut {
   text-decoration: underline;
   font-weight: lighter;
 }
+.beautyReadDisplayContainer > ul > li > p > span {
+  color: var(--customColor);
+}
+
 @media screen and (max-width: 600px) {
   .beautyReadContainer {
     /* border: solid red; */
@@ -46,15 +124,17 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: -40px;
+    margin-top: 0px;
   }
   .beautyReadHeadContainer > h2 {
-    font-size: 120%;
+    font-size: 150%;
   }
   .beautyReadDisplayContainer {
     height: 100%;
   }
-  .beautyReadDisplayContainer > ul > li {
+  .beautyReadDisplayContainer ul > li {
+    /* border: solid green; */
+    margin: 5%;
     font-size: 100%;
   }
-  }
+}
