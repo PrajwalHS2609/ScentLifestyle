@@ -24,12 +24,14 @@
   flex-direction: column;
   margin-top: 5%;
 }
-.membershipHeadContainer > h2 {
+.membershipHeadContainer > h1 {
   font-size: 30px;
+  color: var(--customColor);
+
 }
 .membershipUnderline {
-  border: 2px red solid;
-  width: 15%;
+  border: 2px var(--customColor) solid;
+  width: 8%;
 }
 .membershipParaContainer {
   /* border: solid; */

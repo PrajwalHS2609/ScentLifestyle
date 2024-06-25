@@ -3,7 +3,7 @@ import NavBg from "../../NavBg/NavBg";
 import InnerServiceTxt from "../../InnerServicePage/InnerServiceTxt/InnerServiceTxt";
 import InnerNavi from "../../InnerServicePage/InnerNavi/InnerNavi";
 import InnerCard from "../../InnerServicePage/InnerCard/InnerCard";
-import "./HairTreatment.css"
+import "./HairTreatment.css";
 import HairTreatmentFaq from "./HairTreatmentFaq/HairTreatmentFaq";
 import Members from "../../HomePage/Members/Members";
 import OurSalon from "../../HomePage/OurSalon/OurSalon";
@@ -13,9 +13,24 @@ import HelpNearYou from "../../Help/HelpNearYou";
 import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
 import LastComp from "../../LastComp/LastComp";
+import { Helmet } from "react-helmet";
 const HairTreatment = () => {
   return (
     <div className="hairTreatmentContainer">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>
+          Salon Hair Treatments in Bangalore | Women's Salon for Hair Treatment
+        </title>
+        <meta
+          name="description"
+          content="SCENT Salon Hair Treatments in Bangalore. Select from a variety of hair treatments tailored to your hair type and needs at a SCENT salon near you. "
+        />
+        <link
+          rel="canonical"
+          href="https://scentlifestyle.com/hair-treatments"
+        />
+      </Helmet>
       <NavBg />
       <div className="hairTreatmentContent">
         <InnerServiceTxt
@@ -101,7 +116,7 @@ const HairTreatment = () => {
           head="Your Hair with SCENT Salon's Expert Protein Treatments"
           para="Are you looking to boost your hair's strength, elasticity, and shine? At SCENT Salon, we're specialists in protein treatments, having successfully performed over 5,000 treatments in Bangalore. We use only the highest quality products and techniques, ensuring you won't find a better price or service anywhere in the city."
         />
-        <HairTreatmentFaq/>
+        <HairTreatmentFaq />
       </div>
       <Members />
       <OurSalon />
@@ -110,7 +125,7 @@ const HairTreatment = () => {
       <HelpNearYou />
       <TextLocReviews />
       <ServiceWhy />
-      <LastComp/>
+      <LastComp />
     </div>
   );
 };

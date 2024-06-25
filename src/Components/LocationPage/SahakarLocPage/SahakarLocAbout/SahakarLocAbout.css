@@ -1,7 +1,6 @@
 .sahakarLocAboutContainer {
   /* border: solid; */
   margin-top: 10%;
-
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -13,9 +12,11 @@
   justify-content: space-evenly;
   align-items: center;
 }
-.sahakarLocAboutContainer>h2{
+.sahakarLocAboutContainer>h1{
 text-align: center;
-font-size: 30px;
+font-size: 40px;
+font-weight: lighter;
+color: var(--customColor);
 
 }
 .sahakarLocAboutContainer > p > ul > li {

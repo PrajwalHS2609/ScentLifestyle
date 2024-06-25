@@ -12,10 +12,25 @@ import InstaFeed from "../../HomePage/InstaFeed/InstaFeed";
 import HelpNearYou from "../../Help/HelpNearYou";
 import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
-import LastComp from './../../LastComp/LastComp';
+import LastComp from "./../../LastComp/LastComp";
+import { Helmet } from "react-helmet";
 const HairSpa = () => {
   return (
     <div className="hairSpaContainer">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>
+        Hair Spa in Bangalore | Hair Spa Salon Near Me
+        </title>
+        <meta
+          name="description"
+          content="SCENT Hair Spa in Bangalore. Select from a variety of hair spa treatments tailored to your hair type and needs at a SCENT salon near you."
+        />
+        <link
+          rel="canonical"
+          href="https://scentlifestyle.com/hair-spa"
+        />
+      </Helmet>
       <NavBg />
       <div className="hairSpaContent">
         <InnerServiceTxt
@@ -110,7 +125,7 @@ const HairSpa = () => {
       <HelpNearYou />
       <TextLocReviews />
       <ServiceWhy />
-      <LastComp/>
+      <LastComp />
     </div>
   );
 };

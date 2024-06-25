@@ -5,17 +5,30 @@ import InnerCard from "../../InnerServicePage/InnerCard/InnerCard";
 import InnerNavi from "../../InnerServicePage/InnerNavi/InnerNavi";
 import "./Haircut.css";
 import HaircutFaq from "./HaircutFaq/HaircutFaq";
-import Members from './../../HomePage/Members/Members';
-import OurSalon from './../../HomePage/OurSalon/OurSalon';
-import Partners from './../../HomePage/Partners/Partners';
-import InstaFeed from './../../HomePage/InstaFeed/InstaFeed';
-import HelpNearYou from './../../Help/HelpNearYou';
-import TextLocReviews from './../../TextLocReviews/TextLocReviews';
-import ServiceWhy from './../../MainServicePages/ServiceWhy/ServiceWhy';
+import Members from "./../../HomePage/Members/Members";
+import OurSalon from "./../../HomePage/OurSalon/OurSalon";
+import Partners from "./../../HomePage/Partners/Partners";
+import InstaFeed from "./../../HomePage/InstaFeed/InstaFeed";
+import HelpNearYou from "./../../Help/HelpNearYou";
+import TextLocReviews from "./../../TextLocReviews/TextLocReviews";
+import ServiceWhy from "./../../MainServicePages/ServiceWhy/ServiceWhy";
 import LastComp from "../../LastComp/LastComp";
+import { Helmet } from "react-helmet";
 const Haircut = () => {
   return (
     <div className="haircutContainer">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Hair Cuts in Bangalore | Hair Cuts Salon for Men & Women</title>
+        <meta
+          name="description"
+          content="SCENT Hair Cuts in Bangalore. Experience the latest in fashion-forward haircuts for women and precise trims for men at SCENT Hair Cutting Salon."
+        />
+        <link
+          rel="canonical"
+          href="https://scentlifestyle.com/haircut-and-styling"
+        />
+      </Helmet>
       <NavBg />
       <div className="haircutContent">
         <InnerServiceTxt
@@ -110,7 +123,7 @@ const Haircut = () => {
       <HelpNearYou />
       <TextLocReviews />
       <ServiceWhy />
-      <LastComp/>
+      <LastComp />
     </div>
   );
 };

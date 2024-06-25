@@ -20,14 +20,14 @@ import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
 const Jp = () => {
   return (
     <div className="jpLocPageContainer">
-       <Helmet>
+      <Helmet>
         <meta charSet="UTF-8" />
         <title>
-        SCENT Salon in JP Nagar - Hair, Nail, Facial, Spa, Eyelashes & Beauty Essentials
+          Salon in JP Nagar - Hair, Nail, Spa, Facials & Beauty Essentials
         </title>
         <meta
           name="description"
-          content="SCENT Salon in JP Nagar - Hair, Nail, Facial, Spa, Eyelashes & Beauty Essentials. Book your appointment with SCENT Salon today and enjoy exclusive offers!"
+          content="Discover premium beauty and wellness services at our Jakkur Salon. Delight in expert hair care, fabulous nails, revitalizing spa treatments, indulgent facials, and flawless eyelashes."
         />
         <link
           rel="canonical"
@@ -37,7 +37,10 @@ const Jp = () => {
       <LocationNavBg />
       <LocationImg img={loc6} />
       <LocationNavi loc="J P Nagar" />
-      <LocationArrow leftLink={"/salon-in-whitefield"} rightLink={"/salon-in-sahakar-nagar"} />
+      <LocationArrow
+        leftLink={"/salon-in-whitefield"}
+        rightLink={"/salon-in-sahakar-nagar"}
+      />
       <div className="jpLocPageContent">
         <LocationHead
           loc="J P Nagar"
@@ -52,7 +55,7 @@ const Jp = () => {
         <OurSalon />
         <Partners />
         <InstaFeed />
-        <ServiceWhy/>
+        <ServiceWhy />
       </div>
       <LastComp />
     </div>

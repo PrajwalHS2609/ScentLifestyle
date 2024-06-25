@@ -20,11 +20,15 @@ const NailSalonPage = () => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>
-          SCENT Nail Services in Bangalore - Nail arts Salon Near Me
+        Nail Salon in Bangalore | Nail Arts & Gel Near Me
         </title>
         <meta
           name="description"
-          content="Discover the best nail salon for women in Bangalore! Treat yourself to luxurious nail extensions, nail art, and polish services. Book your appointment today for flawless nails!"
+          content="SCENT Nail Salon offers gel polish, acrylic extensions, nail art, O.P.I nails, chrome, ombre, cat eye gel, gel French, and glam polish services."
+        />
+         <link
+          rel="canonical"
+          href="https://scentlifestyle.com/nails-salon"
         />
       </Helmet>
       <NavBg />

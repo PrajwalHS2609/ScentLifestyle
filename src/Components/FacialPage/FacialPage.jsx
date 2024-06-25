@@ -19,11 +19,15 @@ const FacialPage = () => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>
-          SCENT Facial Services in Bangalore - Facial Salon Near Me
+        Facial Services in Bangalore | Facial Salon Near Me
         </title>
         <meta
           name="description"
-          content="Experience the SCENT salon facial treatment for a radiant and refreshed look. Book your appointment now and pamper your skin with some well-deserved care!"
+          content="SCENT Salon in Bangalore for Revitalize your face with SCENT's mood-enhancing, skin-soothing treatment for a youthful, glowing complexion. Indulge and achieve your desired look."
+        />
+         <link
+          rel="canonical"
+          href="https://scentlifestyle.com/facial"
         />
       </Helmet>
       <NavBg />

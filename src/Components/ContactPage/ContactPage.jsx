@@ -16,10 +16,14 @@ const ContactPage = () => {
     <div className="contactPageContainer">
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Contact SCENT Salon for Services, Membership & Franchise</title>
+        <title>Contact Us for Salon Franchise & Memberships in India</title>
         <meta
-          name="description of Contact"
-          content="Contact SCENT Salon for all your beauty needs, including services, membership benefits, and franchise opportunities. We're here to help you look and feel your best!"
+          name="description"
+          content="Contact SCENT for Salon Franchise & Memberships in Bangalore, India. Reach us at +91 9742232700 or Email: franchisee@scentlifestyle.com"
+        />
+        <link
+          rel="canonical"
+          href="https://scentlifestyle.com/contact-us"
         />
       </Helmet>
       <LocationNavBg />

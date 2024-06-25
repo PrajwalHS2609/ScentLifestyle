@@ -6,7 +6,7 @@ const AboutImg = () => {
     <div className="aboutPgImgContainer">
       <img
         src={loc1}
-        alt=""
+        alt="aboutImage"
       />
     </div>
   );

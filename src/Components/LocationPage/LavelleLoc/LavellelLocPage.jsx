@@ -23,27 +23,31 @@ const LavellelLocPage = () => {
       <Helmet>
         <meta charSet="UTF-8" />
         <title>
-        SCENT Salon in Lavelle Road - Hair, Nail, Facial, Spa, Eyelashes & Beauty Essentials</title>
+          Salon in Lavelle Road- Hair, Nail, Spa, Facials & Beauty Essentials
+        </title>
         <meta
           name="description"
-          content="SCENT Salon in Lavelle Road - Hair, Nail, Facial, Spa, Eyelashes & Beauty Essentials. Book your appointment with SCENT Salon today and enjoy exclusive offers!"
+          content="Experience top beauty and wellness at our Salon in Lavelle Road. Enjoy expert hair care, stunning nails, rejuvenating spa treatments, luxurious facials, and perfect eyelashes."
         />
         <link
           rel="canonical"
-          href="https://scentlifestyle.com/salon-in-lavelle-road		"
+          href="https://scentlifestyle.com/salon-in-lavelle-road"
         />
       </Helmet>
       <LocationNavBg />
       <LocationImg img={loc2} />
-      <LocationNavi loc="Lavelle Road"/>
-      <LocationArrow leftLink={"/salon-in-sahakar-nagar"} rightLink={"/salon-in-jakkur"} />
+      <LocationNavi loc="Lavelle Road" />
+      <LocationArrow
+        leftLink={"/salon-in-sahakar-nagar"}
+        rightLink={"/salon-in-jakkur"}
+      />
       <div className="lavellelLocPageContent">
         <LocationHead
           loc="Lavelle Road"
           phone="+91-9740222700"
           address=" No. 67/2, 1st Floor, Opposite. 3rd Cross Lavelle Road, Bengaluru,
         Karnataka 560001"
-        map={<LavellelLocMap/>}
+          map={<LavellelLocMap />}
         />
         <ServiceCardContain />
         <LavelleLocAbout />
@@ -52,7 +56,7 @@ const LavellelLocPage = () => {
         <OurSalon />
         <Partners />
         <InstaFeed />
-        <ServiceWhy/>
+        <ServiceWhy />
       </div>
       <LastComp />
     </div>

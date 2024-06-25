@@ -16,10 +16,16 @@ const MembershipPage = () => {
     <div className="membershipPageContainer">
       <Helmet>
         <meta charSet="utf-8" />
-        <title>SCENT Salon Membership - Save 10% to 30% </title>
+        <title>
+          Salon Memberships in Bangalore with Big Discounts 10% to 30%
+        </title>
         <meta
           name="description"
-          content="Unlock exclusive benefits with SCENT Salon Membership and save 10% to 30% on all services. Join now for discounts on hair, nails, spa, and more!"
+          content="Premium Salon Membership in Bangalore in all 6 Outlets, exclusive discounts on from 10% to 30% for Men & Women. Buy Now!"
+        />
+        <link
+          rel="canonical"
+          href="https://scentlifestyle.com/salon-membership"
         />
       </Helmet>
       <NavBg />

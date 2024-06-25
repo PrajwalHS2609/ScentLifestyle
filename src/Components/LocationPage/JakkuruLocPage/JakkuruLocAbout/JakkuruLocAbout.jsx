@@ -1,21 +1,21 @@
 import React from "react";
-import "./JakkuruLocAbout";
+import "./JakkuruLocAbout.css";
 const JakkuruLocAbout = () => {
   return (
-    <div className="meadowsLocAboutContainer">
-      <h2>Luxuriate in Serenity: Scent Salon & Spa in Jakkuru, Bangalore</h2>
+    <div className="jakkuruLocAboutContainer">
+      <h1>Luxuriate in Serenity: Scent Salon & Spa in Jakkur, Bangalore</h1>
       <p>
         <ul>
           <li>
             Indulge in a world of luxury and tranquility at Scent Salon & Spa in
-            Jakkuru, Bangalore. Our salon offers a haven of relaxation where you
+            Jakkur, Bangalore. Our salon offers a haven of relaxation where you
             can escape the stresses of everyday life and rejuvenate your mind,
             body, and soul. With a wide range of premium services and expert
             staff, we ensure that every visit leaves you feeling pampered and
             refreshed.
           </li>
           <li>
-            Conveniently located in Jakkuru, Bangalore, our salon provides a
+            Conveniently located in Jakkur, Bangalore, our salon provides a
             sanctuary away from the hustle and bustle of the city. Step into our
             elegant space and let our skilled professionals take care of all
             your beauty needs.
@@ -41,7 +41,7 @@ const JakkuruLocAbout = () => {
             indulgence.
           </li>
           <li>
-            When you visit Scent Salon & Spa in Jakkuru, Bangalore, you can
+            When you visit Scent Salon & Spa in Jakkur, Bangalore, you can
             expect a serene and welcoming atmosphere where you can relax and
             unwind. Our friendly staff will ensure that you feel comfortable and
             cared for throughout your visit, leaving you feeling completely
@@ -49,7 +49,7 @@ const JakkuruLocAbout = () => {
           </li>
           <li>
             So why wait? Treat yourself to the ultimate pampering experience at
-            Scent Salon & Spa in Jakkuru, Bangalore. Book your appointment today
+            Scent Salon & Spa in Jakkur, Bangalore. Book your appointment today
             and discover the true meaning of luxury and relaxation.
           </li>
         </ul>

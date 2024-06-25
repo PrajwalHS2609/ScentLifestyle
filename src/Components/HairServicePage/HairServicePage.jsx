@@ -19,13 +19,12 @@ const HairServicePage = () => {
     <div className="hairMain">
       <Helmet>
         <meta charSet="utf-8" />
-        <title>
-          Hair Salon in Bangalore for Cuts, Highlights, Treatments & Spa
-        </title>
+        <title>Hair Salon in Bangalore | Stylish Hair Cuts Salon near Me</title>
         <meta
           name="description"
-          content="Experience top-notch haircut and styling services at our premier hair salon in Bangalore. Book your appointment with SCENT Salon today and enjoy exclusive offers!"
+          content="Experience top Hair salon services in Bangalore with SCENT. Expert hair care, stunning nails, rejuvenating spa treatments, luxurious facials, and essential beauty services."
         />
+        <link rel="canonical" href="https://scentlifestyle.com/hair-salon" />
       </Helmet>
       <NavBg />
       <HairServiceImg />
@@ -37,7 +36,7 @@ const HairServicePage = () => {
       <Partners />
       <InstaFeed />
       <HelpNearYou />
-      <TextLocReviews/>
+      <TextLocReviews />
       <ServiceWhy />
       <HairRead />
       <LastComp />

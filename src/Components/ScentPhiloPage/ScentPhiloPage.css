@@ -2,9 +2,7 @@
   background-color: black;
   height: 100px;
 }
-.scentPhiloPageContainer {
-  /* border: solid blue; */
-}
+
 .scentPhiloPageContent {
   /* border: solid green; */
   height: 100vh;
@@ -17,13 +15,15 @@
 .scentPhiloHeadContainer {
   /* border: solid red; */
   height: 200px;
+  padding: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  gap: 10px;
 }
-.scentPhiloHeadContainer > h2 {
-  font-size: 60px;
+.scentPhiloHeadContainer > h1 {
+  font-size: 30px;
   /* border: solid; */
   color: transparent;
   background-color: #cc2228;
@@ -37,7 +37,6 @@
 }
 .philoUnderline {
   border: solid 1px;
-  margin-top: 20px;
   width: 200px;
 }
 .scentPhiloTxtContainer {

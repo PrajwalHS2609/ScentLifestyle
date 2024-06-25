@@ -38,8 +38,8 @@
   align-items: center;
   flex-direction: column;
 }
-.contacts1 > h2 {
-  color: white;
+.contacts1 > h1 {
+  color: white; 
 }
 .contacts1 > p {
   color: white;

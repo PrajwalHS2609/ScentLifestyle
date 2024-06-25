@@ -3,7 +3,7 @@ import "./StyleCrewPage.css"
 const StyleCrewHead = () => {
   return (
     <div className='styleCrewHeadContainer'>
-      <h2 className='styleCrewHead'>style crew</h2>
+      <h1 className='styleCrewHead'>Style Crew</h1>
     </div>
   )
 }

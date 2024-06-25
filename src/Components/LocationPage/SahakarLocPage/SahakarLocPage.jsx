@@ -23,22 +23,24 @@ const SahakarLocPage = () => {
       <Helmet>
         <meta charSet="UTF-8" />
         <title>
-          SCENT Salon in Sahakar Nagar - Hair, Nail, Facial, Spa, Eyelashes &
-          Beauty Essentials
+          Salon in Sahakar Nagar - Hair, Nail, Spa, Facials & Beauty Essentials
         </title>
         <meta
           name="description"
-          content="SCENT Salon in Sahakar Nagar - Hair, Nail, Facial, Spa, Eyelashes & Beauty Essentials. Book your appointment with SCENT Salon today and enjoy exclusive offers!"
-        />
+          content="Salon in Sahakar Nagar - Get Hair, Nail, Spa, Facials, Eyelashes & Beauty Essential Services. Book an Appointment!" />
         <link
           rel="canonical"
-          href="https://scentlifestyle.com/salon-in-sahakar-nagar"
+          href="https://scentlifestyle.com/salon-in-sahakar-nagar
+"
         />
       </Helmet>
       <LocationNavBg />
       <LocationImg img={loc1} />
       <LocationNavi loc="Sahakar Nagar" />
-      <LocationArrow leftLink={"/salon-in-jpnagar"} rightLink={"/salon-in-lavelle-road"} />
+      <LocationArrow
+        leftLink={"/salon-in-jpnagar"}
+        rightLink={"/salon-in-lavelle-road"}
+      />
       <div className="sahakarLocPageContent">
         <LocationHead
           loc="Sahakar Nagar"
@@ -53,7 +55,7 @@ const SahakarLocPage = () => {
         <OurSalon />
         <Partners />
         <InstaFeed />
-        <ServiceWhy/>
+        <ServiceWhy />
       </div>
       <LastComp />
     </div>

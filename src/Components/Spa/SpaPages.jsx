@@ -19,13 +19,12 @@ const SpaPages = () => {
     <div>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>
-          SCENT Salon Spa in Bangalore - Hair, Nail, Skin, Beauty Essentials
-        </title>
+        <title>Spa Services in Bangalore | Best Women Spas Near Me</title>
         <meta
           name="description"
-          content="Indulge in premium SCENT spa services in Bangalore. Explore our luxurious body massages and rejuvenate your mind and body. Book now for ultimate relaxation!"
+          content="Experience bliss at Bangalore SCENT Spa with calming massages, revitalizing body scrubs, and exclusive Relax & Unwind packages tailored to your needs. Pamper yourself today."
         />
+        <link rel="canonical" href="https://scentlifestyle.com/spa" />
       </Helmet>
       <NavBg />
       <SpaImg />

@@ -1,0 +1,16 @@
+.shopPageHead {
+  /* border: solid; */
+  padding: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.shopPageHead > h1 {
+  color: var(--customColor);
+}
+.shopUnderLine {
+    border: 2px solid var(--customColor);
+  width: 10%;
+}

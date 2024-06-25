@@ -23,28 +23,28 @@ const JakkuruLocPage = () => {
       <Helmet>
         <meta charSet="UTF-8" />
         <title>
-          Salon in Jakkuru - Hair, Nail, Facial, Spa, Eyelashes & Beauty
-          Essentials
+          Salon in Jakkur - Hair, Nail, Spa, Facials & Beauty Essentials
         </title>
         <meta
           name="description"
-          content="SCENT Salon in Jakkuru - Hair, Nail, Facial, Spa, Eyelashes & Beauty Essentials. Book your appointment with SCENT Salon today and enjoy exclusive offers!"
+          content="Experience premier beauty and wellness at our Salon in Jakkur. Indulge in expert hair care, stunning nails, rejuvenating spa treatments, luxurious facials, and flawless eyelash extensions."
         />
         <link
           rel="canonical"
-          href="https://scentlifestyle.com/salon-in-jakkur	"
+          href="https://scentlifestyle.com/salon-in-jakkur
+	"
         />
       </Helmet>
       <LocationNavBg />
       <LocationImg img={loc3} />
-      <LocationNavi loc="Jakkuru" />
+      <LocationNavi loc="Jakkur" />
       <LocationArrow
         leftLink={"/salon-in-lavelle-road"}
         rightLink={"/salon-in-uptown-whitefield"}
       />
       <div className="jakkuruLocPageContent">
         <LocationHead
-          loc="Jakkuru"
+          loc="Jakkur"
           phone="+91-9742212700"
           address="Dr.Shivaram Karanth Nagar, Jakkuru, Bengaluru, Karnataka 560077"
           map={<JakkuruLocMap />}

@@ -20,14 +20,15 @@ import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
 const UpTownLocPage = () => {
   return (
     <div className="uptownLocPageContainer">
-       <Helmet>
+      <Helmet>
         <meta charSet="UTF-8" />
         <title>
-        SCENT Salon in Uptown, Whitefield - Hair, Nail, Facial, Spa, Eyelashes & Beauty Essentials					
+          Salon in Uptown Whitefield- Hair, Nail, Spa, Facials & Beauty
+          Essentials
         </title>
         <meta
           name="description"
-          content="SCENT Salon in Uptown, Whitefield - Hair, Nail, Facial, Spa, Eyelashes & Beauty Essentials. Book your appointment with SCENT Salon today and enjoy exclusive offers!"
+          content="Experience premier beauty and wellness at our Salon in Uptown, Whitefield. Indulge in expert hair care, stunning nails, rejuvenating spa treatments, luxurious facials, and flawless eyelash extensions."
         />
         <link
           rel="canonical"
@@ -37,7 +38,10 @@ const UpTownLocPage = () => {
       <LocationNavBg />
       <LocationImg img={loc4} />
       <LocationNavi loc="UpTown Square" />
-      <LocationArrow leftLink={"/salon-in-jakkur"} rightLink={"/salon-in-whitefield"} />
+      <LocationArrow
+        leftLink={"/salon-in-jakkur"}
+        rightLink={"/salon-in-whitefield"}
+      />
       <div className="uptownLocPageContent">
         <LocationHead
           loc="Uptown Square"
@@ -53,7 +57,7 @@ const UpTownLocPage = () => {
         <OurSalon />
         <Partners />
         <InstaFeed />
-        <ServiceWhy/> 
+        <ServiceWhy />
       </div>
       <LastComp />
     </div>

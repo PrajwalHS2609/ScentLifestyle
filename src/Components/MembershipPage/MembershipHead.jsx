@@ -1,9 +1,9 @@
 import React from "react";
-
+import "./MembershipPage.css"
 const MembershipHead = () => {
   return (
     <div className="membershipHeadContainer">
-      <h2>membership</h2>
+      <h1>MEMBERSHIP</h1>
       <div className="membershipUnderline"></div>
     </div>
   );

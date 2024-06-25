@@ -13,9 +13,21 @@ import HelpNearYou from "../../Help/HelpNearYou";
 import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
 import LastComp from "../../LastComp/LastComp";
+import { Helmet } from "react-helmet";
 const HairColor = () => {
   return (
     <div className="hairColorContainer">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>
+          Hair Colour in Bangalore | Hair Salon for Highlights Near Me
+        </title>
+        <meta
+          name="description"
+          content="SCENT Hair Colour in Bangalore. Elevate your style with expertly crafted hues, ranging from vibrant global hair colors to subtle highlights."
+        />
+        <link rel="canonical" href="https://scentlifestyle.com/hair-highlights-and-streaks" />
+      </Helmet>
       <NavBg />
       <div className="hairColorContent">
         <InnerServiceTxt
@@ -82,7 +94,7 @@ const HairColor = () => {
       <HelpNearYou />
       <TextLocReviews />
       <ServiceWhy />
-      <LastComp/>
+      <LastComp />
     </div>
   );
 };

@@ -23,16 +23,15 @@ const MeadowsLocPage = () => {
       <Helmet>
         <meta charSet="UTF-8" />
         <title>
-          SCENT Salon in Whitefield - Hair, Nail, Facial, Spa, Eyelashes &
-          Beauty Essentials
+          Salon in Whitefield - Hair, Nail, Spa, Facials & Beauty Essentials
         </title>
         <meta
           name="description"
-          content="SCENT Salon in Whitefield - Hair, Nail, Facial, Spa, Eyelashes & Beauty Essentials. Book your appointment with SCENT Salon today and enjoy exclusive offers!"
+          content="Experience top-tier beauty and wellness at our Salon in Whitefield. Enjoy expert hair care, stunning nails, rejuvenating spa treatments, luxurious facials, and flawless eyelash extensions."
         />
         <link
           rel="canonical"
-          href="https://scentlifestyle.com/salon-in-whitefield		"
+          href="https://scentlifestyle.com/salon-in-whitefield"
         />
       </Helmet>
       <LocationNavBg />

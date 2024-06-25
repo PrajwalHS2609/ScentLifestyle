@@ -13,12 +13,14 @@ const FranchisePage = () => {
     <div className="franchisePageContainer">
       <Helmet>
         <meta charSet="utf-8" />
-        <title>
-          SCENT Salon Franchise in India | Beauty Salon Business Opportunity
-        </title>
+        <title>Salon Franchise in India - 100% ROI Guaranteed Business</title>
         <meta
-          name="description" 
-          content="Join the SCENT Salon franchise family and be part of a renowned brand in India. Benefit from our proven business model and comprehensive support to run your own successful salon."
+          name="description"
+          content="SCENT Salon Franchise in India. A Lucrative Opportunity for you to build a beauty empire. It is an imperative milestone for us to open up our franchise doors to you."
+        />
+        <link
+          rel="canonical"
+          href="https://scentlifestyle.com/franchise"
         />
       </Helmet>
       <FranchiseNavBg />

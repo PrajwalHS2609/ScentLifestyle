@@ -13,9 +13,22 @@ import Partners from "./../../HomePage/Partners/Partners";
 import OurSalon from "./../../HomePage/OurSalon/OurSalon";
 import Members from "./../../HomePage/Members/Members";
 import LastComp from "../../LastComp/LastComp";
+import { Helmet } from "react-helmet";
 const BeardStyle = () => {
   return (
     <div className="beardStyleContainer">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Beard Salon in Bangalore | Beard Styling Near Me</title>
+        <meta
+          name="description"
+          content="SCENT Beard Salon in Bangalore. From classic to modern, our skilled professionals specialize in the art of beard grooming, using meticulous shaping techniques to create stunning styles tailored to accentuate your unique features."
+        />
+        <link
+          rel="canonical"
+          href="https://scentlifestyle.com/beard"
+        />
+      </Helmet>
       <NavBg />
       <div className="beardStyleContent">
         <InnerServiceTxt
@@ -66,7 +79,7 @@ const BeardStyle = () => {
       <HelpNearYou />
       <TextLocReviews />
       <ServiceWhy />
-      <LastComp/>
+      <LastComp />
     </div>
   );
 };

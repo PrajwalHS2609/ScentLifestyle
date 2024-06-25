@@ -21,14 +21,16 @@ const MainServicePage = () => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>
-          Scent Salon Services in Bangalore | Hair & Spa Services Near Me
+          Salon Services in Bangalore - Hair, Nail, Spa, Facials & Beauty
+          Essentials
         </title>
         <meta
           name="description"
-          content="Experience SCENT's top-quality salon & spa services, from haircuts for men & women, facials, waxing, bridal makeup, to spa treatments. Book now at our Sahakar Nagar, Lavelle Road, JP Nagar, Jakkuru, and Whitefield locations."
+          content="Experience top salon services in Bangalore with SCENT. Expert hair care, stunning nails, rejuvenating spa treatments, luxurious facials, and essential beauty services."
         />
+        <link rel="canonical" href="https://scentlifestyle.com/service" />
       </Helmet>
-      <NavBg/>
+      <NavBg />
       <ServicePage />
       <Navi />
       <ServiceCardContain />
@@ -38,7 +40,7 @@ const MainServicePage = () => {
       <Partners />
       <InstaFeed />
       <HelpNearYou />
-      <TextLocReviews/>
+      <TextLocReviews />
       <ServiceWhy />
       <ServiceRead />
       <LastComp />

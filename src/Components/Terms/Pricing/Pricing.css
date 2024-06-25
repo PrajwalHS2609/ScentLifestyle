@@ -14,7 +14,7 @@
    
   }
   .pricingHeadContainer>h2 {
-      font-size: 50px;
+      font-size: 40px;
       font-weight: lighter;
   }
   
@@ -25,7 +25,7 @@
     margin-top: 20px;
   }
   .pricingParaContainer > ul > li {
-    font-size: 17px;
+    font-size: 20px;
     list-style: disc;
     margin: 20px
   }

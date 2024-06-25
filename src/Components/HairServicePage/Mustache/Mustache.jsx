@@ -13,9 +13,21 @@ import HelpNearYou from "../../Help/HelpNearYou";
 import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
 import LastComp from "../../LastComp/LastComp";
+import { Helmet } from "react-helmet";
 const Mustache = () => {
   return (
     <div className="mustacheContainer">
+       <Helmet>
+        <meta charSet="utf-8" />
+        <title>
+        Mustache Styling Salon in Bangalore - Mustache Styling Near Me
+        </title>
+        <meta
+          name="description"
+          content="SCENT Mustache Styling Salon in Bangalore. Crafting unique mustache styles that define your personality. Book an Appointment!"
+        />
+        <link rel="canonical" href="https://scentlifestyle.com/mustache-styling" />
+      </Helmet>
       <NavBg />
       <div className="mustacheContent">
         <InnerServiceTxt

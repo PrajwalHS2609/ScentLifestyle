@@ -20,10 +20,11 @@
   flex-direction: column;
   color: var(--customRed);
 }
-.innerServiceTxtHeadContainer > h2 {
-  font-size: 150%;
+.innerServiceTxtHeadContainer > h1 {
+  font-size: 40px;
   text-align: center;
   color: var(--customRed);
+  font-weight: lighter;
 }
 .innerServiceTxtUnderline {
   border: 2px solid;
@@ -40,7 +41,7 @@
   /* border: solid blue; */
   text-align: center;
   width: 90%;
-  font-size: 110%;
+  font-size: 20px;
 }
 @media screen and (min-width: 320px) {
   .innerServiceTxtContainer {
@@ -83,7 +84,7 @@
     /* border: solid blue; */
     text-align: center;
     width: 90%;
-    font-size: 110%;
+    font-size: 20px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -126,7 +127,7 @@
     /* border: solid blue; */
     text-align: center;
     width: 90%;
-    font-size: 110%;
+    font-size: 20px;
   }
 }
 @media screen and (min-width: 990px) {
@@ -169,7 +170,7 @@
     /* border: solid blue; */
     text-align: center;
     width: 90%;
-    font-size: 110%;
+    font-size: 20px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -212,6 +213,6 @@
     /* border: solid blue; */
     text-align: center;
     width: 90%;
-    font-size: 110%;
+    font-size: 20px;
   }
 }

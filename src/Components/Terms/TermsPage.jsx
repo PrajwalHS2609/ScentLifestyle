@@ -6,17 +6,29 @@ import Pricing from "./Pricing/Pricing";
 import Shipping from "./Shipping/Shipping";
 import LastComp from "./../LastComp/LastComp";
 import NavBg from "../NavBg/NavBg";
+import { Helmet } from "react-helmet";
 
 const TermsPage = () => {
   return (
     <div>
-      <NavBg/>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>
+          Terms & Condition | Returns & Refund Policy | Cancellation Policy
+        </title>
+        <meta
+          name="description"
+          content="SCENT Terms & Condition, Returns & Refund Policy, Cancellation Policy, Payment Modes, Pricing Policy & Shipping terms."
+        />
+        <link rel="canonical" href="https://scentlifestyle.com/terms" />
+      </Helmet>
+      <NavBg />
       <Return />
       <Cancel />
       <Payment />
       <Pricing />
       <Shipping />
-      <LastComp/>
+      <LastComp />
     </div>
   );
 };

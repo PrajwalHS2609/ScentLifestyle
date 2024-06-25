@@ -3,7 +3,7 @@ import "./LavelleLocAbout.css";
 const LavelleLocAbout = () => {
   return (
     <div className="sahakarLocAboutContainer">
-      <h2>Experience Luxury at Scent Salon & Spa in Lavelle Road, Bangalore</h2>
+      <h1>Experience Luxury at Scent Salon & Spa in Lavelle Road, Bangalore</h1>
       <p>
         <ul>
           <li>

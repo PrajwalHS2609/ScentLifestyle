@@ -20,11 +20,15 @@ const LashesPage = () => {
       <Helmet>
         <meta charSet="UTF-8" />
         <title>
-           Eye Lashes in Bangalore | Eyelash Extensions Salon Near Me
+        EyeLashes in Bangalore | EyeLash Extension Near Me
         </title>
         <meta
           name="description"
-          content="Transform your look with stunning eyelash extensions at SCENT Salon. Enhance your beauty with permanent lashes that make your eyes look beautiful and dynamic. Book your appointment today!"
+          content="EyeLashes & Extensions in Bangalore. Discover the secret to achieving voluminous eyelashes with both permanent and temporary eyelash extensions."
+        />
+         <link
+          rel="canonical"
+          href="https://scentlifestyle.com/eye-lashes"
         />
       </Helmet>
       <NavBg/>

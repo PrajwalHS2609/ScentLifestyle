@@ -20,11 +20,15 @@ const BeautyPage = () => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>
-          SCENT Waxing & Threading in Bangalore | Detan Service Near Me
+        Waxing & Threading in Bangalore | Body D-Tan Service Near Me
         </title>
         <meta
           name="description"
-          content="Experience effortless beauty with our waxing, threading, and detanning services at SCENT Salon. Our skilled professionals will pamper you with flawless results, leaving you feeling refreshed and beautiful."
+          content="Discover SCENT’s exclusive Bikini & Brazilian waxing, luxurious detanning treatments, and anti-aging regimens. Book today for ultimate pampering and radiant skin."
+        />
+         <link
+          rel="canonical"
+          href="https://scentlifestyle.com/beauty-essentials"
         />
       </Helmet>
       <NavBg />

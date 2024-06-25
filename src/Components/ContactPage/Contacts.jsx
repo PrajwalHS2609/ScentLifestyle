@@ -7,7 +7,7 @@ const Contacts = () => {
   return (
     <div className="contactsContainer">
       <div className="contacts1">
-        <h2>Contact Us</h2>
+        <h1>Contact Us</h1>
         <p>
           <FontAwesomeIcon
             icon={faPhone}

@@ -5,22 +5,27 @@ import Schw from "./Schw/Schw";
 import { Helmet } from "react-helmet";
 import NavBg from "../NavBg/NavBg";
 import LastComp from "../LastComp/LastComp";
+import ShopPageHead from "./ShopPageHead";
 const ShopPage = () => {
   return (
     <div className="shopPageContainer">
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Buy Hair Treatment Products Online at Best Price </title>
+        <title>
+          Hair Treatments Product in Bangalore for Men & Women at SCENT
+        </title>
         <meta
           name="description on scent shop"
-          content="Buy Hair Treatment Products Online at Best Price. Olaplex, Beauty Garage, Casamara, Estee Lauder, Kerastase and more at SCENT."
+          content="Buy best Hair Treatments Product in Bangalore for Women & Men at SCENT Salon. 100% High Quality Products with Free Shipping."
         />
+        <link rel="canonical" href="https://scentlifestyle.com/shop" />
       </Helmet>
       <NavBg />
+      <ShopPageHead />
       <BeautyGarage />
       <Olaplex />
       <Schw />
-      <LastComp/>
+      <LastComp />
     </div>
   );
 };
