@@ -12,9 +12,9 @@ const Work = () => {
       <div className="workContent">
         <div className="innerWorkContent">
           <div className="workContentTxt1">
-            <pre>
+            <h2>
               <span>Our</span> work
-            </pre>
+            </h2>
           </div>
           <div className="workContentTxt2">
             <p>

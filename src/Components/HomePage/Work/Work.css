@@ -38,13 +38,13 @@
   /* border: solid; */
   width: 70%;
 }
-.workContentTxt1 > pre {
+.workContentTxt1 > h2 {
   font-size: 30px;
   letter-spacing: 2px;
   color: white;
 }
-.workContentTxt1 > pre > span {
-  border-bottom: 5px solid;
+.workContentTxt1 > h2 > span {
+  border-bottom:2px solid;
 }
 .workContentTxt2 {
   /* border: solid; */
@@ -52,7 +52,7 @@
   height: 40%;
 }
 .workContentTxt2 > p {
-  font-size: 17px;
+  font-size: 18px;
   letter-spacing: 1px;
   color: white;
 }
