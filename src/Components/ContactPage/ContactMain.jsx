@@ -1,7 +1,7 @@
 import React from "react";
 import "./ContactPage.css";
-import FranchiseForm from "../FranchisePage/FranchiseForm";
 import Contacts from "./Contacts";
+import ContactForm from "./ContactForm";
 const ContactMain = () => {
   return (
     <div className="contactMainContainer">
@@ -9,7 +9,7 @@ const ContactMain = () => {
         <Contacts />
       </div>
       <div className="contactMainContent">
-        <FranchiseForm />
+        <ContactForm />
       </div>
     </div>
   );

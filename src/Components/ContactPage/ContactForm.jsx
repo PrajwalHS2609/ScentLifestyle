@@ -1,11 +1,11 @@
 import React, { useState } from "react";
-import "./FranchisePage.css";
+import "./../FranchisePage/FranchisePage.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser, faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 import emailjs from "@emailjs/browser";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-const FranchiseForm = () => {
+const ContactForm = () => {
   let [data, setData] = useState({
     name: "",
     email: "",
@@ -66,8 +66,8 @@ const FranchiseForm = () => {
 
     emailjs
       .sendForm(
-        "service_3784kpo",
-        "template_mp5qxzg",
+        "service_n5j9zu1",
+        "template_yy6q8s9",
         e.target,
         "kcJN8Dq5IrzOZobBz"
       )
@@ -75,7 +75,7 @@ const FranchiseForm = () => {
         (result) => {
           console.log(result.text);
           toast.success("Email sent successfully");
-          window.location.assign("/contact-us")
+          window.location.assign("/contact-us");
         },
         (error) => {
           console.error(error.text);
@@ -175,4 +175,4 @@ const FranchiseForm = () => {
   );
 };
 
-export default FranchiseForm;
+export default ContactForm;
