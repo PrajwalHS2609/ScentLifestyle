@@ -18,7 +18,6 @@
 }
 .styleTxt > h3 {
   font-size: 30px;
-  font-family: "Times New Roman", Times, serif;
   color: white;
   letter-spacing: 2px;
 }
@@ -27,11 +26,10 @@
   width: 100px;
 }
 .styleContent > p {
-  font-size: 15px;
+  font-size: 20px;
   width: 85%;
   color: white;
   text-align: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 @media only screen and (max-width: 600px) {
   .styleContainer {
@@ -41,7 +39,6 @@
   }
   .styleTxt > h3 {
     font-size: 140%;
-    font-family: "Times New Roman", Times, serif;
     color: white;
     letter-spacing: 2px;
     text-align: center;
@@ -51,8 +48,6 @@
     width: 85%;
     color: white;
     text-align: center;
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   }
 }
 @media screen and (max-width: 990px) and (min-width: 600px) {

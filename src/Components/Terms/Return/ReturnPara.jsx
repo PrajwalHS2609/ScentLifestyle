@@ -30,7 +30,7 @@ const ReturnPara = () => {
         </li>
         <li>
           For further questions regarding returns and refunds, please reach out
-          to us at <a href="#">info@scentlifestyle.com</a>
+          to us at <a href="mailto:info@scentlifestyle.com">info@scentlifestyle.com</a>
         </li>
       </ul>
     </div>

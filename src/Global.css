@@ -3,14 +3,16 @@
   padding: 0;
   box-sizing: border-box;
 }
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
 p,
+h1,
 h2,
 h3,
-pre {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-}
-h1 {
-  font-family: "Times New Roman", Times, serif;
+h4,
+h5,
+h6,
+li pre {
+  font-family: "Nanum Gothic", sans-serif;
 }
 
 :root {

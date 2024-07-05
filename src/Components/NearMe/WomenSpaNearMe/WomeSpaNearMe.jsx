@@ -1,8 +1,5 @@
 import React from "react";
 import NavBg from "../../NavBg/NavBg";
-import NailSalonImg from "../../NaliSalonPage/NailSalonImg/NailSalonImg";
-import Navi7 from "../../NaliSalonPage/Navi7/Navi7";
-import NailServiceCardContain from "../../NaliSalonPage/NailService Card/NailServiceCardContain";
 import Members from "../../HomePage/Members/Members";
 import OurSalon from "../../HomePage/OurSalon/OurSalon";
 import Partners from "../../HomePage/Partners/Partners";

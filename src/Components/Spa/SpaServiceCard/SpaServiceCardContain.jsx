@@ -1,6 +1,5 @@
 import React from "react";
 import "./SpaServiceCard.css";
-import SpaServiceCard from "./SpaServiceCard";
 import ServiceCards from "../../MainServicePages/ServiceCards/ServiceCards";
 const SpaServiceCardContain = () => {
   return (

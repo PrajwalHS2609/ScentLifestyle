@@ -6,7 +6,6 @@ import "./StyleCrewPage.css";
 import LastComp from "../LastComp/LastComp";
 import NavBg from "../NavBg/NavBg";
 import OurSalon from "../HomePage/OurSalon/OurSalon";
-import Members from "../HomePage/Members/Members";
 import Partners from "../HomePage/Partners/Partners";
 import InstaFeed from "../HomePage/InstaFeed/InstaFeed";
 import HelpNearYou from "../Help/HelpNearYou";

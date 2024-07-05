@@ -133,9 +133,7 @@ a {
   height: 25px;
   width: 200px;
 }
-#dropItem2 > pre {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-}
+
 #dropItem3 {
   height: 100%;
 }
@@ -198,7 +196,6 @@ a {
   justify-content: flex-start;
   align-items: center;
   font-size: 150%;
-  font-family: monospace;
   font-weight: lighter;
   margin-left: 10px;
 }
@@ -209,7 +206,6 @@ a {
   justify-content: flex-start;
   align-items: center;
   font-size: 100%;
-  font-family: monospace;
   font-weight: lighter;
   margin-left: 10px;
 }
@@ -232,7 +228,6 @@ a {
   list-style: none;
   margin-left: 30px;
   font-size: 150%;
-  font-family: monospace;
   font-weight: lighter;
 }
 .respMenuSpan li > h4 > a {
@@ -385,7 +380,6 @@ a {
     align-items: center;
     height: 100%;
     list-style: none;
-    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
     font-size: 15px;
     font-weight: lighter;
     letter-spacing: 1px;
@@ -453,9 +447,7 @@ a {
     height: 25px;
     width: 200px;
   }
-  #dropItem2 > pre {
-    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  }
+
   #dropItem3 {
     height: 100%;
   }
@@ -533,7 +525,6 @@ a {
     align-items: center;
     height: 100%;
     list-style: none;
-    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
     font-size: 15px;
     font-weight: lighter;
     letter-spacing: 1px;
@@ -601,9 +592,7 @@ a {
     height: 25px;
     width: 200px;
   }
-  #dropItem2 > pre {
-    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  }
+
   #dropItem3 {
     height: 100%;
   }

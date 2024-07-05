@@ -193,7 +193,7 @@ const SpaRead = () => {
               </p>
               <p>
                 Don't wait any longer to prioritize your well-being. Book your
-                appointment today at <a href="https://scentlifestyle.com/"></a>{" "}
+                appointment today at <a href="https://scentlifestyle.com/">SCENT salon</a>{" "}
                 and discover why we are renowned for being the best spa near
                 you. Remember, when life gets hectic, it's essential to take
                 time for yourself and indulge in the rejuvenating benefits of

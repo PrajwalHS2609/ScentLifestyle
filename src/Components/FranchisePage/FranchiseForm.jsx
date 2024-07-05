@@ -2,7 +2,9 @@ import React, { useState } from "react";
 import "./FranchisePage.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser, faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
-import emailjs from "@emailjs/browser"
+import emailjs from "@emailjs/browser";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 const FranchiseForm = () => {
   let [data, setData] = useState({
     userName: "",
@@ -31,12 +33,12 @@ const FranchiseForm = () => {
     // };
     // console.log(payload);
     // window. location. reload("/franchise")
+    toast.success("Form submitted successfully!");
   };
   return (
     <div className="franchiseFormContainer">
       <form action="" onSubmit={handleSubmit}>
         <fieldset>
-      
           <br />
           <table>
             <tr>
@@ -113,10 +115,13 @@ const FranchiseForm = () => {
                 required
               />
             </tr>
-            <button className="sub" type="handlesubmit">Submit</button>
+            <button className="sub" type="handlesubmit">
+              Submit
+            </button>
           </table>
         </fieldset>
       </form>
+      <ToastContainer />
     </div>
   );
 };
