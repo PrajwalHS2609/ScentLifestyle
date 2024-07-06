@@ -137,7 +137,9 @@ a {
 #dropItem3 {
   height: 100%;
 }
-
+.dropItems>pre{
+font-size: 15px;
+}
 .mainMenu {
   margin-right: -400px;
   display: none;
@@ -212,6 +214,7 @@ a {
 .respMenuScroll > ul > h2 > a {
   color: white;
   text-decoration: none;
+  font-size: 20px;
 }
 .respMenuSpan > li {
   list-style: none;
@@ -227,7 +230,7 @@ a {
   color: white;
   list-style: none;
   margin-left: 30px;
-  font-size: 150%;
+  font-size: 18px;
   font-weight: lighter;
 }
 .respMenuSpan li > h4 > a {

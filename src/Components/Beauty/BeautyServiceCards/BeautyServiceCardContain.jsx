@@ -1,6 +1,5 @@
 import React from "react";
 import "./BeautyServiceCard.css";
-import BeautyServiceCard from "./BeautyServiceCard";
 import ServiceCards from "../../MainServicePages/ServiceCards/ServiceCards";
 const BeautyServiceCardContain = () => {
   return (

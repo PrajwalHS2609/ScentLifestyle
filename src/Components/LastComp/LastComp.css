@@ -71,7 +71,6 @@
 .lastTxt {
   /* border: solid; */
   width: 100%;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 15px;
   color: white;
   cursor: pointer;
@@ -220,7 +219,6 @@
   .lastTxt {
     /* border: solid; */
     width: 100%;
-    font-family: monospace;
     font-size: 150%;
     color: white;
   }
@@ -373,7 +371,6 @@
   .lastTxt {
     /* border: solid; */
     width: 100%;
-    font-family: monospace;
     font-size: 150%;
     color: white;
   }
@@ -537,7 +534,6 @@
   .lastTxt {
     /* border: solid; */
     width: 100%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
     color: white;
     cursor: pointer;
@@ -687,7 +683,6 @@
   .lastTxt {
     /* border: solid; */
     width: 100%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
     color: white;
     cursor: pointer;

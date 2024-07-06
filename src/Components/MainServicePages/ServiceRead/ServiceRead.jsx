@@ -50,7 +50,7 @@ const ServiceRead = () => {
               a revitalizing facial
             </a>
             , a <a href="https://scentlifestyle.com/spa">soothing massage </a>,
-            or a <a href=""> pampering manicure and pedicure </a>, we have you
+            or a <a href="https://scentlifestyle.com/spa"> pampering manicure and pedicure </a>, we have you
             covered.
           </li>
         </ul>

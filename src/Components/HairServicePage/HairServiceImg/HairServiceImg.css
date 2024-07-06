@@ -57,7 +57,6 @@
   font-weight: lighter;
   color: white;
   text-align: center;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 .hairCoverUnderline {
   border: 2px solid;
@@ -69,7 +68,6 @@
   text-align: center;
   width: 95%;
   font-size: 20px;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 @media screen and (max-width: 600px) {
   .hairServiceImgContainer {

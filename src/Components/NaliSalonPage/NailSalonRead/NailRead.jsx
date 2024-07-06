@@ -175,7 +175,7 @@ const NailRead = () => {
             <li>
               <h3>Why Choose SCENT Salon?</h3>
               <p>
-                As the <a href=""> best nails salon in Bangalore </a>, SCENT
+                As the <a href="/nails-salon"> best nails salon in Bangalore </a>, SCENT
                 Salon is committed to providing an exceptional experience for
                 our clients. Here are some reasons why our salon is the
                 preferred choice for nail care:

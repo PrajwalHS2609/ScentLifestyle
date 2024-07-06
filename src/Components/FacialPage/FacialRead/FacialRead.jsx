@@ -70,7 +70,7 @@ const FacialRead = () => {
                 a variety of facials tailored to different skin types and
                 concerns, including oily skin, dry skin, aging skin, and
                 acne-prone skin. Whether you need a{" "}
-                <a href="">hydrating facial</a>, an{" "}
+                <a href="https://scentlifestyle.com/facial">hydrating facial</a>, an{" "}
                 <a href="https://scentlifestyle.com/facial">
                   anti-aging facial
                 </a>

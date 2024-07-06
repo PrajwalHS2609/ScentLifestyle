@@ -37,45 +37,45 @@ const InstaImgContain = () => {
       />
     );
   }
-  function SampleNextArrowResp(props) {
-    const { className, style, onClick } = props;
-    return (
-      <div
-        className={className}
-        style={{
-          ...style,
-          background: "grey",
-          borderTopRightRadius: "100%",
-          borderBottomRightRadius: "100%",
-          cursor: "pointer",
-          position: "absolute",
-          zIndex: "3",
-          right: "1%",
-        }}
-        onClick={onClick}
-      />
-    );
-  }
-  function SamplePrevArrowResp(props) {
-    const { className, style, onClick } = props;
-    return (
-      <div
-        className={className}
-        style={{
-          ...style,
-          background: "grey",
-          color: "red",
-          borderTopLeftRadius: "10px",
-          borderBottomLeftRadius: "10px",
-          cursor: "pointer",
-          position: "absolute",
-          zIndex: "3",
-          left: "1%",
-        }}
-        onClick={onClick}
-      />
-    );
-  }
+  // function SampleNextArrowResp(props) {
+  //   const { className, style, onClick } = props;
+  //   return (
+  //     <div
+  //       className={className}
+  //       style={{
+  //         ...style,
+  //         background: "grey",
+  //         borderTopRightRadius: "100%",
+  //         borderBottomRightRadius: "100%",
+  //         cursor: "pointer",
+  //         position: "absolute",
+  //         zIndex: "3",
+  //         right: "1%",
+  //       }}
+  //       onClick={onClick}
+  //     />
+  //   );
+  // }
+  // function SamplePrevArrowResp(props) {
+  //   const { className, style, onClick } = props;
+  //   return (
+  //     <div
+  //       className={className}
+  //       style={{
+  //         ...style,
+  //         background: "grey",
+  //         color: "red",
+  //         borderTopLeftRadius: "10px",
+  //         borderBottomLeftRadius: "10px",
+  //         cursor: "pointer",
+  //         position: "absolute",
+  //         zIndex: "3",
+  //         left: "1%",
+  //       }}
+  //       onClick={onClick}
+  //     />
+  //   );
+  // }
   var settings = {
     dots: false,
     infinite: false,

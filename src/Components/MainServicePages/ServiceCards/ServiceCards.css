@@ -80,6 +80,7 @@
   font-weight: bold;
   border: none;
   color: var(--customRed);
+  cursor: pointer;
 }
 .serviceGoto {
   border: 2px whitesmoke solid;

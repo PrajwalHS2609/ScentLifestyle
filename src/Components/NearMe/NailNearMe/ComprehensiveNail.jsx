@@ -148,45 +148,4 @@ const ComprehensiveNail = () => {
     </div>
   );
 };
-const data = [
-  {
-    title: "",
-    para: ``,
-  },
-  {
-    title: "",
-    para: ``,
-  },
-  {
-    title: "",
-    para: ``,
-  },
-  {
-    title: "",
-    para: "",
-  },
-  {
-    title: "",
-    para: ``,
-  },
-  {
-    title: "",
-    para: ``,
-  },
-  {
-    title: "",
-    para: ``,
-  },
-  {
-    title: "",
-    para: ``,
-  },
-  {
-    title: "",
-    para: ``,
-  },
-  {
-    para: ``,
-  },
-];
 export default ComprehensiveNail;

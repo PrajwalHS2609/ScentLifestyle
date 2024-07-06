@@ -1,6 +1,5 @@
 import React from "react";
 import "./LashesServiceCard.css";
-import LashesServiceCard from "./LashesServiceCard";
 import ServiceCards from "../../MainServicePages/ServiceCards/ServiceCards";
 const LashesServiceCardContain = () => {
   return (
