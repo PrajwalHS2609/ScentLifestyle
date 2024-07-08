@@ -50,6 +50,7 @@ import BodySpaNearMe from "./Components/NearMe/BodySpaNearMe/BodySpaNearMe";
 import GentsSalonNearMe from "./Components/NearMe/GentsSalon/GentsSalonNearMe";
 import HeadMassageNearMe from "./Components/NearMe/HeadMassageNearMe.jsx/HeadMassageNearMe";
 import FootMassageNearMe from "./Components/NearMe/FootMassageNearMe/FootMassageNearMe";
+import OfferPage from "./Components/OfferPage/OfferPage";
 
 const App = () => {
   return (
@@ -126,6 +127,7 @@ const App = () => {
           <Route path="/gents-salon-near-me" element={<GentsSalonNearMe />} />
           <Route path="/head-massage-near-me" element={<HeadMassageNearMe />} />
           <Route path="/foot-massage-near-me" element={<FootMassageNearMe />} />
+          <Route path="/offer-page" element={<OfferPage />} />
         </Routes>
       </BrowserRouter>
     </div>
