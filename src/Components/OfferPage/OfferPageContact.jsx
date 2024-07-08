@@ -1,5 +1,6 @@
 import React from "react";
 import "./OfferPage.css";
+import OfferMarquee from "./OfferMarquee";
 const OfferPageContact = () => {
   return (
     <div className="offerPageContactContainer">
@@ -8,6 +9,7 @@ const OfferPageContact = () => {
         or Visit Our Website{" "}
         <a href="https://scentlifestyle.com/">www.scentlifestyle.com</a>
       </h3>
+      <OfferMarquee/>
       <p>
         Women and men aged 25-55, interested in <span>hair care</span> and{" "}
         <span>beauty treatments</span>.

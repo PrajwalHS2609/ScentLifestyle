@@ -3,6 +3,7 @@ import "./OfferPage.css";
 import OfferBenefits from "./OfferBenefits";
 import OfferTxt from "./OfferTxt";
 import OfferPageContact from "./OfferPageContact";
+import OfferMarquee from "./OfferMarquee";
 const OfferPageContent = () => {
   return (
     <div className="offerContent">
@@ -12,9 +13,9 @@ const OfferPageContent = () => {
         Salon will leave your locks feeling smooth, silky, and utterly gorgeous.
       </p>
 
-     <OfferBenefits/>
-     <OfferTxt/>
-     <OfferPageContact/>
+      <OfferBenefits />
+      <OfferTxt />
+      <OfferPageContact />
     </div>
   );
 };

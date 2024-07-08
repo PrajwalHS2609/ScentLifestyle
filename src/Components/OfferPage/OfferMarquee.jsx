@@ -3,12 +3,13 @@ import Marquee from "react-fast-marquee";
 
 const OfferMarquee = () => {
   return (
-    <div>
+    <div className="offerMarquee">
       <Marquee>
-        <p>
-          Hair Botox,Smooth Hair, Silky Hair, Hair Repair, Hair Restoration,
-          Frizz-Free Hair, Shine and Softness, Hair Protection.
-        </p>
+        <h3 className="offerMarqueeHead">
+          {" "}
+         . Hair Botox . Smooth Hair . Silky Hair . Hair Repair . Hair Restoration
+          . Frizz-Free Hair . Shine and Softness . Hair Protection  {" "}
+        </h3>
       </Marquee>
     </div>
   );
