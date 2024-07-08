@@ -15,6 +15,7 @@ const OfferPageContent = () => {
 
       <OfferBenefits />
       <OfferTxt />
+      <OfferMarquee />
       <OfferPageContact />
     </div>
   );
