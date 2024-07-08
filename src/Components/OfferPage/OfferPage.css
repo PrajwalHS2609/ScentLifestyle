@@ -6,11 +6,17 @@
 }
 .offerPageMainContainer {
   /* border: solid blue; */
-  margin-top: 10px;
-  height: 84vh;
+  height: 100vh;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+}
+.offerPageMainContainer > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 .offerPageMainContent1 {
   border: solid green;
@@ -120,6 +126,7 @@
   align-items: center;
   justify-content: center;
   background-color: var(--customColor);
+  box-shadow: 5px 5px 10px black;
 }
 .offerTxtContent {
   /* border: solid blue; */
@@ -210,12 +217,12 @@
   color: var(--customColor);
 }
 .offerMarquee {
-    /* border: solid red; */
-    width: 100%;
-  }
-  .offerMarqueeHead{
-    font-size: 30px;
-  }
+  /* border: solid red; */
+  width: 100%;
+}
+.offerMarqueeHead {
+  font-size: 30px;
+}
 @media screen and (min-width: 320px) and (max-width: 768px) {
   .offerBenefits {
     /* border: solid green; */
@@ -264,7 +271,7 @@
     /* border: solid red; */
     width: 100%;
   }
-  .offerMarqueeHead{
+  .offerMarqueeHead {
     font-size: 30px;
   }
 }

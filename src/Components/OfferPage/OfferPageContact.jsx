@@ -1,6 +1,5 @@
 import React from "react";
 import "./OfferPage.css";
-import OfferMarquee from "./OfferMarquee";
 const OfferPageContact = () => {
   return (
     <div className="offerPageContactContainer">

@@ -1,5 +1,4 @@
 import React from "react";
-import NavBar from "./Components/NavBar/NavBar";
 import "./Global.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomePage from "./Components/HomePage/HomePage";
@@ -51,12 +50,13 @@ import GentsSalonNearMe from "./Components/NearMe/GentsSalon/GentsSalonNearMe";
 import HeadMassageNearMe from "./Components/NearMe/HeadMassageNearMe.jsx/HeadMassageNearMe";
 import FootMassageNearMe from "./Components/NearMe/FootMassageNearMe/FootMassageNearMe";
 import OfferPage from "./Components/OfferPage/OfferPage";
+import MainLayout from "./Components/MainLayout/MainLayout";
 
 const App = () => {
   return (
     <div>
       <BrowserRouter>
-        <NavBar />
+        <MainLayout />
         <ScrollTo />
         <Routes>
           <Route path="/" element={<HomePage />} />
