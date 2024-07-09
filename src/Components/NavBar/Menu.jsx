@@ -72,7 +72,7 @@ const Menu = () => {
             </Link>
             <Link to={"/eye-lashes"}>
               <div className="dropItems" id="dropItem2">
-                <pre>Eye Lashes</pre>
+                <pre> Eye Lashes</pre>
               </div>
             </Link>
           </div>

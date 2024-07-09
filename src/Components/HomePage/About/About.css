@@ -1,6 +1,6 @@
 .aboutContainer {
   /* border: solid red; */
-  height: 100vh;
+  height: 100%;
   width: 100%;
   position: relative;
 }
@@ -18,7 +18,7 @@
   width: 40%;
   height: 100%;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
   padding: 10px;
@@ -28,7 +28,6 @@
   /* border: solid green; */
   color: white;
   width: 90%;
-  height: 15%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -49,6 +48,11 @@
   width: 90%;
   height: 60%;
   margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
 }
 .aboutContentTxt2 > p {
   color: white;
@@ -78,10 +82,12 @@
 .aboutContentTxt3 > p > a {
   color: white;
 }
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   .innerAboutContent {
     /* border: solid blue; */
     width: 100%;
+    position: static;
+    background-color: var(--customColor);
   }
   .aboutContentTxt1 {
     /* border: solid green; */
@@ -102,7 +108,7 @@
   }
   .aboutContentTxt2 > p {
     color: white;
-    font-size: 18px;
+    font-size: 0;
     text-align: center;
   }
   .aboutContentTxt3 {
@@ -113,9 +119,8 @@
     /* border: solid green; */
     width: 100%;
     height: 80%;
-    font-size: 20px;
-  }
-}
+    font-size: 18px;
+  }}
 @media screen and (min-width: 768px) {
   .innerAboutContent {
     /* border: solid blue; */
@@ -194,6 +199,7 @@
     width: 100%;
     font-size: 30px;
   }
+
   .aboutContentTxt2 > p {
     color: white;
     font-size: 20px;

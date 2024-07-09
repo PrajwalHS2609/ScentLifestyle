@@ -18,29 +18,7 @@
   width: 100%;
   object-fit: cover;
 }
-.offerPageMainContent1 {
-  border: solid green;
-  height: 100%;
-  width: 50%;
-  overflow: hidden;
-}
-.offerPageMainContent2 {
-  border: solid green;
-  height: 100%;
-  width: 50%;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.offerCircleImg {
-  border: solid;
-  height: 500px;
-  width: 500px;
-  overflow: hidden;
-  border-radius: 100%;
-  box-shadow: 10px 10px 1px rgb(104, 104, 104);
-}
+
 .offerContent {
   /* border: solid red; */
   display: flex;
