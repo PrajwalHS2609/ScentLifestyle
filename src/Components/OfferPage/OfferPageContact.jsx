@@ -8,9 +8,6 @@ const OfferPageContact = () => {
         or Visit Our Website{" "}
         <a href="https://scentlifestyle.com/">www.scentlifestyle.com</a>
       </h3>
-      <p>
-        <span>beauty treatments</span>.
-      </p>
     </div>
   );
 };

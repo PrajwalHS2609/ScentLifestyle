@@ -1,9 +1,9 @@
 import React from "react";
 import "./OfferPage.css";
-import repair from "./../../Images/Repair.jpg";
-import shine from "./../../Images/Shine.jpg";
-import frizz from "./../../Images/Frizz.jpg";
-import protection from "./../../Images/Protection.jpg";
+import repair from "./../../Images/OfferBenefits/Repair.jpg";
+import shine from "./../../Images/OfferBenefits/Shine.jpg";
+import frizz from "./../../Images/OfferBenefits/Frizz.jpg";
+import protection from "./../../Images/OfferBenefits/Protection.jpg";
 
 const OfferBenefits = () => {
   return (
