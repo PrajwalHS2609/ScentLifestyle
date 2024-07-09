@@ -1,10 +1,13 @@
 import React from "react";
 import "./OfferPage.css";
-import banner from "./../../Images/Scent Hair Salon.png";
+import desktopBanner from "./../../Images/OfferImgs/DesktopImg.png";
+import mobileBanner from "./../../Images/OfferImgs/MobileImg.png";
+
 const OfferPageMain = () => {
   return (
     <div className="offerPageMainContainer">
-      <img src={banner} alt="" />
+      <img className="deskImg" src={desktopBanner} alt="desktopOfferBanner" />
+      <img className="mobileImg" src={mobileBanner} alt="mobileOfferBanner" />
     </div>
   );
 };

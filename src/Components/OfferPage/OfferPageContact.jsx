@@ -9,7 +9,6 @@ const OfferPageContact = () => {
         <a href="https://scentlifestyle.com/">www.scentlifestyle.com</a>
       </h3>
       <p>
-        Women and men aged 25-55, interested in <span>hair care</span> and{" "}
         <span>beauty treatments</span>.
       </p>
     </div>
