@@ -15,7 +15,7 @@ const OfferTxt = () => {
         </div>
       </button>
       <div className="offerTxtContent" id="offerTxtContent3">
-        <h3>on your first Hair Botox treatment!</h3>
+        <h3>on your first Hair Botoxx treatment!</h3>
       </div>
     </div>
   );
