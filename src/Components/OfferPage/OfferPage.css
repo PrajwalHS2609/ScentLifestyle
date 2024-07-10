@@ -139,7 +139,7 @@
   font-family: "Playwrite GB S", cursive;
 }
 #offerTxtContent2 > h3 {
-  font-size: 50px;
+  font-size: 30px;
   width: 100%;
   text-align: center;
   color: white;
@@ -155,7 +155,7 @@
   text-align: center;
 }
 #offerTxtContent2 > sub {
-  font-size: 30px;
+  font-size: 20px;
   color: white;
   font-family: "Anton SC", sans-serif;
   letter-spacing: 2px;
