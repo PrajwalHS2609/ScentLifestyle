@@ -14,8 +14,9 @@ h6,
 li,
 pre,
 a {
-  font-family: "Roboto", sans-serif;
-  font-optical-sizing: auto;
+  /* font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto; */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 :root {
