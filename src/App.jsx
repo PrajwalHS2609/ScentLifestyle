@@ -127,7 +127,7 @@ const App = () => {
           <Route path="/gents-salon-near-me" element={<GentsSalonNearMe />} />
           <Route path="/head-massage-near-me" element={<HeadMassageNearMe />} />
           <Route path="/foot-massage-near-me" element={<FootMassageNearMe />} />
-          <Route path="/offer-page" element={<OfferPage />} />
+          <Route path="/offer" element={<OfferPage />} />
         </Routes>
       </BrowserRouter>
     </div>
