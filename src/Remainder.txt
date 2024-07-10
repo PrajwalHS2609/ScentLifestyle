@@ -1,3 +1,4 @@
 change the arrow of react slick
-arrange videos to center
+arrange videos to center in mobile ver
 images changes and download
+scent salon

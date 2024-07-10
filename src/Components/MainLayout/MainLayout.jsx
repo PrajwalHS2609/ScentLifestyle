@@ -4,7 +4,7 @@ import { useLocation } from "react-router-dom";
 
 const MainLayout = ({ children }) => {
   const location = useLocation();
-  const showNavbar = location.pathname !== "/offer-page";
+  const showNavbar = location.pathname !== "/offer";
   return (
     <div>
       {showNavbar && <NavBar />}

@@ -1,6 +1,6 @@
 .navContainer {
   /* border: solid red; */
-  height: 13vh;
+  height: 14vh;
   width: 100%;
   background-color: black;
   display: flex;
@@ -13,7 +13,7 @@
 }
 .navContainer1 {
   /* border: solid; */
-  height: 13vh;
+  height: 14vh;
   width: 100%;
   background-color: transparent;
   display: flex;
@@ -25,17 +25,17 @@
   gap: 30px;
 }
 .logo {
-  /* border:white solid; */
+  /* border:green solid; */
   width: 100%;
-  height: 87px;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-left: 10px;
   overflow: hidden;
 }
-.logo > img {
-  width: 100%;
+.logo > a > img {
+  width: 40%;
   height: 100%;
 }
 .menuContainer {
@@ -137,8 +137,8 @@ a {
 #dropItem3 {
   height: 100%;
 }
-.dropItems>pre{
-font-size: 15px;
+.dropItems > pre {
+  font-size: 15px;
 }
 .mainMenu {
   margin-right: -400px;
@@ -146,7 +146,7 @@ font-size: 15px;
 }
 .hamIcon {
   color: white;
-  margin-right:300px;
+  margin-right: 300px;
   font-size: 25px;
 }
 .respMenu {
