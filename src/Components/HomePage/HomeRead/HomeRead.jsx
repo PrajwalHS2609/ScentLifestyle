@@ -17,7 +17,7 @@ const HomeRead = () => {
   return (
     <div className="homeReadContainer">
       <header>
-        <h1>Scent Salon In Bangalore</h1>
+        <h1>Salon In Bangalore</h1>
       </header>
       <div className="homeReadHeadContainer">
         <ul>
