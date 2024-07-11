@@ -5,14 +5,16 @@ const Style = () => {
     <div className="styleContainer">
       <div className="styleContent">
         <div className="styleTxt">
-          <h3>SCENT Salon - Where Beauty Blossoms</h3>
+          <h3>Welcome to SCENT,</h3>
         </div>
-        <div className="styleUnderline"></div>
       </div>
       <div className="styleContent">
         <p>
-          Experience the essence of beauty at Scent Salon, where every visit is
-          a journey to blossoming radiance.
+          where luxury meets innovation in hair and beauty care. Located in the
+          heart of Bangalore on Lavelle road,and other prime locations like
+          Whitefield, Sahakarnagar, Jakkur and JP Nagar our salons are renowned
+          for delivering exceptional results and personalized service to
+          discerning clients.
         </p>
       </div>
     </div>

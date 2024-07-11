@@ -7,6 +7,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 import ServiceHead from "./ServiceHead";
+import leftArrow from "./../../../Images/left.png";
+import rightArrow from "./../../../Images/right.png";
 const Services = () => {
   function SampleNextArrow(props) {
     const { className, style, onClick } = props;
@@ -15,15 +17,13 @@ const Services = () => {
         className={className}
         style={{
           ...style,
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          textAlign: "center",
-          background: "#cc2228",
-          borderTopRightRadius: "10px",
-          borderBottomRightRadius: "14px",
-          height: "40px",
+          height: "60px",
+          width: "60px",
           cursor: "pointer",
+          backgroundImage: `url(${rightArrow})`,
+          backgroundSize: "contain",
+          backgroundRepeat: "no-repeat",
+          marginRight: "-50px",
         }}
         onClick={onClick}
       />
@@ -36,15 +36,51 @@ const Services = () => {
         className={className}
         style={{
           ...style,
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          textAlign: "center",
-          background: "#cc2228",
-          borderTopLeftRadius: "10px",
-          borderBottomLeftRadius: "10px",
-          height: "40px",
+          height: "60px",
+          width: "60px",
           cursor: "pointer",
+          backgroundImage: `url(${leftArrow})`,
+          backgroundSize: "contain",
+          backgroundRepeat: "no-repeat",
+          marginLeft: "-50px",
+        }}
+        onClick={onClick}
+      />
+    );
+  }
+  function RespSampleNextArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+      <div
+        className={className}
+        style={{
+          ...style,
+          height: "50px",
+          width: "50px",
+          cursor: "pointer",
+          backgroundImage: `url(${rightArrow})`,
+          backgroundSize: "contain",
+          backgroundRepeat: "no-repeat",
+          marginRight: "-35px",
+        }}
+        onClick={onClick}
+      />
+    );
+  }
+  function RespSamplePrevArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+      <div
+        className={className}
+        style={{
+          ...style,
+          height: "50px",
+          width: "50px",
+          cursor: "pointer",
+          backgroundImage: `url(${leftArrow})`,
+          backgroundSize: "contain",
+          backgroundRepeat: "no-repeat",
+          marginLeft: "-35px",
         }}
         onClick={onClick}
       />
@@ -65,8 +101,8 @@ const Services = () => {
           slidesToShow: 1,
           slidesToScroll: 1,
           initialSlide: 2,
-          nextArrow: <SampleNextArrow />,
-          prevArrow: <SamplePrevArrow />,
+          nextArrow: <RespSampleNextArrow />,
+          prevArrow: <RespSamplePrevArrow />,
         },
       },
       {
@@ -83,7 +119,7 @@ const Services = () => {
   };
   return (
     <div className="serviceContainer">
-    <ServiceHead/>
+      <ServiceHead />
       <div className="serviceContent" id="serviceContent2">
         <Slider {...settings}>
           <div className="serviceSlideContainer">
@@ -93,7 +129,9 @@ const Services = () => {
                 alt="Hair"
               />
             </div>
-            <h3><Link to={"/hair"}>Hair</Link></h3>
+            <h3>
+              <Link to={"/hair"}>Hair</Link>
+            </h3>
           </div>
           <div className="serviceSlideContainer">
             <div className="serviceSlideContent">
@@ -102,7 +140,9 @@ const Services = () => {
                 alt="Nails"
               />
             </div>
-            <h3><Link to={"/nails"}>Nails</Link></h3>
+            <h3>
+              <Link to={"/nails"}>Nails</Link>
+            </h3>
           </div>
           <div className="serviceSlideContainer">
             <div className="serviceSlideContent">
@@ -111,7 +151,9 @@ const Services = () => {
                 alt="Facial"
               />
             </div>
-            <h3><Link to={"/facial"}>Facials</Link></h3>
+            <h3>
+              <Link to={"/facial"}>Facials</Link>
+            </h3>
           </div>
           <div className="serviceSlideContainer">
             <div className="serviceSlideContent">
@@ -120,9 +162,11 @@ const Services = () => {
                 alt="Beauty Essentials"
               />
             </div>
-            <h3><Link to={"/beauty"}>Beauty Essentials</Link></h3>
+            <h3>
+              <Link to={"/beauty"}>Beauty Essentials</Link>
+            </h3>
           </div>
-        
+
           <div className="serviceSlideContainer">
             <div className="serviceSlideContent">
               <img
@@ -130,7 +174,9 @@ const Services = () => {
                 alt="Spa"
               />
             </div>
-            <h3><Link to={"/spa"}>Spa</Link></h3>
+            <h3>
+              <Link to={"/spa"}>Spa</Link>
+            </h3>
           </div>
           <div className="serviceSlideContainer">
             <div className="serviceSlideContent">
@@ -139,7 +185,9 @@ const Services = () => {
                 alt="lashes"
               />
             </div>
-            <h3><Link to={"/lashes"}>Lashes</Link></h3>
+            <h3>
+              <Link to={"/lashes"}>Lashes</Link>
+            </h3>
           </div>
         </Slider>
       </div>

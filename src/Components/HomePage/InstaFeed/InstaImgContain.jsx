@@ -4,18 +4,23 @@ import "./InstaFeed.css";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import leftArrow from "./../../../Images/left.png";
+import rightArrow from "./../../../Images/right.png";
 const InstaImgContain = () => {
-  function SampleNextArrow(props) { 
+  function SampleNextArrow(props) {
     const { className, style, onClick } = props;
     return (
       <div
         className={className}
         style={{
           ...style,
-          background: "#cc2228",
-          borderTopRightRadius: "10px",
-          borderBottomRightRadius: "14px",
+          height: "60px",
+          width: "60px",
           cursor: "pointer",
+          backgroundImage: `url(${rightArrow})`,
+          backgroundSize: "contain",
+          backgroundRepeat: "no-repeat",
+          marginRight: "-50px",
         }}
         onClick={onClick}
       />
@@ -28,54 +33,64 @@ const InstaImgContain = () => {
         className={className}
         style={{
           ...style,
-          background: "#cc2228",
-          borderTopLeftRadius: "10px",
-          borderBottomLeftRadius: "10px",
+          height: "60px",
+          width: "60px",
           cursor: "pointer",
+          backgroundImage: `url(${leftArrow})`,
+          backgroundSize: "contain",
+          backgroundRepeat: "no-repeat",
+          marginLeft: "-50px",
         }}
         onClick={onClick}
       />
     );
   }
-  // function SampleNextArrowResp(props) {
-  //   const { className, style, onClick } = props;
-  //   return (
-  //     <div
-  //       className={className}
-  //       style={{
-  //         ...style,
-  //         background: "grey",
-  //         borderTopRightRadius: "100%",
-  //         borderBottomRightRadius: "100%",
-  //         cursor: "pointer",
-  //         position: "absolute",
-  //         zIndex: "3",
-  //         right: "1%",
-  //       }}
-  //       onClick={onClick}
-  //     />
-  //   );
-  // }
-  // function SamplePrevArrowResp(props) {
-  //   const { className, style, onClick } = props;
-  //   return (
-  //     <div
-  //       className={className}
-  //       style={{
-  //         ...style,
-  //         background: "grey",
-  //         color: "red",
-  //         borderTopLeftRadius: "10px",
-  //         borderBottomLeftRadius: "10px",
-  //         cursor: "pointer",
-  //         position: "absolute",
-  //         zIndex: "3",
-  //         left: "1%",
-  //       }}
-  //       onClick={onClick}
-  //     />
-  //   );
-  // }
+
+  function RespSampleNextArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+      <div
+        className={className}
+        style={{
+          ...style,
+
+          cursor: "pointer",
+          // backgroundColor: "red",
+          display: "flex",
+          justifyContent: "center",
+          alignItem: "center",
+          backgroundImage: `url(${rightArrow})`,
+          backgroundSize: "contain",
+          backgroundRepeat: "no-repeat",
+          height: "20px",
+          width: "20px",
+        }}
+        onClick={onClick}
+      />
+    );
+  }
+  function RespSamplePrevArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+      <div
+        className={className}
+        style={{
+          ...style,
+          cursor: "pointer",
+          // backgroundColor: "red",
+          display: "flex",
+          justifyContent: "center",
+          alignItem: "center",
+          backgroundImage: `url(${leftArrow})`,
+          backgroundSize: "contain",
+          backgroundRepeat: "no-repeat",
+          height: "20px",
+          width: "20px",
+        }}
+        onClick={onClick}
+      />
+    );
+  }
   var settings = {
     dots: false,
     infinite: false,
@@ -91,8 +106,8 @@ const InstaImgContain = () => {
           slidesToShow: 1,
           slidesToScroll: 1,
           initialSlide: 2,
-          nextArrow: <SampleNextArrow />,
-          prevArrow: <SamplePrevArrow />,
+          nextArrow: <RespSampleNextArrow />,
+          prevArrow: <RespSamplePrevArrow />,
         },
       },
       {
