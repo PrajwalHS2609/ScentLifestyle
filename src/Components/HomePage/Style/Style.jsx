@@ -5,7 +5,7 @@ const Style = () => {
     <div className="styleContainer">
       <div className="styleContent">
         <div className="styleTxt">
-          <h3>Welcome to SCENT,</h3>
+          <h3>Welcome to SCENT</h3>
         </div>
       </div>
       <div className="styleContent">
