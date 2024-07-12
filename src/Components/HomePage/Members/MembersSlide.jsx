@@ -141,7 +141,7 @@ const MembersSlide = () => {
           <div className="memberSlide">
             <img src={crew4} alt="" />
             <h3>Kevin</h3>
-            <pre>Top Stylist</pre>
+            <pre>Salon Director</pre>
           </div>
         </Slider>
       </div>
