@@ -1,9 +1,11 @@
 .locNaviContainer {
   /* border: solid; */
-  height: 50px;width: 100%;
+  height: 50px;
+  width: 100%;
   display: flex;
   justify-content: flex-start;
-  align-items: center;margin-top: 2%;
+  align-items: center;
+  margin-top: 2%;
 }
 .locNaviContent {
   /* border: solid; */
@@ -25,6 +27,8 @@
 .locNaviContent > h2 > a {
   color: #cc2228;
   text-decoration: none;
+  font-weight: bold;
+  text-decoration: underline;
 }
 .locNaviContent > h2 > p > span {
   font-weight: bold;
@@ -66,7 +70,7 @@
     font-weight: lighter;
   }
 }
-@media screen and (max-width:1440px) and (min-width:1200px) {
+@media screen and (max-width: 1440px) and (min-width: 1200px) {
   .locNaviContent > h2 {
     font-size: 25px;
     font-weight: lighter;

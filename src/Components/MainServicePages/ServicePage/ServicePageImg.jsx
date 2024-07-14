@@ -14,7 +14,7 @@ const ServicePageImg = () => {
             <div className="serviceCoverUnderline"></div>
             <pre> </pre>
             <p>
-              Indulge in the opulent offerings of the SCENT Salon menu,
+              Indulge in the opulent offerings of the SCENT  menu,
               meticulously crafted to address your every need and enhance your
               natural radiance. Step into a realm of luxury and sophistication,
               where you will be pampered like the regal being you truly are.

@@ -33,9 +33,9 @@ const HaircutFaq = () => {
         <li>
           <span>How long does a haircut take?</span>
           <p>
-            A women’s haircut at SCENT Salon may take around one to one and a
+            A women’s haircut at SCENT  may take around one to one and a
             half hours depending on the type and length of your hair. Book an
-            appointment at your nearest SCENT Salon for a free consultation with
+            appointment at your nearest SCENT  for a free consultation with
             our experts and get a trendy hairstyle.
           </p>
         </li>

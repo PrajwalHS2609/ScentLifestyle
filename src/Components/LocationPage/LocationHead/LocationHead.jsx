@@ -1,11 +1,11 @@
 import React from "react";
 import "./LocationHead.css";
-import LocEnquire from './../LocEnquire/LocEnquire';
+import LocEnquire from "./../LocEnquire/LocEnquire";
 const LocationHead = (props) => {
   return (
     <div className="locationHeadContainer">
       <div className="locationHeadItem" id="locationHeadItem1">
-        <h2>ScentLifestyle Salon in {props.loc}</h2>
+        <h2> Salon in {props.loc}</h2>
       </div>
       <div className="locationWrapper">
         <div className="locationHeadContent" id="locationHeadContent1">
@@ -37,7 +37,7 @@ const LocationHead = (props) => {
             <div className="locationHeadAdd">{props.address}</div>
           </div>
           <div className="locationButton">
-            <LocEnquire/>
+            <LocEnquire />
           </div>
         </div>
       </div>

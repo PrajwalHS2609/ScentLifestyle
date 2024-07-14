@@ -3,16 +3,15 @@ import "./JakkuruLocAbout.css";
 const JakkuruLocAbout = () => {
   return (
     <div className="jakkuruLocAboutContainer">
-      <h1>Luxuriate in Serenity: Scent Salon & Spa in Jakkur, Bangalore</h1>
+      <h1>Luxuriate in Serenity: Scent in Jakkur, Bangalore</h1>
       <p>
         <ul>
           <li>
-            Indulge in a world of luxury and tranquility at Scent Salon & Spa in
-            Jakkur, Bangalore. Our salon offers a haven of relaxation where you
-            can escape the stresses of everyday life and rejuvenate your mind,
-            body, and soul. With a wide range of premium services and expert
-            staff, we ensure that every visit leaves you feeling pampered and
-            refreshed.
+            Indulge in a world of luxury and tranquility at Scent in Jakkur,
+            Bangalore. Our salon offers a haven of relaxation where you can
+            escape the stresses of everyday life and rejuvenate your mind, body,
+            and soul. With a wide range of premium services and expert staff, we
+            ensure that every visit leaves you feeling pampered and refreshed.
           </li>
           <li>
             Conveniently located in Jakkur, Bangalore, our salon provides a
@@ -21,10 +20,10 @@ const JakkuruLocAbout = () => {
             your beauty needs.
           </li>
           <li>
-            At Scent Salon & Spa, we offer a comprehensive range of services to
-            cater to every aspect of your grooming and wellness needs. From
-            haircuts and styling to facials, massages, manicures, pedicures, and
-            more, we have everything you need to look and feel your best.
+            At Scent, we offer a comprehensive range of services to cater to
+            every aspect of your grooming and wellness needs. From haircuts and
+            styling to facials, massages, manicures, pedicures, and more, we
+            have everything you need to look and feel your best.
           </li>
           <li>
             Our experienced team of stylists, therapists, and technicians are
@@ -34,23 +33,22 @@ const JakkuruLocAbout = () => {
             individual preferences and requirements.
           </li>
           <li>
-            In addition to our regular services, Scent Salon & Spa also offers
-            membership options for our loyal clients. With our membership
-            program, you can enjoy exclusive benefits and discounts on our
-            services, making it even easier to treat yourself to regular
-            indulgence.
+            In addition to our regular services, Scent also offers membership
+            options for our loyal clients. With our membership program, you can
+            enjoy exclusive benefits and discounts on our services, making it
+            even easier to treat yourself to regular indulgence.
           </li>
           <li>
-            When you visit Scent Salon & Spa in Jakkur, Bangalore, you can
-            expect a serene and welcoming atmosphere where you can relax and
-            unwind. Our friendly staff will ensure that you feel comfortable and
-            cared for throughout your visit, leaving you feeling completely
-            refreshed and rejuvenated.
+            When you visit Scent in Jakkur, Bangalore, you can expect a serene
+            and welcoming atmosphere where you can relax and unwind. Our
+            friendly staff will ensure that you feel comfortable and cared for
+            throughout your visit, leaving you feeling completely refreshed and
+            rejuvenated.
           </li>
           <li>
             So why wait? Treat yourself to the ultimate pampering experience at
-            Scent Salon & Spa in Jakkur, Bangalore. Book your appointment today
-            and discover the true meaning of luxury and relaxation.
+            Scent in Jakkur, Bangalore. Book your appointment today and discover
+            the true meaning of luxury and relaxation.
           </li>
         </ul>
       </p>

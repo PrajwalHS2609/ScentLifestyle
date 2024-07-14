@@ -4,14 +4,14 @@ const UnisexSalonPara = () => {
   return (
     <div className="unisexParaContainer">
       <p>
-        Welcome to SCENT Salon Services, your ultimate destination for luxury
+        Welcome to SCENT  Services, your ultimate destination for luxury
         beauty and wellness in Bangalore. Nestled in the heart of the city,
-        SCENT Salon offers a sanctuary where you can escape the hustle and
+        SCENT  offers a sanctuary where you can escape the hustle and
         bustle of everyday life and indulge in a world of relaxation,
         rejuvenation, and beauty.
       </p>
       <p>
-        At SCENT Salon, we believe that true beauty starts from within, and our
+        At SCENT , we believe that true beauty starts from within, and our
         mission is to help you look and feel your absolute best. Our team of
         skilled and experienced professionals is dedicated to providing you with
         personalized services that cater to your unique needs and preferences.
@@ -26,7 +26,7 @@ const UnisexSalonPara = () => {
         ensure that you receive top-notch results with every visit.
       </p>
       <p>
-        At SCENT Salon, we understand that beauty is not one-size-fits-all.
+        At SCENT , we understand that beauty is not one-size-fits-all.
         That's why we take the time to listen to your concerns and preferences
         before customizing a treatment plan that's tailored to your individual
         needs. Whether you're looking for a bold new hairstyle, a relaxing spa
@@ -40,7 +40,7 @@ const UnisexSalonPara = () => {
         more affordable.
       </p>
       <p>
-        Experience the luxury of SCENT Salon Services and discover a new level
+        Experience the luxury of SCENT  Services and discover a new level
         of beauty and wellness. Schedule your appointment today and let us help
         you look and feel your best.
       </p>

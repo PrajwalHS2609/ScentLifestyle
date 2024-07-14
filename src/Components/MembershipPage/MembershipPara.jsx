@@ -4,7 +4,7 @@ const MembershipPara = () => {
   return (
     <div className="membershipParaContainer">
       <p>
-        Introducing the SCENT Salon Spa Membership – your key to unlocking a
+        Introducing the SCENT  Spa Membership – your key to unlocking a
         world of beauty and relaxation. With our exclusive membership program,
         you'll enjoy a host of benefits designed to enhance your salon and spa
         experience.
@@ -27,12 +27,12 @@ const MembershipPara = () => {
         members and our expert staff.
       </p>
       <p>
-        Joining the SCENT Salon Spa Membership is easy and hassle-free. Simply
+        Joining the SCENT  Spa Membership is easy and hassle-free. Simply
         sign up at any of our salon locations and start reaping the rewards of
         membership today.
       </p>
       <p>
-        Experience the difference of being a SCENT Salon Spa member – where
+        Experience the difference of being a SCENT  Spa member – where
         beauty meets relaxation, and luxury becomes a way of life.
       </p>
     </div>

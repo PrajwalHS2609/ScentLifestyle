@@ -20,11 +20,11 @@
   align-items: center;
   font-size: 17px;
   gap: 20px;
-  font-weight: lighter;
 }
 .navi5Content > h2 > a {
   color: #cc2228;
-  text-decoration: none;
+  text-decoration: underline;
+  font-weight: bold;
 }
 .navi5Content > h2 > span {
   font-weight: bold;
@@ -38,19 +38,17 @@
   .navi5Content {
     /* border: solid; */
     height: 50px;
-    width:90%;
+    width: 90%;
     justify-content: flex-start;
-    align-items:cente3;
+    align-items: cente3;
     margin-left: 20px;
-
- 
   }
   .navi5Content > h2 {
     font-size: 90%;
     font-weight: lighter;
   }
 }
-@media  only screen and (max-width: 990px) and (min-width:600px) {
+@media only screen and (max-width: 990px) and (min-width: 600px) {
   .navi5Container {
     /* border: solid; */
     height: 50px;
@@ -62,11 +60,9 @@
     width: 500px;
     justify-content: flex-start;
     align-items: flex-start;
- 
   }
   .navi5Content > h2 {
     font-size: 20px;
     font-weight: lighter;
   }
 }
-

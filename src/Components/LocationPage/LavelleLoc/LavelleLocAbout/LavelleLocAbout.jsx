@@ -3,11 +3,11 @@ import "./LavelleLocAbout.css";
 const LavelleLocAbout = () => {
   return (
     <div className="sahakarLocAboutContainer">
-      <h1>Experience Luxury at Scent Salon & Spa in Lavelle Road, Bangalore</h1>
+      <h1>Experience Luxury at Scent  in Lavelle Road, Bangalore</h1>
       <p>
         <ul>
           <li>
-            Welcome to Scent Salon & Spa, your ultimate destination for luxury
+            Welcome to Scent , your ultimate destination for luxury
             beauty and wellness services in the heart of Lavelle Road,
             Bangalore. Situated in one of the city's most vibrant neighborhoods,
             our salon offers a wide range of services designed to pamper and
@@ -22,7 +22,7 @@ const LavelleLocAbout = () => {
           </li>
           <li>
             <h3>Luxurious Spa Treatments</h3>
-            At Scent Salon & Spa, we believe in the transformative power of spa
+            At Scent , we believe in the transformative power of spa
             treatments. Whether you're looking to de-stress with a soothing
             massage, rejuvenate your skin with a facial, or pamper yourself with
             a body scrub, our expert therapists are here to cater to your every
@@ -59,7 +59,7 @@ const LavelleLocAbout = () => {
           </li>
           <li>
             <h3>Visit Us Today</h3>
-            Come experience the luxury of Scent Salon & Spa in Lavelle Road,
+            Come experience the luxury of Scent  in Lavelle Road,
             Bangalore. Whether you're treating yourself to a day of pampering or
             preparing for a special event, our dedicated team is here to ensure
             you leave feeling refreshed, rejuvenated, and ready to take on the

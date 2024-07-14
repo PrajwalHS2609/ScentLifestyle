@@ -24,7 +24,8 @@
 }
 .navi1Content > h3 > a {
   color: #cc2228;
-  text-decoration: none;
+  text-decoration: underline;
+  font-weight: bold;
 }
 .navi1Content > h3 > span {
   font-weight: bold;

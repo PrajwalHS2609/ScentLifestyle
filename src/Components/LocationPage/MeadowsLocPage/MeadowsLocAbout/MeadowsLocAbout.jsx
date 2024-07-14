@@ -4,20 +4,20 @@ const MeadowsLocAbout = () => {
   return (
     <div className="meadowsLocAboutContainer">
       <h1>
-        Experience Luxury and Relaxation at Scent Salon & Spa in Whitefield,
+        Experience Luxury and Relaxation at Scent  in Whitefield,
         Bangalore
       </h1>
       <p>
         <ul>
           <li>
-            Located in the heart of Whitefield, Bangalore, Scent Salon & Spa
+            Located in the heart of Whitefield, Bangalore, Scent
             offers a luxurious escape from the hustle and bustle of city life.
             Our salon and spa provide a serene and welcoming environment where
             you can indulge in a wide range of beauty and wellness services
             tailored to your needs.
           </li>
           <li>
-            At Scent Salon & Spa, we believe in providing our clients with the
+            At Scent , we believe in providing our clients with the
             highest quality service and personalized attention. Our team of
             skilled professionals is dedicated to ensuring that every visit
             leaves you feeling pampered, refreshed, and rejuvenated.
@@ -30,8 +30,7 @@ const MeadowsLocAbout = () => {
             feel your best.
           </li>
           <li>
-            With our convenient location in Whitefield, Bangalore, Scent Salon &
-            Spa is easily accessible and provides a peaceful oasis where you can
+            With our convenient location in Whitefield, Bangalore, Scent  is easily accessible and provides a peaceful oasis where you can
             escape from the stresses of everyday life. Step into our elegant
             space and let our friendly staff take care of all your beauty and
             wellness needs.
@@ -43,7 +42,7 @@ const MeadowsLocAbout = () => {
             even easier to indulge in regular pampering. .
           </li>
           <li>
-            When you visit Scent Salon & Spa in Whitefield, Bangalore, you can
+            When you visit Scent  in Whitefield, Bangalore, you can
             expect a warm and inviting atmosphere where you can relax and
             unwind. Our experienced therapists and technicians will ensure that
             you receive the highest quality treatment, tailored to your specific
@@ -51,7 +50,7 @@ const MeadowsLocAbout = () => {
           </li>
           <li>
             So why wait? Treat yourself to the ultimate pampering experience at
-            Scent Salon & Spa in Whitefield, Bangalore. Book your appointment
+            Scent  in Whitefield, Bangalore. Book your appointment
             today and discover the true meaning of luxury and relaxation.
           </li>
         </ul>

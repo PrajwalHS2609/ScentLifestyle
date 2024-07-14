@@ -14,7 +14,7 @@
   margin-left: 70px;
   color: #cc2228;
 }
-.navi3Content > h1 {
+.navi3Content > h2 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22,11 +22,12 @@
   gap: 20px;
   font-weight: lighter;
 }
-.navi3Content > h1 > a {
+.navi3Content > h2 > a {
   color: #cc2228;
-  text-decoration: none;
+  text-decoration: underline;
+  font-weight: bold;
 }
-.navi3Content > h1 > span {
+.navi3Content > h2 > span {
   font-weight: bold;
 }
 @media only screen and (max-width: 600px) {

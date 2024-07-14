@@ -66,6 +66,10 @@
   color: #cc2228;
   text-shadow: none;
 }
+.vidTxt > a {
+  text-decoration: none;
+  color: white;
+}
 .vidTxt > a > pre {
   text-decoration: none;
   color: white;

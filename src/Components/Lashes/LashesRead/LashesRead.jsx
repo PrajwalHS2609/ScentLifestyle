@@ -17,7 +17,7 @@ const LashesRead = () => {
   return (
     <div className="lashesReadContainer">
       <header>
-        <h1>Enhance Your Beauty with Eyelash Extensions at SCENT Salon</h1>
+        <h1>Enhance Your Beauty with Eyelash Extensions at SCENT </h1>
       </header>
       <div className="lashesReadHeadContainer">
         <ul>

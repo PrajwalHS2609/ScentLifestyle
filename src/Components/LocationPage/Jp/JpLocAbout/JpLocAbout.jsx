@@ -4,14 +4,14 @@ const JpLocAbout = () => {
   return (
     <div className="meadowsLocAboutContainer">
       <h1>
-        Scent Salon & Spa JP Nagar, Bangalore – Your Destination for Beauty and
+        Scent  JP Nagar, Bangalore – Your Destination for Beauty and
         Wellness!
       </h1>
       <p>
         <ul>
         <li>
             Escape the chaos of everyday life and indulge in a luxurious
-            experience at Scent Salon & Spa in JP Nagar, Bangalore. Our salon
+            experience at Scent  in JP Nagar, Bangalore. Our salon
             and spa offer a wide range of services designed to help you look and
             feel your best.
           </li>
@@ -22,7 +22,7 @@ const JpLocAbout = () => {
             professionals take care of all your beauty and wellness needs.
           </li>
           <li>
-            At Scent Salon & Spa, we offer a comprehensive range of services,
+            At Scent , we offer a comprehensive range of services,
             including haircuts, styling, coloring, facials, massages, manicures,
             pedicures, and more. Whether you're in need of a quick touch-up or a
             full day of relaxation, we have everything you need to pamper
@@ -35,14 +35,14 @@ const JpLocAbout = () => {
             individual preferences and requirements.
           </li>
           <li>
-            In addition to our regular services, Scent Salon & Spa also offers
+            In addition to our regular services, Scent  also offers
             membership options for our loyal clients. With our membership
             program, you can enjoy exclusive benefits and discounts on our
             services, making it easier than ever to indulge in regular
             pampering.
           </li>
           <li>
-            When you visit Scent Salon & Spa in JP Nagar, Bangalore, you can
+            When you visit Scent  in JP Nagar, Bangalore, you can
             expect a warm and inviting atmosphere where you can relax and
             unwind. Our friendly staff will ensure that you feel comfortable and
             cared for throughout your visit, leaving you feeling refreshed and
@@ -50,7 +50,7 @@ const JpLocAbout = () => {
           </li>
           <li>
             So why wait? Treat yourself to the ultimate pampering experience at
-            Scent Salon & Spa in JP Nagar, Bangalore. Book your appointment
+            Scent  in JP Nagar, Bangalore. Book your appointment
             today and experience the perfect blend of luxury and relaxation.
           </li>
         </ul>
