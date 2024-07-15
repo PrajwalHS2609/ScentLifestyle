@@ -85,7 +85,7 @@
     margin-top: 30px;
   }
   .salonItem {
-    /* border: solid green; */
+    border: solid green;
     height: 100px;
     width: 100px;
   }

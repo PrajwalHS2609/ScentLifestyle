@@ -14,7 +14,7 @@
 .olaplexUnderline {
   border: 2px solid;
   color: var(--customRed);
-  width: 5%;
+  width: 50px;
 }
 .olaplexCardContainWrapper {
   /* border: solid red; */
@@ -83,6 +83,7 @@
   justify-content: center;
   align-items: center;
   gap: 10px;
+  text-decoration: none;
 }
 .olaplexCardTxt > button {
   border: none;

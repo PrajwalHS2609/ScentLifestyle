@@ -52,11 +52,11 @@ const HairSalonUptown = () => {
           </div>
           <div className="hairSalonLocationWelcomeHead">
             <h2>
-              Experience Premier Hair Care at SCENT Salon in Uptown, Whitefield{" "}
+              Experience Premier Hair Care at SCENT  in Uptown, Whitefield{" "}
             </h2>
           </div>
           <div className="hairSalonLocationWelcomePara">
-            Welcome to SCENT Salon, the premier destination for top-notch hair
+            Welcome to SCENT , the premier destination for top-notch hair
             care services in Uptown, Whitefield. Our salon is dedicated to
             offering exceptional hairstyling, coloring, and treatment services
             that cater to your individual needs. At{" "}
@@ -125,7 +125,7 @@ const HairSalonUptown = () => {
                   requirements.
                 </li>
                 <li>
-                  <span>Premium Products: </span> At SCENT Salon, we use only
+                  <span>Premium Products: </span> At SCENT , we use only
                   the finest hair care products known for their superior
                   performance and gentle care. Our products are selected to
                   provide the best results while maintaining the health and
@@ -139,7 +139,7 @@ const HairSalonUptown = () => {
                 </li>
                 <li>
                   <span>Convenient Location:</span> Conveniently located in
-                  Uptown, Whitefield, SCENT Salon is easily accessible, making
+                  Uptown, Whitefield, SCENT  is easily accessible, making
                   it an ideal choice for quick touch-ups or extensive beauty
                   treatments.
                 </li>
@@ -162,7 +162,7 @@ const HairSalonUptown = () => {
               achieve your hair goals.
             </p>
             <p>
-              Visit SCENT Salon and discover why we are the top choice for{" "}
+              Visit SCENT  and discover why we are the top choice for{" "}
               <Link to={"/hair-salon-in-uptown-whitefield"}>
                 hair care in Uptown, Whitefield
               </Link>

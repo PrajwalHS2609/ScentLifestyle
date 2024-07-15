@@ -79,7 +79,7 @@ const HairColorFaq = () => {
             to the tips, in a single colour. This is in contrast to highlighting
             or other colouring techniques that only colour specific sections of
             the hair. If you’re wondering about global hair colour prices in
-            Bangalore, book an appointment or visit the nearest SCENT salon and
+            Bangalore, book an appointment or visit the nearest SCENT  and
             our staff will guide you with hair colouring prices according to the
             length of your hair and the colour you choose.
           </p>
@@ -96,7 +96,7 @@ const HairColorFaq = () => {
         <li>
           <span>What is the price of global hair colour in Bangalore?</span>
           <p>
-            At SCENT Salon, the price to get global hair colouring done. Book an
+            At SCENT , the price to get global hair colouring done. Book an
             appointment with one of our experts for guidance on global hair
             colour prices. You can also explore the price of global hair colour
             with highlights for a completely unique look.

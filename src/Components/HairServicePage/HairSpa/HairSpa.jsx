@@ -24,7 +24,7 @@ const HairSpa = () => {
         </title>
         <meta
           name="description"
-          content="SCENT Hair Spa in Bangalore. Select from a variety of hair spa treatments tailored to your hair type and needs at a SCENT salon near you."
+          content="SCENT Hair Spa in Bangalore. Select from a variety of hair spa treatments tailored to your hair type and needs at a SCENT  near you."
         />
         <link
           rel="canonical"
@@ -35,7 +35,7 @@ const HairSpa = () => {
       <div className="hairSpaContent">
         <InnerServiceTxt
           head="HAIR SPA SERVICES"
-          para="Select from a variety of hair spa treatments tailored to your hair type and needs at a SCENT salon near you. These treatments can be customized to address various hair concerns, including oiliness, frizz, dryness, and an itchy scalp. Indulge in an intense hair spa to relax and rejuvenate your scalp and tresses with our Olaplex treatment, specially designed for chemically treated hair. It helps prevent breakage, reverse damage, and promote healthier hair."
+          para="Select from a variety of hair spa treatments tailored to your hair type and needs at a SCENT  near you. These treatments can be customized to address various hair concerns, including oiliness, frizz, dryness, and an itchy scalp. Indulge in an intense hair spa to relax and rejuvenate your scalp and tresses with our Olaplex treatment, specially designed for chemically treated hair. It helps prevent breakage, reverse damage, and promote healthier hair."
         />
         <InnerNavi
           link={"/hair-salon"}

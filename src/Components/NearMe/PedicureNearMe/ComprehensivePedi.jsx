@@ -133,7 +133,7 @@ const ComprehensivePedi = () => {
         Salon is here to meet all your pedicure needs. Book your appointment
         today and discover why we are the best{" "}
         <Link to={"/pedicure-near-me"}>"pedicure near me,"</Link> Your feet
-        deserve the best, and at<Link to={"/"}>SCENT Salon</Link>, we are committed to delivering
+        deserve the best, and at<Link to={"/"}> SCENT Salon </Link>, we are committed to delivering
         just that. Treat yourself to a luxurious pedicure experience and step
         out with confidence and beautifully pampered feet.
       </p>

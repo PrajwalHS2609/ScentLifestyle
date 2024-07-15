@@ -66,9 +66,9 @@ const Mustache = () => {
           />
         </div>
         <InnerServiceTxt
-          head="Mustache Styling in Bangalore at SCENT Salon"
+          head="Mustache Styling in Bangalore at SCENT "
           para="Elevate Your Look with Expert Mustache Styling
-At SCENT Salon, we understand that a well-groomed mustache can make a powerful statement. Our mustache styling services in Bangalore are designed to help you achieve the perfect look that complements your personality and style."
+At SCENT , we understand that a well-groomed mustache can make a powerful statement. Our mustache styling services in Bangalore are designed to help you achieve the perfect look that complements your personality and style."
         />
         <MustacheFaq />
       </div>

@@ -23,6 +23,10 @@
 .nearHeadContainer > p {
   font-size: 20px;
 }
+.nearHeadContainer > p > a {
+  text-decoration: none;
+  color: #cc2228;
+}
 .compContainer {
   width: 90%;
   display: flex;
@@ -30,6 +34,10 @@
   align-items: flex-start;
   flex-direction: column;
   gap: 10px;
+}
+.compContainer>p>a{
+text-decoration: none;
+  color: #cc2228;
 }
 .compContainer > h2 {
   color: #cc2228;

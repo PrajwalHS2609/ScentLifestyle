@@ -24,7 +24,7 @@ const HairTreatment = () => {
         </title>
         <meta
           name="description"
-          content="SCENT Salon Hair Treatments in Bangalore. Select from a variety of hair treatments tailored to your hair type and needs at a SCENT salon near you. "
+          content="Salon Hair Treatments in Bangalore. Select from a variety of hair treatments tailored to your hair type and needs at a SCENT  near you. "
         />
         <link
           rel="canonical"
@@ -35,7 +35,7 @@ const HairTreatment = () => {
       <div className="hairTreatmentContent">
         <InnerServiceTxt
           head="HAIR TREATMENT SERVICES"
-          para="Select from a variety of hair  treatments tailored to your hair type and needs at a SCENT salon near you. These treatments can be customized to address various hair concerns, including oiliness, frizz, dryness, and an itchy scalp. Indulge in an intense hair spa to relax and rejuvenate your scalp and tresses with our Olaplex treatment, specially designed for chemically treated hair. It helps prevent breakage, reverse damage, and promote healthier hair."
+          para="Select from a variety of hair  treatments tailored to your hair type and needs at a SCENT  near you. These treatments can be customized to address various hair concerns, including oiliness, frizz, dryness, and an itchy scalp. Indulge in an intense hair spa to relax and rejuvenate your scalp and tresses with our Olaplex treatment, specially designed for chemically treated hair. It helps prevent breakage, reverse damage, and promote healthier hair."
         />
         <InnerNavi
           link={"/hair-salon"}
@@ -113,8 +113,8 @@ const HairTreatment = () => {
           />
         </div>
         <InnerServiceTxt
-          head="Your Hair with SCENT Salon's Expert Protein Treatments"
-          para="Are you looking to boost your hair's strength, elasticity, and shine? At SCENT Salon, we're specialists in protein treatments, having successfully performed over 5,000 treatments in Bangalore. We use only the highest quality products and techniques, ensuring you won't find a better price or service anywhere in the city."
+          head="Your Hair with SCENT's Expert Protein Treatments"
+          para="Are you looking to boost your hair's strength, elasticity, and shine? At SCENT , we're specialists in protein treatments, having successfully performed over 5,000 treatments in Bangalore. We use only the highest quality products and techniques, ensuring you won't find a better price or service anywhere in the city."
         />
         <HairTreatmentFaq />
       </div>

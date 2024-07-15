@@ -9,8 +9,9 @@
 }
 .shopPageHead > h1 {
   color: var(--customColor);
+  text-align: center;
 }
 .shopUnderLine {
     border: 2px solid var(--customColor);
-  width: 10%;
+  width: 150px
 }

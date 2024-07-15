@@ -14,7 +14,7 @@ const NailNearHead = () => {
         ourselves on being the premier destination for all your nail care needs
         in the area. Whether you're looking for a quick manicure, a luxurious
         pedicure, or intricate nail art, <Link to={"/nails-salon-near-me"}>SCENT Salon has you covered</Link>. Here’s why
-        SCENT Salon should be your go-to choice when looking for a <Link to={"/nails-salon"}>nail salon</Link>
+        SCENT Salon should be your go-to choice when looking for a <Link to={"/nails-salon"}>nail salon </Link>
         near me.
       </p>
     </div>

@@ -51,7 +51,7 @@ const HairSalonJp = () => {
             </p>
           </div>
           <div className="hairSalonLocationWelcomeHead">
-            <h2>Experience Premier Hair Care at SCENT Salon in JP Nagar </h2>
+            <h2>Experience Premier Hair Care at SCENT  in JP Nagar </h2>
           </div>
           <div className="hairSalonLocationWelcomePara">
             Welcome to{" "}
@@ -127,7 +127,7 @@ const HairSalonJp = () => {
                   look.
                 </li>
                 <li>
-                  <span>High-Quality Products </span> At SCENT Salon, we use
+                  <span>High-Quality Products </span> At SCENT , we use
                   only the finest hair care products known for their superior
                   performance and gentle care. Our products are selected to
                   provide the best results while maintaining the health and
@@ -141,7 +141,7 @@ const HairSalonJp = () => {
                 </li>
                 <li>
                   <span>Convenient Location:</span> Situated in the heart of JP
-                  Nagar, SCENT Salon is easily accessible, making it a
+                  Nagar, SCENT  is easily accessible, making it a
                   convenient choice for your hair care needs.
                 </li>
               </ol>
@@ -162,7 +162,7 @@ const HairSalonJp = () => {
               achieve your hair goals.
             </p>
             <p>
-              Visit <Link to={"/"}>SCENT Salon</Link> and discover why we are
+              Visit <Link to={"/"}>SCENT </Link> and discover why we are
               the preferred choice for{" "}
               <Link to={"/hair-salon-in-jp-nagar-bangalore"}>
                 hair care in JP Nagar

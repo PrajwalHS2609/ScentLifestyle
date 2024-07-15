@@ -10,12 +10,12 @@ const MustacheFaq = () => {
       </h2> */}
       <ul>
         <li>
-          <span>Why Choose SCENT Salon for Mustache Styling?</span>
+          <span>Why Choose SCENT for Mustache Styling?</span>
           <p>
             Our experienced stylists are skilled in a variety of mustache
             styles, from classic to contemporary. Whether you're looking to
             refine your existing style or try something completely new, we have
-            the expertise to make it happen. Here’s why SCENT Salon is the best
+            the expertise to make it happen. Here’s why SCENT  is the best
             choice for mustache styling in Bangalore:
             <li>
               Professional Expertise: Our stylists are trained in the latest
@@ -65,9 +65,9 @@ const MustacheFaq = () => {
           </p>
         </li>
         <li>
-          <span>The SCENT Salon Experience</span>
+          <span>The SCENT Experience</span>
           <p>
-            When you visit SCENT Salon for mustache styling in Bangalore, you
+            When you visit SCENT for mustache styling in Bangalore, you
             can expect a comprehensive grooming experience. Here’s what you can
             look forward to:
             <li>
@@ -89,7 +89,7 @@ const MustacheFaq = () => {
           <span>Book Your Appointment Today</span>
           <p>
             Ready to redefine your look with expert mustache styling? Book an
-            appointment at SCENT Salon in Bangalore today and let our skilled
+            appointment at SCENT  in Bangalore today and let our skilled
             stylists help you achieve the perfect mustache. Visit our website or
             call us to schedule your session.
           </p>
@@ -98,7 +98,7 @@ const MustacheFaq = () => {
           <span>Contact Us</span>
           <p>
             For more information about our mustache styling services or to book
-            an appointment, get in touch with SCENT Salon. Join the many
+            an appointment, get in touch with SCENT . Join the many
             satisfied clients who trust us with their grooming needs and
             experience the difference that professional styling can make.
           </p>

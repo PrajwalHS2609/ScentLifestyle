@@ -52,12 +52,12 @@ const HairSalonMeadows = () => {
           </div>
           <div className="hairSalonLocationWelcomeHead">
             <h2>
-              Discover Exceptional Hair Care at SCENT Salon in Meadows,
+              Discover Exceptional Hair Care at SCENT  in Meadows,
               Whitefield
             </h2>
           </div>
           <div className="hairSalonLocationWelcomePara">
-            Welcome to SCENT Salon, your premier destination for outstanding
+            Welcome to SCENT , your premier destination for outstanding
             <Link to={"/hair-salon-in-meadows-whitefield"}>
               hair care services in Meadows, Whitefield
             </Link>
@@ -71,7 +71,7 @@ const HairSalonMeadows = () => {
             </Link>
             , or{" "}
             <Link to={"/hair-treatment"}> specialized hair treatments</Link>,{" "}
-            <Link to={"/"}> SCENT Salon</Link> is here to meet all your hair
+            <Link to={"/"}> SCENT </Link> is here to meet all your hair
             care needs.
           </div>
           <div className="hairSalonLocationService">
@@ -136,7 +136,7 @@ const HairSalonMeadows = () => {
                   look.
                 </li>
                 <li>
-                  <span>Premium Products: </span> SCENT Salon uses only the
+                  <span>Premium Products: </span> SCENT  uses only the
                   finest hair care products that are known for their excellent
                   performance and gentle care. We choose products that maintain
                   the health and integrity of your hair while providing stunning
@@ -150,7 +150,7 @@ const HairSalonMeadows = () => {
                 </li>
                 <li>
                   <span>Convenient Location:</span> Located in Meadows,
-                  Whitefield, SCENT Salon is easily accessible, making it a
+                  Whitefield, SCENT  is easily accessible, making it a
                   convenient choice for quick touch-ups or comprehensive beauty
                   treatments.
                 </li>
@@ -165,14 +165,14 @@ const HairSalonMeadows = () => {
               Ready for a hair transformation? Schedule your appointment at
               <span> </span>
               <Link to={"/hair-salon-in-meadows-whitefield"}>
-                SCENT Salon in Meadows, Whitefield
+                SCENT  in Meadows, Whitefield
               </Link>
               today. Whether you need a chic haircut, a vibrant color change, or
               a restorative treatment, our expert team is here to help you
               achieve your hair goals.
             </p>
             <p>
-              Visit SCENT Salon and discover why we are the preferred choice for
+              Visit SCENT  and discover why we are the preferred choice for
               <span> </span>
               <Link to={"/hair-salon-in-meadows-whitefield"}>
                 hair care in Meadows, Whitefield

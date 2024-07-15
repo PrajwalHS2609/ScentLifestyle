@@ -6,7 +6,7 @@ const BeardStyleFaq = () => {
       <h1>FAQ's</h1>
       <h2>
         Discover the ultimate destination for your next Beard Styling
-        Appointment in Bangalore at SCENT Salon!
+        Appointment in Bangalore at SCENT !
       </h2>
       <ul>
         <li>
@@ -43,7 +43,7 @@ const BeardStyleFaq = () => {
         <li>
           <span>Who are the top beard stylists in Bangalore?</span>
           <p>
-            Look no further than SCENT Salon, home to some of Bangalore's finest
+            Look no further than SCENT , home to some of Bangalore's finest
             beard artisans. Treat yourself to a luxurious straight-razor shave
             or a meticulously crafted trim, all performed by our skilled
             barbers. If you seek the best in beard grooming, your search ends
@@ -79,7 +79,7 @@ const BeardStyleFaq = () => {
         <li>
           <span>Why choose SCENT for beard-shaping services?</span>
           <p>
-            SCENT Salon stands out as the premier choice for beard shaping,
+            SCENT  stands out as the premier choice for beard shaping,
             known for excellence in grooming services. Our experienced stylists
             offer personalized consultations and use high-quality products to
             ensure both style and health. Trust SCENT for an unmatched grooming

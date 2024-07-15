@@ -52,7 +52,7 @@ const HairSalonSahakar = () => {
           </div>
           <div className="hairSalonLocationWelcomeHead">
             <h2>
-              Discover Top-Notch Hair Care at SCENT Salon in Sahakar Nagar
+              Discover Top-Notch Hair Care at SCENT  in Sahakar Nagar
             </h2>
           </div>
           <div className="hairSalonLocationWelcomePara">
@@ -67,7 +67,7 @@ const HairSalonSahakar = () => {
             <Link to={"/hair-highlights-and-streaks"}>vibrant hair color</Link>,
             or a
             <Link to={"/hair-treatments"}> rejuvenating hair treatment</Link>,
-            SCENT Salon is your go-to destination for all your hair care needs.
+            SCENT  is your go-to destination for all your hair care needs.
           </div>
           <div className="hairSalonLocationService">
             <h2>Our Hair Salon Services</h2>
@@ -136,7 +136,7 @@ const HairSalonSahakar = () => {
                 </li>
                 <li>
                   <span>Convenient Location:</span> Located in the heart of
-                  Sahakar Nagar, SCENT Salon is easily accessible, making it
+                  Sahakar Nagar, SCENT  is easily accessible, making it
                   convenient for you to drop in for a quick touch-up or a
                   complete makeover.
                 </li>
@@ -159,7 +159,7 @@ const HairSalonSahakar = () => {
               treatment, we are here to help you look and feel your best.
             </p>
             <p>
-              Visit us at <Link to={"/"}>SCENT Salon</Link> and discover why we
+              Visit us at <Link to={"/"}>SCENT </Link> and discover why we
               are the top choice for <span></span>
               <Link to={"/hair-salon-in-sahakr-nagar"}>
                 hair care in Sahakar Nagar

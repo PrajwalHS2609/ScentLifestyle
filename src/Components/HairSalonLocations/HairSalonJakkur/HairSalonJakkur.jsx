@@ -49,7 +49,7 @@ const HairSalonJakkur = () => {
           </div>
           <div className="hairSalonLocationWelcomeHead">
             <h2>
-              Discover Top-Notch Hair Care at SCENT Salon in Sahakar Nagar
+              Discover Top-Notch Hair Care at SCENT  in Sahakar Nagar
             </h2>
           </div>
           <div className="hairSalonLocationWelcomePara">
@@ -122,7 +122,7 @@ const HairSalonJakkur = () => {
                   services.
                 </li>
                 <li>
-                  <span>Personalized Attention:</span> At SCENT Salon, we
+                  <span>Personalized Attention:</span> At SCENT , we
                   believe in delivering personalized attention to each client.
                   Our stylists take the time to understand your needs and
                   preferences, ensuring that every service is customized to meet
@@ -142,7 +142,7 @@ const HairSalonJakkur = () => {
                 </li>
                 <li>
                   <span>Convenient Location:</span> Conveniently located in
-                  Jakkur, SCENT Salon is easily accessible, making it simple for
+                  Jakkur, SCENT  is easily accessible, making it simple for
                   you to drop by for a quick service or a complete beauty
                   makeover.
                 </li>
@@ -165,7 +165,7 @@ const HairSalonJakkur = () => {
               achieve your hair goals.
             </p>
             <p>
-              Visit us at <Link to={"/"}>SCENT Salon</Link> and discover why we
+              Visit us at <Link to={"/"}>SCENT </Link> and discover why we
               are the preferred choice for <span></span>
               <Link to={"/hair-salon-in-jakkur"}>hair care in Jakkur</Link>. We
               look forward to welcoming you and providing you with an

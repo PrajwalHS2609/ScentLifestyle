@@ -68,7 +68,7 @@ const BeardStyle = () => {
         </div>
         <InnerServiceTxt
           head="BEARD STYLING SERVICES IN BANGALORE"
-          para="Experience the artistry of flawless grooming with SCENT Salon's exceptional beard styling services! Unleash your style and uncover the closest haven for beard grooming near you to revolutionize your appearance right now!"
+          para="Experience the artistry of flawless grooming with SCENT's exceptional beard styling services! Unleash your style and uncover the closest haven for beard grooming near you to revolutionize your appearance right now!"
         />
         <BeardStyleFaq />
       </div>

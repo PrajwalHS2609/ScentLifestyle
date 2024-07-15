@@ -7,7 +7,7 @@ const HairTreatmentFaq = () => {
       {/* <h2></h2> */}
       <ul>
         <li>
-          <span>Why Choose SCENT Salon for Protein Treatments?</span>
+          <span>Why Choose SCENT for Protein Treatments?</span>
           <p>
             We believe in educating our clients about the benefits and options
             of protein treatments. When you visit us, you'll learn about:
@@ -17,7 +17,7 @@ const HairTreatmentFaq = () => {
         </li>
         <li>
           <span>
-            Why SCENT Salon is the Best Choice in Bangalore Benefits of Protein
+            Why SCENT  is the Best Choice in Bangalore Benefits of Protein
             Treatments
           </span>
           <p>
@@ -66,9 +66,9 @@ const HairTreatmentFaq = () => {
           </p>
         </li>
         <li>
-          <span>Why SCENT Salon?</span>
+          <span>Why SCENT ?</span>
           <p>
-            SCENT Salon is renowned in Bangalore for offering a wide range of
+            SCENT  is renowned in Bangalore for offering a wide range of
             hair treatments, including our specialized protein treatments. With
             over 5,000 treatments performed, we have the expertise and
             experience to transform your hair. We use only the best products and
@@ -80,7 +80,7 @@ const HairTreatmentFaq = () => {
           <span>Book Your Appointment Today!</span>
           <p>
             Don't wait to give your hair the care it deserves. Book your
-            appointment at SCENT Salon today and experience the transformative
+            appointment at SCENT  today and experience the transformative
             power of protein treatments. Let our skilled professionals help you
             achieve the healthy, shiny, and strong hair you've always wanted.
           </p>
@@ -90,7 +90,7 @@ const HairTreatmentFaq = () => {
           <p>
             For more information or to schedule your protein treatment, visit
             our website or call us today. Join the countless satisfied clients
-            who have made SCENT Salon their go-to destination for expert hair
+            who have made SCENT  their go-to destination for expert hair
             care in Bangalore.
           </p>
         </li>
