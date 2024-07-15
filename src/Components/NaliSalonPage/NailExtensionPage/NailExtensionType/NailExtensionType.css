@@ -1,0 +1,31 @@
+.nailExtensionType {
+  /* border: solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+.nailExtensionType > h5 {
+  color: var(--customColor);
+  text-align: center;
+  width: 100%;
+  font-size: 25px;
+}
+.nailExtensionType > p {
+  text-align: justify;
+  font-size: 20px;
+}
+.nailExtensionType > p > a {
+  color: var(--customColor);
+  text-decoration: none;
+}
+.nailExtensionTypeCard {
+  /* border: solid blue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}

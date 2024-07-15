@@ -51,6 +51,7 @@ import HeadMassageNearMe from "./Components/NearMe/HeadMassageNearMe.jsx/HeadMas
 import FootMassageNearMe from "./Components/NearMe/FootMassageNearMe/FootMassageNearMe";
 import OfferPage from "./Components/OfferPage/OfferPage";
 import MainLayout from "./Components/MainLayout/MainLayout";
+import NailExtensionPage from "./Components/NaliSalonPage/NailExtensionPage/NailExtensionPage";
 
 const App = () => {
   return (
@@ -128,6 +129,7 @@ const App = () => {
           <Route path="/head-massage-near-me" element={<HeadMassageNearMe />} />
           <Route path="/foot-massage-near-me" element={<FootMassageNearMe />} />
           <Route path="/offer" element={<OfferPage />} />
+          <Route path="/nails-extension" element={<NailExtensionPage />} />
         </Routes>
       </BrowserRouter>
     </div>

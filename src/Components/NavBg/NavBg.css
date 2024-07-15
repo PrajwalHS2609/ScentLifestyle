@@ -1,6 +1,7 @@
 .navBg {
   background-color: black;
   height: 14vh;
+  width: 100%;
 }
 
 @media screen and (max-width: 600px) {

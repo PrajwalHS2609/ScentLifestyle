@@ -1,0 +1,35 @@
+.nailExtensionMaintain {
+  /* border: solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  padding: 20px;
+}
+.nailExtensionMaintain > h5 {
+  font-size: 30px;
+  color: var(--customColor);
+  text-align: center;
+  width: 100%;
+}
+.nailExtensionMaintain > p {
+  font-size: 20px;
+  width: 100%;
+  text-align: center;
+}
+.nailExtensionMaintain > ul > li {
+  list-style: none;
+  font-size: 20px;
+  text-align: center;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.nailExtensionMaintain > ul > li > h6 {
+  color: var(--customColor);
+  font-size: 20px;
+}
