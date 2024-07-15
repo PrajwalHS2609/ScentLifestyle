@@ -9,6 +9,13 @@ import { Link } from "react-router-dom";
 import ServiceHead from "./ServiceHead";
 import leftArrow from "./../../../Images/left.png";
 import rightArrow from "./../../../Images/right.png";
+import hair from "./../../../Images/homeService/homeHair.jpg"
+import facial from "./../../../Images/homeService/homeFacial.jpg"
+import spa from "./../../../Images/homeService/homeSpa.jpg"
+import nails from "./../../../Images/homeService/homeNails.jpg"
+import beautyEssentials from "./../../../Images/homeService/homeBeauty.jpg"
+import lashes from "./../../../Images/homeService/homeLashes.jpg"
+
 const Services = () => {
   function SampleNextArrow(props) {
     const { className, style, onClick } = props;
@@ -125,7 +132,7 @@ const Services = () => {
           <div className="serviceSlideContainer">
             <div className="serviceSlideContent">
               <img
-                src="https://img.freepik.com/free-photo/beautiful-woman-with-curls-makeup_144627-3577.jpg?t=st=1714755168~exp=1714758768~hmac=ae5c03f46f8e81096226ca0d255891ee211131f2a1aad1ccee8e41eb7efd1c54&w=360"
+                src={hair}
                 alt="Hair"
               />
             </div>
@@ -136,7 +143,7 @@ const Services = () => {
           <div className="serviceSlideContainer">
             <div className="serviceSlideContent">
               <img
-                src="https://img.freepik.com/free-photo/beautiful-woman-s-nails-with-beautiful-creative-manicure_186202-6917.jpg?t=st=1714755203~exp=1714758803~hmac=f2383a6c257c2378ee807e3dbc2de651e646e85ceb51f95a7ca15c1e04c1a9e0&w=360"
+                src={nails}
                 alt="Nails"
               />
             </div>
@@ -147,7 +154,7 @@ const Services = () => {
           <div className="serviceSlideContainer">
             <div className="serviceSlideContent">
               <img
-                src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                src={facial}
                 alt="Facial"
               />
             </div>
@@ -158,7 +165,7 @@ const Services = () => {
           <div className="serviceSlideContainer">
             <div className="serviceSlideContent">
               <img
-                src="https://images.unsplash.com/photo-1573461160327-b450ce3d8e7f?q=80&w=1965&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                src={beautyEssentials}
                 alt="Beauty Essentials"
               />
             </div>
@@ -170,7 +177,7 @@ const Services = () => {
           <div className="serviceSlideContainer">
             <div className="serviceSlideContent">
               <img
-                src="https://images.unsplash.com/photo-1596178060671-7a80dc8059ea?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                src={spa}
                 alt="Spa"
               />
             </div>
@@ -181,7 +188,7 @@ const Services = () => {
           <div className="serviceSlideContainer">
             <div className="serviceSlideContent">
               <img
-                src="https://images.unsplash.com/photo-1589710751893-f9a6770ad71b?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                src={lashes}
                 alt="lashes"
               />
             </div>
