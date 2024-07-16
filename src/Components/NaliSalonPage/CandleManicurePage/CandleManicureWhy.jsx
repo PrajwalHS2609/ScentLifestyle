@@ -15,7 +15,7 @@ const CandleManicureWhy = () => {
           <h6>Consultation :</h6> Our experienced nail technicians will begin
           with a brief consultation to understand your specific needs and
           preferences. Whether you have concerns about nail health, skin
-          hydration, or simply want to unwind, we tailor the Candle Spa Manicure
+          hydration, or simply want to unwind, we tailor the <a href="https://scentlifestyle.com/candle-spa-manicure">Candle Spa Manicure</a>
           to meet your desires.
         </li>
         <li>

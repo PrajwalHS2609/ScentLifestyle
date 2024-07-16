@@ -58,6 +58,10 @@ import OmbreGelPolishPage from "./Components/NaliSalonPage/OmbreGelPolish/OmbreG
 import ClassicManicurePage from "./Components/NaliSalonPage/ClassicManicurePage/ClassicManicurePage";
 import OrganicManicurePage from "./Components/NaliSalonPage/OrganicManicurePage/OrganicManicurePage";
 import ClassicPedicurePage from "./Components/NaliSalonPage/ClassicPedicurePage/ClassicPedicurePage";
+import OrganicPedicurePage from "./Components/NaliSalonPage/OrganicPedicurePage/OrganicPedicurePage";
+import CutFilePage from "./Components/NaliSalonPage/CutFilePage/CutFilePage";
+import CandlePedicurePage from './Components/NaliSalonPage/CandlePedicurePage/CandlePedicurePage';
+import CandleManicurePage from './Components/NaliSalonPage/CandleManicurePage/CandleManicurePage';
 
 const App = () => {
   return (
@@ -145,6 +149,16 @@ const App = () => {
           <Route path="/classic-manicure" element={<ClassicManicurePage />} />
           <Route path="/organic-manicure" element={<OrganicManicurePage />} />
           <Route path="/classic-pedicure" element={<ClassicPedicurePage />} />
+          <Route path="/organic-pedicure" element={<OrganicPedicurePage />} />
+          <Route
+            path="/candle-spa-manicure"
+            element={<CandleManicurePage />}
+          />
+          <Route
+            path="/candle-spa-pedicure"
+            element={<CandlePedicurePage />}
+          />
+          <Route path="/nail-cut-and-file" element={<CutFilePage />} />
         </Routes>
       </BrowserRouter>
     </div>

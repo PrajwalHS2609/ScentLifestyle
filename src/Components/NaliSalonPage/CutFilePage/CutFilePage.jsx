@@ -1,9 +1,11 @@
 import React from "react";
-import CutFileHead from './CutFileHead';
+import CutFileHead from "./CutFileHead";
 import CutFileBenefits from "./CutFileBenefits";
 import CutFileWhat from "./CutFileWhat";
-import CutFileWhy from './CutFileWhy';
+import CutFileWhy from "./CutFileWhy";
 import CutFileBook from "./CutFileBook";
+import NavBg from "../../NavBg/NavBg";
+import { Helmet } from "react-helmet";
 
 const CutFilePage = () => {
   return (
@@ -23,6 +25,7 @@ const CutFilePage = () => {
         />
       </Helmet>
       <NavBg />
+
       <CutFileHead />
       <CutFileBenefits />
       <CutFileWhat />

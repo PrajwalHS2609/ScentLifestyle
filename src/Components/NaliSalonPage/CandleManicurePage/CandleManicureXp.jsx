@@ -9,13 +9,14 @@ const CandleManicureXp = () => {
           <h6> Warm Welcome: </h6> Upon arriving at SCENT, you will be greeted
           by our friendly and professional staff who are dedicated to ensuring
           your comfort and relaxation. Our serene and inviting ambiance sets the
-          tone for your luxurious spa experience..
+          tone for your luxurious spa experience.
         </li>
         <li>
           <h6>Consultation : </h6> Our experienced nail technicians will begin
           with a brief consultation to understand your specific needs and
-          preferences. Whether you have concerns about nail health, skin
-          hydration, or simply want to unwind, we tailor the Candle Spa Manicure
+          preferences. Whether you have concerns about,
+          <a href="https://scentlifestyle.com/nails-salon"> nail health</a> skin hydration, or simply want to unwind,
+          we tailor the <a href="https://scentlifestyle.com/candle-spa-manicure">Candle Spa Manicure</a>
           to meet your desires.
         </li>
         <li>
@@ -39,14 +40,15 @@ const CandleManicureXp = () => {
           to achieve the best results.
         </li>
         <li>
-          <h6>Candle Wax Massage : </h6> The highlight of the Candle Spa
-          Manicure is the luxurious candle wax massage. Specially formulated
-          massage candles are melted, and the warm, aromatic wax is poured over
-          your hands. The melted wax transforms into a rich, nourishing oil that
-          is gently massaged into your skin. This step not only hydrates and
-          softens your skin but also provides deep relaxation and stress relief.
-          The warm wax helps to improve blood circulation, leaving your hands
-          feeling rejuvenated and revitalized.
+          <h6>Candle Wax Massage : </h6> The highlight of the{" "}
+          <a href="https://scentlifestyle.com/nails-salon">Candle Spa Manicure</a> is the luxurious candle wax
+          massage. Specially formulated massage candles are melted, and the
+          warm, aromatic wax is poured over your hands. The melted wax
+          transforms into a rich, nourishing oil that is gently massaged into
+          your skin. This step not only hydrates and softens your skin but also
+          provides deep relaxation and stress relief. The warm wax helps to
+          improve blood circulation, leaving your hands feeling rejuvenated and
+          revitalized.
         </li>
         <li>
           <h6>Moisturizing Mask :</h6> After the massage, a moisturizing mask is
@@ -59,9 +61,10 @@ const CandleManicureXp = () => {
           <h6>Polish Perfection :</h6> If you choose to add a pop of color to
           your nails, our technicians will expertly apply your selected polish.
           We offer a wide range of high-quality polishes, including classic
-          shades and trendy colors, ensuring you leave with perfectly polished
-          nails. If you prefer a natural look, we can provide a clear or nude
-          polish that enhances the natural beauty of your nails.
+          shades and trendy colors, ensuring you leave with{" "}
+          <a href="https://scentlifestyle.com/ombre-gel-nail-polish">perfectly polished nails</a>. If you prefer a natural look,
+          we can provide a clear or nude polish that enhances the natural beauty
+          of your nails.
         </li>
         <li>
           <h6> Finishing Touches :</h6> The Candle Spa Manicure concludes with

@@ -5,8 +5,12 @@ const ClassicPedicureMaintain = () => {
     <div className="nailExtensionMaintain">
       <h5>Tips for Maintaining Your Pedicure at Home</h5>
       <p>
-        To extend the benefits of your Classic Pedicure, here are some tips for
-        maintaining your feet at home:
+        To extend the benefits of your{" "}
+        <a href="https://scentlifestyle.com/classic-pedicure">
+          {" "}
+          Classic Pedicure
+        </a>
+        , here are some tips for maintaining your feet at home:
       </p>
       <ul>
         <li>

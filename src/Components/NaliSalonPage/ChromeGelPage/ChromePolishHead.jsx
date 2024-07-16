@@ -37,7 +37,7 @@ const ChromePolishHead = () => {
         </p>
         <ul>
           <li>
-            <span>Aesthetic Appeal: </span> GThe striking, mirror-like finish of
+            <span>Aesthetic Appeal: </span> The striking, mirror-like finish of
             <a href="https://scentlifestyle.com/chrome-gel-nail-polish"> chrome gel polish</a> makes it a favorite among
             fashion-forward individuals.
           </li>

@@ -30,10 +30,10 @@ const CandleManicureBenefits = () => {
         </li>
         <li>
           <h6>Beautiful, Polished Nails:</h6> Whether you prefer a natural look
-          or a bold polish, our technicians will ensure your nails are perfectly
-          manicured and polished to your liking. The high-quality products we
-          use provide long-lasting results, so you can enjoy beautiful nails for
-          weeks.
+          or a <a href="https://scentlifestyle.com/ombre-gel-nail-polish">bold polish</a>, our technicians will ensure your
+          nails are perfectly manicured and polished to your liking. The
+          high-quality products we use provide long-lasting results, so you can
+          enjoy <a href="https://scentlifestyle.com/chrome-gel-nail-polish">beautiful nails</a> for weeks.
         </li>
       </ul>
     </div>

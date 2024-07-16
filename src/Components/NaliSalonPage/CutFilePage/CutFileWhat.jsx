@@ -5,7 +5,7 @@ const CutFileWhat = () => {
     <div className="nailExtensionMaintain">
       <h5>What to Expect During Your Nails Cut & File in Bangalore at SCENT</h5>
       <p>
-        When you book a Nails Cut & File in Bangalore at SCENT, you can expect a
+        When you book a <a href="https://scentlifestyle.com/nails-cut-and-file">Nails Cut & File in Bangalore at SCENT</a>, you can expect a
         comprehensive and meticulous service designed to enhance the health and
         appearance of your nails. Here's a step-by-step guide to what the
         experience entails:

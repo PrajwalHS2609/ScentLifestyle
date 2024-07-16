@@ -5,9 +5,14 @@ const CandlePedicureWhat = () => {
     <div className="nailExtensionMaintain">
       <h5>What to Expect During Your Candle Spa Pedicure in Bangalore</h5>
       <p>
-        When you book a Candle Spa Pedicure in Bangalore at SCENT, you can
-        expect a comprehensive and luxurious treatment designed to pamper your
-        feet and soothe your senses. Here's what the experience entails:
+        When you book a{" "}
+        <a href="https://scentlifestyle.com/service">
+          {" "}
+          Candle Spa Pedicure in Bangalore at SCENT
+        </a>
+        , you can expect a comprehensive and luxurious treatment designed to
+        pamper your feet and soothe your senses. Here's what the experience
+        entails:
       </p>
       <ul>
         <li>
@@ -34,10 +39,14 @@ const CandlePedicureWhat = () => {
         </li>
         <li>
           <h6>5. Massage</h6>
-          One of the highlights of our Candle Spa Pedicure in Bangalore is the
-          soothing foot and leg massage. Using luxurious oils, our technician
-          will massage your feet and lower legs, helping to relieve tension and
-          promote relaxation.
+          One of the highlights of our{" "}
+          <a href="https://scentlifestyle.com/service">
+            {" "}
+            Candle Spa Pedicure in Bangalore
+          </a>{" "}
+          is the soothing foot and leg massage. Using luxurious oils, our
+          technician will massage your feet and lower legs, helping to relieve
+          tension and promote relaxation.
         </li>
         <li>
           <h6>6. Moisturizing Treatment</h6>

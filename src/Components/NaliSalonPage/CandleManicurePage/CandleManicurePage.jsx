@@ -1,12 +1,12 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import NavBg from "../../NavBg/NavBg";
-import CandleManicureHead from "./../CandleMaincurePage/CandleMaincureHead";
-import CandleManicureXp from "./CandleManicureXp";
-import CandleSpaBenefits from "../CandleSpaPage/CandleSpaBenefits";
 import CandleManicureBenefits from "./CandleManicureBenefits";
-import CandleManicureWhy from "./CandleManicureWhy";
-import CandleManicureBook from "./CandleManicureBook";
+import CandleManicureXp from "./CandleManicureXp";
+import CandleManicureHead from './CandleManicureHead';
+import CandleManicureWhy from './CandleManicureWhy';
+import CandleManicureBook from './CandleManicureBook';
+
 
 const CandleManicurePage = () => {
   return (

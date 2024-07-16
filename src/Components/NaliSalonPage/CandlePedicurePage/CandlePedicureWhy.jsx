@@ -6,8 +6,8 @@ const CandlePedicureWhy = () => {
       <h5>Why Bangalorean’s Love Our Candle Spa Pedicure in Bangalore</h5>
       <p>
         Residents of Bangalore appreciate the unique and luxurious experience
-        offered by our Candle Spa Pedicure in Bangalore. Here's why it's become
-        a favorite among our clients:
+        offered by our <a href="https://scentlifestyle.com/classic-pedicure">Candle Spa Pedicure in Bangalore</a>. Here's
+        why it's become a favorite among our clients:
       </p>
       <ul>
         <li>

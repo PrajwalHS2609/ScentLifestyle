@@ -5,6 +5,8 @@ import CandleManicureBenefits from "../CandleManicurePage/CandleManicureBenefits
 import CandlePedicureWhat from "./CandlePedicureWhat";
 import CandlePedicureCustomer from "./CandlePedicureCustomer";
 import CandlePedicureBook from "./CandlePedicureBook";
+import NavBg from "../../NavBg/NavBg";
+import { Helmet } from "react-helmet";
 
 const CandlePedicurePage = () => {
   return (

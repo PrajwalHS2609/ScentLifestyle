@@ -5,9 +5,10 @@ const OrganicPedicureXp = () => {
     <div className="salonXpContainer">
       <h5>The Organic Pedicure Experience</h5>
       <p>
-        Our Organic Pedicure at SCENT is a comprehensive treatment that combines
-        traditional pedicure techniques with the benefits of organic products.
-        Here’s what you can expect during your session:
+        Our <a href="https://scentlifestyle.com/organic-pedicure">Organic Pedicure at SCENT</a> is a comprehensive
+        treatment that combines traditional pedicure techniques with the
+        benefits of organic products. Here’s what you can expect during your
+        session:
       </p>
       <ul>
         <li>
@@ -39,11 +40,11 @@ const OrganicPedicureXp = () => {
           patches. This leaves your feet feeling smooth and refreshed.
         </li>
         <li>
-          <h6>Foot Massage:</h6> One of the highlights of our Classic Pedicure
-          is the relaxing foot massage. Using a combination of massage
-          techniques, our technicians will work to relieve tension and improve
-          circulation in your feet and lower legs. This not only feels amazing
-          but also promotes overall foot health.
+          <h6>Foot Massage:</h6>One of the highlights of our{" "}
+          <a href="https://scentlifestyle.com/organic-pedicure">Organic Pedicure</a> is the relaxing foot massage. Using a
+          blend of organic oils and lotions, our technicians will work to
+          relieve tension and improve circulation in your feet and lower legs.
+          This not only feels amazing but also promotes overall foot health.
         </li>
         <li>
           <h6>Moisturizing:</h6> After the massage, a rich and hydrating lotion
@@ -51,11 +52,11 @@ const OrganicPedicureXp = () => {
           keep your skin soft and supple.
         </li>
         <li>
-          <h6>Polish Application:</h6> The final step is the application of
-          nail polish. Choose from our wide range of colors, including classic
-          shades and trendy hues. Our technicians will apply a base coat, two
-          layers of your chosen color, and a top coat to ensure a long-lasting
-          and flawless finish.
+          <h6>Polish Application:</h6> The final step is the application of nail
+          polish. Choose from our wide range of colors, including classic shades
+          and trendy hues. Our technicians will apply a base coat, two layers of
+          your chosen color, and a top coat to ensure a long-lasting and
+          flawless finish.
         </li>
       </ul>
     </div>

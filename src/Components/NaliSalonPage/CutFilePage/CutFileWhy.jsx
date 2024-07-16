@@ -22,8 +22,9 @@ const CutFileWhy = () => {
         </li>
         <li>
           <h6>Exceptional Service: </h6> Our commitment to providing exceptional
-          service ensures that every visit to SCENT is a memorable and enjoyable
-          experience.
+          service ensures that every visit to{" "}
+          <a href="https://scentlifestyle.com/">SCENT</a> is a memorable and
+          enjoyable experience.
         </li>
       </ul>
     </div>

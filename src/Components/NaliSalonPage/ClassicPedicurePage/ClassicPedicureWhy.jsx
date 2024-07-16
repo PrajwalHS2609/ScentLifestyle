@@ -7,10 +7,13 @@ const ClassicPedicureWhy = () => {
       <h5> Why Choose SCENT for Your Classic Pedicure?</h5>
       <p>
         At SCENT, we believe that every individual deserves a pampering
-        experience that is both revitalizing and therapeutic. Our Classic
-        Pedicure offers a blend of traditional techniques and modern practices
-        to ensure that your feet are not only beautiful but also healthy. Here’s
-        why you should choose SCENT for your next pedicure:
+        experience that is both revitalizing and therapeutic. Our{" "}
+        <a href="https://scentlifestyle.com/classic-pedicure">
+          Classic Pedicure
+        </a>{" "}
+        offers a blend of traditional techniques and modern practices to ensure
+        that your feet are not only beautiful but also healthy. Here’s why you
+        should choose SCENT for your next pedicure:
       </p>
       <ul>
         <li>
@@ -47,7 +50,7 @@ const ClassicPedicureWhy = () => {
           </span>{" "}
           Our salon is designed to provide a tranquil and serene environment
           where you can relax and unwind. From soothing music to comfortable
-          seating, every detail is crafted to enhance your experience.  
+          seating, every detail is crafted to enhance your experience.
         </li>
       </ul>
     </div>

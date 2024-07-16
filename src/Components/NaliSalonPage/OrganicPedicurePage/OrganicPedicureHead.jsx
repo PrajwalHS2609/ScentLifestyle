@@ -7,22 +7,26 @@ const OrganicPedicureHead = () => {
         <h1>Experience the Ultimate Organic Pedicure in Bangalore at SCENT </h1>
         <p>
           In the bustling city of Bangalore, finding a sanctuary to relax and
-          rejuvenate is essential. At SCENT, we offer an unparalleled Organic
-          Pedicure experience designed to provide not only aesthetic beauty but
-          also holistic wellness. Our commitment to using natural and organic
+          rejuvenate is essential. At SCENT, we offer an unparalleled{" "}
+          <a href="https://scentlifestyle.com/nails-salon">Organic Pedicure</a>{" "}
+          experience designed to provide not only aesthetic beauty but also
+          holistic wellness. Our commitment to using natural and organic
           products ensures that your feet receive the best possible care without
           the exposure to harmful chemicals. Whether you're preparing for a
-          special occasion or simply treating yourself, our Organic Pedicure is
-          the perfect choice.
+          special occasion or simply treating yourself, our{" "}
+          <a href="">Organic Pedicure</a> is the perfect choice.
         </p>
       </div>
       <div className="nailExtensionHeading">
         <h3>Why Choose SCENT for Your Organic Pedicure?</h3>
         <p>
           At SCENT, we understand the importance of both beauty and health. Our
-          Organic Pedicure is crafted to offer a luxurious experience that
-          nurtures your feet while promoting overall wellness. Here’s why SCENT
-          is the ideal choice for your pedicure needs:
+          <a href="https://scentlifestyle.com/nails-salon">
+            Organic Pedicure
+          </a>{" "}
+          is crafted to offer a luxurious experience that nurtures your feet
+          while promoting overall wellness. Here’s why SCENT is the ideal choice
+          for your pedicure needs:
         </p>
         <ul>
           <li>

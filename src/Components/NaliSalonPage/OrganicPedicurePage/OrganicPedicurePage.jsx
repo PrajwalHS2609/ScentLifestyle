@@ -3,7 +3,6 @@ import { Helmet } from "react-helmet";
 import NavBg from "../../NavBg/NavBg";
 import OrganicManicureHead from "../OrganicManicurePage/OrganicManicureHead";
 import OrganicPedicureXp from "./OrganicPedicureXp";
-import OrganicManicureBenefits from "../OrganicManicurePage/OrganicManicureBenefits";
 import OrganicPedicureBenefits from './OrganicPedicureBenefits';
 import OrganicPedicureMaintain from './OrganicPedicureMaintain';
 import OrganicPedicureBook from './OrganicPedicureBook';
