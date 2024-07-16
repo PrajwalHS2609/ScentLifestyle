@@ -13,42 +13,37 @@ const CutFileWhat = () => {
       <ul>
         <li>
           <h6>1. Consultation</h6>
-          Your pedicure begins with a brief consultation with our technician.
-          This helps us understand your needs and preferences, ensuring you
-          receive a personalized treatment.
+          Your nail care session begins with a brief consultation with our
+          technician. This helps us understand your needs and preferences,
+          ensuring a personalized service.
         </li>
         <li>
-          <h6>2. Foot Soak</h6>
-          Next, you'll enjoy a relaxing foot soak in warm, scented water. This
-          step helps soften the skin and prepare your feet for the subsequent
-          treatments.
+          <h6>2. Nail Soak</h6>
+          Your nails will be soaked in warm, scented water to soften the
+          cuticles and prepare them for trimming and filing. This step also
+          helps relax your hands and fingers.
         </li>
         <li>
-          <h6>3. Exfoliation</h6>
-          Our technician will then gently exfoliate your feet, removing dead
-          skin cells and leaving your skin feeling smooth and refreshed.
+          <h6>3. Nail Trimming</h6>
+          Our technician will carefully trim your nails to your desired length,
+          ensuring they are even and neat. We use high-quality, sterilized tools
+          to guarantee precision and hygiene.
         </li>
         <li>
-          <h6>4. Nail Care</h6>
-          We will carefully trim and shape your nails, as well as tend to your
-          cuticles, ensuring your nails look neat and healthy.
+          <h6>4. Nail Filing</h6>
+          Next, your nails will be expertly filed to achieve the shape you
+          prefer, whether it's square, round, or almond. This step ensures
+          smooth edges and a polished appearance.
         </li>
         <li>
-          <h6>5. Massage</h6>
-          One of the highlights of our Candle Spa Pedicure in Bangalore is the
-          soothing foot and leg massage. Using luxurious oils, our technician
-          will massage your feet and lower legs, helping to relieve tension and
-          promote relaxation.
+          <h6>5. Cuticle CareF</h6>
+          Our technician will gently push back and trim the cuticles if
+          necessary, promoting healthy nail growth and preventing hangnails.
         </li>
         <li>
           <h6>6. Moisturizing Treatment</h6>
-          Your feet will then be treated to a deep moisturizing treatment,
-          leaving them feeling soft and hydrated.
-        </li>
-        <li>
-          <h6>7. Polish Application</h6>
-          Finally, if you wish, we can apply a polish of your choice to complete
-          your pedicure, leaving your nails looking beautiful and polished.
+          Your nails and hands will be treated to a moisturizing lotion, leaving
+          your skin feeling soft and hydrated.
         </li>
       </ul>
     </div>

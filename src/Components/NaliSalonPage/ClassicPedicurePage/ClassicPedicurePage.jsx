@@ -21,7 +21,7 @@ const ClassicPedicurePage = () => {
         />
         <link
           rel="canonical"
-          href="https://scentlifestyle.com/classic-pedicure      "
+          href="https://scentlifestyle.com/classic-pedicure"
         />
       </Helmet>
       <NavBg />
