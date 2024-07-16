@@ -13,7 +13,7 @@
   font-size: 40px;
   color: var(--customColor);
   display: block;
-  font-weight: lighter;
+  font-weight: 400;
   text-align: center;
 }
 .nailReadHeadContainer {
@@ -47,10 +47,11 @@
 }
 .nailReadHeadContainer > ul > li > p > a {
   color: var(--customColor);
+  text-decoration: none;
 }
 .nailReadHeadContainer > ul > li > h4 {
   font-size: 20px;
-  font-weight: lighter;
+  font-weight: 400;
 }
 .nailReadHeadContainer > button {
   border: none;
@@ -91,10 +92,11 @@
 }
 .nailReadDisplayContainer > ul > li > p > a {
   color: var(--customColor);
+  text-decoration: none;
 }
 .openBut {
   text-decoration: underline;
-  font-weight: lighter;
+  font-weight: 400;
 }
 .nailReadDisplayContainer > ul > li > p > span {
   color: var(--customColor);

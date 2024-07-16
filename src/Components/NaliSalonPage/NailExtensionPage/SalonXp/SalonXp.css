@@ -1,0 +1,33 @@
+.salonXpContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+.salonXpContainer > h5 {
+  font-size: 25px;
+  color: var(--customColor);
+  text-align: center;
+  width: 100%;
+}
+.salonXpContainer > p {
+  font-size: 20px;
+  width: 100%;
+  text-align: justify;
+}
+.salonXpContainer > p > a {
+  color: var(--customColor);
+  text-decoration: none;
+}
+.salonXpContainer > ul > li {
+  font-size: 20px;
+  margin: 20px;
+  list-style: none;
+}
+.salonXpContainer > ul > li > h6 {
+  font-size: 20px;
+  color: var(--customColor);
+}

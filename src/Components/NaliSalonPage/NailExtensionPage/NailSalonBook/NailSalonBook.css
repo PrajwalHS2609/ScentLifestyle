@@ -1,0 +1,24 @@
+.nailSalonBookContainer {
+  /* border: solid red; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+.nailSalonBookContainer > h5 {
+  color: var(--customColor);
+  text-align: center;
+  width: 100%;
+  font-size: 25px;
+}
+.nailSalonBookContainer > p {
+  font-size: 20px;
+  text-align: justify;
+}
+.nailSalonBookContainer > p > a {
+  color: var(--customColor);
+  text-decoration: none;
+}

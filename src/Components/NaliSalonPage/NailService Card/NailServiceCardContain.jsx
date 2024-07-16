@@ -17,28 +17,28 @@ const NailServiceCardContain = () => {
         para="Transform your nails into works of art with stunning designs meticulously crafted by our in-house experts, elevating nail painting into a true form of creativity."
         goto="Gel Nail Art"
         img="https://img.freepik.com/free-photo/close-up-hands-with-beautiful-manicure_23-2149311588.jpg?t=st=1714633822~exp=1714637422~hmac=3575220a19320fd8dd25f82dff63eded6f9f2a6f72eaf6499ad4a28da68417f7&w=360"
-        link="/"
+        link="/gel-nail-art"
       />
       <ServiceCards
         heading="Chrome Gel Polish"
         para="Immerse yourself in the allure of a stunning chrome finish expertly applied by our skilled nail technicians, transforming your nails into works of art."
         goto="Chrome Gel Polish"
         img="https://img.freepik.com/free-photo/stylish-trendy-female-silver-manicure_186202-5566.jpg?t=st=1714633866~exp=1714637466~hmac=d4a2fc44c9d1f1fdee4d67f3ad46a06a457d8011cb4eaa7649eecae674efb98a&w=826"
-        link="/"
+        link="/chrome-gel-nail-polish"
       />
       <ServiceCards
         heading="Ombre Gel Polish"
         para="Embrace the trendy ombre nail aesthetic, where two or more harmonizing colors seamlessly blend, creating a captivating gradient effect that's both chic and stylish."
         goto="Ombre Gel Polish"
         img="https://img.freepik.com/free-photo/beautiful-nail-art-presentation_23-2149295367.jpg?t=st=1714633960~exp=1714637560~hmac=cb6d8e2485e8203db2b050b867fa3bdce485c83a94aec20c88e29c3df14d8aab&w=360"
-        link="/"
+        link="/ombre-gel-nail-polish"
       />
       <ServiceCards
         heading="Classic Manicure"
         para="Treat yourself to our Classic Manicure for perfectly groomed nails. Our skilled technicians will shape, buff, and polish your nails to perfection, leaving your hands looking and feeling revitalized."
         goto="Classic Manicure"
         img="https://img.freepik.com/free-photo/carefree-young-woman-with-party-makeup-expressing-happiness-inspired-brunette-girl-laughing-dark-wall_197531-14013.jpg?t=st=1714632051~exp=1714635651~hmac=6b5297f358a7454784f6c04c74476ff6b112275f46ab480eb7f88a616617d9d2&w=900"
-        link="/"
+        link="/classic-manicure"
       />
       <ServiceCards
         heading="Organic ManiCure"

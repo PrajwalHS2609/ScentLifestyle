@@ -27,14 +27,14 @@
 .hairReadHeadContainer > button > h6 {
   font-size: 20px;
   text-decoration: underline;
-  font-weight: lighter;
+  font-weight: 400;
 }
 .hairReadContainer > header > h1 {
   margin: 20px;
   font-size: 40px;
   color: var(--customColor);
   display: block;
-  font-weight: lighter;
+  font-weight: 400;
   text-align: center;
 }
 .hairReadHeadContainer > ul {
@@ -59,10 +59,11 @@
 }
 .hairReadHeadContainer > ul > li > h4 {
   font-size: 20px;
-  font-weight: lighter;
+  font-weight: 400;
 }
 .hairReadHeadContainer > ul > li > p > a {
   color: var(--customColor);
+  text-decoration: none;
 }
 .hairReadDisplayContainer {
   /* border: solid green; */
@@ -80,10 +81,11 @@
 }
 .hairReadDisplayContainer > ul > li > h4 {
   font-size: 20px;
-  font-weight: lighter;
+  font-weight: 400;
 }
 .hairReadDisplayContainer > ul > li > p > a {
   color: var(--customColor);
+  text-decoration: none;
 }
 .hairReadDisplayContainer > ul {
   /* border: solid red; */
@@ -108,6 +110,7 @@
 }
 .hairReadDisplayContainer > ul > li > a {
   color: var(--customColor);
+  text-decoration: none;
 }
 @media screen and (min-width: 320px) and (max-width: 768px) {
   .hairReadContainer {
@@ -119,7 +122,6 @@
     flex-direction: column;
     margin-top: 0px;
     text-align: justify;
-
   }
   .hairReadHeadContainer > h1 {
     text-align: center;

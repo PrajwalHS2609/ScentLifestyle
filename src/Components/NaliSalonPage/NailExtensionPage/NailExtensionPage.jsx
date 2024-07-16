@@ -5,6 +5,10 @@ import NavBg from "../../NavBg/NavBg";
 import NailExtensionHead from "./NailExtensionHead/NailExtensionHead";
 import NailExtensionType from "./NailExtensionType/NailExtensionType";
 import NailExtensionMaintain from "./NailExtensionMaintain/NailExtensionMaintain";
+import NailExtensionWhy from "./NailExtensionWhy/NailExtensionWhy";
+import NailSalonBook from "./NailSalonBook/NailSalonBook";
+import SalonXp from "./SalonXp/SalonXp";
+import NailArtDesign from "./NailArtDesign/NailArtDesign";
 
 const NailExtensionPage = () => {
   return (
@@ -23,10 +27,14 @@ const NailExtensionPage = () => {
           href="https://scentlifestyle.com/nails-extension "
         />
       </Helmet>
-      <NavBg/>
+      <NavBg />
       <NailExtensionHead />
-      <NailExtensionType/>
-      <NailExtensionMaintain/>
+      <NailExtensionType />
+      <NailExtensionMaintain />
+      <NailExtensionWhy />
+      <SalonXp/>
+      <NailArtDesign/>
+      <NailSalonBook/>
     </div>
   );
 };

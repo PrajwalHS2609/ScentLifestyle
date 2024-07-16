@@ -6,7 +6,7 @@ const NailExtensionType = () => {
     <div className="nailExtensionType">
       <h5>Types of Nail Extensions Available</h5>
       <p>
-        At SCENT Salon, we offer a variety of nail extension options to cater to
+        At SCENT , we offer a variety of nail extension options to cater to
         your specific needs:
       </p>
       <div className="nailExtensionTypeCard">
@@ -26,7 +26,7 @@ const NailExtensionType = () => {
       <p>
         Each type of{" "}
         <a href="https://scentlifestyle.com/nails-salon">
-          nail extension in Bangalore at SCENT Salon
+          nail extension in Bangalore at SCENT 
         </a>{" "}
         is applied with precision and care, ensuring that your nails remain
         healthy and beautiful.

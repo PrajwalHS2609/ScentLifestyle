@@ -52,6 +52,12 @@ import FootMassageNearMe from "./Components/NearMe/FootMassageNearMe/FootMassage
 import OfferPage from "./Components/OfferPage/OfferPage";
 import MainLayout from "./Components/MainLayout/MainLayout";
 import NailExtensionPage from "./Components/NaliSalonPage/NailExtensionPage/NailExtensionPage";
+import GelNailArtPage from "./Components/NaliSalonPage/GelNailArtPage/GelNailArtPage";
+import ChromeGelPage from "./Components/NaliSalonPage/ChromeGelPage/ChromeGelPage";
+import OmbreGelPolishPage from "./Components/NaliSalonPage/OmbreGelPolish/OmbreGelPolishPage";
+import ClassicManicurePage from "./Components/NaliSalonPage/ClassicManicurePage/ClassicManicurePage";
+import OrganicManicurePage from "./Components/NaliSalonPage/OrganicManicurePage/OrganicManicurePage";
+import ClassicPedicurePage from "./Components/NaliSalonPage/ClassicPedicurePage/ClassicPedicurePage";
 
 const App = () => {
   return (
@@ -130,6 +136,15 @@ const App = () => {
           <Route path="/foot-massage-near-me" element={<FootMassageNearMe />} />
           <Route path="/offer" element={<OfferPage />} />
           <Route path="/nails-extension" element={<NailExtensionPage />} />
+          <Route path="/gel-nail-art" element={<GelNailArtPage />} />
+          <Route path="/chrome-gel-nail-polish" element={<ChromeGelPage />} />
+          <Route
+            path="/ombre-gel-nail-polish"
+            element={<OmbreGelPolishPage />}
+          />
+          <Route path="/classic-manicure" element={<ClassicManicurePage />} />
+          <Route path="/organic-manicure" element={<OrganicManicurePage />} />
+          <Route path="/classic-pedicure" element={<ClassicPedicurePage />} />
         </Routes>
       </BrowserRouter>
     </div>
