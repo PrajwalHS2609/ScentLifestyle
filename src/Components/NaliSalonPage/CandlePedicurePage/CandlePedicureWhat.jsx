@@ -39,14 +39,14 @@ const CandlePedicureWhat = () => {
         </li>
         <li>
           <h6>5. Massage</h6>
-          One of the highlights of our{" "}
+        <p>  One of the highlights of our{" "}
           <a href="https://scentlifestyle.com/service">
             {" "}
             Candle Spa Pedicure in Bangalore
           </a>{" "}
           is the soothing foot and leg massage. Using luxurious oils, our
           technician will massage your feet and lower legs, helping to relieve
-          tension and promote relaxation.
+          tension and promote relaxation.</p>
         </li>
         <li>
           <h6>6. Moisturizing Treatment</h6>

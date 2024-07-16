@@ -28,7 +28,6 @@ const CandlePedicurePage = () => {
       <NavBg />
       <CandlePedicureHead />
       <CandlePedicureWhy />
-      <CandleManicureBenefits />
       <CandlePedicureWhat />
       <CandlePedicureWhy />
       <CandlePedicureCustomer />

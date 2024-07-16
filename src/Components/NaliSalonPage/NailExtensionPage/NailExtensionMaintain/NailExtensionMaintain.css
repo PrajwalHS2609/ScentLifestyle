@@ -8,7 +8,7 @@
   width: 100%;
   padding: 20px;
 }
-.nailExtensionMaintain>h5{
+.nailExtensionMaintain > h5 {
   font-size: 25px;
   color: var(--customColor);
   text-align: center;
@@ -19,7 +19,7 @@
   width: 100%;
   text-align: justify;
 }
-.nailExtensionMaintain > p >a{
+.nailExtensionMaintain > p > a {
   color: var(--customColor);
   text-decoration: none;
 }
@@ -38,3 +38,7 @@
   font-size: 20px;
 }
 
+.nailExtensionMaintain > ul > li > p > a {
+  color: var(--customColor);
+  text-decoration: none;
+}
