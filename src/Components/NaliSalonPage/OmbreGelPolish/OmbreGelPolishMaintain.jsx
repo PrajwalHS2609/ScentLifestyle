@@ -25,8 +25,7 @@ const OmbreGelPolishMaintain = () => {
           appropriate tools instead.
         </li>
         <li>
-          <h6>Schedule Regular Touch-Ups: </h6>To maintain the look of your
-          <a href="https://scentlifestyle.com/ombre-gel-nail-polish">ombre gel nails</a>, schedule regular touch-up appointments
+          <h6>Schedule Regular Touch-Ups: </h6>To maintain the look of your  ombre gel nails , schedule regular touch-up appointments
           at SCENT. This will ensure your nails always look fresh and
           flawless.
         </li>

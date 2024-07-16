@@ -13,7 +13,7 @@ const ClassicManicureWhy = () => {
         </li>
         <li>
           <h6> High-Quality Products:</h6> At SCENT , we use only the best
-          products from reputable brands. Our <a href="https://scentlifestyle.com/chrome-gel-nail-polish">polishes</a>, lotions, and exfoliants
+          products from reputable brands. Our polishes, lotions, and exfoliants
           are selected for their quality and effectiveness, ensuring that your
           nails not only look great but are also healthy and strong.
         </li>

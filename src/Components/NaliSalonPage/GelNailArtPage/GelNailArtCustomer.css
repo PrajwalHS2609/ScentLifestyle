@@ -1,0 +1,28 @@
+.gelNailArtTestimonialContainer {
+  /* border: solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  width: 100%;
+}
+.gelNailArtTestimonialContainer > h5 {
+  text-align: center;
+  width: 100%;
+  font-size: 25px;
+  color: var(--customColor);
+}
+.gelNailArtTestimonialContainer > p {
+  font-size: 20px;
+  text-align: justify;
+}
+.gelNailArtTestimonialContent {
+  /* border: solid blue; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}

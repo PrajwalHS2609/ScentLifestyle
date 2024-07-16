@@ -4,9 +4,11 @@ import checked from "./../../../Images/checked.png";
 const ChromeGelWhy = () => {
   return (
     <div className="nailExtensionWhy">
-      <h5>Why Chrome Gel Polish is Popular? </h5>
+      <h5>Chrome Gel Polish in Bangalore: The SCENT Salon Experience </h5>
       <p>
-        The popularity of chrome gel polish has soared due to several factors:
+        When it comes to getting chrome gel polish in Bangalore, SCENT Salon is
+        a name that stands out. Here’s why SCENT Salon is the go-to place for
+        this dazzling nail treatment:{" "}
       </p>
       <ul>
         <li>
@@ -14,32 +16,46 @@ const ChromeGelWhy = () => {
             <img src={checked} alt="" />
             Expert Technicians:
           </span>{" "}
-          The team at SCENT is highly skilled and experienced in gel nail art,
-          ensuring professional and beautiful results every time.
+          <p>
+            SCENT Salon has a team of highly skilled nail technicians who are
+            trained in the{" "}
+            <a href="https://scentlifestyle.com/nails-salon">
+              latest chrome gel polish techniques
+            </a>
+            . Their expertise ensures that every client gets a flawless finish.
+          </p>
         </li>
         <li>
           <span>
             <img src={checked} alt="" />
-            High Quality Products:
+            Premium Products:
           </span>{" "}
-          Only top-tier products are used to ensure the longevity and quality of
-          your gel nails.
+          <p>
+            {" "}
+            Only high-quality products are used at SCENT Salon, ensuring that
+            your nails not only look great but also remain healthy and strong.
+          </p>
         </li>
         <li>
           <span>
-            <img src={checked} alt="" />
-            Personalized Service:
+            <img src={checked} alt="" /> Innovative Designs:
           </span>{" "}
-          Each client receives personalized attention, ensuring that the final
-          result matches their vision.
+          <p>
+            {" "}
+            The creative team at SCENT Salon is always up-to-date with the
+            latest trends in chrome gel polish, offering a variety of designs to
+            suit every style.
+          </p>
         </li>
         <li>
           <span>
             <img src={checked} alt="" />
             Hygiene and Safety:
-          </span>{" "}
-          SCENT prioritizes cleanliness and hygiene, using sterilized tools and
-          maintaining a clean environment.
+          </span>
+          <p>
+            SCENT Salon maintains stringent hygiene protocols, ensuring a safe
+            and clean environment for all clients.
+          </p>
         </li>
       </ul>
     </div>

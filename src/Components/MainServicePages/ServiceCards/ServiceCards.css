@@ -82,6 +82,9 @@
   color: var(--customRed);
   cursor: pointer;
 }
+.serviceCardIcon{
+  color: black;
+}
 .serviceGoto {
   border: 2px whitesmoke solid;
   display: flex;

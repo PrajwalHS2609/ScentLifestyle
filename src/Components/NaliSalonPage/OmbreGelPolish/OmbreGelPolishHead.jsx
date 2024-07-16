@@ -8,7 +8,7 @@ const OmbreGelPolishHead = () => {
         <p>
           Welcome to SCENT , where we redefine beauty with our exquisite range
           of{" "}
-          <a href="https://scentlifestyle.com/nails-salon">nail treatments</a>.
+          <a href="https://scentlifestyle.com/nails-salon">nail treatments </a>.
           Among our most popular services is{" "}
           <a href="https://scentlifestyle.com/ombre-gel-nail-polish">
             Ombre Gel Nail Polish
@@ -26,7 +26,7 @@ const OmbreGelPolishHead = () => {
         <h2>What is Ombre Gel Nail Polish?</h2>
         <p>
           Ombre Gel Nail Polish is a stylish and sophisticated{" "}
-          <a href="https://scentlifestyle.com/nails-salon">nail treatment</a>
+          <a href="https://scentlifestyle.com/nails-salon">nail treatment </a>
           that creates a beautiful gradient effect on your nails. The technique
           involves blending two or more colors seamlessly from light to dark,
           creating a stunning transition of shades. This effect can be subtle or

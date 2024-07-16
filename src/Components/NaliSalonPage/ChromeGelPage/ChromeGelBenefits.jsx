@@ -14,33 +14,46 @@ const ChromeGelBenefits = () => {
           <span>
             <img src={checked} alt="" />
             Long-Lasting Shine :{" "}
-          </span>{" "}
-          The mirror-like finish of <a href="https://scentlifestyle.com/service">chrome gel polish</a> retains its
-          shine for weeks, giving your nails a consistently polished look.
+          </span>
+          <p>
+            The mirror-like finish of{" "}
+            <a href="https://scentlifestyle.com/service">chrome gel polish </a>
+            retains its shine for weeks, giving your nails a consistently
+            polished look.
+          </p>
         </li>
         <li>
           <span>
             <img src={checked} alt="" /> Durability:{" "}
-          </span>{" "}
-          Chrome gel polish is resistant to chipping and peeling, making it a
-          practical choice for those with busy lifestyles.
+          </span>
+          <p>
+            Chrome gel polish is resistant to chipping and peeling, making it a
+            practical choice for those with busy lifestyles.
+          </p>
         </li>
         <li>
           <span>
             <img src={checked} alt="" />
             Unique Designs:{" "}
-          </span>{" "}
-          The versatility of chrome gel polish allows for a wide range of
-          designs, from simple elegance to bold statements.
+          </span>
+          <p>
+            {" "}
+            The versatility of chrome gel polish allows for a wide range of
+            designs, from simple elegance to bold statements.
+          </p>
         </li>
         <li>
           <span>
             <img src={checked} alt="" />
             Healthy Nails:
-          </span>{" "}
-          The high-quality products used at <a href="https://scentlifestyle.com/service">SCENT</a> ensure that
-          your nails remain healthy and strong, even after multiple
-          applications.
+          </span>
+          <p>
+            {" "}
+            The high-quality products used at{" "}
+            <a href="https://scentlifestyle.com/service">SCENT</a> ensure that
+            your nails remain healthy and strong, even after multiple
+            applications.
+          </p>
         </li>
       </ul>
     </div>

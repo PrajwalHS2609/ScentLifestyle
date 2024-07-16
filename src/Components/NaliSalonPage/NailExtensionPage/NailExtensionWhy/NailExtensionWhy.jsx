@@ -15,32 +15,45 @@ const NailExtensionWhy = () => {
             <img src={checked} alt="" />
             Expert Technicians:{" "}
           </span>
-          Our team of experienced nail technicians is trained in the latest
-          techniques and trends, ensuring you receive the best service possible.
+          <p>
+            {" "}
+            Our team of experienced nail technicians is trained in the latest
+            techniques and trends, ensuring you receive the best service
+            possible.
+          </p>
         </li>
         <li>
           <span>
             <img src={checked} alt="" />
             Quality Products:{" "}
           </span>{" "}
-          We use only high-quality materials and products to ensure your
-          extensions are durable and look stunning.
+          <p>
+            {" "}
+            We use only high-quality materials and products to ensure your
+            extensions are durable and look stunning.
+          </p>
         </li>
         <li>
           <span>
             <img src={checked} alt="" />
             Personalized Service:{" "}
           </span>{" "}
-          Every client is unique, and we tailor our services to meet your
-          specific needs and preferences.
+          <p>
+            {" "}
+            Every client is unique, and we tailor our services to meet your
+            specific needs and preferences.
+          </p>
         </li>
         <li>
           <span>
             <img src={checked} alt="" />
             Hygienic Practices:{" "}
           </span>{" "}
-          We maintain the highest standards of hygiene and sanitation to ensure
-          your safety and comfort.
+          <p>
+            {" "}
+            We maintain the highest standards of hygiene and sanitation to
+            ensure your safety and comfort.
+          </p>
         </li>
       </ul>
     </div>
