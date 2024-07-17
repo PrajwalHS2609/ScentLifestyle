@@ -18,25 +18,22 @@ import BridalReadMore from "./BridalReadMore/BridalReadMore";
 const BridalMakeUpPage = () => {
   return (
     <div>
-      {/* <Helmet>
+      <Helmet>
         <meta charSet="UTF-8" />
         <title>
-        EyeLashes in Bangalore | EyeLash Extension Near Me
+          Bridal Makeup Artists in Bangalore - Wedding Makeup Artists
         </title>
         <meta
           name="description"
-          content="EyeLashes & Extensions in Bangalore. Discover the secret to achieving voluminous eyelashes with both permanent and temporary eyelash extensions."
+          content="Bridal Makeup Artists in Bangalore. Look your absolute best even before your D-Day with our exclusive pre-bridal services."
         />
-         <link
-          rel="canonical"
-          href="https://scentlifestyle.com/bridal-makeup"
-        />
-      </Helmet> */}
+        {/* <link rel="canonical" href="https://scentlifestyle.com/bridal-makeup" /> */}
+      </Helmet>
       <NavBg />
       <BridalMakeUpImg />
       <Navi1 servName="Bridal MakeUp" />
-      <BridalMakeUpServiceCard/>
-      <BridalMakeUpAbout/>
+      <BridalMakeUpServiceCard />
+      <BridalMakeUpAbout />
       <Members />
       <OurSalon />
       <Partners />
@@ -44,7 +41,7 @@ const BridalMakeUpPage = () => {
       <HelpNearYou />
       <TextLocReviews />
       <ServiceWhy />
-      <BridalReadMore/>
+      <BridalReadMore />
       <LastComp />
     </div>
   );
