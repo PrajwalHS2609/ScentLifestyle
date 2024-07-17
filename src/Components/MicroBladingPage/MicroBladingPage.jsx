@@ -31,7 +31,7 @@ const MicroBladingPage = () => {
       <NavBg />
       <MicroBladingImg />
       <Navi1 servName="MicroBlading" />
-      <MicroBladingContent/>
+      {/* <MicroBladingContent/> */}
       <Members />
       <OurSalon />
       <Partners />
