@@ -1,0 +1,24 @@
+.bridalMakeUpAbout {
+  /* border: solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+.bridalMakeUpAbout > h2 {
+  font-size: 30px;
+  text-align: center;
+  color: var(--customColor); display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.bridalMakeUpAbout > p {
+  text-align: justify;
+  font-size: 20px;
+  padding: 20px;
+}

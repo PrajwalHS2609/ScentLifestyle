@@ -60,8 +60,10 @@ import OrganicManicurePage from "./Components/NaliSalonPage/OrganicManicurePage/
 import ClassicPedicurePage from "./Components/NaliSalonPage/ClassicPedicurePage/ClassicPedicurePage";
 import OrganicPedicurePage from "./Components/NaliSalonPage/OrganicPedicurePage/OrganicPedicurePage";
 import CutFilePage from "./Components/NaliSalonPage/CutFilePage/CutFilePage";
-import CandlePedicurePage from './Components/NaliSalonPage/CandlePedicurePage/CandlePedicurePage';
-import CandleManicurePage from './Components/NaliSalonPage/CandleManicurePage/CandleManicurePage';
+import CandlePedicurePage from "./Components/NaliSalonPage/CandlePedicurePage/CandlePedicurePage";
+import CandleManicurePage from "./Components/NaliSalonPage/CandleManicurePage/CandleManicurePage";
+import BridalMakeUpPage from "./Components/BridalMakeUpPage/BridalMakeUpPage";
+import MicroBladingPage from "./Components/MicroBladingPage/MicroBladingPage";
 
 const App = () => {
   return (
@@ -84,6 +86,8 @@ const App = () => {
           <Route path="/beauty-essentials" element={<BeautyPage />} />
           <Route path="/spa" element={<SpaPages />} />
           <Route path="/eye-lashes" element={<LashesPage />} />
+          <Route path="/bridal-makeup" element={<BridalMakeUpPage />} />
+          <Route path="/eyebrow-microblading" element={<MicroBladingPage />} />
           <Route path="/terms" element={<TermsPage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/philosophy" element={<ScentPhiloPage />} />
@@ -150,14 +154,8 @@ const App = () => {
           <Route path="/organic-manicure" element={<OrganicManicurePage />} />
           <Route path="/classic-pedicure" element={<ClassicPedicurePage />} />
           <Route path="/organic-pedicure" element={<OrganicPedicurePage />} />
-          <Route
-            path="/candle-spa-manicure"
-            element={<CandleManicurePage />}
-          />
-          <Route
-            path="/candle-spa-pedicure"
-            element={<CandlePedicurePage />}
-          />
+          <Route path="/candle-spa-manicure" element={<CandleManicurePage />} />
+          <Route path="/candle-spa-pedicure" element={<CandlePedicurePage />} />
           <Route path="/nail-cut-and-file" element={<CutFilePage />} />
         </Routes>
       </BrowserRouter>

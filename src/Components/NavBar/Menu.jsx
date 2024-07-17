@@ -75,6 +75,16 @@ const Menu = () => {
                 <pre> Eye Lashes</pre>
               </div>
             </Link>
+            <Link to={"/bridal-makeup"}>
+              <div className="dropItems" id="dropItem2">
+                <pre> Bridal MakeUp</pre>
+              </div>
+            </Link>
+            <Link to={"/eyebrow-microblading"}>
+              <div className="dropItems" id="dropItem2">
+                <pre> Micro Blading</pre>
+              </div>
+            </Link>
           </div>
         </li>
         <li>
@@ -163,6 +173,20 @@ const Menu = () => {
                   </Link>
                 </h4>
               </li>
+              <li>
+                <h4>
+                  <Link onClick={hideSideBar} to={"/bridal-makeup"}>
+                    Bridal Makeup
+                  </Link>
+                </h4>
+              </li>
+              <li>
+                <h4>
+                  <Link onClick={hideSideBar} to={"/eyebrow-blading"}>
+                    Micro Blading
+                  </Link>
+                </h4>
+              </li>
             </span>
           </ul>
           <ul>
@@ -194,9 +218,7 @@ const Menu = () => {
             </h2>
           </ul>
           <ul>
-            <div className="respMenuGap">
-              
-            </div>
+            <div className="respMenuGap"></div>
           </ul>
         </div>
       </div>

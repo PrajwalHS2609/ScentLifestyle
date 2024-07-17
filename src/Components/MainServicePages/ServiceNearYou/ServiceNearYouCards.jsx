@@ -77,7 +77,6 @@ const ServiceNearYouCards = () => {
     <>
       <div className="serviceNearYouCardContainer">
         <SalonCard city="Sahakar Nagar" image={Sahakar} no="9740322700" />
-
         <SalonCard city="Lavelle Road" image={Lavelle} no="9740222700" />
         <SalonCard city="Jakkur" image={Jakkur} no=" 9742212700" />
         <SalonCard city="Uptown Square" image={varthur} no="9148122700" />
@@ -87,7 +86,6 @@ const ServiceNearYouCards = () => {
       <div className="respServiceNearYouCardContainer">
         <Slider className="respServiceCardSlider" {...settings}>
           <SalonCard city="Sahakar Nagar" image={Sahakar} no="9740322700" />
-
           <SalonCard city="Lavelle Road" image={Lavelle} no="9740222700" />
           <SalonCard city="Jakkur" image={Jakkur} no=" 9742212700" />
           <SalonCard city="Uptown Square" image={varthur} no="9148122700" />

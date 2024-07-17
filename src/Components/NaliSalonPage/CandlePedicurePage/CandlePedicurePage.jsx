@@ -1,7 +1,6 @@
 import React from "react";
 import CandlePedicureHead from "./CandlePedicureHead";
 import CandlePedicureWhy from "./CandlePedicureWhy";
-import CandleManicureBenefits from "../CandleManicurePage/CandleManicureBenefits";
 import CandlePedicureWhat from "./CandlePedicureWhat";
 import CandlePedicureCustomer from "./CandlePedicureCustomer";
 import CandlePedicureBook from "./CandlePedicureBook";

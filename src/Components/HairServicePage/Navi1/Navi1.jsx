@@ -3,7 +3,7 @@ import "./Navi1.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
-const Navi1 = () => {
+const Navi1 = (props) => {
   return (
     <div className="navi1Container">
       <div className="navi1Content">
@@ -22,7 +22,7 @@ const Navi1 = () => {
               className="serviceCardIcon"
             ></FontAwesomeIcon>
           </p>
-          <span> Hair Salon</span>
+          <span>{props.servName}</span>
         </h3>
       </div>
     </div>

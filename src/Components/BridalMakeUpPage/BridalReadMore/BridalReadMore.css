@@ -1,0 +1,144 @@
+.homeReadContainer {
+  /* border: solid; */
+  /* height: 70vh; */
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 40px;
+}
+.homeReadHeadContainer {
+  /* border: solid red; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.homeReadHeadContainer > button {
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  padding: 30px;
+}
+.homeReadHeadContainer > button > h6 {
+  font-size: 20px;
+  text-decoration: underline;
+  font-weight: 400;
+}
+.homeReadContainer > header > h1 {
+  margin: 20px;
+  font-size: 40px;
+  color: var(--customColor);
+  display: block;
+  font-weight: 400;
+  text-align: center;
+}
+.homeReadHeadContainer > ul {
+  /* border: solid red; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.homeReadHeadContainer > ul > li {
+  width: 90%;
+  font-size: 20px;
+  list-style: none;
+  margin: 10px;
+}
+.homeReadHeadContainer > ul > li > a {
+  color: var(--customColor);
+  text-decoration: none;
+}
+.homeReadDisplayContainer {
+  /* border: solid green; */
+  width: 100%;
+  height: 100%;
+  display: none;
+  cursor: default;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.homeReadDisplayContainer > h3 {
+  font-size: 25px;
+}
+.homeReadDisplayContainer > ul > li > h4 {
+  font-size: 20px;
+  font-weight: 400;
+}
+.homeReadDisplayContainer > ul > li > p > a {
+  color: var(--customColor);
+  text-decoration: none;
+}
+.homeReadDisplayContainer > ul {
+  /* border: solid red; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.homeReadDisplayHead {
+  /* border: solid green; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.homeReadDisplayHead > h3 {
+  width: 90%;
+  text-align: start;
+  margin-top: 10px;
+}
+.homeReadDisplayHead > p {
+  font-size: 20px;
+}
+
+.homeReadDisplayContainer > ul > li {
+  /* border: solid blue; */
+  width: 90%;
+  font-size: 20px;
+  list-style: none;
+  margin: 10px;
+}
+.homeReadDisplayContainer > ul > li > a {
+  color: var(--customColor);
+  text-decoration: none;
+}
+.homeReadDisplayContainer > ul > li > span {
+    color: var(--customColor);
+  }
+.openBut{
+    font-weight: 400;
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .homeReadContainer {
+    /* border: solid red; */
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 60px;
+    text-align: justify;
+  }
+  .homeReadHeadContainer > h6 {
+    font-size: 30px;
+  }
+  .homeReadContainer > ul > li > p {
+    list-style: none;
+  }
+  .homeReadDisplayContainer > ul > li {
+    list-style: none;
+  }
+}

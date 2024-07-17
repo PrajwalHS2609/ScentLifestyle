@@ -70,7 +70,8 @@ const FacialRead = () => {
                 a variety of facials tailored to different skin types and
                 concerns, including oily skin, dry skin, aging skin, and
                 acne-prone skin. Whether you need a{" "}
-                <a href="https://scentlifestyle.com/facial">hydrating facial</a>, an{" "}
+                <a href="https://scentlifestyle.com/facial">hydrating facial</a>
+                , an{" "}
                 <a href="https://scentlifestyle.com/facial">
                   anti-aging facial
                 </a>
@@ -391,7 +392,7 @@ const FacialRead = () => {
         </div>
         <button>
           <h2 className="openBut" onClick={open}>
-            Read More
+            Read {toggle ? "More" : "Less"}
           </h2>
         </button>
       </div>

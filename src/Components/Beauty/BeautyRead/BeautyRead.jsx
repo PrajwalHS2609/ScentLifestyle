@@ -284,7 +284,7 @@ const BeautyRead = () => {
         </div>
         <button>
           <h2 className="openBut" onClick={open}>
-            Read More
+            Read {toggle ? "More" : "Less"}
           </h2>
         </button>
       </div>
