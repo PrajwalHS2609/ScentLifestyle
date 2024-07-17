@@ -7,6 +7,14 @@ import ClassicManiBenefits from "./ClassicManicureBenefits";
 import ClassicManicureProcess from "./ClassicManicureProcess";
 import ClassicManiMaintain from "./ClassicManicureMaintain";
 import ClassicManiBook from "./ClassicManicureBook";
+import Members from "../../HomePage/Members/Members";
+import OurSalon from "../../HomePage/OurSalon/OurSalon";
+import InstaFeed from "../../HomePage/InstaFeed/InstaFeed";
+import Partners from "../../HomePage/Partners/Partners";
+import HelpNearYou from "../../Help/HelpNearYou";
+import TextLocReviews from "../../TextLocReviews/TextLocReviews";
+import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
+import LastComp from "../../LastComp/LastComp";
 
 const ClassicManicurePage = () => {
   return (
@@ -32,6 +40,14 @@ const ClassicManicurePage = () => {
       <ClassicManicureProcess/>
       <ClassicManiMaintain/>
       <ClassicManiBook/>
+      <Members />
+      <OurSalon />
+      <Partners />
+      <InstaFeed />
+      <HelpNearYou />
+      <TextLocReviews />
+      <ServiceWhy />
+      <LastComp />
     </div>
   );
 };

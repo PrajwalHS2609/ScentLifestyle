@@ -3,12 +3,19 @@ import "./NailExtensionPage.css";
 import { Helmet } from "react-helmet";
 import NavBg from "../../NavBg/NavBg";
 import NailExtensionHead from "./NailExtensionHead/NailExtensionHead";
-import NailExtensionType from "./NailExtensionType/NailExtensionType";
 import NailExtensionMaintain from "./NailExtensionMaintain/NailExtensionMaintain";
 import NailExtensionWhy from "./NailExtensionWhy/NailExtensionWhy";
 import NailSalonBook from "./NailSalonBook/NailSalonBook";
 import SalonXp from "./SalonXp/SalonXp";
 import NailArtDesign from "./NailArtDesign/NailArtDesign";
+import Members from "../../HomePage/Members/Members";
+import OurSalon from "../../HomePage/OurSalon/OurSalon";
+import Partners from "../../HomePage/Partners/Partners";
+import InstaFeed from "../../HomePage/InstaFeed/InstaFeed";
+import HelpNearYou from "../../Help/HelpNearYou";
+import TextLocReviews from "../../TextLocReviews/TextLocReviews";
+import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
+import LastComp from "../../LastComp/LastComp";
 
 const NailExtensionPage = () => {
   return (
@@ -29,12 +36,19 @@ const NailExtensionPage = () => {
       </Helmet>
       <NavBg />
       <NailExtensionHead />
-      <NailExtensionType />
       <NailExtensionMaintain />
       <NailExtensionWhy />
       <SalonXp/>
       <NailArtDesign/>
       <NailSalonBook/>
+      <Members />
+      <OurSalon />
+      <Partners />
+      <InstaFeed />
+      <HelpNearYou />
+      <TextLocReviews />
+      <ServiceWhy />
+      <LastComp />
     </div>
   );
 };

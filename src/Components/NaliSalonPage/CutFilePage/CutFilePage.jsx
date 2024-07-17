@@ -6,6 +6,14 @@ import CutFileWhy from "./CutFileWhy";
 import CutFileBook from "./CutFileBook";
 import NavBg from "../../NavBg/NavBg";
 import { Helmet } from "react-helmet";
+import Members from "../../HomePage/Members/Members";
+import OurSalon from "../../HomePage/OurSalon/OurSalon";
+import Partners from "../../HomePage/Partners/Partners";
+import InstaFeed from "../../HomePage/InstaFeed/InstaFeed";
+import HelpNearYou from "../../Help/HelpNearYou";
+import TextLocReviews from "../../TextLocReviews/TextLocReviews";
+import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
+import LastComp from "../../LastComp/LastComp";
 
 const CutFilePage = () => {
   return (
@@ -31,6 +39,14 @@ const CutFilePage = () => {
       <CutFileWhat />
       <CutFileWhy />
       <CutFileBook />
+      <Members />
+      <OurSalon />
+      <Partners />
+      <InstaFeed />
+      <HelpNearYou />
+      <TextLocReviews />
+      <ServiceWhy />
+      <LastComp />
     </div>
   );
 };

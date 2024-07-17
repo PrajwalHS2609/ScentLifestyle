@@ -6,6 +6,14 @@ import SalonXp from "./SalonXp";
 import OmbreProcess from "./OmbreProcess";
 import OmbreGelPolishMaintain from "./OmbreGelPolishMaintain";
 import OmbreGelPolishBook from "./OmbreGelPolishBook";
+import Members from "../../HomePage/Members/Members";
+import OurSalon from "../../HomePage/OurSalon/OurSalon";
+import Partners from "../../HomePage/Partners/Partners";
+import InstaFeed from "../../HomePage/InstaFeed/InstaFeed";
+import HelpNearYou from "../../Help/HelpNearYou";
+import TextLocReviews from "../../TextLocReviews/TextLocReviews";
+import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
+import LastComp from "../../LastComp/LastComp";
 
 const OmbreGelPolishPage = () => {
   return (
@@ -30,6 +38,14 @@ const OmbreGelPolishPage = () => {
      <OmbreProcess/>
      <OmbreGelPolishMaintain/>
      <OmbreGelPolishBook/>
+     <Members />
+      <OurSalon />
+      <Partners />
+      <InstaFeed />
+      <HelpNearYou />
+      <TextLocReviews />
+      <ServiceWhy />
+      <LastComp />
     </div>
   );
 };

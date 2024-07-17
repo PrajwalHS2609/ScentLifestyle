@@ -7,6 +7,14 @@ import ChromeProcess from "./ChromeProcess";
 import ChromeGelBenefits from "./ChromeGelBenefits";
 import ChromeMaintain from "./ChromeMaintain";
 import ChromeGelCustomer from "./ChromeGelCustomer";
+import Members from "../../HomePage/Members/Members";
+import OurSalon from "../../HomePage/OurSalon/OurSalon";
+import Partners from "../../HomePage/Partners/Partners";
+import InstaFeed from "../../HomePage/InstaFeed/InstaFeed";
+import HelpNearYou from "../../Help/HelpNearYou";
+import TextLocReviews from "../../TextLocReviews/TextLocReviews";
+import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
+import LastComp from "../../LastComp/LastComp";
 
 const ChromeGelPage = () => {
   return (
@@ -32,6 +40,14 @@ const ChromeGelPage = () => {
       <ChromeGelBenefits />
       <ChromeMaintain />
       <ChromeGelCustomer/>
+      <Members />
+      <OurSalon />
+      <Partners />
+      <InstaFeed />
+      <HelpNearYou />
+      <TextLocReviews />
+      <ServiceWhy />
+      <LastComp />
     </div>
   );
 };

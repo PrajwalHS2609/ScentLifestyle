@@ -6,6 +6,14 @@ import CandleManicureXp from "./CandleManicureXp";
 import CandleManicureHead from './CandleManicureHead';
 import CandleManicureWhy from './CandleManicureWhy';
 import CandleManicureBook from './CandleManicureBook';
+import Members from "../../HomePage/Members/Members";
+import OurSalon from "../../HomePage/OurSalon/OurSalon";
+import Partners from "../../HomePage/Partners/Partners";
+import InstaFeed from "../../HomePage/InstaFeed/InstaFeed";
+import HelpNearYou from "../../Help/HelpNearYou";
+import TextLocReviews from "../../TextLocReviews/TextLocReviews";
+import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
+import LastComp from "../../LastComp/LastComp";
 
 
 const CandleManicurePage = () => {
@@ -31,6 +39,14 @@ const CandleManicurePage = () => {
       <CandleManicureBenefits />
       <CandleManicureWhy />
       <CandleManicureBook />
+      <Members />
+      <OurSalon />
+      <Partners />
+      <InstaFeed />
+      <HelpNearYou />
+      <TextLocReviews />
+      <ServiceWhy />
+      <LastComp />
     </div>
   );
 };

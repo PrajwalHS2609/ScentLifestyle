@@ -3,9 +3,17 @@ import { Helmet } from "react-helmet";
 import NavBg from "../../NavBg/NavBg";
 import OrganicManicureHead from "../OrganicManicurePage/OrganicManicureHead";
 import OrganicPedicureXp from "./OrganicPedicureXp";
-import OrganicPedicureBenefits from './OrganicPedicureBenefits';
-import OrganicPedicureMaintain from './OrganicPedicureMaintain';
-import OrganicPedicureBook from './OrganicPedicureBook';
+import OrganicPedicureBenefits from "./OrganicPedicureBenefits";
+import OrganicPedicureMaintain from "./OrganicPedicureMaintain";
+import OrganicPedicureBook from "./OrganicPedicureBook";
+import Members from "../../HomePage/Members/Members";
+import OurSalon from "../../HomePage/OurSalon/OurSalon";
+import Partners from "../../HomePage/Partners/Partners";
+import InstaFeed from "../../HomePage/InstaFeed/InstaFeed";
+import HelpNearYou from "../../Help/HelpNearYou";
+import TextLocReviews from "../../TextLocReviews/TextLocReviews";
+import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
+import LastComp from "../../LastComp/LastComp";
 
 const OrganicPedicurePage = () => {
   return (
@@ -25,11 +33,19 @@ const OrganicPedicurePage = () => {
         />
       </Helmet>
       <NavBg />
-      <OrganicManicureHead/>
-      <OrganicPedicureXp/>
-      <OrganicPedicureBenefits/>
-      <OrganicPedicureMaintain/>
-      <OrganicPedicureBook/>
+      <OrganicManicureHead />
+      <OrganicPedicureXp />
+      <OrganicPedicureBenefits />
+      <OrganicPedicureMaintain />
+      <OrganicPedicureBook />
+      <Members />
+      <OurSalon />
+      <Partners />
+      <InstaFeed />
+      <HelpNearYou />
+      <TextLocReviews />
+      <ServiceWhy />
+      <LastComp />
     </div>
   );
 };

@@ -1,4 +1,5 @@
 import React from "react";
+import InnerNavi from "../../InnerServicePage/InnerNavi/InnerNavi";
 
 const OmbreGelPolishHead = () => {
   return (
@@ -22,6 +23,8 @@ const OmbreGelPolishHead = () => {
           that add a touch of elegance and glamour to your look.
         </p>
       </div>
+      <InnerNavi link="/nails-salon" service="Nails Salon" currService="Ombre Gel Polish"/>
+
       <div className="nailExtensionHeading">
         <h2>What is Ombre Gel Nail Polish?</h2>
         <p>

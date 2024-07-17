@@ -1,4 +1,5 @@
 import React from "react";
+import InnerNavi from './../../InnerServicePage/InnerNavi/InnerNavi';
 
 const CandleManicureHead = () => {
   return (
@@ -16,6 +17,7 @@ const CandleManicureHead = () => {
           your senses, and provide an unparalleled spa experience.
         </p>
       </div>
+      <InnerNavi link="/nails-salon" service="Nails Salon" currService="Candle Spa Manicure"/>
       <div className="nailExtensionHeading">
         <h2>What is a Candle Spa Manicure?</h2>
         <p>

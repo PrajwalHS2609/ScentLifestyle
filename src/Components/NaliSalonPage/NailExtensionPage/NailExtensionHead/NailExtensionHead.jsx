@@ -1,5 +1,7 @@
 import React from "react";
 import "./NailExtensionHead.css";
+import NailExtensionType from "../NailExtensionType/NailExtensionType";
+import InnerNavi from "../../../InnerServicePage/InnerNavi/InnerNavi";
 const NailExtensionHead = () => {
   return (
     <div className="nailExtensionHead">
@@ -14,6 +16,9 @@ const NailExtensionHead = () => {
           needs and give your nails the ultimate makeover.
         </p>
       </div>
+      <InnerNavi link="/nails-salon" service="Nails Salon" currService="Nail Extension"/>
+
+      <NailExtensionType/>
       <div className="nailExtensionHeading">
         <h2>What is Nail Extension?</h2>
         <p>

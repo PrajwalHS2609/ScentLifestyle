@@ -1,4 +1,5 @@
 import React from "react";
+import InnerNavi from "../../InnerServicePage/InnerNavi/InnerNavi";
 
 const ClassicManicureHead = () => {
   return (
@@ -23,6 +24,8 @@ const ClassicManicureHead = () => {
           results that are both beautiful and long-lasting.
         </p>
       </div>
+      <InnerNavi link="/nails-salon" service="Nails Salon" currService="Classic Manicure"/>
+
       <div className="nailExtensionHeading">
         <h2>What is a Classic Manicure?</h2>
         <p>

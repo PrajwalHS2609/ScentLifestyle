@@ -1,4 +1,5 @@
 import React from "react";
+import InnerNavi from "../../InnerServicePage/InnerNavi/InnerNavi";
 
 const OrganicManicureHead = () => {
   return (
@@ -15,6 +16,8 @@ const OrganicManicureHead = () => {
           impact.
         </p>
       </div>
+      <InnerNavi link="/nails-salon" service="Nails Salon" currService="Organic Manicure"/>
+
       <div className="nailExtensionHeading">
         <h2>What is an Organic Manicure?</h2>
         <p>

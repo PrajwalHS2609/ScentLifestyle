@@ -1,4 +1,5 @@
 import React from "react";
+import InnerNavi from "../../InnerServicePage/InnerNavi/InnerNavi";
 
 const CutFileHead = () => {
   return (
@@ -27,6 +28,8 @@ const CutFileHead = () => {
           is the ideal choice.
         </p>
       </div>
+      <InnerNavi link="/nails-salon" service="Nails Salon" currService="Cut & file"/>
+
       <div className="nailExtensionHeading">
         <h3>Why Choose SCENT for Nails Cut & File in Bangalore?</h3>
         <p>

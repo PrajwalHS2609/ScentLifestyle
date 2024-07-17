@@ -1,4 +1,6 @@
 import React from "react";
+import GelServices from './GelServices';
+import InnerNavi from "../../InnerServicePage/InnerNavi/InnerNavi";
 
 const GelNailArtHead = () => {
   return (
@@ -18,6 +20,9 @@ const GelNailArtHead = () => {
           everything you need to know about this trendy nail service:
         </p>
       </div>
+      <InnerNavi link="/nails-salon" service="Nails Salon" currService="Gel Nail Art"/>
+
+      <GelServices/>
       <div className="nailExtensionHeading">
         <h2>What is Gel Nail Art?</h2>
         <p>

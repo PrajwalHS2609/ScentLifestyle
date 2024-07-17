@@ -1,4 +1,5 @@
 import React from "react";
+import InnerNavi from "../../InnerServicePage/InnerNavi/InnerNavi";
 
 const ChromePolishHead = () => {
   return (
@@ -18,6 +19,8 @@ const ChromePolishHead = () => {
           this service.
         </p>
       </div>
+      <InnerNavi link="/nails-salon" service="Nails Salon" currService="Chrome Polish"/>
+
       <div className="nailExtensionHeading">
         <h2>What is Chrome Gel Polish?</h2>
         <p>
