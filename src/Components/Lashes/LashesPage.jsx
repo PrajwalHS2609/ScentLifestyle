@@ -13,6 +13,7 @@ import InstaFeed from "../HomePage/InstaFeed/InstaFeed";
 import { Helmet } from "react-helmet";
 import NavBg from "../NavBg/NavBg";
 import TextLocReviews from "../TextLocReviews/TextLocReviews";
+import WhatsApp from "../HomePage/WhatsApp/WhatsApp";
 
 const LashesPage = () => {
   return (
@@ -42,6 +43,7 @@ const LashesPage = () => {
       <HelpNearYou />
       <TextLocReviews />
       <ServiceWhy />
+      <WhatsApp/>
       <LashesRead />
       <LastComp />
     </div>

@@ -2,14 +2,11 @@ import React, { useEffect } from "react";
 import "./WhatsApp.css";
 import whatsApp from "./../../../Images/WhatsApp.png";
 const WhatsApp = () => {
-
-useEffect(()=>{
-
-},[])
+  useEffect(() => {}, []);
   return (
     <div className="whatsAppContainer">
-        {/* <div className="whatsAppContent">Hello</div> */}
-      <a href="https://api.whatsapp.com/send?phone=919742232700">
+      {/* <div className="whatsAppContent">Hello</div> */}
+      <a href="https://wa.me/9742232700?text=Hello" >
         <img src={whatsApp} alt="" />
       </a>
     </div>

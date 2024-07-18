@@ -14,6 +14,7 @@ import Navi1 from "../HairServicePage/Navi1/Navi1";
 import BridalMakeUpServiceCard from "./BridalMakeUpServiceCard";
 import BridalMakeUpAbout from "./BridalMakeUpAbout/BridalMakeUpAbout";
 import BridalReadMore from "./BridalReadMore/BridalReadMore";
+import WhatsApp from "../HomePage/WhatsApp/WhatsApp";
 
 const BridalMakeUpPage = () => {
   return (
@@ -41,6 +42,7 @@ const BridalMakeUpPage = () => {
       <HelpNearYou />
       <TextLocReviews />
       <ServiceWhy />
+      <WhatsApp/>
       <BridalReadMore />
       <LastComp />
     </div>

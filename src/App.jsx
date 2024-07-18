@@ -64,6 +64,7 @@ import CandlePedicurePage from "./Components/NaliSalonPage/CandlePedicurePage/Ca
 import CandleManicurePage from "./Components/NaliSalonPage/CandleManicurePage/CandleManicurePage";
 import BridalMakeUpPage from "./Components/BridalMakeUpPage/BridalMakeUpPage";
 import MicroBladingPage from "./Components/MicroBladingPage/MicroBladingPage";
+import BlogPage from "./Components/BlogPage/BlogPage";
 
 const App = () => {
   return (
@@ -157,6 +158,8 @@ const App = () => {
           <Route path="/candle-spa-manicure" element={<CandleManicurePage />} />
           <Route path="/candle-spa-pedicure" element={<CandlePedicurePage />} />
           <Route path="/nail-cut-and-file" element={<CutFilePage />} />
+          <Route path="/blog" element={<BlogPage />} />
+
         </Routes>
       </BrowserRouter>
     </div>

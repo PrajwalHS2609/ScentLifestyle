@@ -13,6 +13,7 @@ import InstaFeed from "../HomePage/InstaFeed/InstaFeed.jsx";
 import { Helmet } from "react-helmet";
 import NavBg from "../NavBg/NavBg.jsx";
 import TextLocReviews from "../TextLocReviews/TextLocReviews.jsx";
+import WhatsApp from "../HomePage/WhatsApp/WhatsApp.jsx";
 const FacialPage = () => {
   return (
     <div>
@@ -41,6 +42,7 @@ const FacialPage = () => {
       <HelpNearYou />
       <TextLocReviews/>
       <ServiceWhy />
+      <WhatsApp/>
       <FacialRead />
       <LastComp />
     </div>

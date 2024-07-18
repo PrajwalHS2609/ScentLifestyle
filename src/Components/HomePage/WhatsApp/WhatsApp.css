@@ -34,7 +34,7 @@
     flex-direction: column;
     position: fixed;
     z-index: 3;
-    top: 480px;
+    top: 500px;
     right: 5px;
     width: 100px;
   }

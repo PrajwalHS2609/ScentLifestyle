@@ -14,6 +14,7 @@ import InstaFeed from "./../HomePage/InstaFeed/InstaFeed";
 import { Helmet } from "react-helmet";
 import NavBg from "./../NavBg/NavBg";
 import TextLocReviews from "../TextLocReviews/TextLocReviews";
+import WhatsApp from "../HomePage/WhatsApp/WhatsApp";
 
 const MainServicePage = () => {
   return (
@@ -42,6 +43,7 @@ const MainServicePage = () => {
       <HelpNearYou />
       <TextLocReviews />
       <ServiceWhy />
+      <WhatsApp/>
       <ServiceRead />
       <LastComp />
     </div>
