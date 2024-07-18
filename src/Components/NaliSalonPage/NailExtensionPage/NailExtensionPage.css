@@ -1,9 +1,9 @@
 .nailExtensionPage {
   /* border: solid red; */
   width: 100%;
-  display: flex;
+  /* display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  flex-direction: column; */
   gap: 20px;
 }
