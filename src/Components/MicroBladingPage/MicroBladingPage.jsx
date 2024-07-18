@@ -19,19 +19,20 @@ const MicroBladingPage = () => {
     <div>
       <Helmet>
         <meta charSet="UTF-8" />
-        <title>
-          Bridal Makeup Artists in Bangalore - Wedding Makeup Artists
-        </title>
+        <title>Eyebrow Microblading in Bangalore - Microblading Services</title>
         <meta
           name="description"
           content="Eyebrow Microblading in Bangalore. A semi-permanent solution for perfectly shaped and fuller eyebrows. Book Now!."
         />
-        {/* <link rel="canonical" href="https://scentlifestyle.com/bridal-makeup" /> */}
+        <link
+          rel="canonical"
+          href="https://scentlifestyle.com/eyebrow-microblading"
+        />
       </Helmet>
       <NavBg />
       <MicroBladingImg />
       <Navi1 servName="MicroBlading" />
-      <MicroBladingContent/>
+      <MicroBladingContent />
       <Members />
       <OurSalon />
       <Partners />

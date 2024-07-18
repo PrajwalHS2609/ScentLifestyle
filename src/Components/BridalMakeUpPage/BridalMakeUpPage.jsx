@@ -27,7 +27,7 @@ const BridalMakeUpPage = () => {
           name="description"
           content="Bridal Makeup Artists in Bangalore. Look your absolute best even before your D-Day with our exclusive pre-bridal services."
         />
-        {/* <link rel="canonical" href="https://scentlifestyle.com/bridal-makeup" /> */}
+        <link rel="canonical" href="https://scentlifestyle.com/bridal-makeup" />
       </Helmet>
       <NavBg />
       <BridalMakeUpImg />
