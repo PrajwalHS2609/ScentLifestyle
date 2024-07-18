@@ -205,7 +205,7 @@ const SpaRead = () => {
         </div>
         <button>
           <h2 className="openBut" onClick={open}>
-          Read {toggle ? "More" : "Less"}
+          Read {toggle ? "Less" : "More"}
           </h2>
         </button>
       </div>

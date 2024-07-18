@@ -1,14 +1,11 @@
 import React from "react";
 import "./BeautyImg.css";
+import beautyEssentialVid from "./../../../video/BeautyEssentialsService.mp4";
 const BeautyImg = () => {
   return (
     <div className="beautyImgContainer">
       <div className="imgCover">
-        <video
-          src="https://videocdn.cdnpk.net/joy/content/video/free/video0458/large_preview/_import_60c06d2029e8c9.81036975.mp4?filename=1104960_1080p_wellbeing_care_1920x1080.mp4"
-          autoPlay
-          loop
-        ></video>
+        <video src={beautyEssentialVid} autoPlay loop></video>
         <div className="cover">
           <div className="overCoverTxt">
             <h2>Beauty Essentials</h2>

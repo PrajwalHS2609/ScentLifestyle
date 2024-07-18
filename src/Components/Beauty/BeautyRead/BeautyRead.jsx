@@ -32,10 +32,10 @@ const BeautyRead = () => {
               self-care pampering? <a href="/">SCENT Salon in Bangalore</a> is
               your destination for luxurious and expertly executed services. Our
               range of treatments, including{" "}
-              <a href="/beauty-essentials">waxing, de-tan, and threading</a>, will leave you
-              feeling rejuvenated and transformed. Whether you want smooth,
-              hair-free skin or a brightened complexion, our salon offers the
-              best in beauty care.
+              <a href="/beauty-essentials">waxing, de-tan, and threading</a>,
+              will leave you feeling rejuvenated and transformed. Whether you
+              want smooth, hair-free skin or a brightened complexion, our salon
+              offers the best in beauty care.
             </p>
           </li>
           <li>
@@ -46,7 +46,8 @@ const BeautyRead = () => {
               from the body. It not only removes hair from the roots, ensuring a
               longer period of smoothness but also helps in exfoliating dead
               skin cells, leaving your skin soft and radiant. At SCENT Salon, we
-              offer a variety of <a href="/beauty-essentials">waxing services</a> tailored to your
+              offer a variety of{" "}
+              <a href="/beauty-essentials">waxing services</a> tailored to your
               needs.
             </p>
           </li>
@@ -284,7 +285,7 @@ const BeautyRead = () => {
         </div>
         <button>
           <h2 className="openBut" onClick={open}>
-            Read {toggle ? "More" : "Less"}
+            Read {toggle ? "Less" : "More"}
           </h2>
         </button>
       </div>
