@@ -26,14 +26,14 @@
 .nailExtensionWhy > ul > li {
   list-style: none;
   font-size: 20px;
-  text-align: start;
+  text-align: justify;
   margin: 20px;
   display: flex;
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
   gap: 10px;
-  width: 100%;
+  width: 90%;
 }
 .nailExtensionWhy > ul > li > span {
   display: flex;

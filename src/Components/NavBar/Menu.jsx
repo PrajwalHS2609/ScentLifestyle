@@ -82,7 +82,7 @@ const Menu = () => {
             </Link>
             <Link to={"/eyebrow-microblading"}>
               <div className="dropItems" id="dropItem2">
-                <pre>Eyebrow Microblading</pre>
+                <pre> Eyebrow Microblading</pre>
               </div>
             </Link>
           </div>
@@ -183,7 +183,7 @@ const Menu = () => {
               <li>
                 <h4>
                   <Link onClick={hideSideBar} to={"/eyebrow-microblading"}>
-                   Eyebrow Microblading
+                    Eyebrow Microblading
                   </Link>
                 </h4>
               </li>
