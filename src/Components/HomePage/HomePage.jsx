@@ -13,6 +13,7 @@ import HomeRead from "./HomeRead/HomeRead";
 import LastComp from "./../LastComp/LastComp";
 import ServiceWhy from "./../MainServicePages/ServiceWhy/ServiceWhy";
 import TextLocReviews from "./../TextLocReviews/TextLocReviews";
+import WhatsApp from "./WhatsApp/WhatsApp";
 const InstaFeed = React.lazy(() => import("./InstaFeed/InstaFeed"));
 
 const HomePage = () => {
@@ -42,6 +43,7 @@ const HomePage = () => {
       <HelpNearYou />
       <TextLocReviews />
       <ServiceWhy />
+      <WhatsApp/>
       <HomeRead />
       <LastComp />
     </div>

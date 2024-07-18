@@ -7,7 +7,7 @@ const MicroBladingContent = () => {
       <div className="microBladingItem">
         <img src={microBladingContent} alt="microBladingContent" />
       </div>
-      <div className="microBladingItem">
+      <div className="microBladingItem" id="microBladingItemTxt">
         <h2> Eyebrow Microblading in Bangalore</h2>
         <p>
           Achieve perfectly defined and natural-looking brows effortlessly with
@@ -27,6 +27,9 @@ const MicroBladingContent = () => {
           enjoy the convenience of a low-maintenance beauty routine with our
           premier eyebrow microblading service.
         </p>
+        <button>
+          <a href="https://api.whatsapp.com/send?phone=919742232700">Book Now</a>
+        </button>
       </div>
     </div>
   );
