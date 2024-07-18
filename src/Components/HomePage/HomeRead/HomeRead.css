@@ -28,6 +28,7 @@
   font-size: 20px;
   text-decoration: underline;
   font-weight: 400;
+  cursor: pointer;
 }
 .homeReadContainer > header > h1 {
   margin: 20px;

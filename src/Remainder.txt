@@ -1,4 +1,4 @@
 change the arrow of react slick
 arrange videos to center in mobile ver
 images changes and download
-change read more designs to transparent
+add cursor pointer to read more

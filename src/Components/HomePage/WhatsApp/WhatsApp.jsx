@@ -6,7 +6,7 @@ const WhatsApp = () => {
   return (
     <div className="whatsAppContainer">
       {/* <div className="whatsAppContent">Hello</div> */}
-      <a href="https://wa.me/9742232700?text=Hello" >
+      <a href="https://wa.me/919742232700?text=Hello" >
         <img src={whatsApp} alt="" />
       </a>
     </div>

@@ -1,56 +1,80 @@
 .blogMainContainer {
-  /* border: solid blue; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 35px;
-  padding: 10px;
-}
-.blogCardContainer {
-  /* border: solid green; */
+  /* border: solid red; */
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 10px;
-  padding: 10px;
-  width: 30%;
-    }
-.blogCardImg {
-  /* border: solid brown; */
-  width: 100%;
+  gap: 30px;
+  padding: 20px;
 }
-.blogCardImg>img{
-    width: 100%;height: 100%;object-fit: cover;
-}
-.blogCardTitle {
-  /* border: solid teal; */
-  width: 100%;
-}
-.blogCardTitle > h2 {
-  text-align: justify;
-  width: 100%;
-}
-.blogCardPara > p {
-  text-align: justify;
-  font-size: 20px;
-}
-.BlogCardBut {
+.blogMainDisplay1 {
+  /* border: solid blue; */
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
 }
-.BlogCardBut > button {
+.blogMainDisplay2 {
+  /* border: solid blue; */
+  width: 100%;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+.blogCardContainer {
+  /* border: solid green; */
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  margin: 10px;
+}
+.blogCardImg > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.BlogCardBut {
+  /* border: solid brown; */
   width: 100px;
   height: 40px;
+}
+.BlogCardBut > button {
+  width: 100%;
+  height: 100%;
+  padding: 5px;
+  font-size: 15px;
+  background-color: var(--customColor);
   border-radius: 10px;
   border: none;
-  background-color: var(--customColor);
+  cursor: pointer;
 }
 .BlogCardBut > button > a {
   text-decoration: none;
   color: white;
-  font-size: 18px;
+}
+.blogMainReadMore {
+  /* border: solid green; */
+  width: 200px;
+  height: 50px;
+}
+.blogMainReadMore > button {
+  width: 100%;
+  height: 100%;
+  background-color: var(--customColor);
+  color: white;
+  border: none;
+  font-size: 20px;
+  border-radius: 10px;
+  cursor: pointer;
 }

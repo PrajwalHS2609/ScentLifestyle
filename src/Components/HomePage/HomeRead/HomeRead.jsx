@@ -415,11 +415,11 @@ const HomeRead = () => {
             </li>
           </ul>
         </div>
-        <buttonn className="readBut">
+        <button className="readBut">
           <h2 className="openBut" onClick={open}>
           Read {toggle ? "Less" : "More"}
           </h2>
-        </buttonn>
+        </button>
       </div>
     </div>
   );

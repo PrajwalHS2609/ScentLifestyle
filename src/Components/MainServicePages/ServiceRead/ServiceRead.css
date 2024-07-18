@@ -53,6 +53,7 @@
 }
 .serviceReadHeadContainer > ul > li > a {
   color: var(--customColor);
+  text-decoration: none;
 }
 .serviceReadDisplayContainer {
   /* border: solid green; */
@@ -74,6 +75,8 @@
 }
 .serviceReadDisplayContainer > ul > li > p > a {
   color: var(--customColor);
+  text-decoration: none;
+
 }
 .serviceReadDisplayContainer > ul {
   /* border: solid red; */
@@ -106,6 +109,8 @@
 }
 .serviceReadDisplayContainer > ul > li > a {
   color: var(--customColor);
+  text-decoration: none;
+
 }
 @media screen and (min-width: 320px) and (max-width: 768px) {
   .serviceReadContainer {
