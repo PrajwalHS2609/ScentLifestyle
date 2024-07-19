@@ -13,6 +13,7 @@ import Partners from "../HomePage/Partners/Partners";
 import OurSalon from "../HomePage/OurSalon/OurSalon";
 import Members from "../HomePage/Members/Members";
 import { Helmet } from "react-helmet";
+import WhatsApp from "../HomePage/WhatsApp/WhatsApp";
 const AboutPage = () => {
   return (
     <div className="aboutPgContainer">
@@ -36,6 +37,7 @@ const AboutPage = () => {
       <HelpNearYou />
       <TextLocReviews />
       <ServiceWhy />
+      <WhatsApp/>
       <LastComp />
     </div>
   );

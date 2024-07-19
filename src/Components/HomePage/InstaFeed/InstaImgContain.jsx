@@ -62,8 +62,9 @@ const InstaImgContain = () => {
           backgroundImage: `url(${rightArrow})`,
           backgroundSize: "contain",
           backgroundRepeat: "no-repeat",
-          height: "20px",
-          width: "20px",
+          height: "50px",
+          width: "50px",
+          marginRight: "-10px",
         }}
         onClick={onClick}
       />
@@ -84,8 +85,10 @@ const InstaImgContain = () => {
           backgroundImage: `url(${leftArrow})`,
           backgroundSize: "contain",
           backgroundRepeat: "no-repeat",
-          height: "20px",
-          width: "20px",
+          height: "50px",
+          width: "50px",
+          marginLeft: "-10px",
+
         }}
         onClick={onClick}
       />

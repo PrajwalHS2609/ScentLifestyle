@@ -14,6 +14,7 @@ import { Helmet } from "react-helmet";
 import HairServiceImg from "../../HairServicePage/HairServiceImg/HairServiceImg";
 import Navi1 from "../../HairServicePage/Navi1/Navi1";
 import HairServiceCardContain from "../../HairServicePage/HairServiceCard/HairServiceCardContain";
+import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
 
 const HairSalonLavelle = () => {
   return (
@@ -180,6 +181,7 @@ const HairSalonLavelle = () => {
       <HelpNearYou />
       <TextLocReviews />
       <ServiceWhy />
+      <WhatsApp/>
       <LastComp />
     </div>
   );

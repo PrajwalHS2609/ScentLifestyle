@@ -14,6 +14,7 @@ import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
 import LastComp from "../../LastComp/LastComp";
 import { Helmet } from "react-helmet";
+import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
 const Mustache = () => {
   return (
     <div className="mustacheContainer">
@@ -79,6 +80,7 @@ At SCENT , we understand that a well-groomed mustache can make a powerful statem
       <HelpNearYou />
       <TextLocReviews />
       <ServiceWhy />
+      <WhatsApp/>
       <LastComp />
     </div>
   );

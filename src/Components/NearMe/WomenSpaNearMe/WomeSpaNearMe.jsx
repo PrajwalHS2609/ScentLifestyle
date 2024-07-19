@@ -13,6 +13,7 @@ import { Helmet } from "react-helmet";
 import SpaImg from "../../Spa/SpaImg/SpaImg";
 import Navi5 from "../../Spa/Navi5/Navi5";
 import SpaServiceCardContain from "../../Spa/SpaServiceCard/SpaServiceCardContain";
+import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
 
 const WomeSpaNearMe = () => {
   return (
@@ -37,6 +38,7 @@ const WomeSpaNearMe = () => {
       <HelpNearYou />
       <TextLocReviews />
       <ServiceWhy />
+      <WhatsApp />
       <WomenSpa />
       <LastComp />
     </div>

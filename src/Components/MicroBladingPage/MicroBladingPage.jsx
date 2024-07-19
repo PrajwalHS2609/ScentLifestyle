@@ -13,6 +13,7 @@ import Navi1 from "../HairServicePage/Navi1/Navi1";
 import MicroBladingReadMore from "./MicroBladingReadMore/MicroBladingReadMore";
 import { Helmet } from "react-helmet";
 import MicroBladingContent from "./MicroBladingReadMore/MicroBladingContent/MicroBladingContent";
+import WhatsApp from "../HomePage/WhatsApp/WhatsApp";
 
 const MicroBladingPage = () => {
   return (
@@ -40,6 +41,7 @@ const MicroBladingPage = () => {
       <HelpNearYou />
       <TextLocReviews />
       <ServiceWhy />
+      <WhatsApp/>
       <MicroBladingReadMore />
       <LastComp />
     </div>

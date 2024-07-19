@@ -13,6 +13,7 @@ import Navi5 from '../../Spa/Navi5/Navi5';
 import SpaImg from '../../Spa/SpaImg/SpaImg';
 import NavBg from '../../NavBg/NavBg';
 import { Helmet } from 'react-helmet';
+import WhatsApp from '../../HomePage/WhatsApp/WhatsApp';
 const FootMassageNearMe = () => {
   return (
     <div>
@@ -37,6 +38,7 @@ const FootMassageNearMe = () => {
     <TextLocReviews />
     <ServiceWhy />
     <FootMassageMain />
+    <WhatsApp/>
     <LastComp />
   </div>
   )

@@ -13,6 +13,7 @@ import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
 import PediNearMe from "./PediNearMe";
 import LastComp from "../../LastComp/LastComp";
 import { Helmet } from "react-helmet";
+import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
 
 const PedicureNearMe = () => {
   return (
@@ -38,6 +39,7 @@ const PedicureNearMe = () => {
       <TextLocReviews />
       <ServiceWhy />
       <PediNearMe />
+      <WhatsApp/>
       <LastComp />
     </div>
   );

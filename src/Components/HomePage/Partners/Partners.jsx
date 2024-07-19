@@ -3,6 +3,8 @@ import "./Partners.css";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import leftArrow from "./../../../Images/left.png";
+import rightArrow from "./../../../Images/right.png";
 const Partners = () => {
   function SampleNextArrow(props) {
     const { className, style, onClick } = props;
@@ -47,7 +49,45 @@ const Partners = () => {
       />
     );
   }
+  function RespSampleNextArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+      <div
+        className={className}
+        style={{
+          ...style,
 
+          height: "50px",
+          width: "50px",
+          cursor: "pointer",
+          backgroundImage: `url(${rightArrow})`,
+          backgroundSize: "contain",
+          backgroundRepeat: "no-repeat",
+          marginRight: "-35px",
+        }}
+        onClick={onClick}
+      />
+    );
+  }
+  function RespSamplePrevArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+      <div
+        className={className}
+        style={{
+          ...style,
+          height: "50px",
+          width: "50px",
+          cursor: "pointer",
+          backgroundImage: `url(${leftArrow})`,
+          backgroundSize: "contain",
+          backgroundRepeat: "no-repeat",
+          marginLeft: "-35px",
+        }}
+        onClick={onClick}
+      />
+    );
+  }
   const settings = {
     dots: false,
     infinite: false,
@@ -63,6 +103,18 @@ const Partners = () => {
           slidesToShow: 1,
           slidesToScroll: 1,
           initialSlide: 2,
+          nextArrow: <RespSampleNextArrow />,
+          prevArrow: <RespSamplePrevArrow />,
+        },
+      },
+      {
+        breakpoint: 990,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          initialSlide: 2,
+          nextArrow: <SampleNextArrow />,
+          prevArrow: <SamplePrevArrow />,
         },
       },
     ],
@@ -104,7 +156,7 @@ const Partners = () => {
             />
           </div>
 
-          <div className="partnerSlideContainer"  id="keraste">
+          <div className="partnerSlideContainer" id="keraste">
             <img
               src="https://www.powerreviews.com/wp-content/uploads/2020/11/kerastase-logo-768x217.png"
               alt="keraste"

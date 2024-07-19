@@ -11,6 +11,7 @@ import Partners from "../HomePage/Partners/Partners";
 import InstaFeed from "../HomePage/InstaFeed/InstaFeed";
 import TextLocReviews from "../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../MainServicePages/ServiceWhy/ServiceWhy";
+import WhatsApp from "../HomePage/WhatsApp/WhatsApp";
 const ContactPage = () => {
   return (
     <div className="contactPageContainer">
@@ -35,6 +36,7 @@ const ContactPage = () => {
       <HelpNearYou />
       <TextLocReviews />
       <ServiceWhy />
+      <WhatsApp/>
       <LastComp />
     </div>
   );

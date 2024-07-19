@@ -11,6 +11,10 @@ import Partners from "../HomePage/Partners/Partners";
 import InstaFeed from "../HomePage/InstaFeed/InstaFeed";
 import { Helmet } from "react-helmet";
 import NavBg from "../NavBg/NavBg";
+import WhatsApp from "../HomePage/WhatsApp/WhatsApp";
+import ServiceWhy from "../MainServicePages/ServiceWhy/ServiceWhy";
+import TextLocReviews from "../TextLocReviews/TextLocReviews";
+import HelpNearYou from "../Help/HelpNearYou";
 const MembershipPage = () => {
   return (
     <div className="membershipPageContainer">
@@ -37,6 +41,10 @@ const MembershipPage = () => {
       <OurSalon />
       <Partners />
       <InstaFeed />
+      <HelpNearYou />
+      <TextLocReviews />
+      <ServiceWhy />
+      <WhatsApp/>
       <LastComp />
     </div>
   );

@@ -24,7 +24,7 @@ const BlogPage = () => {
       <HelpNearYou />
       <TextLocReviews />
       <ServiceWhy />
-      {/* <WhatsApp /> */}
+      <WhatsApp />
       <FacialRead />
       <LastComp />
     </div>

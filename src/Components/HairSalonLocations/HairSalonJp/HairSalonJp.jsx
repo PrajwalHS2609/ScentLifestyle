@@ -15,6 +15,7 @@ import HairServiceCardContain from "../../HairServicePage/HairServiceCard/HairSe
 import Navi1 from "../../HairServicePage/Navi1/Navi1";
 import HairServiceImg from "../../HairServicePage/HairServiceImg/HairServiceImg";
 import { Helmet } from "react-helmet";
+import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
 const HairSalonJp = () => {
   return (
     <div className="hairSalonLocation">
@@ -181,6 +182,7 @@ const HairSalonJp = () => {
       <HelpNearYou />
       <TextLocReviews />
       <ServiceWhy />
+      <WhatsApp/>
       <LastComp />
     </div>
   );

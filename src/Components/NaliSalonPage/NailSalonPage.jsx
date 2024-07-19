@@ -13,6 +13,7 @@ import Partners from "../HomePage/Partners/Partners";
 import { Helmet } from "react-helmet";
 import NavBg from "./../NavBg/NavBg";
 import TextLocReviews from "../TextLocReviews/TextLocReviews";
+import WhatsApp from "../HomePage/WhatsApp/WhatsApp";
 
 const NailSalonPage = () => {
   return (
@@ -42,6 +43,7 @@ const NailSalonPage = () => {
       <HelpNearYou />
       <TextLocReviews />
       <ServiceWhy />
+      <WhatsApp/>
       <NailRead />
       <LastComp />
     </div>

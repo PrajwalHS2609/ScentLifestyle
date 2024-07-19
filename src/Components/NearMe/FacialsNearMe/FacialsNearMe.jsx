@@ -13,6 +13,7 @@ import { Helmet } from "react-helmet";
 import FacialImg from "../../FacialPage/FacialImg/FacialImg";
 import Navi3 from "../../FacialPage/Navi3/Navi3";
 import FacialServiceCardContain from "../../FacialPage/FacialCards/FacialServiceCardContain";
+import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
 
 const FacialsNearMe = () => {
   return (
@@ -38,6 +39,7 @@ const FacialsNearMe = () => {
       <TextLocReviews />
       <ServiceWhy />
       <FacialsNearMeMain />
+      <WhatsApp />
       <LastComp />
     </div>
   );

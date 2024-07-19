@@ -14,6 +14,7 @@ import OurSalon from "./../../HomePage/OurSalon/OurSalon";
 import Members from "./../../HomePage/Members/Members";
 import LastComp from "../../LastComp/LastComp";
 import { Helmet } from "react-helmet";
+import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
 const BeardStyle = () => {
   return (
     <div className="beardStyleContainer">
@@ -79,6 +80,7 @@ const BeardStyle = () => {
       <HelpNearYou />
       <TextLocReviews />
       <ServiceWhy />
+      <WhatsApp/>
       <LastComp />
     </div>
   );

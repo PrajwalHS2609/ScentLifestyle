@@ -7,6 +7,7 @@ import FranchiseNavBg from "./FranchiseNavBg";
 import LastComp from "./../LastComp/LastComp";
 import FranchiseImg from "./FranchiseImg";
 import { Helmet } from "react-helmet";
+import WhatsApp from "../HomePage/WhatsApp/WhatsApp";
 
 const FranchisePage = () => {
   return (
@@ -29,6 +30,7 @@ const FranchisePage = () => {
       <FranchisePara />
       <FranchiseForm />
       <FranchiseContact />
+      <WhatsApp/>
       <LastComp />
     </div>
   );

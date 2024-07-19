@@ -15,6 +15,7 @@ import { Helmet } from "react-helmet";
 import HairServiceImg from "../../HairServicePage/HairServiceImg/HairServiceImg";
 import Navi1 from "../../HairServicePage/Navi1/Navi1";
 import HairServiceCardContain from "../../HairServicePage/HairServiceCard/HairServiceCardContain";
+import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
 const HairSalonUptown = () => {
   return (
     <div className="hairSalonLocation">
@@ -52,14 +53,14 @@ const HairSalonUptown = () => {
           </div>
           <div className="hairSalonLocationWelcomeHead">
             <h2>
-              Experience Premier Hair Care at SCENT  in Uptown, Whitefield{" "}
+              Experience Premier Hair Care at SCENT in Uptown, Whitefield{" "}
             </h2>
           </div>
           <div className="hairSalonLocationWelcomePara">
-            Welcome to SCENT , the premier destination for top-notch hair
-            care services in Uptown, Whitefield. Our salon is dedicated to
-            offering exceptional hairstyling, coloring, and treatment services
-            that cater to your individual needs. At{" "}
+            Welcome to SCENT , the premier destination for top-notch hair care
+            services in Uptown, Whitefield. Our salon is dedicated to offering
+            exceptional hairstyling, coloring, and treatment services that cater
+            to your individual needs. At{" "}
             <Link to={"/hair-salon-in-uptown-whitefield"}>
               SCENT Hair Salon
             </Link>
@@ -125,11 +126,11 @@ const HairSalonUptown = () => {
                   requirements.
                 </li>
                 <li>
-                  <span>Premium Products: </span> At SCENT , we use only
-                  the finest hair care products known for their superior
-                  performance and gentle care. Our products are selected to
-                  provide the best results while maintaining the health and
-                  integrity of your hair.
+                  <span>Premium Products: </span> At SCENT , we use only the
+                  finest hair care products known for their superior performance
+                  and gentle care. Our products are selected to provide the best
+                  results while maintaining the health and integrity of your
+                  hair.
                 </li>
                 <li>
                   <span>Relaxing Environment</span> Our salon is designed to be
@@ -139,8 +140,8 @@ const HairSalonUptown = () => {
                 </li>
                 <li>
                   <span>Convenient Location:</span> Conveniently located in
-                  Uptown, Whitefield, SCENT  is easily accessible, making
-                  it an ideal choice for quick touch-ups or extensive beauty
+                  Uptown, Whitefield, SCENT is easily accessible, making it an
+                  ideal choice for quick touch-ups or extensive beauty
                   treatments.
                 </li>
               </ol>
@@ -162,7 +163,7 @@ const HairSalonUptown = () => {
               achieve your hair goals.
             </p>
             <p>
-              Visit SCENT  and discover why we are the top choice for{" "}
+              Visit SCENT and discover why we are the top choice for{" "}
               <Link to={"/hair-salon-in-uptown-whitefield"}>
                 hair care in Uptown, Whitefield
               </Link>
@@ -180,6 +181,7 @@ const HairSalonUptown = () => {
       <HelpNearYou />
       <TextLocReviews />
       <ServiceWhy />
+      <WhatsApp />
       <LastComp />
     </div>
   );

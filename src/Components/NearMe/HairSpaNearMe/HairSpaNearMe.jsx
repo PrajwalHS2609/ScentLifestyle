@@ -14,6 +14,7 @@ import Navi1 from "../../HairServicePage/Navi1/Navi1";
 import HairServiceImg from "../../HairServicePage/HairServiceImg/HairServiceImg";
 import HairServiceCardContain from "../../HairServicePage/HairServiceCard/HairServiceCardContain";
 import HairSalon from "../../HairServicePage/HairSalon/HairSalon";
+import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
 
 const HairSpaNearMe = () => {
   return (
@@ -40,6 +41,7 @@ const HairSpaNearMe = () => {
       <TextLocReviews />
       <ServiceWhy />
       <HairSpaNearMain />
+      <WhatsApp/>
       <LastComp />
     </div>
   );

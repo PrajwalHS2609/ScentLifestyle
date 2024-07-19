@@ -14,6 +14,7 @@ import HelpNearYou from "../../Help/HelpNearYou";
 import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
 import LastComp from "../../LastComp/LastComp";
+import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
 
 
 const CandleManicurePage = () => {
@@ -46,6 +47,7 @@ const CandleManicurePage = () => {
       <HelpNearYou />
       <TextLocReviews />
       <ServiceWhy />
+      <WhatsApp/>
       <LastComp />
     </div>
   );

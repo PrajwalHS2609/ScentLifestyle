@@ -13,6 +13,7 @@ import { Helmet } from "react-helmet";
 import NavBg from "../NavBg/NavBg";
 import TextLocReviews from "./../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../MainServicePages/ServiceWhy/ServiceWhy";
+import WhatsApp from "../HomePage/WhatsApp/WhatsApp";
 
 const SpaPages = () => {
   return (
@@ -37,6 +38,7 @@ const SpaPages = () => {
       <HelpNearYou />
       <TextLocReviews />
       <ServiceWhy />
+      <WhatsApp/>
       <SpaRead />
       <LastComp />
     </div>

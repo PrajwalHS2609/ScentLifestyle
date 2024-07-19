@@ -14,6 +14,7 @@ import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
 import LastComp from "../../LastComp/LastComp";
 import { Helmet } from "react-helmet";
+import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
 const HairColor = () => {
   return (
     <div className="hairColorContainer">
@@ -94,6 +95,7 @@ const HairColor = () => {
       <HelpNearYou />
       <TextLocReviews />
       <ServiceWhy />
+      <WhatsApp/>
       <LastComp />
     </div>
   );

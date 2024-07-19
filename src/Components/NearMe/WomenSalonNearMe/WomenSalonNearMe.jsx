@@ -14,6 +14,7 @@ import ServicePage from "../../MainServicePages/ServicePage/ServicePage";
 import Navi from "../../MainServicePages/Navi/Navi";
 import ServiceCardContain from "../../MainServicePages/ServiceCards/ServiceCardContain";
 import UnisexSalon from "../../MainServicePages/UnisexSalon/UnisexSalon";
+import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
 
 const WomenSalonNearMe = () => {
   return (
@@ -39,6 +40,7 @@ const WomenSalonNearMe = () => {
       <HelpNearYou />
       <TextLocReviews />
       <ServiceWhy />
+      <WhatsApp/>
       <WomenSalon />
       <LastComp />
     </div>

@@ -13,6 +13,7 @@ import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
 import LastComp from "../../LastComp/LastComp";
 import NailNearMe from "./NailNearMe";
+import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
 
 const NailSalonNearMe = () => {
   return (
@@ -38,6 +39,7 @@ const NailSalonNearMe = () => {
       <TextLocReviews />
       <ServiceWhy />
       <NailNearMe />
+      <WhatsApp/>
       <LastComp />
     </div>
   );
