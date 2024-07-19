@@ -1,14 +1,34 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import "./WhatsApp.css";
-import whatsApp from "./../../../Images/WhatsApp.png";
+import Scent from "./../../../Images/SCENT Logo.png";
+import { FloatingWhatsApp } from "react-floating-whatsapp";
+
 const WhatsApp = () => {
-  useEffect(() => {}, []);
+  let [visible, setVisible] = useState();
+  // useEffect(() => {
+  //   const interval = setInterval(() => {
+  //     setVisible(true);
+  //     setTimeout(() => {
+  //       setVisible(false);
+  //     }, 10000); // Hide after 5 seconds
+  //   }, 10000); // Show every 10 seconds
+
+  //   return () => clearInterval(interval); // Cleanup interval on component unmount
+  // }, []);
   return (
     <div className="whatsAppContainer">
       {/* <div className="whatsAppContent">Hello</div> */}
-      <a href="https://wa.me/919742232700?text=Hello" >
+      {/* <a href="https://wa.me/919742232700?text=Hello" >
         <img src={whatsApp} alt="" />
-      </a>
+      </a> */}
+      <FloatingWhatsApp
+        phoneNumber="919742232700"
+        accountName="SCENT"
+        avatar={Scent} // Optional
+        statusMessage="Typically replies within 5 min" // Optional
+        chatMessage="Welcome to SCENT! Get Hair Botox at a special price for smooth, frizz-free hair. Book now! " // Optional
+        placeholder="Type a message..." // Optional
+      />
     </div>
   );
 };
