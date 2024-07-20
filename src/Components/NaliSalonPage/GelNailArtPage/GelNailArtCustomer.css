@@ -18,11 +18,29 @@
   font-size: 20px;
   text-align: justify;
 }
+.gelNailArtTestimonialContainer > p > a {
+  text-decoration: none;
+  color: var(--customColor);
+}
 .gelNailArtTestimonialContent {
   /* border: solid blue; */
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 50px;
+}
+.gelNailArtTestimonialContent > p {
+  font-size: 20px;
+  text-align: justify;
+  width: 70%;
+  line-height: 35px;
+}
+.gelNailArtTestimonialContent > p > span {
+  color: var(--customColor);
+  font-weight: bold;
+}
+.quote {
+  font-size: 30px;
 }

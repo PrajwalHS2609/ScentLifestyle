@@ -65,6 +65,8 @@ import CandleManicurePage from "./Components/NaliSalonPage/CandleManicurePage/Ca
 import BridalMakeUpPage from "./Components/BridalMakeUpPage/BridalMakeUpPage";
 import MicroBladingPage from "./Components/MicroBladingPage/MicroBladingPage";
 import BlogPage from "./Components/BlogPage/BlogPage";
+import NailColor from "./Components/NaliSalonPage/NailColor/NailColor";
+import NailGeleration from "./Components/NaliSalonPage/NailGeleration/NailGeleration";
 
 const App = () => {
   return (
@@ -158,8 +160,10 @@ const App = () => {
           <Route path="/candle-spa-manicure" element={<CandleManicurePage />} />
           <Route path="/candle-spa-pedicure" element={<CandlePedicurePage />} />
           <Route path="/nail-cut-and-file" element={<CutFilePage />} />
-          <Route path="/blog" element={<BlogPage />} />
+          <Route path="/nail-color-change" element={<NailColor />} />
+          <Route path="/nail-geleration" element={<NailGeleration />} />
 
+          <Route path="/blog" element={<BlogPage />} />
         </Routes>
       </BrowserRouter>
     </div>
