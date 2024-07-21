@@ -21,7 +21,7 @@ const BlogMain = () => {
           img={trimBlog}
           head="Does Trimming Hair Make It Grow Faster?"
           para="Trimming your hair regularly is key to maintaining long, healthy locks. The frequency of trims depends ..."
-          link="/"
+          link="/blog-hair-trim"
         />
         <BlogCard
           img="https://cdn-ikppclh.nitrocdn.com/CueiRbtmHDfiLNmOiFYzPbGQWoFHcYmP/assets/images/optimized/rev-049d16b/www.bodycraft.co.in/wp-content/uploads/raccoon-eyes.png"
