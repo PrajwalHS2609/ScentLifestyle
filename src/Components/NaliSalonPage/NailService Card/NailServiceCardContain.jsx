@@ -92,7 +92,7 @@ const NailServiceCardContain = () => {
         Transform your look instantly with our Colour Change service. Choose from a wide range of vibrant shades and let our skilled technicians give your nails a rejuvenating and stylish makeover."
         goto="Colour Change"
         img="https://img.freepik.com/free-photo/woman-receiving-manicure-from-woman-gloves-mask-beauty-salon-daytime_176474-2912.jpg?t=st=1714633073~exp=1714636673~hmac=397ae9e5c42240a86483bf71ade2e14cb93ac1d98b3cb98f78e0b328809941b8&w=996"
-        link="/"
+        link="/nail-color-change"
       />
       <ServiceCards
         heading="Geleration"
@@ -100,21 +100,21 @@ const NailServiceCardContain = () => {
         Get chip-free, long-lasting nails with our Geleration service. Our skilled technicians apply a durable gel polish that dries instantly under UV light, ensuring beautiful nails for weeks."
         goto="Geleration"
         img="https://img.freepik.com/premium-photo/woman-is-getting-manicure-beauty-salon_199620-2475.jpg?w=900"
-        link="/"
+        link="/nail-geleration"
       />
       <ServiceCards
         heading="French Geleration"
         para="Elevate your elegance with our French Geleration service. Our skilled technicians apply durable gel polish for sophisticated nails that last weeks."
         goto="French Geleration"
         img="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjD0UWrlikaDJkyZYyol0T9eOTwvrKyGwDDQlRm_ayrgM28E-eL6-Ax4zHLADyJetJZVPFTHGOEbDrMspukYT2kefAUxgX5z6gUM2ja7HdeR88x5Z5qeroR0U4dl4a6jKQY1YFeSoXWZ4q/s1600/DSCF1076.JPG"
-        link="/"
+        link="/french-nail-geleration"
       />
       <ServiceCards
         heading="Nail Extension Infill"
         para="Refresh your nail extensions with our Infill service. Our experts fill gaps, reshape, and maintain your nails' natural appearance, ensuring lasting flawlessness."
         goto="Nail Extension Infill"
         img="https://img.freepik.com/free-photo/beautiful-woman-hands-top-view_23-2148766607.jpg?t=st=1714634153~exp=1714637753~hmac=c4e46f826b33c3b31f673ba410d1be46321ca518488f70ec8ad147ccc93654e1&w=740"
-        link="/"
+        link="/nails-extension-infill"
       />
     </div>
   );

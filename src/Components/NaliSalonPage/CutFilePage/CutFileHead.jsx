@@ -4,6 +4,12 @@ import InnerNavi from "../../InnerServicePage/InnerNavi/InnerNavi";
 const CutFileHead = () => {
   return (
     <div className="nailExtensionHead">
+      <InnerNavi
+        link="/nails-salon"
+        service="Nails Salon"
+        currService="Cut & file"
+      />
+
       <div className="nailExtensionHeading">
         <h1>Discover the Best Nails Cut & File in Bangalore at SCENT </h1>
         <p>
@@ -28,7 +34,6 @@ const CutFileHead = () => {
           is the ideal choice.
         </p>
       </div>
-      <InnerNavi link="/nails-salon" service="Nails Salon" currService="Cut & file"/>
 
       <div className="nailExtensionHeading">
         <h3>Why Choose SCENT for Nails Cut & File in Bangalore?</h3>

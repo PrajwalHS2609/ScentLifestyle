@@ -14,7 +14,7 @@ const BlogCard = (props) => {
         <h2>{props.head}</h2>
       </div>
       <div className="blogCardPara">
-        <p>Ever noticed those unsightly dark circles around your eyes? In...</p>
+        <p>{props.para}</p>
       </div>
       <div className="BlogCardBut">
         <button>

@@ -4,6 +4,12 @@ import InnerNavi from "../../InnerServicePage/InnerNavi/InnerNavi";
 const OrganicManicureHead = () => {
   return (
     <div className="nailExtensionHead">
+      <InnerNavi
+        link="/nails-salon"
+        service="Nails Salon"
+        currService="Organic Manicure"
+      />
+
       <div className="nailExtensionHeading">
         <h1>Organic Manicure in Bangalore at SCENT </h1>
         <p>
@@ -16,7 +22,6 @@ const OrganicManicureHead = () => {
           impact.
         </p>
       </div>
-      <InnerNavi link="/nails-salon" service="Nails Salon" currService="Organic Manicure"/>
 
       <div className="nailExtensionHeading">
         <h2>What is an Organic Manicure?</h2>
@@ -48,9 +53,9 @@ const OrganicManicureHead = () => {
             skin..
           </li>
           <li>
-            <span>Relaxing Environment:</span> SCENT  provides a tranquil
-            and luxurious setting where you can unwind and enjoy your manicure.
-            Our serene environment, combined with our friendly and professional
+            <span>Relaxing Environment:</span> SCENT provides a tranquil and
+            luxurious setting where you can unwind and enjoy your manicure. Our
+            serene environment, combined with our friendly and professional
             staff, ensures a pampering experience from start to finish.
           </li>
           <li>

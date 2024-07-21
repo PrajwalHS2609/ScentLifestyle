@@ -11,7 +11,7 @@ const NailColorBenefits = () => {
       </p>
       <ul>
         <li>
-          <span>Personal Expression:</span> Nails color change allows you to
+          <h6>Personal Expression:</h6> Nails color change allows you to
           express your personality and style. You can experiment with different
           colors and designs to match your mood or outfit.
         </li>

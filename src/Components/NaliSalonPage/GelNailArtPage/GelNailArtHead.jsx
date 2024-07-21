@@ -1,10 +1,16 @@
 import React from "react";
-import GelServices from './GelServices';
+import GelServices from "./GelServices";
 import InnerNavi from "../../InnerServicePage/InnerNavi/InnerNavi";
 
 const GelNailArtHead = () => {
   return (
     <div className="nailExtensionHead">
+      <InnerNavi
+        link="/nails-salon"
+        service="Nails Salon"
+        currService="Gel Nail Art"
+      />
+
       <div className="nailExtensionHeading">
         <h1>Gel Nail Art in Bangalore at SCENT </h1>
         <p>
@@ -20,9 +26,8 @@ const GelNailArtHead = () => {
           everything you need to know about this trendy nail service:
         </p>
       </div>
-      <InnerNavi link="/nails-salon" service="Nails Salon" currService="Gel Nail Art"/>
 
-      <GelServices/>
+      <GelServices />
       <div className="nailExtensionHeading">
         <h2>What is Gel Nail Art?</h2>
         <p>

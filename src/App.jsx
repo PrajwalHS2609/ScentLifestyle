@@ -67,6 +67,8 @@ import MicroBladingPage from "./Components/MicroBladingPage/MicroBladingPage";
 import BlogPage from "./Components/BlogPage/BlogPage";
 import NailColor from "./Components/NaliSalonPage/NailColor/NailColor";
 import NailGeleration from "./Components/NaliSalonPage/NailGeleration/NailGeleration";
+import FrenchGeleration from "./Components/NaliSalonPage/FrenchGeleration/FrenchGeleration";
+import NailInfill from "./Components/NaliSalonPage/NailInfill/NailInfill";
 
 const App = () => {
   return (
@@ -162,6 +164,8 @@ const App = () => {
           <Route path="/nail-cut-and-file" element={<CutFilePage />} />
           <Route path="/nail-color-change" element={<NailColor />} />
           <Route path="/nail-geleration" element={<NailGeleration />} />
+          <Route path="/french-nail-geleration" element={<FrenchGeleration />} />
+          <Route path="/nails-extension-infill" element={<NailInfill />} />
 
           <Route path="/blog" element={<BlogPage />} />
         </Routes>

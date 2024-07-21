@@ -4,6 +4,12 @@ import InnerNavi from "../../InnerServicePage/InnerNavi/InnerNavi";
 const CandlePedicureHead = () => {
   return (
     <div className="nailExtensionHead">
+      <InnerNavi
+        link="/nails-salon"
+        service="Nails Salon"
+        currService="Candle Spa Pedicure"
+      />
+
       <div className="nailExtensionHeading">
         <h1>Indulge in a Candle Spa Pedicure in Bangalore at SCENT </h1>
         <p>
@@ -24,7 +30,6 @@ const CandlePedicureHead = () => {
           is the perfect choice.
         </p>
       </div>
-      <InnerNavi link="/nails-salon" service="Nails Salon" currService="Candle Spa Pedicure"/>
 
       <div className="nailExtensionHeading">
         <h3>Why Choose SCENT for Your Candle Spa Pedicure in Bangalore?</h3>

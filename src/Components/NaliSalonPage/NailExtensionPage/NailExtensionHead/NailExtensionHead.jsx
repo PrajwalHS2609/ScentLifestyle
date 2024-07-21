@@ -5,6 +5,12 @@ import InnerNavi from "../../../InnerServicePage/InnerNavi/InnerNavi";
 const NailExtensionHead = () => {
   return (
     <div className="nailExtensionHead">
+      <InnerNavi
+        link="/nails-salon"
+        service="Nails Salon"
+        currService="Nail Extension"
+      />
+
       <div className="nailExtensionHeading">
         <h1>Nail Extension in Bangalore: Experience the Best at SCENT </h1>
         <p>
@@ -16,9 +22,8 @@ const NailExtensionHead = () => {
           needs and give your nails the ultimate makeover.
         </p>
       </div>
-      <InnerNavi link="/nails-salon" service="Nails Salon" currService="Nail Extension"/>
 
-      <NailExtensionType/>
+      <NailExtensionType />
       <div className="nailExtensionHeading">
         <h2>What is Nail Extension?</h2>
         <p>

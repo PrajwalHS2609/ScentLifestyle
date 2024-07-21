@@ -4,6 +4,12 @@ import InnerNavi from "../../InnerServicePage/InnerNavi/InnerNavi";
 const ClassicManicureHead = () => {
   return (
     <div className="nailExtensionHead">
+      <InnerNavi
+        link="/nails-salon"
+        service="Nails Salon"
+        currService="Classic Manicure"
+      />
+
       <div className="nailExtensionHeading">
         <h1>Classic Manicure in Bangalore at SCENT </h1>
         <p>
@@ -24,7 +30,6 @@ const ClassicManicureHead = () => {
           results that are both beautiful and long-lasting.
         </p>
       </div>
-      <InnerNavi link="/nails-salon" service="Nails Salon" currService="Classic Manicure"/>
 
       <div className="nailExtensionHeading">
         <h2>What is a Classic Manicure?</h2>

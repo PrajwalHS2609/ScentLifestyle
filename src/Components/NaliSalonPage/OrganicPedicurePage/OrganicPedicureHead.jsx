@@ -3,6 +3,8 @@ import React from "react";
 const OrganicPedicureHead = () => {
   return (
     <div className="nailExtensionHead">
+            <InnerNavi link="/nails-salon" service="Nails Salon" currService="Organic Pedicure"/>
+
       <div className="nailExtensionHeading">
         <h1>Experience the Ultimate Organic Pedicure in Bangalore at SCENT </h1>
         <p>
@@ -17,7 +19,6 @@ const OrganicPedicureHead = () => {
           <a href="">Organic Pedicure</a> is the perfect choice.
         </p>
       </div>
-      <InnerNavi link="/nails-salon" service="Nails Salon" currService="Organic Pedicure"/>
 
       <div className="nailExtensionHeading">
         <h3>Why Choose SCENT for Your Organic Pedicure?</h3>
