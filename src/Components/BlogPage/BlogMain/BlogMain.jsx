@@ -18,8 +18,8 @@ const BlogMain = () => {
       <div className="blogMainDisplay1">
         <BlogCard
           img="https://cdn-ikppclh.nitrocdn.com/CueiRbtmHDfiLNmOiFYzPbGQWoFHcYmP/assets/images/optimized/rev-049d16b/www.bodycraft.co.in/wp-content/uploads/raccoon-eyes.png"
-          head="Raccoon Eyes: Causes, Treatment, and How to Get Rid of It"
-          para="Ever noticed those unsightly dark circles around your eyes? In..."
+          head="Does Trimming Hair Make It Grow Faster?"
+          para="Trimming your hair regularly is key to maintaining long, healthy locks. The frequency of trims depends ..."
           link="/"
         />
         <BlogCard
