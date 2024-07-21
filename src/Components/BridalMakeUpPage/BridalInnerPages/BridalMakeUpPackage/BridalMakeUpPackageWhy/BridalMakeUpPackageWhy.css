@@ -1,0 +1,59 @@
+.bridalMakeUpPackageWhy {
+  /* border: solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  padding: 20px;
+}
+.bridalMakeUpPackageWhy > h5 {
+  font-size: 25px;
+  color: var(--customColor);
+  text-align: center;
+  width: 100%;
+}
+.bridalMakeUpPackageWhy > p {
+  font-size: 20px;
+  width: 100%;
+  text-align: center;
+}
+.bridalMakeUpPackageWhy > p > a {
+  text-decoration: none;
+  color: var(--customColor);
+}
+.bridalMakeUpPackageWhy > ul > li > p > a {
+  text-decoration: none;
+  color: var(--customColor);
+}
+.bridalMakeUpPackageWhy > ul > li {
+  list-style: none;
+  font-size: 20px;
+  text-align: justify;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 10px;
+  width: 90%;
+}
+.bridalMakeUpPackageWhy > ul > li > span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: var(--customColor);
+  text-align: start;
+}
+.bridalMakeUpPackageWhy > ul > li > span > img {
+  width: 20px;
+  height: 20px;
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .bridalMakeUpPackageWhy {
+    /* border: solid red; */
+    padding: 5px;
+  }
+}

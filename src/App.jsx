@@ -69,6 +69,8 @@ import NailColor from "./Components/NaliSalonPage/NailColor/NailColor";
 import NailGeleration from "./Components/NaliSalonPage/NailGeleration/NailGeleration";
 import FrenchGeleration from "./Components/NaliSalonPage/FrenchGeleration/FrenchGeleration";
 import NailInfill from "./Components/NaliSalonPage/NailInfill/NailInfill";
+import BridalMakeUpPackage from "./Components/BridalMakeUpPage/BridalInnerPages/BridalMakeUpPackage/BridalMakeUpPackage";
+import PrebridalPackage from "./Components/BridalMakeUpPage/BridalInnerPages/Pre-bridalPackage/PrebridalPackage";
 
 const App = () => {
   return (
@@ -164,8 +166,13 @@ const App = () => {
           <Route path="/nail-cut-and-file" element={<CutFilePage />} />
           <Route path="/nail-color-change" element={<NailColor />} />
           <Route path="/nail-geleration" element={<NailGeleration />} />
-          <Route path="/french-nail-geleration" element={<FrenchGeleration />} />
+          <Route
+            path="/french-nail-geleration"
+            element={<FrenchGeleration />}
+          />
           <Route path="/nails-extension-infill" element={<NailInfill />} />
+          <Route path="/bridal-makeup-packages" element={<BridalMakeUpPackage />} />
+          <Route path="/pre-bridal-treatments" element={<PrebridalPackage />} />
 
           <Route path="/blog" element={<BlogPage />} />
         </Routes>
