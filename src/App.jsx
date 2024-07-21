@@ -71,6 +71,7 @@ import FrenchGeleration from "./Components/NaliSalonPage/FrenchGeleration/French
 import NailInfill from "./Components/NaliSalonPage/NailInfill/NailInfill";
 import BridalMakeUpPackage from "./Components/BridalMakeUpPage/BridalInnerPages/BridalMakeUpPackage/BridalMakeUpPackage";
 import PrebridalPackage from "./Components/BridalMakeUpPage/BridalInnerPages/Pre-bridalPackage/PrebridalPackage";
+import HairTrim from "./Components/BlogPage/BlogInnerPages/HairTrim/HairTrim";
 
 const App = () => {
   return (
@@ -175,6 +176,8 @@ const App = () => {
           <Route path="/pre-bridal-treatments" element={<PrebridalPackage />} />
 
           <Route path="/blog" element={<BlogPage />} />
+          <Route path="/blog-hair-trim" element={<HairTrim />} />
+
         </Routes>
       </BrowserRouter>
     </div>
