@@ -9,12 +9,14 @@ import { Link } from "react-router-dom";
 import ServiceHead from "./ServiceHead";
 import leftArrow from "./../../../Images/left.png";
 import rightArrow from "./../../../Images/right.png";
-import hair from "./../../../Images/homeService/homeHair.jpg"
-import facial from "./../../../Images/homeService/homeFacial.jpg"
-import spa from "./../../../Images/homeService/homeSpa.jpg"
-import nails from "./../../../Images/homeService/homeNails.jpg"
-import beautyEssentials from "./../../../Images/homeService/homeBeauty.jpg"
-import lashes from "./../../../Images/homeService/homeLashes.jpg"
+import hair from "./../../../Images/homeService/homeHair.jpg";
+import facial from "./../../../Images/homeService/homeFacial.jpg";
+import spa from "./../../../Images/homeService/homeSpa.jpg";
+import nails from "./../../../Images/homeService/homeNails.jpg";
+import beautyEssentials from "./../../../Images/homeService/homeBeauty.jpg";
+import lashes from "./../../../Images/homeService/homeLashes.jpg";
+import bride from "./../../../Images/ServicePage/Bridal Package.png";
+import micro from "./../../../Images/ServicePage/eyebrowBlading.jpg";
 
 const Services = () => {
   function SampleNextArrow(props) {
@@ -30,7 +32,7 @@ const Services = () => {
           backgroundImage: `url(${rightArrow})`,
           backgroundSize: "contain",
           backgroundRepeat: "no-repeat",
-          marginRight: "-50px",
+          marginRight: "-40px",
         }}
         onClick={onClick}
       />
@@ -49,7 +51,7 @@ const Services = () => {
           backgroundImage: `url(${leftArrow})`,
           backgroundSize: "contain",
           backgroundRepeat: "no-repeat",
-          marginLeft: "-50px",
+          marginLeft: "-40px",
         }}
         onClick={onClick}
       />
@@ -68,7 +70,7 @@ const Services = () => {
           backgroundImage: `url(${rightArrow})`,
           backgroundSize: "contain",
           backgroundRepeat: "no-repeat",
-          marginRight: "-35px",
+          marginRight: "-30px",
         }}
         onClick={onClick}
       />
@@ -131,32 +133,23 @@ const Services = () => {
         <Slider {...settings}>
           <div className="serviceSlideContainer">
             <div className="serviceSlideContent">
-              <img
-                src={hair}
-                alt="Hair"
-              />
+              <img src={hair} alt="Hair" />
             </div>
             <h3>
-              <Link to={"/hair-salon"}>Hair</Link>
+              <Link to={"/hair"}>Hair</Link>
             </h3>
           </div>
           <div className="serviceSlideContainer">
             <div className="serviceSlideContent">
-              <img
-                src={nails}
-                alt="Nails"
-              />
+              <img src={nails} alt="Nails" />
             </div>
             <h3>
-              <Link to={"/nails-salon"}>Nails</Link>
+              <Link to={"/nails"}>Nails</Link>
             </h3>
           </div>
           <div className="serviceSlideContainer">
             <div className="serviceSlideContent">
-              <img
-                src={facial}
-                alt="Facial"
-              />
+              <img src={facial} alt="Facial" />
             </div>
             <h3>
               <Link to={"/facial"}>Facials</Link>
@@ -164,22 +157,16 @@ const Services = () => {
           </div>
           <div className="serviceSlideContainer">
             <div className="serviceSlideContent">
-              <img
-                src={beautyEssentials}
-                alt="Beauty Essentials"
-              />
+              <img src={beautyEssentials} alt="Beauty Essentials" />
             </div>
             <h3>
-              <Link to={"/beauty-essentials"}>Beauty Essentials</Link>
+              <Link to={"/beauty"}>Beauty Essentials</Link>
             </h3>
           </div>
 
           <div className="serviceSlideContainer">
             <div className="serviceSlideContent">
-              <img
-                src={spa}
-                alt="Spa"
-              />
+              <img src={spa} alt="Spa" />
             </div>
             <h3>
               <Link to={"/spa"}>Spa</Link>
@@ -187,13 +174,26 @@ const Services = () => {
           </div>
           <div className="serviceSlideContainer">
             <div className="serviceSlideContent">
-              <img
-                src={lashes}
-                alt="lashes"
-              />
+              <img src={lashes} alt="lashes" />
             </div>
             <h3>
-              <Link to={"/eye-lashes"}>Lashes</Link>
+              <Link to={"/lashes"}>Lashes</Link>
+            </h3>
+          </div>
+          <div className="serviceSlideContainer">
+            <div className="serviceSlideContent">
+              <img src={bride} alt="bride" />
+            </div>
+            <h3>
+              <Link to={"/bridal-makeup"}>Bridal Makeup</Link>
+            </h3>
+          </div>
+          <div className="serviceSlideContainer">
+            <div className="serviceSlideContent">
+              <img src={micro} alt="micro" />
+            </div>
+            <h3>
+              <Link to={"/eyebrow-microblading"}>Eyebrow Microblading</Link>
             </h3>
           </div>
         </Slider>

@@ -63,7 +63,7 @@ const Partners = () => {
           backgroundImage: `url(${rightArrow})`,
           backgroundSize: "contain",
           backgroundRepeat: "no-repeat",
-          marginRight: "-35px",
+          marginRight: "-25px",
         }}
         onClick={onClick}
       />
@@ -82,7 +82,7 @@ const Partners = () => {
           backgroundImage: `url(${leftArrow})`,
           backgroundSize: "contain",
           backgroundRepeat: "no-repeat",
-          marginLeft: "-35px",
+          marginLeft: "-25px",
         }}
         onClick={onClick}
       />

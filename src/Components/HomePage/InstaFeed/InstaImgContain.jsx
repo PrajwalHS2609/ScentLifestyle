@@ -64,7 +64,7 @@ const InstaImgContain = () => {
           backgroundRepeat: "no-repeat",
           height: "50px",
           width: "50px",
-          marginRight: "-10px",
+          marginRight: "-5px",
         }}
         onClick={onClick}
       />
@@ -87,7 +87,7 @@ const InstaImgContain = () => {
           backgroundRepeat: "no-repeat",
           height: "50px",
           width: "50px",
-          marginLeft: "-10px",
+          marginLeft: "-5px",
 
         }}
         onClick={onClick}

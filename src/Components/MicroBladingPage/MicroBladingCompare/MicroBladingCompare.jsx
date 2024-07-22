@@ -1,12 +1,12 @@
 import React from 'react'
 import "./MicroBladingCompare.css"
-import MicroBladingCompareMain from './MicroBladingCompareMain'
 import MicroBladingCompareHead from './MicroBladingCompareHead'
+import MicroBladingCompareMain from './MicroBladingCompareMain'
 const MicroBladingCompare = () => {
   return (
-    <div className='microBladingCompare'>
-        <MicroBladingCompareHead/>
-      <MicroBladingCompareMain/>
+    <div className='imgCompareContainer'>
+          <MicroBladingCompareHead/>
+          <MicroBladingCompareMain/>
     </div>
   )
 }

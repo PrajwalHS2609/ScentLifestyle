@@ -6,7 +6,7 @@
   top: 0;
 }
 
-@media screen and (min-width: 320px) and (max-width:768px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   .navBg {
     background-color: black;
     height: 100px;
@@ -22,18 +22,19 @@
     position: static;
   }
 }
-@media screen and (min-width:990px) and (max-width:1200px){
+@media screen and (min-width: 990px) and (max-width: 1200px) {
   .navBg {
     background-color: black;
     height: 14vh;
-    width: 100%;    position: static;
-
+    width: 100%;
+    position: static;
   }
 }
 
-@media screen and (min-width:1200px) {
+@media screen and (min-width: 1200px) {
   .navBg {
     background-color: black;
     height: 14vh;
+    width: 100%;
   }
 }
