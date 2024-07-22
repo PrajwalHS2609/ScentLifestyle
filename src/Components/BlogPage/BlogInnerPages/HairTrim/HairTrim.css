@@ -11,6 +11,7 @@
   width: 100%;
 }
 .hairTrimImg {
+  /* border: solid rebeccapurple; */
   display: flex;
   justify-content: center;
   align-items: center;
