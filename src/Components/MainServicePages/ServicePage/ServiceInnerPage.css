@@ -59,6 +59,7 @@
   font-size: 50px;
   font-weight: lighter;
   color: white;
+  text-align: center;
 }
 .serviceCoverUnderline {
   border: 2px solid;
@@ -72,7 +73,7 @@
   font-size: 20px;
 }
 
-@media screen and (min-width:320px) and (max-width:768px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   .navbgService {
     background-color: black;
     height: 110px;
