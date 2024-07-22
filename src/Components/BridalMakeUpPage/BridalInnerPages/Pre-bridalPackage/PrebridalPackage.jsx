@@ -14,6 +14,7 @@ import PrebridalPackageHead from "./PrebridalPackageHead";
 import PrebridalPackageBook from './PrebridalPackageBook';
 import PrebridalPackageExpert from './PrebridalPackageExpert';
 import PrebridalPackageWhy from './PrebridalPackageWhy';
+import PrebridalPackageImg from "./PrebridalPackageImg";
 
 const PrebridalPackage = () => {
   return (
@@ -33,6 +34,7 @@ const PrebridalPackage = () => {
         />
       </Helmet>
       <NavBg />
+      <PrebridalPackageImg/>
       <PrebridalPackageHead/>
       <PrebridalPackageExpert/>
       <PrebridalPackageWhy/>

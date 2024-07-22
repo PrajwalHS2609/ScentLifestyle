@@ -9,7 +9,7 @@
 @media screen and (min-width: 320px) and (max-width: 768px) {
   .navBg {
     background-color: black;
-    height: 100px;
+    height: 12vh;
     width: 100%;
     position: static;
   }

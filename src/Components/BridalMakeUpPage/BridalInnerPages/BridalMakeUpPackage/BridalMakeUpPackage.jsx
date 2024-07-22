@@ -17,6 +17,7 @@ import BridalMakeUpPackageWhy from "./BridalMakeUpPackageWhy/BridalMakeUpPackage
 import BridalMakeUpPackageCustomize from "./BridalMakeUpPackageCustomize/BridalMakeUpPackageCustomize";
 import BridalMakeUpPackageCustomer from "./BridalMakeUpPackageCustomer/BridalMakeUpPackageCustomer";
 import BridalMakeUpPackageBook from './BridalMakeUpPackageBook/BridalMakeUpPackageBook';
+import BridalMakeUpPackageImg from "./BridalMakeUpPackageImg/BridalMakeUpPackageImg";
 
 const BridalMakeUpPackage = () => {
   return (
@@ -36,6 +37,7 @@ const BridalMakeUpPackage = () => {
         />
       </Helmet>
       <NavBg />
+      <BridalMakeUpPackageImg/>
       <BridalMakeUpPackageHead />
       <BridalMakeUpPackageWhy />
       <BridalMakeUpPackageCustomize />

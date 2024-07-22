@@ -15,6 +15,17 @@ import LastComp from "../LastComp/LastComp";
 const BlogPage = () => {
   return (
     <div className="blogPageContainer">
+       {/* <Helmet>
+        <meta charSet="UTF-8" />
+        <title>
+          Bridal Makeup Artists in Bangalore - Wedding Makeup Artists
+        </title>
+        <meta
+          name="description"
+          content="Bridal Makeup Artists in Bangalore. Look your absolute best even before your D-Day with our exclusive pre-bridal services."
+        />
+        <link rel="canonical" href="https://scentlifestyle.com/bridal-makeup" />
+      </Helmet> */}
       <NavBg />
       <BlogMain />
       <Members />
