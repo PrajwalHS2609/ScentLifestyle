@@ -15,6 +15,7 @@ import BridalMakeUpServiceCard from "./BridalMakeUpServiceCard";
 import BridalMakeUpAbout from "./BridalMakeUpAbout/BridalMakeUpAbout";
 import BridalReadMore from "./BridalReadMore/BridalReadMore";
 import WhatsApp from "../HomePage/WhatsApp/WhatsApp";
+import BridalMakeUpCompare from "./BridalMakeUpCompare/BridalMakeUpCompare";
 
 const BridalMakeUpPage = () => {
   return (
@@ -35,6 +36,7 @@ const BridalMakeUpPage = () => {
       <Navi1 servName="Bridal MakeUp" />
       <BridalMakeUpServiceCard />
       <BridalMakeUpAbout />
+      <BridalMakeUpCompare/>
       <Members />
       <OurSalon />
       <Partners />

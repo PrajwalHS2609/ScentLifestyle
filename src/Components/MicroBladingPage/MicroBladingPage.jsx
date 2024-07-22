@@ -14,6 +14,7 @@ import MicroBladingReadMore from "./MicroBladingReadMore/MicroBladingReadMore";
 import { Helmet } from "react-helmet";
 import MicroBladingContent from "./MicroBladingReadMore/MicroBladingContent/MicroBladingContent";
 import WhatsApp from "../HomePage/WhatsApp/WhatsApp";
+import MicroBladingCompare from "./MicroBladingCompare/MicroBladingCompare";
 
 const MicroBladingPage = () => {
   return (
@@ -34,6 +35,7 @@ const MicroBladingPage = () => {
       <MicroBladingImg />
       <Navi1 servName="MicroBlading" />
       <MicroBladingContent />
+      <MicroBladingCompare/>
       <Members />
       <OurSalon />
       <Partners />

@@ -1,6 +1,5 @@
 import React from "react";
 import "./ContactPage.css";
-import LocationNavBg from "./../LocationPage/LocationNavBg/LocationNavBg";
 import HelpNearYou from "../Help/HelpNearYou";
 import LastComp from "../LastComp/LastComp";
 import ContactMain from "./ContactMain";
@@ -12,6 +11,7 @@ import InstaFeed from "../HomePage/InstaFeed/InstaFeed";
 import TextLocReviews from "../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../MainServicePages/ServiceWhy/ServiceWhy";
 import WhatsApp from "../HomePage/WhatsApp/WhatsApp";
+import NavBg from "../NavBg/NavBg";
 const ContactPage = () => {
   return (
     <div className="contactPageContainer">
@@ -27,7 +27,7 @@ const ContactPage = () => {
           href="https://scentlifestyle.com/contact-us"
         />
       </Helmet>
-      <LocationNavBg />
+      <NavBg />
       <ContactMain />
       <Members />
       <OurSalon />

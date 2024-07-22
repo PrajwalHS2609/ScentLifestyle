@@ -137,7 +137,7 @@ const Services = () => {
               />
             </div>
             <h3>
-              <Link to={"/hair"}>Hair</Link>
+              <Link to={"/hair-salon"}>Hair</Link>
             </h3>
           </div>
           <div className="serviceSlideContainer">
@@ -148,7 +148,7 @@ const Services = () => {
               />
             </div>
             <h3>
-              <Link to={"/nails"}>Nails</Link>
+              <Link to={"/nails-salon"}>Nails</Link>
             </h3>
           </div>
           <div className="serviceSlideContainer">
@@ -170,7 +170,7 @@ const Services = () => {
               />
             </div>
             <h3>
-              <Link to={"/beauty"}>Beauty Essentials</Link>
+              <Link to={"/beauty-essentials"}>Beauty Essentials</Link>
             </h3>
           </div>
 
@@ -193,7 +193,7 @@ const Services = () => {
               />
             </div>
             <h3>
-              <Link to={"/lashes"}>Lashes</Link>
+              <Link to={"/eye-lashes"}>Lashes</Link>
             </h3>
           </div>
         </Slider>

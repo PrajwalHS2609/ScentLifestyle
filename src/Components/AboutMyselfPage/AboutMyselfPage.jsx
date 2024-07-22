@@ -3,7 +3,6 @@ import AboutMyselfTxt from "./AboutMyselfTxt";
 import AboutMyselfImg from "./AboutMyselfImg";
 import AboutMyselfContact from "./AboutMyselfContact";
 import "./AboutMyselfPage.css";
-import AboutMyselfNavBg from "./AboutMyselfNavBg";
 import LastComp from "../LastComp/LastComp";
 import Members from "../HomePage/Members/Members";
 import OurSalon from "../HomePage/OurSalon/OurSalon";
@@ -14,6 +13,7 @@ import TextLocReviews from "../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../MainServicePages/ServiceWhy/ServiceWhy";
 import { Helmet } from "react-helmet";
 import WhatsApp from "../HomePage/WhatsApp/WhatsApp";
+import NavBg from "../NavBg/NavBg";
 
 const AboutMyselfPage = () => {
   return (
@@ -28,7 +28,7 @@ const AboutMyselfPage = () => {
         <link rel="canonical" href="https://scentlifestyle.com/myself" />
       </Helmet>
       <div className="aboutMyselfPageContainer">
-        <AboutMyselfNavBg />
+        <NavBg />
         <AboutMyselfImg />
         <AboutMyselfTxt />
         <AboutMyselfContact />
