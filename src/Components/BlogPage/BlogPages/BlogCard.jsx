@@ -1,5 +1,5 @@
 import React from "react";
-import "./BlogMain.css";
+import "./../BlogPages/BlogMain/BlogMain.css";
 import { Link } from "react-router-dom";
 const BlogCard = (props) => {
   return (

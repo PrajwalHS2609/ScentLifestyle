@@ -74,6 +74,8 @@ import PrebridalPackage from "./Components/BridalMakeUpPage/BridalInnerPages/Pre
 import HairTrim from "./Components/BlogPage/BlogInnerPages/HairTrim/HairTrim";
 import OrganicFacial from "./Components/FacialPage/FacialInnerPage/OrganicFacial/OrganicFacial";
 import SnowWhiteFacial from "./Components/FacialPage/FacialInnerPage/SnowWhiteFacial/SnowWhiteFacial";
+import BlogMain from "./Components/BlogPage/BlogPages/BlogMain/BlogMain";
+import BlogHair from "./Components/BlogPage/BlogPages/BlogHair/BlogHair";
 
 const App = () => {
   return (
@@ -174,15 +176,30 @@ const App = () => {
             element={<FrenchGeleration />}
           />
           <Route path="/nails-extension-infill" element={<NailInfill />} />
-          <Route path="/bridal-makeup-packages" element={<BridalMakeUpPackage />} />
+          <Route
+            path="/bridal-makeup-packages"
+            element={<BridalMakeUpPackage />}
+          />
+          <Route
+            path="/does-trimming-hair-make-it-grow-faster"
+            element={<HairTrim />}
+          />
+
+          <Route path="/blog" element={<BlogPage />}>
+          <Route path="/blog/" element={<BlogMain />} />
+            <Route path="/blog/hair" element={<BlogHair />} />
+          </Route>
           <Route path="/pre-bridal-treatments" element={<PrebridalPackage />} />
 
-          <Route path="/blog" element={<BlogPage />} />
-          <Route path="/blog-hair-trim" element={<HairTrim />} />
-          <Route path="/organic-facial-services" element={<OrganicFacial/>} />
-          <Route path="/snow-white-facial-services" element={<SnowWhiteFacial/>} />
-          <Route path="/dead-sea-mineral-facial-services" element={<OrganicFacial/>} />
-
+          <Route path="/organic-facial-services" element={<OrganicFacial />} />
+          <Route
+            path="/snow-white-facial-services"
+            element={<SnowWhiteFacial />}
+          />
+          <Route
+            path="/dead-sea-mineral-facial-services"
+            element={<OrganicFacial />}
+          />
         </Routes>
       </BrowserRouter>
     </div>
