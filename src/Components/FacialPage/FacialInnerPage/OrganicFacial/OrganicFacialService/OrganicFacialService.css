@@ -1,0 +1,33 @@
+.organicFacialService {
+    /* border: solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    padding: 20px;
+  }
+  .organicFacialService > h5 {
+    color: var(--customColor);
+    text-align: center;
+    width: 100%;
+    font-size: 25px;
+  }
+  .organicFacialService > p {
+    text-align: justify;
+    font-size: 20px;
+  }
+  .organicFacialService > p > a {
+    color: var(--customColor);
+    text-decoration: none;
+  }
+  .organicFacialServiceCard {
+    /* border: solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  

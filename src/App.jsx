@@ -72,6 +72,8 @@ import NailInfill from "./Components/NaliSalonPage/NailInfill/NailInfill";
 import BridalMakeUpPackage from "./Components/BridalMakeUpPage/BridalInnerPages/BridalMakeUpPackage/BridalMakeUpPackage";
 import PrebridalPackage from "./Components/BridalMakeUpPage/BridalInnerPages/Pre-bridalPackage/PrebridalPackage";
 import HairTrim from "./Components/BlogPage/BlogInnerPages/HairTrim/HairTrim";
+import OrganicFacial from "./Components/FacialPage/FacialInnerPage/OrganicFacial/OrganicFacial";
+import SnowWhiteFacial from "./Components/FacialPage/FacialInnerPage/SnowWhiteFacial/SnowWhiteFacial";
 
 const App = () => {
   return (
@@ -177,6 +179,9 @@ const App = () => {
 
           <Route path="/blog" element={<BlogPage />} />
           <Route path="/blog-hair-trim" element={<HairTrim />} />
+          <Route path="/organic-facial-services" element={<OrganicFacial/>} />
+          <Route path="/snow-white-facial-services" element={<SnowWhiteFacial/>} />
+          <Route path="/dead-sea-mineral-facial-services" element={<OrganicFacial/>} />
 
         </Routes>
       </BrowserRouter>

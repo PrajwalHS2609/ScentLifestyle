@@ -3,7 +3,6 @@ import "./OrganicFacial.css"
 import { Helmet } from "react-helmet";
 import NavBg from "../../../NavBg/NavBg";
 import OrganicFacialHead from "./OrganicFacialHead/OrganicFacialHead";
-import OrganicFacialService from "./OrganicFacialService/OrganicFacialService";
 import OrganicFacialWhy from "./OrganicFacialWhy/OrganicFacialWhy";
 import OrganicFacialDiff from "./OrganicFacialDiff/OrganicFacialDiff";
 import OrganicFacialProcess from "./OrganicFacialProcess/OrganicFacialProcess";
@@ -38,7 +37,6 @@ const OrganicFacial = () => {
       </Helmet>
       <NavBg />
       <OrganicFacialHead />
-      <OrganicFacialService />
       <OrganicFacialWhy />
       <OrganicFacialDiff />
       <OrganicFacialProcess />

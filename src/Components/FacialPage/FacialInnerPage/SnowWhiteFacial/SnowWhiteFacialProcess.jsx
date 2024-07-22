@@ -1,19 +1,18 @@
 import React from "react";
 
-const OrganicFacialProcess = () => {
+const SnowWhiteFacialProcess = () => {
   return (
     <div className="organicFacialWhy">
       <h4>
-        The Process: What to Expect from Our Organic Facial Services in
-        Bangalore
+        The Process: What to Expect from Snow White Facial Services in Bangalore
       </h4>
       <p>
-        When you book an{" "}
-        <a href="https://scentlifestyle.com/organic-facial-services">
-          organic facial service in Bangalore at SCENT,
+        When you book an appointment for our{" "}
+        <a href="https://scentlifestyle.com/facial">
+          Snow White Facial Services in Bangalore at SCENT,
         </a>{" "}
-        you can expect a luxurious and personalized experience from start to
-        finish. Here’s what the process typically involves:
+        you can expect a luxurious and personalized experience. Here’s what the
+        process typically involves:
       </p>
       <ul>
         <li>
@@ -57,4 +56,4 @@ const OrganicFacialProcess = () => {
   );
 };
 
-export default OrganicFacialProcess;
+export default SnowWhiteFacialProcess;

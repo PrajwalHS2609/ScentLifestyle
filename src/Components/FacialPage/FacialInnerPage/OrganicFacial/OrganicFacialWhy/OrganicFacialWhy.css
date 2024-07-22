@@ -1,0 +1,77 @@
+.organicFacialWhy {
+  /* border: solid red; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 40px;
+}
+.organicFacialWhy > h2 {
+  color: var(--customColor);
+  text-align: start;
+  width: 100%;
+  font-size: 25px;
+}
+.organicFacialWhy > h3 {
+  color: var(--customColor);
+  text-align: start;
+  width: 100%;
+  font-size: 25px;
+}
+.organicFacialWhy > h4 {
+  color: var(--customColor);
+  text-align: start;
+  width: 100%;
+  font-size: 25px;
+}
+.organicFacialWhy > h5 {
+  color: var(--customColor);
+  text-align: start;
+  width: 100%;
+  font-size: 25px;
+}
+
+.organicFacialWhy > ul > li {
+  list-style: none;
+  margin: 10px;
+  font-size: 20px;
+  text-align: justify;
+}
+.organicFacialWhy > ul > li > h6 {
+  font-size: 20px;
+  text-align: justify;
+  color: var(--customColor);
+}
+.organicFacialWhy > ul > li > a {
+  text-decoration: none;
+  color: var(--customColor);
+}
+
+.organicFacialWhy > ul > li > span {
+  color: var(--customColor);
+  font-weight: bold;
+}
+.organicFacialWhy > p {
+  text-align: justify;
+  font-size: 20px;width: 100%;
+}
+.organicFacialWhy > p > a {
+  color: var(--customColor);
+  text-decoration: none;
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .organicFacialWhy > h2 {
+    text-align: center;
+  }
+  .organicFacialWhy > h3 {
+    text-align: center;
+  }
+  .organicFacialWhy > h4 {
+    text-align: center;
+  }
+  .organicFacialWhy > h5 {
+    text-align: center;
+  }
+}

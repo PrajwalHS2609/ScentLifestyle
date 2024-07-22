@@ -4,7 +4,7 @@ import MicroBladingCompareHead from './MicroBladingCompareHead'
 import MicroBladingCompareMain from './MicroBladingCompareMain'
 const MicroBladingCompare = () => {
   return (
-    <div className='imgCompareContainer'>
+    <div className='microBladingCompare'>
           <MicroBladingCompareHead/>
           <MicroBladingCompareMain/>
     </div>

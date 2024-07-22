@@ -1,12 +1,11 @@
 import React from "react";
 import "./MicroBladingCompare.css"
-
-const ImgCompareHead = () => {
+const MicroBladingCompareHead = () => {
   return (
-    <div className="imgCompareHeadContainer">
-      <h2>MakeOver</h2>
+    <div className="microBladingCompareHead">
+      <h2>Stunning Transformations: Before & After Images</h2>
     </div>
   );
 };
 
-export default ImgCompareHead;
+export default MicroBladingCompareHead;

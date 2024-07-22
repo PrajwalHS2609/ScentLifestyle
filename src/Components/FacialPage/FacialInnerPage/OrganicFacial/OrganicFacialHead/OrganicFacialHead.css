@@ -1,0 +1,74 @@
+.organicFacialHead {
+    /* border: solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+  .organicFacialHead {
+    /* border: solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+  .organicFacialHead > h1 {
+    color: var(--customColor);
+    text-align: center;
+    width: 100%;
+    text-align: center;
+  }
+  .organicFacialHead > h2 {
+    color: var(--customColor);
+    text-align: start;
+    width: 100%;
+    font-size: 25px;
+  }
+  .organicFacialHead > h3 {
+    color: var(--customColor);
+    text-align: start;
+    width: 100%;
+    font-size: 25px;
+  }
+  .organicFacialHead > h4 {
+    color: var(--customColor);
+    text-align: start;
+    width: 100%;
+    font-size: 25px;
+  }
+  .organicFacialHead > h5 {
+    color: var(--customColor);
+    text-align: start;
+    width: 100%;
+    font-size: 25px;
+  }
+  .organicFacialHead > p {
+    text-align: justify;
+    font-size: 20px;
+  }
+  .organicFacialHead > p > a {
+    color: var(--customColor);
+    text-decoration: none;
+  }
+ 
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    .organicFacialHead > h2 {
+      text-align: center;
+    }
+    .organicFacialHead > h3 {
+      text-align: center;
+    }
+    .organicFacialHead > h4 {
+      text-align: center;
+    }
+    .organicFacialHead > h5 {
+      text-align: center;
+    }
+  }
+  
