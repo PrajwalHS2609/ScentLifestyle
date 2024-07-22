@@ -15,31 +15,37 @@ import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
 import LastComp from "../../LastComp/LastComp";
 import { Helmet } from "react-helmet";
 import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
+import MustacheImg from "./MustacheImg";
 const Mustache = () => {
   return (
     <div className="mustacheContainer">
-       <Helmet>
+      <Helmet>
         <meta charSet="utf-8" />
         <title>
-        Mustache Styling Salon in Bangalore - Mustache Styling Near Me
+          Mustache Styling Salon in Bangalore - Mustache Styling Near Me
         </title>
         <meta
           name="description"
           content="SCENT Mustache Styling Salon in Bangalore. Crafting unique mustache styles that define your personality. Book an Appointment!"
         />
-        <link rel="canonical" href="https://scentlifestyle.com/mustache-styling" />
+        <link
+          rel="canonical"
+          href="https://scentlifestyle.com/mustache-styling"
+        />
       </Helmet>
       <NavBg />
+      <MustacheImg />
+      <InnerNavi
+        link={"/mustache-styling"}
+        service="Hair Service"
+        currService="Mustache Styling"
+      />
       <div className="mustacheContent">
         <InnerServiceTxt
           head="Mustache Styling"
           para="Crafting unique mustache styles that define your personality. From classic to modern, our skilled professionals specialize in the art of beard grooming, using meticulous shaping techniques to create stunning styles tailored to accentuate your unique features."
         />
-        <InnerNavi
-          link={"/mustache-styling"}
-          service="Hair Service"
-          currService="Mustache Styling"
-        />
+
         <div className="mustacheCardContainer">
           <InnerCard
             head="Mustache Colour"
@@ -80,7 +86,7 @@ At SCENT , we understand that a well-groomed mustache can make a powerful statem
       <HelpNearYou />
       <TextLocReviews />
       <ServiceWhy />
-      <WhatsApp/>
+      <WhatsApp />
       <LastComp />
     </div>
   );

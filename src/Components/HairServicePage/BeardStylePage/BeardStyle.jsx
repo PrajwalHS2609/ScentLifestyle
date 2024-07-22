@@ -15,6 +15,7 @@ import Members from "./../../HomePage/Members/Members";
 import LastComp from "../../LastComp/LastComp";
 import { Helmet } from "react-helmet";
 import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
+import BeardStyleImg from "./BeardStyleImg";
 const BeardStyle = () => {
   return (
     <div className="beardStyleContainer">
@@ -25,21 +26,19 @@ const BeardStyle = () => {
           name="description"
           content="SCENT Beard Salon in Bangalore. From classic to modern, our skilled professionals specialize in the art of beard grooming, using meticulous shaping techniques to create stunning styles tailored to accentuate your unique features."
         />
-        <link
-          rel="canonical"
-          href="https://scentlifestyle.com/beard"
-        />
+        <link rel="canonical" href="https://scentlifestyle.com/beard" />
       </Helmet>
       <NavBg />
+      <BeardStyleImg />
+      <InnerNavi
+        link={"/hair-salon"}
+        service="Hair Service"
+        currService="Beard Styling"
+      />
       <div className="beardStyleContent">
         <InnerServiceTxt
           head="BEARD STYLING"
           para="Crafting unique beard styles that define your personality. From classic to modern, our skilled professionals specialize in the art of beard grooming, using meticulous shaping techniques to create stunning styles tailored to accentuate your unique features."
-        />
-        <InnerNavi
-          link={"/hair-salon"}
-          service="Hair Service"
-          currService="Beard Styling"
         />
         <div className="beardStyleCardContainer">
           <InnerCard
@@ -80,7 +79,7 @@ const BeardStyle = () => {
       <HelpNearYou />
       <TextLocReviews />
       <ServiceWhy />
-      <WhatsApp/>
+      <WhatsApp />
       <LastComp />
     </div>
   );

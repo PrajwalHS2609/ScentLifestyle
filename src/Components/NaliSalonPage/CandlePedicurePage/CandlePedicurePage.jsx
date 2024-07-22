@@ -15,6 +15,7 @@ import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
 import LastComp from "../../LastComp/LastComp";
 import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
+import CandleManicureImg from "../CandleManicurePage/CandleManicureImg";
 
 const CandlePedicurePage = () => {
   return (
@@ -34,6 +35,7 @@ const CandlePedicurePage = () => {
         />
       </Helmet>
       <NavBg />
+      <CandleManicureImg/>
       <CandlePedicureHead />
       <CandlePedicureWhy />
       <CandlePedicureWhat />

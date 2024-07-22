@@ -16,6 +16,7 @@ import NailGelerationTrend from "./NailGelerationTrend";
 import NailGelerationMaintain from "./NailGelerationMaintain";
 import NailGelerationCustomer from "./NailGelerationCustomer";
 import { Helmet } from "react-helmet";
+import NailGelerationImg from "./NailGelerationImg";
 
 const NailGeleration = () => {
   return (
@@ -35,6 +36,7 @@ const NailGeleration = () => {
         />
       </Helmet>
       <NavBg />
+      <NailGelerationImg/>
       <NailGelerationHead />
       <NailGelerationProcess />
       <NailGelerationBenefits />

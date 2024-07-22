@@ -16,6 +16,7 @@ import ServiceWhy from '../../MainServicePages/ServiceWhy/ServiceWhy';
 import WhatsApp from '../../HomePage/WhatsApp/WhatsApp';
 import LastComp from '../../LastComp/LastComp';
 import NailInfillTrend from './NailInfillTrend';
+import NailInfillImg from './NailInfillImg';
 
 const NailInfill = () => {
   return (
@@ -35,6 +36,7 @@ const NailInfill = () => {
       />
     </Helmet>
     <NavBg />
+    <NailInfillImg/>
     <NailInfillHead/>
     <NailInfillProcess/>
     <NailInfillBenefits/>

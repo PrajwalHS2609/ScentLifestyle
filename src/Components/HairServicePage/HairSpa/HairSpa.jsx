@@ -15,6 +15,7 @@ import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
 import LastComp from "./../../LastComp/LastComp";
 import { Helmet } from "react-helmet";
 import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
+import HairSpaImg from "./HairSpaImg";
 const HairSpa = () => {
   return (
     <div className="hairSpaContainer">
@@ -33,16 +34,18 @@ const HairSpa = () => {
         />
       </Helmet>
       <NavBg />
+      <HairSpaImg/>
+      <InnerNavi
+          link={"/hair-salon"}
+          service="Hair Service"
+          currService="Hair Spa"
+        />
       <div className="hairSpaContent">
         <InnerServiceTxt
           head="HAIR SPA SERVICES"
           para="Select from a variety of hair spa treatments tailored to your hair type and needs at a SCENT  near you. These treatments can be customized to address various hair concerns, including oiliness, frizz, dryness, and an itchy scalp. Indulge in an intense hair spa to relax and rejuvenate your scalp and tresses with our Olaplex treatment, specially designed for chemically treated hair. It helps prevent breakage, reverse damage, and promote healthier hair."
         />
-        <InnerNavi
-          link={"/hair-salon"}
-          service="Hair Service"
-          currService="Hair Spa"
-        />
+        
         <div className="hairSpaCardContainer">
           <InnerCard
             head="CHELATING OLAPLEX BROAD SPECTRUM HAIR INSURANCE TREATMENT"

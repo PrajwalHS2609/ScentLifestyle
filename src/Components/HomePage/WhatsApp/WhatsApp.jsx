@@ -1,10 +1,10 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import "./WhatsApp.css";
 import Scent from "./../../../Images/SCENT Logo.png";
 import { FloatingWhatsApp } from "react-floating-whatsapp";
 
 const WhatsApp = () => {
-  let [visible, setVisible] = useState();
+  // let [visible, setVisible] = useState();
   // useEffect(() => {
   //   const interval = setInterval(() => {
   //     setVisible(true);

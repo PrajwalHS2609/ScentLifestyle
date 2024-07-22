@@ -16,6 +16,7 @@ import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
 import LastComp from "../../LastComp/LastComp";
 import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
+import ClassicManicureImg from "./ClassicManicureImg";
 
 const ClassicManicurePage = () => {
   return (
@@ -35,6 +36,7 @@ const ClassicManicurePage = () => {
         />
       </Helmet>
       <NavBg />
+      <ClassicManicureImg/>
       <ClassicManicureHead/>
       <ClassicManicureWhy/>
       <ClassicManiBenefits/>

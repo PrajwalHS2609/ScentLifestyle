@@ -15,6 +15,7 @@ import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
 import LastComp from "../../LastComp/LastComp";
 import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
+import ClassicPedicureImg from "./ClassicPedicureImg";
 
 const ClassicPedicurePage = () => {
   return (
@@ -34,6 +35,7 @@ const ClassicPedicurePage = () => {
         />
       </Helmet>
       <NavBg />
+      <ClassicPedicureImg/>
       <ClassicPedicureHead />
       <ClassicPedicureXp />
       <ClassicPedicureBenefits />

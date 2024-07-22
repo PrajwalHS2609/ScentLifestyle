@@ -15,6 +15,7 @@ import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
 import LastComp from "../../LastComp/LastComp";
 import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
+import OmbreGelPolishImg from "./OmbreGelPolishImg";
 
 const OmbreGelPolishPage = () => {
   return (
@@ -34,6 +35,7 @@ const OmbreGelPolishPage = () => {
         />
       </Helmet>
       <NavBg />
+      <OmbreGelPolishImg/>
      <OmbreGelPolishHead/>
      <SalonXp/>
      <OmbreProcess/>

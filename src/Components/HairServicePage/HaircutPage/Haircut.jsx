@@ -15,6 +15,7 @@ import ServiceWhy from "./../../MainServicePages/ServiceWhy/ServiceWhy";
 import LastComp from "../../LastComp/LastComp";
 import { Helmet } from "react-helmet";
 import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
+import HaircutImg from "./HaircutImg/HaircutImg";
 const Haircut = () => {
   return (
     <div className="haircutContainer">
@@ -31,15 +32,16 @@ const Haircut = () => {
         />
       </Helmet>
       <NavBg />
+      <HaircutImg />
+      <InnerNavi
+        link={"/hair-salon"}
+        service="Hair Service"
+        currService="Haircut & Styling"
+      />
       <div className="haircutContent">
         <InnerServiceTxt
           head="SCENT Hair Cut & Stylist Services"
           para="Experience the latest in fashion-forward haircuts for women and precise trims for men at SCENT Hair Cutting Salon. Our skilled stylists provide stunning hair transformations, including professional blow dries that will leave you looking your best. We offer trending haircuts, stylish hairdos, and refreshing hair washes for both women and men, perfect for any occasion. As a unisex salon, we cater to all your hairstyling needs using premium Dyson tools to ensure each strand is expertly styled. Discover our latest offers on haircuts and hairstyles in Bangalore today at SCENT Hair Cutting Salon."
-        />
-        <InnerNavi
-          link={"/hair-salon"}
-          service="Hair Service"
-          currService="Haircut & Styling"
         />
         <div className="haircutCardContainer">
           <InnerCard
@@ -124,7 +126,7 @@ const Haircut = () => {
       <HelpNearYou />
       <TextLocReviews />
       <ServiceWhy />
-      <WhatsApp/>
+      <WhatsApp />
       <LastComp />
     </div>
   );

@@ -16,6 +16,7 @@ import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
 import LastComp from "../../LastComp/LastComp";
 import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
+import ChromeGelImg from "./ChromeGelImg";
 
 const ChromeGelPage = () => {
   return (
@@ -35,6 +36,7 @@ const ChromeGelPage = () => {
         />
       </Helmet>
       <NavBg />
+      <ChromeGelImg/>
       <ChromePolishHead />
       <ChromeGelWhy />
       <ChromeProcess />

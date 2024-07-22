@@ -16,6 +16,7 @@ import FrenchGelerationProcess from "./FrenchGelerationProcess";
 import FrenchGelerationTrend from './FrenchGelerationTrend';
 import FrenchGelerationMaintain from "./FrenchGelerationMaintain";
 import FrenchGelerationCustomer from "./FrenchGelerationCustomer";
+import FrenchGelerationImg from "./FrenchGelerationImg";
 
 const FrenchGeleration = () => {
   return (
@@ -36,6 +37,7 @@ const FrenchGeleration = () => {
         />
       </Helmet>
       <NavBg />
+      <FrenchGelerationImg/>
       <FrenchGelerationHead/>
       <FrenchGelerationProcess/>
       <FrenchGelerationBenefits />

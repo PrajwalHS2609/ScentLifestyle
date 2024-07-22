@@ -16,6 +16,7 @@ import NailColorBenefits from "./NailColorBenefits";
 import NailColorMaintain from "./NailColorMaintain";
 import NailCustomer from "./NailCustomer";
 import NailColorTrend from "./NailColorTrend";
+import NailColorImg from "./NailColorImg";
 
 const NailColor = () => {
   return (
@@ -35,6 +36,7 @@ const NailColor = () => {
         />
       </Helmet>
       <NavBg />
+      <NailColorImg/>
       <NailColorHead/>
       <NailColorProcess/>
       <NailColorBenefits/>

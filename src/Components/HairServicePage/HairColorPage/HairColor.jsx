@@ -15,6 +15,7 @@ import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
 import LastComp from "../../LastComp/LastComp";
 import { Helmet } from "react-helmet";
 import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
+import HairColorImg from "./HairColorImg";
 const HairColor = () => {
   return (
     <div className="hairColorContainer">
@@ -30,6 +31,12 @@ const HairColor = () => {
         <link rel="canonical" href="https://scentlifestyle.com/hair-highlights-and-streaks" />
       </Helmet>
       <NavBg />
+      <HairColorImg/>
+      <InnerNavi
+          link={"/hair-salon"}
+          service="Hair Service"
+          currService="Highlights & Streaks"
+        />
       <div className="hairColorContent">
         <InnerServiceTxt
           head="SCENT HAIR COLOUR & HIGHLIGHTS SERVICES"

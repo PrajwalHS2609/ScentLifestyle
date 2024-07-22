@@ -17,6 +17,7 @@ import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
 import LastComp from "../../LastComp/LastComp";
 import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
+import NailExtensionImg from "./NailExtensionImg/NailExtensionImg";
 
 const NailExtensionPage = () => {
   return (
@@ -36,6 +37,7 @@ const NailExtensionPage = () => {
         />
       </Helmet>
       <NavBg />
+      <NailExtensionImg/>
       <NailExtensionHead />
       <NailExtensionMaintain />
       <NailExtensionWhy />

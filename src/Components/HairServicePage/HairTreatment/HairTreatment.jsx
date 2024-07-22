@@ -15,6 +15,7 @@ import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
 import LastComp from "../../LastComp/LastComp";
 import { Helmet } from "react-helmet";
 import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
+import HairTreatmentImg from "./HairTreatmentImg";
 const HairTreatment = () => {
   return (
     <div className="hairTreatmentContainer">
@@ -33,16 +34,18 @@ const HairTreatment = () => {
         />
       </Helmet>
       <NavBg />
+      <HairTreatmentImg />
+      <InnerNavi
+        link={"/hair-salon"}
+        service="Hair Service"
+        currService="Hair Treatment"
+      />
       <div className="hairTreatmentContent">
         <InnerServiceTxt
           head="HAIR TREATMENT SERVICES"
           para="Select from a variety of hair  treatments tailored to your hair type and needs at a SCENT  near you. These treatments can be customized to address various hair concerns, including oiliness, frizz, dryness, and an itchy scalp. Indulge in an intense hair spa to relax and rejuvenate your scalp and tresses with our Olaplex treatment, specially designed for chemically treated hair. It helps prevent breakage, reverse damage, and promote healthier hair."
         />
-        <InnerNavi
-          link={"/hair-salon"}
-          service="Hair Service"
-          currService="Hair Treatment"
-        />
+
         <div className="hairTreatmentCardContainer">
           <InnerCard
             head="CHELATING OLAPLEX BROAD SPECTRUM HAIR INSURANCE TREATMENT"
@@ -74,11 +77,11 @@ const HairTreatment = () => {
           />
           <InnerCard
             head="Liquid hair treatment (molecular refillers)"
-            para="Tailored for sensitized and fragile hair, the Liquid Hair spa treatment reconstructs and reinforces the hair fiber through thermo activation, restoring vitality. Ideal for damaged hair, it's a recommended solution for rejuvenation."
+            para="Tailored for fragile hair, the Liquid Hair spa treatment reconstructs and reinforces hair fibers through heat activation, restoring vitality. Ideal for damaged hair, it's a recommended rejuvenation solution."
           />
           <InnerCard
             head="Shampeeling (anti-dandruff)"
-            para="Here to address all your dandruff concerns, Shampeeling treats intense, persistent dandruff and oily/irritated scalps. It helps reduce the overproduction of skin cells and transforms the scalp environment, leaving you with a healthy and rejuvenated scalp."
+            para="Shampeeling addresses persistent dandruff and oily, irritated scalps. It reduces excess skin cell production and transforms the scalp, leaving it healthy and rejuvenated."
           />
           <InnerCard
             head="Balance energy serum (Anti-hair loss treatment)"
@@ -126,7 +129,7 @@ const HairTreatment = () => {
       <HelpNearYou />
       <TextLocReviews />
       <ServiceWhy />
-      <WhatsApp/>
+      <WhatsApp />
       <LastComp />
     </div>
   );

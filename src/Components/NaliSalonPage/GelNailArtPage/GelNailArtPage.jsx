@@ -15,6 +15,7 @@ import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
 import LastComp from "../../LastComp/LastComp";
 import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
+import GelNailArtPageImg from "./GelNailArtPageImg";
 
 const GelNailArtPage = () => {
   return (
@@ -29,6 +30,7 @@ const GelNailArtPage = () => {
         <link rel="canonical" href="https://scentlifestyle.com/gel-nail-art" />
       </Helmet>
       <NavBg />
+      <GelNailArtPageImg/>
       <GelNailArtHead />
       <GelNailArtBenefits/>
       <GelNailArtPageMaintain/>
