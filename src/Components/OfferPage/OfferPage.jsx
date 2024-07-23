@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import "./OfferPage.css";
 import OfferPageMain from "./OfferPageMain";
 import OfferPageContent from "./OfferPageContent";
+import { Helmet } from "react-helmet";
 
 const OfferPage = () => {
   useEffect(() => {
@@ -30,6 +31,17 @@ const OfferPage = () => {
   }, []);
   return (
     <div className="offerPageContainer">
+      <Helmet>
+        <title>Get Smooth, Silky Hair with Hair Botox at SCENT Salon!</title>
+        <meta
+          name="description"
+          content="Say goodbye to frizzy, damaged hair! Our Hair Botox treatment at SCENT Salon will leave your locks feeling smooth, silky, and utterly gorgeous."
+        />
+        <meta
+          name="keywords"
+          content="Hair Botox, Smooth Hair, Silky Hair, Hair Repair, Hair Restoration, Frizz-Free Hair, Shine and Softness, Hair Protection."
+        />
+      </Helmet>
       <OfferPageMain />
       <OfferPageContent />
     </div>
