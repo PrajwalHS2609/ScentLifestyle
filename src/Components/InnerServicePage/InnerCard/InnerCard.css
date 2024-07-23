@@ -25,11 +25,11 @@
   gap: 10px;
 }
 .innerCardContent > h2 {
-  font-size: 150%;
 }
 
 .innerCardContent > h2 > span {
-  color: var(--customRed);
+  color: var(--customRed);  font-size:15px ;
+
 }
 .innerCardContent > h2 > span > span {
   font-weight: lighter;

@@ -20,11 +20,10 @@
   flex-direction: column;
   color: var(--customRed);
 }
-.innerServiceTxtHeadContainer > h1 {
+.innerServiceTxtHeadContainer > h2 {
   font-size: 40px;
   text-align: center;
   color: var(--customRed);
-  font-weight: lighter;
 }
 .innerServiceTxtUnderline {
   border: 2px solid;
@@ -65,8 +64,8 @@
     color: var(--customRed);
   }
   .innerServiceTxtHeadContainer > h2 {
-    font-size: 120%;
-    text-align: center;
+    font-size: 30px;
+    text-align: justify;
     color: var(--customRed);
   }
   .innerServiceTxtUnderline {

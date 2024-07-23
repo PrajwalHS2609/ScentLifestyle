@@ -7,7 +7,7 @@ const InnerImage = (props) => {
       <img src={props.innerImg} alt="" />
       <div className="innerCover">
         <div className="innerOverCoverTxt">
-          <h1>{props.innerImgHead}</h1>
+          <h2>{props.innerImgHead}</h2>
           <div className="innerOverUnderline"></div>
           <pre>{props.innerImgTxt} </pre>
           <p>

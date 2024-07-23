@@ -43,7 +43,7 @@
   align-items: center;
   flex-direction: column;
 }
-.innerOverCoverTxt > h1 {
+.innerOverCoverTxt > h2 {
   font-size: 50px;
   font-weight: lighter;
   color: white;

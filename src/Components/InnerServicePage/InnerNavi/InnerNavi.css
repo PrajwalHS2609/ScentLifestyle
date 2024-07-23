@@ -33,14 +33,15 @@
   font-weight: bold;
   gap: 10px;
 }
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 320px) and (max-width:768px) {
   .innerNaviContainer {
     /* border: solid; */
     height: 100px;
-    width: 90%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 20px;
   }
   .innerNaviContent {
     /* border: solid; */

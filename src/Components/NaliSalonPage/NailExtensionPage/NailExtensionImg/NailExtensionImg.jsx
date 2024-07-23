@@ -1,6 +1,6 @@
 import React from "react";
 import nailExtImg from "./../../../../Images/NailSalonInnerPages/Nail Extension.png";
-
+import "./NailExtensionImg.css"
 const NailExtensionImg = () => {
   return (
     <div className="nailExtImg">
