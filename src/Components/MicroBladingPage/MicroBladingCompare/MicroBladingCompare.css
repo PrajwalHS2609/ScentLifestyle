@@ -34,12 +34,12 @@
 }
 .compareSlider {
   outline: none;
-  width: 100%;
+  width: 100%;  
   height: 100%;
 }
-.compareSlider>img {
+.innerCompareSlider>img {
+  border: solid;
   width: 100%;
-  height: 390px;
   object-fit: contain;
 }
 

@@ -1,10 +1,11 @@
 import React from "react";
 import { ImgComparisonSlider } from "@img-comparison-slider/react";
+import { ReactCompareSlider, ReactCompareSliderImage } from 'react-compare-slider';
 
 const ImgCompareCard = (props) => {
   return (
     <div className="imgCompareCardContainer">
-      <ImgComparisonSlider className="compareSlider">
+      {/* <ImgComparisonSlider className="compareSlider">
         <img
           slot="first"
           src={props.imgBefore}
@@ -17,7 +18,23 @@ const ImgCompareCard = (props) => {
           alt={props.imgAfterAlt}
           className="imgAfter"
         />
-      </ImgComparisonSlider>
+      </ImgComparisonSlider> */}
+      <ReactCompareSlider
+        itemOne={
+          <ReactCompareSliderImage
+            src={props.imgBefore}
+            srcSet=""
+            alt={props.imgBeforeAlt}
+          />
+        }
+        itemTwo={
+          <ReactCompareSliderImage
+            src={props.imgAfter}
+            srcSet=""
+            alt={props.imgAfterAlt}
+          />
+        }
+      />
     </div>
   );
 };

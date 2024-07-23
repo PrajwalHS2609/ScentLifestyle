@@ -36,7 +36,7 @@ const BridalMakeUpPage = () => {
       <Navi1 servName="Bridal MakeUp" />
       <BridalMakeUpServiceCard />
       <BridalMakeUpAbout />
-      <BridalMakeUpCompare/>
+      {/* <BridalMakeUpCompare/> */}
       <Members />
       <OurSalon />
       <Partners />
