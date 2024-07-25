@@ -3,7 +3,7 @@ import checked from "./../../../../Images/checked.png";
 
 const ChocolateFacialWhy = () => {
   return (
-    <div className="organicFacialWhy">
+    <div className="bridalMakeUpPackageWhy">
       <h5>Why Choose SCENT for Chocolate Mint Facial Services in Bangalore?</h5>
       <ul>
         <li>
