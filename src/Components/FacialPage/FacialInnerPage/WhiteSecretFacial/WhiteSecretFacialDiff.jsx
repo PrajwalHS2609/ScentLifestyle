@@ -3,7 +3,7 @@ import checked from "./../../../../Images/checked.png";
 
 const WhiteSecretFacialDiff = () => {
   return (
-    <div className="organicFacialWhy">
+    <div className="bridalMakeUpPackageWhy">
       <h5>
         The SCENT Difference: Exceptional White Secret Facial Services in
         Bangalore

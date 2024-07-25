@@ -12,7 +12,7 @@ const WhiteSecretFacialHead = () => {
 
       <div className="organicFacialHead">
         <h1>
-          White Secret Facial Services in Bangalore at SCENT: Unveiling Radiant
+          White Secret Facial Services in Bangalore at SCENT:<br/> Unveiling Radiant
           Skin
         </h1>
         <p>

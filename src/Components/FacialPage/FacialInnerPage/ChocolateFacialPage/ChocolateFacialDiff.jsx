@@ -3,7 +3,7 @@ import checked from "./../../../../Images/checked.png";
 
 const ChocolateFacialDiff = () => {
   return (
-    <div className="organicFacialWhy">
+    <div className="bridalMakeUpPackageWhy">
       <h5>
         The SCENT Difference: Exceptional Chocolate Mint Facial Services in
         Bangalore
