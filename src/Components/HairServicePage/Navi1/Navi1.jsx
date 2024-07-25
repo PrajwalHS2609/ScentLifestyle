@@ -16,12 +16,12 @@ const Navi1 = (props) => {
             ></FontAwesomeIcon>
           </p>
           <Link to={"/service"}>Salon Service</Link>
-          {/* <p>
+          <p>
             <FontAwesomeIcon
               icon={faAngleRight}
               className="serviceCardIcon"
             ></FontAwesomeIcon>
-          </p> */}
+          </p>
           <span>{props.servName}</span>
         </h3>
       </div>

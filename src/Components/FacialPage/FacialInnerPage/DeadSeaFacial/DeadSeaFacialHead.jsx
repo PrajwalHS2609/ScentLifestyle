@@ -29,7 +29,7 @@ const DeadSeaFacialHead = () => {
           for this indulgent facial service.
         </p>
       </div>
-      <div className="nailExtensionHeading">
+      <div className="organicFacialHead">
         <h2>The Magic of Dead Sea Minerals</h2>
         <p>
           The Dead Sea, located at the lowest point on Earth, is renowned for

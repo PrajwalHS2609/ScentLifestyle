@@ -31,21 +31,21 @@ const FacialServiceCardContain = () => {
         para="This magical Combination of coffee,mint,korean cica,seabuckthorn enchances & lightens skin while fighting lack of elasticity"
         goto="Chocolate Mint Facial"
         img="https://img.freepik.com/free-photo/spa-massage-young-woman-with-facial-mask-face-indoors_186202-7632.jpg?t=st=1714712908~exp=1714716508~hmac=353c858031eeab28d19ad3a1dfc5f3e9c5d2619b9e020aca831ed4b48e6fe874&w=826"
-        link="/"
+        link="/chocolate-mint-facial-services"
       />
       <ServiceCards
         heading="White Secret"
         para="For intense radiance and glow highly active plant extract/echium seed oil/liquorice root extracts"
         goto="White Secret"
         img="https://img.freepik.com/free-photo/beautician-with-brush-applies-white-moisturizing-mask-face-young-girl-client-spa-beauty-salon_343596-4248.jpg?t=st=1714712995~exp=1714716595~hmac=cd58584b8e050fb7f6c83ff3e443df02ffa41c90b19b989bfe448d737c442a36&w=360"
-        link="/"
+        link="/white-secret-facial-services"
       />
       <ServiceCards
         heading="Acne Cure Facial"
         para="For reducing acne pimples & pigmentation"
         goto="Acne Cure Facial"
         img="https://img.freepik.com/free-photo/woman-beauty-salon-face-treatment_23-2148875519.jpg?t=st=1714713085~exp=1714716685~hmac=984f3331c665acd6d390bddb12fb6613f90fc8ab4c75f6c823d89b90c9c81074&w=826"
-        link="/"
+        link="/acne-cure-facial-services"
       />
       <ServiceCards
         heading="Diamond Glow Facial"

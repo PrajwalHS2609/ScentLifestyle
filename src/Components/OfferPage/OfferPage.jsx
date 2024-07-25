@@ -41,6 +41,10 @@ const OfferPage = () => {
           name="keywords"
           content="Hair Botox, Smooth Hair, Silky Hair, Hair Repair, Hair Restoration, Frizz-Free Hair, Shine and Softness, Hair Protection."
         />
+           <link
+          rel="canonical"
+          href="https://scentlifestyle.com/offer"
+        />
       </Helmet>
       <OfferPageMain />
       <OfferPageContent />

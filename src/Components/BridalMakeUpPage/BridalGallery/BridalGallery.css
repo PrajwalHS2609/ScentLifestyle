@@ -1,0 +1,13 @@
+.bridalGalleryContainer {
+  border: solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.bridalGalleryContent {
+  border: solid blue;
+  width: 90%;
+  padding: 20px;
+}

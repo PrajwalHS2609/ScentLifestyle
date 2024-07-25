@@ -76,6 +76,9 @@ import OrganicFacial from "./Components/FacialPage/FacialInnerPage/OrganicFacial
 import SnowWhiteFacial from "./Components/FacialPage/FacialInnerPage/SnowWhiteFacial/SnowWhiteFacial";
 import BlogMain from "./Components/BlogPage/BlogPages/BlogMain/BlogMain";
 import BlogHair from "./Components/BlogPage/BlogPages/BlogHair/BlogHair";
+import ChocolateFacialPage from "./Components/FacialPage/FacialInnerPage/ChocolateFacialPage/ChocolateFacialPage";
+import WhiteSecretFacial from "./Components/FacialPage/FacialInnerPage/WhiteSecretFacial/WhiteSecretFacial";
+import AcneCureFacial from "./Components/FacialPage/FacialInnerPage/AcneCureFacial/AcneCureFacial";
 
 const App = () => {
   return (
@@ -199,6 +202,18 @@ const App = () => {
           <Route
             path="/dead-sea-mineral-facial-services"
             element={<OrganicFacial />}
+          />
+             <Route
+            path="/chocolate-mint-facial-services"
+            element={<ChocolateFacialPage />}
+          />
+              <Route
+            path="/white-secret-facial-services"
+            element={<WhiteSecretFacial />}
+          />
+              <Route
+            path="/acne-cure-facial-services"
+            element={<AcneCureFacial />}
           />
         </Routes>
       </BrowserRouter>

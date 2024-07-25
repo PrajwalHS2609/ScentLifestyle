@@ -30,7 +30,7 @@ const OrganicFacialHead = () => {
       </div>
 
       <OrganicFacialService />
-      <div className="nailExtensionHeading">
+      <div className="organicFacialHead">
         <h2>The Essence of Organic Facial Services in Bangalore</h2>
         <p>
           At SCENT, our{" "}

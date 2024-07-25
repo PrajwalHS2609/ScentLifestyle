@@ -29,7 +29,7 @@ const HairServicePage = () => {
       </Helmet>
       <NavBg />
       <HairServiceImg />
-      <Navi1 />
+      <Navi1 servName="Hair Service"/>
       <HairServiceCardContain />
       <HairSalon />
       <Members />

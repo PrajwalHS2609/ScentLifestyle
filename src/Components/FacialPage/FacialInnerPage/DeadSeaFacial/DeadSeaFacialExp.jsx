@@ -1,4 +1,5 @@
 import React from "react";
+import checked from "./../../../../Images/checked.png";
 
 const DeadSeaFacialExp = () => {
   return (
