@@ -4,7 +4,7 @@ import serviceVid from "./../../../video/ServicePage.mp4";
 const ServicePageImg = () => {
   return (
     <div className="servicePageImgContainer">
-      <div className="imgCover">
+      <div className="hairImgCover">
         <video src={serviceVid} autoPlay loop></video>
         <div className="serviceCover">
           <div className="serviceOverCoverTxt">

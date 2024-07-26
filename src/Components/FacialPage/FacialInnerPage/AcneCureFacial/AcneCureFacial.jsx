@@ -16,6 +16,7 @@ import TextLocReviews from "../../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../../MainServicePages/ServiceWhy/ServiceWhy";
 import WhatsApp from "../../../HomePage/WhatsApp/WhatsApp";
 import LastComp from "../../../LastComp/LastComp";
+import AcneCureFacialImg from "./AcneCureFacialImg";
 
 const AcneCureFacial = () => {
   return (
@@ -35,12 +36,13 @@ const AcneCureFacial = () => {
         />
       </Helmet>
       <NavBg />
-    <AcneCureFacialHead/>
-    <AcneCureFacialUnderstand/>
-    <AcneCureFacialService/>
-    <AcneCureFacialBenefits/>
-    <AcneCureFacialWhy/>
-    <AcneCureFacialXp/>
+      <AcneCureFacialImg />
+      <AcneCureFacialHead />
+      <AcneCureFacialUnderstand />
+      <AcneCureFacialService />
+      <AcneCureFacialBenefits />
+      <AcneCureFacialWhy />
+      <AcneCureFacialXp />
       <Members />
       <OurSalon />
       <Partners />

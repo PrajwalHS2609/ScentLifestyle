@@ -15,6 +15,7 @@ import ChocolateFacialUnderstand from "./ChocolateFacialUnderstand";
 import ChocolateFacialDiff from "./ChocolateFacialDiff";
 import ChocolateFacialBenefits from "./ChocolateFacialBenefits";
 import ChocolateFacialWhy from "./ChocolateFacialWhy";
+import ChocolateFacialImg from "./ChocolateFacialImg";
 
 const ChocolateFacialPage = () => {
   return (
@@ -35,6 +36,7 @@ const ChocolateFacialPage = () => {
         />
       </Helmet>
       <NavBg />
+      <ChocolateFacialImg/>
       <ChocolateFacialHead />
       <ChocolateFacialUnderstand />
       <ChocolateFacialDiff/>

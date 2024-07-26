@@ -1,0 +1,17 @@
+.facialExtImg {
+        /* border: solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .facialExtImg > img {
+    width: 100%;
+    height: 100%;
+  }
+  @media screen and (min-width:320px) and (max-width:768px) {
+    .facialExtImg {
+      /* border: solid red; */
+      width: 100%;
+    }
+  }

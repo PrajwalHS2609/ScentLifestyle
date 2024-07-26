@@ -1,4 +1,5 @@
 import React from "react";
+import InnerNavi from "../../../InnerServicePage/InnerNavi/InnerNavi";
 
 const DeadSeaFacialHead = () => {
   return (

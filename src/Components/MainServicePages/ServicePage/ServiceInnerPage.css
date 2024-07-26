@@ -93,9 +93,7 @@
     width: 95%;
     font-size: 100%;
   }
-  .imgCover > video {
-    object-position: -200px 0px;
-  }
+
 }
 @media screen and (max-width: 1200px) and (min-width: 990px) {
   .servicePageImgContainer {

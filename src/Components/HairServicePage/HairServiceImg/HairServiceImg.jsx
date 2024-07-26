@@ -1,11 +1,12 @@
 import React from "react";
 import "./HairServiceImg.css";
+import hairService from "./../../../video/HairService.mp4"
 const HairServiceImg = () => {
   return (
     <div className="hairServiceImgContainer">
       <div className="hairImgCover">
         <video
-          src="https://videocdn.cdnpk.net/joy/content/video/free/video0460/large_preview/_import_60d2f2414609d8.68650584.mp4"
+          src={hairService}
           autoPlay
           loop
         ></video>

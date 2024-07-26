@@ -15,6 +15,7 @@ import WhiteSecretFacialBenefits from "./WhiteSecretFacialBenefits";
 import WhiteSecretFacialWhy from "./WhiteSecretFacialWhy";
 import NavBg from "../../../NavBg/NavBg";
 import { Helmet } from "react-helmet";
+import WhiteSecretFacialImg from "./WhiteSecretFacialImg";
 
 const WhiteSecretFacial = () => {
   return (
@@ -35,6 +36,7 @@ const WhiteSecretFacial = () => {
         />
       </Helmet>
       <NavBg />
+      <WhiteSecretFacialImg/>
       <WhiteSecretFacialHead />
       <WhiteSecretFacialUnderstand />
       <WhiteSecretFacialDiff />

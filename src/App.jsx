@@ -79,6 +79,14 @@ import BlogHair from "./Components/BlogPage/BlogPages/BlogHair/BlogHair";
 import ChocolateFacialPage from "./Components/FacialPage/FacialInnerPage/ChocolateFacialPage/ChocolateFacialPage";
 import WhiteSecretFacial from "./Components/FacialPage/FacialInnerPage/WhiteSecretFacial/WhiteSecretFacial";
 import AcneCureFacial from "./Components/FacialPage/FacialInnerPage/AcneCureFacial/AcneCureFacial";
+import DiamondFacial from "./Components/FacialPage/FacialInnerPage/DiamondFacial/DiamondFacial";
+import AntiAgeFacial from "./Components/FacialPage/FacialInnerPage/AntiAgeFacial/AntiAgeFacial";
+import GoldFacial from "./Components/FacialPage/FacialInnerPage/GoldFacial/GoldFacial";
+import EyeProtectFacial from "./Components/FacialPage/FacialInnerPage/EyeProtectFacial/EyeProtectFacial";
+import HydraFacial from "./Components/FacialPage/FacialInnerPage/HydraFacial/HydraFacial";
+import LuminousFacial from "./Components/FacialPage/FacialInnerPage/LuminosFacial/LuminousFacial";
+import BrazilianFacial from "./Components/FacialPage/FacialInnerPage/BrazilianFacial/BrazilianFacial";
+import DeadSeaFacial from "./Components/FacialPage/FacialInnerPage/DeadSeaFacial/DeadSeaFacial";
 
 const App = () => {
   return (
@@ -189,7 +197,7 @@ const App = () => {
           />
 
           <Route path="/blog" element={<BlogPage />}>
-          <Route path="/blog/" element={<BlogMain />} />
+            <Route path="/blog/" element={<BlogMain />} />
             <Route path="/blog/hair" element={<BlogHair />} />
           </Route>
           <Route path="/pre-bridal-treatments" element={<PrebridalPackage />} />
@@ -201,19 +209,44 @@ const App = () => {
           />
           <Route
             path="/dead-sea-mineral-facial-services"
-            element={<OrganicFacial />}
+            element={<DeadSeaFacial/>}
           />
-             <Route
+          <Route
             path="/chocolate-mint-facial-services"
             element={<ChocolateFacialPage />}
           />
-              <Route
+          <Route
             path="/white-secret-facial-services"
             element={<WhiteSecretFacial />}
           />
-              <Route
+          <Route
             path="/acne-cure-facial-services"
             element={<AcneCureFacial />}
+          />
+          <Route
+            path="/diamond-glow-facial-services"
+            element={<DiamondFacial />}
+          />
+          <Route
+            path="/anti-ageing-facial-services"
+            element={<AntiAgeFacial />}
+          />
+          <Route path="/gold-facial-services" element={<GoldFacial />} />
+          <Route
+            path="/eye-protection-facial-services"
+            element={<EyeProtectFacial />}
+          />
+          <Route
+            path="/hydra-lifting-ocean-miracle-facial-services"
+            element={<HydraFacial />}
+          />
+               <Route
+            path="/luminous-lightening-facial-services"
+            element={<LuminousFacial />}
+          />
+          <Route
+            path="/brazilian-skin-lightening-facial-services"
+            element={<BrazilianFacial />}
           />
         </Routes>
       </BrowserRouter>

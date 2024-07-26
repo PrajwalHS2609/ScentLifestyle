@@ -17,6 +17,7 @@ import DeadSeaFacialIng from "./DeadSeaFacialIng";
 import DeadSeaFacialProcess from "./DeadSeaFacialProcess";
 import DeadSeaFacialExp from "./DeadSeaFacialExp";
 import DeadSeaFacialCustomer from "./DeadSeaFacialCustomer";
+import DeadSeaFacialImg from "./DeadSeaFacialImg";
 
 const DeadSeaFacial = () => {
   return (
@@ -37,6 +38,7 @@ const DeadSeaFacial = () => {
         />
       </Helmet>
       <NavBg />
+      <DeadSeaFacialImg/>
       <DeadSeaFacialHead />
       <DeadSeaFacialWhy />
       <DeadSeaFacialBenefits />

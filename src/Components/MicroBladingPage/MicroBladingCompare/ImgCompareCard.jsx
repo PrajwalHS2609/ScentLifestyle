@@ -1,5 +1,5 @@
 import React from "react";
-import { ImgComparisonSlider } from "@img-comparison-slider/react";
+// import { ImgComparisonSlider } from "@img-comparison-slider/react";
 import { ReactCompareSlider, ReactCompareSliderImage } from 'react-compare-slider';
 
 const ImgCompareCard = (props) => {

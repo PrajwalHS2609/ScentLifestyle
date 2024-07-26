@@ -1,11 +1,12 @@
 import React from "react";
 import "./LashesImg.css";
+import lashesService from "./../../../video/LashesService.mp4"
 const LashesImg = () => {
   return (
     <div className="lashesImgContainer">
       <div className="imgCover">
         <video
-          src="https://videocdn.cdnpk.net/joy/content/video/free/video0461/large_preview/_import_60e1415eb4e9d7.21575951.mp4?filename=1106676_1080p_enjoy_bright_1920x1080.mp4"
+          src={lashesService}
           autoPlay
           loop
         ></video>

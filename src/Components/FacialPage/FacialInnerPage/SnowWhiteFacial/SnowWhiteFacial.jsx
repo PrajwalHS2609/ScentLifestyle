@@ -18,6 +18,7 @@ import SnowWhiteFacialProcess from "./SnowWhiteFacialProcess";
 import SnowWhiteFacialExp from "./SnowWhiteFacialExp";
 import SnowWhiteFacialCustomer from "./SnowWhiteFacialCustomer";
 import SnowWhiteFacialBook from "./SnowWhiteFacialBook";
+import SnowWhiteFacialImg from "./SnowWhiteFacialImg";
 
 const SnowWhiteFacial = () => {
   return (
@@ -37,6 +38,7 @@ const SnowWhiteFacial = () => {
         />
       </Helmet>
       <NavBg />
+      <SnowWhiteFacialImg/>
       <SnowWhiteFacialHead />
       <SnowWhiteFacialWhy />
       <SnowWhiteFacialBenefits />

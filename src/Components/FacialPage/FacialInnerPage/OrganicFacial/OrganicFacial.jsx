@@ -17,6 +17,7 @@ import TextLocReviews from "../../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../../MainServicePages/ServiceWhy/ServiceWhy";
 import WhatsApp from "../../../HomePage/WhatsApp/WhatsApp";
 import LastComp from "../../../LastComp/LastComp";
+import OrganicFacialImg from "./OrganicFacialImg/OrganicFacialImg";
 
 const OrganicFacial = () => {
   return (
@@ -36,6 +37,7 @@ const OrganicFacial = () => {
         />
       </Helmet>
       <NavBg />
+      <OrganicFacialImg/>
       <OrganicFacialHead />
       <OrganicFacialWhy />
       <OrganicFacialDiff />

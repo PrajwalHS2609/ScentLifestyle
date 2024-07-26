@@ -1,3 +1,2 @@
-arrange videos to center in mobile ver
+arrange salon videos to center in mobile ver
 images changes and download
-add navi to home with current service
