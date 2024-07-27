@@ -123,11 +123,6 @@ This XML file does not appear to have any style information associated with it. 
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://scentlifestyle.com/crewx</loc>
-        <lastmod>2024-07-27T13:35:06+01:00</lastmod>
-        <priority>1.0</priority>
-    </url>
-    <url>
         <loc>https://scentlifestyle.com/myself</loc>
         <lastmod>2024-07-27T13:35:06+01:00</lastmod>
         <priority>1.0</priority>
@@ -333,11 +328,6 @@ This XML file does not appear to have any style information associated with it. 
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://scentlifestyle.com/salon-in-jakkuru</loc>
-        <lastmod>2024-07-27T13:35:06+01:00</lastmod>
-        <priority>1.0</priority>
-    </url>
-    <url>
         <loc>https://scentlifestyle.com/crew</loc>
         <lastmod>2024-07-27T13:35:06+01:00</lastmod>
         <priority>1.0</priority>
@@ -454,11 +444,6 @@ This XML file does not appear to have any style information associated with it. 
     </url>
     <url>
         <loc>https://scentlifestyle.com/blog/spa</loc>
-        <lastmod>2024-07-27T13:35:06+01:00</lastmod>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://scentlifestyle.com/blog/beauty-essential</loc>
         <lastmod>2024-07-27T13:35:06+01:00</lastmod>
         <priority>0.8</priority>
     </url>
