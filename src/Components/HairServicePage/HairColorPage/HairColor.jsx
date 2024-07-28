@@ -42,11 +42,11 @@ const HairColor = () => {
           head="SCENT HAIR COLOUR & HIGHLIGHTS SERVICES"
           para="Experience the magic of transformation with our Hair Colour & Highlights services. Elevate your style with expertly crafted hues, ranging from vibrant global hair colors to subtle highlights. Our skilled stylists customize each color to suit your unique style, guaranteeing a personalized and stunning result that captivates from every angle."
         />
-        <InnerNavi
+        {/* <InnerNavi
           link={"/hair-salon"}
           service="Hair Service"
           currService="Highlights & Streaks"
-        />
+        /> */}
         <div className="hairColorCardContainer">
           <InnerCard
             head="Milk Shake Argan Cocktail Service"

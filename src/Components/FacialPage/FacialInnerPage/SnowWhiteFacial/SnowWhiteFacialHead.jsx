@@ -4,7 +4,7 @@ import InnerNavi from "../../../InnerServicePage/InnerNavi/InnerNavi";
 const SnowWhiteFacialHead = () => {
   return (
     <div className="organicFacialHead">
-      <InnerNavi link="/facial" service="Facial" currService="SnowWhite Facial" />
+      <InnerNavi link="/facial" service="Facial" currService="Snow White Facial" />
 
       <div className="organicFacialHead">
         <h1>

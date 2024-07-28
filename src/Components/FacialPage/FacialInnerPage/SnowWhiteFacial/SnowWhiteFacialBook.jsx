@@ -30,7 +30,7 @@ const SnowWhiteFacialBook = () => {
         to meet your unique needs and leave you looking and feeling your best.
       </p>
       <p>
-        Visit SCENT today and discover why we are the premier destination for
+        Visit SCENT today and discover why we are the premier destination for{" "}
         <a href="https://scentlifestyle.com/snow-white-facial-services">
           Snow White Facial Services in Bangalore
         </a>

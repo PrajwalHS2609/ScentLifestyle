@@ -20,8 +20,8 @@
   flex-direction: column;
   color: var(--customRed);
 }
-.unisexHeadContainer > h2 {
-  font-size: 40px;
+.unisexHeadContainer > h1 {
+  font-size: 30px;
   color: var(--customRed);
 }
 .unisexUnderline {

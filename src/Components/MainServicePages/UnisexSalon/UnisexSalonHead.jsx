@@ -4,7 +4,7 @@ import "./UnisexSalon.css";
 const UnisexSalonHead = () => {
   return (
     <div className="unisexHeadContainer">
-      <h2>Best Salon Services in Bangalore</h2>
+      <h1>Best Salon Services in Bangalore</h1>
       <div className="unisexUnderline"></div>
     </div>
   );
