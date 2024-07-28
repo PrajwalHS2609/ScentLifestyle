@@ -4,7 +4,7 @@ import "./HairSalon.css";
 const HairSalonHead = () => {
   return (
     <div className="hairSalonHeadContainer">
-      <h2>HAIR SALON SERVICES</h2>
+      <h2>HAIR SALON SERVICES IN BANGALORE</h2>
       <div className="hairSalonUnderline"></div>
     </div>
   );
