@@ -6,15 +6,17 @@
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
+  gap: 20px;
   margin-top: 40px;
 }
-.beautyReadContainer > header > h1 {
+.beautyReadContainer > h1 {
   margin: 20px;
   font-size: 40px;
   color: var(--customColor);
   display: block;
-  font-weight: lighter;
+  font-weight: 400;
   text-align: center;
+  width: 80%;
 }
 .beautyReadHeadContainer {
   /* border: solid red; */
@@ -51,10 +53,11 @@
 }
 .beautyReadHeadContainer > ul > li > p > a {
   color: var(--customColor);
+  text-decoration: none;
 }
 .beautyReadHeadContainer > ul > li > h4 {
   font-size: 20px;
-  font-weight: lighter;
+  font-weight: 400;
 }
 .beautyReadHeadContainer > button {
   border: none;
@@ -95,11 +98,13 @@
 }
 .beautyReadDisplayContainer > ul > li > ul > h3 {
   font-size: 20px;
-  font-weight: lighter;
+  font-weight: 400;
   color: var(--customColor);
 }
 .beautyReadDisplayContainer > ul > li > ul > li {
-  list-style: disc;margin-left: 30px;margin: 20px;
+  list-style: disc;
+  margin-left: 30px;
+  margin: 20px;
 }
 .beautyReadDisplayContainer > ul > li > ul > li > span {
   color: var(--customColor);
@@ -107,10 +112,11 @@
 
 .beautyReadDisplayContainer > ul > li > p > a {
   color: var(--customColor);
+  text-decoration: none;
 }
 .openBut {
   text-decoration: underline;
-  font-weight: lighter;
+  font-weight: 400;
 }
 .beautyReadDisplayContainer > ul > li > p > span {
   color: var(--customColor);
@@ -126,7 +132,6 @@
     flex-direction: column;
     margin-top: 0px;
     text-align: justify;
-
   }
   .beautyReadHeadContainer > h2 {
     font-size: 150%;

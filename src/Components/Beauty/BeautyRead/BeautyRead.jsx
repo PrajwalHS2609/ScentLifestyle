@@ -16,13 +16,11 @@ const BeautyRead = () => {
 
   return (
     <div className="beautyReadContainer">
-      <header>
         <h1>
           {" "}
           Rejuvenate Your Skin with Waxing, De-Tan & Threading in Bangalore at
           SCENT Salon
         </h1>
-      </header>
       <div className="beautyReadHeadContainer">
         <ul>
           <li>

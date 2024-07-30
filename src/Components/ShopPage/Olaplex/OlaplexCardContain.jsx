@@ -1,9 +1,9 @@
 import React from "react";
 import "./Olaplex.css";
 import OlaplexCard from "./OlaplexCard";
-import product1 from "./../../../Images/OLAPLEX NO 4 -REPAIR AND PROTECT.jpg";
-import product2 from "./../../../Images/OLAPLEX NO 5 - HYDRATION SUPREME.png";
-import product3 from "./../../../Images/OLAPLEX NO 6 -BOND SMOOTHER.jpg";
+import product1 from "./../../../Images/Shop/Olaplex/OLAPLEX NO 4 -REPAIR AND PROTECT.jpg";
+import product2 from "./../../../Images/Shop/Olaplex/OLAPLEX NO 5 - HYDRATION SUPREME.png";
+import product3 from "./../../../Images/Shop/Olaplex/OLAPLEX NO 6 -BOND SMOOTHER.jpg";
 
 const OlaplexCardContain = () => {
   return (

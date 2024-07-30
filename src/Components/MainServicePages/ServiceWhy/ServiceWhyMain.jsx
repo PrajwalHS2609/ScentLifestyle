@@ -1,16 +1,16 @@
 import React from "react";
 import "./ServiceWhy.css";
 import ServiceWhyCard from "./ServiceWhyCard";
-import img1 from "../../../Images/ComprehensiveServices.png";
-import img2 from "../../../Images/Convenient Booking.png";
-import img3 from "../../../Images/Customer Satisfaction.png";
-import img4 from "../../../Images/Experienced Professionals.png";
-import img5 from "../../../Images/Hygiene and Safety.png";
-import img6 from "../../../Images/Mutiple Locations.png";
-import img7 from "../../../Images/Personalized Treatments.png";
-import img8 from "../../../Images/Positive Reviews.png";
-import img9 from "../../../Images/Regular Promotions and Offers.png";
-import img10 from "../../../Images/Warm and Welcoming Atmosphere.png";
+import img1 from "../../../Images/WhyImgs/ComprehensiveServices.png";
+import img2 from "../../../Images/WhyImgs/Convenient Booking.png";
+import img3 from "../../../Images/WhyImgs/Customer Satisfaction.png";
+import img4 from "../../../Images/WhyImgs/Experienced Professionals.png";
+import img5 from "../../../Images/WhyImgs/Hygiene and Safety.png";
+import img6 from "../../../Images/WhyImgs/Mutiple Locations.png";
+import img7 from "../../../Images/WhyImgs/Personalized Treatments.png";
+import img8 from "../../../Images/WhyImgs/Positive Reviews.png";
+import img9 from "../../../Images/WhyImgs/Regular Promotions and Offers.png";
+import img10 from "../../../Images/WhyImgs/Warm and Welcoming Atmosphere.png";
 
 const ServiceWhyMain = () => {
   return (

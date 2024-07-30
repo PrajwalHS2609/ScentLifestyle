@@ -195,7 +195,7 @@ const App = () => {
 
           <Route path="/blog" element={<BlogPage />}>
             <Route path="/blog" element={<BlogMain />} />
-            <Route path="/blog/hair" element={<BlogHair />} />
+            <Route path="/blog/hair-blog" element={<BlogHair />} />
           </Route>
           <Route
             path="/does-trimming-hair-make-it-grow-faster"
