@@ -39,7 +39,7 @@
   flex-direction: column;
 }
 .contacts1 > h1 {
-  color: white; 
+  color: white;
 }
 .contacts1 > p {
   color: white;
@@ -51,6 +51,7 @@
 }
 .contacts1 > p > a {
   color: white;
+  text-decoration: none;
 }
 .contacts2 > h2 {
   color: white;
@@ -65,6 +66,7 @@
 }
 .contacts2 > p > a {
   color: white;
+  text-decoration: none;
 }
 .contacts3 > h2 {
   color: white;
@@ -79,6 +81,7 @@
 }
 .contacts3 > p > a {
   color: white;
+  text-decoration: none;
 }
 @media screen and (max-width: 600px) {
   .contactMainContainer {

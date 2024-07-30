@@ -349,14 +349,11 @@ const FacialRead = () => {
                 <p>
                   At SCENT Salon, we believe that everyone deserves to
                   experience the benefits of a professional facial. That’s why
-                  we offer a variety of{" "}
-                  <a href="https://scentlifestyle.com/facial">
-                    facial services in Bangalore at competitive prices
-                  </a>
-                  . Keep an eye on our website and social media pages for
-                  special offers and discounts on facials. You can also book a
-                  consultation with our skincare experts to find out which
-                  facial treatment is best for you.
+                  we offer a variety of facial services in Bangalore at
+                  competitive prices . Keep an eye on our website and social
+                  media pages for special offers and discounts on facials. You
+                  can also book a consultation with our skincare experts to find
+                  out which facial treatment is best for you.
                 </p>
               </li>
             </li>

@@ -19,6 +19,12 @@
   color: var(--customColor);
   text-decoration: none;
 }
+/* .nestedNav1 > .active {
+  color: black;
+} */
+.nestedNav2 > .active {
+  color: black;
+}
 @media screen and (min-width: 320px) and (max-width: 768px) {
   .nestedNav {
     /* border: solid red; */

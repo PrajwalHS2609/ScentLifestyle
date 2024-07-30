@@ -17,6 +17,7 @@ import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 import MeadowsLocAbout from "./MeadowsLocAbout/MeadowsLocAbout";
 import { Helmet } from "react-helmet";
 import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
+import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
 const MeadowsLocPage = () => {
   return (
     <div className="meadowsLocPageContainer">
@@ -59,6 +60,8 @@ Varthur Main Road Ramagondanahalli, Whitefield Bengaluru Karnataka
         <Partners />
         <InstaFeed />
         <ServiceWhy />
+        <WhatsApp/>
+
       </div>
       <LastComp />
     </div>

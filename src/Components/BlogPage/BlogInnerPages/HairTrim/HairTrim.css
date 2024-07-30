@@ -34,10 +34,24 @@
   color: var(--customColor);
   text-align: center;
 }
+.hairTrimHead > h2 {
+  font-size: 30px;
+  color: var(--customColor);
+  text-align: center;
+}
+.hairTrimHead > h3 {
+  font-size: 25px;
+  color: var(--customColor);
+  text-align: start;
+  width: 100%;
+}
 .hairTrimHead > p {
   width: 100%;
   font-size: 20px;
   text-align: justify;
+}
+.hairTrimHead > p>a{
+  text-decoration: none;color: var(--customColor);
 }
 .hairTrimHeadContent {
   width: 100%;

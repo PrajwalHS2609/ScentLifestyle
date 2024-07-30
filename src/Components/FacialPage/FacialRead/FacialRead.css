@@ -47,10 +47,11 @@
 }
 .facialReadHeadContainer > ul > li > p > a {
   color: var(--customColor);
+  text-decoration: none;
 }
 .facialReadHeadContainer > ul > li > h4 {
   font-size: 20px;
-  font-weight: lighter;
+  font-weight: 400;
 }
 .facialReadHeadContainer > button {
   border: none;
@@ -89,12 +90,13 @@
   flex-direction: column;
   gap: 10px;
 }
-.facialReadDisplayContainer > ul > li > p >  a {
+.facialReadDisplayContainer > ul > li > p > a {
   color: var(--customColor);
+  text-decoration: none;
 }
 .openBut {
   text-decoration: underline;
-  font-weight: lighter;
+  font-weight: 400;
 }
 .facialReadDisplayContainer > ul > li > p > span {
   color: var(--customColor);
@@ -110,7 +112,6 @@
     flex-direction: column;
     margin-top: 0px;
     text-align: justify;
-
   }
   .facialReadHeadContainer > h2 {
     font-size: 150%;
@@ -121,6 +122,6 @@
   .facialReadDisplayContainer ul > li {
     /* border: solid green; */
     margin: 5%;
-    font-size: 100%;
+    font-size: 18px;
   }
 }

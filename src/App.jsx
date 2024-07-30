@@ -87,6 +87,7 @@ import HydraFacial from "./Components/FacialPage/FacialInnerPage/HydraFacial/Hyd
 import LuminousFacial from "./Components/FacialPage/FacialInnerPage/LuminosFacial/LuminousFacial";
 import BrazilianFacial from "./Components/FacialPage/FacialInnerPage/BrazilianFacial/BrazilianFacial";
 import DeadSeaFacial from "./Components/FacialPage/FacialInnerPage/DeadSeaFacial/DeadSeaFacial";
+import BouncyHair from "./Components/BlogPage/BlogInnerPages/BouncyHair/BouncyHair";
 
 const App = () => {
   return (
@@ -191,15 +192,19 @@ const App = () => {
             path="/bridal-makeup-packages"
             element={<BridalMakeUpPackage />}
           />
+
+          <Route path="/blog" element={<BlogPage />}>
+            <Route path="/blog" element={<BlogMain />} />
+            <Route path="/blog/hair" element={<BlogHair />} />
+          </Route>
           <Route
             path="/does-trimming-hair-make-it-grow-faster"
             element={<HairTrim />}
           />
-
-          <Route path="/blog" element={<BlogPage />}>
-            <Route path="/blog/" element={<BlogMain />} />
-            <Route path="/blog/hair" element={<BlogHair />} />
-          </Route>
+          <Route
+            path="/tips-for-maintaining-hair-bouncy-and-beautiful-curls-during-monsoon"
+            element={<BouncyHair />}
+          />
           <Route path="/pre-bridal-treatments" element={<PrebridalPackage />} />
 
           <Route path="/organic-facial-services" element={<OrganicFacial />} />
@@ -209,7 +214,7 @@ const App = () => {
           />
           <Route
             path="/dead-sea-mineral-facial-services"
-            element={<DeadSeaFacial/>}
+            element={<DeadSeaFacial />}
           />
           <Route
             path="/chocolate-mint-facial-services"
@@ -240,7 +245,7 @@ const App = () => {
             path="/hydra-lifting-ocean-miracle-facial-services"
             element={<HydraFacial />}
           />
-               <Route
+          <Route
             path="/luminous-lightening-facial-services"
             element={<LuminousFacial />}
           />

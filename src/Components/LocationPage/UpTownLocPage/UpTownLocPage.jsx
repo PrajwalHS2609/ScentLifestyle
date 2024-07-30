@@ -17,6 +17,7 @@ import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 import UpTownLocAbout from "./UpTownLocAbout/UpTownLocAbout";
 import { Helmet } from "react-helmet";
 import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
+import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
 const UpTownLocPage = () => {
   return (
     <div className="uptownLocPageContainer">
@@ -58,6 +59,8 @@ const UpTownLocPage = () => {
         <Partners />
         <InstaFeed />
         <ServiceWhy />
+        <WhatsApp/>
+
       </div>
       <LastComp />
     </div>

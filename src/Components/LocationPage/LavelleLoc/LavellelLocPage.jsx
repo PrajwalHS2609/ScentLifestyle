@@ -17,6 +17,7 @@ import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 import LavelleLocAbout from "./LavelleLocAbout/LavelleLocAbout";
 import { Helmet } from "react-helmet";
 import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
+import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
 const LavellelLocPage = () => {
   return (
     <div className="lavellelLocPageContainer">
@@ -57,6 +58,8 @@ const LavellelLocPage = () => {
         <Partners />
         <InstaFeed />
         <ServiceWhy />
+        <WhatsApp/>
+
       </div>
       <LastComp />
     </div>

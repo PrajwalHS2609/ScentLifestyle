@@ -1,19 +1,19 @@
 import React, { useRef, useState } from "react";
 import BlogCard from "../BlogCard";
 import trimBlog from "./../../../../Images/Blog/Does Trimming Hair Make It Grow Faster.png";
-
+import BouncyHairBlog from "./../../../../Images/Blog/Hair Bouncy and Beautiful Curls During Monsoon.png";
 const BlogHair = () => {
-    let [toggle, setToggle] = useState(false);
-    let switchRef = useRef();
-    let handleRead = () => {
-      if (!toggle) {
-        setToggle(true);
-        switchRef.current.style.display = "flex";
-      } else {
-        setToggle(false);
-        switchRef.current.style.display = "none";
-      }
-    };
+  let [toggle, setToggle] = useState(false);
+  let switchRef = useRef();
+  let handleRead = () => {
+    if (!toggle) {
+      setToggle(true);
+      switchRef.current.style.display = "flex";
+    } else {
+      setToggle(false);
+      switchRef.current.style.display = "none";
+    }
+  };
   return (
     <div className="blogMainContainer">
       <div className="blogMainDisplay1">
@@ -24,13 +24,13 @@ const BlogHair = () => {
           link="/does-trimming-hair-make-it-grow-faster"
         />
         <BlogCard
-          img="https://cdn-ikppclh.nitrocdn.com/CueiRbtmHDfiLNmOiFYzPbGQWoFHcYmP/assets/images/optimized/rev-049d16b/www.bodycraft.co.in/wp-content/uploads/raccoon-eyes.png"
-          head="Raccoon Eyes: Causes, Treatment, and How to Get Rid of It"
-          para="Ever noticed those unsightly dark circles around your eyes? In..."
-          link="/"
+          img={BouncyHairBlog}
+          head="Tips for Maintaining Hair Bouncy and Beautiful Curls During Monsoon"
+          para="Discover essential tips for maintaining bouncy and beautiful curls during the monsoon season. Learn how to ..."
+          link="/tips-for-maintaining-hair-bouncy-and-beautiful-curls-during-monsoon"
         />
         <BlogCard
-          img="https://cdn-ikppclh.nitrocdn.com/CueiRbtmHDfiLNmOiFYzPbGQWoFHcYmP/assets/images/optimized/rev-049d16b/www.bodycraft.co.in/wp-content/uploads/raccoon-eyes.png"
+          img="https://img.freepik.com/free-photo/portrait-attractive-woman-studio_329181-9782.jpg?ga=GA1.1.798303094.1721912336&semt=ais_hybrid"
           head="Raccoon Eyes: Causes, Treatment, and How to Get Rid of It"
           para="Ever noticed those unsightly dark circles around your eyes? In..."
           link="/"
@@ -39,19 +39,19 @@ const BlogHair = () => {
 
       <div className="blogMainDisplay2" ref={switchRef}>
         <BlogCard
-          img="https://cdn-ikppclh.nitrocdn.com/CueiRbtmHDfiLNmOiFYzPbGQWoFHcYmP/assets/images/optimized/rev-049d16b/www.bodycraft.co.in/wp-content/uploads/raccoon-eyes.png"
+          img="https://img.freepik.com/free-photo/portrait-attractive-woman-studio_329181-9782.jpg?ga=GA1.1.798303094.1721912336&semt=ais_hybrid"
           head="Raccoon Eyes: Causes, Treatment, and How to Get Rid of It"
           para="Ever noticed those unsightly dark circles around your eyes? In..."
           link="/"
         />
         <BlogCard
-          img="https://cdn-ikppclh.nitrocdn.com/CueiRbtmHDfiLNmOiFYzPbGQWoFHcYmP/assets/images/optimized/rev-049d16b/www.bodycraft.co.in/wp-content/uploads/raccoon-eyes.png"
+          img="https://img.freepik.com/free-photo/portrait-attractive-woman-studio_329181-9782.jpg?ga=GA1.1.798303094.1721912336&semt=ais_hybrid"
           head="Raccoon Eyes: Causes, Treatment, and How to Get Rid of It"
           para="Ever noticed those unsightly dark circles around your eyes? In..."
           link="/"
         />
         <BlogCard
-          img="https://cdn-ikppclh.nitrocdn.com/CueiRbtmHDfiLNmOiFYzPbGQWoFHcYmP/assets/images/optimized/rev-049d16b/www.bodycraft.co.in/wp-content/uploads/raccoon-eyes.png"
+          img="https://img.freepik.com/free-photo/portrait-attractive-woman-studio_329181-9782.jpg?ga=GA1.1.798303094.1721912336&semt=ais_hybrid"
           head="Raccoon Eyes: Causes, Treatment, and How to Get Rid of It"
           para="Ever noticed those unsightly dark circles around your eyes? In..."
           link="/"

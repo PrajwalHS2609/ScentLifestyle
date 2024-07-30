@@ -17,6 +17,7 @@ import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 import JakkuruLocAbout from "./JakkuruLocAbout/JakkuruLocAbout";
 import { Helmet } from "react-helmet";
 import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
+import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
 const JakkuruLocPage = () => {
   return (
     <div className="jakkuruLocPageContainer">
@@ -31,8 +32,7 @@ const JakkuruLocPage = () => {
         />
         <link
           rel="canonical"
-          href="https://scentlifestyle.com/salon-in-jakkur
-	"
+          href="https://scentlifestyle.com/salon-in-jakkur"
         />
       </Helmet>
       <LocationNavBg />
@@ -57,6 +57,7 @@ const JakkuruLocPage = () => {
         <Partners />
         <InstaFeed />
         <ServiceWhy />
+        <WhatsApp />
       </div>
       <LastComp />
     </div>

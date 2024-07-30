@@ -17,6 +17,7 @@ import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 import SahakarLocAbout from "./SahakarLocAbout/SahakarLocAbout";
 import { Helmet } from "react-helmet";
 import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
+import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
 const SahakarLocPage = () => {
   return (
     <div className="sahakarLocPageContainer">
@@ -56,6 +57,8 @@ const SahakarLocPage = () => {
         <Partners />
         <InstaFeed />
         <ServiceWhy />
+        <WhatsApp/>
+
       </div>
       <LastComp />
     </div>
