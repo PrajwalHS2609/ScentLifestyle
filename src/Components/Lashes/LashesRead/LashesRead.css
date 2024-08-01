@@ -13,7 +13,7 @@
   font-size: 40px;
   color: var(--customColor);
   display: block;
-  font-weight: lighter;
+  font-weight: 400;
   text-align: center;
 }
 .lashesReadHeadContainer {
@@ -55,7 +55,7 @@
 }
 .lashesReadHeadContainer > ul > li > h4 {
   font-size: 20px;
-  font-weight: lighter;
+  font-weight: 400;
 }
 .lashesReadHeadContainer > button {
   border: none;
@@ -96,7 +96,7 @@
 }
 .lashesReadDisplayContainer > ul > li > ul > h3 {
   font-size: 20px;
-  font-weight: lighter;
+  font-weight: 400;
   color: var(--customColor);
 }
 
@@ -115,13 +115,17 @@
 }
 .openBut {
   text-decoration: underline;
-  font-weight: lighter;
+  font-weight: 400;
 }
 .lashesReadDisplayContainer > ul > li > p > span {
   color: var(--customColor);
 }
+.lashesReadDisplayContainer > ul >li>ul> li > a {
+  color: var(--customColor);
+  text-decoration: none ;
+}
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   .lashesReadContainer {
     /* border: solid red; */
     display: flex;

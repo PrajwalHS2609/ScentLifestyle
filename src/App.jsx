@@ -88,6 +88,11 @@ import LuminousFacial from "./Components/FacialPage/FacialInnerPage/LuminosFacia
 import BrazilianFacial from "./Components/FacialPage/FacialInnerPage/BrazilianFacial/BrazilianFacial";
 import DeadSeaFacial from "./Components/FacialPage/FacialInnerPage/DeadSeaFacial/DeadSeaFacial";
 import BouncyHair from "./Components/BlogPage/BlogInnerPages/BouncyHair/BouncyHair";
+import FacePage from "./Components/Beauty/BeautyInnerPages/FacePage/FacePage";
+import ArmsPage from "./Components/Beauty/BeautyInnerPages/ArmsPage/ArmsPage";
+import LegsPage from "./Components/Beauty/BeautyInnerPages/LegsPage/LegsPage";
+import BackPage from "./Components/Beauty/BeautyInnerPages/BackPage/BackPage";
+import NeckPage from "./Components/Beauty/BeautyInnerPages/NeckPage/NeckPage";
 
 const App = () => {
   return (
@@ -252,6 +257,26 @@ const App = () => {
           <Route
             path="/brazilian-skin-lightening-facial-services"
             element={<BrazilianFacial />}
+          />
+          <Route
+            path="/face-waxing-detan-threading-salon-in-bangalore"
+            element={<FacePage />}
+          />
+          <Route
+            path="/arms-waxing-detan-threading-salon-in-bangalore"
+            element={<ArmsPage />}
+          />
+          <Route
+            path="/legs-waxing-detan-threading-salon-in-bangalore"
+            element={<LegsPage />}
+          />
+          <Route
+            path="/neck-waxing-detan-threading-salon-in-bangalore"
+            element={<NeckPage />}
+          />
+          <Route
+            path="/body-back-waxing-detan-threading-salon-in-bangalore"
+            element={<BackPage />}
           />
         </Routes>
       </BrowserRouter>

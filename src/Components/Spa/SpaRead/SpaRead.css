@@ -13,7 +13,7 @@
   font-size: 40px;
   color: var(--customColor);
   display: block;
-  font-weight: lighter;
+  font-weight: 400;
   text-align: center;
 }
 .spaReadHeadContainer {
@@ -47,10 +47,11 @@
 }
 .spaReadHeadContainer > ul > li > p > a {
   color: var(--customColor);
+  text-decoration: none;
 }
 .spaReadHeadContainer > ul > li > h4 {
   font-size: 20px;
-  font-weight: lighter;
+  font-weight: 400;
 }
 .spaReadHeadContainer > button {
   border: none;
@@ -91,10 +92,11 @@
 }
 .spaReadDisplayContainer > ul > li > p > a {
   color: var(--customColor);
+  text-decoration: none;
 }
 .openBut {
   text-decoration: underline;
-  font-weight: lighter;
+  font-weight: 400;
 }
 .spaReadDisplayContainer > ul > li > p > span {
   color: var(--customColor);
@@ -110,7 +112,6 @@
     flex-direction: column;
     margin-top: 0px;
     text-align: justify;
-
   }
   .spaReadHeadContainer > h2 {
     font-size: 150%;

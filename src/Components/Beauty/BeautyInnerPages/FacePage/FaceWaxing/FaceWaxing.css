@@ -1,0 +1,51 @@
+.faceWaxingContainer {
+  /* border: solid red; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  padding: 30px;
+}
+.faceWaxingContainer > h2 {
+  color: var(--customColor);
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+}
+.faceWaxingContainer > h3 {
+  color: var(--customColor);
+  width: 100%;
+  text-align: start;
+  font-size: 25px;
+}
+.faceWaxingContainer > p {
+  width: 100%;
+  font-size: 20px;
+  text-align: justify;
+}
+.faceWaxingContainer > p > a {
+  color: var(--customColor);
+  text-decoration: none;
+}
+.faceWaxingContainer > li > h6 {
+  color: var(--customColor);
+  font-size: 20px;
+}
+
+.faceWaxingContainer > li {
+  /* border: solid; */
+  width: 100%;
+  font-size: 20px;
+  text-align: start;
+  list-style: none;
+}
+.faceWaxingContainer > li > span {
+  /* border: solid; */
+  color: var(--customColor);
+}
+.faceWaxingContainer > li > a {
+  text-decoration: none;
+  color: var(--customColor);
+}

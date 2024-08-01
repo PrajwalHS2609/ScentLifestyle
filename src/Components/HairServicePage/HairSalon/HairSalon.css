@@ -3,11 +3,14 @@
 }
 .hairSalonContainer {
   /* border: solid red; */
-  height: 35vh;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  gap: 10px;
+  margin-top: 30px;
+  padding: 20px;
 }
 .hairSalonHeadContainer {
   /* border: solid; */
@@ -41,7 +44,7 @@
   font-size: 20px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .hairSalonContainer {
     /* border: solid red; */
     height: 30%;
@@ -54,114 +57,17 @@
     width: 100px;
   }
   .hairSalonHeadContainer > h2 {
-    font-size: 150%;
-
-  }
-  .hairSalonParaContainer > p {
-    /* border: solid blue; */
-    text-align: center;
-    width: 90%;
-    font-size:100% ;
-  }
-}
-@media screen and (max-width: 990px) and (min-width:600px){
-  .hairSalonContainer {
-    /* border: solid red; */
-    height: 30%;
-    width: 100%;
-    gap: 20px;
-    margin-top: 40px;
-  }
-  .hairSalonUnderline {
-    border: 2px solid;
-    width: 100px;
-  }
-  .hairSalonParaContainer > p {
-    /* border: solid blue; */
-    text-align: center;
-    width: 90%;
-    font-size: 30px;
-  }
-}
-@media screen and (max-width: 1200px) and (min-width:990px){
-  .hairSalonContainer {
-    /* border: solid red; */
-    height: 35vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-  .hairSalonHeadContainer {
-    /* border: solid; */
-    height: 70px;
-    width: 90%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    color: var(--customRed);
-  }
-  .hairSalonHeadContainer > h2 {
-    font-size:40px;
-    color: var(--customRed);
-  }
-  .hairSalonUnderline {
-    border: 2px solid;
-    width: 60px;
-    color: var(--customRed);
-  }
-  .hairSalonParaContainer {
-    /* border: solid; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .hairSalonParaContainer > p {
-    /* border: solid blue; */
-    text-align: center;
-    width: 90%;
-    font-size: 20px;
-  }
-}
-@media screen and (max-width: 1440px) and (min-width:1200px){
-  .hairSalonContainer {
-    /* border: solid red; */
-    height: 35vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-  .hairSalonHeadContainer {
-    /* border: solid; */
-    height: 70px;
-    width: 90%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    color: var(--customRed);
-  }
-  .hairSalonHeadContainer > h2 {
-    font-size:40px;
-    color: var(--customRed);
-  }
-  .hairSalonUnderline {
-    border: 2px solid;
-    width: 60px;
-    color: var(--customRed);
-  }
-  .hairSalonParaContainer {
-    /* border: solid; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .hairSalonParaContainer > p {
-    /* border: solid blue; */
-    text-align: center;
-    width: 90%;
     font-size: 25px;
+  }
+  .hairSalonParaContainer > p {
+    /* border: solid blue; */
+    text-align: center;
+    width: 90%;
+    font-size: 100%;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+  .hairSalonHeadContainer > h2 {
+    font-size: 30px;
   }
 }

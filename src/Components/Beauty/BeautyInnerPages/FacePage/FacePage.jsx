@@ -1,6 +1,25 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import FaceImg from "./FaceImg/FaceImg";
+import InnerNavi from "../../../InnerServicePage/InnerNavi/InnerNavi";
+import Members from "../../../HomePage/Members/Members";
+import OurSalon from "../../../HomePage/OurSalon/OurSalon";
+import Partners from "../../../HomePage/Partners/Partners";
+import InstaFeed from "../../../HomePage/InstaFeed/InstaFeed";
+import HelpNearYou from "../../../Help/HelpNearYou";
+import TextLocReviews from "../../../TextLocReviews/TextLocReviews";
+import ServiceWhy from "../../../MainServicePages/ServiceWhy/ServiceWhy";
+import BeautyRead from "../../BeautyRead/BeautyRead";
+import WhatsApp from "../../../HomePage/WhatsApp/WhatsApp";
+import LastComp from "../../../LastComp/LastComp";
+import FaceHeader from "./FaceHeader/FaceHeader";
+import FaceWhy from "./FaceWhy/FaceWhy";
+import NavBg from "../../../NavBg/NavBg";
+import FaceWaxing from "./FaceWaxing/FaceWaxing";
+import FaceDetan from "./FaceDetan";
+import FaceThreading from "./FaceThreading";
+import FaceOffering from "./FaceOffering";
+import FaceBook from "./FaceBook";
 
 const FacePage = () => {
   return (
@@ -17,16 +36,23 @@ const FacePage = () => {
         />
         <link
           rel="canonical"
-          href="https://scentlifestyle.com/face-tan-removal-salon-in-bangalore"
+          href="https://scentlifestyle.com/face-waxing-detan-threading-salon-in-bangalore"
         />
       </Helmet>
       <NavBg />
-      <FaceImg />
+      {/* <FaceImg /> */}
       <InnerNavi
         link="/beauty-essentials"
         service="Beauty Essentials"
         currService="Face"
       />
+      <FaceHeader />
+      <FaceWhy />
+      <FaceWaxing />
+      <FaceDetan />
+      <FaceThreading />
+      <FaceOffering />
+      <FaceBook/>
       <Members />
       <OurSalon />
       <Partners />

@@ -1,0 +1,51 @@
+.headSpaBenefitsContainer {
+  /* border: solid red; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  padding: 30px;
+}
+.headSpaBenefitsContainer > h2 {
+  color: var(--customColor);
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+}
+.headSpaBenefitsContainer > h3 {
+  color: var(--customColor);
+  width: 100%;
+  text-align: start;
+  font-size: 25px;
+}
+.headSpaBenefitsContainer > p {
+  width: 100%;
+  font-size: 20px;
+  text-align: justify;
+}
+.headSpaBenefitsContainer > p > a {
+  color: var(--customColor);
+  text-decoration: none;
+}
+.headSpaBenefitsContainer > li > h6 {
+  color: var(--customColor);
+  font-size: 20px;
+}
+
+.headSpaBenefitsContainer > li {
+  /* border: solid; */
+  width: 100%;
+  font-size: 20px;
+  text-align: start;
+  list-style: none;
+}
+.headSpaBenefitsContainer > li > span {
+  /* border: solid; */
+  color: var(--customColor);
+}
+.headSpaBenefitsContainer > li > a {
+  text-decoration: none;
+  color: var(--customColor);
+}
