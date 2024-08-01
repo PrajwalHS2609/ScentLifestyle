@@ -66,10 +66,24 @@ const BeardStyle = () => {
             para="Spoil yourself with a deluxe beard spa session for a rejuvenating experience filled with treatments that boost hair health and soothe the skin."
           />
         </div>
-        <InnerServiceTxt
+        <div className="innerServiceTxtContainer">
+          <div className="innerServiceTxtHeadContainer">
+            <h1>BEARD STYLING SERVICES IN BANGALORE</h1>
+            <div className="innerServiceTxtUnderline"></div>
+          </div>
+          <div className="innerServiceTxtParaContainer">
+            <p>
+              Experience the artistry of flawless grooming with SCENT's
+              exceptional beard styling services! Unleash your style and uncover
+              the closest haven for beard grooming near you to revolutionize
+              your appearance right now!
+            </p>
+          </div>
+        </div>
+        {/* <InnerServiceTxt
           head="BEARD STYLING SERVICES IN BANGALORE"
           para="Experience the artistry of flawless grooming with SCENT's exceptional beard styling services! Unleash your style and uncover the closest haven for beard grooming near you to revolutionize your appearance right now!"
-        />
+        /> */}
         <BeardStyleFaq />
       </div>
       <Members />

@@ -113,11 +113,7 @@
     color: white;
     margin-left: 10px;
   }
-  .innerCardGoto:hover {
-    border: solid;
-    color: var(--customRed);
-    background-color: white;
-  }
+
 }
 @media screen and (min-width: 768px) {
   .innerCardContainer {

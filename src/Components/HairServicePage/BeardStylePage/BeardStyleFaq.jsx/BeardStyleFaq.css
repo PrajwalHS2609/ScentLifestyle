@@ -33,7 +33,7 @@
       margin-top:10%;
     }
     .beardStyleFaqContainer > h2 {
-      text-align: center;
+      text-align: justify;
       font-size: 120%;
     }
     .beardStyleFaqContainer > ul {
@@ -43,13 +43,13 @@
     .beardStyleFaqContainer > ul > li {
       margin: 10%;
       list-style: none;
-      font-size: 120%;
+      font-size: 20px;
     }
     .beardStyleFaqContainer > ul > li > span {
       color: #cc2228;
     }
     .beardStyleFaqContainer > ul > li > p {
-      font-size: 90%;
+      font-size: 90%;text-align: justify;
     }
   }
   @media screen and (min-width: 728px) {

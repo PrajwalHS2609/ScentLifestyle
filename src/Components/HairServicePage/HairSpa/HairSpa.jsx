@@ -21,31 +21,26 @@ const HairSpa = () => {
     <div className="hairSpaContainer">
       <Helmet>
         <meta charSet="utf-8" />
-        <title>
-        Hair Spa in Bangalore | Hair Spa Salon Near Me
-        </title>
+        <title>Hair Spa in Bangalore | Hair Spa Salon Near Me</title>
         <meta
           name="description"
           content="SCENT Hair Spa in Bangalore. Select from a variety of hair spa treatments tailored to your hair type and needs at a SCENT  near you."
         />
-        <link
-          rel="canonical"
-          href="https://scentlifestyle.com/hair-spa"
-        />
+        <link rel="canonical" href="https://scentlifestyle.com/hair-spa" />
       </Helmet>
       <NavBg />
-      <HairSpaImg/>
+      <HairSpaImg />
       <InnerNavi
-          link={"/hair-salon"}
-          service="Hair Service"
-          currService="Hair Spa"
-        />
+        link={"/hair-salon"}
+        service="Hair Service"
+        currService="Hair Spa"
+      />
       <div className="hairSpaContent">
         <InnerServiceTxt
           head="HAIR SPA SERVICES"
           para="Select from a variety of hair spa treatments tailored to your hair type and needs at a SCENT  near you. These treatments can be customized to address various hair concerns, including oiliness, frizz, dryness, and an itchy scalp. Indulge in an intense hair spa to relax and rejuvenate your scalp and tresses with our Olaplex treatment, specially designed for chemically treated hair. It helps prevent breakage, reverse damage, and promote healthier hair."
         />
-        
+
         <div className="hairSpaCardContainer">
           <InnerCard
             head="CHELATING OLAPLEX BROAD SPECTRUM HAIR INSURANCE TREATMENT"
@@ -116,10 +111,22 @@ const HairSpa = () => {
             para="Our specialized treatment is dedicated to perfectly straightening and smoothing your fringe or bangs, beautifully framing your face."
           />
         </div>
-        <InnerServiceTxt
+        <div className="innerServiceTxtContainer">
+          <div className="innerServiceTxtHeadContainer">
+            <h1>HAIR SPA SERVICES IN BANGALORE</h1>
+            <div className="innerServiceTxtUnderline"></div>
+          </div>
+          <div className="innerServiceTxtParaContainer">
+            <p>
+              SCENT is your friendly neighborhood salon. Enjoy a safe salon
+              experience at any of our 6 outlets across Bengaluru city.
+            </p>
+          </div>
+        </div>
+        {/* <InnerServiceTxt
           head="HAIR SPA SERVICES IN BANGALORE"
           para="SCENT is your friendly neighborhood salon. Enjoy a safe salon experience at any of our 6 outlets across Bengaluru city."
-        />
+        /> */}
         <HairSpaFaq />
       </div>
       <Members />
@@ -129,7 +136,7 @@ const HairSpa = () => {
       <HelpNearYou />
       <TextLocReviews />
       <ServiceWhy />
-      <WhatsApp/>
+      <WhatsApp />
       <LastComp />
     </div>
   );

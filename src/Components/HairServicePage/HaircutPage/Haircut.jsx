@@ -113,10 +113,30 @@ const Haircut = () => {
             para="Whether it's a special event or just another day, get the perfect up-do to complement your dressed-up look"
           />
         </div>
-        <InnerServiceTxt
+        <div className="innerServiceTxtContainer">
+          <div className="innerServiceTxtHeadContainer">
+            <h1>SCENT HAIRCUT & STYLING SALON IN BANGALORE</h1>
+            <div className="innerServiceTxtUnderline"></div>
+          </div>
+          <div className="innerServiceTxtParaContainer">
+            <p>
+              Welcome to SCENT Haircut & Styling Salon in Bangalore, where we
+              bring your hair dreams to life! Our salon offers a unique
+              experience tailored to your individual style and preferences. From
+              trendy haircuts to professional styling, our skilled team of
+              stylists is dedicated to providing you with the perfect look.
+              Whether you're looking for a sleek and sophisticated style or
+              something bold and daring, we have the expertise to make it
+              happen. Step into our salon and let us pamper you with top-notch
+              services, luxurious treatments, and a warm, welcoming atmosphere.
+              Experience the difference at SCENT Haircut & Styling Salon today!
+            </p>
+          </div>
+        </div>
+        {/* <InnerServiceTxt
           head="SCENT HAIRCUT & STYLING SALON IN BANGALORE"
           para="Welcome to SCENT Haircut & Styling Salon in Bangalore, where we bring your hair dreams to life! Our salon offers a unique experience tailored to your individual style and preferences. From trendy haircuts to professional styling, our skilled team of stylists is dedicated to providing you with the perfect look. Whether you're looking for a sleek and sophisticated style or something bold and daring, we have the expertise to make it happen. Step into our salon and let us pamper you with top-notch services, luxurious treatments, and a warm, welcoming atmosphere. Experience the difference at SCENT Haircut & Styling Salon today!"
-        />
+        /> */}
         <HaircutFaq />
       </div>
       <Members />

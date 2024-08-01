@@ -116,10 +116,27 @@ const HairTreatment = () => {
             para="Our specialized treatment is dedicated to perfectly straightening and smoothing your fringe or bangs, beautifully framing your face."
           />
         </div>
-        <InnerServiceTxt
+        <div className="innerServiceTxtContainer">
+          <div className="innerServiceTxtHeadContainer">
+            <h1>
+              Your Hair with SCENT's Expert Protein Treatments In Bangalore
+            </h1>
+            <div className="innerServiceTxtUnderline"></div>
+          </div>
+          <div className="innerServiceTxtParaContainer">
+            <p>
+              Are you looking to boost your hair's strength, elasticity, and
+              shine? At SCENT , we're specialists in protein treatments, having
+              successfully performed over 5,000 treatments in Bangalore. We use
+              only the highest quality products and techniques, ensuring you
+              won't find a better price or service anywhere in the city.
+            </p>
+          </div>
+        </div>
+        {/* <InnerServiceTxt
           head="Your Hair with SCENT's Expert Protein Treatments"
           para="Are you looking to boost your hair's strength, elasticity, and shine? At SCENT , we're specialists in protein treatments, having successfully performed over 5,000 treatments in Bangalore. We use only the highest quality products and techniques, ensuring you won't find a better price or service anywhere in the city."
-        />
+        /> */}
         <HairTreatmentFaq />
       </div>
       <Members />

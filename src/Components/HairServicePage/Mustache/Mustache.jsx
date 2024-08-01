@@ -36,7 +36,7 @@ const Mustache = () => {
       <NavBg />
       <MustacheImg />
       <InnerNavi
-        link={"/mustache-styling"}
+        link={"/hair-salon"}
         service="Hair Service"
         currService="Mustache Styling"
       />
@@ -72,11 +72,25 @@ const Mustache = () => {
             para="Spoil yourself with a deluxe beard spa session for a rejuvenating experience filled with treatments that boost hair health and soothe the skin."
           />
         </div>
-        <InnerServiceTxt
+        <div className="innerServiceTxtContainer">
+          <div className="innerServiceTxtHeadContainer">
+            <h1>Mustache Styling in Bangalore at SCENT</h1>
+            <div className="innerServiceTxtUnderline"></div>
+          </div>
+          <div className="innerServiceTxtParaContainer">
+            <p>
+              Elevate Your Look with Expert Mustache Styling At SCENT , we
+              understand that a well-groomed mustache can make a powerful
+              statement. Our mustache styling services in Bangalore are designed
+              to help you achieve the perfect look that complements your
+              personality and style.
+            </p>
+          </div>
+        </div>
+        {/* <InnerServiceTxt
           head="Mustache Styling in Bangalore at SCENT "
-          para="Elevate Your Look with Expert Mustache Styling
-At SCENT , we understand that a well-groomed mustache can make a powerful statement. Our mustache styling services in Bangalore are designed to help you achieve the perfect look that complements your personality and style."
-        />
+          para="Elevate Your Look with Expert Mustache Styling At SCENT , we understand that a well-groomed mustache can make a powerful statement. Our mustache styling services in Bangalore are designed to help you achieve the perfect look that complements your personality and style."
+        /> */}
         <MustacheFaq />
       </div>
       <Members />

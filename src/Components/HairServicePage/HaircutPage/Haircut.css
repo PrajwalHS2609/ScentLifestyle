@@ -22,6 +22,7 @@
     align-items: center;
     flex-direction: column;
     gap: 50%;
+    width: 100%;
   }
   .haircutCardContainer {
     /* border: solid; */

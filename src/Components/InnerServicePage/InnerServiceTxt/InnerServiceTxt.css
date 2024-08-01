@@ -12,7 +12,6 @@
 }
 .innerServiceTxtHeadContainer {
   /* border: solid; */
-  height: 70px;
   width: 90%;
   display: flex;
   justify-content: space-evenly;
@@ -20,8 +19,15 @@
   flex-direction: column;
   color: var(--customRed);
 }
+.innerServiceTxtHeadContainer > h1 {
+  /* border: solid; */
+  font-size: 30px;
+  text-align: center;
+  color: var(--customRed);
+}
 .innerServiceTxtHeadContainer > h2 {
-  font-size: 40px;
+  /* border: solid; */
+  font-size: 30px;
   text-align: center;
   color: var(--customRed);
 }
@@ -63,9 +69,17 @@
     flex-direction: column;
     color: var(--customRed);
   }
-  .innerServiceTxtHeadContainer > h2 {
+  .innerServiceTxtHeadContainer > h1 {
+    /* border: solid; */
     font-size: 30px;
-    text-align: justify;
+    text-align: center;
+    color: var(--customRed);
+  }
+
+  .innerServiceTxtHeadContainer > h2 {
+    /* border: solid; */
+    font-size: 30px;
+    text-align: center;
     color: var(--customRed);
   }
   .innerServiceTxtUnderline {
@@ -81,7 +95,7 @@
   }
   .innerServiceTxtParaContainer > p {
     /* border: solid blue; */
-    text-align: center;
+    text-align: justify;
     width: 90%;
     font-size: 20px;
   }

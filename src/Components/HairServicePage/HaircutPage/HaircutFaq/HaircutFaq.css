@@ -15,6 +15,7 @@
   margin: 2%;
   list-style: none;
   font-size: 120%;
+  text-align: justify;
 }
 .haircutFaqContainer > ul > li > span {
   color: #cc2228;
@@ -30,7 +31,7 @@
     align-items: center;
     flex-direction: column;
     gap: 20px;
-    margin-top:10%;
+    margin-top: 10%;
   }
   .haircutFaqContainer > h2 {
     text-align: center;
@@ -53,59 +54,59 @@
   }
 }
 @media screen and (min-width: 728px) {
-    .haircutFaqContainer {
-      /* border: solid; */
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      gap: 20px;
-      margin-top: 5%;
-    }
-    .haircutFaqContainer > ul {
-      /* border: solid; */
-      width: 90%;
-    }
-    .haircutFaqContainer > ul > li {
-      margin: 2%;
-      list-style: none;
-      font-size: 120%;
-    }
-    .haircutFaqContainer > ul > li > span {
-      color: #cc2228;
-    }
-    .haircutFaqContainer > ul > li > p {
-      font-size: 90%;
-    }
+  .haircutFaqContainer {
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 5%;
   }
-  
+  .haircutFaqContainer > ul {
+    /* border: solid; */
+    width: 90%;
+  }
+  .haircutFaqContainer > ul > li {
+    margin: 2%;
+    list-style: none;
+    font-size: 120%;
+  }
+  .haircutFaqContainer > ul > li > span {
+    color: #cc2228;
+  }
+  .haircutFaqContainer > ul > li > p {
+    font-size: 90%;
+  }
+}
+
 @media screen and (min-width: 990px) {
-    .haircutFaqContainer {
-      /* border: solid; */
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      gap: 20px;
-      margin-top: 5%;
-    }
-    .haircutFaqContainer > ul {
-      /* border: solid; */
-      width: 90%;
-    }
-    .haircutFaqContainer > ul > li {
-      margin: 2%;
-      list-style: none;
-      font-size: 120%;
-    }
-    .haircutFaqContainer > ul > li > span {
-      color: #cc2228;
-    }
-    .haircutFaqContainer > ul > li > p {
-      font-size: 90%;
-    }
+  .haircutFaqContainer {
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 5%;
   }
-  
+  .haircutFaqContainer > ul {
+    /* border: solid; */
+    width: 90%;
+  }
+  .haircutFaqContainer > ul > li {
+    margin: 2%;
+    list-style: none;
+    font-size: 120%;
+  }
+  .haircutFaqContainer > ul > li > span {
+    color: #cc2228;
+  }
+  .haircutFaqContainer > ul > li > p {
+    font-size: 90%;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .haircutFaqContainer {
     /* border: solid; */
