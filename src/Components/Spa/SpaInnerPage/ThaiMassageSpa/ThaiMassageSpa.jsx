@@ -1,7 +1,6 @@
 import React from "react";
 import ThaiMassageSpaHead from "./ThaiMassageSpaHead";
 import ThaiReflexoSpaBenefits from "../ThaiReflexoSpa/ThaiReflexoSpaBenefits";
-import ThaiReflexoSpaWhy from "../ThaiReflexoSpa/ThaiReflexoSpaWhy";
 import InnerNavi from "../../../InnerServicePage/InnerNavi/InnerNavi";
 import { Helmet } from "react-helmet";
 import Members from "../../../HomePage/Members/Members";
@@ -20,6 +19,7 @@ import ThaiMassageSpaOffering from "./ThaiMassageSpaOffering";
 import ThaiMassageSpaWellness from "./ThaiMassageSpaWellness";
 import ThaiMassageSpaCustomer from "./ThaiMassageSpaCustomer";
 import ThaiMassageSpaBook from "./ThaiMassageSpaBook";
+import ThaiMassageSpaImgs from "./ThaiMassageSpaImgs";
 
 const ThaiMassageSpa = () => {
   return (
@@ -39,15 +39,15 @@ const ThaiMassageSpa = () => {
         />
       </Helmet>
       <NavBg />
-      {/* <FaceImg /> */}
+      <ThaiMassageSpaImgs />
       <InnerNavi link="/spa" service="Spa" currService="Thai Massage" />
       <ThaiMassageSpaHead />
-      <ThaiMassageSpaXp/>
+      <ThaiMassageSpaXp />
       <ThaiReflexoSpaBenefits />
-      <ThaiMassageSpaOffering/>
-      <ThaiMassageSpaWellness/>
-      <ThaiMassageSpaCustomer/>
-      <ThaiMassageSpaBook/>
+      <ThaiMassageSpaOffering />
+      <ThaiMassageSpaWellness />
+      <ThaiMassageSpaCustomer />
+      <ThaiMassageSpaBook />
       <Members />
       <OurSalon />
       <Partners />

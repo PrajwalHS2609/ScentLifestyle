@@ -1,5 +1,4 @@
 import React from "react";
-import Navi1 from "./Navi1/Navi1";
 import HairServiceCardContain from "./HairServiceCard/HairServiceCardContain";
 import HairSalon from "./HairSalon/HairSalon";
 import LastComp from "../LastComp/LastComp";
@@ -15,6 +14,7 @@ import { Helmet } from "react-helmet";
 import NavBg from "../NavBg/NavBg";
 import TextLocReviews from "../TextLocReviews/TextLocReviews";
 import WhatsApp from "../HomePage/WhatsApp/WhatsApp";
+import ServBreadCrumb from "../InnerServicePage/InnerNavi/ServBreadCrumb";
 const HairServicePage = () => {
   return (
     <div className="hairMain">
@@ -29,7 +29,7 @@ const HairServicePage = () => {
       </Helmet>
       <NavBg />
       <HairServiceImg />
-      <Navi1 servName="Hair Service"/>
+<ServBreadCrumb currService="Hair Salon"/>
       <HairServiceCardContain />
       <HairSalon />
       <Members />

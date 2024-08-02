@@ -1,9 +1,9 @@
 import React from 'react'
-
+import bodyScrubImg from "./../../../../Images/SpaInnerPage/Body Scrub.png";
 const BodyScrubSpaImg = () => {
   return (
     <div className="headSpaImgContainer">
-    <img src={""} alt="headSpaImg" />
+    <img src={bodyScrubImg} alt="bodyScrubImg" />
   </div>
   )
 }

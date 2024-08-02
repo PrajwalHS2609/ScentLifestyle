@@ -18,6 +18,7 @@ import LegsDetan from "./LegsDetan";
 import LegsThreading from "./LegsThreading";
 import LegsBest from "./LegsBest";
 import LegsCustomer from "./LegsCustomer";
+import LegsImg from "./LegsImg";
 
 const LegsPage = () => {
   return (
@@ -36,7 +37,7 @@ const LegsPage = () => {
         />
       </Helmet>
       <NavBg />
-      {/* <FaceImg /> */}
+      <LegsImg />
       <InnerNavi
         link="/beauty-essentials"
         service="Beauty Essentials"

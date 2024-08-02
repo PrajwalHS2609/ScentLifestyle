@@ -12,11 +12,11 @@ import LastComp from "../../LastComp/LastComp";
 import JpLocMap from "./JpLocMap/JpLocMap";
 import "./Jp.css";
 import loc6 from "./../../../Images/JP Nagar.jpg";
-import LocationNavi from "./../LocationNavi/LocationNavi";
 import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 import JpLocAbout from "./JpLocAbout/JpLocAbout";
 import { Helmet } from "react-helmet";
 import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
+import ServBreadCrumb from "../../InnerServicePage/InnerNavi/ServBreadCrumb";
 const Jp = () => {
   return (
     <div className="jpLocPageContainer">
@@ -36,7 +36,7 @@ const Jp = () => {
       </Helmet>
       <LocationNavBg />
       <LocationImg img={loc6} />
-      <LocationNavi loc="J P Nagar" />
+      <ServBreadCrumb currService="JP Nagar" />
       <LocationArrow
         leftLink={"/salon-in-whitefield"}
         rightLink={"/salon-in-sahakar-nagar"}

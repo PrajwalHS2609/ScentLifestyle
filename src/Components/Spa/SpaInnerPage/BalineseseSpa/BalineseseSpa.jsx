@@ -18,6 +18,7 @@ import BalineseseSpaXp from "./BalineseseSpaXp";
 import BalineseseSpaCustomer from "./BalineseseSpaCustomer";
 import BalineseseSpaBook from "./BalineseseSpaBook";
 import NavBg from './../../../NavBg/NavBg';
+import BalineseseSpaImg from './BalineseseSpaImg';
 
 const BalineseseSpa = () => {
   return (
@@ -37,7 +38,7 @@ const BalineseseSpa = () => {
         />
       </Helmet>
       <NavBg />
-      {/* <FaceImg /> */}
+      <BalineseseSpaImg/>
       <InnerNavi link="/spa" service="Spa" currService="Balinesese Massage" />
       <BalineseseSpaHead />
       <BalineseseSpaXp />

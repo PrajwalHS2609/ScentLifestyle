@@ -18,6 +18,7 @@ import NavBg from "../../../NavBg/NavBg";
 import StoneSpaXp from "./StoneSpaXp";
 import StoneSpaCustomer from "./StoneSpaCustomer";
 import StoneSpaBook from "./StoneSpaBook";
+import StoneSpaImg from "./StoneSpaImg";
 const StoneSpa = () => {
   return (
     <div>
@@ -37,7 +38,7 @@ const StoneSpa = () => {
         />
       </Helmet>
       <NavBg />
-      {/* <FaceImg /> */}
+      <StoneSpaImg/>
       <InnerNavi link="/spa" service="Spa" currService="Stone Therapy" />
       <StoneSpaHead />
       <StoneSpaXp />

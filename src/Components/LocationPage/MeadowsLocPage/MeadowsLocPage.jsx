@@ -12,12 +12,12 @@ import Partners from "../../HomePage/Partners/Partners";
 import InstaFeed from "../../HomePage/InstaFeed/InstaFeed";
 import MeadowsLocMap from "./MeadowsLocMap/MeadowsLocMap";
 import "./MeadowsLocPage.css";
-import LocationNavi from "../LocationNavi/LocationNavi";
 import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 import MeadowsLocAbout from "./MeadowsLocAbout/MeadowsLocAbout";
 import { Helmet } from "react-helmet";
 import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
 import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
+import ServBreadCrumb from "../../InnerServicePage/InnerNavi/ServBreadCrumb";
 const MeadowsLocPage = () => {
   return (
     <div className="meadowsLocPageContainer">
@@ -37,7 +37,7 @@ const MeadowsLocPage = () => {
       </Helmet>
       <LocationNavBg />
       <LocationImg img={loc5} />
-      <LocationNavi loc="Palm Meadows Whitefield" />
+      <ServBreadCrumb currService="Meadows" />
 
       <LocationArrow
         leftLink={"/salon-in-uptown-whitefield"}

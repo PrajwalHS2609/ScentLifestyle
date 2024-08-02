@@ -20,6 +20,7 @@ import DeepSpaOffering from "./DeepSpaOffering";
 import DeepSpaWellness from "./DeepSpaWellness";
 import DeepSpaCustomer from "./DeepSpaCustomer";
 import DeepSpaBook from "./DeepSpaBook";
+import DeepSpaImg from './DeepSpaImg';
 const DeepSpa = () => {
   return (
     <div>
@@ -39,7 +40,7 @@ const DeepSpa = () => {
         />
       </Helmet>
       <NavBg />
-      {/* <FaceImg /> */}
+      <DeepSpaImg />
       <InnerNavi link="/spa" service="Spa" currService="Deep Tissue Massage" />
       <DeepSpaHead />
       <DeepSpaXp />

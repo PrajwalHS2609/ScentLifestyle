@@ -15,6 +15,7 @@ import WhatsApp from "../../../HomePage/WhatsApp/WhatsApp";
 import LastComp from "../../../LastComp/LastComp";
 import HeadSpaProcess from "./HeadSpaProcess";
 import HeadSpaBenefits from "./HeadSpaBenefits/HeadSpaBenefits";
+import HeadSpaImg from "./HeadSpaImg/HeadSpaImg";
 
 const HeadSpa = () => {
   return (
@@ -32,7 +33,7 @@ const HeadSpa = () => {
         />
       </Helmet>
       <NavBg />
-      {/* <FaceImg /> */}
+      <HeadSpaImg />
       <InnerNavi link="/spa" service="Spa" currService="Head Massage" />
       <HeadSpaHead />
       <HeadSpaBenefits />

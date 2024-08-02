@@ -18,6 +18,7 @@ import ArmsWaxing from "./ArmsWaxing";
 import ArmsDetan from "./ArmsDetan";
 import ArmsBenefits from "./ArmsBenefits";
 import ArmsThreading from "./ArmsThreading";
+import ArmsImg from "./ArmsImg";
 
 const ArmsPage = () => {
   return (
@@ -37,7 +38,7 @@ const ArmsPage = () => {
         />
       </Helmet>
       <NavBg />
-      {/* <FaceImg /> */}
+      <ArmsImg />
       <InnerNavi
         link="/beauty-essentials"
         service="Beauty Essentials"

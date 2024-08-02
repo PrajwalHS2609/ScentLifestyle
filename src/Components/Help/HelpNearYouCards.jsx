@@ -1,6 +1,7 @@
 import React from "react";
 import HelpCard from "./HelpCard";
-import "./HelpNearYou.css";
+// import "./HelpNearYou.css";
+import "./HelpNearYou1.css";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -116,7 +117,12 @@ const HelpNearYouCards = () => {
           no="9686221700"
           link="/salon-in-whitefield"
         />
-        <HelpCard city="JP Nagar" image={jp} no="88612 22700" link="/salon-in-jpnagar" />
+        <HelpCard
+          city="JP Nagar"
+          image={jp}
+          no="88612 22700"
+          link="/salon-in-jpnagar"
+        />
       </div>
 
       <div className="respHelpNearYouCardContainer">
@@ -152,7 +158,12 @@ const HelpNearYouCards = () => {
             no="9686221700"
             link="/salon-in-whitefield"
           />
-          <HelpCard city="JP Nagar" image={jp} no="8861222700" link="/salon-in-jpnagar" />
+          <HelpCard
+            city="JP Nagar"
+            image={jp}
+            no="8861222700"
+            link="/salon-in-jpnagar"
+          />
         </Slider>
       </div>
     </>

@@ -1,9 +1,9 @@
 import React from "react";
-
+import armsImg from "./../../../../Images/BeautyInnerPages/Arms.png"
 const ArmsImg = () => {
   return (
     <div className="faceImgContainer">
-      <img src={""} alt="faceImg" />
+      <img src={armsImg} alt="armsImg" />
     </div>
   );
 };

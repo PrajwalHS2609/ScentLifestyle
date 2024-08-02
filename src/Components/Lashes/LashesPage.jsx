@@ -5,7 +5,6 @@ import HelpNearYou from "../Help/HelpNearYou";
 import Members from "./../HomePage/Members/Members";
 import OurSalon from "./../HomePage/OurSalon/OurSalon";
 import LashesServiceCardContain from "./LashesServiceCard/LashesServiceCardContain";
-import Navi6 from "./Navi6/Navi6";
 import ServiceWhy from "../MainServicePages/ServiceWhy/ServiceWhy";
 import LashesRead from "./LashesRead/LashesRead";
 import Partners from "../HomePage/Partners/Partners";
@@ -14,6 +13,7 @@ import { Helmet } from "react-helmet";
 import NavBg from "../NavBg/NavBg";
 import TextLocReviews from "../TextLocReviews/TextLocReviews";
 import WhatsApp from "../HomePage/WhatsApp/WhatsApp";
+import ServBreadCrumb from "../InnerServicePage/InnerNavi/ServBreadCrumb";
 
 const LashesPage = () => {
   return (
@@ -34,7 +34,7 @@ const LashesPage = () => {
       </Helmet>
       <NavBg/>
       <LashesImg />
-      <Navi6 />
+      <ServBreadCrumb currService="Eye Lashes" />
       <LashesServiceCardContain />
       <Members />
       <OurSalon />

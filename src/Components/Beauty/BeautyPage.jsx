@@ -5,7 +5,6 @@ import OurSalon from "./../HomePage/OurSalon/OurSalon";
 import HelpNearYou from "../Help/HelpNearYou";
 import LastComp from "../LastComp/LastComp";
 import BeautyServiceCardContain from "./BeautyServiceCards/BeautyServiceCardContain";
-import Navi4 from "./Navi4/Navi4";
 import ServiceWhy from "../MainServicePages/ServiceWhy/ServiceWhy";
 import BeautyRead from "./BeautyRead/BeautyRead";
 import Partners from "../HomePage/Partners/Partners";
@@ -14,6 +13,7 @@ import { Helmet } from "react-helmet";
 import NavBg from "../NavBg/NavBg";
 import TextLocReviews from "../TextLocReviews/TextLocReviews";
 import WhatsApp from "../HomePage/WhatsApp/WhatsApp";
+import ServBreadCrumb from "../InnerServicePage/InnerNavi/ServBreadCrumb";
 
 const BeautyPage = () => {
   return (
@@ -21,20 +21,20 @@ const BeautyPage = () => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>
-        Waxing & Threading in Bangalore | Body D-Tan Service Near Me
+          Waxing & Threading in Bangalore | Body D-Tan Service Near Me
         </title>
         <meta
           name="description"
           content="Discover SCENT’s exclusive Bikini & Brazilian waxing, luxurious detanning treatments, and anti-aging regimens. Book today for ultimate pampering and radiant skin."
         />
-         <link
+        <link
           rel="canonical"
           href="https://scentlifestyle.com/beauty-essentials"
         />
       </Helmet>
       <NavBg />
       <BeautyImg />
-      <Navi4 />
+      <ServBreadCrumb currService="Beauty Essentials" />
       <BeautyServiceCardContain />
       <Members />
       <OurSalon />
@@ -44,7 +44,7 @@ const BeautyPage = () => {
       <TextLocReviews />
       <ServiceWhy />
       <BeautyRead />
-      <WhatsApp/>
+      <WhatsApp />
       <LastComp />
     </div>
   );

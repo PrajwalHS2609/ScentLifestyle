@@ -13,7 +13,6 @@ import BeautyRead from "../../../Beauty/BeautyRead/BeautyRead";
 import WhatsApp from "../../../HomePage/WhatsApp/WhatsApp";
 import LastComp from "../../../LastComp/LastComp";
 import BackSpaHead from "./BackSpaHead";
-import BackSpaWhy from "./BackSpaWhy";
 import BackBenefits from "./../../../Beauty/BeautyInnerPages/BackPage/BackBenefits";
 import NavBg from "../../../NavBg/NavBg";
 import BackSpaXp from "./BackSpaXp";
@@ -21,6 +20,7 @@ import BackSpaOffering from "./BackSpaOffering";
 import BackSpaWellness from "./BackSpaWellness";
 import BackSpaCustomer from './BackSpaCustomer';
 import BackSpaBook from "./BackSpaBook";
+import BackSpaImg from './BackSpaImg';
 
 const BackSpa = () => {
   return (
@@ -40,7 +40,7 @@ const BackSpa = () => {
         />
       </Helmet>
       <NavBg />
-      {/* <FaceImg /> */}
+      <BackSpaImg />
       <InnerNavi link="/spa" service="Spa" currService="Back Massage" />
       <BackSpaHead />
       <BackSpaXp/>

@@ -1,7 +1,6 @@
 import React from "react";
 import FacialImg from "./FacialImg/FacialImg";
 import FacialServiceCardContain from "./FacialCards/FacialServiceCardContain.jsx";
-import Navi3 from "./Navi3/Navi3.jsx";
 import Members from "./../HomePage/Members/Members";
 import OurSalon from "./../HomePage/OurSalon/OurSalon";
 import HelpNearYou from "../Help/HelpNearYou.jsx";
@@ -14,6 +13,7 @@ import { Helmet } from "react-helmet";
 import NavBg from "../NavBg/NavBg.jsx";
 import TextLocReviews from "../TextLocReviews/TextLocReviews.jsx";
 import WhatsApp from "../HomePage/WhatsApp/WhatsApp.jsx";
+import ServBreadCrumb from "../InnerServicePage/InnerNavi/ServBreadCrumb.jsx";
 const FacialPage = () => {
   return (
     <div>
@@ -33,7 +33,7 @@ const FacialPage = () => {
       </Helmet>
       <NavBg />
       <FacialImg />
-      <Navi3 />
+      <ServBreadCrumb currService="Facial" />
       <FacialServiceCardContain />
       <Members />
       <OurSalon />

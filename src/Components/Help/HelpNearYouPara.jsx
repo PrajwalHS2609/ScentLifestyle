@@ -1,5 +1,6 @@
 import React from "react";
-import "./HelpNearYou.css";
+// import "./HelpNearYou.css";
+import "./HelpNearYou1.css";
 
 const HelpNearYouPara = () => {
   return (

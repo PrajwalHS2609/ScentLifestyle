@@ -18,6 +18,7 @@ import ThaiReflexoSpaWellness from "./ThaiReflexoSpaWellness";
 import ThaiReflexoSpaCustomer from "./ThaiReflexoSpaCustomer";
 import ThaiReflexoSpaBook from './ThaiReflexoSpaBook';
 import NavBg from "../../../NavBg/NavBg";
+import ThaiReflexoSpaImg from './ThaiReflexoSpaImg';
 const ThaiReflexoSpa = () => {
   return (
     <div>
@@ -37,7 +38,7 @@ const ThaiReflexoSpa = () => {
         />
       </Helmet>
       <NavBg />
-      {/* <FaceImg /> */}
+      <ThaiReflexoSpaImg />
       <InnerNavi link="/spa" service="Spa" currService="Thai Reflexology" />
       <ThaiReflexoSpaHead />
       <ThaiReflexoSpaBenefits />

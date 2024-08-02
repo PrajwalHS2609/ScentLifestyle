@@ -9,12 +9,12 @@ import HelpNearYou from "../Help/HelpNearYou";
 import TextLocReviews from "../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../MainServicePages/ServiceWhy/ServiceWhy";
 import LastComp from "../LastComp/LastComp";
-import Navi1 from "../HairServicePage/Navi1/Navi1";
 import MicroBladingReadMore from "./MicroBladingReadMore/MicroBladingReadMore";
 import { Helmet } from "react-helmet";
 import MicroBladingContent from "./MicroBladingReadMore/MicroBladingContent/MicroBladingContent";
 import WhatsApp from "../HomePage/WhatsApp/WhatsApp";
 import MicroBladingCompare from "./MicroBladingCompare/MicroBladingCompare";
+import ServBreadCrumb from "../InnerServicePage/InnerNavi/ServBreadCrumb";
 
 const MicroBladingPage = () => {
   return (
@@ -33,7 +33,7 @@ const MicroBladingPage = () => {
       </Helmet>
       <NavBg />
       <MicroBladingImg />
-      <Navi1 servName="MicroBlading" />
+      <ServBreadCrumb currService="Micro Blading" />
       <MicroBladingContent />
       <MicroBladingCompare/>
       <Members />

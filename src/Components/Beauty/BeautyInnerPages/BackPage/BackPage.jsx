@@ -19,6 +19,7 @@ import BackWhat from "./BackWhat";
 import BackWhy from "./BackWhy";
 import BackBenefits from "./BackBenefits";
 import BackAftercare from "./BackAftercare";
+import BackImg from './BackImg';
 
 const BackPage = () => {
   return (
@@ -39,7 +40,7 @@ const BackPage = () => {
         />
       </Helmet>
       <NavBg />
-      {/* <FaceImg /> */}
+      <BackImg/>
       <InnerNavi
         link="/beauty-essentials"
         service="Beauty Essentials"

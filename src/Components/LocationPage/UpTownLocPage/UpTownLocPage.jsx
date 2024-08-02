@@ -12,12 +12,12 @@ import OurSalon from "../../HomePage/OurSalon/OurSalon";
 import Partners from "../../HomePage/Partners/Partners";
 import InstaFeed from "../../HomePage/InstaFeed/InstaFeed";
 import UptownLocMap from "./UptownLocMap/UptownLocMap";
-import LocationNavi from "../LocationNavi/LocationNavi";
 import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 import UpTownLocAbout from "./UpTownLocAbout/UpTownLocAbout";
 import { Helmet } from "react-helmet";
 import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
 import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
+import ServBreadCrumb from "../../InnerServicePage/InnerNavi/ServBreadCrumb";
 const UpTownLocPage = () => {
   return (
     <div className="uptownLocPageContainer">
@@ -38,7 +38,7 @@ const UpTownLocPage = () => {
       </Helmet>
       <LocationNavBg />
       <LocationImg img={loc4} />
-      <LocationNavi loc="UpTown Square" />
+      <ServBreadCrumb currService="UpTown" />
       <LocationArrow
         leftLink={"/salon-in-jakkur"}
         rightLink={"/salon-in-whitefield"}

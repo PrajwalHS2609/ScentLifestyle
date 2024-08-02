@@ -1,9 +1,10 @@
 import React from 'react'
+import thaiSpa from "./../../../../Images/SpaInnerPage/Thai Massage.png";
 
 const ThaiMassageSpaImgs = () => {
   return (
     <div className="headSpaImgContainer">
-      <img src={""} alt="headSpaImg" />
+      <img src={thaiSpa} alt="headSpaImg" />
     </div>
   )
 }

@@ -69,7 +69,7 @@
 h2,
 h3,
 h4 {
-  color: #cc2228;
+  color: white;
 }
 @media screen and (min-width: 320px) {
   .locationHeadContainer {

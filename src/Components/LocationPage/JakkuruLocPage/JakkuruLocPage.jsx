@@ -12,12 +12,12 @@ import OurSalon from "../../HomePage/OurSalon/OurSalon";
 import Partners from "../../HomePage/Partners/Partners";
 import InstaFeed from "../../HomePage/InstaFeed/InstaFeed";
 import ServiceCardContain from "../../MainServicePages/ServiceCards/ServiceCardContain";
-import LocationNavi from "./../LocationNavi/LocationNavi";
 import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 import JakkuruLocAbout from "./JakkuruLocAbout/JakkuruLocAbout";
 import { Helmet } from "react-helmet";
 import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
 import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
+import ServBreadCrumb from "../../InnerServicePage/InnerNavi/ServBreadCrumb";
 const JakkuruLocPage = () => {
   return (
     <div className="jakkuruLocPageContainer">
@@ -37,7 +37,7 @@ const JakkuruLocPage = () => {
       </Helmet>
       <LocationNavBg />
       <LocationImg img={loc3} />
-      <LocationNavi loc="Jakkur" />
+<ServBreadCrumb currService="Jakkur" />
       <LocationArrow
         leftLink={"/salon-in-lavelle-road"}
         rightLink={"/salon-in-uptown-whitefield"}

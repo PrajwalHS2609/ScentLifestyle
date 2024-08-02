@@ -4,7 +4,6 @@ import Members from "./../HomePage/Members/Members";
 import OurSalon from "./../HomePage/OurSalon/OurSalon";
 import HelpNearYou from "./../Help/HelpNearYou";
 import LastComp from "./../LastComp/LastComp";
-import Navi5 from "./Navi5/Navi5";
 import SpaServiceCardContain from "./SpaServiceCard/SpaServiceCardContain";
 import SpaRead from "./SpaRead/SpaRead";
 import Partners from "../HomePage/Partners/Partners";
@@ -14,6 +13,7 @@ import NavBg from "../NavBg/NavBg";
 import TextLocReviews from "./../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../MainServicePages/ServiceWhy/ServiceWhy";
 import WhatsApp from "../HomePage/WhatsApp/WhatsApp";
+import ServBreadCrumb from "../InnerServicePage/InnerNavi/ServBreadCrumb";
 
 const SpaPages = () => {
   return (
@@ -29,7 +29,7 @@ const SpaPages = () => {
       </Helmet>
       <NavBg />
       <SpaImg />
-      <Navi5 />
+      <ServBreadCrumb currService="Spa"/>
       <SpaServiceCardContain />
       <Members />
       <OurSalon />

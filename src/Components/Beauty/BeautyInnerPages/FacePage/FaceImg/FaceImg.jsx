@@ -1,9 +1,10 @@
 import React from "react";
-import "./FaceImg.css"
+import faceImg from "./../../../../../Images/BeautyInnerPages/Face.png";
+import "./FaceImg.css";
 const FaceImg = () => {
   return (
     <div className="faceImgContainer">
-      <img src={""} alt="faceImg" />
+      <img src={faceImg} alt="faceImg" />
     </div>
   );
 };

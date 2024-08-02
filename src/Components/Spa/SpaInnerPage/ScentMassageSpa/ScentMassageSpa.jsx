@@ -15,6 +15,7 @@ import ScentMassageSpaHead from "./ScentMassageSpaHead";
 import ScentMassageSpaBenefits from "./ScentMassageSpaBenefits";
 import ScentMassageSpaWhy from "./ScentMassageSpaWhy";
 import NavBg from './../../../NavBg/NavBg';
+import ScentMassageSpaImg from './ScentMassageSpaImg';
 const ScentMassageSpa = () => {
   return (
     <div>
@@ -33,7 +34,7 @@ const ScentMassageSpa = () => {
         />
       </Helmet>
       <NavBg />
-      {/* <FaceImg /> */}
+      <ScentMassageSpaImg />
       <InnerNavi
         link="/spa"
         service="Spa"

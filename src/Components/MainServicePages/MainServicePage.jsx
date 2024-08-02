@@ -1,6 +1,5 @@
 import React from "react";
 import ServicePage from "./ServicePage/ServicePage";
-import Navi from "./Navi/Navi";
 import ServiceCardContain from "./ServiceCards/ServiceCardContain";
 import UnisexSalon from "./UnisexSalon/UnisexSalon";
 import LastComp from "../LastComp/LastComp";
@@ -15,6 +14,7 @@ import { Helmet } from "react-helmet";
 import NavBg from "./../NavBg/NavBg";
 import TextLocReviews from "../TextLocReviews/TextLocReviews";
 import WhatsApp from "../HomePage/WhatsApp/WhatsApp";
+import BreadCrumb from "../InnerServicePage/InnerNavi/BreadCrumb";
 
 const MainServicePage = () => {
   return (
@@ -33,7 +33,7 @@ const MainServicePage = () => {
       </Helmet>
       <NavBg />
       <ServicePage />
-      <Navi />
+      <BreadCrumb currService="Service" />
       <ServiceCardContain />
       <UnisexSalon />
       <Members />
@@ -43,7 +43,7 @@ const MainServicePage = () => {
       <HelpNearYou />
       <TextLocReviews />
       <ServiceWhy />
-      <WhatsApp/>
+      <WhatsApp />
       <ServiceRead />
       <LastComp />
     </div>

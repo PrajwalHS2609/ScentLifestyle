@@ -1,7 +1,6 @@
 import React from "react";
 import AromaSpaHead from "./AromaSpaHead";
 import AromaSpaBenefits from "./AromaSpaBenefits";
-import AromaSpaWhy from "./AromaSpaWhy";
 import InnerNavi from "../../../InnerServicePage/InnerNavi/InnerNavi";
 import { Helmet } from "react-helmet";
 import Members from "../../../HomePage/Members/Members";
@@ -20,6 +19,7 @@ import AromaSpaOffering from "./AromaSpaOffering";
 import AromaSpaWellness from "./AromaSpaWellness";
 import AromaSpaCustomer from "./AromaSpaCustomer";
 import AromaSpaBook from "./AromaSpaBook";
+import AromaSpaImg from "./AromaSpaImg";
 
 const AromaSpa = () => {
   return (
@@ -36,7 +36,7 @@ const AromaSpa = () => {
         <link rel="canonical" href=" https://scentlifestyle.com/aroma-massage-in-bangalore" />
       </Helmet>
       <NavBg />
-      {/* <FaceImg /> */}
+      <AromaSpaImg />
       <InnerNavi link="/spa" service="Spa" currService="Aroma Massage" />
       <AromaSpaHead />
       <AromaSpaXp />

@@ -5,7 +5,6 @@ import NailServiceCardContain from "./NailService Card/NailServiceCardContain";
 import Members from "./../HomePage/Members/Members";
 import OurSalon from "./../HomePage/OurSalon/OurSalon";
 import HelpNearYou from "../Help/HelpNearYou";
-import Navi7 from "./Navi7/Navi7";
 import ServiceWhy from "./../MainServicePages/ServiceWhy/ServiceWhy";
 import NailRead from "./NailSalonRead/NailRead";
 import InstaFeed from "../HomePage/InstaFeed/InstaFeed";
@@ -14,6 +13,7 @@ import { Helmet } from "react-helmet";
 import NavBg from "./../NavBg/NavBg";
 import TextLocReviews from "../TextLocReviews/TextLocReviews";
 import WhatsApp from "../HomePage/WhatsApp/WhatsApp";
+import ServBreadCrumb from "../InnerServicePage/InnerNavi/ServBreadCrumb";
 
 const NailSalonPage = () => {
   return (
@@ -34,7 +34,7 @@ const NailSalonPage = () => {
       </Helmet>
       <NavBg />
       <NailSalonImg />
-      <Navi7 />
+      <ServBreadCrumb currService="Nail Salon"/>
       <NailServiceCardContain />
       <Members />
       <OurSalon />

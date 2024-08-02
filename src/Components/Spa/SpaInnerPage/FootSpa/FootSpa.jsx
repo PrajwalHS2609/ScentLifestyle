@@ -18,6 +18,7 @@ import NavBg from "../../../NavBg/NavBg";
 import FootSpaXp from "./FootSpaXp";
 import FootSpaWellness from "./FootSpaWellness";
 import FootSpaCustomer from "./FootSpaCustomer";
+import FootSpaImg from './FootSpaImg';
 const FootSpa = () => {
   return (
     <div>
@@ -36,7 +37,7 @@ const FootSpa = () => {
         />
       </Helmet>
       <NavBg />
-      {/* <FaceImg /> */}
+      <FootSpaImg />
       <InnerNavi link="/spa" service="Spa" currService="Foot Massage" />
       <FootSpaHead />
       <FootSpaXp/>

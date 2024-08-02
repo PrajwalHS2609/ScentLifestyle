@@ -2,7 +2,9 @@
 import HelpNearYouHead from './HelpNearYouHead'
 import HelpNearYouPara from './HelpNearYouPara'
 import HelpNearYouCards from './HelpNearYouCards'
-import './HelpNearYou.css'
+// import './HelpNearYou.css'
+import './HelpNearYou1.css'
+
 
 const HelpNearYou = () => {
   return (

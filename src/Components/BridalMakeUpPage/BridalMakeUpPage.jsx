@@ -10,11 +10,11 @@ import LastComp from "../LastComp/LastComp";
 import Partners from "../HomePage/Partners/Partners";
 import OurSalon from "../HomePage/OurSalon/OurSalon";
 import Members from "../HomePage/Members/Members";
-import Navi1 from "../HairServicePage/Navi1/Navi1";
 import BridalMakeUpServiceCard from "./BridalMakeUpServiceCard";
 import BridalMakeUpAbout from "./BridalMakeUpAbout/BridalMakeUpAbout";
 import BridalReadMore from "./BridalReadMore/BridalReadMore";
 import WhatsApp from "../HomePage/WhatsApp/WhatsApp";
+import ServBreadCrumb from "../InnerServicePage/InnerNavi/ServBreadCrumb";
 // import BridalGallery from "./BridalGallery/BridalGallery";
 
 const BridalMakeUpPage = () => {
@@ -33,7 +33,7 @@ const BridalMakeUpPage = () => {
       </Helmet>
       <NavBg />
       <BridalMakeUpImg />
-      <Navi1 servName="Bridal MakeUp" />
+      <ServBreadCrumb currService="Bridal MakeUp" />
       <BridalMakeUpServiceCard />
       <BridalMakeUpAbout />
       {/* <BridalGallery/> */}

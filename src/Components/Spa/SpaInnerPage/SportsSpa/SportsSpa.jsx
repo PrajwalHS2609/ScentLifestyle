@@ -18,6 +18,7 @@ import NavBg from "../../../NavBg/NavBg";
 import SportsSpaXp from "./SportsSpaXp";
 import SportsSpaCustomer from "./SportsSpaCustomer";
 import SportsSpaBook from "./SportsSpaBook";
+import SportsSpaImg from './SportsSpaImg';
 const SportsSpa = () => {
   return (
     <div>
@@ -37,7 +38,7 @@ const SportsSpa = () => {
         />
       </Helmet>
       <NavBg />
-      {/* <FaceImg /> */}
+      <SportsSpaImg />
       <InnerNavi link="/spa" service="Spa" currService="Sportz Massage" />
       <SportsSpaHead />
       <SportsSpaXp />

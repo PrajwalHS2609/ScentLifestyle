@@ -40,7 +40,7 @@ const FacePage = () => {
         />
       </Helmet>
       <NavBg />
-      {/* <FaceImg /> */}
+      <FaceImg />
       <InnerNavi
         link="/beauty-essentials"
         service="Beauty Essentials"

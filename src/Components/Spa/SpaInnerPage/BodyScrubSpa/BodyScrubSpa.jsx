@@ -18,6 +18,7 @@ import BodyScrubSpaBook from "./BodyScrubSpaBook";
 import BodyScrubSpaXp from "./BodyScrubSpaXp";
 import NavBg from "./../../../NavBg/NavBg";
 import BodyScrubSpaHead from "./BodyScrubSpaHead";
+import BodyScrubSpaImg from './BodyScrubSpaImg';
 
 const BodyScrubSpa = () => {
   return (
@@ -35,7 +36,7 @@ const BodyScrubSpa = () => {
         />
       </Helmet>
       <NavBg />
-      {/* <FaceImg /> */}
+      <BodyScrubSpaImg />
       <InnerNavi link="/spa" service="Spa" currService="Body Scrub" />
       <BodyScrubSpaHead />
       <BodyScrubSpaXp />

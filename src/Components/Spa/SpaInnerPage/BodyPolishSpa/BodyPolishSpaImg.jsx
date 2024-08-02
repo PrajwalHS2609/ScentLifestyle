@@ -1,9 +1,10 @@
 import React from "react";
+import BodyPolishImg from "./../../../../Images/SpaInnerPage/Body Polish.png";
 
 const BodyPolishSpaImg = () => {
   return (
     <div className="headSpaImgContainer">
-      <img src={""} alt="headSpaImg" />
+      <img src={BodyPolishImg} alt="BodyPolishImg" />
     </div>
   );
 };

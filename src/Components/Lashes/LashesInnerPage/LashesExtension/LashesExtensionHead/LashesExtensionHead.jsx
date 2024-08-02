@@ -1,11 +1,12 @@
-import React from 'react'
-
+import React from "react";
+import "./LashesExtensionHead.css"
 const LashesExtensionHead = () => {
   return (
-    <div>
-      
+    <div className="lashesExtHeadContainer">
+      <h1></h1>
+      <p></p>
     </div>
-  )
-}
+  );
+};
 
-export default LashesExtensionHead
+export default LashesExtensionHead;

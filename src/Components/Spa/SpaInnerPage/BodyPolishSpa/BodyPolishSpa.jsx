@@ -17,22 +17,26 @@ import BodyPolishSpaCustomer from "./BodyPolishSpaCustomer";
 import BodyPolishSpaBook from "./BodyPolishSpaBook";
 import NavBg from "../../../NavBg/NavBg";
 import BodyPolishSpaBenefits from "./BodyPolishSpaBenefits";
-import BodyPolishSpaWhy from './BodyPolishSpaWhy';
+import BodyPolishSpaWhy from "./BodyPolishSpaWhy";
+import BodyPolishSpaImg from "./BodyPolishSpaImg";
 
 const BodyPolishSpa = () => {
   return (
     <div>
       <Helmet>
         <meta charSet="utf-8" />
-        <title></title>
-        <meta name="description" content="" />
+        <title>Body Polish in Bangalore | Best Body Polish Salon Near Me</title>
+        <meta
+          name="description"
+          content="Body Polish in Bangalore. As people seek ways to rejuvenate both body and mind, body polish treatments have gained popularity as a luxurious and effective solution."
+        />
         <link
           rel="canonical"
           href="https://scentlifestyle.com/body-polish-in-bangalore"
         />
       </Helmet>
       <NavBg />
-      {/* <FaceImg /> */}
+      <BodyPolishSpaImg />
       <InnerNavi link="/spa" service="Spa" currService="Body Polish" />
       <BodyPolishSpaHead />
       <BodyPolishSpaXp />

@@ -12,12 +12,12 @@ import Members from "../../HomePage/Members/Members";
 import OurSalon from "../../HomePage/OurSalon/OurSalon";
 import Partners from "../../HomePage/Partners/Partners";
 import InstaFeed from "../../HomePage/InstaFeed/InstaFeed";
-import LocationNavi from "../LocationNavi/LocationNavi";
 import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 import LavelleLocAbout from "./LavelleLocAbout/LavelleLocAbout";
 import { Helmet } from "react-helmet";
 import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
 import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
+import ServBreadCrumb from "../../InnerServicePage/InnerNavi/ServBreadCrumb";
 const LavellelLocPage = () => {
   return (
     <div className="lavellelLocPageContainer">
@@ -37,7 +37,7 @@ const LavellelLocPage = () => {
       </Helmet>
       <LocationNavBg />
       <LocationImg img={loc2} />
-      <LocationNavi loc="Lavelle Road" />
+<ServBreadCrumb currService="Lavelle"/>
       <LocationArrow
         leftLink={"/salon-in-sahakar-nagar"}
         rightLink={"/salon-in-jakkur"}

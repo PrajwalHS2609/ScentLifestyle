@@ -19,6 +19,7 @@ import NeckAftercare from "./NeckAftercare";
 import NeckBook from "./NeckBook";
 import InnerNavi from "../../../InnerServicePage/InnerNavi/InnerNavi";
 import NavBg from "../../../NavBg/NavBg";
+import NeckImg from "./NeckImg";
 
 const NeckPage = () => {
   return (
@@ -38,7 +39,7 @@ const NeckPage = () => {
         />
       </Helmet>
       <NavBg />
-      {/* <FaceImg /> */}
+      <NeckImg />
       <InnerNavi
         link="/beauty-essentials"
         service="Beauty Essentials"
