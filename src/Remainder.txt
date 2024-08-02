@@ -1,2 +1,3 @@
 arrange salon videos to center in mobile ver
 images changes and download
+Add location Card to all locations except sahakar nagar
