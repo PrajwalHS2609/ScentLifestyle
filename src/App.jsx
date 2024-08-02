@@ -93,6 +93,19 @@ import ArmsPage from "./Components/Beauty/BeautyInnerPages/ArmsPage/ArmsPage";
 import LegsPage from "./Components/Beauty/BeautyInnerPages/LegsPage/LegsPage";
 import BackPage from "./Components/Beauty/BeautyInnerPages/BackPage/BackPage";
 import NeckPage from "./Components/Beauty/BeautyInnerPages/NeckPage/NeckPage";
+import HeadSpa from "./Components/Spa/SpaInnerPage/HeadSpa/HeadSpa";
+import FootSpa from "./Components/Spa/SpaInnerPage/FootSpa/FootSpa";
+import ThaiReflexoSpa from "./Components/Spa/SpaInnerPage/ThaiReflexoSpa/ThaiReflexoSpa";
+import BackSpa from "./Components/Spa/SpaInnerPage/BackSpa/BackSpa";
+import AromaSpa from "./Components/Spa/SpaInnerPage/AromaSpa/AromaSpa";
+import ThaiMassageSpa from "./Components/Spa/SpaInnerPage/ThaiMassageSpa/ThaiMassageSpa";
+import DeepSpa from "./Components/Spa/SpaInnerPage/DeepSpa/DeepSpa";
+import SportsSpa from "./Components/Spa/SpaInnerPage/SportsSpa/SportsSpa";
+import BodyScrubSpa from "./Components/Spa/SpaInnerPage/BodyScrubSpa/BodyScrubSpa";
+import BodyPolishSpa from "./Components/Spa/SpaInnerPage/BodyPolishSpa/BodyPolishSpa";
+import StoneSpa from "./Components/Spa/SpaInnerPage/StoneSpa/StoneSpa";
+import ScentMassageSpa from "./Components/Spa/SpaInnerPage/ScentMassageSpa/ScentMassageSpa";
+import BalineseseSpa from "./Components/Spa/SpaInnerPage/BalineseseSpa/BalineseseSpa";
 
 const App = () => {
   return (
@@ -278,6 +291,37 @@ const App = () => {
             path="/body-back-waxing-detan-threading-salon-in-bangalore"
             element={<BackPage />}
           />
+          <Route path="/head-massage-in-bangalore" element={<HeadSpa />} />
+          <Route path="/foot-massage-in-bangalore" element={<FootSpa />} />
+          <Route
+            path="/thai-reflexology-massage-in-bangalore"
+            element={<ThaiReflexoSpa />}
+          />
+          <Route path="/back-massage-in-bangalore" element={<BackSpa />} />
+          <Route path="/aroma-massage-in-bangalore" element={<AromaSpa />} />
+          <Route
+            path="/thai-massage-in-bangalore"
+            element={<ThaiMassageSpa />}
+          />
+          <Route
+            path="/deep-tissue-massage-in-bangalore"
+            element={<DeepSpa />}
+          />
+          <Route path="/sportz-massage-in-bangalore" element={<SportsSpa />} />
+          <Route
+            path="/balinese-massage-in-bangalore"
+            element={<BalineseseSpa/>}
+          />
+          <Route
+            path="/scent-signature-massage-in-bangalore"
+            element={<ScentMassageSpa />}
+          />
+          <Route
+            path="/hot-stone-therapy-massage-in-bangalore"
+            element={<StoneSpa />}
+          />
+          <Route path="/body-polish-in-bangalore" element={<BodyPolishSpa />} />
+          <Route path="/body-scrub-in-bangalore" element={<BodyScrubSpa />} />
         </Routes>
       </BrowserRouter>
     </div>

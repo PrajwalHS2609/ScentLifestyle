@@ -13,22 +13,30 @@ import ServiceWhy from "../../../MainServicePages/ServiceWhy/ServiceWhy";
 import BeautyRead from "../../../Beauty/BeautyRead/BeautyRead";
 import WhatsApp from "../../../HomePage/WhatsApp/WhatsApp";
 import LastComp from "../../../LastComp/LastComp";
+import HeadSpaProcess from "./HeadSpaProcess";
+import HeadSpaBenefits from "./HeadSpaBenefits/HeadSpaBenefits";
 
 const HeadSpa = () => {
   return (
     <div>
       <Helmet>
         <meta charSet="utf-8" />
-        <title></title>
-        <meta name="description" content="" />
-        <link rel="canonical" href="" />
+        <title>Head Massage in Bangalore | Best Head Massage Spa Near Me</title>
+        <meta
+          name="description"
+          content="Head Massage in Bangalore. Whether you're a resident or a visitor, discovering the perfect head massage can be a transformative experience."
+        />
+        <link
+          rel="canonical"
+          href="https://scentlifestyle.com/head-massage-in-bangalore"
+        />
       </Helmet>
       <NavBg />
       {/* <FaceImg /> */}
       <InnerNavi link="/spa" service="Spa" currService="Head Massage" />
       <HeadSpaHead />
       <HeadSpaBenefits />
-      <HeadSpaWhy />
+      <HeadSpaProcess />
       <Members />
       <OurSalon />
       <Partners />

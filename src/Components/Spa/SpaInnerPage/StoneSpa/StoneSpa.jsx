@@ -14,21 +14,37 @@ import LastComp from "../../../LastComp/LastComp";
 import StoneSpaHead from "./StoneSpaHead";
 import StoneSpaBenefits from "./StoneSpaBenefits";
 import StoneSpaWhy from "./StoneSpaWhy";
+import NavBg from "../../../NavBg/NavBg";
+import StoneSpaXp from "./StoneSpaXp";
+import StoneSpaCustomer from "./StoneSpaCustomer";
+import StoneSpaBook from "./StoneSpaBook";
 const StoneSpa = () => {
   return (
     <div>
       <Helmet>
         <meta charSet="utf-8" />
-        <title></title>
-        <meta name="description" content="" />
-        <link rel="canonical" href="" />
+        <title>
+          Hot Stone Therapy Massage in Bangalore | Best Stone Therapy Massage
+          Near Me
+        </title>
+        <meta
+          name="description"
+          content="Hot Stone Therapy Massage in Bangalore. This unique treatment is designed to provide a deeply relaxing and personalized experience, making it a standout choice for anyone looking to escape the stresses of everyday life."
+        />
+        <link
+          rel="canonical"
+          href="https://scentlifestyle.com/hot-stone-therapy-massage-in-bangalore"
+        />
       </Helmet>
       <NavBg />
       {/* <FaceImg /> */}
       <InnerNavi link="/spa" service="Spa" currService="Stone Therapy" />
       <StoneSpaHead />
+      <StoneSpaXp />
       <StoneSpaBenefits />
       <StoneSpaWhy />
+      <StoneSpaCustomer />
+      <StoneSpaBook />
       <Members />
       <OurSalon />
       <Partners />

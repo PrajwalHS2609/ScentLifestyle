@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import checked from "./../../../../Images/checked.png";
 
 const DeepSpaWhy = () => {
@@ -15,7 +15,7 @@ const DeepSpaWhy = () => {
         </li>
       </ul>
     </div>
-  )
-}
+  );
+};
 
-export default DeepSpaWhy
+export default DeepSpaWhy;

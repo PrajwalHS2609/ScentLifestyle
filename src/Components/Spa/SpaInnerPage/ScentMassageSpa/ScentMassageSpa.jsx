@@ -14,18 +14,31 @@ import LastComp from "../../../LastComp/LastComp";
 import ScentMassageSpaHead from "./ScentMassageSpaHead";
 import ScentMassageSpaBenefits from "./ScentMassageSpaBenefits";
 import ScentMassageSpaWhy from "./ScentMassageSpaWhy";
+import NavBg from './../../../NavBg/NavBg';
 const ScentMassageSpa = () => {
   return (
     <div>
       <Helmet>
         <meta charSet="utf-8" />
-        <title></title>
-        <meta name="description" content="" />
-        <link rel="canonical" href="" />
+        <title>
+          Scent Signature Massage in Bangalore | Best Massage & Spa Near Me
+        </title>
+        <meta
+          name="description"
+          content="Scent Signature Massage in Bangalore. This unique treatment is designed to provide a deeply relaxing and personalized experience, making it a standout choice for anyone looking to escape the stresses of everyday life."
+        />
+        <link
+          rel="canonical"
+          href="https://scentlifestyle.com/scent-signature-massage-in-bangalore"
+        />
       </Helmet>
       <NavBg />
       {/* <FaceImg /> */}
-      <InnerNavi link="/spa" service="Spa" currService="Scent Signature Massage" />
+      <InnerNavi
+        link="/spa"
+        service="Spa"
+        currService="Scent Signature Massage"
+      />
       <ScentMassageSpaHead />
       <ScentMassageSpaBenefits />
       <ScentMassageSpaWhy />

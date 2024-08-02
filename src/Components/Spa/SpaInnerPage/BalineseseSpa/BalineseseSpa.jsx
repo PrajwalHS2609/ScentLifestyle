@@ -14,22 +14,37 @@ import LastComp from "../../../LastComp/LastComp";
 import BalineseseSpaWhy from "./BalineseseSpaWhy";
 import BalineseseSpaBenefits from "./BalineseseSpaBenefits";
 import BalineseseSpaHead from "./BalineseseSpaHead";
+import BalineseseSpaXp from "./BalineseseSpaXp";
+import BalineseseSpaCustomer from "./BalineseseSpaCustomer";
+import BalineseseSpaBook from "./BalineseseSpaBook";
+import NavBg from './../../../NavBg/NavBg';
 
 const BalineseseSpa = () => {
   return (
     <div>
       <Helmet>
         <meta charSet="utf-8" />
-        <title></title>
-        <meta name="description" content="" />
-        <link rel="canonical" href="" />
+        <title>
+          Balinese Massage in Bangalore | Best Balinese Massage Near Me
+        </title>
+        <meta
+          name="description"
+          content="Balinese Massage in Bangalore. Balinese massage combines various techniques to provide a comprehensive healing experience."
+        />
+        <link
+          rel="canonical"
+          href="https://scentlifestyle.com/balinese-massage-in-bangalore"
+        />
       </Helmet>
       <NavBg />
       {/* <FaceImg /> */}
       <InnerNavi link="/spa" service="Spa" currService="Balinesese Massage" />
       <BalineseseSpaHead />
+      <BalineseseSpaXp />
       <BalineseseSpaBenefits />
       <BalineseseSpaWhy />
+      <BalineseseSpaCustomer />
+      <BalineseseSpaBook />
       <Members />
       <OurSalon />
       <Partners />

@@ -14,21 +14,36 @@ import InnerNavi from "../../../InnerServicePage/InnerNavi/InnerNavi";
 import FootSpaHead from "./FootSpaHead";
 import FootSpaBenefits from "./FootSpaBenefits";
 import FootSpaWhy from "./FootSpaWhy";
+import NavBg from "../../../NavBg/NavBg";
+import FootSpaXp from "./FootSpaXp";
+import FootSpaWellness from "./FootSpaWellness";
+import FootSpaCustomer from "./FootSpaCustomer";
 const FootSpa = () => {
   return (
     <div>
       <Helmet>
         <meta charSet="utf-8" />
-        <title></title>
-        <meta name="description" content="" />
-        <link rel="canonical" href="" />
+        <title>
+          Foot Massage in Bangalore | Best Foot Massage Salon Near Me
+        </title>
+        <meta
+          name="description"
+          content="Foot Massage in Bangalore. We provide an exquisite range of foot massage services that promise to leave you feeling refreshed and revitalized."
+        />
+        <link
+          rel="canonical"
+          href="https://scentlifestyle.com/foot-massage-in-bangalore"
+        />
       </Helmet>
       <NavBg />
       {/* <FaceImg /> */}
       <InnerNavi link="/spa" service="Spa" currService="Foot Massage" />
       <FootSpaHead />
+      <FootSpaXp/>
       <FootSpaBenefits />
       <FootSpaWhy />
+      <FootSpaWellness/>
+      <FootSpaCustomer/>
       <Members />
       <OurSalon />
       <Partners />

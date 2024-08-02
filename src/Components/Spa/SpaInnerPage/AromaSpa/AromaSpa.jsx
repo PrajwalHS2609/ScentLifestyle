@@ -14,22 +14,37 @@ import ServiceWhy from "../../../MainServicePages/ServiceWhy/ServiceWhy";
 import BeautyRead from "../../../Beauty/BeautyRead/BeautyRead";
 import WhatsApp from "../../../HomePage/WhatsApp/WhatsApp";
 import LastComp from "../../../LastComp/LastComp";
+import NavBg from "../../../NavBg/NavBg";
+import AromaSpaXp from "./AromaSpaXp";
+import AromaSpaOffering from "./AromaSpaOffering";
+import AromaSpaWellness from "./AromaSpaWellness";
+import AromaSpaCustomer from "./AromaSpaCustomer";
+import AromaSpaBook from "./AromaSpaBook";
 
 const AromaSpa = () => {
   return (
     <div>
       <Helmet>
         <meta charSet="utf-8" />
-        <title></title>
-        <meta name="description" content="" />
-        <link rel="canonical" href="" />
+        <title>
+          Aroma Massage in Bangalore | Aromatherapy Massage Salon Near Me
+        </title>
+        <meta
+          name="description"
+          content="Aroma Massage in Bangalore. One of the most luxurious and therapeutic ways to unwind is through an aroma massage. Book Now!"
+        />
+        <link rel="canonical" href=" https://scentlifestyle.com/aroma-massage-in-bangalore" />
       </Helmet>
       <NavBg />
       {/* <FaceImg /> */}
       <InnerNavi link="/spa" service="Spa" currService="Aroma Massage" />
       <AromaSpaHead />
+      <AromaSpaXp />
       <AromaSpaBenefits />
-      <AromaSpaWhy />
+      <AromaSpaOffering />
+      <AromaSpaWellness />
+      <AromaSpaCustomer />
+      <AromaSpaBook />
       <Members />
       <OurSalon />
       <Partners />

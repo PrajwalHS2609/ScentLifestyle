@@ -15,22 +15,40 @@ import LastComp from "../../../LastComp/LastComp";
 import BackSpaHead from "./BackSpaHead";
 import BackSpaWhy from "./BackSpaWhy";
 import BackBenefits from "./../../../Beauty/BeautyInnerPages/BackPage/BackBenefits";
+import NavBg from "../../../NavBg/NavBg";
+import BackSpaXp from "./BackSpaXp";
+import BackSpaOffering from "./BackSpaOffering";
+import BackSpaWellness from "./BackSpaWellness";
+import BackSpaCustomer from './BackSpaCustomer';
+import BackSpaBook from "./BackSpaBook";
 
 const BackSpa = () => {
   return (
     <div>
       <Helmet>
         <meta charSet="utf-8" />
-        <title></title>
-        <meta name="description" content="" />
-        <link rel="canonical" href="" />
+        <title>
+          Back Massage in Bangalore | Back Pain & Muscles Massage Salon Near Me
+        </title>
+        <meta
+          name="description"
+          content="Back Massage in Bangalore. One of the most effective ways to achieve relaxation and rejuvenation is through the ancient practice of Thai Reflexology Massage."
+        />
+        <link
+          rel="canonical"
+          href=" https://scentlifestyle.com/back-massage-in-bangalore"
+        />
       </Helmet>
       <NavBg />
       {/* <FaceImg /> */}
       <InnerNavi link="/spa" service="Spa" currService="Back Massage" />
       <BackSpaHead />
+      <BackSpaXp/>
       <BackBenefits />
-      <BackSpaWhy />
+      <BackSpaOffering/>
+      <BackSpaWellness/>
+      <BackSpaCustomer/>
+      <BackSpaBook/>
       <Members />
       <OurSalon />
       <Partners />

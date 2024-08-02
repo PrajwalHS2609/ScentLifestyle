@@ -14,21 +14,37 @@ import LastComp from "../../../LastComp/LastComp";
 import SportsSpaHead from "./SportsSpaHead";
 import SportsSpaBenefits from "./SportsSpaBenefits";
 import SportsSpaWhy from "./SportsSpaWhy";
+import NavBg from "../../../NavBg/NavBg";
+import SportsSpaXp from "./SportsSpaXp";
+import SportsSpaCustomer from "./SportsSpaCustomer";
+import SportsSpaBook from "./SportsSpaBook";
 const SportsSpa = () => {
   return (
     <div>
       <Helmet>
         <meta charSet="utf-8" />
-        <title></title>
-        <meta name="description" content="" />
-        <link rel="canonical" href="" />
+        <title>
+          {" "}
+          Sportz Massage in Bangalore | Best Sportz Massage Salon Near Me
+        </title>
+        <meta
+          name="description"
+          content="Sportz Massage in Bangalore. Stands out for its ability to relieve chronic pain, muscle tension, and stress. Book Now!"
+        />
+        <link
+          rel="canonical"
+          href="https://scentlifestyle.com/sportz-massage-in-bangalore"
+        />
       </Helmet>
       <NavBg />
       {/* <FaceImg /> */}
       <InnerNavi link="/spa" service="Spa" currService="Sportz Massage" />
       <SportsSpaHead />
+      <SportsSpaXp />
       <SportsSpaBenefits />
       <SportsSpaWhy />
+      <SportsSpaCustomer />
+      <SportsSpaBook />
       <Members />
       <OurSalon />
       <Partners />

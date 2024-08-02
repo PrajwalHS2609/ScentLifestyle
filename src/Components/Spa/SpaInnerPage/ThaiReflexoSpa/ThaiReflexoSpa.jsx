@@ -14,14 +14,27 @@ import ServiceWhy from "../../../MainServicePages/ServiceWhy/ServiceWhy";
 import BeautyRead from "../../../Beauty/BeautyRead/BeautyRead";
 import WhatsApp from "../../../HomePage/WhatsApp/WhatsApp";
 import LastComp from "../../../LastComp/LastComp";
+import ThaiReflexoSpaWellness from "./ThaiReflexoSpaWellness";
+import ThaiReflexoSpaCustomer from "./ThaiReflexoSpaCustomer";
+import ThaiReflexoSpaBook from './ThaiReflexoSpaBook';
+import NavBg from "../../../NavBg/NavBg";
 const ThaiReflexoSpa = () => {
   return (
     <div>
       <Helmet>
         <meta charSet="utf-8" />
-        <title></title>
-        <meta name="description" content="" />
-        <link rel="canonical" href="" />
+        <title>
+          Thai Reflexology Massage in Bangalore | Best Thai Massage Salon Near
+          Me
+        </title>
+        <meta
+          name="description"
+          content="Thai Reflexology Massage in Bangalore. One of the most effective ways to achieve relaxation and rejuvenation is through the ancient practice of Thai Reflexology Massage."
+        />
+        <link
+          rel="canonical"
+          href="https://scentlifestyle.com/thai-reflexology-massage-in-bangalore"
+        />
       </Helmet>
       <NavBg />
       {/* <FaceImg /> */}
@@ -29,6 +42,9 @@ const ThaiReflexoSpa = () => {
       <ThaiReflexoSpaHead />
       <ThaiReflexoSpaBenefits />
       <ThaiReflexoSpaWhy />
+      <ThaiReflexoSpaWellness/>
+      <ThaiReflexoSpaCustomer/>
+      <ThaiReflexoSpaBook/>
       <Members />
       <OurSalon />
       <Partners />

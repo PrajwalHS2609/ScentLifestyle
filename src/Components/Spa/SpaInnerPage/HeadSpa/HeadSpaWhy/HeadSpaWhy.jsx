@@ -1,11 +1,10 @@
 import React from "react";
 import checked from "./../../../../../Images/checked.png";
-import "./HeadSpaWhy.css"
+import "./HeadSpaWhy.css";
 const HeadSpaWhy = () => {
   return (
     <div className="headSpaWhyContainer">
-      <h5>
-      </h5>
+      <h5></h5>
       <p></p>
       <ul>
         <li>

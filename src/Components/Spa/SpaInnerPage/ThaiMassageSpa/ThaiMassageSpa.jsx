@@ -14,22 +14,40 @@ import ServiceWhy from "../../../MainServicePages/ServiceWhy/ServiceWhy";
 import BeautyRead from "../../../Beauty/BeautyRead/BeautyRead";
 import WhatsApp from "../../../HomePage/WhatsApp/WhatsApp";
 import LastComp from "../../../LastComp/LastComp";
+import NavBg from "../../../NavBg/NavBg";
+import ThaiMassageSpaXp from "./ThaiMassageSpaXp";
+import ThaiMassageSpaOffering from "./ThaiMassageSpaOffering";
+import ThaiMassageSpaWellness from "./ThaiMassageSpaWellness";
+import ThaiMassageSpaCustomer from "./ThaiMassageSpaCustomer";
+import ThaiMassageSpaBook from "./ThaiMassageSpaBook";
 
 const ThaiMassageSpa = () => {
   return (
     <div>
       <Helmet>
         <meta charSet="utf-8" />
-        <title></title>
-        <meta name="description" content="" />
-        <link rel="canonical" href="" />
+        <title>
+          Thai Massage in Bangalore | Best Thai Massage Salon Near Me
+        </title>
+        <meta
+          name="description"
+          content="Thai Massage in Bangalore. One of the most luxurious and therapeutic ways to unwind is through an aroma massage. Book Now!"
+        />
+        <link
+          rel="canonical"
+          href="https://scentlifestyle.com/thai-massage-in-bangalore"
+        />
       </Helmet>
       <NavBg />
       {/* <FaceImg /> */}
       <InnerNavi link="/spa" service="Spa" currService="Thai Massage" />
       <ThaiMassageSpaHead />
+      <ThaiMassageSpaXp/>
       <ThaiReflexoSpaBenefits />
-      <ThaiReflexoSpaWhy />
+      <ThaiMassageSpaOffering/>
+      <ThaiMassageSpaWellness/>
+      <ThaiMassageSpaCustomer/>
+      <ThaiMassageSpaBook/>
       <Members />
       <OurSalon />
       <Partners />

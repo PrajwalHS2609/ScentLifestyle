@@ -14,20 +14,40 @@ import ServiceWhy from "../../../MainServicePages/ServiceWhy/ServiceWhy";
 import BeautyRead from "../../../Beauty/BeautyRead/BeautyRead";
 import WhatsApp from "../../../HomePage/WhatsApp/WhatsApp";
 import LastComp from "../../../LastComp/LastComp";
+import NavBg from "../../../NavBg/NavBg";
+import DeepSpaXp from "./DeepSpaXp";
+import DeepSpaOffering from "./DeepSpaOffering";
+import DeepSpaWellness from "./DeepSpaWellness";
+import DeepSpaCustomer from "./DeepSpaCustomer";
+import DeepSpaBook from "./DeepSpaBook";
 const DeepSpa = () => {
   return (
     <div>
       <Helmet>
         <meta charSet="utf-8" />
-        <title></title>
-        <meta name="description" content="" />
-        <link rel="canonical" href="" />
+        <title>
+          {" "}
+          Deep Tissue Massage in Bangalore | Best Deep Tissue Massage Near Me
+        </title>
+        <meta
+          name="description"
+          content="Deep Tissue Massage in Bangalore. Stands out for its ability to relieve chronic pain, muscle tension, and stress. Book Now!"
+        />
+        <link
+          rel="canonical"
+          href="https://scentlifestyle.com/deep-tissue-massage-in-bangalore"
+        />
       </Helmet>
       <NavBg />
       {/* <FaceImg /> */}
       <InnerNavi link="/spa" service="Spa" currService="Deep Tissue Massage" />
       <DeepSpaHead />
+      <DeepSpaXp />
       <DeepSpaBenefits />
+      <DeepSpaOffering />
+      <DeepSpaWellness />
+      <DeepSpaCustomer />
+      <DeepSpaBook />
       <DeepSpaWhy />
       <Members />
       <OurSalon />
