@@ -75,11 +75,16 @@ const ContactForm = () => {
         (result) => {
           console.log(result.text);
           toast.success("Email sent successfully");
-          window.location.assign("/contact-us");
+          setTimeout(() => {
+            window.location.assign("/contact-us");
+          }, 5000);
         },
         (error) => {
           console.error(error.text);
           toast.error("Failed to send mail");
+          // setTimeout(() => {
+          //   window.location.assign("/contact-us");
+          // }, 5000);
         }
       );
   };
