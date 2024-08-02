@@ -37,7 +37,7 @@ const SahakarLocPage = () => {
       <LocationNavBg />
       <LocationImg img={loc1} />
       <ServBreadCrumb currService="Sahakar Nagar" />
-      <LocationCard map={SahakarLocMap} head="Salon in Sahakar Nagar" address="F block, 325/8, 60 Feet Rd, Opp Axis Bank, Sahakar Nagar, Byatarayanapura, Bengaluru, Karnataka 560092"/>
+      <LocationCard map={<SahakarLocMap/>} head="Salon in Sahakar Nagar" address="F block, 325/8, 60 Feet Rd, Opp Axis Bank, Sahakar Nagar, Byatarayanapura, Bengaluru, Karnataka 560092"/>
       <ServiceCardContain />
       <SahakarLocAbout />
       <TextLocReviews />
