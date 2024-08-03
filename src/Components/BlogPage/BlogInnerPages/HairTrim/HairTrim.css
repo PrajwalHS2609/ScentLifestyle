@@ -3,6 +3,7 @@
   width: 100%;
 }
 .hairTrimContent {
+  /* border: solid red; */
   display: flex;
   justify-content: center;
   align-items: center;

@@ -107,6 +107,7 @@ import StoneSpa from "./Components/Spa/SpaInnerPage/StoneSpa/StoneSpa";
 import ScentMassageSpa from "./Components/Spa/SpaInnerPage/ScentMassageSpa/ScentMassageSpa";
 import BalineseseSpa from "./Components/Spa/SpaInnerPage/BalineseseSpa/BalineseseSpa";
 import LashesExtension from "./Components/Lashes/LashesInnerPage/LashesExtension/LashesExtension";
+import HairBotox from "./Components/BlogPage/BlogInnerPages/HairBotox/HairBotox";
 
 const App = () => {
   return (
@@ -224,6 +225,10 @@ const App = () => {
             path="/tips-for-maintaining-hair-bouncy-and-beautiful-curls-during-monsoon"
             element={<BouncyHair />}
           />
+          <Route
+            path="/how-hair-botox-treatments-can-transform-your-tresses"
+            element={<HairBotox />}
+          />
           <Route path="/pre-bridal-treatments" element={<PrebridalPackage />} />
 
           <Route path="/organic-facial-services" element={<OrganicFacial />} />
@@ -311,7 +316,7 @@ const App = () => {
           <Route path="/sportz-massage-in-bangalore" element={<SportsSpa />} />
           <Route
             path="/balinese-massage-in-bangalore"
-            element={<BalineseseSpa/>}
+            element={<BalineseseSpa />}
           />
           <Route
             path="/scent-signature-massage-in-bangalore"
@@ -323,8 +328,10 @@ const App = () => {
           />
           <Route path="/body-polish-in-bangalore" element={<BodyPolishSpa />} />
           <Route path="/body-scrub-in-bangalore" element={<BodyScrubSpa />} />
-          <Route path="/eye-lash-extensions-in-bangalore" element={<LashesExtension />} />
-
+          <Route
+            path="/eye-lash-extensions-in-bangalore"
+            element={<LashesExtension />}
+          />
         </Routes>
       </BrowserRouter>
     </div>

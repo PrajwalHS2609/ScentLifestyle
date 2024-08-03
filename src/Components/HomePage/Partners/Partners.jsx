@@ -5,6 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import leftArrow from "./../../../Images/left.png";
 import rightArrow from "./../../../Images/right.png";
+// import abstractImg from "./../../../Images/Abstract Shapes.png";
 const Partners = () => {
   function SampleNextArrow(props) {
     const { className, style, onClick } = props;
@@ -121,6 +122,7 @@ const Partners = () => {
   };
   return (
     <div className="partnerContainer">
+      {/* <img src={abstractImg} alt="" /> */}
       <div className="partnerContent" id="partnerContent1">
         <div className="partnerItem1">
           <h5>Partners</h5>

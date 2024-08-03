@@ -16,6 +16,7 @@ import TextLocReviews from "./../TextLocReviews/TextLocReviews";
 import WhatsApp from "./WhatsApp/WhatsApp";
 const InstaFeed = React.lazy(() => import("./InstaFeed/InstaFeed"));
 
+
 const HomePage = () => {
   return (
     <div>
@@ -37,13 +38,13 @@ const HomePage = () => {
       <OurSalon />
       <Work />
       <Partners />
-      <Suspense fallback={<p>This is Loading....</p>}>
-      <InstaFeed />
+      <Suspense fallback={<p>Loading....</p>}>
+        <InstaFeed />
       </Suspense>
       <HelpNearYou />
       <TextLocReviews />
       <ServiceWhy />
-      <WhatsApp/>
+      <WhatsApp />
       <HomeRead />
       <LastComp />
     </div>

@@ -1,4 +1,72 @@
 .hairSpaFaqContainer {
+  /* border: solid; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 5%;
+}
+.hairSpaFaqContainer > h2 {
+  color: var(--customColor);
+  font-size: 30px;
+  text-align: center;
+}
+.hairSpaFaqContainer > ul {
+  /* border: solid; */
+  width: 90%;
+}
+.hairSpaFaqContainer > ul > li {
+  margin: 2%;
+  list-style: none;
+  font-size: 120%;
+}
+.hairSpaFaqContainer > ul > li > span {
+  color: #cc2228;
+  font-size: 20px;
+}
+.hairSpaFaqContainer > ul > li > p {
+  font-size: 20px;
+}
+.haircutFaqContainer > h2 {
+  font-size: 30px;
+}
+.haircutFaqContainer > h3 {
+  font-size: 20px;
+}
+
+@media screen and (min-width: 320px) {
+  .hairSpaFaqContainer {
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 10%;
+  }
+  .hairSpaFaqContainer > h2 {
+    text-align: center;
+    font-size: 120%;
+  }
+  .hairSpaFaqContainer > ul {
+    /* border: solid; */
+    width: 95%;
+  }
+  .hairSpaFaqContainer > ul > li {
+    margin: 10%;
+    list-style: none;
+    font-size: 120%;
+  }
+  .hairSpaFaqContainer > ul > li > span {
+    color: #cc2228;
+  }
+  .hairSpaFaqContainer > ul > li > p {
+    font-size: 90%;
+  }
+}
+@media screen and (min-width: 728px) {
+  .hairSpaFaqContainer {
     /* border: solid; */
     display: flex;
     justify-content: center;
@@ -22,121 +90,58 @@
   .hairSpaFaqContainer > ul > li > p {
     font-size: 90%;
   }
-  .haircutFaqContainer>h2{
-    font-size: 30px
-  }
-  .haircutFaqContainer>h3{
-    font-size: 20px
-  }
+}
 
-  @media screen and (min-width: 320px) {
-    .hairSpaFaqContainer {
-      /* border: solid; */
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      gap: 20px;
-      margin-top:10%;
-    }
-    .hairSpaFaqContainer > h2 {
-      text-align: center;
-      font-size: 120%;
-    }
-    .hairSpaFaqContainer > ul {
-      /* border: solid; */
-      width: 95%;
-    }
-    .hairSpaFaqContainer > ul > li {
-      margin: 10%;
-      list-style: none;
-      font-size: 120%;
-    }
-    .hairSpaFaqContainer > ul > li > span {
-      color: #cc2228;
-    }
-    .hairSpaFaqContainer > ul > li > p {
-      font-size: 90%;
-    }
+@media screen and (min-width: 990px) {
+  .hairSpaFaqContainer {
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 5%;
   }
-  @media screen and (min-width: 728px) {
-      .hairSpaFaqContainer {
-        /* border: solid; */
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        gap: 20px;
-        margin-top: 5%;
-      }
-      .hairSpaFaqContainer > ul {
-        /* border: solid; */
-        width: 90%;
-      }
-      .hairSpaFaqContainer > ul > li {
-        margin: 2%;
-        list-style: none;
-        font-size: 120%;
-      }
-      .hairSpaFaqContainer > ul > li > span {
-        color: #cc2228;
-      }
-      .hairSpaFaqContainer > ul > li > p {
-        font-size: 90%;
-      }
-    }
-    
-  @media screen and (min-width: 990px) {
-      .hairSpaFaqContainer {
-        /* border: solid; */
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        gap: 20px;
-        margin-top: 5%;
-      }
-      .hairSpaFaqContainer > ul {
-        /* border: solid; */
-        width: 90%;
-      }
-      .hairSpaFaqContainer > ul > li {
-        margin: 2%;
-        list-style: none;
-        font-size: 120%;
-      }
-      .hairSpaFaqContainer > ul > li > span {
-        color: #cc2228;
-      }
-      .hairSpaFaqContainer > ul > li > p {
-        font-size: 90%;
-      }
-    }
-    
-  @media screen and (min-width: 1200px) {
-    .hairSpaFaqContainer {
-      /* border: solid; */
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      gap: 20px;
-      margin-top: 5%;
-    }
-    .hairSpaFaqContainer > ul {
-      /* border: solid; */
-      width: 90%;
-    }
-    .hairSpaFaqContainer > ul > li {
-      margin: 2%;
-      list-style: none;
-      font-size: 120%;
-    }
-    .hairSpaFaqContainer > ul > li > span {
-      color: #cc2228;
-    }
-    .hairSpaFaqContainer > ul > li > p {
-      font-size: 90%;
-    }
+  .hairSpaFaqContainer > ul {
+    /* border: solid; */
+    width: 90%;
   }
-  
+  .hairSpaFaqContainer > ul > li {
+    margin: 2%;
+    list-style: none;
+    font-size: 120%;
+  }
+  .hairSpaFaqContainer > ul > li > span {
+    color: #cc2228;
+  }
+  .hairSpaFaqContainer > ul > li > p {
+    font-size: 90%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hairSpaFaqContainer {
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 5%;
+  }
+  .hairSpaFaqContainer > ul {
+    /* border: solid; */
+    width: 90%;
+  }
+  .hairSpaFaqContainer > ul > li {
+    margin: 2%;
+    list-style: none;
+    font-size: 120%;
+  }
+  .hairSpaFaqContainer > ul > li > span {
+    color: #cc2228;
+  }
+  .hairSpaFaqContainer > ul > li > p {
+    font-size: 90%;
+  }
+}

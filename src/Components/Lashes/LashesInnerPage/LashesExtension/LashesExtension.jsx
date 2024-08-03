@@ -18,6 +18,7 @@ import LashesExtensionCustomer from "./LashesExtensionCustomer";
 import LashesExtensionBook from "./LashesExtensionBook";
 import Partners from "../../../HomePage/Partners/Partners";
 import LashesExtensionBenefits from "./LashesExtensionBenefits";
+import LashesExtensionImg from "./LashesExtensionImg";
 
 const LashesExtension = () => {
   return (
@@ -38,7 +39,7 @@ const LashesExtension = () => {
         />
       </Helmet>
       <NavBg />
-      {/* <LashesExtensionImg /> */}
+      <LashesExtensionImg />
       <InnerNavi
         link="/spa"
         service="Eye Lashes"

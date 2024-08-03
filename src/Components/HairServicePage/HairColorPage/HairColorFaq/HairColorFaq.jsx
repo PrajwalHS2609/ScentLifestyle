@@ -1,10 +1,12 @@
 import React from "react";
-import "./HairColorFaq.css"
+import "./HairColorFaq.css";
 const HairColorFaq = () => {
   return (
     <div className="hairColorFaqContainer">
-      <h2>FAQ's</h2>
-      <h2>Book your Next Hair Colour Appointment in Bangalore with SCENT</h2>
+      <h2>
+        FAQ's <br />
+        Book your Next Hair Colour Appointment in Bangalore with SCENT
+      </h2>
       <ul>
         <li>
           <span>What is the best hair colour for a bride-to-be?</span>
@@ -79,8 +81,8 @@ const HairColorFaq = () => {
             to the tips, in a single colour. This is in contrast to highlighting
             or other colouring techniques that only colour specific sections of
             the hair. If you’re wondering about global hair colour prices in
-            Bangalore, book an appointment or visit the nearest SCENT  and
-            our staff will guide you with hair colouring prices according to the
+            Bangalore, book an appointment or visit the nearest SCENT and our
+            staff will guide you with hair colouring prices according to the
             length of your hair and the colour you choose.
           </p>
         </li>
