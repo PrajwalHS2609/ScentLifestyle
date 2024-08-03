@@ -16,7 +16,7 @@ import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
 import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
 import ServBreadCrumb from "../../InnerServicePage/InnerNavi/ServBreadCrumb";
 import LocationCard from "../LocationCard/LocationCard";
-import SahakarLocMap from './SahakarLocMap/SahakarLocMap';
+import SahakarLocMap from "./SahakarLocMap/SahakarLocMap";
 const SahakarLocPage = () => {
   return (
     <div className="sahakarLocPageContainer">
@@ -37,7 +37,13 @@ const SahakarLocPage = () => {
       <LocationNavBg />
       <LocationImg img={loc1} />
       <ServBreadCrumb currService="Sahakar Nagar" />
-      <LocationCard map={<SahakarLocMap/>} head="Salon in Sahakar Nagar" address="F block, 325/8, 60 Feet Rd, Opp Axis Bank, Sahakar Nagar, Byatarayanapura, Bengaluru, Karnataka 560092"/>
+      <LocationCard
+        map={<SahakarLocMap />}
+        head="Salon in Sahakar Nagar"
+        address="F block, 325/8, 60 Feet Rd, Opp Axis Bank, Sahakar Nagar, Byatarayanapura, Bengaluru, Karnataka 560092"
+        phone="+91 9740322700"
+        PhoneLink="tel:9740322700"
+      />
       <ServiceCardContain />
       <SahakarLocAbout />
       <TextLocReviews />

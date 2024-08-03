@@ -3,8 +3,7 @@ import "./LocationCard.css";
 const LocationCard = (props) => {
   return (
     <div className="locCardContainer">
-      <div className="locCardContent">{props.map}
-      </div>
+      <div className="locCardContent">{props.map}</div>
       <div className="locCardContent" id="locCardAddContent">
         <div className="locCardAddHead">
           <h3>{props.head}</h3>
@@ -15,7 +14,7 @@ const LocationCard = (props) => {
             <div className="locCardAddress">
               <h4>CONTACT NUMBER</h4>
               <p>
-                <a href="9742232700">+91 9148122700</a>
+                <a href={props.phoneLink}>{props.phone}</a>
               </p>
             </div>
             <div className="locCardAddress">
@@ -25,9 +24,7 @@ const LocationCard = (props) => {
           </div>
           <div className="locCardAddressItem" id="locCardAddressName">
             <h4>Address</h4>
-            <p>
-              {props.address}
-            </p>
+            <p>{props.address}</p>
           </div>
         </div>
         <div className="locCardAddressButton">

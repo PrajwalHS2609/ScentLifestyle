@@ -1,9 +1,7 @@
 import React from "react";
 import LastComp from "../../LastComp/LastComp";
-import LocationArrow from "../LocationArrow/LocationArrow";
 import LocationNavBg from "../LocationNavBg/LocationNavBg";
 import "./UpTownLocPage.css";
-import LocationHead from "../LocationHead/LocationHead";
 import LocationImg from "../LocationImg/LocationImg";
 import loc4 from "./../../../Images/Varthur - whitefield.jpg";
 import ServiceCardContain from "../../MainServicePages/ServiceCards/ServiceCardContain";
@@ -18,6 +16,7 @@ import { Helmet } from "react-helmet";
 import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
 import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
 import ServBreadCrumb from "../../InnerServicePage/InnerNavi/ServBreadCrumb";
+import LocationCard from "../LocationCard/LocationCard";
 const UpTownLocPage = () => {
   return (
     <div className="uptownLocPageContainer">
@@ -38,30 +37,25 @@ const UpTownLocPage = () => {
       </Helmet>
       <LocationNavBg />
       <LocationImg img={loc4} />
-      <ServBreadCrumb currService="UpTown" />
-      <LocationArrow
-        leftLink={"/salon-in-jakkur"}
-        rightLink={"/salon-in-whitefield"}
-      />
-      <div className="uptownLocPageContent">
-        <LocationHead
-          loc="Uptown Square"
-          phone="+91-9148122700"
-          address=" Uptown square, State Highway 35, Seegehalli, Whitefield - Hoskote
+      <ServBreadCrumb currService="UpTown Square" />
+      <LocationCard
+        map={<UptownLocMap />}
+        head="Salon in Uptown Square"
+        address="Uptown square, State Highway 35, Seegehalli, Whitefield - Hoskote
     Rd, Bengaluru, Karnataka 560067"
-          map={<UptownLocMap />}
-        />
-        <ServiceCardContain />
-        <UpTownLocAbout />
-        <TextLocReviews />
-        <Members />
-        <OurSalon />
-        <Partners />
-        <InstaFeed />
-        <ServiceWhy />
-        <WhatsApp/>
+        phone="+91 9148122700"
+        PhoneLink="tel:9148122700"
+      />
+      <ServiceCardContain />
+      <UpTownLocAbout />
+      <TextLocReviews />
+      <Members />
+      <OurSalon />
+      <Partners />
+      <InstaFeed />
+      <ServiceWhy />
+      <WhatsApp />
 
-      </div>
       <LastComp />
     </div>
   );

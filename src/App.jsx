@@ -106,6 +106,7 @@ import BodyPolishSpa from "./Components/Spa/SpaInnerPage/BodyPolishSpa/BodyPolis
 import StoneSpa from "./Components/Spa/SpaInnerPage/StoneSpa/StoneSpa";
 import ScentMassageSpa from "./Components/Spa/SpaInnerPage/ScentMassageSpa/ScentMassageSpa";
 import BalineseseSpa from "./Components/Spa/SpaInnerPage/BalineseseSpa/BalineseseSpa";
+import LashesExtension from "./Components/Lashes/LashesInnerPage/LashesExtension/LashesExtension";
 
 const App = () => {
   return (
@@ -322,6 +323,8 @@ const App = () => {
           />
           <Route path="/body-polish-in-bangalore" element={<BodyPolishSpa />} />
           <Route path="/body-scrub-in-bangalore" element={<BodyScrubSpa />} />
+          <Route path="/eye-lash-extensions-in-bangalore" element={<LashesExtension />} />
+
         </Routes>
       </BrowserRouter>
     </div>

@@ -36,9 +36,9 @@
 .helpNearYouParaContainer > p {
   font-size: 20px;
 }
-.helpCardContainer> h3  {
+.helpCardContainer > h3 {
   color: white;
-border: solid;
+  border: solid;
 }
 .helpNearYouCardContainer {
   /* border: solid red; */
@@ -89,13 +89,14 @@ border: solid;
   color: white;
 }
 .helpCover {
-  /* border: solid; */
+  border: solid;
   height: 90px;
   width: 100%;
   background-color: var(--customTransRed);
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   position: absolute;
   bottom: -100px;
   transition: 200ms ease-in-out;
@@ -105,11 +106,10 @@ border: solid;
 }
 .helpCity {
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 50px;
-  margin-top: 10px;
-  margin-left: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
   font-weight: bold;
 }
 .respHelpCardContainer {
@@ -157,7 +157,7 @@ border: solid;
   color: white;
   font-size: 100%;
 }
-@media screen and (min-width: 320px) and (max-width:768px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   .helpNearYouContainer {
     /* border: solid; */
     height: 100%;

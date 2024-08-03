@@ -1,8 +1,6 @@
 import React from "react";
 import LocationNavBg from "../LocationNavBg/LocationNavBg";
-import LocationArrow from "../LocationArrow/LocationArrow";
 import LastComp from "../../LastComp/LastComp";
-import LocationHead from "../LocationHead/LocationHead";
 import LocationImg from "../LocationImg/LocationImg";
 import loc5 from "./../../../Images/seegehalli - whitefield.jpg";
 import ServiceCardContain from "../../MainServicePages/ServiceCards/ServiceCardContain";
@@ -18,6 +16,7 @@ import { Helmet } from "react-helmet";
 import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
 import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
 import ServBreadCrumb from "../../InnerServicePage/InnerNavi/ServBreadCrumb";
+import LocationCard from "../LocationCard/LocationCard";
 const MeadowsLocPage = () => {
   return (
     <div className="meadowsLocPageContainer">
@@ -38,31 +37,22 @@ const MeadowsLocPage = () => {
       <LocationNavBg />
       <LocationImg img={loc5} />
       <ServBreadCrumb currService="Meadows" />
-
-      <LocationArrow
-        leftLink={"/salon-in-uptown-whitefield"}
-        rightLink={"/salon-in-jpnagar"}
+      <LocationCard
+        map={<MeadowsLocMap />}
+        head="Salon in Meadows"
+        address="Palm Meadows, No. 3/3, Ramaiah building, Palm Meadows, Boulevard Varthur Main Road Ramagondanahalli, Whitefield Bengaluru Karnataka 560066"
+        phone="+91 9686221700"
+        PhoneLink="tel:9686221700"
       />
-      <div className="meadowsLocPageContent">
-        <LocationHead
-          loc="Palm Meadows Whitefield"
-          phone="+91-9686221700"
-          address=" Palm Meadows, No. 3/3, Ramaiah building, Palm Meadows, Boulevard
-Varthur Main Road Ramagondanahalli, Whitefield Bengaluru Karnataka
-560066"
-          map={<MeadowsLocMap />}
-        />
-        <ServiceCardContain />
-        <MeadowsLocAbout />
-        <TextLocReviews />
-        <Members />
-        <OurSalon />
-        <Partners />
-        <InstaFeed />
-        <ServiceWhy />
-        <WhatsApp/>
-
-      </div>
+      <ServiceCardContain />
+      <MeadowsLocAbout />
+      <TextLocReviews />
+      <Members />
+      <OurSalon />
+      <Partners />
+      <InstaFeed />
+      <ServiceWhy />
+      <WhatsApp />
       <LastComp />
     </div>
   );

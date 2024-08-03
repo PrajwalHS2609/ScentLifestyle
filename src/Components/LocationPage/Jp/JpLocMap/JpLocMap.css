@@ -2,14 +2,24 @@
   /* border: solid yellow; */
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: center;
   flex-direction: column;
   width: 100%;
-  height: 70vh;
-  margin-top: 0%;
+  height: 100%;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .jpLocMapContainer {
+    /* border: solid green; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+
+  }
+}
+@media screen and (max-width: 990px) and (min-width: 768px) {
   .jpLocMapContainer {
     /* border: solid green; */
     display: flex;
@@ -20,31 +30,16 @@
     height: 100vh;
     margin-top: 5%;
   }
-
-}
-@media screen and (max-width: 990px) and (min-width: 600px) {
-  .jpLocMapContainer {
-    /* border: solid green; */
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
-    height: 100vh;
-    margin-top: 5%;
-  }
-
 }
 @media screen and (max-width: 1200px) and (min-width: 990px) {
   .jpMapLocContainer {
     /* border: solid green; */
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
     width: 100%;
     height: 100%;
     margin-left: 0%;
   }
-
 }
