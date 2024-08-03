@@ -3,16 +3,16 @@
 }
 .unisexSalonContainer {
   /* border: solid red; */
-  height: 70vh;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   margin-top: 50px;
+  gap: 20px;
 }
 .unisexHeadContainer {
   /* border: solid; */
-  height: 70px;
   width: 90%;
   display: flex;
   justify-content: center;
@@ -40,18 +40,17 @@
 }
 .unisexParaContainer > p {
   /* border: solid blue; */
-  text-align: center;
+  text-align: justify;
   width: 90%;
   font-size: 20px;
 }
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   .unisexSalonContainer {
     /* border: solid red; */
-    height:100%;
+    height: 100%;
     width: 100%;
     margin-top: 40px;
     gap: 10px;
-  
   }
   .unisexHeadContainer {
     /* border: solid; */
@@ -65,26 +64,29 @@
   }
   .unisexHeadContainer > h2 {
     font-size: 150%;
-    color: var(--customRed);text-align:center ;
+    color: var(--customRed);
+    text-align: center;
   }
-.unisexParaContainer > p {
+  .unisexParaContainer > p {
     /* border: solid blue; */
     text-align: center;
     width: 90%;
-    font-size: 90%;
-    display: flex;justify-content: center;align-items: center;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
   .unisexSalonContainer {
-    /* border: solid red; */
+    border: solid red;
     height: 100%;
     width: 100%;
     margin-top: 50px;
   }
   .unisexHeadContainer {
-    /* border: solid; */
+    border: solid;
     height: 70px;
     width: 90%;
     display: flex;
@@ -95,18 +97,19 @@
   }
   .unisexHeadContainer > h2 {
     font-size: 150%;
-    color: var(--customRed);text-align:center ;
+    color: var(--customRed);
+    text-align: center;
   }
-.unisexParaContainer > p {
-    /* border: solid blue; */
+  .unisexParaContainer > p {
+    border: solid blue;
     text-align: center;
     width: 90%;
     font-size: 100%;
   }
-}
-@media screen and (min-width: 1200px) {
+} */
+/* @media screen and (min-width: 1200px) and (max-width:1400px){
   .unisexSalonContainer {
-    /* border: solid red; */
+    border: solid red;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -115,7 +118,7 @@
     margin-top: 50px;
   }
   .unisexHeadContainer {
-    /* border: solid; */
+    border: solid;
     height: 100%;
     width: 90%;
     display: flex;
@@ -134,7 +137,7 @@
     color: var(--customRed);
   }
   .unisexParaContainer {
-    /* border: solid; */
+    border: solid;
     height: 90%;
     display: flex;
     justify-content: center;
@@ -143,9 +146,9 @@
     gap: 15px;
   }
   .unisexParaContainer > p {
-    /* border: solid blue; */
-    text-align: center;
+    border: solid blue;
+    text-align: start;
     width: 90%;
     font-size: 20px;
   }
-}
+} */
