@@ -25,7 +25,7 @@ const StyleCrewPage = () => {
           content="Best Style Crew of SCENT Salon in Bangalore. At the heart of scent, culture is experienced, specialized professionalism – a service beyond the expectations of our discerning, fastidious guest.
 "
         />
-        <link rel="canonical" href="https://scentlifestyle.com/crewx" />
+        <link rel="canonical" href="https://scentlifestyle.com/crew" />
       </Helmet>
       <NavBg />
       <StyleCrewHead />

@@ -217,7 +217,7 @@ const BeautyRead = () => {
               <p>
                 At SCENT Salon, we offer specially curated anti-aging regimens
                 featuring treatments like{" "}
-                <a href="https://scentlifestyle.com/beauty-essentialsF">
+                <a href="https://scentlifestyle.com/beauty-essentials">
                   mesotherapy
                 </a>
                 . These treatments are designed to rejuvenate your skin, reduce
