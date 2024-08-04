@@ -14,6 +14,7 @@ import HairBotoxHow from "./HairBotoxHow/HairBotoxHow";
 import HairBotoxBenefits from "./HairBotoxBenefits";
 import HairBotoxWho from "./HairBotoxWho/HairBotoxWho";
 import HairBotoxXp from "./HairBotoxXp";
+import HairServImg from "./HairServImg";
 const HairBotox = () => {
   return (
     <div className="hairTrim">
@@ -31,7 +32,7 @@ const HairBotox = () => {
       </Helmet>
       <NavBg />
       <div className="hairTrimContent">
-        <HairBotoxImg hairBotoxImg={HairBotox1} />
+        <HairBotoxImg />
         <InnerNavi
           link="/blog"
           service="Blog"
@@ -39,10 +40,11 @@ const HairBotox = () => {
         />
         <HairBotoxHead />
         <HairBotoxWhat />
-        <HairBotoxImg hairBotoxImg={HairBotox2} />
+        <HairServImg hairBotoxImg={HairBotox1} />
         <HairBotoxHow />
+        <HairServImg hairBotoxImg={HairBotox2} />
         <HairBotoxBenefits />
-        <HairBotoxImg hairBotoxImg={HairBotox3} />
+        <HairServImg hairBotoxImg={HairBotox3} />
         <HairBotoxWho />
         <HairBotoxXp />
       </div>

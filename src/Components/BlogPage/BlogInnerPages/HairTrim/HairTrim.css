@@ -20,6 +20,19 @@
 .hairTrimImg > img {
   width: 70%;
 }
+.hairTrimServImg > img {
+  width: 500px;
+  height: 500px;
+  border-radius: 100%;
+  object-fit: cover;
+  object-position: -100px;
+}
+.hairTrimServImg {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .hairTrimHead {
   /* border: solid blue; */
   width: 90%;
@@ -51,8 +64,9 @@
   font-size: 20px;
   text-align: justify;
 }
-.hairTrimHead > p>a{
-  text-decoration: none;color: var(--customColor);
+.hairTrimHead > p > a {
+  text-decoration: none;
+  color: var(--customColor);
 }
 .hairTrimHeadContent {
   width: 100%;
@@ -85,36 +99,36 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.hairTrimHeadContent > ul >li{
-font-size: 20px;
+.hairTrimHeadContent > ul > li {
+  font-size: 20px;
   margin: 10px;
 }
-.hairTrimHeadContent > ul >li>span{
-    color: var(--customColor);
-    font-weight: bold;
+.hairTrimHeadContent > ul > li > span {
+  color: var(--customColor);
+  font-weight: bold;
 }
-.hairTrimFaqContainer{
-    /* border: solid green; */
-    width: 90%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 20px;
+.hairTrimFaqContainer {
+  /* border: solid green; */
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
 }
-.hairTrimFaqContent{
-    /* border: solid red; */
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: column;
-    gap:5px ;
+.hairTrimFaqContent {
+  /* border: solid red; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 5px;
 }
-.hairTrimFaqContent>h3{
-    font-size: 20;
-    font-weight: bold;
+.hairTrimFaqContent > h3 {
+  font-size: 20;
+  font-weight: bold;
 }
-.hairTrimFaqContent>p{
-    font-size: 20px;
+.hairTrimFaqContent > p {
+  font-size: 20px;
 }

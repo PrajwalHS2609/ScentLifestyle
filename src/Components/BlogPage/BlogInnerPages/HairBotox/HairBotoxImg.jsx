@@ -1,10 +1,11 @@
 import React from "react";
-
-const HairBotoxImg = (props) => {
+import botoxVid from "./../../../../video/How Hair Botox Treatments Can Transform Your Tresses.mp4"
+import "./HairBotoxImg.css"
+const HairBotoxImg = () => {
   return (
-    <div className="hairTrimImg">
-      <img src={props.hairBotoxImg} alt="" />
-    </div>
+    <div className="hairBotoxVid">
+      <video  src={botoxVid} autoPlay loop muted />
+      </div>
   );
 };
 
