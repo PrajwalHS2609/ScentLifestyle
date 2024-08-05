@@ -17,9 +17,9 @@ const LastComp = () => {
       <div className="lastContent1">
         <div className="lastItem1" id="lastItem1">
           <div className="lastTxt1">
-            <h2>
+            <h3 >
               <Link to={"/service"}>Services</Link>
-            </h2>
+            </h3>
           </div>
           <div className="lastTxt2">
             <div className="lastTxt">
@@ -44,9 +44,9 @@ const LastComp = () => {
         </div>
         <div className="lastItem1" id="lastItem2">
           <div className="lastTxt1">
-            <h2>
+            <h3 >
               <Link to={"/about"}>About us</Link>
-            </h2>
+            </h3>
           </div>
           <div className="lastTxt2">
             <div className="lastTxt">
@@ -62,13 +62,15 @@ const LastComp = () => {
         </div>
         <div className="lastItem1" id="lastItem4">
           <div className="lastTxt1">
-            <h2>Work</h2>
+            <h3 >Work</h3>
           </div>
           <div className="lastTxt2">
             <div className="lastTxt">
               <Link to={"/salon-membership"}>Membership</Link>
             </div>
-            <div className="lastTxt"><Link to={"/shop"}>Shops</Link></div>
+            <div className="lastTxt">
+              <Link to={"/shop"}>Shops</Link>
+            </div>
             <div className="lastTxt">
               <Link to={"/franchise"}>Franchise</Link>
             </div>
@@ -76,9 +78,9 @@ const LastComp = () => {
         </div>
         <div className="lastItem1" id="lastItem5">
           <div className="lastTxt1" id="lastTxtTerms">
-            <h2>
+            <h3 >
               <Link to={"/terms"}>Terms</Link>{" "}
-            </h2>
+            </h3>
           </div>
           <div className="lastTxt2">
             <div className="lastTxt">
@@ -100,7 +102,7 @@ const LastComp = () => {
         </div>
         <div className="lastItem1" id="lastItem3">
           <div className="lastTxt1" id="socialTxt">
-            <h2>Social Media</h2>
+            <h3 >Social Media</h3>
           </div>
           <div className="socialBlocks">
             <div className="innerSocialBlocks">

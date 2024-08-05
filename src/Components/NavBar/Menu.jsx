@@ -215,6 +215,13 @@ const Menu = () => {
           </ul>
           <ul>
             <h2>
+              <Link onClick={hideSideBar} to={"/blog"}>
+                Blog
+              </Link>
+            </h2>
+          </ul>
+          <ul>
+            <h2>
               <Link onClick={hideSideBar} to={"/contact-us"}>
                 Contact Us
               </Link>

@@ -108,6 +108,7 @@ import HairSpa from "./Components/HairServicePage/HairInnerServicePage/HairSpa/H
 import HairTreatment from "./Components/HairServicePage/HairInnerServicePage/HairTreatment/HairTreatment";
 import BeardPage from "./Components/HairServicePage/HairInnerServicePage/BeardPage/BeardPage";
 import MustachePage from "./Components/HairServicePage/HairInnerServicePage/MustachePage/MustachePage";
+import Top10HairColor from "./Components/BlogPage/BlogInnerPages/Top10HairColor/Top10HairColor";
 
 const App = () => {
   return (
@@ -228,6 +229,10 @@ const App = () => {
           <Route
             path="/how-hair-botox-treatments-can-transform-your-tresses"
             element={<HairBotox />}
+          />
+          <Route
+            path="/top-10-trending-women-hair-colours-and-highlights-for-2024"
+            element={<Top10HairColor />}
           />
           <Route path="/pre-bridal-treatments" element={<PrebridalPackage />} />
 

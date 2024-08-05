@@ -48,12 +48,12 @@
   color: white;
   text-decoration: none;
 }
-.lastTxt1 > h2 {
+.lastTxt1 > h3 {
   font-size: 20px;
   color: white;
   font-weight: lighter;
 }
-#lastTxtTerms > a > h2 {
+#lastTxtTerms > a > h3 {
   font-size: 30px;
   color: white;
   font-weight: lighter;
@@ -149,15 +149,15 @@
   align-items: center;
 }
 
-.lastTxt1 > h2 > a {
+.lastTxt1 > h3 > a {
   text-decoration: none;
   color: white;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 320px) and (max-width: 768px) {
   .lastContainer {
     /* border: solid blue; */
-    height: 270vh;
+    height: 100%;
     width: 100%;
     justify-content: flex-start;
     align-items: center;
@@ -166,49 +166,36 @@
   }
   .lastContent1 {
     /* border: solid red; */
-    height: 90%;
+    height: 100%;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
-    gap: 2%;
+    gap: 10px;
     margin-top: 0px;
+    padding: 20px;
   }
 
   .lastItem1 {
     /* border: solid green; */
-    height: 300px;
-    width: 90%;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-direction: column;
-    gap: 15px;
-    margin-left: 30px;
-  }
-  #lastItem2 {
-    height: 200px;
-    margin-top: 35px;
-  }
-
-  #lastItem3 {
-    height: 100px;
-  }
-  #lastItem4 {
-    height: 150px;
+    height: 100%;
+    width: 100%;
+    gap: 20px;
+    padding: 20px;
   }
   .lastTxt1 {
     /* border: solid red; */
-    height: 100px;
+    height: 100%;
     width: 100%;
   }
-  .lastTxt1 > h2 {
-    font-size: 200%;
+  .lastTxt1 > h3 {
+    font-size: 20px;
+    font-weight: bold;
   }
   .lastTxt2 {
     /* border: solid green; */
-    height: 350px;
+    height: 100%;
     width: 100%;
     display: flex;
     justify-content: flex-start;
@@ -219,16 +206,16 @@
   .lastTxt {
     /* border: solid; */
     width: 100%;
-    font-size: 150%;
+    font-size: 20px;
     color: white;
   }
-  .lastTxt1 > h2 > a {
+  .lastTxt1 > h3 > a {
     color: white;
   }
   #lastItem3 {
     /* border: solid yellowgreen; */
-    height: 300px;
-    width: 80%;
+    height: 100%;
+    width: 100%;
     margin-top: 30px;
   }
   .lastContent2 {
@@ -240,12 +227,18 @@
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
+    padding: 20px;
   }
   .socialBlocks {
     /* border: solid pink; */
-    height: 80%;
+    height: 100%;
     width: 100%;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
   }
   #socialTxt {
     /* border: solid yellow; */
@@ -254,25 +247,29 @@
   .innerSocialBlocks {
     /* border: solid red; */
     height: 100%;
-    width: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
   }
   .lastIcon {
     /* border:solid purple; */
-    width: 60%;
-    height: 40%;
+    width: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
   }
   .block {
-    /* border: solid yellow; */
-    height: 33%;
-    width: 100%;
+    /* border: solid brown; */
+    height: 100%;
+    width: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  .lastTxt1 > a > h2 {
+  .lastTxt1 > a > h3 {
     text-decoration: none;
     color: white;
   }
@@ -306,7 +303,7 @@
     width: 100%;
   }
 }
-@media screen and (max-width: 990px) and (min-width: 600px) {
+@media screen and (max-width: 990px) and (min-width: 768px) {
   .lastContainer {
     /* border: solid blue; */
     height: 270vh;
@@ -355,7 +352,7 @@
     height: 100px;
     width: 100%;
   }
-  .lastTxt1 > h2 {
+  .lastTxt1 > h3 {
     font-size: 200%;
   }
   .lastTxt2 {
@@ -374,7 +371,7 @@
     font-size: 150%;
     color: white;
   }
-  .lastTxt1 > h2 > a {
+  .lastTxt1 > h3 > a {
     color: white;
   }
   #lastItem3 {
@@ -427,7 +424,7 @@
     justify-content: center;
     align-items: center;
   }
-  .lastTxt1 > a > h2 {
+  .lastTxt1 > a > h3 {
     text-decoration: none;
     color: white;
   }
@@ -511,12 +508,12 @@
     color: white;
     text-decoration: none;
   }
-  .lastTxt1 > h2 {
+  .lastTxt1 > h3 {
     font-size: 20px;
     color: white;
     font-weight: lighter;
   }
-  #lastTxtTerms > a > h2 {
+  #lastTxtTerms > a > h3 {
     font-size: 30px;
     color: white;
     font-weight: lighter;
@@ -603,12 +600,12 @@
     justify-content: flex-start;
     align-items: center;
   }
-  .lastTxt1 > h2 > a {
+  .lastTxt1 > h3 > a {
     text-decoration: none;
     color: white;
   }
 }
-@media screen and (max-width: 1440px) and (min-width: 1200px) {
+@media screen and (max-width: 1400px) and (min-width: 1200px) {
   .lastContainer {
     /* border: solid red; */
     height: 500px;
@@ -660,12 +657,12 @@
     color: white;
     text-decoration: none;
   }
-  .lastTxt1 > h2 {
+  .lastTxt1 > h3 {
     font-size: 20px;
     color: white;
     font-weight: lighter;
   }
-  #lastTxtTerms > a > h2 {
+  #lastTxtTerms > a > h3 {
     font-size: 30px;
     color: white;
     font-weight: lighter;
@@ -752,7 +749,7 @@
     justify-content: flex-start;
     align-items: center;
   }
-  .lastTxt1 > h2 > a {
+  .lastTxt1 > h3 > a {
     text-decoration: none;
     color: white;
   }
