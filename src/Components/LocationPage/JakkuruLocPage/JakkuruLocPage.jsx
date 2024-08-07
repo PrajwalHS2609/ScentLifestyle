@@ -40,20 +40,11 @@ const JakkuruLocPage = () => {
       <LocationCard
         map={<JakkuruLocMap />}
         head="Salon in Jakkur"
-        address="Dr.Shivaram Karanth Nagar, Jakkuru, Bengaluru, Karnataka 560077"
+        address="Dr.Shivaram Karanth Nagar, Jakkur, Bengaluru, Karnataka 560077"
         phone="+91 9742212700"
         PhoneLink="tel:9742212700"
       />
-      {/* <LocationArrow
-        leftLink={"/salon-in-lavelle-road"}
-        rightLink={"/salon-in-uptown-whitefield"}
-      />
-        <LocationHead
-          loc="Jakkur"
-          phone="+91-9742212700"
-          address="Dr.Shivaram Karanth Nagar, Jakkuru, Bengaluru, Karnataka 560077"
-          map={<JakkuruLocMap />}
-        /> */}
+
       <ServiceCardContain />
       <JakkuruLocAbout />
       <TextLocReviews />

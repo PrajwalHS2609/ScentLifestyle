@@ -151,7 +151,7 @@ const HairSalonSahakar = () => {
             <p>
               Ready to experience the best in hair care? Book your appointment
               at <span></span>
-              <Link to={"/hair-salon-in-sahakr-nagar"}>
+              <Link to={"/hair-salon-in-sahakar-nagar"}>
                 SCENT Hair Salon in Sahakar Nagar
               </Link>
               <span> </span>
@@ -162,7 +162,7 @@ const HairSalonSahakar = () => {
             <p>
               Visit us at <Link to={"/"}>SCENT </Link> and discover why we
               are the top choice for <span></span>
-              <Link to={"/hair-salon-in-sahakr-nagar"}>
+              <Link to={"/hair-salon-in-sahakar-nagar"}>
                 hair care in Sahakar Nagar
               </Link>
               . We look forward to welcoming you and helping you achieve your

@@ -1,3 +1,4 @@
 arrange salon videos to center in mobile ver
 images changes and download
-Add location Card to all locations except sahakar nagar
+add arrow to location resp
+hair spa,hair Treatment innerpage innercard resp

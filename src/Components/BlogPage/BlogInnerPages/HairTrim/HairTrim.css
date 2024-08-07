@@ -3,6 +3,7 @@
   width: 100%;
 }
 .hairTrimContent {
+  /* border: solid red; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,9 +16,24 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 10px;
 }
 .hairTrimImg > img {
   width: 70%;
+  border-radius: 10px;
+}
+.hairTrimServImg > img {
+  width: 60%;
+  height: 60%;
+  border-radius: 10px;
+  object-fit: cover;
+  /* object-position: -150px; */
+}
+.hairTrimServImg {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .hairTrimHead {
   /* border: solid blue; */
@@ -50,8 +66,9 @@
   font-size: 20px;
   text-align: justify;
 }
-.hairTrimHead > p>a{
-  text-decoration: none;color: var(--customColor);
+.hairTrimHead > p > a {
+  text-decoration: none;
+  color: var(--customColor);
 }
 .hairTrimHeadContent {
   width: 100%;
@@ -84,36 +101,61 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.hairTrimHeadContent > ul >li{
-font-size: 20px;
+.hairTrimHeadContent > ul > li {
+  font-size: 20px;
   margin: 10px;
 }
-.hairTrimHeadContent > ul >li>span{
-    color: var(--customColor);
-    font-weight: bold;
+.hairTrimHeadContent > ul > li > span {
+  color: var(--customColor);
+  font-weight: bold;
 }
-.hairTrimFaqContainer{
-    /* border: solid green; */
-    width: 90%;
+.hairTrimFaqContainer {
+  /* border: solid green; */
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.hairTrimFaqContent {
+  /* border: solid red; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 5px;
+}
+.hairTrimFaqContent > h3 {
+  font-size: 20;
+  font-weight: bold;
+}
+.hairTrimFaqContent > p {
+  font-size: 20px;
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .hairTrimHead {
+    /* border: solid blue; */
+    width: 100%;
+    padding: 10px;
+  }
+  .hairTrimImg > img {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+  }
+  .hairTrimServImg > img {
+    /* border: solid; */
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+  }
+  .hairTrimServImg {
+    /* border: solid; */
+    min-width: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    gap: 20px;
-}
-.hairTrimFaqContent{
-    /* border: solid red; */
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: column;
-    gap:5px ;
-}
-.hairTrimFaqContent>h3{
-    font-size: 20;
-    font-weight: bold;
-}
-.hairTrimFaqContent>p{
-    font-size: 20px;
+  }
 }

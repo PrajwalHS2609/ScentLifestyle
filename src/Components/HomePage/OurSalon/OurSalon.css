@@ -9,6 +9,16 @@
   align-items: center;
   flex-direction: column;
   gap: 20px;
+  position: relative;
+  overflow: hidden;
+}
+.salonContainer > img {
+  /* border: solid; */
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  right:-350px;
+  z-index: -1;
 }
 .salonContent1 {
   /* border: solid; */
@@ -63,17 +73,19 @@
 .salonContent3 > a {
   display: flex;
   justify-content: space-evenly;
-  align-items: center;gap: 10px;
+  align-items: center;
+  gap: 10px;
 }
 .salonContent3 > a > p {
   font-size: 16px;
   letter-spacing: 1px;
   font-weight: lighter;
   text-decoration: underline;
-  cursor: pointer;color: var(--customRed);
+  cursor: pointer;
+  color: var(--customRed);
   font-weight: bold;
 }
-.salonIcon{
+.salonIcon {
   color: var(--customRed);
 }
 @media only screen and (max-width: 600px) {

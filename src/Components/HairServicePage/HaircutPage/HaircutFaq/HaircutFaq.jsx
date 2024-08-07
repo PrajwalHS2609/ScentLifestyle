@@ -3,8 +3,10 @@ import "./HaircutFaq.css";
 const HaircutFaq = () => {
   return (
     <div className="haircutFaqContainer">
-      <h2>FAQ's</h2>
-      <h2>Discover the Best Haircut and Hairstyling Salon in Bangalore</h2>
+      <h2>
+        FAQ's <br />
+        Discover the Best Haircut and Hairstyling Salon in Bangalore
+      </h2>
       <ul>
         <li>
           <span>How can I determine my face shape for a haircut?</span>
@@ -33,10 +35,10 @@ const HaircutFaq = () => {
         <li>
           <span>How long does a haircut take?</span>
           <p>
-            A women’s haircut at SCENT  may take around one to one and a
-            half hours depending on the type and length of your hair. Book an
-            appointment at your nearest SCENT  for a free consultation with
-            our experts and get a trendy hairstyle.
+            A women’s haircut at SCENT may take around one to one and a half
+            hours depending on the type and length of your hair. Book an
+            appointment at your nearest SCENT for a free consultation with our
+            experts and get a trendy hairstyle.
           </p>
         </li>
         <li>

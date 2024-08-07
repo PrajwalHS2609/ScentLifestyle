@@ -4,7 +4,9 @@ const InnerServiceTxt = (props) => {
   return (
     <div className="innerServiceTxtContainer">
       <div className="innerServiceTxtHeadContainer">
-        <h2>{props.head}</h2>
+        <h1>{props.head}</h1>
+        <h2>{props.head2}</h2>
+
         <div className="innerServiceTxtUnderline"></div>
       </div>
       <div className="innerServiceTxtParaContainer">

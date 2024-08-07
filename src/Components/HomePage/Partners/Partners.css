@@ -10,6 +10,14 @@
   align-items: center;
   flex-direction: column;
   margin-top: 100px;
+position: relative;
+}
+.partnerContainer>img{
+  /* border: solid; */
+  height:100% ;
+  width: 60%;
+position: absolute;
+right: 0;
 }
 #partnerContent1 {
   /* border: solid yellowgreen; */

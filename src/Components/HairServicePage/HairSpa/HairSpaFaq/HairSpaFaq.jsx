@@ -3,8 +3,10 @@ import "./HairSpaFaq.css";
 const HairSpaFaq = () => {
   return (
     <div className="haircutFaqContainer">
-      <h2>FAQ's</h2>
-      <h3>Find the Best Hair Spa Services Near You</h3>
+      <h2>
+        FAQ's <br />
+        Find the Best Hair Spa Services Near You
+      </h2>
       <ul>
         <li>
           <span>What is a hair spa?</span>
@@ -30,7 +32,7 @@ const HairSpaFaq = () => {
             The duration of a hair spa can vary depending on the salon and the
             specific treatment chosen. Generally, a hair spa session can last
             anywhere from 30 minutes to 2 hours. If you’re searching for a “hair
-            spa near me”, Scent  has 6 locations in Bangalore, so you can
+            spa near me”, Scent has 6 locations in Bangalore, so you can
             definitely find one near you.
           </p>
         </li>
@@ -50,7 +52,7 @@ const HairSpaFaq = () => {
             for deep conditioning, while hair spas are more comprehensive
             treatments that can include scalp treatments, massages, and other
             services. Wondering if hair spa treatments are worth the investment?
-            The hair spa prices at Scent  range from Rs.1200 onwards.
+            The hair spa prices at Scent range from Rs.1200 onwards.
           </p>
         </li>
         <li>
@@ -59,9 +61,9 @@ const HairSpaFaq = () => {
             Yes, certain hair spa treatments can help treat dandruff. Some hair
             spas may include scalp treatments that can help exfoliate dead skin
             cells and remove buildup. If you’re looking for a dandruff treatment
-            at a salon, book an appointment at Scent  for a free
-            consultation with one of our experts to guide you with a customized
-            hair spa to treat different hair concerns.
+            at a salon, book an appointment at Scent for a free consultation
+            with one of our experts to guide you with a customized hair spa to
+            treat different hair concerns.
           </p>
         </li>
       </ul>

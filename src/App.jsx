@@ -26,12 +26,6 @@ import UpTownLocPage from "./Components/LocationPage/UpTownLocPage/UpTownLocPage
 import MeadowsLocPage from "./Components/LocationPage/MeadowsLocPage/MeadowsLocPage";
 import Jp from "./Components/LocationPage/Jp/Jp";
 import ContactPage from "./Components/ContactPage/ContactPage";
-import Haircut from "./Components/HairServicePage/HaircutPage/Haircut";
-import HairColor from "./Components/HairServicePage/HairColorPage/HairColor";
-import HairSpa from "./Components/HairServicePage/HairSpa/HairSpa";
-import BeardStyle from "./Components/HairServicePage/BeardStylePage/BeardStyle";
-import HairTreatment from "./Components/HairServicePage/HairTreatment/HairTreatment";
-import Mustache from "./Components/HairServicePage/Mustache/Mustache";
 import HairSalonSahakar from "./Components/HairSalonLocations/HairSalonSahakar/HairSalonSahakar";
 import HairSalonLavelle from "./Components/HairSalonLocations/HairSalonLavelle/HairSalonLavelle";
 import HairSalonJakkur from "./Components/HairSalonLocations/HairSalonJakkur/HairSalonJakkur";
@@ -109,6 +103,12 @@ import BalineseseSpa from "./Components/Spa/SpaInnerPage/BalineseseSpa/Balineses
 import LashesExtension from "./Components/Lashes/LashesInnerPage/LashesExtension/LashesExtension";
 import Top10HairColor from "./Components/BlogPage/BlogInnerPages/Top10HairColor/Top10HairColor";
 import HairBotox from "./Components/BlogPage/BlogInnerPages/HairBotox/HairBotox";
+import HairCut from "./Components/HairServicePage/HairInnerServicePage/HairCut/HairCut";
+import HairColor from "./Components/HairServicePage/HairInnerServicePage/HairColor/HairColor";
+import HairSpa from "./Components/HairServicePage/HairInnerServicePage/HairSpa/HairSpa";
+import HairTreatment from "./Components/HairServicePage/HairInnerServicePage/HairTreatment/HairTreatment";
+import BeardPage from "./Components/HairServicePage/HairInnerServicePage/BeardPage/BeardPage";
+import MustachePage from "./Components/HairServicePage/HairInnerServicePage/MustachePage/MustachePage";
 
 const App = () => {
   return (
@@ -120,12 +120,12 @@ const App = () => {
           <Route path="/" element={<HomePage />} />
           <Route path="/service" element={<MainServicePage />} />
           <Route path="/hair-salon" element={<HairServicePage />} />
-          <Route path="/haircut-and-styling" element={<Haircut />} />
+          <Route path="/haircut-and-styling" element={<HairCut />} />
           <Route path="/hair-highlights-and-streaks" element={<HairColor />} />
           <Route path="/hair-spa" element={<HairSpa />} />
           <Route path="/hair-treatments" element={<HairTreatment />} />
-          <Route path="/beard" element={<BeardStyle />} />
-          <Route path="/mustache-styling" element={<Mustache />} />
+          <Route path="/beard" element={<BeardPage />} />
+          <Route path="/mustache-styling" element={<MustachePage />} />
           <Route path="/nails-salon" element={<NailSalonPage />} />
           <Route path="/facial" element={<FacialPage />} />
           <Route path="/beauty-essentials" element={<BeautyPage />} />

@@ -1,0 +1,59 @@
+.hairCutWhyContainer {
+  /* border: solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  padding: 30px;
+}
+.hairCutWhyContainer > h5 {
+  font-size: 25px;
+  color: var(--customColor);
+  text-align: center;
+  width: 100%;
+}
+.hairCutWhyContainer > p {
+  font-size: 20px;
+  width: 100%;
+  text-align: justify;
+}
+.hairCutWhyContainer > p > a {
+  color: var(--customColor);
+  text-decoration: none;
+}
+.hairCutWhyContainer > ul > li > p > a {
+  text-decoration: none;
+  color: var(--customColor);
+}
+.hairCutWhyContainer > ul > li {
+  list-style: none;
+  font-size: 20px;
+  text-align: justify;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 10px;
+  width: 90%;
+}
+.hairCutWhyContainer > ul > li > span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: var(--customColor);
+  text-align: start;
+}
+.hairCutWhyContainer > ul > li > span > img {
+  width: 20px;
+  height: 20px;
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .hairCutWhyContainer {
+    /* border: solid red; */
+    padding: 5px;
+  }
+}

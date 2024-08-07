@@ -1,0 +1,79 @@
+.hairSpaServiceContainer {
+  /* border: solid red; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 30px;
+}
+.hairSpaServiceContainer > h1 {
+  color: var(--customColor);
+  width: 100%;
+  text-align: center;
+}
+.hairSpaServiceContainer > h2 {
+  color: var(--customColor);
+  text-align: center;
+  width: 100%;
+  font-size: 25px;
+}
+.hairSpaServiceContainer > h3 {
+  color: var(--customColor);
+  text-align: start;
+  width: 100%;
+  font-size: 25px;
+}
+.hairSpaServiceContainer > h4 {
+  color: var(--customColor);
+  text-align: start;
+  width: 100%;
+  font-size: 25px;
+}
+.hairSpaServiceContainer > h5 {
+  color: var(--customColor);
+  text-align: start;
+  width: 100%;
+  font-size: 25px;
+}
+.hairSpaServiceContainer > p {
+  text-align: justify;
+  font-size: 20px;
+}
+.hairSpaServiceContainer > p > a {
+  color: var(--customColor);
+  text-decoration: none;
+}
+.hairSpaServiceContent {
+  /* border: solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .hairHeadContainer > h2 {
+    text-align: center;
+    font-size: 20px;
+  }
+  .hairHeadContainer > h3 {
+    text-align: center;
+    font-size: 20px;
+  }
+  .hairHeadContainer > h4 {
+    text-align: center;
+    font-size: 20px;
+  }
+  .hairHeadContainer > h5 {
+    text-align: center;
+    font-size: 20px;
+  }
+  .hairSpaServiceContent {
+    /* border: solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
