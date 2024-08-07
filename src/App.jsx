@@ -109,6 +109,22 @@ import HairSpa from "./Components/HairServicePage/HairInnerServicePage/HairSpa/H
 import HairTreatment from "./Components/HairServicePage/HairInnerServicePage/HairTreatment/HairTreatment";
 import BeardPage from "./Components/HairServicePage/HairInnerServicePage/BeardPage/BeardPage";
 import MustachePage from "./Components/HairServicePage/HairInnerServicePage/MustachePage/MustachePage";
+import NavBg from "./Components/NavBg/NavBg";
+import HairKeratin from "./Components/BlogPage/BlogInnerPages/HairKeratin/HairKeratin";
+const NotFound = () => (
+  <div
+    style={{
+      fontSize: "100px",
+      width: "100%",
+      textAlign: "center",
+      backgroundColor: "grey",
+      height: "100vh",
+    }}
+  >
+    <NavBg />
+    Page Not Found
+  </div>
+);
 
 const App = () => {
   return (
@@ -117,6 +133,7 @@ const App = () => {
         <MainLayout />
         <ScrollTo />
         <Routes>
+          <Route path="*" element={<NotFound />} />
           <Route path="/" element={<HomePage />} />
           <Route path="/service" element={<MainServicePage />} />
           <Route path="/hair-salon" element={<HairServicePage />} />
@@ -233,6 +250,10 @@ const App = () => {
           <Route
             path="/top-10-trending-women-hair-colours-and-highlights-for-2024"
             element={<Top10HairColor />}
+          />
+          <Route
+            path="/why-you-should-consider-keratin-hair-treatment"
+            element={<HairKeratin />}
           />
           <Route path="/pre-bridal-treatments" element={<PrebridalPackage />} />
 

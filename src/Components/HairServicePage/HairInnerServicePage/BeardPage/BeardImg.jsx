@@ -3,7 +3,7 @@ import beardImg from "./../../../../Images/HairSalonInnerPage/BEARD STYLING.png"
 
 const BeardImg = () => {
   return (
-    <div className="hairBotoxVid">
+    <div className="haircutImg">
       <img src={beardImg} alt="beardImg" />
     </div>
   )

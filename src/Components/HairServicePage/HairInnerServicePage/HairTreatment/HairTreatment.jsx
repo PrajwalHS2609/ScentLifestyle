@@ -3,14 +3,6 @@ import { Helmet } from "react-helmet";
 import NavBg from "../../../NavBg/NavBg";
 import LastComp from "../../../LastComp/LastComp";
 import WhatsApp from "../../../HomePage/WhatsApp/WhatsApp";
-import BeautyRead from "../../../Beauty/BeautyRead/BeautyRead";
-import ServiceWhy from "../../../MainServicePages/ServiceWhy/ServiceWhy";
-import TextLocReviews from "../../../TextLocReviews/TextLocReviews";
-import HelpNearYou from "../../../Help/HelpNearYou";
-import InstaFeed from "../../../HomePage/InstaFeed/InstaFeed";
-import Partners from "../../../HomePage/Partners/Partners";
-import OurSalon from "../../../HomePage/OurSalon/OurSalon";
-import Members from "../../../HomePage/Members/Members";
 import HairTreatmentBook from "./HairTreatmentBook";
 import HairTreatmentWhy from "./HairTreatmentWhy";
 import HairTreatmentXp from "./HairTreatmentXp";
@@ -48,14 +40,7 @@ const HairTreatment = () => {
       <HairTreatmentXp />
       <HairTreatmentWhy />
       <HairTreatmentBook />
-      <Members />
-      <OurSalon />
-      <Partners />
-      <InstaFeed />
-      <HelpNearYou />
-      <TextLocReviews />
-      <ServiceWhy />
-      <BeautyRead />
+    
       <WhatsApp />
       <LastComp />
     </div>

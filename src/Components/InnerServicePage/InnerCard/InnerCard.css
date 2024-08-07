@@ -4,20 +4,19 @@
 
 .innerCardContainer {
   border: 2px solid;
-  width: 90%;
-  height: 210px;
+  width: 30%;
+  height: 250px;
   border-radius: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  position: relative;
-  margin: 10px;
+  margin: 30px;
 }
 .innerCardContent {
   /* border: solid blue; */
   width: 90%;
-  height: 150px;
+  height: 80%;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
@@ -26,22 +25,23 @@
 }
 .innerCardContent > h2 {
   color: var(--customRed);
+  font-size: 20px;
 }
 
 .innerCardContent > h2 > span {
-  color: var(--customRed);  font-size:15px ;
-
+  color: var(--customRed);
+  font-size: 15px;
+  text-align: justify;
 }
 .innerCardContent > h2 > span > span {
   font-weight: lighter;
 }
-.innerCardContent>p{
+.innerCardContent > p {
   text-align: justify;
 }
 .innerCardGoto {
   /* border: solid; */
-  position: absolute;
-  bottom: -20px;
+  margin-bottom: -50px;
   height: 40px;
   width: 90%;
   border-radius: 5px;
@@ -51,7 +51,8 @@
   align-items: center;
 }
 .innerCardGoto > a {
-  width: 100%;text-decoration: none;
+  width: 100%;
+  text-decoration: none;
 }
 .innerCardGoto > a > p {
   /* border: solid black; */
@@ -64,8 +65,12 @@
   color: var(--customRed);
   background-color: white;
 }
+.innerCardGoto:hover .innerCardPara{
+  /* border: solid; */
+  color: var(--customRed);
+}
 
-@media screen and (min-width: 320px) and (max-width:768px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   .innerCardContainer {
     border: 2px solid;
     width: 300px;
@@ -75,7 +80,6 @@
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
-    position: relative;
     margin: 20px;
   }
   .innerCardContent {
@@ -91,12 +95,10 @@
   .innerCardContent > h2 {
     font-size: 120%;
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 
   .innerCardGoto {
     /* border: solid; */
-    position: absolute;
     bottom: -20px;
     height: 30px;
     width: 90%;
@@ -114,9 +116,8 @@
     color: white;
     margin-left: 10px;
   }
-
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 990px) {
   .innerCardContainer {
     border: solid;
     height: 100%;
@@ -132,7 +133,6 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    position: relative;
     margin: 30px;
   }
   .innerCardContent {
@@ -158,7 +158,6 @@
   }
   .innerCardGoto {
     /* border: solid; */
-    position: absolute;
     bottom: -20px;
     height: 40px;
     width: 90%;
@@ -183,113 +182,5 @@
   }
   .innerCardGoto:hover p {
     color: var(--customRed);
-  }
-}
-@media screen and (min-width: 990px) {
-  .innerCardContainer {
-    border: 2px solid;
-    width: 420px;
-    height: 210px;
-    border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    position: relative;
-    margin: 20px;
-  }
-  .innerCardContent {
-    /* border: solid blue; */
-    width: 90%;
-    height: 150px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  .innerCardContent > h2 {
-    font-size: 120%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
-
-  .innerCardGoto {
-    /* border: solid; */
-    position: absolute;
-    bottom: -20px;
-    height: 40px;
-    width: 90%;
-    border-radius: 5px;
-    background-color: var(--customRed);
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-  }
-  .innerCardGoto > a {
-    width: 100%;
-  }
-  .innerCardGoto > a > p {
-    font-size: 120%;
-    color: white;
-    margin-left: 10px;
-  }
-  .innerCardGoto:hover {
-    border: solid;
-    color: var(--customRed);
-    background-color: white;
-  }
-  .innerCardGoto:hover p {
-    color: var(--customRed);
-  }
-}
-@media screen and (min-width: 1200px) {
-  .innerCardContainer {
-    border: 2px solid;
-    width: 420px;
-    height: 210px;
-    border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    position: relative;
-    margin: 40px;
-  }
-  .innerCardContent {
-    /* border: solid blue; */
-    width: 90%;
-    height: 150px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  .innerCardGoto {
-    /* border: solid; */
-    position: absolute;
-    bottom: -20px;
-    height: 40px;
-    width: 90%;
-    border-radius: 5px;
-    background-color: var(--customRed);
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-  }
-  .innerCardGoto > a {
-    width: 100%;
-  }
-  .innerCardGoto > a > p {
-    font-size: 120%;
-    color: white;
-    margin-left: 10px;
-  }
-  .innerCardGoto:hover {
-    border: solid;
-    color: var(--customRed);
-    background-color: white;
   }
 }

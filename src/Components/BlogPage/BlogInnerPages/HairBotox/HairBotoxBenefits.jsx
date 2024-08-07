@@ -9,7 +9,7 @@ const HairBotoxBenefits = () => {
         the appearance and feel of your hair. Here are some of the key
         advantages of this revolutionary treatment:
       </p>
-      <p>The procedure typically involves the following steps::</p>
+      <p>The procedure typically involves the following steps:</p>
       <li>
         <h6>Smooths and Eliminates Frizz:</h6>One of the primary{" "}
         <a href="https://scentlifestyle.com/how-hair-botox-treatments-can-transform-your-tresses">

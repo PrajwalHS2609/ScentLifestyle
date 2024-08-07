@@ -1,6 +1,5 @@
 import React from "react";
 import DeepSpaHead from "./DeepSpaHead";
-import DeepSpaWhy from "./DeepSpaWhy";
 import DeepSpaBenefits from "./DeepSpaBenefits";
 import InnerNavi from "../../../InnerServicePage/InnerNavi/InnerNavi";
 import { Helmet } from "react-helmet";
@@ -49,7 +48,6 @@ const DeepSpa = () => {
       <DeepSpaWellness />
       <DeepSpaCustomer />
       <DeepSpaBook />
-      <DeepSpaWhy />
       <Members />
       <OurSalon />
       <Partners />

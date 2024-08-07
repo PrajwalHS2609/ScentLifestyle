@@ -1,17 +1,8 @@
 import React from "react";
 import MustacheHead from "./MustacheHead";
 import MustacheWhy from "./MustacheWhy";
-import MustacheService from "./MustacheService";
 import MustacheBook from "./MustacheBook";
 import MustacheXp from "./MustacheXp";
-import Members from "../../../HomePage/Members/Members";
-import OurSalon from "../../../HomePage/OurSalon/OurSalon";
-import Partners from "../../../HomePage/Partners/Partners";
-import InstaFeed from "../../../HomePage/InstaFeed/InstaFeed";
-import HelpNearYou from "../../../Help/HelpNearYou";
-import TextLocReviews from "../../../TextLocReviews/TextLocReviews";
-import ServiceWhy from "../../../MainServicePages/ServiceWhy/ServiceWhy";
-import BeautyRead from "../../../Beauty/BeautyRead/BeautyRead";
 import WhatsApp from "../../../HomePage/WhatsApp/WhatsApp";
 import LastComp from "../../../LastComp/LastComp";
 import InnerNavi from "../../../InnerServicePage/InnerNavi/InnerNavi";
@@ -43,17 +34,9 @@ const MustachePage = () => {
       />
       <MustacheHead />
       <MustacheWhy />
-      <MustacheService />
       <MustacheXp />
       <MustacheBook />
-      <Members />
-      <OurSalon />
-      <Partners />
-      <InstaFeed />
-      <HelpNearYou />
-      <TextLocReviews />
-      <ServiceWhy />
-      <BeautyRead />
+
       <WhatsApp />
       <LastComp />
     </div>

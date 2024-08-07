@@ -7,14 +7,6 @@ import HairCutXp from "./HairCutXp";
 import HairCutBook from "./HairCutBook";
 import LastComp from "../../../LastComp/LastComp";
 import WhatsApp from "../../../HomePage/WhatsApp/WhatsApp";
-import BeautyRead from "../../../Beauty/BeautyRead/BeautyRead";
-import ServiceWhy from "../../../MainServicePages/ServiceWhy/ServiceWhy";
-import TextLocReviews from "../../../TextLocReviews/TextLocReviews";
-import HelpNearYou from "../../../Help/HelpNearYou";
-import InstaFeed from "../../../HomePage/InstaFeed/InstaFeed";
-import Partners from "../../../HomePage/Partners/Partners";
-import OurSalon from "../../../HomePage/OurSalon/OurSalon";
-import Members from "../../../HomePage/Members/Members";
 import NavBg from "../../../NavBg/NavBg";
 import HairCutImg from "./HairCutImg/HairCutImg";
 
@@ -44,14 +36,6 @@ const HairCut = () => {
       <HairCutWhy />
       <HairCutXp />
       <HairCutBook />
-      <Members />
-      <OurSalon />
-      <Partners />
-      <InstaFeed />
-      <HelpNearYou />
-      <TextLocReviews />
-      <ServiceWhy />
-      <BeautyRead />
       <WhatsApp />
       <LastComp />
     </div>

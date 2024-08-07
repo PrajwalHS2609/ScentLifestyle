@@ -1,4 +1,12 @@
 import React from "react";
+import HairTreatmentService from "./HairTreatmentService";
+import Members from "../../../HomePage/Members/Members";
+import OurSalon from "../../../HomePage/OurSalon/OurSalon";
+import Partners from "../../../HomePage/Partners/Partners";
+import InstaFeed from "../../../HomePage/InstaFeed/InstaFeed";
+import HelpNearYou from "../../../Help/HelpNearYou";
+import TextLocReviews from "../../../TextLocReviews/TextLocReviews";
+import ServiceWhy from "../../../MainServicePages/ServiceWhy/ServiceWhy";
 
 const HairTreatmentHead = () => {
   return (
@@ -18,6 +26,14 @@ const HairTreatmentHead = () => {
         <a href="https://scentlifestyle.com/hair-treatments">Hair Treatment Services in Bangalore</a>, ensuring your hair
         looks and feels its best.
       </p>
+      <HairTreatmentService/>
+      <Members />
+      <OurSalon />
+      <Partners />
+      <InstaFeed />
+      <HelpNearYou />
+      <TextLocReviews />
+      <ServiceWhy />
       <h3>The Importance of Professional Hair Treatments in Bangalore</h3>
       <p>
         Professional <a href="https://scentlifestyle.com/hair-salon">Hair Treatments in Bangalore</a> are essential
