@@ -8,7 +8,10 @@ const NailGelerationCustomer = () => {
         Our clients love the nail geleration services at SCENT. Here are some of
         their testimonials:
       </p>
-      <div className="gelNailArtTestimonialContent">
+      <div
+        className="gelNailArtTestimonialContent"
+        id="gelNailArtTestimonialContent"
+      >
         <p>
           <span className="quote">"</span>SCENT is the best place for nail
           geleration in Bangalore. The quality of service is exceptional, and my

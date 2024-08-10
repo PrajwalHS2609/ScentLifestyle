@@ -1,0 +1,72 @@
+.BotoxLandingAbout {
+  /* border: solid red; */
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(67, 67, 67);
+}
+.BotoxLandingAboutCarousel {
+  /* border: solid brown; */
+  width: 100%;
+}
+#BotoxLandingAboutContent1 > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+.BotoxLandingAboutContent {
+  /* border: solid blue; */
+  width: 50%;
+  height: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+#BotoxLandingAboutContent2 > h2 {
+  color: var(--customColor);
+  font-size: 30px;
+}
+#BotoxLandingAboutContent2 > p {
+  width: 90%;
+  font-size: 20px;
+  text-align: justify;
+  color: white;
+}
+#BotoxLandingAboutContent2 > a > button {
+  border: none;
+  width: 200px;
+  height: 40px;
+  background-color: var(--customColor);
+  color: white;
+  font-size: 20px;
+  letter-spacing: 1px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+#BotoxLandingAboutContent2 > a > button:hover {
+  border: solid var(--customColor);
+  color: var(--customColor);
+  background-color: rgb(67, 67, 67);
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .BotoxLandingAbout {
+    /* border: solid red; */
+    width: 100%;
+    padding: 10px;
+    flex-direction: column;
+  }
+  .BotoxLandingAboutContent {
+    /* border: solid blue; */
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    gap: 20px;
+  }
+}

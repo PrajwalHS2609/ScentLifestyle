@@ -3,7 +3,7 @@ import React from "react";
 const BalineseseSpaBenefits = () => {
   return (
     <div className="headSpaBenefitsContainer">
-      <h3>The Benefits of Balinese Massage in Bangalore at SCENTF</h3>
+      <h3>The Benefits of Balinese Massage in Bangalore at SCENT</h3>
       <p>
         Balinese massage offers a multitude of benefits that go beyond simple
         relaxation. At SCENT, clients can experience these benefits through

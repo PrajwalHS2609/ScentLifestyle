@@ -28,7 +28,7 @@ const Work = () => {
             </p>
           </div>
           <div className="workContentTxt3">
-            <pre>VIEW OUR WORK </pre>
+            <p>VIEW OUR WORK </p>
             <FontAwesomeIcon
               icon={faAngleRight}
               className="workIcon"

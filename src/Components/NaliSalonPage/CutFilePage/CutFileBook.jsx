@@ -6,7 +6,7 @@ const CutFileBook = () => {
       <h5>Book Your Candle Spa Manicure Today</h5>
       <p>
         Ready to treat yourself to the ultimate nail care experience? Book your
-        <a href="https://scentlifestyle.com/nails-cut-and-file">Nails Cut & File in Bangalore at SCENT today</a>. Whether
+        <a href="https://scentlifestyle.com/nails-cut-and-file"> Nails Cut & File in Bangalore at SCENT today</a>. Whether
         you're looking to maintain your nails' health and appearance or prepare
         for a special occasion, our{" "}
         <a href="https://scentlifestyle.com/nails-salon"> Nails Cut & File in Bangalore</a> is the perfect choice.

@@ -65,7 +65,7 @@
   color: var(--customRed);
   background-color: white;
 }
-.innerCardGoto:hover .innerCardPara{
+.innerCardGoto:hover .innerCardPara {
   /* border: solid; */
   color: var(--customRed);
 }
@@ -73,48 +73,14 @@
 @media screen and (min-width: 320px) and (max-width: 768px) {
   .innerCardContainer {
     border: 2px solid;
-    width: 300px;
-    height: 30vh;
+    min-width: 300px;
+    height: 250px;
     border-radius: 5px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-direction: column;
-    margin: 20px;
-  }
-  .innerCardContent {
-    /* border: solid blue; */
-    width: 95%;
-    height: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 20px;
-  }
-  .innerCardContent > h2 {
-    font-size: 120%;
-    text-align: center;
-  }
-
-  .innerCardGoto {
-    /* border: solid; */
-    bottom: -20px;
-    height: 30px;
-    width: 90%;
-    border-radius: 5px;
-    background-color: var(--customRed);
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-  }
-  .innerCardGoto > a {
-    width: 100%;
-  }
-  .innerCardGoto > a > p {
-    font-size: 100%;
-    color: white;
-    margin-left: 10px;
+    margin: 30px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 990px) {

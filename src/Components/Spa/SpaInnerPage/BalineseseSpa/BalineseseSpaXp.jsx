@@ -17,7 +17,7 @@ const BalineseseSpaXp = () => {
         immediately calms the senses.
       </p>
       <p>
-        The therapists at SCENT are highly trained and skilled in the art of
+        The therapists at SCENT are highly trained and skilled in the art of{" "}
         <a href="https://scentlifestyle.com/balinese-massage-in-bangalore">
           Balinese massage
         </a>

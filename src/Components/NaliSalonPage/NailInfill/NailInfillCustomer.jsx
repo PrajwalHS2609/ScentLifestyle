@@ -8,7 +8,7 @@ const NailInfillCustomer = () => {
         Our clients love the nail extension infill services at SCENT. Here are
         some of their testimonials:
       </p>
-      <div className="gelNailArtTestimonialContent">
+      <div className="gelNailArtTestimonialContent" id="gelNailArtTestimonialContent">
         <p>
           <span className="quote">"</span> SCENT is the best place for nail
           extension infill in Bangalore. The service is always top-notch, and my

@@ -11,7 +11,7 @@ const FrenchGelerationCustomer = () => {
         </a>
         . Here are some of their testimonials:
       </p>
-      <div className="gelNailArtTestimonialContent">
+      <div className="gelNailArtTestimonialContent" id="gelNailArtTestimonialContent">
         <p>
           <span className="quote">"</span> SCENT is the best place for French
           nail geleration in Bangalore. The service is impeccable, and my nails
@@ -51,7 +51,7 @@ const FrenchGelerationCustomer = () => {
         <a href="https://scentlifestyle.com/french-nail-geleration">
           French nail geleration in Bangalore
         </a>
-        . Visit us today and discover the difference that professional
+        . Visit us today and discover the difference that professional{" "}
         <a href="https://scentlifestyle.com/french-nail-geleration">
           French nail geleration
         </a>{" "}

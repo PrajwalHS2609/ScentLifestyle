@@ -6,7 +6,7 @@ const AromaSpaOffering = () => {
       <h2>The Unique Offerings of SCENT for Aroma Massage in Bangalore</h2>
       <p>
         SCENT stands out as a premier destination for{" "}
-        <a href="aromatherapy">aroma massage in Bangalore</a>
+        <a href="aromatherapy">aroma massage in Bangalore </a>
         due to its commitment to excellence and attention to detail. The salon
         uses only the highest quality essential oils, ensuring that clients
         receive the full therapeutic benefits of the treatment. The oils are

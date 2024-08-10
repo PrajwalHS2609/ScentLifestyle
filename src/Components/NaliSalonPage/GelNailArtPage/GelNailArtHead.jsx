@@ -1,6 +1,13 @@
 import React from "react";
 import GelServices from "./GelServices";
 import InnerNavi from "../../InnerServicePage/InnerNavi/InnerNavi";
+import Members from "../../HomePage/Members/Members";
+import OurSalon from "../../HomePage/OurSalon/OurSalon";
+import InstaFeed from "../../HomePage/InstaFeed/InstaFeed";
+import Partners from "../../HomePage/Partners/Partners";
+import HelpNearYou from "../../Help/HelpNearYou";
+import TextLocReviews from "../../TextLocReviews/TextLocReviews";
+import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
 
 const GelNailArtHead = () => {
   return (
@@ -28,6 +35,13 @@ const GelNailArtHead = () => {
       </div>
 
       <GelServices />
+      <Members />
+      <OurSalon />
+      <Partners />
+      <InstaFeed />
+      <HelpNearYou />
+      <TextLocReviews />
+      <ServiceWhy />
       <div className="nailExtensionHeading">
         <h2>What is Gel Nail Art?</h2>
         <p>

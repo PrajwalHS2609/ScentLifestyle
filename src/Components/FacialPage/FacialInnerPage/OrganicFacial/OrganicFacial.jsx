@@ -8,13 +8,6 @@ import OrganicFacialDiff from "./OrganicFacialDiff/OrganicFacialDiff";
 import OrganicFacialProcess from "./OrganicFacialProcess/OrganicFacialProcess";
 import OrganicFacialCustomer from "./OrganicFacialCustomer/OrganicFacialCustomer";
 import OrganicFacialBook from "./OrganicFacialBook/OrganicFacialBook";
-import Members from "./../../../HomePage/Members/Members";
-import OurSalon from "../../../HomePage/OurSalon/OurSalon";
-import Partners from "./../../../HomePage/Partners/Partners";
-import InstaFeed from "../../../HomePage/InstaFeed/InstaFeed";
-import HelpNearYou from "../../../Help/HelpNearYou";
-import TextLocReviews from "../../../TextLocReviews/TextLocReviews";
-import ServiceWhy from "../../../MainServicePages/ServiceWhy/ServiceWhy";
 import WhatsApp from "../../../HomePage/WhatsApp/WhatsApp";
 import LastComp from "../../../LastComp/LastComp";
 import OrganicFacialImg from "./OrganicFacialImg/OrganicFacialImg";
@@ -44,13 +37,6 @@ const OrganicFacial = () => {
       <OrganicFacialProcess />
       <OrganicFacialCustomer />
       <OrganicFacialBook />
-      <Members />
-      <OurSalon />
-      <Partners />
-      <InstaFeed />
-      <HelpNearYou />
-      <TextLocReviews />
-      <ServiceWhy />
       <WhatsApp />
       <LastComp />
     </div>

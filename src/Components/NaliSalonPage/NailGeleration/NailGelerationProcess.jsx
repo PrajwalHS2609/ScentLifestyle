@@ -3,7 +3,7 @@ import React from "react";
 const NailGelerationProcess = () => {
   return (
     <div className="nailExtensionHeading">
-      <h4>The Process of Nail Geleration in Bangalore at SCENTF</h4>
+      <h4>The Process of Nail Geleration in Bangalore at SCENT</h4>
       <p>
         Getting a{" "}
         <a href="https://scentlifestyle.com/nail-geleration">

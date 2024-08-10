@@ -4,6 +4,7 @@
 .salonContainer {
   /* border: solid; */
   height: 400px;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,7 +18,7 @@
   height: 100%;
   width: 50%;
   position: absolute;
-  right:-350px;
+  right: -350px;
   z-index: -1;
 }
 .salonContent1 {

@@ -1,0 +1,133 @@
+.botoxLandingWork {
+  /* border: solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px;
+  gap: 20px;
+}
+.botoxLandingWorkHead {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.botoxLandingWorkHead > h2 {
+  font-size: 30px;
+  color: var(--customColor);
+}
+.botoxLandingWorkMain {
+  /* border: solid blue; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.botoxLandingWorkCard {
+  /* border: solid green; */
+  width: 25%;
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+}
+.botoxLandingWorkCard > img {
+  width: 100%;
+  height: 100%;
+}
+.botoxLandingWorkCardCover {
+  /* border: solid red; */
+  width: 100%;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  transform: translateX(-100%);
+  transition: 300ms ease-in-out;
+  background-color: rgba(0, 0, 0, 0.596);
+  padding: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 30px;
+}
+.botoxLandingWorkCard:hover .botoxLandingWorkCardCover {
+  transform: translateX(0%);
+}
+.botoxLandingWorkCardUnderline {
+  border: 2px white solid;
+  width: 20%;
+}
+.botoxLandingWorkCardCover > h3 {
+  font-size: 40px;
+  color: white;
+  width: 100%;
+  font-weight: 400;
+}
+.botoxLandingWorkCardCover > p {
+  font-size: 20px;
+  color: white;
+  text-align: justify;
+}
+.botoxLandingWorkCardArrow {
+  /* border: solid wheat; */
+  width: 100%;
+  height: 40%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 20px;
+}
+.botoxArrow {
+  font-size: 30px;
+  color: white;
+}
+#botoxWorkCardStatic {
+  background-color: black;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.botoxWorkCardStaticContent {
+  /* border: solid green; */
+  height: 70%;
+  width: 90%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 30px;
+}
+.botoxWorkCardStaticContent > h3 {
+  font-size: 40px;
+  color: white;
+  width: 100%;
+  font-weight: 400;
+}
+.botoxWorkCardStaticContent > p {
+  font-size: 20px;
+  color: white;
+  text-align: justify;
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {.botoxLandingWork {
+  /* border: solid red; */
+  padding: 10px;
+}
+  .botoxLandingWorkMain {
+    /* border: solid blue; */
+    flex-direction: column;
+  }
+  .botoxLandingWorkCard {
+    /* border: solid green; */
+    width: 100%;
+    height: 500px;
+
+  }
+}

@@ -8,7 +8,7 @@ const NailCustomer = () => {
         Our clients love the nails color change services at SCENT. Here are some
         of their testimonials:
       </p>
-      <div className="gelNailArtTestimonialContent">
+      <div className="gelNailArtTestimonialContent" id="gelNailArtTestimonialContent">
         <p>
           <span className="quote">"</span> I had an amazing experience at SCENT.
           The nails color change service was top-notch, and my nails look

@@ -7,8 +7,8 @@ const ThaiMassageSpaOffering = () => {
       <p>
         SCENT stands out as a premier destination for{" "}
         <a href="https://scentlifestyle.com/thai-massage-in-bangalore">
-          Thai massage in BangaloreF
-        </a>
+          Thai massage in Bangalore
+        </a>{" "}
         due to its commitment to authenticity and excellence. The salon uses
         only high-quality, natural products and oils that are safe for all skin
         types. The therapists are not only skilled in traditional Thai massage

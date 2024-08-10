@@ -1,0 +1,63 @@
+.hairTreatmentLandingCare {
+  border: solid red;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+.hairTreatmentCareContent {
+  border: solid blue;
+  width: 50%;
+  height: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hairTreatmentLandingCareWrapper1 {
+  /* border: solid yellow; */
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  background-color: black;
+}
+.hairTreatmentLandingCareWrapper1 > h2 {
+  font-size: 50px;
+  color: white;
+  font-weight: 400;
+  text-align: start;
+  width: 100%;
+}
+.hairTreatmentLandingCarePara1 {
+  font-size: 25px;
+  color: white;
+  text-align: justify;
+}
+.hairTreatmentLandingCarePara2 {
+  font-size: 18px;
+  color: white;
+  text-align: justify;
+}
+.hairTreatmentLandingCareWrapper1 > a > button {
+  /* border: solid green; */
+  height: 50px;
+  color: white;
+  background-color: var(--customColor);
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+#hairTreatmentLandingCareContent2 {
+  background-color: white;
+}
+.hairTreatmentLandingCareWrapper2 > img {
+  width: 100px;
+  height: 100px;    
+}

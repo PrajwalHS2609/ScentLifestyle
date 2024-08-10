@@ -1,0 +1,151 @@
+.botoxLandingCollection {
+  /* border: solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+}
+.botoxCollectionWrapper {
+  /* border: solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+  padding: 20px;
+}
+.botoxCollectionHead {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.botoxCollectionHead > h2 {
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+  color: var(--customColor);
+  font-weight: 400;
+}
+.botoxCollectionHead > p {
+  width: 100%;
+  text-align: center;
+  font-size: 25px;
+}
+.botoxCollectionContent {
+  /* border: solid blue; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 10px;
+}
+.botoxCollectionCard {
+  /* border: solid green; */
+  width: 25%;
+  height: 500px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 0 5px rgb(175, 175, 175);
+}
+.botoxCollectionCardContent {
+  /* border: solid brown; */
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+}
+#botoxCollectionCardContent1 {
+  height: 40%;
+}
+#botoxCollectionCardContent2 {
+  height: 40%;
+  padding: 10px;
+  /* background-color: var(--customColor); */
+}
+#botoxCollectionCardContent3 {
+  height: 20%;
+  /* background-color: black; */
+}
+.botoxCollectionCardContent > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.botoxCollectionCardItem {
+  /* border: solid white; */
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: black;
+}
+.botoxCollectionCardContent > p {
+  width: 90%;
+  text-align: center;
+  color: black;
+}
+.botoxCollectionCardItem > h3 {
+  color: white;
+  font-weight: 400;
+}
+.botoxCollectionCardItem:hover {
+  background-color: var(--customColor);
+}
+.botoxCollectionCardContent > h2 {
+  color: black;
+  font-weight: 400;
+}
+.botoxCollectionCardContent > button {
+  width: 35%;
+  height: 40%;
+  font-size: 15px;
+  background-color: white;
+  border: none;
+  transition: 300ms ease-in-out;
+  cursor: pointer;
+  letter-spacing: 1px;
+  font-weight: 400;
+  background-color: var(--customColor);
+  color: white;
+}
+.botoxCollectionCardContent > button > a {
+  width: 35%;
+  height: 40%;
+  font-size: 15px;
+  border: none;
+  transition: 300ms ease-in-out;
+  cursor: pointer;
+  letter-spacing: 1px;
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
+}
+.botoxCollectionCardContent > button:hover {
+  border: 2px solid var(--customColor);
+  background-color: white;
+}
+.botoxCollectionCardContent > button:hover .botoxCollectionLink {
+  color: var(--customColor);
+}
+.botoxCollectionImg {
+  border: solid;
+  width: 100%;
+  height: 100%;
+}
+.botoxCollectionImg > img {
+  width: 100%;
+  height: 100%;
+  object-position: 0 10px;
+}

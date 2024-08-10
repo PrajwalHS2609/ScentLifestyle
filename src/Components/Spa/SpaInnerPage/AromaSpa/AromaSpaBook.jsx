@@ -33,7 +33,7 @@ const AromaSpaBook = () => {
         is the perfect choice. Book your appointment today and embark on a
         journey of relaxation and holistic well-being. Discover the
         transformative power of aroma massage and experience the ultimate in
-        relaxation at SCENT.+
+        relaxation at SCENT.
       </p>
     </div>
   );

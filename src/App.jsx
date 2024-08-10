@@ -111,6 +111,8 @@ import BeardPage from "./Components/HairServicePage/HairInnerServicePage/BeardPa
 import MustachePage from "./Components/HairServicePage/HairInnerServicePage/MustachePage/MustachePage";
 import NavBg from "./Components/NavBg/NavBg";
 import HairKeratin from "./Components/BlogPage/BlogInnerPages/HairKeratin/HairKeratin";
+import BotoxLanding from "./Components/BotoxLanding/BotoxLanding";
+import HairTreatmentLandingPage from "./Components/HairTreatmentLandingPage/HairTreatmentLandingPage";
 const NotFound = () => (
   <div
     style={{
@@ -358,6 +360,9 @@ const App = () => {
             path="/eye-lash-extensions-in-bangalore"
             element={<LashesExtension />}
           />
+          <Route path="/botox-landing" element={<BotoxLanding />} />
+          <Route path="/hair-treatment-landing" element={<HairTreatmentLandingPage />} />
+
         </Routes>
       </BrowserRouter>
     </div>

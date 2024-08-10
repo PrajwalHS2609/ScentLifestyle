@@ -9,7 +9,7 @@ const GelNailArtCustomer = () => {
         Many satisfied clients have experienced the joy of "Gel Nail Art in
         Bangalore" at SCENT Salon. Here’s what some of them have to say:
       </p>
-      <div className="gelNailArtTestimonialContent">
+      <div className="gelNailArtTestimonialContent" id="gelNailArtTestimonialContent">
         <NailSalonTestimonialCard
           para="I love my gel nails! They last so long and look amazing. The team at SCENT Salon is fantastic!"
           name="Priya S"

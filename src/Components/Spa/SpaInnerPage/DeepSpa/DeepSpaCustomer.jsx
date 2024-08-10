@@ -23,7 +23,7 @@ const DeepSpaCustomer = () => {
         chronic pain, reduced muscle tension, or improved mobility, the benefits
         of{" "}
         <a href="https://scentlifestyle.com/deep-tissue-massage-in-bangalore">
-          deep tissue massage at SCENTx
+          deep tissue massage at SCENT
         </a>{" "}
         are evident.
       </p>

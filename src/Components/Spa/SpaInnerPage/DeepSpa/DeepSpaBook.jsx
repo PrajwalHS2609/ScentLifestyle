@@ -28,7 +28,7 @@ const DeepSpaBook = () => {
         <a href="https://scentlifestyle.com/spa">
           {" "}
           deep tissue massage in Bangalore at SCENT
-        </a>
+        </a>{" "}
         offers the perfect solution. Book your appointment today and embark on a
         journey of healing and well-being. Discover the transformative power of
         deep tissue massage and experience the ultimate in relaxation at SCENT.

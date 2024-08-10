@@ -1,0 +1,44 @@
+.hairTreatmentLandingHead {
+    /* border: solid red; */
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hairTreatmentLandingImg {
+    width: 100%;
+  }
+  .hairTreatmentLandingImg > img {
+    width: 100%;
+    object-fit: cover;
+    background-color: black;
+  }
+  .deskImg {
+    width: 100%;
+    height: 100%;
+  }
+  .mobileImg {
+    display: none;
+    width: 100%;
+    height: 100%;
+  }
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    .hairTreatmentLandingHead {
+      /* border: solid red; */
+      width: 100%;
+      background-color: black;
+    }
+    .deskImg {
+      width: 100%;
+      height: 100%;
+      display: none;
+    }
+    .mobileImg {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+  }
+  

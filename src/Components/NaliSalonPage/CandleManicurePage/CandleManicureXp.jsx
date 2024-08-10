@@ -1,4 +1,4 @@
-import React from "react";
+  import React from "react";
 
 const CandleManicureXp = () => {
   return (
@@ -16,7 +16,7 @@ const CandleManicureXp = () => {
           with a brief consultation to understand your specific needs and
           preferences. Whether you have concerns about,
           <a href="https://scentlifestyle.com/nails-salon"> nail health</a> skin hydration, or simply want to unwind,
-          we tailor the <a href="https://scentlifestyle.com/candle-spa-manicure">Candle Spa Manicure</a>
+          we tailor the <a href="https://scentlifestyle.com/candle-spa-manicure">Candle Spa Manicure </a>
           to meet your desires.
         </li>
         <li>

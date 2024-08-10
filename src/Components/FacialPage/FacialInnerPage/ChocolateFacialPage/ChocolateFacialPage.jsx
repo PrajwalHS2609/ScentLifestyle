@@ -36,12 +36,8 @@ const ChocolateFacialPage = () => {
         />
       </Helmet>
       <NavBg />
-      <ChocolateFacialImg/>
+      <ChocolateFacialImg />
       <ChocolateFacialHead />
-      <ChocolateFacialUnderstand />
-      <ChocolateFacialDiff/>
-      <ChocolateFacialBenefits/>
-      <ChocolateFacialWhy/>
       <Members />
       <OurSalon />
       <Partners />
@@ -49,6 +45,10 @@ const ChocolateFacialPage = () => {
       <HelpNearYou />
       <TextLocReviews />
       <ServiceWhy />
+      <ChocolateFacialUnderstand />
+      <ChocolateFacialDiff />
+      <ChocolateFacialBenefits />
+      <ChocolateFacialWhy />
       <WhatsApp />
       <LastComp />
     </div>

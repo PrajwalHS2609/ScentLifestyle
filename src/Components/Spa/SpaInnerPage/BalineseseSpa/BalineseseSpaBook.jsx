@@ -23,15 +23,18 @@ const BalineseseSpaBook = () => {
         relaxation is invaluable. Balinese massage offers a unique blend of
         therapeutic benefits, making it an ideal choice for those looking to
         rejuvenate both body and mind. At SCENT, a{" "}
-        <a href="https://scentlifestyle.com/">premium salon in Bangalore</a>, clients can experience the
-        best Balinese massage in the city. With its skilled therapists,
-        luxurious ambiance, and commitment to holistic wellness, SCENT ensures
-        that every client leaves feeling refreshed and revitalized.
+        <a href="https://scentlifestyle.com/">premium salon in Bangalore</a>,
+        clients can experience the best Balinese massage in the city. With its
+        skilled therapists, luxurious ambiance, and commitment to holistic
+        wellness, SCENT ensures that every client leaves feeling refreshed and
+        revitalized.
       </p>
       <p>
         Whether you're seeking relief from stress, muscle tension, or simply
         looking to pamper yourself,{" "}
-        <a href="https://scentlifestyle.com/service">Balinese massage in Bangalore at SCENT</a>
+        <a href="https://scentlifestyle.com/service">
+          Balinese massage in Bangalore at SCENT
+        </a>{" "}
         offers the perfect solution. Book your appointment today and embark on a
         journey of relaxation and holistic healing. Discover the ancient art of
         Balinese massage and experience the ultimate in luxury and wellness at

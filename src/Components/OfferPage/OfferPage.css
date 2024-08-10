@@ -37,6 +37,7 @@
   font-family: "Playwrite GB S", cursive;
   font-size: 40px;
   text-align: center;
+  color: var(--customColor);
 }
 .offerContent > p {
   font-family: "Playwrite GB S", cursive;

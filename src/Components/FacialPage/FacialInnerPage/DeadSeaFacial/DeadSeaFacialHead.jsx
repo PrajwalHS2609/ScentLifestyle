@@ -1,5 +1,12 @@
 import React from "react";
 import InnerNavi from "../../../InnerServicePage/InnerNavi/InnerNavi";
+import Members from "../../../HomePage/Members/Members";
+import OurSalon from "../../../HomePage/OurSalon/OurSalon";
+import Partners from "../../../HomePage/Partners/Partners";
+import InstaFeed from "../../../HomePage/InstaFeed/InstaFeed";
+import HelpNearYou from "../../../Help/HelpNearYou";
+import TextLocReviews from "../../../TextLocReviews/TextLocReviews";
+import ServiceWhy from "../../../MainServicePages/ServiceWhy/ServiceWhy";
 
 const DeadSeaFacialHead = () => {
   return (
@@ -30,6 +37,13 @@ const DeadSeaFacialHead = () => {
           for this indulgent facial service.
         </p>
       </div>
+      <Members />
+      <OurSalon />
+      <Partners />
+      <InstaFeed />
+      <HelpNearYou />
+      <TextLocReviews />
+      <ServiceWhy />
       <div className="organicFacialHead">
         <h2>The Magic of Dead Sea Minerals</h2>
         <p>

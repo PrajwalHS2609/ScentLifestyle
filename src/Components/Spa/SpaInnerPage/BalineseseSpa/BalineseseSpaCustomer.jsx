@@ -19,10 +19,8 @@ const BalineseseSpaCustomer = () => {
         Clients often highlight the profound sense of relaxation and
         rejuvenation they feel after a session, as well as the long-term
         benefits they experience. Whether it's relief from chronic pain,
-        improved flexibility, or enhanced mental clarity, the benefits of
-        <a href="https://scentlifestyle.com/spa">
-          Balinese massage at SCENT
-        </a>{" "}
+        improved flexibility, or enhanced mental clarity, the benefits of{" "}
+        <a href="https://scentlifestyle.com/spa">Balinese massage at SCENT</a>{" "}
         are evident.
       </p>
     </div>

@@ -1,6 +1,13 @@
 import React from "react";
 import InnerNavi from "../../../InnerServicePage/InnerNavi/InnerNavi";
 import GoldFacialPop from "./GoldFacialPop";
+import Members from "../../../HomePage/Members/Members";
+import OurSalon from "../../../HomePage/OurSalon/OurSalon";
+import Partners from "../../../HomePage/Partners/Partners";
+import InstaFeed from "../../../HomePage/InstaFeed/InstaFeed";
+import HelpNearYou from "../../../Help/HelpNearYou";
+import TextLocReviews from "../../../TextLocReviews/TextLocReviews";
+import ServiceWhy from "../../../MainServicePages/ServiceWhy/ServiceWhy";
 
 const GoldFacialHead = () => {
   return (
@@ -23,6 +30,13 @@ const GoldFacialHead = () => {
         </p>
       </div>
       <GoldFacialPop />
+      <Members />
+      <OurSalon />
+      <Partners />
+      <InstaFeed />
+      <HelpNearYou />
+      <TextLocReviews />
+      <ServiceWhy />
       <div className="organicFacialHead">
         <h3>The Allure of Gold Facials</h3>
         <p>

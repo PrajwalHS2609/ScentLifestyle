@@ -2,6 +2,13 @@ import React from "react";
 import InnerNavi from "../../../../InnerServicePage/InnerNavi/InnerNavi";
 import OrganicFacialService from "../OrganicFacialService/OrganicFacialService";
 import "./OrganicFacialHead.css"
+import Members from "../../../../HomePage/Members/Members";
+import OurSalon from "../../../../HomePage/OurSalon/OurSalon";
+import Partners from "../../../../HomePage/Partners/Partners";
+import InstaFeed from "../../../../HomePage/InstaFeed/InstaFeed";
+import HelpNearYou from "../../../../Help/HelpNearYou";
+import TextLocReviews from "../../../../TextLocReviews/TextLocReviews";
+import ServiceWhy from "../../../../MainServicePages/ServiceWhy/ServiceWhy";
 const OrganicFacialHead = () => {
   return (
     <div className="organicFacialHead">
@@ -30,6 +37,13 @@ const OrganicFacialHead = () => {
       </div>
 
       <OrganicFacialService />
+      <Members />
+      <OurSalon />
+      <Partners />
+      <InstaFeed />
+      <HelpNearYou />
+      <TextLocReviews />
+      <ServiceWhy />
       <div className="organicFacialHead">
         <h2>The Essence of Organic Facial Services in Bangalore</h2>
         <p>
