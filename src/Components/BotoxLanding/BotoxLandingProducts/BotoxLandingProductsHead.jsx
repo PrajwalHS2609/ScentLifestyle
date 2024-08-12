@@ -16,7 +16,7 @@ const BotoxLandingProductsHead = () => {
         </p>
         <p className="paraTxt3"> ZERO WORRIES!</p>
         <a href="https://api.whatsapp.com/send?phone=919742232700">
-          <button>Book in Appointment</button>
+          <button>BOOK AN APPOINTMENT</button>
         </a>
       </div>
     </div>

@@ -46,14 +46,14 @@ const BotoxLandingAbout = () => {
       <div className="BotoxLandingAboutContent" id="BotoxLandingAboutContent2">
         <h2>About Us</h2>
         <p>
-          The Salon offer world class colour services and beautiful, bespoke
-          hairdressing. Alex is an award winning colourist that has handpicked
-          and trained his teams to deliver the very best personalised colour,
-          style and experience. Every team member is respectful, inclusive and
-          inspired to deliver a tailored style that supports a unique philosophy
-          – natural beauty enhancement in hair.
+          Experience luxury and sophistication with SCENT's opulent menu,
+          designed to enhance your natural radiance. Pamper yourself with
+          top-notch hair, spa & wellness, personal grooming, and bridal services
+          at our exclusive unisex salon in Bangalore.
         </p>
-        <a href="https://api.whatsapp.com/send?phone=919742232700"><button>Book Now</button></a>
+        <a href="https://api.whatsapp.com/send?phone=919742232700">
+          <button>BOOK AN APPOINTMENT</button>
+        </a>
       </div>
     </div>
   );

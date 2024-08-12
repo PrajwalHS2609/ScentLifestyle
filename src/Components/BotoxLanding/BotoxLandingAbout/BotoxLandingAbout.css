@@ -40,7 +40,7 @@
 }
 #BotoxLandingAboutContent2 > a > button {
   border: none;
-  width: 200px;
+  width: 100%;
   height: 40px;
   background-color: var(--customColor);
   color: white;
@@ -48,6 +48,7 @@
   letter-spacing: 1px;
   border-radius: 10px;
   cursor: pointer;
+  padding: 10px;
 }
 #BotoxLandingAboutContent2 > a > button:hover {
   border: solid var(--customColor);
