@@ -113,8 +113,8 @@
   text-align: center;
   font-size: 15px;
 }
-.hairTreatmentMainProgram > a{
-    text-decoration: none;
+.hairTreatmentMainProgram > a {
+  text-decoration: none;
 }
 .hairTreatmentMainProgram > a > button {
   height: 50px;
@@ -127,10 +127,32 @@
   border: none;
   background-color: var(--customColor);
   color: white;
-  text-decoration: none  ;
+  text-decoration: none;
+  cursor: pointer;
 }
 .hairTreatmentMainProgram > a > button:hover {
   border: solid var(--customColor);
   color: var(--customColor);
   background-color: white;
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .hairTreatmentLandingProgram {
+    /* border: solid red; */
+    padding: 10px;
+  }
+  .hairTreatmentMainProgram {
+    /* border: solid blue; */
+    flex-direction: column;
+    padding: 0px;
+  }
+  .hairTreatmentProgramCard {
+    /* border: solid brown; */
+    width: 100%;
+    min-width: 300px;
+    padding: 20px;
+  }
+  .hairTreatmentProgramCardContent1 {
+    width: 200px;
+    height: 200px;
+  }
 }

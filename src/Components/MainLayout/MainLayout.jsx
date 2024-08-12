@@ -4,13 +4,19 @@ import { useLocation } from "react-router-dom";
 
 const MainLayout = ({ children }) => {
   const location = useLocation();
-  const showNavbar = location.pathname !== "/offer";
-  const hideNav1 = location.pathname !== "/botox-landing";
-  const hideNav2 = location.pathname !== "/hair-treatment-landing";
+  const hideNavbar1 = location.pathname !== "/offer";
+  const hideNavbar2 = location.pathname !== "/botox-landing";
+  const hideNavbar3 = location.pathname !== "/hair-treatment-landing";
+  const hideNavbar4 = location.pathname !== "/olaplex-landing";
+  const hideNavbar5 = location.pathname !== "/hair-color-streak-landing";
 
   return (
     <div>
-      {hideNav2 && hideNav1 && showNavbar && <NavBar />}
+      {hideNavbar1 &&
+        hideNavbar2 &&
+        hideNavbar3 &&
+        hideNavbar4 &&
+        hideNavbar5 && <NavBar />}
       {children}
     </div>
   );

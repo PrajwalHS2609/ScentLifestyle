@@ -1,5 +1,4 @@
 import React from "react";
-import Footer from "../../Footer/Footer";
 import LastComp from "../../LastComp/LastComp";
 import { Link } from "react-router-dom";
 import NavBg from "../../NavBg/NavBg";
@@ -184,7 +183,6 @@ const HairSalonMeadows = () => {
           </div>
         </div>
       </div>
-      <Footer />
       <Members />
       <OurSalon />
       <Partners />

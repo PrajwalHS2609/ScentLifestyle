@@ -1,15 +1,11 @@
 :root {
   --customBlack: #141414;
 }
-.navbg {
-  background-color: black;
-  height: 100px;
-  width: 100%;
-}
+
 .membershipImgContainer {
   /* border: solid blue; */
   width: 100%;
-  /* height: 42vh; */
+  height: 100%;
   background-color: var(--customBlack);
   display: flex;
   justify-content: center;
@@ -27,7 +23,6 @@
 .membershipHeadContainer > h1 {
   font-size: 30px;
   color: var(--customColor);
-
 }
 .membershipUnderline {
   border: 2px var(--customColor) solid;
@@ -36,7 +31,8 @@
 .membershipParaContainer {
   /* border: solid; */
   margin-top: 5%;
-  height: 60vh;
+  height: 100%;
+  padding: 20px;
 }
 .membershipParaContainer > p {
   font-size: 20px;

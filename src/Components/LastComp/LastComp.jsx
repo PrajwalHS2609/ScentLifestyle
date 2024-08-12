@@ -1,5 +1,5 @@
 import React from "react";
-import "./LastComp.css";
+import "./LastComp.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebook,

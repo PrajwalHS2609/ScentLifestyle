@@ -113,6 +113,8 @@ import NavBg from "./Components/NavBg/NavBg";
 import HairKeratin from "./Components/BlogPage/BlogInnerPages/HairKeratin/HairKeratin";
 import BotoxLanding from "./Components/BotoxLanding/BotoxLanding";
 import HairTreatmentLandingPage from "./Components/HairTreatmentLandingPage/HairTreatmentLandingPage";
+import OlaplexLandingPage from "./Components/OlaplexLandingPage/OlaplexLandingPage";
+import HairColorStreaksLandingPage from "./Components/HairColorStreaksLandingPage/HairColorStreaksLandingPage";
 const NotFound = () => (
   <div
     style={{
@@ -360,9 +362,16 @@ const App = () => {
             path="/eye-lash-extensions-in-bangalore"
             element={<LashesExtension />}
           />
-          <Route path="/botox-landing" element={<BotoxLanding />} />
-          <Route path="/hair-treatment-landing" element={<HairTreatmentLandingPage />} />
-
+          <Route path="/lp-hair-botoxx" element={<BotoxLanding />} />
+          <Route
+            path="/lp-hair-treatments"
+            element={<HairTreatmentLandingPage />}
+          />
+          <Route path="/lp-olaplex" element={<OlaplexLandingPage />} />
+          <Route
+            path="/lp-hair-highlights-and-streaks"
+            element={<HairColorStreaksLandingPage />}
+          />
         </Routes>
       </BrowserRouter>
     </div>

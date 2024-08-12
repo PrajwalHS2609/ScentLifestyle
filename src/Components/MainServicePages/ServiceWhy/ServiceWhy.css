@@ -2,9 +2,11 @@
   --customRed: #cc2228;
 }
 .serviceWhyContainer {
-  /* border: solid red; */
-  height: 80vh;
-  margin-top: 5%;
+  /* border: solid green; */
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  background-color: white;
 }
 .serviceWhyHeadContainer {
   /* border: solid; */
@@ -12,7 +14,9 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 10%;
+  gap: 10px;
+  height: 5%;
+  margin-top: 20px;
 }
 .serviceWhyHeadContainer > h6 {
   font-size: 30px;
@@ -34,8 +38,8 @@
 }
 .serviceWhyCardContainer {
   /* border: solid; */
-  height: 180px;
-  width: 180px;
+  height: 150px;
+  width: 130px;
   margin: 3%;
 }
 .serviceWhyCardContent1 {
@@ -64,7 +68,7 @@
   font-size: 100%;
   font-weight: bold;
 }
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   .serviceWhyContainer {
     /* border: solid green; */
     width: 100%;
@@ -99,7 +103,7 @@
     height: 5%;
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 979px) {
   .serviceWhyContainer {
     /* border: solid green; */
     width: 100%;
@@ -110,76 +114,6 @@
     border: 2px solid;
     color: var(--customRed);
     width: 10%;
-  }
-  .serviceWhyMainContainer {
-    /* border: solid green; */
-    height: 90%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-  }
-  .serviceWhyCardContainer {
-    /* border: solid; */
-    height: 150px;
-    width: 130px;
-    margin: 3%;
-  }
-  .serviceWhyHeadContainer {
-    /* border: solid; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 5%;
-  }
-}
-@media screen and (min-width: 990px) {
-  .serviceWhyContainer {
-    /* border: solid green; */
-    width: 100%;
-    height: 100%;
-    margin-top: 15%;
-  }
-  .serviceWhyUnderline {
-    border: 2px solid;
-    color: var(--customRed);
-    width: 10%;
-  }
-  .serviceWhyMainContainer {
-    /* border: solid green; */
-    height: 90%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-  }
-  .serviceWhyCardContainer {
-    /* border: solid; */
-    height: 150px;
-    width: 130px;
-    margin: 3%;
-  }
-  .serviceWhyHeadContainer {
-    /* border: solid; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 5%;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .serviceWhyContainer {
-    /* border: solid green; */
-    width: 100%;
-    height: 100%;
-    margin-top: 5%;
-  }
-  .serviceWhyUnderline {
-    border: 2px solid;
-    color: var(--customRed);
-    width: 5%;
   }
   .serviceWhyMainContainer {
     /* border: solid green; */

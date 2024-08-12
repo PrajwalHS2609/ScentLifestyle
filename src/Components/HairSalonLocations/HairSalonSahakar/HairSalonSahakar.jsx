@@ -3,7 +3,6 @@ import NavBg from "../../NavBg/NavBg";
 import { Link } from "react-router-dom";
 import "../HairSalonLocation.css";
 import LastComp from "../../LastComp/LastComp";
-import Footer from "../../Footer/Footer";
 import Members from "../../HomePage/Members/Members";
 import OurSalon from "../../HomePage/OurSalon/OurSalon";
 import Partners from "../../HomePage/Partners/Partners";
@@ -171,7 +170,6 @@ const HairSalonSahakar = () => {
           </div>
         </div>
       </div>
-      <Footer />
       <Members />
       <OurSalon />
       <Partners />

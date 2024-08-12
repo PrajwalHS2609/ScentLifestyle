@@ -1,6 +1,5 @@
 import React from "react";
 import LastComp from "../../LastComp/LastComp";
-import Footer from "../../Footer/Footer";
 import { Link } from "react-router-dom";
 import NavBg from "../../NavBg/NavBg";
 import "../HairSalonLocation.css";
@@ -175,7 +174,6 @@ const HairSalonJakkur = () => {
           </div>
         </div>
       </div>
-      <Footer />
       <Members />
       <OurSalon />
       <Partners />

@@ -4,7 +4,8 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 40px;background-color: white;
+  gap: 40px;
+  background-color: white;
 }
 .hairTreatmentCollectionWrapper {
   /* border: solid red; */
@@ -136,7 +137,9 @@
   border: 2px solid var(--customColor);
   background-color: white;
 }
-.hairTreatmentCollectionCardContent > button:hover .hairTreatmentCollectionLink {
+.hairTreatmentCollectionCardContent
+  > button:hover
+  .hairTreatmentCollectionLink {
   color: var(--customColor);
 }
 .hairTreatmentCollectionImg {
@@ -148,4 +151,19 @@
   width: 100%;
   height: 100%;
   object-position: 0 10px;
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .hairTreatmentCollectionWrapper {
+    /* border: solid red; */
+    padding: 10px;
+  }
+  .hairTreatmentCollectionContent {
+    /* border: solid blue; */
+    flex-direction: column;
+  }
+  .hairTreatmentCollectionCard {
+    /* border: solid green; */
+    min-width: 300px;
+    height: 500px;
+  }
 }

@@ -1,0 +1,106 @@
+.LocationCard1Container {
+  /* border: solid red; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+.LocationCard1Content {
+  /* border: solid blue; */
+  height: 100%;
+  padding: 10px;
+}
+#LocationCard1Content1 {
+  width: 100%;
+}
+#LocationCard1Content2Item1 > h2 {
+  color: var(--customColor);
+  font-size: 30px;
+}
+#LocationCard1Content2 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+}
+.LocationCard1Content2Item {
+  /* border-bottom: 2px solid grey; */
+  width: 100%;
+  padding: 0px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+#LocationCard1Content2Item2,
+#LocationCard1Content2Item3,
+#LocationCard1Content2Item4 {
+  border-bottom: 2px solid grey;
+  width: 100%;
+}
+#LocationCard1Content2Item2 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.LocationCard1Loc {
+  /* border: solid brown; */
+}
+#LocationCard1Loc1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+#LocationCard1Loc2 {
+  width: 70%;
+}
+.LocationCard1LocAdd {
+  /* border: solid red; */
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 5px;
+  font-size: 18px;
+}
+.LocationCard1LocAdd > h3 {
+  font-size: 25px;
+  font-weight: 400;
+}
+.LocationCard1LocAdd > h4 {
+  color: var(--customColor);
+}
+.LocationCard1LocAdd > h4 > a {
+  color: var(--customColor);
+  text-decoration: none;
+}
+.locIcon {
+  font-size: 25px;
+  color: var(--customColor);
+}
+.locButton {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.locButton > a > button {
+  border: none;
+  background-color: var(--customColor);
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 20px;
+  transition: 300ms ease-in-out;
+  cursor: pointer;
+}
+.locButton > a > button:hover {
+  transform: scale(1.1);
+}

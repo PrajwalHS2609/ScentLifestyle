@@ -2,7 +2,7 @@
   /* border: solid red; */
   width: 100%;
   height: 100%;
-  background-color: black;
+  background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,7 +13,7 @@
 .botoxLandingImg > img {
   width: 100%;
   object-fit: cover;
-  background-color: black;
+  background-color: white;
 }
 .deskImg {
   width: 100%;

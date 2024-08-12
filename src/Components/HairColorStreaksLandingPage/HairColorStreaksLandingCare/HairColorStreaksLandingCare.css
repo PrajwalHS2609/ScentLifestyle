@@ -1,0 +1,64 @@
+.hairColorStreakLandingCare {
+    border: solid red;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+  }
+  .hairColorStreakCareContent {
+    border: solid blue;
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hairColorStreakLandingCareWrapper1 {
+    /* border: solid yellow; */
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    background-color: black;
+  }
+  .hairColorStreakLandingCareWrapper1 > h2 {
+    font-size: 50px;
+    color: white;
+    font-weight: 400;
+    text-align: start;
+    width: 100%;
+  }
+  .hairColorStreakLandingCarePara1 {
+    font-size: 25px;
+    color: white;
+    text-align: justify;
+  }
+  .hairColorStreakLandingCarePara2 {
+    font-size: 18px;
+    color: white;
+    text-align: justify;
+  }
+  .hairColorStreakLandingCareWrapper1 > a > button {
+    /* border: solid green; */
+    height: 50px;
+    color: white;
+    background-color: var(--customColor);
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  #hairColorStreakLandingCareContent2 {
+    background-color: white;
+  }
+  .hairColorStreakLandingCareWrapper2 > img {
+    width: 100px;
+    height: 100px;    
+  }
+  

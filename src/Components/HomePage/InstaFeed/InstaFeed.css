@@ -8,7 +8,9 @@
   justify-content: space-evenly;
   align-items: center;
   flex-direction: column;
-  margin-top: 100px;
+  /* margin-top: 100px; */
+  background-color: white;
+
 }
 .instaHeadContainer {
   /* border: solid; */

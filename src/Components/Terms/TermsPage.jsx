@@ -4,9 +4,9 @@ import Return from "./Return/Return";
 import Payment from "./Payment/Payment";
 import Pricing from "./Pricing/Pricing";
 import Shipping from "./Shipping/Shipping";
-import LastComp from "./../LastComp/LastComp";
 import NavBg from "../NavBg/NavBg";
 import { Helmet } from "react-helmet";
+import LastComp from "../LastComp/LastComp";
 
 const TermsPage = () => {
   return (

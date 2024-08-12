@@ -11,8 +11,10 @@
   align-items: center;
   flex-direction: column;
   gap: 25px;
-  margin-top: 40px;
+  /* margin-top: 40px; */
   padding: 20px;
+  background-color: white;
+
 }
 .helpNearYouHeadContent {
   /* border: solid red; */

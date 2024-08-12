@@ -1,6 +1,4 @@
 import React from "react";
-import Footer from "./../../Footer/Footer";
-import LastComp from "./../../LastComp/LastComp";
 import { Link } from "react-router-dom";
 import NavBg from "./../../NavBg/NavBg";
 import "../HairSalonLocation.css";
@@ -16,6 +14,7 @@ import HairServiceImg from "../../HairServicePage/HairServiceImg/HairServiceImg"
 import Navi1 from "../../HairServicePage/Navi1/Navi1";
 import HairServiceCardContain from "../../HairServicePage/HairServiceCard/HairServiceCardContain";
 import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
+import LastComp from "../../LastComp/LastComp";
 const HairSalonUptown = () => {
   return (
     <div className="hairSalonLocation">
@@ -173,7 +172,6 @@ const HairSalonUptown = () => {
           </div>
         </div>
       </div>
-      <Footer />
       <Members />
       <OurSalon />
       <Partners />

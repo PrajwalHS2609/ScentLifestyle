@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import NavBg from "../../NavBg/NavBg";
 import LastComp from "./../../LastComp/LastComp";
-import Footer from "../../Footer/Footer";
 import Members from "../../HomePage/Members/Members";
 import OurSalon from "../../HomePage/OurSalon/OurSalon";
 import Partners from "../../HomePage/Partners/Partners";
@@ -173,7 +172,6 @@ const HairSalonLavelle = () => {
           </div>
         </div>
       </div>
-      <Footer />
       <Members />
       <OurSalon />
       <Partners />

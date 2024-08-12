@@ -2,8 +2,8 @@
   /* border: solid red; */
   height: 500px;
   width: 100%;
-  background-color: #cc2228;
-  margin-top: 40px;
+  background-color:var(--customColor);
+  /* margin-top: 40px; */
   display: flex;
   justify-content: space-between;
   align-items: center;

@@ -12,7 +12,7 @@ const LocationCard = (props) => {
         <div className="locCardAddressWrapper">
           <div className="locCardAddressItem">
             <div className="locCardAddress">
-              <h4>CONTACT NUMBER</h4>
+              <h4>Contact Number</h4>
               <p>
                 <a href={props.phoneLink}>{props.phone}</a>
               </p>
