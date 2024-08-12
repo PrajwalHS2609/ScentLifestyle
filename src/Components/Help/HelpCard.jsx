@@ -18,8 +18,8 @@ const HelpCard = (props) => {
               <FontAwesomeIcon
                 icon={faPhone}
                 className="menuIcon"
-              ></FontAwesomeIcon>
-              : {props.no}
+              ></FontAwesomeIcon>{" "}
+              : {" "}{props.no}
             </p>
           </div>
         </div>
