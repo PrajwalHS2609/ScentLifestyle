@@ -14,16 +14,17 @@ import Partners from "../HomePage/Partners/Partners";
 import InstaFeed from "../HomePage/InstaFeed/InstaFeed";
 import HelpNearYou from "../Help/HelpNearYou";
 import TextLocReviews from "../TextLocReviews/TextLocReviews";
+import OfferBenefits from "../OfferPage/OfferBenefits";
 
 const BotoxLanding = () => {
   return (
     <div className="botoxLanding">
       <BotoxLandingHead />
-      {/* <BotoxLandingCollection /> */}
       <BotoxLandingAbout />
       <BotoxLandingWork />
       <Members />
       <BotoxLandingProducts />
+      <OfferBenefits/>
       <OurSalon />
       <Partners />
       <InstaFeed />

@@ -5,9 +5,10 @@ const BotoxWorkCardStatic = () => {
   return (
     <div className="botoxLandingWorkCard" id="botoxWorkCardStatic">
       <div className="botoxWorkCardStaticContent">
-        <h3>Styling Inspiration</h3>
+        <h3>Unlock Gorgeous Hair </h3>
         <div className="botoxLandingWorkCardUnderline"></div>
-        <p>CURRENT TRENDS, STYLING TIPS AND MUCH MORE</p>
+        <p>
+        WATCH OUR STUNNING HAIR BOTOX TREATMENT IN ACTION !</p>
       </div>
     </div>
   );

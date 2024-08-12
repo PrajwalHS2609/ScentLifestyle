@@ -14,13 +14,34 @@ const BotoxLandingWorkMain = () => {
   return (
     <div className="botoxLandingWorkMain">
       <BotoxWorkCardStatic />
-      <BotoxLandingWorkCard vid={botoxWork1} />
-      <BotoxLandingWorkCard vid={botoxWork2} />
-      <BotoxLandingWorkCard vid={botoxWork3} />
-      <BotoxLandingWorkCard vid={botoxWork4} />
-      <BotoxLandingWorkCard vid={botoxWork5} />
-      <BotoxLandingWorkCard vid={botoxWork6} />
-      <BotoxLandingWorkCard vid={botoxWork7} />
+      <BotoxLandingWorkCard
+        vid={botoxWork1}
+        head="Revive Your Radiance with Our Hair Botox Magic!"
+      />
+      <BotoxLandingWorkCard
+        vid={botoxWork2}
+        head="Say Goodbye to Frizz and Hello to Lush, Smooth Locks!"
+      />
+      <BotoxLandingWorkCard
+        vid={botoxWork3}
+        head="Unlock the Secret to Shiny, Strong Hair with Hair Botox!"
+      />
+      <BotoxLandingWorkCard
+        vid={botoxWork4}
+        head="Embrace the Smooth - Your Hair’s Best Friend Awaits!"
+      />
+      <BotoxLandingWorkCard
+        vid={botoxWork5}
+        head="From Dull to Dazzling - Revitalize Your Hair with Botox!"
+      />
+      <BotoxLandingWorkCard
+        vid={botoxWork6}
+        head="Get Ready for Gorgeous - Hair Botox for Luscious, Flawless Hair!"
+      />
+      <BotoxLandingWorkCard
+        vid={botoxWork7}
+        head="Transform Your Tresses - The Ultimate Hair Botox Experience!"
+      />
     </div>
   );
 };

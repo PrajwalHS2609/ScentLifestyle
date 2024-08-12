@@ -14,16 +14,12 @@ const BotoxLandingWorkCard = (props) => {
         <source src={props.vid} type="video/mp4"/>
       </video>
       <div className="botoxLandingWorkCardCover">
-        <h3>SCENT</h3>
+        <h3>{props.head}</h3>
         <div className="botoxLandingWorkCardUnderline"></div>
         <p>
-          Stuck in a hair rut, I turned to Scent salon for a fresh perspective.
-          During a fun and informative consultation, we brainstormed ideas and
-          their expert stylist brought a daring new colour and cut to life. It
-          felt like stepping into a makeover montage, and now my hair feels like
-          a true statement!
+        {props.para}
         </p>
-        <div className="botoxLandingWorkCardArrow">
+        {/* <div className="botoxLandingWorkCardArrow">
           <Link to={"/"}>
             {" "}
             <FontAwesomeIcon
@@ -31,7 +27,7 @@ const BotoxLandingWorkCard = (props) => {
               className="botoxArrow"
             ></FontAwesomeIcon>
           </Link>
-        </div>
+        </div> */}
       </div>
     </div>
   );
