@@ -121,7 +121,7 @@ const NotFound = () => (
       fontSize: "100px",
       width: "100%",
       textAlign: "center",
-      backgroundColor: "grey",
+      backgroundColor: "white",
       height: "100vh",
     }}
   >

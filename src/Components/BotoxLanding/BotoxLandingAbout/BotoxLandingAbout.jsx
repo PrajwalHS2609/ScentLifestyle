@@ -8,7 +8,6 @@ import Jakkur from "./../../../Images/jakkur.jpg";
 import varthur from "./../../../Images/Varthur - whitefield.jpg";
 import Seege from "./../../../Images/seegehalli - whitefield.jpg";
 import jp from "./../../../Images/JP Nagar.jpg";
-import { Link } from "react-router-dom";
 const BotoxLandingAbout = () => {
   return (
     <div className="BotoxLandingAbout">
@@ -54,7 +53,7 @@ const BotoxLandingAbout = () => {
           inspired to deliver a tailored style that supports a unique philosophy
           – natural beauty enhancement in hair.
         </p>
-        <Link to={"/"}><button>More</button></Link>
+        <a href="https://api.whatsapp.com/send?phone=919742232700"><button>Book Now</button></a>
       </div>
     </div>
   );
