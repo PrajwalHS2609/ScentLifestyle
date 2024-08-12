@@ -69,9 +69,8 @@
   width: 80%;
 }
 .botoxProductsHeadContent > a > button {
-  border: none;
+  border:solid white;
   width: 100%;
-  height: 40px;
   background-color: var(--customColor);
   color: white;
   font-size: 20px;
@@ -79,6 +78,11 @@
   border-radius: 10px;
   cursor: pointer;
   padding: 10px;
+}
+.botoxProductsHeadContent > a > button:hover{
+  border: solid var(--customColor);
+  background-color:white;
+color: var(--customColor);
 }
 .redTxt {
   color: var(--customColor);
