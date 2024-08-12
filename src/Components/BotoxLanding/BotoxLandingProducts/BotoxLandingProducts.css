@@ -55,18 +55,21 @@
   width: 80%;
   text-align: center;
 }
-.paraTxt{
-  font-weight: 600; 
-
+.paraTxt {
+  font-weight: 600;
 }
+
 .botoxProductsHeadContent > p > span {
   color: var(--customColor);
-  font-size: 30px;
+  font-size: 50px;
   font-weight: bold;
-  text-align: center;
+  text-align: start;
   width: 100%;
 }
-
+.botoxProductsHeadContent > p > p {
+  width: 100%;
+  font-style: italic;
+}
 .botoxProductsHeadContent > a > button {
   border: none;
   width: 150px;
@@ -77,10 +80,10 @@
   color: white;
   cursor: pointer;
 }
-.redTxt{
+.redTxt {
   color: var(--customColor);
 }
-.blueTxt{
+.blueTxt {
   color: rgb(0, 0, 215);
 }
 @media screen and (min-width: 320px) and (max-width: 768px) {
