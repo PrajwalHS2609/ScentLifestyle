@@ -140,6 +140,12 @@
     /* border: solid blue; */
     flex-direction: column;
   }
+  .botoxLandingWorkHead > h2 {
+    font-size: 30px;
+    transform: scale(1);
+    color: var(--customColor);
+    text-align: center;
+  }
   .botoxLandingWorkCard {
     /* border: solid green; */
     width: 100%;
