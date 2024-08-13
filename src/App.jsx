@@ -116,7 +116,7 @@ import HairTreatmentLandingPage from "./Components/HairTreatmentLandingPage/Hair
 import OlaplexLandingPage from "./Components/OlaplexLandingPage/OlaplexLandingPage";
 import HairColorStreaksLandingPage from "./Components/HairColorStreaksLandingPage/HairColorStreaksLandingPage";
 import BlogNail from "./Components/BlogPage/BlogPages/BlogNail/BlogNail";
-import PediAndManicure from "./Components/BlogPage/BlogInnerPages/NailBlogInnerPages/PediAndManicure";
+import PediAndManicure from "./Components/BlogPage/BlogInnerPages/NailBlogInnerPages/PediAndManicure/PediAndManicure";
 const NotFound = () => (
   <div
     style={{
@@ -264,7 +264,7 @@ const App = () => {
             element={<HairKeratin />}
           />
            <Route
-            path="//exploring-the-benefits-of-professional-pedicures-and-manicures"
+            path="/exploring-the-benefits-of-professional-pedicures-and-manicures"
             element={<PediAndManicure />}
           />
           <Route path="/pre-bridal-treatments" element={<PrebridalPackage />} />

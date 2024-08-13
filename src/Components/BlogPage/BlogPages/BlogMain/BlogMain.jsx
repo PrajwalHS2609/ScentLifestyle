@@ -5,6 +5,7 @@ import BouncyHairBlog from "./../../../../Images/Blog/Hair Bouncy and Beautiful 
 import BotoxImg from "./../../../../Images/Blog/HairBotoxImgs/HairBotox1.png";
 import top10 from "./../../../../Images/Blog/Top 10 hairColor/Banner Image.png";
 import hairKeratin from "./../../../../Images/Blog/Keratin_Hair_Treatment/Banner Image.png";
+import pedimanicurebanner from "./../../../../Images/Blog/Pedi&manicureBlog/Banner Image.png";
 
 import BlogCard from "../BlogCard";
 const BlogMain = () => {
@@ -51,6 +52,12 @@ const BlogMain = () => {
           head="Why You Should Consider Keratin Hair Treatment"
           para=" In recent years, the beauty and hair care industry has seen a significant surge in  ..."
           link="/why-you-should-consider-keratin-hair-treatment"
+        />
+        <BlogCard
+          img={pedimanicurebanner}
+          head="Exploring the Benefits of Professional Pedicures and Manicures "
+          para="When it comes to self-care and personal grooming, professional pedicures and manicures are ..."
+          link="/exploring-the-benefits-of-professional-pedicures-and-manicures"
         />
       </div>
 
