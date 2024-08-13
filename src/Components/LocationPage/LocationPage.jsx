@@ -3,6 +3,7 @@ import LocationNavBg from "./LocationNavBg/LocationNavBg";
 import HelpNearYou from "../Help/HelpNearYou";
 import LastComp from "../LastComp/LastComp";
 import { Helmet } from "react-helmet";
+import NavBg from "../NavBg/NavBg";
 
 const LocationPage = () => {
   return (
@@ -19,7 +20,7 @@ const LocationPage = () => {
         />
         <link rel="canonical" href="https://scentlifestyle.com/location" />
       </Helmet>
-      <LocationNavBg />
+      <NavBg />
       <HelpNearYou />
       <LastComp />
     </div>

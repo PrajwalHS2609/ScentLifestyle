@@ -17,6 +17,7 @@ import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
 import ServBreadCrumb from "../../InnerServicePage/InnerNavi/ServBreadCrumb";
 // import LocationCard from "../LocationCard/LocationCard";
 import LocationCard1 from "../LocationCard/LocationCard1";
+import NavBg from "../../NavBg/NavBg";
 const Jp = () => {
   return (
     <div className="jpLocPageContainer">
@@ -34,7 +35,7 @@ const Jp = () => {
           href="https://scentlifestyle.com/salon-in-jpnagar"
         />
       </Helmet>
-      <LocationNavBg />
+      <NavBg />
       <LocationImg img={loc6} />
       <ServBreadCrumb currService="JP Nagar" />
       {/* <LocationCard

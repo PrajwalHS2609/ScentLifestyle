@@ -18,6 +18,7 @@ import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
 import ServBreadCrumb from "../../InnerServicePage/InnerNavi/ServBreadCrumb";
 // import LocationCard from "../LocationCard/LocationCard";
 import LocationCard1 from "../LocationCard/LocationCard1";
+import NavBg from "../../NavBg/NavBg";
 const LavellelLocPage = () => {
   return (
     <div className="lavellelLocPageContainer">
@@ -35,7 +36,7 @@ const LavellelLocPage = () => {
           href="https://scentlifestyle.com/salon-in-lavelle-road"
         />
       </Helmet>
-      <LocationNavBg />
+      <NavBg />
       <LocationImg img={loc2} />
       <ServBreadCrumb currService="Lavelle" />
       {/* <LocationCard

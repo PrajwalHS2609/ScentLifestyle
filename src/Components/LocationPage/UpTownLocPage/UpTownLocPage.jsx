@@ -18,6 +18,7 @@ import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
 import ServBreadCrumb from "../../InnerServicePage/InnerNavi/ServBreadCrumb";
 // import LocationCard from "../LocationCard/LocationCard";
 import LocationCard1 from "../LocationCard/LocationCard1";
+import NavBg from "../../NavBg/NavBg";
 const UpTownLocPage = () => {
   return (
     <div className="uptownLocPageContainer">
@@ -36,7 +37,7 @@ const UpTownLocPage = () => {
           href="https://scentlifestyle.com/salon-in-uptown-whitefield"
         />
       </Helmet>
-      <LocationNavBg />
+      <NavBg />
       <LocationImg img={loc4} />
       <ServBreadCrumb currService="UpTown Square" />
       {/* <LocationCard

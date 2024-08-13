@@ -3,11 +3,11 @@ import FranchiseHead from "./FranchiseHead";
 import FranchisePara from "./FranchisePara";
 import FranchiseForm from "./FranchiseForm";
 import FranchiseContact from "./FranchiseContact";
-import FranchiseNavBg from "./FranchiseNavBg";
 import LastComp from "./../LastComp/LastComp";
 import FranchiseImg from "./FranchiseImg";
 import { Helmet } from "react-helmet";
 import WhatsApp from "../HomePage/WhatsApp/WhatsApp";
+import NavBg from "../NavBg/NavBg";
 
 const FranchisePage = () => {
   return (
@@ -24,7 +24,7 @@ const FranchisePage = () => {
           href="https://scentlifestyle.com/franchise"
         />
       </Helmet>
-      <FranchiseNavBg />
+      <NavBg/>
       <FranchiseImg />
       <FranchiseHead />
       <FranchisePara />

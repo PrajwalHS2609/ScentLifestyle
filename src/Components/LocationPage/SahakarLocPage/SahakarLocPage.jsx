@@ -18,6 +18,7 @@ import ServBreadCrumb from "../../InnerServicePage/InnerNavi/ServBreadCrumb";
 // import LocationCard from "../LocationCard/LocationCard";
 // import SahakarLocMap from "./SahakarLocMap/SahakarLocMap";
 import LocationCard1 from "../LocationCard/LocationCard1";
+import NavBg from "../../NavBg/NavBg";
 const SahakarLocPage = () => {
   return (
     <div className="sahakarLocPageContainer">
@@ -35,7 +36,7 @@ const SahakarLocPage = () => {
           href="https://scentlifestyle.com/salon-in-sahakar-nagar"
         />
       </Helmet>
-      <LocationNavBg />
+      <NavBg />
       <LocationImg img={loc1} />
       <ServBreadCrumb currService="Sahakar Nagar" />
       {/* <LocationCard

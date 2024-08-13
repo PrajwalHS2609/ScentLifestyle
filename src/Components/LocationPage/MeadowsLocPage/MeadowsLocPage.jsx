@@ -16,6 +16,7 @@ import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
 import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
 import ServBreadCrumb from "../../InnerServicePage/InnerNavi/ServBreadCrumb";
 import LocationCard1 from "../LocationCard/LocationCard1";
+import NavBg from "../../NavBg/NavBg";
 const MeadowsLocPage = () => {
   return (
     <div className="meadowsLocPageContainer">
@@ -33,7 +34,7 @@ const MeadowsLocPage = () => {
           href="https://scentlifestyle.com/salon-in-whitefield"
         />
       </Helmet>
-      <LocationNavBg />
+      <NavBg />
       <LocationImg img={loc5} />
       <ServBreadCrumb currService="Meadows" />
       {/* <LocationCard

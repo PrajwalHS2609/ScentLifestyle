@@ -1,6 +1,5 @@
 import React from "react";
 import "./JakkuruLocPage.css";
-import LocationNavBg from "../LocationNavBg/LocationNavBg";
 import LastComp from "../../LastComp/LastComp";
 // import JakkuruLocMap from "./JakkuruLocMap/JakkuruLocMap";
 import LocationImg from "../LocationImg/LocationImg";
@@ -18,6 +17,7 @@ import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
 import ServBreadCrumb from "../../InnerServicePage/InnerNavi/ServBreadCrumb";
 // import LocationCard from "../LocationCard/LocationCard";
 import LocationCard1 from "../LocationCard/LocationCard1";
+import NavBg from "../../NavBg/NavBg";
 const JakkuruLocPage = () => {
   return (
     <div className="jakkuruLocPageContainer">
@@ -35,7 +35,7 @@ const JakkuruLocPage = () => {
           href="https://scentlifestyle.com/salon-in-jakkur"
         />
       </Helmet>
-      <LocationNavBg />
+      <NavBg />
       <LocationImg img={loc3} />
       <ServBreadCrumb currService="Jakkur" />
       {/* <LocationCard
