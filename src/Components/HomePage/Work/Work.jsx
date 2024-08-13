@@ -2,6 +2,7 @@ import React from "react";
 import "./Work.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 const Work = () => {
   return (
     <div className="workContainer">
@@ -28,11 +29,11 @@ const Work = () => {
             </p>
           </div>
           <div className="workContentTxt3">
-            <p>VIEW OUR WORK </p>
+          <Link to="/service">  <p>VIEW OUR WORK </p>
             <FontAwesomeIcon
               icon={faAngleRight}
               className="workIcon"
-            ></FontAwesomeIcon>
+            ></FontAwesomeIcon></Link>
           </div>
         </div>
       </div>

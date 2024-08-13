@@ -104,3 +104,14 @@
 .locButton > a > button:hover {
   transform: scale(1.1);
 }
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .LocationCard1Container {
+    /* border: solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px;
+  }
+}

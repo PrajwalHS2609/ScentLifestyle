@@ -39,8 +39,16 @@
   align-items: center;
   gap: 10px;
 }
-.workContentTxt3 > p {
+.workContentTxt3 > a > p {
   font-size: 20px;
+}
+.workContentTxt3 > a {
+  color: white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
 .workIcon {
   font-size: 20px;
