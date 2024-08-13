@@ -1,0 +1,27 @@
+.pediManicureImg {
+    /* border: solid red; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  .pediManicureImg > img {
+    width: 70%;
+  }
+  @media screen and (min-width: 320px) and (max-width:768px) {
+    .pediManicureImg {
+      /* border: solid red; */
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 10px;
+    }
+    .pediManicureImg > video {
+      width: 100%;
+    }
+    
+  }

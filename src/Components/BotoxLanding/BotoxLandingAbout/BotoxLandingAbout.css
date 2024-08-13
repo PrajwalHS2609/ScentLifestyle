@@ -39,7 +39,7 @@
   color: black;
 }
 #BotoxLandingAboutContent2 > a > button {
-  border: solid white;
+  border: solid #F3EDE5;
   width: 100%;
   background-color: var(--customColor);
   color: white;

@@ -1,0 +1,74 @@
+.pediManicureHead {
+    /* border: solid blue; */
+    width: 90%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .pediManicureHead > h1 {
+    font-size: 30px;
+    color: var(--customColor);
+    text-align: center;
+  }
+  .pediManicureHead > h2 {
+    font-size: 30px;
+    color: var(--customColor);
+    text-align: center;
+  }
+  .pediManicureHead > h3 {
+    font-size: 25px;
+    color: var(--customColor);
+    text-align: start;
+    width: 100%;
+  }
+  .pediManicureHead > p {
+    width: 100%;
+    font-size: 20px;
+    text-align: justify;
+  }
+  .pediManicureHead > p > a {
+    text-decoration: none;
+    color: var(--customColor);
+  }
+  .pediManicureHead {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .pediManicureHead > p {
+    font-size: 20px;
+    width: 100%;
+    text-align: justify;
+  }
+  .pediManicureHead > p > span {
+    color: var(--customColor);
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .pediManicureHead > h3 {
+    font-size: 20px;
+    width: 100%;
+    color: var(--customColor);
+    text-align: start;
+  }
+  .pediManicureHead > ul {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .pediManicureHead > ul > li {
+    font-size: 20px;
+    margin: 10px;
+  }
+  .pediManicureHead > ul > li > span {
+    color: var(--customColor);
+    font-weight: bold;
+  }
