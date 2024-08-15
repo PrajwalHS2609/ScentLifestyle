@@ -8,7 +8,7 @@ const HairServiceImg = () => {
         <video
           src={hairService}
           autoPlay
-          loop
+          loop muted
         ></video>
         <div className="hairCover">
           <div className="hairOverCoverTxt">
