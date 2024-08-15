@@ -117,6 +117,8 @@ import OlaplexLandingPage from "./Components/OlaplexLandingPage/OlaplexLandingPa
 import HairColorStreaksLandingPage from "./Components/HairColorStreaksLandingPage/HairColorStreaksLandingPage";
 import BlogNail from "./Components/BlogPage/BlogPages/BlogNail/BlogNail";
 import PediAndManicure from "./Components/BlogPage/BlogInnerPages/NailBlogInnerPages/PediAndManicure/PediAndManicure";
+import BlogSpa from "./Components/BlogPage/BlogPages/BlogSpa/BlogSpa";
+import SpaDay from "./Components/BlogPage/BlogInnerPages/SpaInnerPages/SpaDay/SpaDay";
 const NotFound = () => (
   <div
     style={{
@@ -241,7 +243,7 @@ const App = () => {
             <Route path="/blog" element={<BlogMain />} />
             <Route path="/blog/hair-blog" element={<BlogHair />} />
             <Route path="/blog/nail-blog" element={<BlogNail />} />
-
+            <Route path="/blog/spa-blog" element={<BlogSpa />} />
           </Route>
           <Route
             path="/does-trimming-hair-make-it-grow-faster"
@@ -263,9 +265,13 @@ const App = () => {
             path="/why-you-should-consider-keratin-hair-treatment"
             element={<HairKeratin />}
           />
-           <Route
+          <Route
             path="/exploring-the-benefits-of-professional-pedicures-and-manicures"
             element={<PediAndManicure />}
+          />
+                <Route
+            path="/how-a-spa-day-can-boost-your-mental-health"
+            element={<SpaDay />}
           />
           <Route path="/pre-bridal-treatments" element={<PrebridalPackage />} />
 

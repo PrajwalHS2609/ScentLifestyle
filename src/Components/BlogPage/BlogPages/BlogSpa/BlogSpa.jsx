@@ -1,8 +1,8 @@
 import React, { useRef, useState } from "react";
+import spaDayBanner from "./../../../../Images/Blog/How a Spa Day/Banner Image.png";
 import BlogCard from "../BlogCard";
-import pedimanicurebanner from "./../../../../Images/Blog/Pedi&manicureBlog/Banner Image.png";
 
-const BlogNail = () => {
+const BlogSpa = () => {
   let [toggle, setToggle] = useState(false);
   let switchRef = useRef();
   let handleRead = () => {
@@ -18,13 +18,12 @@ const BlogNail = () => {
     <div className="blogMainContainer">
       <div className="blogMainDisplay1">
         <BlogCard
-          img={pedimanicurebanner}
-          head="How a Spa Day Can Boost Your Mental Health "
+          img={spaDayBanner}
+          head="EHow a Spa Day Can Boost Your Mental Health?"
           para="In today’s fast-paced world, where stress and anxiety are common, taking time for ..."
           link="/how-a-spa-day-can-boost-your-mental-health"
         />
       </div>
-
       <div className="blogMainDisplay2" ref={switchRef}>
         <BlogCard
           img="https://img.freepik.com/free-photo/portrait-attractive-woman-studio_329181-9782.jpg?ga=GA1.1.798303094.1721912336&semt=ais_hybrid"
@@ -53,4 +52,4 @@ const BlogNail = () => {
   );
 };
 
-export default BlogNail;
+export default BlogSpa;

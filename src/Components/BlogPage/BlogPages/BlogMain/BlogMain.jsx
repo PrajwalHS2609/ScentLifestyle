@@ -6,6 +6,7 @@ import BotoxImg from "./../../../../Images/Blog/HairBotoxImgs/HairBotox1.png";
 import top10 from "./../../../../Images/Blog/Top 10 hairColor/Banner Image.png";
 import hairKeratin from "./../../../../Images/Blog/Keratin_Hair_Treatment/Banner Image.png";
 import pedimanicurebanner from "./../../../../Images/Blog/Pedi&manicureBlog/Banner Image.png";
+import spaDayBanner from "./../../../../Images/Blog/How a Spa Day/Banner Image.png";
 
 import BlogCard from "../BlogCard";
 const BlogMain = () => {
@@ -35,6 +36,7 @@ const BlogMain = () => {
           para="Discover essential tips for maintaining bouncy and beautiful curls during the monsoon season. Learn how to ..."
           link="/tips-for-maintaining-hair-bouncy-and-beautiful-curls-during-monsoon"
         />
+
         <BlogCard
           img={BotoxImg}
           head="How Hair Botox Treatments Can Transform Your Tresses"
@@ -47,26 +49,27 @@ const BlogMain = () => {
           para=" As we step into 2024, the world of hair fashion is buzzing with exciting new trends  ..."
           link="/top-10-trending-women-hair-colours-and-highlights-for-2024"
         />
-        <BlogCard
-          img={hairKeratin}
-          head="Why You Should Consider Keratin Hair Treatment"
-          para=" In recent years, the beauty and hair care industry has seen a significant surge in  ..."
-          link="/why-you-should-consider-keratin-hair-treatment"
-        />
+
         <BlogCard
           img={pedimanicurebanner}
           head="Exploring the Benefits of Professional Pedicures and Manicures "
           para="When it comes to self-care and personal grooming, professional pedicures and manicures are ..."
           link="/exploring-the-benefits-of-professional-pedicures-and-manicures"
         />
+       <BlogCard
+          img={spaDayBanner}
+          head="EHow a Spa Day Can Boost Your Mental Health?"
+          para="In today’s fast-paced world, where stress and anxiety are common, taking time for ..."
+          link="/how-a-spa-day-can-boost-your-mental-health"
+        />
       </div>
 
       <div className="blogMainDisplay2" ref={switchRef}>
         <BlogCard
-          img="https://img.freepik.com/free-photo/portrait-attractive-woman-studio_329181-9782.jpg?ga=GA1.1.798303094.1721912336&semt=ais_hybrid"
-          head="Raccoon Eyes: Causes, Treatment, and How to Get Rid of It"
-          para="Ever noticed those unsightly dark circles around your eyes? In..."
-          link="/"
+          img={hairKeratin}
+          head="Why You Should Consider Keratin Hair Treatment"
+          para=" In recent years, the beauty and hair care industry has seen a significant surge in  ..."
+          link="/why-you-should-consider-keratin-hair-treatment"
         />
         <BlogCard
           img="https://img.freepik.com/free-photo/portrait-attractive-woman-studio_329181-9782.jpg?ga=GA1.1.798303094.1721912336&semt=ais_hybrid"
