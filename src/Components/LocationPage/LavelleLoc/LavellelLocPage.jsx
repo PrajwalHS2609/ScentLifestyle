@@ -1,6 +1,5 @@
 import React from "react";
 import "./LavellelLocPage.css";
-import LocationNavBg from "./../LocationNavBg/LocationNavBg";
 import LastComp from "../../LastComp/LastComp";
 // import LavellelLocMap from "./LavellelLocMap/LavellelLocMap";
 import LocationImg from "../LocationImg/LocationImg";

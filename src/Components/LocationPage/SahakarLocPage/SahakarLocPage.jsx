@@ -1,6 +1,5 @@
 import React from "react";
 import "./SahakarLocPage.css";
-import LocationNavBg from "../LocationNavBg/LocationNavBg";
 import LastComp from "./../../LastComp/LastComp";
 import LocationImg from "../LocationImg/LocationImg";
 import loc1 from "./../../../Images/sahakaranagar.jpg";

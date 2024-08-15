@@ -4,7 +4,7 @@ const BridalMakeUpImg = () => {
   return (
     <div className="servicePageImgContainer">
       <div className="imgCover">
-        <video src={bridalVid} autoPlay loop></video>
+        <video src={bridalVid} autoPlay loop muted></video>
         <div className="serviceCover">
           <div className="serviceOverCoverTxt">
             <h2>Bridal Makeup</h2>

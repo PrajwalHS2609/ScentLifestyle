@@ -8,7 +8,7 @@ const FacialImg = () => {
           src="https://videos.pexels.com/video-files/3182019/3182019-uhd_3840_2160_25fps.mp4"
           autoPlay
           loop
-        mute
+        muted
         ></video>
         <div className="cover">
           <div className="overCoverTxt">

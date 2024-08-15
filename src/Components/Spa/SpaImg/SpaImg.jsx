@@ -8,6 +8,7 @@ const SpaImg = () => {
           src="https://videocdn.cdnpk.net/joy/content/video/free/video0458/large_preview/_import_60c06c593a3da8.26033887.mp4?filename=1104957_1080p_care_cream_1920x1080.mp4"
           autoPlay
           loop
+          muted
         ></video>
         <div className="cover">
           <div className="overCoverTxt">

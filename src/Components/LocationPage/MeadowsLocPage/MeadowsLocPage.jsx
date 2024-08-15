@@ -1,5 +1,4 @@
 import React from "react";
-import LocationNavBg from "../LocationNavBg/LocationNavBg";
 import LastComp from "../../LastComp/LastComp";
 import LocationImg from "../LocationImg/LocationImg";
 import loc5 from "./../../../Images/seegehalli - whitefield.jpg";

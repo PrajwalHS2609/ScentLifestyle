@@ -5,7 +5,7 @@ const MicroBladingImg = () => {
   return (
     <div className="servicePageImgContainer">
       <div className="imgCover">
-        <video src={microBladingVid} autoPlay loop></video>
+        <video src={microBladingVid} autoPlay loop muted></video>
         <div className="serviceCover">
           <div className="serviceOverCoverTxt">
             <h2>Eyebrow Microblading</h2>

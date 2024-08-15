@@ -10,7 +10,7 @@ const NestedNav = () => {
       <li className="nestedNav2">
         <NavLink to={"/blog/hair-blog"}>Hair</NavLink>
       </li>
-      <li>
+      <li className="nestedNav2">
         <NavLink to={"/blog/nail-blog"}>Nail</NavLink>
       </li>
       <li>

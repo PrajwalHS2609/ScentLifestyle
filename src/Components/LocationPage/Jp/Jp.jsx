@@ -1,5 +1,4 @@
 import React from "react";
-import LocationNavBg from "../LocationNavBg/LocationNavBg";
 import LocationImg from "../LocationImg/LocationImg";
 import ServiceCardContain from "../../MainServicePages/ServiceCards/ServiceCardContain";
 import Members from "../../HomePage/Members/Members";

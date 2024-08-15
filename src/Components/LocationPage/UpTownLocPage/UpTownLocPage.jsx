@@ -1,6 +1,5 @@
 import React from "react";
 import LastComp from "../../LastComp/LastComp";
-import LocationNavBg from "../LocationNavBg/LocationNavBg";
 import "./UpTownLocPage.css";
 import LocationImg from "../LocationImg/LocationImg";
 import loc4 from "./../../../Images/Varthur - whitefield.jpg";

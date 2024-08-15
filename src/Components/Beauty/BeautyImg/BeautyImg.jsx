@@ -5,7 +5,7 @@ const BeautyImg = () => {
   return (
     <div className="beautyImgContainer">
       <div className="imgCover">
-        <video src={beautyEssentialVid} autoPlay loop></video>
+        <video src={beautyEssentialVid} autoPlay loop muted></video>
         <div className="cover">
           <div className="overCoverTxt">
             <h2>Beauty Essentials</h2>

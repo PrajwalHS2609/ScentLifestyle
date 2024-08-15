@@ -9,6 +9,7 @@ const LashesImg = () => {
           src={lashesService}
           autoPlay
           loop
+          muted
         ></video>
         <div className="cover">
           <div className="overCoverTxt">
