@@ -1,0 +1,17 @@
+.HairSalonJpImg {
+  /* border: solid red; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.HairSalonJpImg > img {
+  width: 100%;
+  height: 100%;
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .HairSalonJpImg {
+    /* border: solid red; */
+    width: 100%;
+  }
+}

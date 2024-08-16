@@ -119,6 +119,14 @@ import BlogNail from "./Components/BlogPage/BlogPages/BlogNail/BlogNail";
 import PediAndManicure from "./Components/BlogPage/BlogInnerPages/NailBlogInnerPages/PediAndManicure/PediAndManicure";
 import BlogSpa from "./Components/BlogPage/BlogPages/BlogSpa/BlogSpa";
 import SpaDay from "./Components/BlogPage/BlogInnerPages/SpaInnerPages/SpaDay/SpaDay";
+import HairSalonInJp from "./Components/HairServicePage/HairSalonJp/HairSalonInJp";
+import NailSalonInJp from "./Components/NaliSalonPage/NailSalonInJp/NailSalonInJp";
+import FacialInJp from "./Components/FacialPage/FacialInJp/FacialInJp";
+import BodyWaxingInJp from "./Components/Beauty/BodyWaxingInJp/BodyWaxingInJp";
+import SpaInJp from "./Components/Spa/SpaInJp/SpaInJp";
+import LashesInJp from "./Components/Lashes/LashesInJp/LashesInJp";
+import BridalMakeupInJp from "./Components/BridalMakeUpPage/BridalMakeupInJp/BridalMakeupInJp";
+import MicroBladingInJp from "./Components/MicroBladingPage/MicroBladingInJp/MicroBladingInJp";
 const NotFound = () => (
   <div
     style={{
@@ -269,7 +277,7 @@ const App = () => {
             path="/exploring-the-benefits-of-professional-pedicures-and-manicures"
             element={<PediAndManicure />}
           />
-                <Route
+          <Route
             path="/how-a-spa-day-can-boost-your-mental-health"
             element={<SpaDay />}
           />
@@ -385,6 +393,23 @@ const App = () => {
           <Route
             path="/lp-hair-highlights-and-streaks"
             element={<HairColorStreaksLandingPage />}
+          />
+          <Route path="/hair-salon-in-jp-nagar" element={<HairSalonInJp />} />
+          <Route path="/nail-salon-in-jp-nagar" element={<NailSalonInJp />} />
+          <Route path="/facials-in-jp-nagar" element={<FacialInJp />} />
+          <Route
+            path="/body-waxing-threading-and-d-tan-in-jp-nagar"
+            element={<BodyWaxingInJp />}
+          />
+          <Route path="/spa-in-jp-nagar" element={<SpaInJp />} />
+          <Route path="/eye-lashes-in-jp-nagar" element={<LashesInJp />} />
+          <Route
+            path="/bridal-makeup-in-jp-nagar"
+            element={<BridalMakeupInJp />}
+          />
+          <Route
+            path="/eyebrow-microblading-in-jp-nagar"
+            element={<MicroBladingInJp />}
           />
         </Routes>
       </BrowserRouter>
