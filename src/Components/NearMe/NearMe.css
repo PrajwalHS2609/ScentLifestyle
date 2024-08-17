@@ -19,6 +19,7 @@
 }
 .nearHeadContainer > h2 {
   font-size: 30px;
+  color: var(--customColor);
 }
 .nearHeadContainer > p {
   font-size: 20px;
@@ -35,10 +36,22 @@
   flex-direction: column;
   gap: 10px;
 }
-.compContainer>p>a{
-text-decoration: none;
+.compContainer > p {
+  font-size: 20px;
+}
+.compContainer > p > a {
+  text-decoration: none;
   color: #cc2228;
 }
 .compContainer > h2 {
   color: #cc2228;
+  font-size: 25px;
+  text-align: start;
+  color: var(--customColor);
+}
+.compContainer > h3 {
+  color: #cc2228;
+  font-size: 20px;
+  text-align: start;
+  color: var(--customColor);
 }

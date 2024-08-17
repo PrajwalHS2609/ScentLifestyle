@@ -28,6 +28,7 @@ const MicroBladingCompareMain = () => {
         imgAfter={img4After}
         imgBeforeAlt="img4Before"
         imgAfterAlt="img4After"
+        
       />
 
     </div>

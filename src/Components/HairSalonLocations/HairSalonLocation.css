@@ -14,6 +14,10 @@
   /* border: solid green; */
   text-align: center;
 }
+.hairSalonLocationTitle > h2 {
+  color: var(--customColor);
+  font-size: 30px;
+}
 .hairSalonLocationDesp {
   /* border: solid; */
   text-align: center;
@@ -31,16 +35,24 @@
   margin-top: 30px;
   text-align: center;
 }
+.hairSalonLocationWelcomeHead > h3 {
+  font-size: 25px;
+  color: var(--customColor);
+}
 .hairSalonLocationWelcomePara {
   font-size: 20px;
   margin-top: 10px;
 }
-.hairSalonLocationWelcomePara > a {
+.hairSalonLocationWelcomePara > p > a {
   color: #cc2228;
-  text-decoration: underline;
+  text-decoration: none;
 }
 .hairSalonLocationService {
   margin-top: 20px;
+}
+.hairSalonLocationService > h3 {
+  color: var(--customColor);
+  font-size: 20px;
 }
 .hairSalonLocationServiceList > ol > li {
   margin: 20px;
@@ -59,14 +71,22 @@
   color: #cc2228;
   font-weight: bold;
 }
+.hairSalonLocationWhy > h3 {
+  font-size: 20px;
+  color: var(--customColor);
+}
 .hairSalonLocationBookPara {
   /* border: solid; */
   margin-top: 10px;
   font-size: 20px;
 }
+.hairSalonLocationBook > h3 {
+  color: var(--customColor);
+  font-size: 20px;
+}
 .hairSalonLocationBookPara > p > a {
   color: #cc2228;
-  text-decoration: underline;
+  text-decoration: none;
 }
 @media (min-width: 320px) and (max-width: 600px) {
   .hairSalonLocationTitle > h2 {

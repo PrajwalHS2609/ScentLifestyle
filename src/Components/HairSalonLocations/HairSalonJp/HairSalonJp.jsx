@@ -34,7 +34,6 @@ const HairSalonJp = () => {
       <NavBg />
       <HairServiceImg />
       <Navi1 />
-      <HairServiceCardContain />
       <div className="hairSalonLocationWrapper">
         <div className="hairSalonLocationContent">
           <div className="hairSalonLocationTitle">
@@ -51,24 +50,27 @@ const HairSalonJp = () => {
             </p>
           </div>
           <div className="hairSalonLocationWelcomeHead">
-            <h2>Experience Premier Hair Care at SCENT  in JP Nagar </h2>
+            <h3>Experience Premier Hair Care at SCENT in JP Nagar </h3>
           </div>
           <div className="hairSalonLocationWelcomePara">
-            Welcome to{" "}
-            <Link to={"/hair-salon-in-jp-nagar-bangalore"}>
-              SCENT Hair Salon in JP Nagar, Bangalore
-            </Link>
-            , where we offer top-notch hair care services tailored to meet your
-            unique needs. Our salon is committed to providing a luxurious and
-            relaxing experience, ensuring you leave looking and feeling your
-            best. From trendy haircuts to advanced coloring techniques,{" "}
-            <Link to={"/hair-salon-in-jp-nagar-bangalore"}>
-              SCENT Hair Salon
-            </Link>
-            is your ultimate destination for all things hair.
+            <p>
+              {" "}
+              Welcome to{" "}
+              <Link to={"/hair-salon-in-jp-nagar-bangalore"}>
+                SCENT Hair Salon in JP Nagar, Bangalore
+              </Link>
+              , where we offer top-notch hair care services tailored to meet
+              your unique needs. Our salon is committed to providing a luxurious
+              and relaxing experience, ensuring you leave looking and feeling
+              your best. From trendy haircuts to advanced coloring techniques,{" "}
+              <Link to={"/hair-salon-in-jp-nagar-bangalore"}>
+                SCENT Hair Salon
+              </Link>
+              is your ultimate destination for all things hair.
+            </p>
           </div>
           <div className="hairSalonLocationService">
-            <h2>Our Hair Salon Services</h2>
+            <h3>Our Hair Salon Services</h3>
             <div className="hairSalonLocationServiceList">
               <ol>
                 <li>
@@ -110,7 +112,7 @@ const HairSalonJp = () => {
             </div>
           </div>
           <div className="hairSalonLocationWhy">
-            <h2>Why Choose SCENT Hair Salon in JP Nagar?</h2>
+            <h3>Why Choose SCENT Hair Salon in JP Nagar?</h3>
             <div className="hairSalonLocationWhyList">
               <ol>
                 <li>
@@ -127,11 +129,11 @@ const HairSalonJp = () => {
                   look.
                 </li>
                 <li>
-                  <span>High-Quality Products </span> At SCENT , we use
-                  only the finest hair care products known for their superior
-                  performance and gentle care. Our products are selected to
-                  provide the best results while maintaining the health and
-                  integrity of your hair.
+                  <span>High-Quality Products </span> At SCENT , we use only the
+                  finest hair care products known for their superior performance
+                  and gentle care. Our products are selected to provide the best
+                  results while maintaining the health and integrity of your
+                  hair.
                 </li>
                 <li>
                   <span>Relaxing Ambiance</span> Our salon offers a serene and
@@ -141,14 +143,14 @@ const HairSalonJp = () => {
                 </li>
                 <li>
                   <span>Convenient Location:</span> Situated in the heart of JP
-                  Nagar, SCENT  is easily accessible, making it a
-                  convenient choice for your hair care needs.
+                  Nagar, SCENT is easily accessible, making it a convenient
+                  choice for your hair care needs.
                 </li>
               </ol>
             </div>
           </div>
           <div className="hairSalonLocationBook">
-            <h2>Book Your Appointment Today!</h2>
+            <h3>Book Your Appointment Today!</h3>
           </div>
           <div className="hairSalonLocationBookPara">
             <p>
@@ -162,8 +164,8 @@ const HairSalonJp = () => {
               achieve your hair goals.
             </p>
             <p>
-              Visit <Link to={"/"}>SCENT </Link> and discover why we are
-              the preferred choice for{" "}
+              Visit <Link to={"/"}>SCENT </Link> and discover why we are the
+              preferred choice for{" "}
               <Link to={"/hair-salon-in-jp-nagar-bangalore"}>
                 hair care in JP Nagar
               </Link>
@@ -173,6 +175,7 @@ const HairSalonJp = () => {
           </div>
         </div>
       </div>
+      <HairServiceCardContain />
       <Members />
       <OurSalon />
       <Partners />
@@ -180,7 +183,7 @@ const HairSalonJp = () => {
       <HelpNearYou />
       <TextLocReviews />
       <ServiceWhy />
-      <WhatsApp/>
+      <WhatsApp />
       <LastComp />
     </div>
   );

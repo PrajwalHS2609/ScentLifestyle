@@ -30,6 +30,7 @@ const HeadMassageNearMe = () => {
       <NavBg />
       <SpaImg />
       <Navi5 />
+      <HeadMassageMain/>
       <SpaServiceCardContain />
       <Members />
       <OurSalon />

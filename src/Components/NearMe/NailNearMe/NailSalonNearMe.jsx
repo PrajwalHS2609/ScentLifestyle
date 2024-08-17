@@ -30,6 +30,7 @@ const NailSalonNearMe = () => {
       <NavBg />
       <NailSalonImg />
       <Navi7 />
+      <NailNearMe/>
       <NailServiceCardContain />
       <Members />
       <OurSalon />
