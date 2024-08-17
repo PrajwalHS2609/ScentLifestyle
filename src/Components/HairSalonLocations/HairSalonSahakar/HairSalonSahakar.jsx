@@ -51,26 +51,30 @@ const HairSalonSahakar = () => {
             </p>
           </div>
           <div className="hairSalonLocationWelcomeHead">
-            <h2>
-              Discover Top-Notch Hair Care at SCENT  in Sahakar Nagar
-            </h2>
+            <h3>Discover Top-Notch Hair Care at SCENT in Sahakar Nagar</h3>
           </div>
           <div className="hairSalonLocationWelcomePara">
-            Welcome to <span></span>
-            <Link to={"./hair-salon-in-sahakar-nagar"}>
-              SCENT Hair Salon in Sahakar Nagar
-            </Link>
-            , where luxury meets style and expertise. Our premier hair salon
-            offers a wide range of services designed to enhance your natural
-            beauty and give you the confidence you deserve. Whether you're
-            looking for a <Link to={"/haircut-and-styling"}>chic haircut</Link>,
-            <Link to={"/hair-highlights-and-streaks"}>vibrant hair color</Link>,
-            or a
-            <Link to={"/hair-treatments"}> rejuvenating hair treatment</Link>,
-            SCENT  is your go-to destination for all your hair care needs.
+            <p>
+              {" "}
+              Welcome to <span></span>
+              <Link to={"./hair-salon-in-sahakar-nagar"}>
+                SCENT Hair Salon in Sahakar Nagar
+              </Link>
+              , where luxury meets style and expertise. Our premier hair salon
+              offers a wide range of services designed to enhance your natural
+              beauty and give you the confidence you deserve. Whether you're
+              looking for a{" "}
+              <Link to={"/haircut-and-styling"}>chic haircut</Link>,
+              <Link to={"/hair-highlights-and-streaks"}>
+                vibrant hair color
+              </Link>
+              , or a
+              <Link to={"/hair-treatments"}> rejuvenating hair treatment</Link>,
+              SCENT is your go-to destination for all your hair care needs.
+            </p>
           </div>
           <div className="hairSalonLocationService">
-            <h2>Our Hair Salon Services</h2>
+            <h3>Our Hair Salon Services</h3>
             <div className="hairSalonLocationServiceList">
               <ol>
                 <li>
@@ -108,7 +112,7 @@ const HairSalonSahakar = () => {
             </div>
           </div>
           <div className="hairSalonLocationWhy">
-            <h2>Why Choose SCENT Hair Salon in Sahakar Nagar?</h2>
+            <h3>Why Choose SCENT Hair Salon in Sahakar Nagar?</h3>
             <div className="hairSalonLocationWhyList">
               <ol>
                 <li>
@@ -136,7 +140,7 @@ const HairSalonSahakar = () => {
                 </li>
                 <li>
                   <span>Convenient Location:</span> Located in the heart of
-                  Sahakar Nagar, SCENT  is easily accessible, making it
+                  Sahakar Nagar, SCENT is easily accessible, making it
                   convenient for you to drop in for a quick touch-up or a
                   complete makeover.
                 </li>
@@ -144,7 +148,7 @@ const HairSalonSahakar = () => {
             </div>
           </div>
           <div className="hairSalonLocationBook">
-            <h2>Book Your Appointment Today!</h2>
+            <h3>Book Your Appointment Today!</h3>
           </div>
           <div className="hairSalonLocationBookPara">
             <p>
@@ -159,8 +163,8 @@ const HairSalonSahakar = () => {
               treatment, we are here to help you look and feel your best.
             </p>
             <p>
-              Visit us at <Link to={"/"}>SCENT </Link> and discover why we
-              are the top choice for <span></span>
+              Visit us at <Link to={"/"}>SCENT </Link> and discover why we are
+              the top choice for <span></span>
               <Link to={"/hair-salon-in-sahakar-nagar"}>
                 hair care in Sahakar Nagar
               </Link>
@@ -177,7 +181,7 @@ const HairSalonSahakar = () => {
       <HelpNearYou />
       <TextLocReviews />
       <ServiceWhy />
-      <WhatsApp/>
+      <WhatsApp />
       <LastComp />
     </div>
   );

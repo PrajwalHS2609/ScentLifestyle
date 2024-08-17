@@ -31,6 +31,7 @@ const WomenSalonNearMe = () => {
       <NavBg />
       <ServicePage />
       <Navi />
+      <WomenSalon/>
       <ServiceCardContain />
       <UnisexSalon />
       <Members />

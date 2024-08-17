@@ -1,116 +1,113 @@
-:root {
-  --customRed: #cc2228;
-}
 .serviceCardContainer {
-  /* border: solid blue; */
-  width: 100%;
+  /* border: solid brown; */
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  height: 150vh;
+  gap: 25px;
+  padding: 20px;
 }
 .serviceCardMain {
-  /* border: solid; */
-  position: relative;
-}
-.serviceCardWrapper {
-  /* border: solid; */
-  height: 450px;
-  width: 450px;
-  margin: 15px;
-  position: relative;
-  overflow: hidden;
-}
-.serviceCardWrapper > img {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
-  transition: 600ms ease-in-out;
-  object-position: 0,0;
-}
-.serviceCardWrapper:hover .serviceCardImg {
-  transform: scale(1.2);
-}
-
-.serviceCardCover {
-  /* border: solid; */
-  height: 100%;
-  width: 100%;
-  background-color: var(--customRed);
+  /* border: solid red; */
   display: flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
-  z-index: 2;
-  display: none;
+  flex-direction: column;
+  width: 30%;
+  height: 100%;
+  margin: 10px;
 }
-.serviceCardWrapper:hover .serviceCardCover {
-  display: flex;
+.serviceCardWrapper {
+  /* border: solid green; */
+  width: 100%;
+  position: relative;
+  height: 400px;
+  overflow: hidden;
+}
+.serviceCardImg {
+  width: 100%;
+  height: 100%;
+  transition: 300ms ease;
+}
+.serviceCardCover {
+  /* border: solid blue; */
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--customColor);
+  padding: 20px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .serviceCardTxtContainer {
   /* border: solid; */
-  width: 90%;
-  height: 90%;
+  width: 100%;
+  height: 100%;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
   flex-direction: column;
   gap: 30px;
-  margin-top: 50px;
 }
 .serviceCardHead > h3 {
-  font-size: 30px;
+  font-size: 25px;
   color: white;
+  text-align: center;
+}
+.serviceCardPara > p {
+  font-size: 18px;
+  text-align: justify;
+  color: white;
+  font-weight: 500;
 }
 
-.serviceCardPara {
-  font-weight: bold;
-  color: white;
-  text-align: justify;
-  word-spacing: 2px;
-}
 .serviceCardBut > a > button {
-  /* border: solid; */
-  width: 200px;
-  height: 50px;
+  padding: 10px;
+  font-size: 15px;
   border-radius: 10px;
-  background-color: white;
   font-weight: bold;
+  color: var(--customColor);
   border: none;
-  color: var(--customRed);
+  background-color: white;
   cursor: pointer;
 }
-.serviceCardIcon{
-  color: black;
+.serviceCardMain:hover .serviceCardCover {
+  display: flex;
+}
+.serviceCardMain:hover .serviceCardImg {
+  transform: scale(1.1);
 }
 .serviceGoto {
-  border: 2px whitesmoke solid;
-  display: flex;
+  /* border: solid rebeccapurple; */
   width: 80%;
-  height: 60px;
+  margin-top: -25px;
+  background-color: white;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 5px black;
+}
+.serviceGoto > a {
+  /* border: solid rebeccapurple; */
+  width: 100%;
+  color: var(--customColor);
+  display: flex;
   justify-content: space-between;
   align-items: center;
-  position: absolute;
-  z-index: 3;
-  bottom: -20px;
-  left: 45px;
-  background-color: white;
+  text-decoration: none;
+  padding: 12px;
+  font-size: 18px;
 }
-.goTo1 {
-  margin-left: 20px;
-}
-.goTo1 > h3 {
-  color: var(--customRed);
-  font-size: 20px;
-}
-.goTo2 {
-  margin-right: 20px;
+.serviceCardIcon {
+  color: black;
 }
 .respContainer {
   /* border: solid green; */
-  height: 250px;
+  height: 300px;
   width: 100%;
   margin: 0px;
   position: relative;
@@ -139,7 +136,7 @@
   padding: 10px;
 }
 .respServiceCardHead > h3 {
-  font-size: 140%;
+  font-size: 25px;
   color: white;
   text-align: center;
 }
@@ -147,11 +144,12 @@
 .respServiceCardPara {
   font-weight: bold;
   color: white;
-  text-align: start;
+  text-align: center;
   width: 90%;
 }
 .respServiceCardPara > p {
-  font-size: 100%;
+  font-size: 20px;
+  text-align: justify;
 }
 .respServiceCardBut > a > button {
   /* border: solid; */
@@ -164,30 +162,16 @@
   color: var(--customRed);
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   .serviceCardContainer {
-    /* border: solid red; */
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 0px;
-    margin-top: 0%;
+    /* border: solid brown; */
+    padding: 10px;
   }
   .serviceCardMain {
-    /* border: solid yellow; */
-    position: relative;
-    height: 480px;
-    max-width: 320px;
-    margin: 20px;
+    /* border: solid red; */
+    min-width: 320px;
   }
-  .serviceCardWrapper > img {
-    position: static;
-    width: 100%;
-    height: 100%;
-   
-  }
+
   .serviceCardWrapper {
     /* border: solid green; */
     height: 200px;
@@ -207,77 +191,10 @@
     color: var(--customRed);
   }
   .serviceGoto {
-    border: 2px whitesmoke solid;
     width: 90%;
-    height: 45px;
-    bottom: 0px;
-    left: 5%;
+    height: 40px;
     background-color: white;
-  }
-  .serviceGoto > .goTo1 > h3 {
-    font-size: 130%3
-  }
-  .respContainer {
-    display: flex;
-  }
-  .respServiceCardHead > h3 {
-    font-size: 150%;
-  }
-  .respServiceCardPara > p {
-    font-size: 90%;
-  }
-}
-@media screen and (min-width: 768px) {
-  .serviceCardContainer {
-    /* border: solid red; */
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 0px;
-    margin-top: 0%;
-  }
-  .serviceCardMain {
-    /* border: solid yellow; */
-    position: relative;
-    max-width: 300px;
-    height: 460px;
-    margin: 30px;
-  }
-  .serviceCardWrapper > img {
-    position: static;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: 1;
-    transition: 600ms ease-in-out;
-  }
-  .serviceCardWrapper {
-    /* border: solid green; */
-    height: 200px;
-    width: 100%;
-    margin: 0px;
-    position: relative;
-    overflow: hidden;
-  }
-  .respServiceCardBut > a > button {
-    /* border: solid; */
-    width: 200px;
-    height: 30px;
-    border-radius: 10px;
-    background-color: white;
-    font-weight: bold;
-    border: none;
-    color: var(--customRed);
-  }
-  .serviceGoto {
-    border: 2px whitesmoke solid;
-    width: 90%;
-    height: 45px;
-    bottom: -15px;
-    left: 5%;
-    background-color: white;
+    margin-top: -20px;
   }
   .serviceGoto > .goTo1 > h3 {
     font-size: 130%;
@@ -290,226 +207,5 @@
   }
   .respServiceCardPara > p {
     font-size: 90%;
-  }
-}
-@media screen and (min-width: 990px) {
-  .respContainer {
-    display: none;
-  }
-  .serviceCardContainer {
-    /* border: solid blue; */
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    height: 100%;
-  }
-  .serviceCardMain {
-    /* border: solid; */
-    position: relative;
-    margin: 30px;
-    min-width: 400px;
-    height: 400px;
-  }
-  .serviceCardWrapper {
-    /* border: solid; */
-    height: 100%;
-    width: 100%;
-    margin: 15px;
-    position: relative;
-    overflow: hidden;
-  }
-  .serviceCardWrapper > img {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    transition: 600ms ease-in-out;
-  }
-  .serviceCardWrapper:hover .serviceCardImg {
-    transform: scale(1.2);
-  }
-
-  .serviceCardCover {
-    /* border: solid; */
-    height: 100%;
-    width: 100%;
-    background-color: var(--customRed);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    z-index: 2;
-    display: none;
-  }
-  .serviceCardWrapper:hover .serviceCardCover {
-    display: flex;
-  }
-  .serviceCardTxtContainer {
-    /* border: solid; */
-    width: 90%;
-    height: 90%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-direction: column;
-    gap: 30px;
-    margin-top: 50px;
-  }
-  .serviceCardHead > h3 {
-    font-size: 30px;
-    color: white;
-  }
-
-  .serviceCardPara {
-    font-weight: bold;
-    color: white;
-    text-align: justify;
-    word-spacing: 2px;
-  }
-  .serviceCardBut > a > button {
-    /* border: solid; */
-    width: 200px;
-    height: 50px;
-    border-radius: 10px;
-    background-color: white;
-    font-weight: bold;
-    border: none;
-    color: var(--customRed);
-  }
-  .serviceGoto {
-    border: 2px whitesmoke solid;
-    display: flex;
-    width: 80%;
-    height: 50px;
-    justify-content: space-between;
-    align-items: center;
-    position: absolute;
-    z-index: 3;
-    bottom: -40px;
-    left: 45px;
-    background-color: white;
-  }
-  .goTo1 {
-    margin-left: 20px;
-  }
-  .goTo1 > h3 {
-    color: var(--customRed);
-    font-size: 20px;
-  }
-  .goTo2 {
-    margin-right: 20px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .respContainer {
-    display: none;
-  }
-  .serviceCardContainer {
-    /* border: solid blue; */
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    height: 100%;
-    padding: 20px;
-  }
-  .serviceCardMain {
-    /* border: solid; */
-    position: relative;
-    margin: 30px;
-    min-width: 400px;
-    height: 400px;
-  }
-  .serviceCardWrapper {
-    /* border: solid; */
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    position: relative;
-    overflow: hidden;
-  }
-  .serviceCardWrapper > img {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    transition: 600ms ease-in-out;
-  }
-  .serviceCardWrapper:hover .serviceCardImg {
-    transform: scale(1.2);
-  }
-
-  .serviceCardCover {
-    /* border: solid; */
-    height: 100%;
-    width: 100%;
-    background-color: var(--customRed);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    z-index: 2;
-    display: none;
-  }
-  .serviceCardWrapper:hover .serviceCardCover {
-    display: flex;
-  }
-  .serviceCardTxtContainer {
-    /* border: solid; */
-    width: 90%;
-    height: 90%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-direction: column;
-    gap: 30px;
-    margin-top: 50px;
-  }
-  .serviceCardHead > h3 {
-    font-size: 30px;
-    color: white;
-  }
-
-  .serviceCardPara {
-    font-weight: bold;
-    color: white;
-    text-align: justify;
-    word-spacing: 2px;
-  }
-  .serviceCardBut > a > button {
-    /* border: solid; */
-    width: 200px;
-    height: 50px;
-    border-radius: 10px;
-    background-color: white;
-    font-weight: bold;
-    border: none;
-    color: var(--customRed);
-  }
-  .serviceGoto {
-    border: 2px whitesmoke solid;
-    display: flex;
-    width: 80%;
-    height: 50px;
-    justify-content: space-between;
-    align-items: center;
-    position: absolute;
-    z-index: 3;
-    bottom: -35px;
-    left: 45px;
-    background-color: white;
-  }
-  .goTo1 {
-    margin-left: 20px;
-  }
-  .goTo1 > h3 {
-    color: var(--customRed);
-    font-size: 20px;
-  }
-  .goTo2 {
-    margin-right: 20px;
   }
 }

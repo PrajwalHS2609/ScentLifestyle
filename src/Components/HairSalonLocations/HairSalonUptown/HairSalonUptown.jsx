@@ -51,23 +51,27 @@ const HairSalonUptown = () => {
             </p>
           </div>
           <div className="hairSalonLocationWelcomeHead">
-            <h2>
+            <h3>
               Experience Premier Hair Care at SCENT in Uptown, Whitefield{" "}
-            </h2>
+            </h3>
           </div>
           <div className="hairSalonLocationWelcomePara">
-            Welcome to SCENT , the premier destination for top-notch hair care
-            services in Uptown, Whitefield. Our salon is dedicated to offering
-            exceptional hairstyling, coloring, and treatment services that cater
-            to your individual needs. At{" "}
-            <Link to={"/hair-salon-in-uptown-whitefield"}>
-              SCENT Hair Salon
-            </Link>
-            , we believe that great hair is the cornerstone of a confident look,
-            and our expert team is here to help you achieve your perfect style.
+            <p>
+              {" "}
+              Welcome to SCENT , the premier destination for top-notch hair care
+              services in Uptown, Whitefield. Our salon is dedicated to offering
+              exceptional hairstyling, coloring, and treatment services that
+              cater to your individual needs. At{" "}
+              <Link to={"/hair-salon-in-uptown-whitefield"}>
+                SCENT Hair Salon
+              </Link>
+              , we believe that great hair is the cornerstone of a confident
+              look, and our expert team is here to help you achieve your perfect
+              style.
+            </p>
           </div>
           <div className="hairSalonLocationService">
-            <h2>Our Hair Salon Services</h2>
+            <h3>Our Hair Salon Services</h3>
             <div className="hairSalonLocationServiceList">
               <ol>
                 <li>
@@ -109,7 +113,7 @@ const HairSalonUptown = () => {
             </div>
           </div>
           <div className="hairSalonLocationWhy">
-            <h2>Why Choose SCENT Hair Salon in Uptown, Whitefield?</h2>
+            <h3>Why Choose SCENT Hair Salon in Uptown, Whitefield?</h3>
             <div className="hairSalonLocationWhyList">
               <ol>
                 <li>
@@ -147,16 +151,14 @@ const HairSalonUptown = () => {
             </div>
           </div>
           <div className="hairSalonLocationBook">
-            <h2>Book Your Appointment Today!</h2>
+            <h3>Book Your Appointment Today!</h3>
           </div>
           <div className="hairSalonLocationBookPara">
             <p>
-              Ready to transform your hair? Book your appointment at
-              <span></span>
+              Ready to transform your hair? Book your appointment at{" "}
               <Link to={"/hair-salon-in-uptown-whitefield"}>
                 SCENT Hair Salon in Uptown, Whitefield
               </Link>
-              <span> </span>
               today. Whether you're seeking a chic haircut, a vibrant new color,
               or a restorative treatment, our expert team is here to help you
               achieve your hair goals.

@@ -1,9 +1,11 @@
 .hairSalonLocationWrapper {
   /* border: solid red; */
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding: 20px;
 }
 .hairSalonLocationContent {
   /* border: solid blue; */
@@ -28,7 +30,7 @@
 }
 .hairSalonLocationDesp > p {
   font-size: 20px;
-  width: 70%;
+  width: 100%;
 }
 .hairSalonLocationWelcomeHead {
   /* border: solid green; */

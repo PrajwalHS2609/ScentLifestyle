@@ -31,6 +31,7 @@ const HairSpaNearMe = () => {
       <NavBg />
       <HairServiceImg />
       <Navi1 />
+      <HairSpaNearMain/>
       <HairServiceCardContain />
       <HairSalon />
       <Members />

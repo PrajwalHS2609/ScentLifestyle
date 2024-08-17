@@ -57,7 +57,7 @@ const ServiceCardContain = () => {
         link={"/bridal-makeup"}
       />
       <ServiceCards
-        heading="Micro Blading"
+        heading="Eyebrow Micro Blading"
         para="Enhance your natural beauty with SCENT Eye Lashes. Our expert technicians specialize in extensions for fuller, longer lashes that define your eyes and add glamour to any occasion."
         goto="Eyebrow Microblading"
         img={micro}

@@ -24,21 +24,6 @@ const ServiceCards = (props) => {
           </div>
         </div>
       </div>
-      <Link to={props.link}>
-        <div className="serviceGoto">
-          <div className="goTo1">
-            <h3>{props.goto}</h3>
-          </div>
-          <div className="goTo2">
-            <p>
-              <FontAwesomeIcon
-                icon={faArrowRight}
-                className="serviceCardIcon"
-              ></FontAwesomeIcon>
-            </p>
-          </div>
-        </div>
-      </Link>
       <div className="respContainer">
         <div className="respServiceCardCover">
           <div className="respServiceCardTxtContainer">
@@ -55,6 +40,15 @@ const ServiceCards = (props) => {
             </div>
           </div>
         </div>
+      </div>
+      <div className="serviceGoto">
+        <Link to={props.link}>
+          <h3>{props.goto}</h3>
+          <FontAwesomeIcon
+            icon={faArrowRight}
+            className="serviceCardIcon"
+          ></FontAwesomeIcon>
+        </Link>
       </div>
     </div>
   );
