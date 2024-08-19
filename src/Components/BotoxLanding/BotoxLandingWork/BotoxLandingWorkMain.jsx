@@ -16,7 +16,7 @@ const BotoxLandingWorkMain = () => {
       <BotoxWorkCardStatic />
       <BotoxLandingWorkCard
         vid={botoxWork1}
-        head="Revive Your Radiance with Our Hair Botox Magic!"
+        head="Revive Your Radiance with Our Hair Botoxx Magic!"
       />
       <BotoxLandingWorkCard
         vid={botoxWork2}
@@ -24,7 +24,7 @@ const BotoxLandingWorkMain = () => {
       />
       <BotoxLandingWorkCard
         vid={botoxWork3}
-        head="Unlock the Secret to Shiny, Strong Hair with Hair Botox!"
+        head="Unlock the Secret to Shiny, Strong Hair with Hair Botoxx!"
       />
       <BotoxLandingWorkCard
         vid={botoxWork4}
@@ -32,15 +32,15 @@ const BotoxLandingWorkMain = () => {
       />
       <BotoxLandingWorkCard
         vid={botoxWork5}
-        head="From Dull to Dazzling - Revitalize Your Hair with Botox!"
+        head="From Dull to Dazzling - Revitalize Your Hair with Botoxx!"
       />
       <BotoxLandingWorkCard
         vid={botoxWork6}
-        head="Get Ready for Gorgeous - Hair Botox for Luscious, Flawless Hair!"
+        head="Get Ready for Gorgeous - Hair Botoxx for Luscious, Flawless Hair!"
       />
       <BotoxLandingWorkCard
         vid={botoxWork7}
-        head="Transform Your Tresses - The Ultimate Hair Botox Experience!"
+        head="Transform Your Tresses - The Ultimate Hair Botoxx Experience!"
       />
     </div>
   );

@@ -8,7 +8,7 @@ const BotoxWorkCardStatic = () => {
         <h3>Unlock Gorgeous Hair </h3>
         <div className="botoxLandingWorkCardUnderline"></div>
         <p>
-        WATCH OUR STUNNING HAIR BOTOX TREATMENT IN ACTION !</p>
+        WATCH OUR STUNNING HAIR BOTOXX TREATMENT IN ACTION !</p>
       </div>
     </div>
   );

@@ -1,28 +1,125 @@
 .OfferTesting {
   width: 100%;
   /* border: solid red; */
-}
-.OfferTestingCard {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   gap: 20px;
 }
-.OfferTestingCard > img {
+.offerTestingHead {
+  /* border: solid blue; */
   width: 100%;
-  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://img.freepik.com/free-photo/abstract-luxury-soft-red-background-christmas-valentines-layout-designstudioroom-web-template-business-report-with-smooth-circle-gradient-color_1258-90394.jpg?t=st=1724060198~exp=1724063798~hmac=d6ed0c1569366fd74de792a3734c21b2931a60d96a66c93ad99eb95a3baa0d08&w=1380");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.OfferTestingCardContent {
-  border: solid green;
+.offerTestingHead2 {
+  /* border: solid blue; */
   width: 100%;
-  height: 100%;
-  background-color: rgb(255, 169, 137);
-  padding: 20px;margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://img.freepik.com/free-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-101974.jpg?t=st=1724068727~exp=1724072327~hmac=825c3dc1762a13679eabcdc27927c33c5036f58d7cb8cd86bc9b7ea3273ca627&w=1380");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.OfferTestingCardContent > p {
+.offerTestingHeadContent1 {
+  /* border: solid green; */
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+.offerTestingHeadContent1 > h2 {
+  font-size: 40px;
+  color: white;
+  text-align: center;
+}
+.offerTestingHeadContent1 > p {
   font-size: 20px;
+  color: white;
+  text-align: justify;
 }
-.OfferTestingCardButton{
-    background-color: black;
+.offerTestingHeadContent2 {
+  /* border: solid brown; */
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.offerTestingHeadContent2 > img {
+  border-radius: 100%;
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+  object-position: -200px;
+}
+.offerTestingHeadContent1Button {
+  /* border: solid red; */
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+#button1 {
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+  border: solid white;
+  cursor: pointer;
+  color: #bb2123;
+}
+#button2 {
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+  border: solid white;
+  cursor: pointer;
+  color: white;
+  background-color: #bb2123;
+}
+.offerTestingHead2Content2 {
+  /* border: solid brown; */
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.offerTestingHead2Content2 > img {
+  border-bottom-left-radius: 100%;
+  border-top-right-radius: 100%;
+  border-bottom-right-radius: 100%;
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+  object-position: -200px;
+  box-shadow: 10px 10px 20px black;
+}
+#offerTestingHead2button1 {
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+  border: solid #04335D;
+  cursor: pointer;
+  color: #04335D;
+}
+#offerTestingHead2button2 {
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+  border: solid white;
+  cursor: pointer;
+  color: white;
+  background-color: #04335D;
 }

@@ -1,0 +1,66 @@
+.offerTestingContent {
+  width: 100%;
+  /* border: solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-image: url("https://img.freepik.com/free-photo/abstract-smooth-orange-background-layout-designstudioroom-web-template-business-report-with-smooth-c_1258-108604.jpg?t=st=1724068330~exp=1724071930~hmac=8c009848bc1d96e92be0ef53bc37ba8dcab0da8eab582ad2c50a2cf8409da22c&w=1380");
+  background-size: cover;
+}
+.offerTestingContent1 {
+  /* border: solid green; */
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.offerTestingContentImg {
+  /* border: solid blue; */
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+}
+.offerTestingContentImg1 {
+  /* border: solid brown; */
+  width: 300px;
+  height: 300px;
+}
+.offerTestingContentImg1 > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  object-fit: cover;
+  object-position: -100px;
+}
+.offerTestingContentImg2 {
+  /* border: solid teal; */
+  width: 300px;
+  height: 300px;
+  margin-top: -200px;
+  margin-left: 200px;
+  position: relative;
+}
+.offerTestingContentImg2 > img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  border-radius: 20px;
+  object-fit: cover;
+  object-position: -100px;
+}
+.offerTestingContent2 {
+  width: 40%;
+}
+.offerTestingContent2 > h2 {
+  font-size: 50px;
+  color: white;
+}
+.offerTestingContent2 > h3 {
+  font-size: 30px;
+}
+.offerTestingContent2 > p {
+  font-size: 20px;
+  color: white;
+}

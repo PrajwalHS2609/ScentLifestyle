@@ -1,11 +1,14 @@
 import React from "react";
 import "./OfferTesting.css";
-import OfferTestingCard from "./OfferTestingCard";
+import OfferTestingHead from "./OfferTestingHead";
+import OfferTestingHead2 from "./OfferTestingHead2";
+import OfferTestingContent from "./OfferTestingContent/OfferTestingContent";
 const OfferTesting = () => {
   return (
     <div className="OfferTesting">
-      <OfferTestingCard />
-      <OfferTestingCard />
+      <OfferTestingHead />
+      <OfferTestingHead2 />
+      <OfferTestingContent/>
     </div>
   );
 };
