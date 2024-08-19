@@ -1,9 +1,9 @@
-import React from "react";
+import React, { Suspense } from "react";
 import "./BotoxLanding.css";
-import BotoxLandingHead from "./BotoxLandingHead/BotoxLandingHead";
+// import BotoxLandingHead from "./BotoxLandingHead/BotoxLandingHead";
 // import BotoxLandingCollection from "./BotoxLandingCollection/BotoxLandingCollection";
 import BotoxLandingAbout from "./BotoxLandingAbout/BotoxLandingAbout";
-import BotoxLandingWork from "./BotoxLandingWork/BotoxLandingWork";
+// import BotoxLandingWork from "./BotoxLandingWork/BotoxLandingWork";
 import Members from "./../HomePage/Members/Members";
 import BotoxLandingProducts from "./BotoxLandingProducts/BotoxLandingProducts";
 import ServiceWhy from "../MainServicePages/ServiceWhy/ServiceWhy";
@@ -15,16 +15,28 @@ import InstaFeed from "../HomePage/InstaFeed/InstaFeed";
 import HelpNearYou from "../Help/HelpNearYou";
 import TextLocReviews from "../TextLocReviews/TextLocReviews";
 import OfferBenefits from "../OfferPage/OfferBenefits";
+const BotoxLandingHead = React.lazy(() =>
+  import("./BotoxLandingHead/BotoxLandingHead")
+);
+const BotoxLandingWork = React.lazy(() =>
+  import("./BotoxLandingWork/BotoxLandingWork")
+);
 
 const BotoxLanding = () => {
   return (
     <div className="botoxLanding">
-      <BotoxLandingHead />
+      <Suspense fallback={<div>Loading...</div>}>
+        <BotoxLandingHead />
+      </Suspense>
+
       <BotoxLandingAbout />
-      <BotoxLandingWork />
+      <Suspense fallback={<div>Loading...</div>}>
+        <BotoxLandingWork />
+      </Suspense>
+
       <Members />
       <BotoxLandingProducts />
-      <OfferBenefits/>
+      <OfferBenefits />
       <OurSalon />
       <Partners />
       <InstaFeed />

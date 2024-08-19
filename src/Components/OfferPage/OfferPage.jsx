@@ -1,9 +1,9 @@
-import React, { useEffect } from "react";
+import React, { Suspense, useEffect } from "react";
 import "./OfferPage.css";
-import OfferPageMain from "./OfferPageMain";
+// import OfferPageMain from "./OfferPageMain";
 import OfferPageContent from "./OfferPageContent";
 import { Helmet } from "react-helmet";
-
+const OfferPageMain = React.lazy(() => import("./OfferPageMain"));
 const OfferPage = () => {
   useEffect(() => {
     // Add the gtag script to the document
@@ -41,12 +41,12 @@ const OfferPage = () => {
           name="keywords"
           content="Hair Botoxx, Smooth Hair, Silky Hair, Hair Repair, Hair Restoration, Frizz-Free Hair, Shine and Softness, Hair Protection."
         />
-           <link
-          rel="canonical"
-          href="https://scentlifestyle.com/offer"
-        />
+        <link rel="canonical" href="https://scentlifestyle.com/offer" />
       </Helmet>
-      <OfferPageMain />
+      <Suspense fallback={<div>Loading...</div>}>
+        <OfferPageMain />
+      </Suspense>
+
       <OfferPageContent />
     </div>
   );
