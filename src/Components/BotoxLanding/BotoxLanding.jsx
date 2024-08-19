@@ -15,6 +15,7 @@ import InstaFeed from "../HomePage/InstaFeed/InstaFeed";
 import HelpNearYou from "../Help/HelpNearYou";
 import TextLocReviews from "../TextLocReviews/TextLocReviews";
 import OfferBenefits from "../OfferPage/OfferBenefits";
+import { Helmet } from "react-helmet";
 const BotoxLandingHead = React.lazy(() =>
   import("./BotoxLandingHead/BotoxLandingHead")
 );
@@ -25,6 +26,13 @@ const BotoxLandingWork = React.lazy(() =>
 const BotoxLanding = () => {
   return (
     <div className="botoxLanding">
+      <Helmet>
+        <title>Scent Promotion</title>
+        <link
+          rel="canonical"
+          href="https://scentlifestyle.com/lp-hair-botoxx"
+        />
+      </Helmet>
       <Suspense fallback={<div>Loading...</div>}>
         <BotoxLandingHead />
       </Suspense>
