@@ -9,6 +9,7 @@ const MainLayout = ({ children }) => {
   const hideNavbar3 = location.pathname !== "/lp-hair-treatment";
   const hideNavbar4 = location.pathname !== "/lp-olaplex";
   const hideNavbar5 = location.pathname !== "/lp-hair-highlights-and-streaks";
+  const hideNavbar6 = location.pathname !== "/offer-testing";
 
   return (
     <div>
@@ -16,7 +17,8 @@ const MainLayout = ({ children }) => {
         hideNavbar2 &&
         hideNavbar3 &&
         hideNavbar4 &&
-        hideNavbar5 && <NavBar />}
+        hideNavbar5 &&
+        hideNavbar6 && <NavBar />}
       {children}
     </div>
   );

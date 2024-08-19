@@ -1,6 +1,19 @@
 import React from "react";
 import "./BotoxLandingWork.css";
 const BotoxLandingWorkCard = (props) => {
+  const cards = document.querySelectorAll('.botoxLandingWorkCard');
+
+cards.forEach(card => {
+    card.addEventListener('touchstart', () => {
+        const cover = card.querySelector('.botoxLandingWorkCardCover');
+        cover.style.transform = 'translateX(0%)';
+    });
+
+    card.addEventListener('touchend', () => {
+        const cover = card.querySelector('.botoxLandingWorkCardCover');
+        cover.style.transform = ''; // Reset to initial or whatever you prefer
+    });
+});
   return (
     <div className="botoxLandingWorkCard">
       {/* <img

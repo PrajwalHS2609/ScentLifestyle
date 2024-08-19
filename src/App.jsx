@@ -127,6 +127,7 @@ import SpaInJp from "./Components/Spa/SpaInJp/SpaInJp";
 import LashesInJp from "./Components/Lashes/LashesInJp/LashesInJp";
 import BridalMakeupInJp from "./Components/BridalMakeUpPage/BridalMakeupInJp/BridalMakeupInJp";
 import MicroBladingInJp from "./Components/MicroBladingPage/MicroBladingInJp/MicroBladingInJp";
+import OfferTesting from "./Components/OfferTesting/OfferTesting";
 const NotFound = () => (
   <div
     style={{
@@ -411,6 +412,7 @@ const App = () => {
             path="/eyebrow-microblading-in-jp-nagar"
             element={<MicroBladingInJp />}
           />
+          <Route path="/offer-testing" element={<OfferTesting />} />
         </Routes>
       </BrowserRouter>
     </div>

@@ -9,6 +9,7 @@
 .botoxLandingProducts > video {
   width: 100%;
   height: 100%;
+  border: none;
 }
 .botoxLandingProductsHead {
   /* border: solid blue; */
@@ -108,14 +109,19 @@ color: var(--customColor);
     flex-direction: column;
   }
   .botoxProductsHeadContent {
-    width: 100%;
+    width: 95%;
     height: 100%;
     margin-left: 0px;
     flex-direction: column;
     gap: 20px;
     padding: 10px;
   }
-  
+  .paraTxt2 {
+    font-size: 25px;
+    width: 100%;
+    text-align: center;
+    font-weight: 500;
+  }
   .paraTxt3 {
     text-align: start;
     color: var(--customColor);
