@@ -424,9 +424,10 @@ const App = () => {
             element={<MicroBladingInJp />}
           />
           <Route path="/offer" element={<OfferTesting />} />
-          <Route path="/brazilian-waxing-services-in-bangalore" element={<BrazilWaxingService />} />
-
-
+          <Route
+            path="/brazilian-waxing-services-in-bangalore"
+            element={<BrazilWaxingService />}
+          />
         </Routes>
       </BrowserRouter>
     </div>
