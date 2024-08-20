@@ -1,6 +1,7 @@
 import React from "react";
 import OfferTestingContentImg from "./OfferTestingContentImg";
 import "./OfferTestingContent.css";
+import { Link } from 'react-router-dom';
 const OfferTestingContent = () => {
   return (
     <div className="offerTestingContent">
@@ -17,9 +18,9 @@ const OfferTestingContent = () => {
           statement. Don't miss out—book your appointment now!
         </p>
         <div className="offerTestingHeadContent1Button">
-          <a href="*">
+          <Link to="/">
             <button id="offerTestingHead3button2">Book Now</button>
-          </a>{" "}
+          </Link>{" "}
         </div>
       </div>
     </div>
