@@ -8,12 +8,19 @@ const OfferTestingContent = () => {
         <OfferTestingContentImg />
       </div>
       <div className="offerTestingContent2">
-        <h2>Hairdressers, Grooming</h2>
-        <h3>Experts in men's hair, skin care, manicure & massage</h3>
+        <h2>Nail Extensions</h2>
+        <h3>Indulge in luxurious nail extensions</h3>
         <p>
-          We are a combination of having highly skilled, knowledgable. Experts
-          in men's hair, skin care, manicure & massage
+          Treat yourself to stunning nails with our Limited Time Offer! For just
+          Rs. 1999/-, indulge in luxurious Nail Extensions at SCENT. Elevate
+          your look with perfectly crafted, long-lasting nails that make a
+          statement. Don't miss out—book your appointment now!
         </p>
+        <div className="offerTestingHeadContent1Button">
+          <a href="*">
+            <button id="offerTestingHead3button2">Book Now</button>
+          </a>{" "}
+        </div>
       </div>
     </div>
   );

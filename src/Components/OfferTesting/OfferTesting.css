@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lobster&family=Qwitcher+Grypen:wght@400;700&display=swap');
+
 .OfferTesting {
   width: 100%;
   /* border: solid red; */
@@ -32,15 +34,25 @@
   width: 40%;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: column;
   gap: 20px;
   padding: 20px;
 }
 .offerTestingHeadContent1 > h2 {
+  font-size: 60px;
+  color: white;
+  text-align: center;
+  font-family: "Lobster", sans-serif;
+  font-weight: 100;
+}
+.offerTestingHeadContent1 > h3 {
   font-size: 40px;
   color: white;
   text-align: center;
+  font-family: "Dancing Script", cursive;
+  font-weight: bold;
+  color: black;
 }
 .offerTestingHeadContent1 > p {
   font-size: 20px;
@@ -110,9 +122,9 @@
   padding: 10px;
   border-radius: 10px;
   font-size: 20px;
-  border: solid #04335D;
+  border: solid #04335d;
   cursor: pointer;
-  color: #04335D;
+  color: #04335d;
 }
 #offerTestingHead2button2 {
   padding: 10px;
@@ -121,5 +133,5 @@
   border: solid white;
   cursor: pointer;
   color: white;
-  background-color: #04335D;
+  background-color: #04335d;
 }

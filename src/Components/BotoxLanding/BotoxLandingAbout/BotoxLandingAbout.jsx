@@ -51,7 +51,7 @@ const BotoxLandingAbout = () => {
           top-notch hair, spa & wellness, personal grooming, and bridal services
           at our exclusive unisex salon in Bangalore.
         </p>
-        <a href="https://api.whatsapp.com/send?phone=919742232700">
+        <a href="https://api.whatsapp.com/send?phone=919606682700">
           <button>BOOK AN APPOINTMENT</button>
         </a>
       </div>

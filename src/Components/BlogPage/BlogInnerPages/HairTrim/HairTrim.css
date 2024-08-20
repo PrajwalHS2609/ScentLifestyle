@@ -10,6 +10,7 @@
   flex-direction: column;
   gap: 20px;
   width: 100%;
+  padding: 10px;
 }
 .hairTrimImg {
   /* border: solid rebeccapurple; */
@@ -130,6 +131,7 @@
 .hairTrimFaqContent > h3 {
   font-size: 20;
   font-weight: bold;
+  color: var(--customColor);
 }
 .hairTrimFaqContent > p {
   font-size: 20px;

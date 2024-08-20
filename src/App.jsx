@@ -128,6 +128,8 @@ import LashesInJp from "./Components/Lashes/LashesInJp/LashesInJp";
 import BridalMakeupInJp from "./Components/BridalMakeUpPage/BridalMakeupInJp/BridalMakeupInJp";
 import MicroBladingInJp from "./Components/MicroBladingPage/MicroBladingInJp/MicroBladingInJp";
 import OfferTesting from "./Components/OfferTesting/OfferTesting";
+import BlogBeautyEssentials from "./Components/BlogPage/BlogPages/BlogBeautyEssentials/BlogBeautyEssentials";
+import BrazilianWaxing from "./Components/BlogPage/BlogInnerPages/BeautyBlogInnerPages/BrazilianWaxing/BrazilianWaxing";
 const NotFound = () => (
   <div
     style={{
@@ -221,7 +223,7 @@ const App = () => {
           <Route path="/gents-salon-near-me" element={<GentsSalonNearMe />} />
           <Route path="/head-massage-near-me" element={<HeadMassageNearMe />} />
           <Route path="/foot-massage-near-me" element={<FootMassageNearMe />} />
-          <Route path="/offer" element={<OfferPage />} />
+          {/* <Route path="/offer" element={<OfferPage />} /> */}
           <Route path="/nails-extension" element={<NailExtensionPage />} />
           <Route path="/gel-nail-art" element={<GelNailArtPage />} />
           <Route path="/chrome-gel-nail-polish" element={<ChromeGelPage />} />
@@ -253,6 +255,10 @@ const App = () => {
             <Route path="/blog/hair-blog" element={<BlogHair />} />
             <Route path="/blog/nail-blog" element={<BlogNail />} />
             <Route path="/blog/spa-blog" element={<BlogSpa />} />
+            <Route
+              path="/blog/beauty-essentials-blog"
+              element={<BlogBeautyEssentials />}
+            />
           </Route>
           <Route
             path="/does-trimming-hair-make-it-grow-faster"
@@ -281,6 +287,10 @@ const App = () => {
           <Route
             path="/how-a-spa-day-can-boost-your-mental-health"
             element={<SpaDay />}
+          />
+          <Route
+            path="/everything-you-need-to-know-about-brazilian-waxing"
+            element={<BrazilianWaxing />}
           />
           <Route path="/pre-bridal-treatments" element={<PrebridalPackage />} />
 
@@ -412,7 +422,7 @@ const App = () => {
             path="/eyebrow-microblading-in-jp-nagar"
             element={<MicroBladingInJp />}
           />
-          <Route path="/offer-testing" element={<OfferTesting />} />
+          <Route path="/offer" element={<OfferTesting />} />
         </Routes>
       </BrowserRouter>
     </div>

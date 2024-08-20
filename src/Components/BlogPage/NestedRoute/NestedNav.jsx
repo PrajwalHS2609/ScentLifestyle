@@ -20,7 +20,7 @@ const NestedNav = () => {
         <NavLink to={"/blog/spa-blog"}>Spa</NavLink>
       </li>
       <li>
-        <NavLink to={"/blog/beauty-essential-blog"}>Beauty Essentials</NavLink>
+        <NavLink to={"/blog/beauty-essentials-blog"}>Beauty Essentials</NavLink>
       </li>
       <li>
         <NavLink to={"/blog/eye-lashes-blog"}>Eye Lashes</NavLink>
