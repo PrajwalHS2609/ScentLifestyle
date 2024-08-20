@@ -4,7 +4,7 @@ import "../../MainServicePages/ServiceCards/ServiceCards.css";
 import ServiceCards from "../../MainServicePages/ServiceCards/ServiceCards";
 const FacialServiceCardContain = () => {
   return (
-    <div className="facialCardContainer">
+    <div className="serviceCardContainer">
       <ServiceCards
         heading="Organic Cleanup Facial"
         para="Encapsulated with kakadu plum,noni fruit& dead sea minerals,this facial clarifies and cleanses the skin"
