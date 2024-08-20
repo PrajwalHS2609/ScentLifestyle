@@ -5,6 +5,8 @@ import WhatsApp from "../../../../HomePage/WhatsApp/WhatsApp";
 import LastComp from "../../../../LastComp/LastComp";
 import BrazilianWaxingImg from "./BrazilianWaxingImg";
 import BrazilianWaxingHead from "./BrazilianWaxingHead";
+import BrazilianWaxingWhat from './BrazilianWaxingWhat';
+import BrazilianWaxingPrepare from "./BrazilianWaxingPrepare";
 
 const BrazilianWaxing = () => {
   return (
@@ -25,6 +27,8 @@ const BrazilianWaxing = () => {
       <div className="hairTrimContent">
         <BrazilianWaxingImg />
         <BrazilianWaxingHead />
+        <BrazilianWaxingWhat/>
+        <BrazilianWaxingPrepare/>
       </div>
       <WhatsApp />
       <LastComp />

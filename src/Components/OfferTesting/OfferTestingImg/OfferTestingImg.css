@@ -17,7 +17,7 @@
   position: relative;
 }
 .OfferTestingImgContent > a > button {
-  border:none;
+  border: none;
   position: absolute;
   bottom: 40px;
   right: 100px;
@@ -29,14 +29,40 @@
   color: white;
   cursor: pointer;
 }
-@media screen and (min-width:320px) and (max-width:768px){
+/* Custom styles for the dots */
+.slick-dots {
+  bottom: -30px; /* Position the dots below the slider */
+}
+
+.slick-dots li button:before {
+  font-size: 12px; /* Adjust the size of the dots */
+  color: #999; /* Default color of the dots */
+  opacity: 1; /* Remove transparency */
+}
+
+.slick-dots li.slick-active button:before {
+  color: #ff0000; /* Color for the active dot */
+  opacity: 1; /* Ensure the active dot is fully visible */
+}
+
+/* Optional: Additional custom styles for dots */
+.slick-dots li {
+  margin: 0 5px; /* Space between dots */
+}
+
+.slick-dots li button {
+  border: none; /* Remove the border from the dots */
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
   .OfferTestingImgContent > img {
     width: 100%;
     height: 100%;
     object-fit: contain;
   }
   .OfferTestingImgContent > a > button {
-    border:none;
+    border: none;
     position: absolute;
     bottom: 5px;
     right: 150px;
