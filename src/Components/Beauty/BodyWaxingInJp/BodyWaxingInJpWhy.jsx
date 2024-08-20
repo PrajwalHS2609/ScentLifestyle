@@ -25,49 +25,48 @@ const BodyWaxingInJpWhy = () => {
         <li>
           <span>
             <img src={checked} alt="checked" />
-            Deep Cleansing:{" "}
+            Expert Techniques:{" "}
           </span>
           <p>
-            Expert Techniques: At SCENT, our professionals are skilled in the
-            latest techniques for Body Waxing, Threading & D-Tan in JP Nagar.
-            Their expertise ensures that you receive effective treatments that
-            deliver excellent results while maintaining your comfort.
+            At SCENT, our professionals are skilled in the latest techniques for
+            Body Waxing, Threading & D-Tan in JP Nagar. Their expertise ensures
+            that you receive effective treatments that deliver excellent results
+            while maintaining your comfort.
           </p>
         </li>{" "}
         <li>
           <span>
-            <img src={checked} alt="checked" /> Skin Health Maintenance:
+            <img src={checked} alt="checked" /> High-Quality Products:
           </span>
           <p>
-            High-Quality Products: We use premium products in our Body Waxing,
-            Threading & D-Tan in JP Nagar services. From soothing waxes to
-            gentle threading tools and rejuvenating D-Tan treatments, our
-            products are selected to enhance your skincare experience.
+            We use premium products in our Body Waxing, Threading & D-Tan in JP
+            Nagar services. From soothing waxes to gentle threading tools and
+            rejuvenating D-Tan treatments, our products are selected to enhance
+            your skincare experience.
           </p>
         </li>
         <li>
           <span>
             <img src={checked} alt="checked" />
-            Enhanced Circulation:
+            Personalized Care:{" "}
           </span>
           <p>
             {" "}
-            Personalized Care: We understand that every client has unique needs.
-            Our Body Waxing, Threading & D-Tan in JP Nagar services are tailored
-            to address your specific skin type and preferences, ensuring you get
-            the most effective treatment possible.
+            We understand that every client has unique needs. Our Body Waxing,
+            Threading & D-Tan in JP Nagar services are tailored to address your
+            specific skin type and preferences, ensuring you get the most
+            effective treatment possible.
           </p>
         </li>
         <li>
           <span>
             <img src={checked} alt="checked" />
-            Stress Relief:{" "}
+            Relaxing Environment:{" "}
           </span>
           <p>
-            Relaxing Environment: Enjoy a calming atmosphere while receiving our
-            Body Waxing, Threading & D-Tan in JP Nagar services. Our spa is
-            designed to offer a soothing experience where you can unwind and
-            feel pampered.
+            Enjoy a calming atmosphere while receiving our Body Waxing,
+            Threading & D-Tan in JP Nagar services. Our spa is designed to offer
+            a soothing experience where you can unwind and feel pampered.
           </p>
         </li>
       </ul>

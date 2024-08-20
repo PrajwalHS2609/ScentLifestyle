@@ -10,27 +10,27 @@ const NestedNav = () => {
       <li className="nestedNav2">
         <NavLink to={"/blog/hair-blog"}>Hair</NavLink>
       </li>
-      <li className="nestedNav2">
+      <li className="nestedNav3">
         <NavLink to={"/blog/nail-blog"}>Nail</NavLink>
       </li>
-      <li>
+      {/* <li>
         <NavLink to={"/blog/facial-blog"}>Facial</NavLink>
-      </li>
-      <li>
+      </li> */}
+      <li className="nestedNav4">
         <NavLink to={"/blog/spa-blog"}>Spa</NavLink>
       </li>
-      <li>
+      <li className="nestedNav5">
         <NavLink to={"/blog/beauty-essentials-blog"}>Beauty Essentials</NavLink>
       </li>
-      <li>
+      {/* <li>
         <NavLink to={"/blog/eye-lashes-blog"}>Eye Lashes</NavLink>
-      </li>
-      <li>
+      </li> */}
+      {/* <li>
         <NavLink to={"/blog/bridal-makeup-blog"}>Bridal Makeup</NavLink>
       </li>
       <li>
         <NavLink to={"/blog/hair-blog"}>Eyebrow Microblading</NavLink>
-      </li>
+      </li> */}
     </div>
   );
 };

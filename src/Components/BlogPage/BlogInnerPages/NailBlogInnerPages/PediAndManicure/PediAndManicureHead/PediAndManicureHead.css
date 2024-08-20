@@ -1,12 +1,13 @@
 .pediManicureHead {
     /* border: solid blue; */
     width: 90%;
-    padding: 20px;
+    padding: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 20px;
+
   }
   .pediManicureHead > h1 {
     font-size: 30px;

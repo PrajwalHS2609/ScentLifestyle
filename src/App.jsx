@@ -43,7 +43,7 @@ import BodySpaNearMe from "./Components/NearMe/BodySpaNearMe/BodySpaNearMe";
 import GentsSalonNearMe from "./Components/NearMe/GentsSalon/GentsSalonNearMe";
 import HeadMassageNearMe from "./Components/NearMe/HeadMassageNearMe.jsx/HeadMassageNearMe";
 import FootMassageNearMe from "./Components/NearMe/FootMassageNearMe/FootMassageNearMe";
-import OfferPage from "./Components/OfferPage/OfferPage";
+// import OfferPage from "./Components/OfferPage/OfferPage";
 import MainLayout from "./Components/MainLayout/MainLayout";
 import NailExtensionPage from "./Components/NaliSalonPage/NailExtensionPage/NailExtensionPage";
 import GelNailArtPage from "./Components/NaliSalonPage/GelNailArtPage/GelNailArtPage";
@@ -130,6 +130,7 @@ import MicroBladingInJp from "./Components/MicroBladingPage/MicroBladingInJp/Mic
 import OfferTesting from "./Components/OfferTesting/OfferTesting";
 import BlogBeautyEssentials from "./Components/BlogPage/BlogPages/BlogBeautyEssentials/BlogBeautyEssentials";
 import BrazilianWaxing from "./Components/BlogPage/BlogInnerPages/BeautyBlogInnerPages/BrazilianWaxing/BrazilianWaxing";
+import BrazilWaxingService from "./Components/Beauty/BrazilWaxingService/BrazilWaxingService";
 const NotFound = () => (
   <div
     style={{
@@ -423,6 +424,9 @@ const App = () => {
             element={<MicroBladingInJp />}
           />
           <Route path="/offer" element={<OfferTesting />} />
+          <Route path="/brazilian-waxing-services-in-bangalore" element={<BrazilWaxingService />} />
+
+
         </Routes>
       </BrowserRouter>
     </div>

@@ -19,7 +19,7 @@ const BlogSpa = () => {
       <div className="blogMainDisplay1">
         <BlogCard
           img={spaDayBanner}
-          head="EHow a Spa Day Can Boost Your Mental Health?"
+          head="How a Spa Day Can Boost Your Mental Health?"
           para="In today’s fast-paced world, where stress and anxiety are common, taking time for ..."
           link="/how-a-spa-day-can-boost-your-mental-health"
         />

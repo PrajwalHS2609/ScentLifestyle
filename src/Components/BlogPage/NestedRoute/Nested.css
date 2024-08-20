@@ -19,11 +19,20 @@
   color: var(--customColor);
   text-decoration: none;
 }
-/* .nestedNav1 > .active {
-  color: black;
-} */
+.nestedNav1 > .active {
+  text-decoration: underline;
+}
 .nestedNav2 > .active {
-  text-decoration:underline;
+  text-decoration: underline;
+}
+.nestedNav3 > .active {
+  text-decoration: underline;
+}
+.nestedNav4 > .active {
+  text-decoration: underline;
+}
+.nestedNav5 > .active {
+  text-decoration: underline;
 }
 @media screen and (min-width: 320px) and (max-width: 768px) {
   .nestedNav {

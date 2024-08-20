@@ -36,7 +36,7 @@ const BrazilianWaxingAtScent = () => {
         For those in{" "}
         <a href="https://scentlifestyle.com/brazilian-waxing-services-in-bangalore">
           Bangalore looking for expert Brazilian Waxing services,
-        </a>
+        </a>{" "}
         SCENT is the go-to destination. With a commitment to quality, comfort,
         and hygiene, SCENT ensures that your Brazilian Waxing experience is
         smooth, safe, and satisfying.

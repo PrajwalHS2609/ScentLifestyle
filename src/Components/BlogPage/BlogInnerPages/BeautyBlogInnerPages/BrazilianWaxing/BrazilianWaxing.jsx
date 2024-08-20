@@ -5,8 +5,20 @@ import WhatsApp from "../../../../HomePage/WhatsApp/WhatsApp";
 import LastComp from "../../../../LastComp/LastComp";
 import BrazilianWaxingImg from "./BrazilianWaxingImg";
 import BrazilianWaxingHead from "./BrazilianWaxingHead";
-import BrazilianWaxingWhat from './BrazilianWaxingWhat';
+import BrazilianWaxingWhat from "./BrazilianWaxingWhat";
 import BrazilianWaxingPrepare from "./BrazilianWaxingPrepare";
+import BrazilianWaxingTips from "./BrazilianWaxingTips";
+import BrazilianWaxingOften from "./BrazilianWaxingOften";
+import BrazilianWaxingBenefits from "./BrazilianWaxingBenefits";
+import BrazilianWaxingRight from "./BrazilianWaxingRight";
+import BrazilianWaxingAtScent from "./BrazilianWaxingAtScent";
+import BrazilianWaxingPain from "./BrazilianWaxingPain";
+import BrazilianWaxingMisconception from "./BrazilianWaxingMisconception";
+import BrazilianWaxingWhatImg from "./../../../../../Images/Blog/Everything_About_Brazilian_Waxing/What is Brazilian Waxing.png";
+import BrazilianWaxingRightImg from "./../../../../../Images/Blog/Everything_About_Brazilian_Waxing/Is Brazilian Waxing Right for You.png";
+import BrazilianWaxingPainImg from "./../../../../../Images/Blog/Everything_About_Brazilian_Waxing/Brazilian Waxing_ Pain Level and Comfort.png";
+import BrazilianWaxingOftenImg from "./../../../../../Images/Blog/Everything_About_Brazilian_Waxing/How Often Should You Get Brazilian Waxing.png";
+import HairServImg from "../../HairBotox/HairServImg";
 
 const BrazilianWaxing = () => {
   return (
@@ -27,8 +39,19 @@ const BrazilianWaxing = () => {
       <div className="hairTrimContent">
         <BrazilianWaxingImg />
         <BrazilianWaxingHead />
-        <BrazilianWaxingWhat/>
-        <BrazilianWaxingPrepare/>
+        <HairServImg hairBotoxImg={BrazilianWaxingWhatImg} />
+        <BrazilianWaxingWhat />
+        <BrazilianWaxingPrepare />
+        <HairServImg hairBotoxImg={BrazilianWaxingPainImg} />
+        <BrazilianWaxingPain />
+        <BrazilianWaxingTips />
+        <HairServImg hairBotoxImg={BrazilianWaxingOftenImg} />
+        <BrazilianWaxingOften />
+        <BrazilianWaxingBenefits />
+        <BrazilianWaxingMisconception />
+        <HairServImg hairBotoxImg={BrazilianWaxingRightImg} />
+        <BrazilianWaxingRight />
+        <BrazilianWaxingAtScent />
       </div>
       <WhatsApp />
       <LastComp />

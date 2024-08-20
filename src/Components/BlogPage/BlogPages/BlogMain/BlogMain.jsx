@@ -7,6 +7,7 @@ import top10 from "./../../../../Images/Blog/Top 10 hairColor/Banner Image.png";
 import hairKeratin from "./../../../../Images/Blog/Keratin_Hair_Treatment/Banner Image.png";
 import pedimanicurebanner from "./../../../../Images/Blog/Pedi&manicureBlog/Banner Image.png";
 import spaDayBanner from "./../../../../Images/Blog/How a Spa Day/Banner Image.png";
+import brazilWaxingBanner from "./../../../../Images/Blog/Everything_About_Brazilian_Waxing/Banner Image.png";
 
 import BlogCard from "../BlogCard";
 const BlogMain = () => {
@@ -44,10 +45,10 @@ const BlogMain = () => {
           link="/how-hair-botox-treatments-can-transform-your-tresses"
         />
         <BlogCard
-          img={top10}
-          head="Top 10 Trending Women Hair Colours & Highlights for 2024"
-          para=" As we step into 2024, the world of hair fashion is buzzing with exciting new trends  ..."
-          link="/top-10-trending-women-hair-colours-and-highlights-for-2024"
+          img={brazilWaxingBanner}
+          head="Does Trimming Hair Make It Grow Faster?"
+          para="Trimming your hair regularly is key to maintaining long, healthy locks. The frequency of trims depends ..."
+          link="/everything-you-need-to-know-about-brazilian-waxing"
         />
 
         <BlogCard
@@ -56,9 +57,9 @@ const BlogMain = () => {
           para="When it comes to self-care and personal grooming, professional pedicures and manicures are ..."
           link="/exploring-the-benefits-of-professional-pedicures-and-manicures"
         />
-       <BlogCard
+        <BlogCard
           img={spaDayBanner}
-          head="EHow a Spa Day Can Boost Your Mental Health?"
+          head="How a Spa Day Can Boost Your Mental Health?"
           para="In today’s fast-paced world, where stress and anxiety are common, taking time for ..."
           link="/how-a-spa-day-can-boost-your-mental-health"
         />
@@ -72,10 +73,10 @@ const BlogMain = () => {
           link="/why-you-should-consider-keratin-hair-treatment"
         />
         <BlogCard
-          img="https://img.freepik.com/free-photo/portrait-attractive-woman-studio_329181-9782.jpg?ga=GA1.1.798303094.1721912336&semt=ais_hybrid"
-          head="Raccoon Eyes: Causes, Treatment, and How to Get Rid of It"
-          para="Ever noticed those unsightly dark circles around your eyes? In..."
-          link="/"
+          img={top10}
+          head="Top 10 Trending Women Hair Colours & Highlights for 2024"
+          para=" As we step into 2024, the world of hair fashion is buzzing with exciting new trends  ..."
+          link="/top-10-trending-women-hair-colours-and-highlights-for-2024"
         />
         <BlogCard
           img="https://img.freepik.com/free-photo/portrait-attractive-woman-studio_329181-9782.jpg?ga=GA1.1.798303094.1721912336&semt=ais_hybrid"
