@@ -7,7 +7,9 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import happyHoursImg from "./../../../Images/OfferImgs/happyHoursImg.png";
-import happyHoursImgMobile from "./../../../Images/OfferImgs/happyHoursImgMobile.png";
+import happyHoursImgMobile from "./../../../Images/OfferImgs/Happy Hours Mobile.png";
+
+
 import nailsExtensionsImg from "./../../../Images/OfferImgs/nailsExtensionsImg.png";
 import nailsExtensionsImgMobile from "./../../../Images/OfferImgs/nailsExtensionsImgMobile.png";
 import waxingImg from "./../../../Images/OfferImgs/waxingImg.png";
