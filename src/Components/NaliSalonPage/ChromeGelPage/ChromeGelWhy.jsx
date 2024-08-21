@@ -1,5 +1,12 @@
 import React from "react";
 import checked from "./../../../Images/checked.png";
+import Members from "../../HomePage/Members/Members";
+import OurSalon from "../../HomePage/OurSalon/OurSalon";
+import Partners from "../../HomePage/Partners/Partners";
+import InstaFeed from "../../HomePage/InstaFeed/InstaFeed";
+import HelpNearYou from "../../Help/HelpNearYou";
+import TextLocReviews from "../../TextLocReviews/TextLocReviews";
+import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
 
 const ChromeGelWhy = () => {
   return (
@@ -58,6 +65,13 @@ const ChromeGelWhy = () => {
           </p>
         </li>
       </ul>
+      <Members />
+      <OurSalon />
+      <Partners />
+      <InstaFeed />
+      <HelpNearYou />
+      <TextLocReviews />
+      <ServiceWhy />
     </div>
   );
 };

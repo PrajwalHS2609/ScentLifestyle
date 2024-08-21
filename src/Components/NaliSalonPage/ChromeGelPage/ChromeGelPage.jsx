@@ -43,13 +43,7 @@ const ChromeGelPage = () => {
       <ChromeGelBenefits />
       <ChromeMaintain />
       <ChromeGelCustomer/>
-      <Members />
-      <OurSalon />
-      <Partners />
-      <InstaFeed />
-      <HelpNearYou />
-      <TextLocReviews />
-      <ServiceWhy />
+    
       <WhatsApp/>
       <LastComp />
     </div>
