@@ -5,11 +5,23 @@
   /* overflow: hidden; */
 }
 
-.OfferTestingImgContent > img {
+/* .OfferTestingImgContent > img {
   width: 100%;
   height: 670px;
   object-fit: contain;
+} */
+
+.OfferTestingImgContent>.deskImg {
+  width: 100%;
+  height: 100%;
 }
+.OfferTestingImgContent>.mobileImg {
+  /* border: solid blue; */
+  display: none;
+  width: 100%;
+  height: 100%;
+}
+
 .OfferTestingImgContent {
   /* border: solid red; */
   width: 100%;
@@ -73,5 +85,14 @@
     border-radius: 20px;
     color: white;
     cursor: pointer;
+  }
+  .OfferTestingImgContent>.deskImg {
+    /* border: solid red; */
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+  .OfferTestingImgContent>.mobileImg {
+    display: block;
   }
 }
