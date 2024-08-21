@@ -33,13 +33,9 @@ const BrazilianFacial = () => {
         />
       </Helmet>
       <NavBg />
-      <BrazilianFacialImg/>
-      <BrazilianFacialHead/>
-      <BrazilianFacialIng/>
-      <BrazilianFacialProcess/>
-      <BrazilianFacialBenefits/>
-      <BrazilianFacialFind/>
-      
+      <BrazilianFacialImg />
+      <BrazilianFacialHead />
+      <BrazilianFacialIng />
       <Members />
       <OurSalon />
       <Partners />
@@ -47,6 +43,9 @@ const BrazilianFacial = () => {
       <HelpNearYou />
       <TextLocReviews />
       <ServiceWhy />
+      <BrazilianFacialProcess />
+      <BrazilianFacialBenefits />
+      <BrazilianFacialFind />
       <WhatsApp />
       <LastComp />
     </div>

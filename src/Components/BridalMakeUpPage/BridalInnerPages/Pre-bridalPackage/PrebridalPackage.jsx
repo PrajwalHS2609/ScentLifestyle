@@ -11,9 +11,9 @@ import ServiceWhy from "../../../MainServicePages/ServiceWhy/ServiceWhy";
 import WhatsApp from "../../../HomePage/WhatsApp/WhatsApp";
 import LastComp from "../../../LastComp/LastComp";
 import PrebridalPackageHead from "./PrebridalPackageHead";
-import PrebridalPackageBook from './PrebridalPackageBook';
-import PrebridalPackageExpert from './PrebridalPackageExpert';
-import PrebridalPackageWhy from './PrebridalPackageWhy';
+import PrebridalPackageBook from "./PrebridalPackageBook";
+import PrebridalPackageExpert from "./PrebridalPackageExpert";
+import PrebridalPackageWhy from "./PrebridalPackageWhy";
 import PrebridalPackageImg from "./PrebridalPackageImg";
 
 const PrebridalPackage = () => {
@@ -34,11 +34,8 @@ const PrebridalPackage = () => {
         />
       </Helmet>
       <NavBg />
-      <PrebridalPackageImg/>
-      <PrebridalPackageHead/>
-      <PrebridalPackageExpert/>
-      <PrebridalPackageWhy/>
-      <PrebridalPackageBook/>
+      <PrebridalPackageImg />
+      <PrebridalPackageHead />
       <Members />
       <OurSalon />
       <Partners />
@@ -46,6 +43,9 @@ const PrebridalPackage = () => {
       <HelpNearYou />
       <TextLocReviews />
       <ServiceWhy />
+      <PrebridalPackageExpert />
+      <PrebridalPackageWhy />
+      <PrebridalPackageBook />
       <WhatsApp />
       <LastComp />
     </div>

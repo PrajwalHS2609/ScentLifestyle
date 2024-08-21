@@ -34,13 +34,9 @@ const LuminousFacial = () => {
         />
       </Helmet>
       <NavBg />
-      <LuminousFacialImg/>
-      <LuminousFacialHead/>
-      <LuminousFacialBenefits/>
-      <LuminousFacialWhat/>
-      <LuminousFacialWhy/>
-      <LuminousFacialCustomer/>
-      <LuminousFacialBook/>
+      <LuminousFacialImg />
+      <LuminousFacialHead />
+      <LuminousFacialBenefits />
       <Members />
       <OurSalon />
       <Partners />
@@ -48,6 +44,10 @@ const LuminousFacial = () => {
       <HelpNearYou />
       <TextLocReviews />
       <ServiceWhy />
+      <LuminousFacialWhat />
+      <LuminousFacialWhy />
+      <LuminousFacialCustomer />
+      <LuminousFacialBook />
       <WhatsApp />
       <LastComp />
     </div>

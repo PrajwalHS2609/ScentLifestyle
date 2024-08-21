@@ -3,7 +3,7 @@ import React from "react";
 const CandleManicureBenefits = () => {
   return (
     <div className="nailExtensionMaintain">
-      <h5>Benefits of an Organic Pedicure</h5>
+      <h5>Benefits of an Candle Spa Manicure</h5>
       <ul>
         <li>
           <h6> Deep Hydration:</h6> The warm candle wax and aromatic oils used
@@ -29,11 +29,20 @@ const CandleManicureBenefits = () => {
           concerns, ensuring your nails are in optimal condition.
         </li>
         <li>
-          <h6>Beautiful, Polished Nails:</h6> Whether you prefer a natural look
-          or a <a href="https://scentlifestyle.com/ombre-gel-nail-polish">bold polish</a>, our technicians will ensure your
-          nails are perfectly manicured and polished to your liking. The
-          high-quality products we use provide long-lasting results, so you can
-          enjoy <a href="https://scentlifestyle.com/chrome-gel-nail-polish">beautiful nails</a> for weeks.
+          <h6>Beautiful, Polished Nails:</h6>{" "}
+          <p>
+            Whether you prefer a natural look or a{" "}
+            <a href="https://scentlifestyle.com/ombre-gel-nail-polish">
+              bold polish
+            </a>
+            , our technicians will ensure your nails are perfectly manicured and
+            polished to your liking. The high-quality products we use provide
+            long-lasting results, so you can enjoy{" "}
+            <a href="https://scentlifestyle.com/chrome-gel-nail-polish">
+              beautiful nails
+            </a>{" "}
+            for weeks.
+          </p>
         </li>
       </ul>
     </div>

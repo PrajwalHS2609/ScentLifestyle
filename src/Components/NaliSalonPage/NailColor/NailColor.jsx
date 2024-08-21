@@ -38,11 +38,6 @@ const NailColor = () => {
       <NavBg />
       <NailColorImg/>
       <NailColorHead/>
-      <NailColorProcess/>
-      <NailColorBenefits/>
-      <NailColorTrend/>
-      <NailColorMaintain/>
-      <NailCustomer/>
       <Members />
       <OurSalon />
       <Partners />
@@ -50,6 +45,11 @@ const NailColor = () => {
       <HelpNearYou />
       <TextLocReviews />
       <ServiceWhy />
+      <NailColorProcess/>
+      <NailColorBenefits/>
+      <NailColorTrend/>
+      <NailColorMaintain/>
+      <NailCustomer/>
       <WhatsApp />
       <LastComp />
     </div>

@@ -38,9 +38,6 @@ const ClassicPedicurePage = () => {
       <ClassicPedicureImg/>
       <ClassicPedicureHead />
       <ClassicPedicureXp />
-      <ClassicPedicureBenefits />
-      <ClassicPedicureMaintain />
-      <ClassicPedicureBook />
       <Members />
       <OurSalon />
       <Partners />
@@ -48,6 +45,9 @@ const ClassicPedicurePage = () => {
       <HelpNearYou />
       <TextLocReviews />
       <ServiceWhy />
+      <ClassicPedicureBenefits />
+      <ClassicPedicureMaintain />
+      <ClassicPedicureBook />
       <WhatsApp/>
       <LastComp />
     </div>

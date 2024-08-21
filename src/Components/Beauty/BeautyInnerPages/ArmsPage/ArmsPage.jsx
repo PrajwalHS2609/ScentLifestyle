@@ -9,7 +9,6 @@ import InstaFeed from "../../../HomePage/InstaFeed/InstaFeed";
 import HelpNearYou from "../../../Help/HelpNearYou";
 import TextLocReviews from "../../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../../MainServicePages/ServiceWhy/ServiceWhy";
-import BeautyRead from "../../BeautyRead/BeautyRead";
 import WhatsApp from "../../../HomePage/WhatsApp/WhatsApp";
 import LastComp from "../../../LastComp/LastComp";
 import ArmsBest from "./ArmsBest";
@@ -44,12 +43,8 @@ const ArmsPage = () => {
         service="Beauty Essentials"
         currService="Arms"
       />
-      <ArmsHead/>
-      <ArmsWaxing/>
-      <ArmsDetan/>
-      <ArmsThreading/>
-      <ArmsBenefits/>
-      <ArmsBest />
+      <ArmsHead />
+      <ArmsWaxing />
       <Members />
       <OurSalon />
       <Partners />
@@ -57,7 +52,10 @@ const ArmsPage = () => {
       <HelpNearYou />
       <TextLocReviews />
       <ServiceWhy />
-      <BeautyRead />
+      <ArmsDetan />
+      <ArmsThreading />
+      <ArmsBenefits />
+      <ArmsBest />
       <WhatsApp />
       <LastComp />
     </div>

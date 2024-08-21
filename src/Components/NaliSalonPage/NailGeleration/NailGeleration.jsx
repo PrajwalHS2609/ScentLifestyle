@@ -38,11 +38,6 @@ const NailGeleration = () => {
       <NavBg />
       <NailGelerationImg/>
       <NailGelerationHead />
-      <NailGelerationProcess />
-      <NailGelerationBenefits />
-      <NailGelerationTrend />
-      <NailGelerationMaintain />
-      <NailGelerationCustomer />  
       <Members />
       <OurSalon />
       <Partners />
@@ -50,6 +45,11 @@ const NailGeleration = () => {
       <HelpNearYou />
       <TextLocReviews />
       <ServiceWhy />
+      <NailGelerationProcess />
+      <NailGelerationBenefits />
+      <NailGelerationTrend />
+      <NailGelerationMaintain />
+      <NailGelerationCustomer /> 
       <WhatsApp />
       <LastComp />
     </div>

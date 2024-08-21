@@ -12,11 +12,17 @@ const CandleManicureWhy = () => {
           for your luxurious spa experience.
         </li>
         <li>
-          <h6>Consultation :</h6> Our experienced nail technicians will begin
-          with a brief consultation to understand your specific needs and
-          preferences. Whether you have concerns about nail health, skin
-          hydration, or simply want to unwind, we tailor the <a href="https://scentlifestyle.com/candle-spa-manicure">Candle Spa Manicure</a>
-          to meet your desires.
+          <h6>Consultation :</h6>{" "}
+          <p>
+            Our experienced nail technicians will begin with a brief
+            consultation to understand your specific needs and preferences.
+            Whether you have concerns about nail health, skin hydration, or
+            simply want to unwind, we tailor the{" "}
+            <a href="https://scentlifestyle.com/candle-spa-manicure">
+              Candle Spa Manicure
+            </a>{" "}
+            to meet your desires.
+          </p>
         </li>
         <li>
           <h6>Aromatic Hand Soak :</h6> The treatment starts with an aromatic
@@ -25,9 +31,9 @@ const CandleManicureWhy = () => {
           relaxes your hands, setting the stage for the ultimate pampering.
         </li>
         <li>
-          <h6>Exfoliation :</h6> Next, your hands will be gently exfoliated using
-          a natural scrub. This step removes dead skin cells, promoting healthy
-          skin regeneration and leaving your hands feeling smooth and
+          <h6>Exfoliation :</h6> Next, your hands will be gently exfoliated
+          using a natural scrub. This step removes dead skin cells, promoting
+          healthy skin regeneration and leaving your hands feeling smooth and
           revitalized. The exfoliation process is thorough yet gentle, ensuring
           your skin remains healthy and radiant.
         </li>
@@ -39,18 +45,18 @@ const CandleManicureWhy = () => {
           to achieve the best results.
         </li>
         <li>
-          <h6>Candle Wax Massage : </h6> The highlight of the Candle Spa Manicure
-          is the luxurious candle wax massage. Specially formulated massage
-          candles are melted, and the warm, aromatic wax is poured over your
-          hands. The melted wax transforms into a rich, nourishing oil that is
-          gently massaged into your skin. This step not only hydrates and
+          <h6>Candle Wax Massage : </h6> The highlight of the Candle Spa
+          Manicure is the luxurious candle wax massage. Specially formulated
+          massage candles are melted, and the warm, aromatic wax is poured over
+          your hands. The melted wax transforms into a rich, nourishing oil that
+          is gently massaged into your skin. This step not only hydrates and
           softens your skin but also provides deep relaxation and stress relief.
           The warm wax helps to improve blood circulation, leaving your hands
           feeling rejuvenated and revitalized.
         </li>
         <li>
-          <h6> Moisturizing Mask :</h6> After the massage, a moisturizing mask is
-          applied to your hands to lock in the hydration and nutrients. This
+          <h6> Moisturizing Mask :</h6> After the massage, a moisturizing mask
+          is applied to your hands to lock in the hydration and nutrients. This
           mask is left on for a few minutes to allow the ingredients to
           penetrate deeply into your skin. During this time, you can unwind and
           enjoy the calming atmosphere of our salon.

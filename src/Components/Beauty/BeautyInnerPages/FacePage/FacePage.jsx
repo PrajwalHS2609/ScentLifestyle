@@ -9,7 +9,6 @@ import InstaFeed from "../../../HomePage/InstaFeed/InstaFeed";
 import HelpNearYou from "../../../Help/HelpNearYou";
 import TextLocReviews from "../../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../../MainServicePages/ServiceWhy/ServiceWhy";
-import BeautyRead from "../../BeautyRead/BeautyRead";
 import WhatsApp from "../../../HomePage/WhatsApp/WhatsApp";
 import LastComp from "../../../LastComp/LastComp";
 import FaceHeader from "./FaceHeader/FaceHeader";
@@ -48,11 +47,6 @@ const FacePage = () => {
       />
       <FaceHeader />
       <FaceWhy />
-      <FaceWaxing />
-      <FaceDetan />
-      <FaceThreading />
-      <FaceOffering />
-      <FaceBook/>
       <Members />
       <OurSalon />
       <Partners />
@@ -60,7 +54,11 @@ const FacePage = () => {
       <HelpNearYou />
       <TextLocReviews />
       <ServiceWhy />
-      <BeautyRead />
+      <FaceWaxing />
+      <FaceDetan />
+      <FaceThreading />
+      <FaceOffering />
+      <FaceBook/>
       <WhatsApp />
       <LastComp />
     </div>

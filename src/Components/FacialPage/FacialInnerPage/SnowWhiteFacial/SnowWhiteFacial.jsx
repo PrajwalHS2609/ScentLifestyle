@@ -38,15 +38,9 @@ const SnowWhiteFacial = () => {
         />
       </Helmet>
       <NavBg />
-      <SnowWhiteFacialImg/>
+      <SnowWhiteFacialImg />
       <SnowWhiteFacialHead />
       <SnowWhiteFacialWhy />
-      <SnowWhiteFacialBenefits />
-      <SnowWhiteFacialIng />
-      <SnowWhiteFacialProcess />
-      <SnowWhiteFacialExp />
-      <SnowWhiteFacialCustomer />
-      <SnowWhiteFacialBook />
       <Members />
       <OurSalon />
       <Partners />
@@ -54,6 +48,12 @@ const SnowWhiteFacial = () => {
       <HelpNearYou />
       <TextLocReviews />
       <ServiceWhy />
+      <SnowWhiteFacialBenefits />
+      <SnowWhiteFacialIng />
+      <SnowWhiteFacialProcess />
+      <SnowWhiteFacialExp />
+      <SnowWhiteFacialCustomer />
+      <SnowWhiteFacialBook />
       <WhatsApp />
       <LastComp />
     </div>

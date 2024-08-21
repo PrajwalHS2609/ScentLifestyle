@@ -39,11 +39,6 @@ const EyeProtectFacial = () => {
       <NavBg />
       <EyeProtectFacialImg/>
       <EyeProtectFacialHead />
-      <EyeProtectFacialBenefits />
-      <EyeProtectFacialWhat />
-      <EyeProtectFacialWhy />
-      <EyeProtectFacialCustomer />
-      <EyeProtectFacialBook />
       <Members />
       <OurSalon />
       <Partners />
@@ -51,6 +46,11 @@ const EyeProtectFacial = () => {
       <HelpNearYou />
       <TextLocReviews />
       <ServiceWhy />
+      <EyeProtectFacialBenefits />
+      <EyeProtectFacialWhat />
+      <EyeProtectFacialWhy />
+      <EyeProtectFacialCustomer />
+      <EyeProtectFacialBook />
       <WhatsApp />
       <LastComp />
     </div>

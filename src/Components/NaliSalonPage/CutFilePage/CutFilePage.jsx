@@ -37,10 +37,6 @@ const CutFilePage = () => {
       <NavBg />
       <CutFileImg />
       <CutFileHead />
-      <CutFileBenefits />
-      <CutFileWhat />
-      <CutFileWhy />
-      <CutFileBook />
       <Members />
       <OurSalon />
       <Partners />
@@ -48,6 +44,10 @@ const CutFilePage = () => {
       <HelpNearYou />
       <TextLocReviews />
       <ServiceWhy />
+      <CutFileBenefits />
+      <CutFileWhat />
+      <CutFileWhy />
+      <CutFileBook />
       <WhatsApp />
       <LastComp />
     </div>

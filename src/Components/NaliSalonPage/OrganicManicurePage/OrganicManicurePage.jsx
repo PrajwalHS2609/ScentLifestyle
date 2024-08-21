@@ -36,13 +36,8 @@ const OrganicManicurePage = () => {
         />
       </Helmet>
       <NavBg />
-      <OrganicManicureImg/>
+      <OrganicManicureImg />
       <OrganicManicureHead />
-      <OrganicManicureBenefits />
-      <OrganicManicureProcess />
-      <OrganicProducts />
-      <OrganicManicureMaintain />
-      <OrganicManicureBook />
       <Members />
       <OurSalon />
       <Partners />
@@ -50,7 +45,12 @@ const OrganicManicurePage = () => {
       <HelpNearYou />
       <TextLocReviews />
       <ServiceWhy />
-      <WhatsApp/>
+      <OrganicManicureBenefits />
+      <OrganicManicureProcess />
+      <OrganicProducts />
+      <OrganicManicureMaintain />
+      <OrganicManicureBook />
+      <WhatsApp />
       <LastComp />
     </div>
   );

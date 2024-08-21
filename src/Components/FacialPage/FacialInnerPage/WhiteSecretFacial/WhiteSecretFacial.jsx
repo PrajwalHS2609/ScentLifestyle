@@ -36,12 +36,9 @@ const WhiteSecretFacial = () => {
         />
       </Helmet>
       <NavBg />
-      <WhiteSecretFacialImg/>
+      <WhiteSecretFacialImg />
       <WhiteSecretFacialHead />
       <WhiteSecretFacialUnderstand />
-      <WhiteSecretFacialDiff />
-      <WhiteSecretFacialBenefits />
-      <WhiteSecretFacialWhy />
       <Members />
       <OurSalon />
       <Partners />
@@ -49,6 +46,10 @@ const WhiteSecretFacial = () => {
       <HelpNearYou />
       <TextLocReviews />
       <ServiceWhy />
+      <WhiteSecretFacialDiff />
+      <WhiteSecretFacialBenefits />
+      <WhiteSecretFacialWhy />
+
       <WhatsApp />
       <LastComp />
     </div>

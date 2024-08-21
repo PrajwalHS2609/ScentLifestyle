@@ -39,10 +39,6 @@ const AcneCureFacial = () => {
       <AcneCureFacialImg />
       <AcneCureFacialHead />
       <AcneCureFacialUnderstand />
-      <AcneCureFacialService />
-      <AcneCureFacialBenefits />
-      <AcneCureFacialWhy />
-      <AcneCureFacialXp />
       <Members />
       <OurSalon />
       <Partners />
@@ -50,6 +46,10 @@ const AcneCureFacial = () => {
       <HelpNearYou />
       <TextLocReviews />
       <ServiceWhy />
+      <AcneCureFacialService />
+      <AcneCureFacialBenefits />
+      <AcneCureFacialWhy />
+      <AcneCureFacialXp />
       <WhatsApp />
       <LastComp />
     </div>

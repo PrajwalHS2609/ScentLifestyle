@@ -37,10 +37,6 @@ const HydraFacial = () => {
       <HydraFacialImg/>
       <HydraFacialHead />
       <HydraFacialBenefits />
-      <HydraFacialWhat />
-      <HydraFacialWhy />
-      <HydraFacialCustomer />
-      <HydraFacialBook />
       <Members />
       <OurSalon />
       <Partners />
@@ -48,6 +44,10 @@ const HydraFacial = () => {
       <HelpNearYou />
       <TextLocReviews />
       <ServiceWhy />
+      <HydraFacialWhat />
+      <HydraFacialWhy />
+      <HydraFacialCustomer />
+      <HydraFacialBook />
       <WhatsApp />
       <LastComp />
     </div>

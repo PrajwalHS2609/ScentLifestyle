@@ -39,11 +39,6 @@ const FrenchGeleration = () => {
       <NavBg />
       <FrenchGelerationImg/>
       <FrenchGelerationHead/>
-      <FrenchGelerationProcess/>
-      <FrenchGelerationBenefits />
-      <FrenchGelerationTrend/>
-      <FrenchGelerationMaintain/>
-      <FrenchGelerationCustomer/>
       <Members />
       <OurSalon />
       <Partners />
@@ -51,6 +46,11 @@ const FrenchGeleration = () => {
       <HelpNearYou />
       <TextLocReviews />
       <ServiceWhy />
+      <FrenchGelerationProcess/>
+      <FrenchGelerationBenefits />
+      <FrenchGelerationTrend/>
+      <FrenchGelerationMaintain/>
+      <FrenchGelerationCustomer/>
       <WhatsApp />
       <LastComp />
     </div>

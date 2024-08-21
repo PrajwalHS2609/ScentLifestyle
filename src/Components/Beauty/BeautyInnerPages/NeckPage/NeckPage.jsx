@@ -6,7 +6,6 @@ import OurSalon from "../../../HomePage/OurSalon/OurSalon";
 import HelpNearYou from "../../../Help/HelpNearYou";
 import TextLocReviews from "../../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../../MainServicePages/ServiceWhy/ServiceWhy";
-import BeautyRead from "../../BeautyRead/BeautyRead";
 import WhatsApp from "../../../HomePage/WhatsApp/WhatsApp";
 import LastComp from "../../../LastComp/LastComp";
 import { Helmet } from "react-helmet";
@@ -47,11 +46,6 @@ const NeckPage = () => {
       />
       <NeckHead />
       <NeckWhy />
-      <NeckXp />
-      <NeckBenefits />
-      <NeckWhat />
-      <NeckAftercare />
-      <NeckBook />
       <Members />
       <OurSalon />
       <Partners />
@@ -59,7 +53,11 @@ const NeckPage = () => {
       <HelpNearYou />
       <TextLocReviews />
       <ServiceWhy />
-      <BeautyRead />
+      <NeckXp />
+      <NeckBenefits />
+      <NeckWhat />
+      <NeckAftercare />
+      <NeckBook />
       <WhatsApp />
       <LastComp />
     </div>

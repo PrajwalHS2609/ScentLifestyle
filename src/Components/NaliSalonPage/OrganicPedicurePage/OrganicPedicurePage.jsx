@@ -37,10 +37,6 @@ const OrganicPedicurePage = () => {
       <NavBg />
       <OrganicPedicureImg/>
       <OrganicManicureHead />
-      <OrganicPedicureXp />
-      <OrganicPedicureBenefits />
-      <OrganicPedicureMaintain />
-      <OrganicPedicureBook />
       <Members />
       <OurSalon />
       <Partners />
@@ -48,6 +44,11 @@ const OrganicPedicurePage = () => {
       <HelpNearYou />
       <TextLocReviews />
       <ServiceWhy />
+      <OrganicPedicureXp />
+      <OrganicPedicureBenefits />
+      <OrganicPedicureMaintain />
+      <OrganicPedicureBook />
+
       <WhatsApp/>
       <LastComp />
     </div>

@@ -6,7 +6,6 @@ import InstaFeed from "../../../HomePage/InstaFeed/InstaFeed";
 import HelpNearYou from "../../../Help/HelpNearYou";
 import TextLocReviews from "../../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../../MainServicePages/ServiceWhy/ServiceWhy";
-import BeautyRead from "../../BeautyRead/BeautyRead";
 import WhatsApp from "../../../HomePage/WhatsApp/WhatsApp";
 import LastComp from "../../../LastComp/LastComp";
 import InnerNavi from "../../../InnerServicePage/InnerNavi/InnerNavi";
@@ -49,10 +48,6 @@ const BackPage = () => {
       <BackHead/>
       <BackXp/>
       <BackWhy/>
-      <BackWhat/>
-      <BackBenefits/>
-      <BackAftercare/>
-      <BackConclusion/>
       <Members />
       <OurSalon />
       <Partners />
@@ -60,7 +55,10 @@ const BackPage = () => {
       <HelpNearYou />
       <TextLocReviews />
       <ServiceWhy />
-      <BeautyRead />
+      <BackWhat/>
+      <BackBenefits/>
+      <BackAftercare/>
+      <BackConclusion/>
       <WhatsApp />
       <LastComp />
     </div>

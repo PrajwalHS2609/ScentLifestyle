@@ -3,9 +3,9 @@ import { Helmet } from "react-helmet";
 import NavBg from "../../NavBg/NavBg";
 import CandleManicureBenefits from "./CandleManicureBenefits";
 import CandleManicureXp from "./CandleManicureXp";
-import CandleManicureHead from './CandleManicureHead';
-import CandleManicureWhy from './CandleManicureWhy';
-import CandleManicureBook from './CandleManicureBook';
+import CandleManicureHead from "./CandleManicureHead";
+import CandleManicureWhy from "./CandleManicureWhy";
+import CandleManicureBook from "./CandleManicureBook";
 import Members from "../../HomePage/Members/Members";
 import OurSalon from "../../HomePage/OurSalon/OurSalon";
 import Partners from "../../HomePage/Partners/Partners";
@@ -16,7 +16,6 @@ import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
 import LastComp from "../../LastComp/LastComp";
 import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
 import CandleManicureImg from "./CandleManicureImg";
-
 
 const CandleManicurePage = () => {
   return (
@@ -36,12 +35,9 @@ const CandleManicurePage = () => {
         />
       </Helmet>
       <NavBg />
-      <CandleManicureImg/>
+      <CandleManicureImg />
       <CandleManicureHead />
       <CandleManicureXp />
-      <CandleManicureBenefits />
-      <CandleManicureWhy />
-      <CandleManicureBook />
       <Members />
       <OurSalon />
       <Partners />
@@ -49,7 +45,10 @@ const CandleManicurePage = () => {
       <HelpNearYou />
       <TextLocReviews />
       <ServiceWhy />
-      <WhatsApp/>
+      <CandleManicureBenefits />
+      <CandleManicureWhy />
+      <CandleManicureBook />
+      <WhatsApp />
       <LastComp />
     </div>
   );

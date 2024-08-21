@@ -8,7 +8,6 @@ import InstaFeed from "../../../HomePage/InstaFeed/InstaFeed";
 import HelpNearYou from "../../../Help/HelpNearYou";
 import TextLocReviews from "../../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../../MainServicePages/ServiceWhy/ServiceWhy";
-import BeautyRead from "../../../Beauty/BeautyRead/BeautyRead";
 import WhatsApp from "../../../HomePage/WhatsApp/WhatsApp";
 import LastComp from "../../../LastComp/LastComp";
 import LashesExtensionHead from "./LashesExtensionHead";
@@ -47,10 +46,6 @@ const LashesExtension = () => {
       />
       <LashesExtensionHead />
       <LashesExtensionXp />
-      <LashesExtensionBenefits />
-      <LashesExtensionWhy />
-      <LashesExtensionCustomer />
-      <LashesExtensionBook />
       <Members />
       <OurSalon />
       <Partners />
@@ -58,7 +53,10 @@ const LashesExtension = () => {
       <HelpNearYou />
       <TextLocReviews />
       <ServiceWhy />
-      <BeautyRead />
+      <LashesExtensionBenefits />
+      <LashesExtensionWhy />
+      <LashesExtensionCustomer />
+      <LashesExtensionBook />
       <WhatsApp />
       <LastComp />
     </div>

@@ -9,7 +9,6 @@ import InstaFeed from "../../../HomePage/InstaFeed/InstaFeed";
 import HelpNearYou from "../../../Help/HelpNearYou";
 import TextLocReviews from "../../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../../MainServicePages/ServiceWhy/ServiceWhy";
-import BeautyRead from "../../BeautyRead/BeautyRead";
 import WhatsApp from "../../../HomePage/WhatsApp/WhatsApp";
 import LastComp from "../../../LastComp/LastComp";
 import LegsHead from "./LegsHead";
@@ -46,10 +45,6 @@ const LegsPage = () => {
       
       <LegsHead />
       <LegsWaxing />
-      <LegsDetan />
-      <LegsThreading />
-      <LegsBest />
-      <LegsCustomer />
       <Members />
       <OurSalon />
       <Partners />
@@ -57,7 +52,10 @@ const LegsPage = () => {
       <HelpNearYou />
       <TextLocReviews />
       <ServiceWhy />
-      <BeautyRead />
+      <LegsDetan />
+      <LegsThreading />
+      <LegsBest />
+      <LegsCustomer />
       <WhatsApp />
       <LastComp />
     </div>

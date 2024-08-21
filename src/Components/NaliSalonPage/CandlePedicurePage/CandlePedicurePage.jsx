@@ -35,13 +35,9 @@ const CandlePedicurePage = () => {
         />
       </Helmet>
       <NavBg />
-      <CandleManicureImg/>
+      <CandleManicureImg />
       <CandlePedicureHead />
       <CandlePedicureWhy />
-      <CandlePedicureWhat />
-      <CandlePedicureWhy />
-      <CandlePedicureCustomer />
-      <CandlePedicureBook />
       <Members />
       <OurSalon />
       <Partners />
@@ -49,7 +45,11 @@ const CandlePedicurePage = () => {
       <HelpNearYou />
       <TextLocReviews />
       <ServiceWhy />
-      <WhatsApp/>
+      <CandlePedicureWhat />
+      <CandlePedicureWhy />
+      <CandlePedicureCustomer />
+      <CandlePedicureBook />
+      <WhatsApp />
       <LastComp />
     </div>
   );

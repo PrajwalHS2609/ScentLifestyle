@@ -40,10 +40,6 @@ const BridalMakeUpPackage = () => {
       <BridalMakeUpPackageImg/>
       <BridalMakeUpPackageHead />
       <BridalMakeUpPackageWhy />
-      <BridalMakeUpPackageCustomize />
-      <BridalMakeUpPackageProcess />
-      <BridalMakeUpPackageCustomer />
-      <BridalMakeUpPackageBook/>
       <Members />
       <OurSalon />
       <Partners />
@@ -51,6 +47,10 @@ const BridalMakeUpPackage = () => {
       <HelpNearYou />
       <TextLocReviews />
       <ServiceWhy />
+      <BridalMakeUpPackageCustomize />
+      <BridalMakeUpPackageProcess />
+      <BridalMakeUpPackageCustomer />
+      <BridalMakeUpPackageBook/>
       <WhatsApp />
       <LastComp />
     </div>

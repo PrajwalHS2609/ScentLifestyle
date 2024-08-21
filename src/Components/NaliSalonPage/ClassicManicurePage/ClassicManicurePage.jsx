@@ -39,10 +39,6 @@ const ClassicManicurePage = () => {
       <ClassicManicureImg/>
       <ClassicManicureHead/>
       <ClassicManicureWhy/>
-      <ClassicManiBenefits/>
-      <ClassicManicureProcess/>
-      <ClassicManiMaintain/>
-      <ClassicManiBook/>
       <Members />
       <OurSalon />
       <Partners />
@@ -50,6 +46,10 @@ const ClassicManicurePage = () => {
       <HelpNearYou />
       <TextLocReviews />
       <ServiceWhy />
+      <ClassicManiBenefits/>
+      <ClassicManicureProcess/>
+      <ClassicManiMaintain/>
+      <ClassicManiBook/>
       <WhatsApp/>
       <LastComp />
     </div>

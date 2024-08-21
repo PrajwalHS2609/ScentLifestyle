@@ -38,10 +38,6 @@ const DiamondFacial = () => {
       <NavBg />
       <DiamondFacialImg/>
       <DiamondFacialHead />
-      <DiamondFacialBenefits />
-      <DiamondFacialProcess />
-      <DiamondFacialWhy />
-      <DiamondFacialCustomer />
       <Members />
       <OurSalon />
       <Partners />
@@ -49,6 +45,10 @@ const DiamondFacial = () => {
       <HelpNearYou />
       <TextLocReviews />
       <ServiceWhy />
+      <DiamondFacialBenefits />
+      <DiamondFacialProcess />
+      <DiamondFacialWhy />
+      <DiamondFacialCustomer />
       <WhatsApp />
       <LastComp />
     </div>
