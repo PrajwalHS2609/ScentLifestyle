@@ -46,8 +46,8 @@ const BlogMain = () => {
         />
         <BlogCard
           img={brazilWaxingBanner}
-          head="Does Trimming Hair Make It Grow Faster?"
-          para="Trimming your hair regularly is key to maintaining long, healthy locks. The frequency of trims depends ..."
+          head="Everything You Need to Know About Brazilian Waxing"
+          para="When it comes to smooth, flawless skin, nothing beats the confidence that comes with a professional Brazilian waxing service. At SCENT, we take pride in ..."
           link="/everything-you-need-to-know-about-brazilian-waxing"
         />
 

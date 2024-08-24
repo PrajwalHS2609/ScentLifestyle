@@ -1,6 +1,6 @@
 import React, { useRef, useState } from "react";
 import BlogCard from "../BlogCard";
-import brazilWaxingBanner from "./../../../../Images/Blog/Everything_About_Brazilian_Waxing/Banner Image.png"
+import brazilWaxingBanner from "./../../../../Images/Blog/Everything_About_Brazilian_Waxing/Banner Image.png";
 const BlogBeautyEssentials = () => {
   let [toggle, setToggle] = useState(false);
   let switchRef = useRef();
@@ -18,8 +18,8 @@ const BlogBeautyEssentials = () => {
       <div className="blogMainDisplay1">
         <BlogCard
           img={brazilWaxingBanner}
-          head="Does Trimming Hair Make It Grow Faster?"
-          para="Trimming your hair regularly is key to maintaining long, healthy locks. The frequency of trims depends ..."
+          head="Everything You Need to Know About Brazilian Waxing"
+          para="When it comes to smooth, flawless skin, nothing beats the confidence that comes with a professional Brazilian waxing service. At SCENT, we take pride in ..."
           link="/everything-you-need-to-know-about-brazilian-waxing"
         />
       </div>
