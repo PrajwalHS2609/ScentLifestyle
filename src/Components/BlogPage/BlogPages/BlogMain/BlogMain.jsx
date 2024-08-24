@@ -8,6 +8,7 @@ import hairKeratin from "./../../../../Images/Blog/Keratin_Hair_Treatment/Banner
 import pedimanicurebanner from "./../../../../Images/Blog/Pedi&manicureBlog/Banner Image.png";
 import spaDayBanner from "./../../../../Images/Blog/How a Spa Day/Banner Image.png";
 import brazilWaxingBanner from "./../../../../Images/Blog/Everything_About_Brazilian_Waxing/Banner Image.png";
+import ChicSleek from "./../../../../Images/Blog/Chic & Sleek/Banner Image.png";
 
 import BlogCard from "../BlogCard";
 const BlogMain = () => {
@@ -32,10 +33,10 @@ const BlogMain = () => {
           link="/does-trimming-hair-make-it-grow-faster"
         />
         <BlogCard
-          img={BouncyHairBlog}
-          head="Tips for Maintaining Hair Bouncy and Beautiful Curls During Monsoon"
-          para="Discover essential tips for maintaining bouncy and beautiful curls during the monsoon season. Learn how to ..."
-          link="/tips-for-maintaining-hair-bouncy-and-beautiful-curls-during-monsoon"
+          img={ChicSleek}
+          head="Chic & Sleek - Women’s Haircuts That Define You"
+          para="When it comes to expressing your personal style, few things make as bold a statement as your haircut. A well-chosen haircut not only ..."
+          link="/chic-and-sleek-womens-haircuts-that-define-you"
         />
 
         <BlogCard
@@ -79,10 +80,10 @@ const BlogMain = () => {
           link="/top-10-trending-women-hair-colours-and-highlights-for-2024"
         />
         <BlogCard
-          img="https://img.freepik.com/free-photo/portrait-attractive-woman-studio_329181-9782.jpg?ga=GA1.1.798303094.1721912336&semt=ais_hybrid"
-          head="Raccoon Eyes: Causes, Treatment, and How to Get Rid of It"
-          para="Ever noticed those unsightly dark circles around your eyes? In..."
-          link="/"
+          img={BouncyHairBlog}
+          head="Tips for Maintaining Hair Bouncy and Beautiful Curls During Monsoon"
+          para="Discover essential tips for maintaining bouncy and beautiful curls during the monsoon season. Learn how to ..."
+          link="/tips-for-maintaining-hair-bouncy-and-beautiful-curls-during-monsoon"
         />
       </div>
 

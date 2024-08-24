@@ -131,6 +131,7 @@ import OfferTesting from "./Components/OfferTesting/OfferTesting";
 import BlogBeautyEssentials from "./Components/BlogPage/BlogPages/BlogBeautyEssentials/BlogBeautyEssentials";
 import BrazilianWaxing from "./Components/BlogPage/BlogInnerPages/BeautyBlogInnerPages/BrazilianWaxing/BrazilianWaxing";
 import BrazilWaxingService from "./Components/Beauty/BrazilWaxingService/BrazilWaxingService";
+import ChicSleek from "./Components/BlogPage/BlogInnerPages/HairBlogInnerPages/ChicSleek/ChicSleek";
 const NotFound = () => (
   <div
     style={{
@@ -292,6 +293,10 @@ const App = () => {
           <Route
             path="/everything-you-need-to-know-about-brazilian-waxing"
             element={<BrazilianWaxing />}
+          />
+          <Route
+            path="/chic-and-sleek-womens-haircuts-that-define-you"
+            element={<ChicSleek />}
           />
           <Route path="/pre-bridal-treatments" element={<PrebridalPackage />} />
 

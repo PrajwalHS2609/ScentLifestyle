@@ -4,6 +4,7 @@ import trimBlog from "./../../../../Images/Blog/Does Trimming Hair Make It Grow 
 import BouncyHairBlog from "./../../../../Images/Blog/Hair Bouncy and Beautiful Curls During Monsoon.png";
 import BotoxImg from "./../../../../Images/Blog/HairBotoxImgs/HairBotox1.png";
 import top10 from "./../../../../Images/Blog/Top 10 hairColor/Banner Image.png";
+import ChicSleek from "./../../../../Images/Blog/Chic & Sleek/Banner Image.png";
 
 const BlogHair = () => {
   let [toggle, setToggle] = useState(false);
@@ -45,10 +46,10 @@ const BlogHair = () => {
           link="/top-10-trending-women-hair-colours-and-highlights-for-2024"
         />
         <BlogCard
-          img="https://img.freepik.com/free-photo/portrait-attractive-woman-studio_329181-9782.jpg?ga=GA1.1.798303094.1721912336&semt=ais_hybrid"
-          head="Raccoon Eyes: Causes, Treatment, and How to Get Rid of It"
-          para="Ever noticed those unsightly dark circles around your eyes? In..."
-          link="/"
+          img={ChicSleek}
+          head="Chic & Sleek - Women’s Haircuts That Define You"
+          para="When it comes to expressing your personal style, few things make as bold a statement as your haircut. A well-chosen haircut not only complements your features but also ..."
+          link="/chic-and-sleek-womens-haircuts-that-define-you"
         />
         <BlogCard
           img="https://img.freepik.com/free-photo/portrait-attractive-woman-studio_329181-9782.jpg?ga=GA1.1.798303094.1721912336&semt=ais_hybrid"
