@@ -27,7 +27,7 @@ const BouncyHair = () => {
       <NavBg />
       <div className="hairTrimContent">
         <BouncyHairImg />
-        <InnerNavi link="/blog" service="Blog" currService="Bouncy Hair" />
+        <InnerNavi link="/blog" service="Blog" currService="Hair Blog" />
         <BouncyHairHead />
       </div>
       <WhatsApp />

@@ -45,7 +45,7 @@ const ChicSleek = () => {
       <NavBg />
       <div className="hairTrimContent">
         <ChicSleekBannerImg />
-        <InnerNavi link="/blog" service="Blog" currService="Chic&Sleek" />
+        <InnerNavi link="/blog" service="Blog" currService="Hair blog" />
         <ChicSleekHead />
         <HairServImg hairBotoxImg={ChicSleekPowerImg} />
         <ChicSleekPower />

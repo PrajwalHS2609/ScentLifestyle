@@ -38,6 +38,11 @@ const BrazilianWaxing = () => {
       <NavBg />
       <div className="hairTrimContent">
         <BrazilianWaxingImg />
+        <InnerNavi
+          link="/blog"
+          service="Blog"
+          currService="Beauty Essentials Blog"
+        />
         <BrazilianWaxingHead />
         <HairServImg hairBotoxImg={BrazilianWaxingWhatImg} />
         <BrazilianWaxingWhat />

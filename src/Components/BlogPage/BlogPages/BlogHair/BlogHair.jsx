@@ -51,34 +51,9 @@ const BlogHair = () => {
           para="When it comes to expressing your personal style, few things make as bold a statement as your haircut. A well-chosen haircut not only complements your features but also ..."
           link="/chic-and-sleek-womens-haircuts-that-define-you"
         />
-        <BlogCard
-          img="https://img.freepik.com/free-photo/portrait-attractive-woman-studio_329181-9782.jpg?ga=GA1.1.798303094.1721912336&semt=ais_hybrid"
-          head="Raccoon Eyes: Causes, Treatment, and How to Get Rid of It"
-          para="Ever noticed those unsightly dark circles around your eyes? In..."
-          link="/"
-        />
       </div>
 
-      <div className="blogMainDisplay2" ref={switchRef}>
-        <BlogCard
-          img="https://img.freepik.com/free-photo/portrait-attractive-woman-studio_329181-9782.jpg?ga=GA1.1.798303094.1721912336&semt=ais_hybrid"
-          head="Raccoon Eyes: Causes, Treatment, and How to Get Rid of It"
-          para="Ever noticed those unsightly dark circles around your eyes? In..."
-          link="/"
-        />
-        <BlogCard
-          img="https://img.freepik.com/free-photo/portrait-attractive-woman-studio_329181-9782.jpg?ga=GA1.1.798303094.1721912336&semt=ais_hybrid"
-          head="Raccoon Eyes: Causes, Treatment, and How to Get Rid of It"
-          para="Ever noticed those unsightly dark circles around your eyes? In..."
-          link="/"
-        />
-        <BlogCard
-          img="https://img.freepik.com/free-photo/portrait-attractive-woman-studio_329181-9782.jpg?ga=GA1.1.798303094.1721912336&semt=ais_hybrid"
-          head="Raccoon Eyes: Causes, Treatment, and How to Get Rid of It"
-          para="Ever noticed those unsightly dark circles around your eyes? In..."
-          link="/"
-        />
-      </div>
+      <div className="blogMainDisplay2" ref={switchRef}></div>
 
       <div className="blogMainReadMore">
         <button onClick={handleRead}>Load {toggle ? "Less" : "More"}</button>

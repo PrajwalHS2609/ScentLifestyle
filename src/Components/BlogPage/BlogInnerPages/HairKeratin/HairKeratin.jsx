@@ -39,7 +39,7 @@ const HairKeratin = () => {
         <InnerNavi
           link="/blog"
           service="Blog"
-          currService="Hair Keratin Treatment"
+          currService="Hair Blog"
         />
         <HairKeratinHead />
         <HairServImg hairBotoxImg={hairKeratinBenefits} />

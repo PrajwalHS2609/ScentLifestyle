@@ -37,7 +37,7 @@ const Top10HairColor = () => {
       <NavBg />
       <div className="hairTrimContent">
         <Top10HairColorImg />
-        <InnerNavi link="/blog" service="Blog" currService="Hair" />
+        <InnerNavi link="/blog" service="Blog" currService="Hair Blog" />
         <Top10HairColorHead />
         <CinnamonSpice/>
         <CoolPlatinum/>

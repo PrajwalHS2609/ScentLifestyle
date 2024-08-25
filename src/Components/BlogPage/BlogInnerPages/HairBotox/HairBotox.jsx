@@ -36,7 +36,7 @@ const HairBotox = () => {
         <InnerNavi
           link="/blog"
           service="Blog"
-          currService="Hair Botox Treatment"
+          currService="Hair Blog"
         />
         <HairBotoxHead />
         <HairBotoxWhat />

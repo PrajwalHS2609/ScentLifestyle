@@ -35,7 +35,7 @@ const PediAndManicure = () => {
         <InnerNavi
           link="/blog"
           service="Blog"
-          currService="Pedicure & Manicure"
+          currService="Nail Blog"
         />
         <PediAndManicureHead />
         <HairServImg hairBotoxImg={pedimanicureWhat} />

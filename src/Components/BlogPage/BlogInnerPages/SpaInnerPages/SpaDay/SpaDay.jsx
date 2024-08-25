@@ -34,7 +34,7 @@ const SpaDay = () => {
       <NavBg />
       <div className="hairTrimContent">
         <SpaDayImg />
-        <InnerNavi link="/blog" service="Blog" currService="Spa Day" />
+        <InnerNavi link="/blog" service="Blog" currService="Spa Blog" />
         <SpaDayHead />
         <HairServImg hairBotoxImg={spaDayStress} />
         <SpadayStress />
