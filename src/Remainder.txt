@@ -1,3 +1,4 @@
 arrange salon videos to center in mobile ver
 images changes and download
 add arrow to location resp
+add lazy loading to all blog imgs

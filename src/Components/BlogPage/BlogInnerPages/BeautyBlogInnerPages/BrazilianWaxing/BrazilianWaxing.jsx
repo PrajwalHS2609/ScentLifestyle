@@ -19,6 +19,7 @@ import BrazilianWaxingRightImg from "./../../../../../Images/Blog/Everything_Abo
 import BrazilianWaxingPainImg from "./../../../../../Images/Blog/Everything_About_Brazilian_Waxing/Brazilian Waxing_ Pain Level and Comfort.png";
 import BrazilianWaxingOftenImg from "./../../../../../Images/Blog/Everything_About_Brazilian_Waxing/How Often Should You Get Brazilian Waxing.png";
 import HairServImg from "../../HairBotox/HairServImg";
+import InnerNavi from "../../../../InnerServicePage/InnerNavi/InnerNavi";
 
 const BrazilianWaxing = () => {
   return (
