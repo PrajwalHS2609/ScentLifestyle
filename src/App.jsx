@@ -132,6 +132,9 @@ import BlogBeautyEssentials from "./Components/BlogPage/BlogPages/BlogBeautyEsse
 import BrazilianWaxing from "./Components/BlogPage/BlogInnerPages/BeautyBlogInnerPages/BrazilianWaxing/BrazilianWaxing";
 import BrazilWaxingService from "./Components/Beauty/BrazilWaxingService/BrazilWaxingService";
 import ChicSleek from "./Components/BlogPage/BlogInnerPages/HairBlogInnerPages/ChicSleek/ChicSleek";
+import Botox from "./Components/HairTreatments/Botox/Botox";
+import Keratin from "./Components/HairTreatments/Keratin/Keratin";
+import Olaplex from "./Components/HairTreatments/Olaplex/Olaplex";
 const NotFound = () => (
   <div
     style={{
@@ -433,10 +436,21 @@ const App = () => {
             path="/brazilian-waxing-services-in-bangalore"
             element={<BrazilWaxingService />}
           />
+          <Route
+            path="/hair-botox-treatments-in-bangalore"
+            element={<Botox />}
+          />
+          <Route
+            path="/keratin-hair-treatments-in-bangalore"
+            element={<Keratin />}
+          />
+          <Route
+            path="/olaplex-hair-treatments-in-bangalore"
+            element={<Olaplex />}
+          />
         </Routes>
       </BrowserRouter>
     </div>
   );
 };
-
 export default App;
