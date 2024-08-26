@@ -10,7 +10,7 @@ const SoftCaramel = () => {
       <p>
         For those who prefer a more subtle and natural look, Soft Caramel
         Highlights are an excellent choice. As one of the{" "}
-        <a href="https://scentlifestyle.com/top-10-trending-women-hair-colours-and-highlights-for-2024s">Top 10 Trending Women Hair Colours & Highlights for 2024</a>,
+        <a href="https://scentlifestyle.com/top-10-trending-women-hair-colours-and-highlights-for-2024">Top 10 Trending Women Hair Colours & Highlights for 2024</a>,
         these warm, honey-toned highlights add a touch of brightness and
         dimension to the hair. Soft Caramel Highlights work well on various base
         colors, from deep brunettes to warm blondes. This trend is perfect for

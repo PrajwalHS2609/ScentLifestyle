@@ -9,7 +9,7 @@ const LegsHead = () => {
         personal grooming is a priority, finding the perfect salon for
         comprehensive leg care can be transformative. From smooth, hair-free
         legs to even skin tone and precise hair removal, the services of{" "}
-        <a href="https://scentlifestyle.com/legs-waxing-detan-threading-salon-in-bangaloref">
+        <a href="https://scentlifestyle.com/legs-waxing-detan-threading-salon-in-bangalore">
           Legs Waxing, De-tan & Threading in Bangalore
         </a>{" "}
         offer a complete solution for those seeking flawless legs. This article

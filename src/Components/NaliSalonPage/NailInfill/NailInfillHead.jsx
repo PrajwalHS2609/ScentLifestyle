@@ -16,7 +16,7 @@ const NailInfillHead = () => {
           longer, more durable nails that look impeccable for weeks. However, as
           your natural nails grow, maintaining the beauty and strength of your
           extensions requires regular infills. At SCENT, we offer top-notch{" "}
-          <a href="https://scentlifestyle.com/nail-extension-infill">
+          <a href="https://scentlifestyle.com/nails-extension-infill">
             nail extension infill in Bangalore
           </a>
           , ensuring that your nails remain flawless and well-maintained.
@@ -31,7 +31,7 @@ const NailInfillHead = () => {
           natural nails grow, gaps appear between the extension and the cuticle
           area, which can make the nails look untidy and increase the risk of
           lifting or breakage.{" "}
-          <a href="https://scentlifestyle.com/nail-extension-infill">
+          <a href="https://scentlifestyle.com/nails-extension-infill">
             Nail extension infill in Bangalore
           </a>{" "}
           involves filling these gaps with new acrylic or gel, ensuring that
