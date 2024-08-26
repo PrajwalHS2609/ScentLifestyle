@@ -7,7 +7,7 @@ const BeautyGarageCard = (props) => {
   return (
     <div className="beautyGarageCardContainer">
       <div className="beautyGarageCardImg">
-        <img src={props.img} alt="" />
+        <img src={props.img} alt="" loading="lazy"/>
       </div>
       <div className="beautyGarageCardTxt">
         <div className="beautyGarageCardHead">

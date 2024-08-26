@@ -6,7 +6,7 @@ const SchwCard = (props) => {
   return (
       <div className="schwCardContainer">
         <div className="schwCardImg">
-          <img src={props.img} alt="" />
+          <img src={props.img} alt="" loading='lazy'/>
         </div>
         <div className="schwCardTxt">
           <div className="schwCardHead">

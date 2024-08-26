@@ -7,7 +7,7 @@ const OlaplexCard = (props) => {
   return (
     <div className="olaplexCardContainer">
       <div className="olaplexCardImg">
-        <img src={props.img} alt="" />
+        <img src={props.img} alt="" loading="lazy"/>
       </div>
       <div className="olaplexCardTxt">
         <div className="olaplexCardHead">
