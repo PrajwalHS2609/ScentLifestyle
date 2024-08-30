@@ -19,7 +19,7 @@ const MembershipPrice = () => {
           <h3>EXTRA BENEFITS</h3>
         </div>
         <div className="membershipPriceItem5">
-          <h3>Validity</h3>
+          <h3>VALIDITY</h3>
         </div>
         <div className="membershipPriceItem6">
           <h3>SILVER</h3>
@@ -29,7 +29,7 @@ const MembershipPrice = () => {
             <FontAwesomeIcon
               icon={faIndianRupee}
               className="menuIcon"
-            ></FontAwesomeIcon>
+            ></FontAwesomeIcon>{" "}
             10000
           </h3>
         </div>
@@ -38,7 +38,7 @@ const MembershipPrice = () => {
             <FontAwesomeIcon
               icon={faIndianRupee}
               className="menuIcon"
-            ></FontAwesomeIcon>
+            ></FontAwesomeIcon>{" "}
             11000
           </h3>
         </div>
@@ -47,7 +47,7 @@ const MembershipPrice = () => {
             <FontAwesomeIcon
               icon={faIndianRupee}
               className="menuIcon"
-            ></FontAwesomeIcon>
+            ></FontAwesomeIcon>{" "}
             1000
           </h3>
         </div>
@@ -62,7 +62,7 @@ const MembershipPrice = () => {
             <FontAwesomeIcon
               icon={faIndianRupee}
               className="menuIcon"
-            ></FontAwesomeIcon>
+            ></FontAwesomeIcon>{" "}
             20000
           </h3>
         </div>
@@ -71,7 +71,7 @@ const MembershipPrice = () => {
             <FontAwesomeIcon
               icon={faIndianRupee}
               className="menuIcon"
-            ></FontAwesomeIcon>
+            ></FontAwesomeIcon>{" "}
             27000
           </h3>
         </div>
@@ -80,7 +80,7 @@ const MembershipPrice = () => {
             <FontAwesomeIcon
               icon={faIndianRupee}
               className="menuIcon"
-            ></FontAwesomeIcon>
+            ></FontAwesomeIcon>{" "}
             7000
           </h3>
         </div>
@@ -95,7 +95,7 @@ const MembershipPrice = () => {
             <FontAwesomeIcon
               icon={faIndianRupee}
               className="menuIcon"
-            ></FontAwesomeIcon>
+            ></FontAwesomeIcon>{" "}
             30000
           </h3>
         </div>
@@ -104,7 +104,7 @@ const MembershipPrice = () => {
             <FontAwesomeIcon
               icon={faIndianRupee}
               className="menuIcon"
-            ></FontAwesomeIcon>
+            ></FontAwesomeIcon>{" "}
             45000
           </h3>
         </div>
@@ -113,7 +113,7 @@ const MembershipPrice = () => {
             <FontAwesomeIcon
               icon={faIndianRupee}
               className="menuIcon"
-            ></FontAwesomeIcon>
+            ></FontAwesomeIcon>{" "}
             15000
           </h3>
         </div>
@@ -128,7 +128,7 @@ const MembershipPrice = () => {
             <FontAwesomeIcon
               icon={faIndianRupee}
               className="menuIcon"
-            ></FontAwesomeIcon>
+            ></FontAwesomeIcon>{" "}
             50000
           </h3>
         </div>
@@ -137,7 +137,7 @@ const MembershipPrice = () => {
             <FontAwesomeIcon
               icon={faIndianRupee}
               className="menuIcon"
-            ></FontAwesomeIcon>
+            ></FontAwesomeIcon>{" "}
             75000
           </h3>
         </div>
@@ -146,7 +146,7 @@ const MembershipPrice = () => {
             <FontAwesomeIcon
               icon={faIndianRupee}
               className="menuIcon"
-            ></FontAwesomeIcon>
+            ></FontAwesomeIcon>{" "}
             25000
           </h3>
         </div>
@@ -161,7 +161,7 @@ const MembershipPrice = () => {
             <FontAwesomeIcon
               icon={faIndianRupee}
               className="menuIcon"
-            ></FontAwesomeIcon>
+            ></FontAwesomeIcon>{" "}
             75000
           </h3>
         </div>
@@ -170,7 +170,7 @@ const MembershipPrice = () => {
             <FontAwesomeIcon
               icon={faIndianRupee}
               className="menuIcon"
-            ></FontAwesomeIcon>
+            ></FontAwesomeIcon>{" "}
             110000
           </h3>
         </div>
@@ -179,7 +179,7 @@ const MembershipPrice = () => {
             <FontAwesomeIcon
               icon={faIndianRupee}
               className="menuIcon"
-            ></FontAwesomeIcon>
+            ></FontAwesomeIcon>{" "}
             35000
           </h3>
         </div>
@@ -194,7 +194,7 @@ const MembershipPrice = () => {
             <FontAwesomeIcon
               icon={faIndianRupee}
               className="menuIcon"
-            ></FontAwesomeIcon>
+            ></FontAwesomeIcon>{" "}
             100000
           </h3>
         </div>
@@ -203,7 +203,7 @@ const MembershipPrice = () => {
             <FontAwesomeIcon
               icon={faIndianRupee}
               className="menuIcon"
-            ></FontAwesomeIcon>
+            ></FontAwesomeIcon>{" "}
             150000
           </h3>
         </div>
@@ -212,7 +212,7 @@ const MembershipPrice = () => {
             <FontAwesomeIcon
               icon={faIndianRupee}
               className="menuIcon"
-            ></FontAwesomeIcon>
+            ></FontAwesomeIcon>{" "}
             50000
           </h3>
         </div>
