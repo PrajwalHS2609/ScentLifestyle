@@ -13,10 +13,12 @@ h5,
 h6,
 li,
 pre,
-a {
+a,
+th,
+td {
   /* font-family: "Roboto", sans-serif;
   font-optical-sizing: auto; */
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 :root {

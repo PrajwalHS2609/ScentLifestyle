@@ -41,52 +41,95 @@
 }
 .membershipPriceContainer {
   /* border: solid; */
-  height: 55vh;
+  height: 100%;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 100px;
+  padding: 20px;
 }
-.membershipCardContainer {
+.membershipPriceContent {
   /* border: solid red; */
-  height: 350px;
-  width: 20%;
-  border-radius: 10px;
-  background-color: #cc2228;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  gap: 5%;
+  width: fit-content;
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-gap: 10px;
+  padding: 20px;
+  background-color: #282c31;
+  border-radius: 20px;
 }
-.membershipCardTxt {
-  border-bottom: 1px solid white;
-  width: 80%;
-  height: 25%;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-direction: column;
-}
-.membershipCardTxt > h2,
-h4 {
-  color: white;
-}
-.membershipPrice {
-  border-bottom: 1px solid white;
-  width: 80%;
-  height: 10%;
+.membershipPriceContent > div {
+  border: 1px solid white;
+  padding: 10px;
+  width: 200px;
   text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  color: white;
+  border-radius: 10px;
 }
-.membershipPrice > h3 {
+.membershipPriceItem1 {
+  border: 1px solid var(--customColor);
+  background-color: white;
+  color: var(--customColor);
+}
+.membershipPriceItem1 > h3 {
+  color: var(--customColor);
+}
+.membershipPriceItem2,
+.membershipPriceItem3,
+.membershipPriceItem4,
+.membershipPriceItem5 {
+  background-color: var(--customColor);
   color: white;
 }
-.rupeeicon {
+.membershipPriceItem6,
+.membershipPriceItem11,
+.membershipPriceItem16,
+.membershipPriceItem21,
+.membershipPriceItem26,
+.membershipPriceItem31 {
+  background-color: var(--customColor);
   color: white;
 }
+.membershipPriceItem7,
+.membershipPriceItem9,
+.membershipPriceItem13,
+.membershipPriceItem15,
+.membershipPriceItem17,
+.membershipPriceItem19,
+.membershipPriceItem25,
+.membershipPriceItem23,
+.membershipPriceItem27,
+.membershipPriceItem29,
+.membershipPriceItem33,
+.membershipPriceItem35 {
+  background-color: rgb(29, 29, 29);
+  color: white;
+}
+.membershipPriceItem8,
+.membershipPriceItem10,
+.membershipPriceItem12,
+.membershipPriceItem14,
+.membershipPriceItem18,
+.membershipPriceItem20,
+.membershipPriceItem22,
+.membershipPriceItem24,
+.membershipPriceItem28,
+.membershipPriceItem30,
+.membershipPriceItem32,
+.membershipPriceItem34 {
+  color: white;
+  background-color: #282c31;
+}
+.membershipPriceItem10 > h3,
+.membershipPriceItem15 > h3,
+.membershipPriceItem20 > h3,
+.membershipPriceItem25 > h3,
+.membershipPriceItem30 > h3,
+.membershipPriceItem35 > h3 {
+
+  color: white;
+}
+
 @media screen and (max-width: 600px) {
   .membershipImgContainer {
     /* border: solid blue; */

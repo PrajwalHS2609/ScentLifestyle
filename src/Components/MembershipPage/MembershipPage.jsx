@@ -15,6 +15,7 @@ import WhatsApp from "../HomePage/WhatsApp/WhatsApp";
 import ServiceWhy from "../MainServicePages/ServiceWhy/ServiceWhy";
 import TextLocReviews from "../TextLocReviews/TextLocReviews";
 import HelpNearYou from "../Help/HelpNearYou";
+import MembershipTable from "./MembershipTable";
 const MembershipPage = () => {
   return (
     <div className="membershipPageContainer">
@@ -37,6 +38,7 @@ const MembershipPage = () => {
       <MembershipHead />
       <MembershipPara />
       <MembershipPrice />
+      {/* <MembershipTable/> */}
       <Members />
       <OurSalon />
       <Partners />
