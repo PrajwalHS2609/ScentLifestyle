@@ -135,6 +135,7 @@ import ChicSleek from "./Components/BlogPage/BlogInnerPages/HairBlogInnerPages/C
 import Botox from "./Components/HairTreatments/Botox/Botox";
 import Keratin from "./Components/HairTreatments/Keratin/Keratin";
 import Olaplex from "./Components/HairTreatments/Olaplex/Olaplex";
+import Top5Spa from "./Components/BlogPage/BlogInnerPages/SpaInnerPages/Top5Spa/Top5Spa";
 const NotFound = () => (
   <div
     style={{
@@ -300,6 +301,10 @@ const App = () => {
           <Route
             path="/chic-and-sleek-womens-haircuts-that-define-you"
             element={<ChicSleek />}
+          />
+          <Route
+            path="/the-top-5-reasons-to-book-a-hair-spa-today"
+            element={<Top5Spa />}
           />
           <Route path="/pre-bridal-treatments" element={<PrebridalPackage />} />
 

@@ -1,5 +1,6 @@
 import React, { useRef, useState } from "react";
 import spaDayBanner from "./../../../../Images/Blog/How a Spa Day/Banner Image.png";
+import top5Spa from "./../../../../Images/Blog/The_Top_5_Hair_Spa_Today/Banner.png";
 import BlogCard from "../BlogCard";
 
 const BlogSpa = () => {
@@ -22,6 +23,12 @@ const BlogSpa = () => {
           head="How a Spa Day Can Boost Your Mental Health?"
           para="In today’s fast-paced world, where stress and anxiety are common, taking time for ..."
           link="/how-a-spa-day-can-boost-your-mental-health"
+        />
+        <BlogCard
+          img={top5Spa}
+          head="The Top 5 Reasons to Book a Hair Spa Today! "
+          para="Hair care is more than just shampooing and conditioning—it’s about deep  ..."
+          link="/the-top-5-reasons-to-book-a-hair-spa-today"
         />
       </div>
       <div className="blogMainDisplay2" ref={switchRef}>

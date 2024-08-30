@@ -9,6 +9,7 @@ import pedimanicurebanner from "./../../../../Images/Blog/Pedi&manicureBlog/Bann
 import spaDayBanner from "./../../../../Images/Blog/How a Spa Day/Banner Image.png";
 import brazilWaxingBanner from "./../../../../Images/Blog/Everything_About_Brazilian_Waxing/Banner Image.png";
 import ChicSleek from "./../../../../Images/Blog/Chic & Sleek/Banner Image.png";
+import top5Spa from "./../../../../Images/Blog/The_Top_5_Hair_Spa_Today/Banner.png";
 
 import BlogCard from "../BlogCard";
 const BlogMain = () => {
@@ -84,6 +85,12 @@ const BlogMain = () => {
           head="Tips for Maintaining Hair Bouncy and Beautiful Curls During Monsoon"
           para="Discover essential tips for maintaining bouncy and beautiful curls during the monsoon season. Learn how to ..."
           link="/tips-for-maintaining-hair-bouncy-and-beautiful-curls-during-monsoon"
+        />
+        <BlogCard
+          img={top5Spa}
+          head="The Top 5 Reasons to Book a Hair Spa Today! "
+          para="Hair care is more than just shampooing and conditioning—it’s about deep  ..."
+          link="/the-top-5-reasons-to-book-a-hair-spa-today"
         />
       </div>
 
