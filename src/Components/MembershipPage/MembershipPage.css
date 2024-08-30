@@ -49,7 +49,7 @@
   padding: 20px;
 }
 .membershipPriceContent {
-  /* border: solid red; */
+  /* Existing styles */
   width: fit-content;
   display: grid;
   grid-template-columns: repeat(5, auto);
@@ -57,7 +57,41 @@
   padding: 20px;
   background-color: #282c31;
   border-radius: 20px;
+  position: relative; /* Needed for positioning the pseudo-element */
+  overflow: hidden; /* Ensures content stays within rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Regular shadow */
 }
+
+.membershipPriceContent::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.2) 0%,
+    rgba(255, 255, 255, 0) 60%
+  );
+  transform: translateX(-100%);
+  animation: shadow-shine 3s infinite;
+  pointer-events: none; /* Ensures this shine does not affect interactions */
+  border-radius: 50%; /* Makes the shine rounded */
+}
+
+@keyframes shadow-shine {
+  0% {
+    transform: translateX(-100%);
+  }
+  50% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
 .membershipPriceContent > div {
   border: 1px solid white;
   padding: 10px;
@@ -129,7 +163,7 @@
   color: white;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   .membershipImgContainer {
     /* border: solid blue; */
     width: 100%;
@@ -156,19 +190,15 @@
     margin-top: 5%;
     height: 100%;
   }
-  .membershipPriceContainer {
-    /* border: solid; */
+
+  .membershipPriceContent {
+    /* border: solid blue; */
+    width: 800px;
     height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1px;
-    margin-top: 15%;
     overflow-x: scroll;
-    width: 100%;
   }
 }
-@media screen and (max-width: 990px) and (min-width: 600px) {
+@media screen and (max-width: 990px) and (min-width: 768px) {
   .membershipImgContainer {
     /* border: solid blue; */
     width: 100%;
@@ -204,54 +234,11 @@
     margin-top: 5%;
     height: 100%;
   }
-  .membershipPriceContainer {
-    /* border: solid; */
-    height: 55vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1px;
-    margin-top: 15%;
-  }
-  .membershipCardContainer {
-    /* border: solid red; */
-    height: 350px;
-    width: 50%;
-    border-radius: 0px;
-    background-color: #cc2228;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 5%;
-  }
-  .membershipCardTxt {
-    border-bottom: 1px solid white;
-    width: 80%;
-    height: 25%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-direction: column;
-  }
-  .membershipCardTxt > h2,
-  h4 {
-    color: white;
-  }
-  .membershipPrice {
-    border-bottom: 1px solid white;
-    width: 80%;
-    height: 10%;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .membershipPrice > h3 {
-    color: white;
-  }
-  .rupeeicon {
-    color: white;
+  .membershipPriceContent {
+    /* border: solid blue; */
+    width: 800px;
+    height: 100%;
+    overflow-x: scroll;
   }
 }
 @media screen and (max-width: 1200px) and (min-width: 990px) {
