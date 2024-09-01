@@ -124,22 +124,22 @@ const MembersSlide = () => {
       <div className="memberSlideContent">
         <Slider {...settings}>
           <div className="memberSlide">
-            <img src={crew1} alt="" />
+            <img src={crew1} alt="" loading="lazy"/>
             <h3>Rose</h3>
             <pre>Salon Director</pre>
           </div>
           <div className="memberSlide">
-            <img src={crew2} alt="" />
+            <img src={crew2} alt="" loading="lazy"/>
             <h3>Sam</h3>
             <pre>Creative Director</pre>
           </div>
           <div className="memberSlide">
-            <img src={crew3} alt="" />
+            <img src={crew3} alt="" loading="lazy"/>
             <h3>Lobsang</h3>
             <pre>Top Stylist</pre>
           </div>
           <div className="memberSlide">
-            <img src={crew4} alt="" />
+            <img src={crew4} alt="" loading="lazy"/>
             <h3>Kevin</h3>
             <pre>Salon Director</pre>
           </div>

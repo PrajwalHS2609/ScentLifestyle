@@ -7,7 +7,7 @@ const ServiceCards = (props) => {
   return (
     <div className="serviceCardMain">
       <div className="serviceCardWrapper">
-        <img className="serviceCardImg" src={props.img} alt="" />
+        <img className="serviceCardImg" src={props.img} alt="" loading="lazy"/>
         <div className="serviceCardCover">
           <div className="serviceCardTxtContainer">
             <div className="serviceCardHead">
