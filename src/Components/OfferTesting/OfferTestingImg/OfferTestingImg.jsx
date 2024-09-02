@@ -33,6 +33,8 @@ const OfferTestingImg = () => {
     autoplay: true, // Enables autoplay
     autoplaySpeed: 5000, // Speed of autoplay (ms)
     arrows: false, // Disables the arrows
+    pauseOnHover: false, // Continues autoplay even on hover
+
   };
 
   useEffect(() => {
