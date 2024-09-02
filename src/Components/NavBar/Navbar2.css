@@ -158,16 +158,20 @@
   font-size: 15px;
 }
 .mainMenu {
-  margin-right: -400px;
+  margin-right: -200px;
   display: none;
+  /* border: solid red; */
+  width: 50px;
 }
 .hamIcon {
+  /* border: solid yellow; */
   color: white;
   margin-right: 300px;
   font-size: 25px;
+  width: fit-content;
 }
 .respMenu {
-  /* border: solid; */
+  /* border: solid red; */
   position: fixed;
   z-index: 9999;
   top: 0;

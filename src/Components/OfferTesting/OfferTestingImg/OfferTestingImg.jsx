@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import "./OfferTestingImg.css";
 // import happyHoursImg from "./../../../Images/OfferImgs/happyHoursImg.png";
 // import nailExtensionImg from "./../../../Images/OfferImgs/nailsExtensionsImg.png";
@@ -22,6 +22,8 @@ import waxingImgMobile from "./../../../Images/OfferImgs/waxingImgMobile.png";
 // import rightArrow from "./../../../Images/right.png";
 // import { Link } from "react-router-dom";
 const OfferTestingImg = () => {
+  const sliderRef = useRef(null);
+
   const settings = {
     dots: true, // Show navigation dots
     infinite: true, // Enables infinite scrolling
@@ -33,9 +35,14 @@ const OfferTestingImg = () => {
     arrows: false, // Disables the arrows
   };
 
+  useEffect(() => {
+    if (sliderRef.current) {
+      sliderRef.current.slickPlay();
+    }
+  }, []);
   return (
     <div className="OfferTestingImg">
-      <Slider {...settings} className="offerTestingSlider">
+      <Slider {...settings} className="offerTestingSlider" ref={sliderRef}>
         <div className="OfferTestingImgContent">
           <img className="deskImg" src={casmara} alt="casmara" loading="lazy" />
           <img
