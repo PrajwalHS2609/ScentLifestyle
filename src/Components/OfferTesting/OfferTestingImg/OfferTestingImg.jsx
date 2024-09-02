@@ -25,11 +25,11 @@ const OfferTestingImg = () => {
   const settings = {
     dots: true, // Show navigation dots
     infinite: true, // Enables infinite scrolling
-    speed: 500, // Transition speed (ms)
+    speed: 2000, // Transition speed (ms)
     slidesToShow: 1, // Number of slides to show at once
     slidesToScroll: 1, // Number of slides to scroll at once
-    autoplay: true, // Enables autoplay
-    autoplaySpeed: 2000, // Speed of autoplay (ms)
+    autoplay: false, // Enables autoplay
+    autoplaySpeed: 5000, // Speed of autoplay (ms)
     arrows: false, // Disables the arrows
   };
 
