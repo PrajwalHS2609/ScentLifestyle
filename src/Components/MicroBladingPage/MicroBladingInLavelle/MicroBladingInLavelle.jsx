@@ -4,6 +4,20 @@ import InnerNavi from "../../InnerServicePage/InnerNavi/InnerNavi";
 import Members from "../../HomePage/Members/Members";
 import OurSalon from "../../HomePage/OurSalon/OurSalon";
 import Partners from "../../HomePage/Partners/Partners";
+import InstaFeed from "../../HomePage/InstaFeed/InstaFeed";
+import HelpNearYou from "../../Help/HelpNearYou";
+import TextLocReviews from "../../TextLocReviews/TextLocReviews";
+import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
+import MicroBladingInLavelleHead from "./MicroBladingInLavelleHead";
+import MicroBladingInLavelleWhy from "./MicroBladingInLavelleWhy";
+import MicroBladingInLavelleProcess from "./MicroBladingInLavelleProcess";
+import MicroBladingInLavelleWhyChoose from "./MicroBladingInLavelleWhyChoose";
+import MicroBladingInLavelleBenefits from "./MicroBladingInLavelleBenefits";
+import { Helmet } from "react-helmet";
+import LastComp from "../../LastComp/LastComp";
+import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
+import MicroBladingInLavelleImg from "./MicroBladingInLavelleImg";
+import MicroBladingInLavelleBook from "./MicroBladingInLavelleBook";
 
 const MicroBladingInLavelle = () => {
   return (
@@ -11,27 +25,28 @@ const MicroBladingInLavelle = () => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>
-          Facials in Lavelle Road, Bangalore | Facials Treatment near Lavelle
-          Road{" "}
+          Eyebrow Microblading in Lavelle Road, Bangalore | Eyebrow Microblading
+          near Lavelle Road
         </title>
         <meta
           name="description"
-          content="Facials in JP Nagar, Bangalore. We specialize in a range of facial treatments that not only enhance your natural beauty but also promote the overall health of your skin"
+          content="Eyebrow Microblading in Lavelle Road, Bangalore. Whether you're looking to fill in sparse areas or completely redefine your brow shape, our skilled technicians are here to help you achieve stunning results."
         />
         <link
           rel="canonical"
-          href="https://scentlifestyle.com/facials-in-lavelle-road  "
+          href="https://scentlifestyle.com/eyebrow-microblading-in-lavelle-road"
         />
       </Helmet>
       <NavBg />
-      <HairSalonInLavelleImg />
+      <MicroBladingInLavelleImg />
       <InnerNavi
         link="/facial"
         service="Hair Salon"
         currService="Hair salon in Lavelle"
       />
-      <FacialInLavelleHead />
-      <FacialInLavelleWhy />
+      <MicroBladingInLavelleHead />
+      <MicroBladingInLavelleWhy />
+
       <Members />
       <OurSalon />
       <Partners />
@@ -39,11 +54,11 @@ const MicroBladingInLavelle = () => {
       <HelpNearYou />
       <TextLocReviews />
       <ServiceWhy />
-      <FacialInLavelleService />
-      <FacialInLavelleXp />
-      <FacialInLavelleDiff />
-      <FacialInLavelleCustomer />
-      <FacialInLavelleBook />
+      <MicroBladingInLavelleWhyChoose />
+      <MicroBladingInLavelleProcess />
+      <MicroBladingInLavelleWhy />
+      <MicroBladingInLavelleBenefits />
+      <MicroBladingInLavelleBook />
       <WhatsApp />
       <LastComp />
     </div>

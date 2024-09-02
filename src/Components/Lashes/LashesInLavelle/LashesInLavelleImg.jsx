@@ -1,9 +1,10 @@
 import React from "react";
+import lashesJpImg from "./../../../Images/JP_Nagar/Eye Lashes.png";
 
 const LashesInLavelleImg = () => {
   return (
     <div className="hairSalonInLavelleImg">
-      <img src="" alt="lashesInLavelleImg" loading="lazy" />
+      <img src={lashesJpImg} alt="lashesInLavelleImg" loading="lazy" />
     </div>
   );
 };

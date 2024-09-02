@@ -1,9 +1,10 @@
 import React from "react";
+import nailJpImg from "./../../..//Images/JP_Nagar/Nail.png";
 
 const NailSalonInLavelleImg = () => {
   return (
     <div className="hairSalonInLavelleImg">
-      <img src="" alt="nailInLavelleImg" loading="lazy" />
+      <img src={nailJpImg} alt="nailInLavelleImg" loading="lazy" />
     </div>
   );
 };

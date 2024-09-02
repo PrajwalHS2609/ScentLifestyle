@@ -37,14 +37,19 @@ const OfferTestingImg = () => {
     <div className="OfferTestingImg">
       <Slider {...settings} className="offerTestingSlider">
         <div className="OfferTestingImgContent">
-          <img className="deskImg" src={casmara} alt="casmara" />
-          <img className="mobileImg" src={casmaraMobile} alt="casmaraMobile" />
+          <img className="deskImg" src={casmara} alt="casmara" loading="lazy" />
+          <img
+            className="mobileImg"
+            src={casmaraMobile}
+            alt="casmaraMobile"
+            loading="lazy"
+          />
           <a href="https://api.whatsapp.com/send?phone=919606682700">
             <button id="btn1">BOOK NOW</button>
           </a>
         </div>
         <div className="OfferTestingImgContent">
-          <img className="deskImg" src={global} alt="global" />
+          <img className="deskImg" src={global} alt="global" loading="lazy" />
           <img
             className="mobileImg"
             src={globalMobile}
@@ -55,22 +60,34 @@ const OfferTestingImg = () => {
           </a>
         </div>
         <div className="OfferTestingImgContent">
-          <img className="deskImg" src={waxingImg} alt="waxingImg" />
+          <img
+            className="deskImg"
+            src={waxingImg}
+            alt="waxingImg"
+            loading="lazy"
+          />
           <img
             className="mobileImg"
             src={waxingImgMobile}
             alt="waxingImgMobile"
+            loading="lazy"
           />{" "}
           <a href="https://api.whatsapp.com/send?phone=919606682700">
             <button id="btn3">BOOK NOW</button>
           </a>
         </div>
         <div className="OfferTestingImgContent">
-          <img className="deskImg" src={hairBeauty} alt="hairBeauty" />
+          <img
+            className="deskImg"
+            src={hairBeauty}
+            alt="hairBeauty"
+            loading="lazy"
+          />
           <img
             className="mobileImg"
             src={hairBeautyMobile}
             alt="hairBeautyMobile"
+            loading="lazy"
           />{" "}
           <a href="https://api.whatsapp.com/send?phone=919606682700">
             <button id="btn4">BOOK NOW</button>

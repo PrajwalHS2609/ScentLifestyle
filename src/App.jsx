@@ -142,6 +142,7 @@ import BodyWaxingInLavelle from "./Components/Beauty/BodyWaxingInLavelle/BodyWax
 import SpaInLavelle from "./Components/Spa/SpaInLavelle/SpaInLavelle";
 import LashesInLavelle from "./Components/Lashes/LashesInLavelle/LashesInLavelle";
 import BridalMakeUpInLavelle from "./Components/BridalMakeUpPage/BridalMakeUpInLavelle/BridalMakeUpInLavelle";
+import MicroBladingInLavelle from "./Components/MicroBladingPage/MicroBladingInLavelle/MicroBladingInLavelle";
 const NotFound = () => (
   <div
     style={{
@@ -457,6 +458,7 @@ const App = () => {
           <Route path="/spa-in-lavelle-road" element={<SpaInLavelle />} />
           <Route path="/eye-lashes-in-lavelle-road" element={<LashesInLavelle />} />
           <Route path="/bridal-makeup-in-lavelle-road" element={<BridalMakeUpInLavelle />} />
+          <Route path="/eyebrow-microblading-in-lavelle-road" element={<MicroBladingInLavelle />} />
 
          
           <Route path="/offer" element={<OfferTesting />} />
