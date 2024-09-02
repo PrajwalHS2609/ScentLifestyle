@@ -1,5 +1,5 @@
 .homeFormWrapper {
-  /* border: solid; */
+  border: solid;
   height: 80vh;
   width: 100%;
   top: 14vh;
@@ -12,7 +12,7 @@
 }
 
 .homeFormExit {
-  /* border: solid; */
+  border: solid;
   width: 40%;
   height: 10%;
   display: flex;
@@ -39,6 +39,7 @@
   flex-direction: column;
   position: relative;
   background-color: black;
+  margin-top: 20px;
 }
 .videoContent {
   /* border: solid red; */
