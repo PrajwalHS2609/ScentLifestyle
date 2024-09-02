@@ -28,7 +28,7 @@ const OfferTestingImg = () => {
     speed: 2000, // Transition speed (ms)
     slidesToShow: 1, // Number of slides to show at once
     slidesToScroll: 1, // Number of slides to scroll at once
-    autoplay: false, // Enables autoplay
+    autoplay: true, // Enables autoplay
     autoplaySpeed: 5000, // Speed of autoplay (ms)
     arrows: false, // Disables the arrows
   };
