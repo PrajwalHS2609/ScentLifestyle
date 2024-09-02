@@ -7,9 +7,7 @@ const UpperNav = () => {
         Glam Up with Our Exclusive Beauty Deals! -{" "}
         <span>
           <a href="https://scentlifestyle.com/offer?utm_source=Organic&utm_medium=Festive+Offer&utm_campaign=September+Month&utm_id=Banner+Bar">
-            <button class="button-71" >
-              See Offers{" "}
-            </button>
+            See Offers{" "}
           </a>
         </span>
       </h3>

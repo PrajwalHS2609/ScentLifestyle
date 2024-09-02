@@ -1,6 +1,7 @@
 import React from "react";
 import NavBar from "../NavBar/NavBar";
 import { useLocation } from "react-router-dom";
+import UpperNav from "./../UpperNav/UpperNav";
 
 const MainLayout = ({ children }) => {
   const location = useLocation();
@@ -12,7 +13,13 @@ const MainLayout = ({ children }) => {
   const hideNavbar6 = location.pathname !== "/offer-testing";
 
   return (
-    <div>
+    <div style={{ position: "sticky", top: "0", zIndex: "20", width: "100%" }}>
+      {hideNavbar1 &&
+        hideNavbar2 &&
+        hideNavbar3 &&
+        hideNavbar4 &&
+        hideNavbar5 &&
+        hideNavbar6 && <UpperNav />}
       {hideNavbar1 &&
         hideNavbar2 &&
         hideNavbar3 &&

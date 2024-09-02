@@ -2,6 +2,7 @@
   background-color: black;
   height: 14vh;
   width: 100%;
+  display: none;
 }
 
 @media screen and (max-width: 600px) {
@@ -9,6 +10,7 @@
     background-color: black;
     height: 12vh;
     width: 100%;
+    display: none;
   }
 }
 @media screen and (max-width: 990px) and (min-width: 600px) {
@@ -16,6 +18,7 @@
     background-color: black;
     height: 12vh;
     width: 100%;
+    display: none;
   }
 }
 @media screen and (max-width: 1200px) and (min-width: 990px) {
@@ -23,6 +26,7 @@
     background-color: black;
     height: 14vh;
     width: 100%;
+    display: none;
   }
 }
 
@@ -30,5 +34,6 @@
   .navBg {
     background-color: black;
     height: 14vh;
+    display: none;
   }
 }

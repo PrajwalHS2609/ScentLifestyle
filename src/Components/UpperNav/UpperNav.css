@@ -21,6 +21,7 @@
   padding: 10px;
   color: white;
 }
-.upperNavContainer > h3 >span>a{
-    text-decoration: none;
+.upperNavContainer > h3 > span > a {
+  text-decoration: underline;
+  color: white;
 }

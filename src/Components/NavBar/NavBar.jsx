@@ -1,27 +1,26 @@
-import React, { useState } from 'react'
-import "./Navbar2.css"
-import Logo from './Logo'
-import Menu from './Menu'
+import React, { useState } from "react";
+import "./Navbar2.css";
+import Logo from "./Logo";
+import Menu from "./Menu";
 const NavBar = () => {
-  let [scroll, setScroll] = useState(false);
+  // let [scroll, setScroll] = useState(false);
 
-  let changeColor = () => {
-    if (window.scrollY >=10 ) {
-      setScroll(true);
-    } else {
-      setScroll(false);
-    }
-  };
-  window.addEventListener("scroll", changeColor);
+  // let changeColor = () => {
+  //   if (window.scrollY >= 10) {
+  //     setScroll(true);
+  //   } else {
+  //     setScroll(false);
+  //   }
+  // };
+  // window.addEventListener("scroll", changeColor);
 
   return (
-    <div>
-      <nav className={scroll ? "navContainer" : "navContainer1"}>
-        <Logo/>
-        <Menu/>
-      </nav>
+    // <nav className={scroll ? "navContainer" : "navContainer1"}>
+    <div className="navContainer">
+      <Logo />
+      <Menu />
     </div>
-  )
-}
+  );
+};
 
-export default NavBar
+export default NavBar;

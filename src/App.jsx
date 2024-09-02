@@ -163,6 +163,7 @@ const App = () => {
     <div>
       <BrowserRouter>
         <MainLayout />
+        {/* <NavBar/> */}
         <ScrollTo />
         <Routes>
           <Route path="*" element={<NotFound />} />
