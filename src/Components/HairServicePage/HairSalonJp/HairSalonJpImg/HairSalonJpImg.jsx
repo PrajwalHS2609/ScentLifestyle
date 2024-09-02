@@ -4,7 +4,7 @@ import "./HairSalonJpImg.css";
 const HairSalonJpImg = () => {
   return (
     <div className="HairSalonJpImg">
-      <img src={hairJpImg} alt="hairJpImg" />
+      <img src={hairJpImg} alt="hairJpImg" loading="lazy" />
     </div>
   );
 };

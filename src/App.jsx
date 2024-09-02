@@ -27,7 +27,7 @@ import MeadowsLocPage from "./Components/LocationPage/MeadowsLocPage/MeadowsLocP
 import Jp from "./Components/LocationPage/Jp/Jp";
 import ContactPage from "./Components/ContactPage/ContactPage";
 import HairSalonSahakar from "./Components/HairSalonLocations/HairSalonSahakar/HairSalonSahakar";
-import HairSalonLavelle from "./Components/HairSalonLocations/HairSalonLavelle/HairSalonLavelle";
+// import HairSalonLavelle from "./Components/HairSalonLocations/HairSalonLavelle/HairSalonLavelle";
 import HairSalonJakkur from "./Components/HairSalonLocations/HairSalonJakkur/HairSalonJakkur";
 import HairSalonUptown from "./Components/HairSalonLocations/HairSalonUptown/HairSalonUptown";
 import HairSalonMeadows from "./Components/HairSalonLocations/HairSalonMedows/HairSalonMeadows";
@@ -136,6 +136,12 @@ import Botox from "./Components/HairTreatments/Botox/Botox";
 import Keratin from "./Components/HairTreatments/Keratin/Keratin";
 import Olaplex from "./Components/HairTreatments/Olaplex/Olaplex";
 import Top5Spa from "./Components/BlogPage/BlogInnerPages/SpaInnerPages/Top5Spa/Top5Spa";
+import HairSalonInLavelle from "./Components/HairServicePage/HairSalonInLavelle/HairSalonInLavelle";
+import NailSalonInLavelle from "./Components/NaliSalonPage/NailSalonInLavelle/NailSalonInLavelle";
+import BodyWaxingInLavelle from "./Components/Beauty/BodyWaxingInLavelle/BodyWaxingInLavelle";
+import SpaInLavelle from "./Components/Spa/SpaInLavelle/SpaInLavelle";
+import LashesInLavelle from "./Components/Lashes/LashesInLavelle/LashesInLavelle";
+import BridalMakeUpInLavelle from "./Components/BridalMakeUpPage/BridalMakeUpInLavelle/BridalMakeUpInLavelle";
 const NotFound = () => (
   <div
     style={{
@@ -198,10 +204,10 @@ const App = () => {
             path="/hair-salon-in-sahakar-nagar"
             element={<HairSalonSahakar />}
           />
-          <Route
+          {/* <Route
             path="/hair-salon-in-lavelle-road"
             element={<HairSalonLavelle />}
-          />
+          /> */}
           <Route path="/hair-salon-in-jakkur" element={<HairSalonJakkur />} />
           <Route
             path="/hair-salon-in-uptown-whitefield"
@@ -436,6 +442,23 @@ const App = () => {
             path="/eyebrow-microblading-in-jp-nagar"
             element={<MicroBladingInJp />}
           />
+          <Route
+            path="/hair-salon-in-lavelle-road"
+            element={<HairSalonInLavelle />}
+          />
+          <Route
+            path="/nail-salon-in-lavelle-road"
+            element={<NailSalonInLavelle />}
+          />
+          <Route
+            path="/body-waxing-threading-and-d-tan-in-lavelle-road"
+            element={<BodyWaxingInLavelle />}
+          />
+          <Route path="/spa-in-lavelle-road" element={<SpaInLavelle />} />
+          <Route path="/eye-lashes-in-lavelle-road" element={<LashesInLavelle />} />
+          <Route path="/bridal-makeup-in-lavelle-road" element={<BridalMakeUpInLavelle />} />
+
+         
           <Route path="/offer" element={<OfferTesting />} />
           <Route
             path="/brazilian-waxing-services-in-bangalore"

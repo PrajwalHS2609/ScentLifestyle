@@ -6,12 +6,16 @@ import "./OfferTestingImg.css";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import happyHoursImg from "./../../../Images/OfferImgs/happyHoursImg.png";
-import happyHoursImgMobile from "./../../../Images/OfferImgs/Happy Hours Mobile.png";
-
-
-import nailsExtensionsImg from "./../../../Images/OfferImgs/nailsExtensionsImg.png";
-import nailsExtensionsImgMobile from "./../../../Images/OfferImgs/nailsExtensionsImgMobile.png";
+// import happyHoursImg from "./../../../Images/OfferImgs/happyHoursImg.png";
+// import happyHoursImgMobile from "./../../../Images/OfferImgs/Happy Hours Mobile.png";
+// import nailsExtensionsImg from "./../../../Images/OfferImgs/nailsExtensionsImg.png";
+// import nailsExtensionsImgMobile from "./../../../Images/OfferImgs/nailsExtensionsImgMobile.png";
+import casmara from "./../../../Images/OfferImgs/Casmara Facial.png";
+import casmaraMobile from "./../../../Images/OfferImgs/Casmara FacialMobile.png";
+import global from "./../../../Images/OfferImgs/Global & Highlights.png";
+import globalMobile from "./../../../Images/OfferImgs/Global & HighlightsMobile.png";
+import hairBeauty from "./../../../Images/OfferImgs/Hair & Beauty Nails.png";
+import hairBeautyMobile from "./../../../Images/OfferImgs/Hair & Beauty NailsMobile.png";
 import waxingImg from "./../../../Images/OfferImgs/waxingImg.png";
 import waxingImgMobile from "./../../../Images/OfferImgs/waxingImgMobile.png";
 // import leftArrow from "./../../../Images/left.png";
@@ -33,25 +37,21 @@ const OfferTestingImg = () => {
     <div className="OfferTestingImg">
       <Slider {...settings} className="offerTestingSlider">
         <div className="OfferTestingImgContent">
-          <img className="deskImg" src={happyHoursImg} alt="happyHoursImg" />
-          <img
-            className="mobileImg"
-            src={happyHoursImgMobile}
-            alt="happyHoursImgMobile"
-          />
+          <img className="deskImg" src={casmara} alt="casmara" />
+          <img className="mobileImg" src={casmaraMobile} alt="casmaraMobile" />
           <a href="https://api.whatsapp.com/send?phone=919606682700">
-            <button>BOOK NOW</button>
+            <button id="btn1">BOOK NOW</button>
           </a>
         </div>
         <div className="OfferTestingImgContent">
-          <img className="deskImg" src={nailsExtensionsImg} alt="nailsExtensionsImg" />
+          <img className="deskImg" src={global} alt="global" />
           <img
             className="mobileImg"
-            src={nailsExtensionsImgMobile}
-            alt="nailsExtensionsImgMobile"
+            src={globalMobile}
+            alt="globalMobile"
           />{" "}
           <a href="https://api.whatsapp.com/send?phone=919606682700">
-            <button>BOOK NOW</button>
+            <button id="btn2">BOOK NOW</button>
           </a>
         </div>
         <div className="OfferTestingImgContent">
@@ -62,7 +62,18 @@ const OfferTestingImg = () => {
             alt="waxingImgMobile"
           />{" "}
           <a href="https://api.whatsapp.com/send?phone=919606682700">
-            <button>BOOK NOW</button>
+            <button id="btn3">BOOK NOW</button>
+          </a>
+        </div>
+        <div className="OfferTestingImgContent">
+          <img className="deskImg" src={hairBeauty} alt="hairBeauty" />
+          <img
+            className="mobileImg"
+            src={hairBeautyMobile}
+            alt="hairBeautyMobile"
+          />{" "}
+          <a href="https://api.whatsapp.com/send?phone=919606682700">
+            <button id="btn4">BOOK NOW</button>
           </a>
         </div>
       </Slider>

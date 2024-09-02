@@ -1,0 +1,91 @@
+.hairSalonInLavelleHead {
+    /* border: solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+  }
+  .hairSalonInLavelleHead > h1 {
+    color: var(--customColor);
+    width: 100%;
+    text-align: center;
+  }
+  .hairSalonInLavelleHead > h2 {
+    color: var(--customColor);
+    text-align: center;
+    width: 100%;
+    font-size: 25px;
+  }
+  .hairSalonInLavelleHead > h3 {
+    color: var(--customColor);
+    text-align: start;
+    width: 100%;
+    font-size: 25px;
+  }
+  .hairSalonInLavelleHead > h4 {
+    color: var(--customColor);
+    text-align: start;
+    width: 100%;
+    font-size: 25px;
+  }
+  .hairSalonInLavelleHead > h5 {
+    color: var(--customColor);
+    text-align: start;
+    width: 100%;
+    font-size: 25px;
+  }
+  
+  .hairSalonInLavelleHead > ul > li {
+    list-style: none;
+    margin: 10px;
+    font-size: 20px;
+    text-align: justify;
+  }
+  .hairSalonInLavelleHead > ul > li > h6 {
+    font-size: 20px;
+    text-align: justify;
+    color: var(--customColor);
+  }
+  .hairSalonInLavelleHead > ul > li > a {
+    text-decoration: none;
+    color: var(--customColor);
+  }
+  
+  .hairSalonInLavelleHead > ul > li > span {
+    color: var(--customColor);
+    font-weight: bold;
+  }
+  .hairSalonInLavelleHead > p {
+    text-align: justify;
+    font-size: 20px;
+  }
+  .hairSalonInLavelleHead > p > a {
+    color: var(--customColor);
+    text-decoration: none;
+  }
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    .hairSalonInLavelleHead > h1 {
+      font-size: 25px;
+      text-align: center;
+    }
+    .hairSalonInLavelleHead > h2 {
+      text-align: center;
+      font-size: 20px;
+    }
+    .hairSalonInLavelleHead > h3 {
+      text-align: center;
+      font-size: 20px;
+    }
+    .hairSalonInLavelleHead > h4 {
+      text-align: center;
+      font-size: 20px;
+    }
+    .hairSalonInLavelleHead > h5 {
+      text-align: center;
+      font-size: 20px;
+    }
+  }
+  
