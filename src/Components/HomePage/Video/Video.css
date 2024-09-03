@@ -1,33 +1,3 @@
-/* .homeFormWrapper {
-  border: solid;
-  height: 80vh;
-  width: 100%;
-  top: 14vh;
-  position: fixed;
-  z-index: 4;
-  display: none;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-.homeFormExit {
-  border: solid;
-  width: 40%;
-  height: 10%;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  backdrop-filter: blur(10px);
-  background-color: rgba(0, 0, 0, 0.645);
-}
-.formIcon {
-  font-size: 150%;
-  color: white;
-  margin-right: 10px;
-} */
 .vidContainer {
   /* border: solid red; */
   height: 90vh;
@@ -85,26 +55,19 @@
   position: absolute;
   bottom: 30px;
 }
-@media only screen and (max-width: 600px) {
-  .homeFormWrapper {
-    /* border: solid; */
-    height: 80vh;
-    width: 100%;
-  }
-  .homeFormExit {
-    /* border: solid; */
-    width: 100%;
-    height: 10%;
-  }
+@media only screen and (min-width: 320px) and (max-width: 768px) {
   .vidContainer {
     /* border: solid red; */
     width: 100%;
-    height: 80vh;
+    height: 400px;
+  }
+  .vidContainer > video {
+    width: 100%;
+    height: 100%;
   }
   .videoContent {
     /* border: solid red; */
-    top: 10%;
-    height: 80%;
+    height: 100%;
     width: 100%;
   }
   .vidTxt {

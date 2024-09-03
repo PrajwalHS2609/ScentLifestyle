@@ -9,14 +9,14 @@ import { Link } from "react-router-dom";
 import ServiceHead from "./ServiceHead";
 import leftArrow from "./../../../Images/left.png";
 import rightArrow from "./../../../Images/right.png";
-import hair from "./../../../Images/homeService/homeHair.jpg";
-import facial from "./../../../Images/homeService/homeFacial.jpg";
-import spa from "./../../../Images/homeService/homeSpa.jpg";
-import nails from "./../../../Images/homeService/homeNails.jpg";
-import beautyEssentials from "./../../../Images/homeService/homeBeauty.jpg";
-import lashes from "./../../../Images/homeService/homeLashes.jpg";
-import bride from "./../../../Images/ServicePage/Bridal Package.png";
-import micro from "./../../../Images/ServicePage/eyebrowBlading.jpg";
+import hair from "./../../../Images/homeService/Hair.png";
+import facial from "./../../../Images/homeService/Facials.png";
+import spa from "./../../../Images/homeService/Spa.png";
+import nails from "./../../../Images/homeService/Nails.png";
+import beautyEssentials from "./../../../Images/homeService/Beauty Essentials.png";
+import lashes from "./../../../Images/homeService/Eyelashes.png";
+import bride from "./../../../Images/homeService/Bridal Makeup.png";
+import micro from "./../../../Images/homeService/Eyebrow Microblading.png";
 
 const Services = () => {
   function SampleNextArrow(props) {

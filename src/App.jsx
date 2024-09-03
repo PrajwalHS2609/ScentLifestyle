@@ -143,6 +143,7 @@ import SpaInLavelle from "./Components/Spa/SpaInLavelle/SpaInLavelle";
 import LashesInLavelle from "./Components/Lashes/LashesInLavelle/LashesInLavelle";
 import BridalMakeUpInLavelle from "./Components/BridalMakeUpPage/BridalMakeUpInLavelle/BridalMakeUpInLavelle";
 import MicroBladingInLavelle from "./Components/MicroBladingPage/MicroBladingInLavelle/MicroBladingInLavelle";
+import SalonFranchise from "./Components/FranchisePage/FranchiseInnerPage/SalonFranchise ";
 const NotFound = () => (
   <div
     style={{
@@ -478,6 +479,10 @@ const App = () => {
           <Route
             path="/olaplex-hair-treatments-in-bangalore"
             element={<Olaplex />}
+          />
+                  <Route
+            path="/beauty-salon-franchise-in-bangalore"
+            element={<SalonFranchise />}
           />
         </Routes>
       </BrowserRouter>
