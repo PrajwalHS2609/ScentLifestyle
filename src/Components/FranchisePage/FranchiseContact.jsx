@@ -22,7 +22,7 @@ const FranchiseContact = () => {
             className="franIcon"
           ></FontAwesomeIcon>
         }
-        contName="Sanjay"
+        contName=""
         franchiseContact="+91 9591522700"
       />
     </div>
