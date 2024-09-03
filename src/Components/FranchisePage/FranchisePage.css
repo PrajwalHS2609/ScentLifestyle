@@ -17,7 +17,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: -2%;
 }
 .franchiseImgContainer > img {
   height: 100%;
@@ -229,7 +228,6 @@ textarea::placeholder {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -10%;
   }
   .franchiseImgContainer > img {
     height: 100%;
