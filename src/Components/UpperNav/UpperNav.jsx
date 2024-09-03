@@ -1,5 +1,7 @@
 import React from "react";
 import "./UpperNav.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 const UpperNav = () => {
   return (
     <div className="upperNavContainer">
@@ -11,6 +13,15 @@ const UpperNav = () => {
           </a>
         </span>
       </h3>
+      <div className="upperNavInsta">
+        <a href="https://www.instagram.com/scentlifestyle/">
+          {" "}
+          <FontAwesomeIcon
+            icon={faInstagram}
+            className="upperNavIcon"
+          ></FontAwesomeIcon>
+        </a>
+      </div>
     </div>
   );
 };

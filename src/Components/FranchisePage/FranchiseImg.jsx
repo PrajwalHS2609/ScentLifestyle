@@ -1,10 +1,10 @@
 import React from 'react'
 import "./FranchisePage.css"
-import  fran from "./../../Images/Franchise (1).png"
+import  franchise from "./../../Images/Salonfranchise/franchise1.png"
 const FranchiseImg = () => {
   return (
     <div className='franchiseImgContainer'>
-      <img src={fran} alt="" />
+      <img src={franchise} alt="" />
     </div>
   )
 }
