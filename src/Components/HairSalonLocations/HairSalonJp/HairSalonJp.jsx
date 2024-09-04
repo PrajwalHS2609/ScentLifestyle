@@ -50,7 +50,7 @@ const HairSalonJp = () => {
             </p>
           </div>
           <div className="hairSalonLocationWelcomeHead">
-            <h3>Experience Premier Hair Care at SCENT in JP Nagar </h3>
+            <h2>Experience Premier Hair Care at SCENT in JP Nagar </h2>
           </div>
           <div className="hairSalonLocationWelcomePara">
             <p>
@@ -70,7 +70,7 @@ const HairSalonJp = () => {
             </p>
           </div>
           <div className="hairSalonLocationService">
-            <h3>Our Hair Salon Services</h3>
+            <h2>Our Hair Salon Services</h2>
             <div className="hairSalonLocationServiceList">
               <ol>
                 <li>
@@ -112,7 +112,7 @@ const HairSalonJp = () => {
             </div>
           </div>
           <div className="hairSalonLocationWhy">
-            <h3>Why Choose SCENT Hair Salon in JP Nagar?</h3>
+            <h2>Why Choose SCENT Hair Salon in JP Nagar?</h2>
             <div className="hairSalonLocationWhyList">
               <ol>
                 <li>
@@ -150,7 +150,7 @@ const HairSalonJp = () => {
             </div>
           </div>
           <div className="hairSalonLocationBook">
-            <h3>Book Your Appointment Today!</h3>
+            <h2>Book Your Appointment Today!</h2>
           </div>
           <div className="hairSalonLocationBookPara">
             <p>

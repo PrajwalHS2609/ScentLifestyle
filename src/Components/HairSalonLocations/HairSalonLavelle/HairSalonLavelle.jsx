@@ -52,17 +52,20 @@ const HairSalonLavelle = () => {
           </div>
           <div className="hairSalonLocationWelcomeHead">
             <h2>
-              Discover the Ultimate Hair Experience at SCENT  in Lavelle
-              Road
+              Discover the Ultimate Hair Experience at SCENT in Lavelle Road
             </h2>
           </div>
           <div className="hairSalonLocationWelcomePara">
-            Welcome to SCENT , located in the heart of Lavelle Road,
-            Bangalore. Our salon is a sanctuary of luxury and style, dedicated
-            to providing exceptional hair care and styling services. At{" "}
-            <Link to={"/hair-salon-in-lavelle-road"}>SCENT Hair Salon</Link>, we
-            believe that your hair is a reflection of your personality, and we
-            are here to help you express yourself with confidence and elegance.
+            <p>
+              {" "}
+              Welcome to SCENT , located in the heart of Lavelle Road,
+              Bangalore. Our salon is a sanctuary of luxury and style, dedicated
+              to providing exceptional hair care and styling services. At{" "}
+              <Link to={"/hair-salon-in-lavelle-road"}>SCENT Hair Salon</Link>,
+              we believe that your hair is a reflection of your personality, and
+              we are here to help you express yourself with confidence and
+              elegance.
+            </p>
           </div>
           <div className="hairSalonLocationService">
             <h2>Our Hair Salon Services</h2>
@@ -124,10 +127,10 @@ const HairSalonLavelle = () => {
                   service is tailored to your unique requirements.
                 </li>
                 <li>
-                  <span>Quality Products:</span> SCENT  uses only premium
-                  hair care products known for their effectiveness and gentle
-                  care. Our products are selected to provide the best results
-                  while maintaining the health of your hair.
+                  <span>Quality Products:</span> SCENT uses only premium hair
+                  care products known for their effectiveness and gentle care.
+                  Our products are selected to provide the best results while
+                  maintaining the health of your hair.
                 </li>
                 <li>
                   <span>Relaxing Atmosphere:</span> Our salon provides a
@@ -137,9 +140,7 @@ const HairSalonLavelle = () => {
                 </li>
                 <li>
                   <span>Convenient Location:</span> Conveniently situated on
-                  <Link to={"/hair-salon-in-lavelle-road"}>
-                    Lavelle Road, SCENT 
-                  </Link>
+                    Lavelle Road, SCENT
                   is easily accessible, making it a perfect choice for both
                   quick touch-ups and extensive beauty treatments.
                 </li>
@@ -162,8 +163,8 @@ const HairSalonLavelle = () => {
               achieve your hair goals.
             </p>
             <p>
-              Visit <Link to={"/"}>SCENT</Link> and discover why we are
-              the top choice for <span></span>
+              Visit <Link to={"/"}>SCENT</Link> and discover why we are the top
+              choice for <span></span>
               <Link to={"/hair-salon-in-lavelle-road"}>
                 hair care in Lavelle Road
               </Link>
@@ -179,7 +180,7 @@ const HairSalonLavelle = () => {
       <HelpNearYou />
       <TextLocReviews />
       <ServiceWhy />
-      <WhatsApp/>
+      <WhatsApp />
       <LastComp />
     </div>
   );

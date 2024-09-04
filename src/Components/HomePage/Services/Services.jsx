@@ -133,7 +133,7 @@ const Services = () => {
         <Slider {...settings}>
           <div className="serviceSlideContainer">
             <div className="serviceSlideContent">
-              <img src={hair} alt="Hair" />
+              <img src={hair} alt="Hair" loading=""/>
             </div>
             <h3>
               <Link to={"/hair-salon"}>Hair</Link>
@@ -141,7 +141,7 @@ const Services = () => {
           </div>
           <div className="serviceSlideContainer">
             <div className="serviceSlideContent">
-              <img src={nails} alt="Nails" />
+              <img src={nails} alt="Nails" loading=""/>
             </div>
             <h3>
               <Link to={"/nails-salon"}>Nails</Link>
@@ -149,7 +149,7 @@ const Services = () => {
           </div>
           <div className="serviceSlideContainer">
             <div className="serviceSlideContent">
-              <img src={facial} alt="Facial" />
+              <img src={facial} alt="Facial" loading=""/>
             </div>
             <h3>
               <Link to={"/facial"}>Facials</Link>
@@ -157,7 +157,7 @@ const Services = () => {
           </div>
           <div className="serviceSlideContainer">
             <div className="serviceSlideContent">
-              <img src={beautyEssentials} alt="Beauty Essentials" />
+              <img src={beautyEssentials} alt="Beauty Essentials" loading=""/>
             </div>
             <h3>
               <Link to={"/beauty-essentials"}>Beauty Essentials</Link>
@@ -166,7 +166,7 @@ const Services = () => {
 
           <div className="serviceSlideContainer">
             <div className="serviceSlideContent">
-              <img src={spa} alt="Spa" />
+              <img src={spa} alt="Spa" loading=""/>
             </div>
             <h3>
               <Link to={"/spa"}>Spa</Link>
@@ -174,7 +174,7 @@ const Services = () => {
           </div>
           <div className="serviceSlideContainer">
             <div className="serviceSlideContent">
-              <img src={lashes} alt="lashes" />
+              <img src={lashes} alt="lashes" loading=""/>
             </div>
             <h3>
               <Link to={"/eye-lashes"}>Lashes</Link>
@@ -182,7 +182,7 @@ const Services = () => {
           </div>
           <div className="serviceSlideContainer">
             <div className="serviceSlideContent">
-              <img src={bride} alt="bride" />
+              <img src={bride} alt="bride" loading=""/>
             </div>
             <h3>
               <Link to={"/bridal-makeup"}>Bridal Makeup</Link>
@@ -190,7 +190,7 @@ const Services = () => {
           </div>
           <div className="serviceSlideContainer">
             <div className="serviceSlideContent">
-              <img src={micro} alt="micro" />
+              <img src={micro} alt="micro" loading=""/>
             </div>
             <h3>
               <Link to={"/eyebrow-microblading"}>Eyebrow Microblading</Link>

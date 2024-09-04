@@ -27,7 +27,7 @@ import MeadowsLocPage from "./Components/LocationPage/MeadowsLocPage/MeadowsLocP
 import Jp from "./Components/LocationPage/Jp/Jp";
 import ContactPage from "./Components/ContactPage/ContactPage";
 import HairSalonSahakar from "./Components/HairSalonLocations/HairSalonSahakar/HairSalonSahakar";
-// import HairSalonLavelle from "./Components/HairSalonLocations/HairSalonLavelle/HairSalonLavelle";
+import HairSalonLavelle from "./Components/HairSalonLocations/HairSalonLavelle/HairSalonLavelle";
 import HairSalonJakkur from "./Components/HairSalonLocations/HairSalonJakkur/HairSalonJakkur";
 import HairSalonUptown from "./Components/HairSalonLocations/HairSalonUptown/HairSalonUptown";
 import HairSalonMeadows from "./Components/HairSalonLocations/HairSalonMedows/HairSalonMeadows";
@@ -191,11 +191,20 @@ const App = () => {
           <Route path="/myself" element={<AboutMyselfPage />} />
           <Route path="/salon-membership" element={<MembershipPage />} />
           {/* <Route path="/franchise" element={<FranchisePage />} /> */}
+          {/* -------------Redirection-------------*/}
+
           <Route
             path="/beauty-salon-franchise-in-bangalore"
             element={<SalonFranchise />}
           />
-           <Route path="/franchise" element={<Navigate to="/beauty-salon-franchise-in-bangalore" replace />}/>
+          <Route
+            path="/franchise"
+            element={
+              <Navigate to="/beauty-salon-franchise-in-bangalore" replace />
+            }
+          />
+          {/* -------------/Redirection-------------*/}
+
           <Route path="/shop" element={<ShopPage />} />
           <Route path="/contact-us" element={<ContactPage />} />
           <Route path="/location" element={<LocationPage />} />
@@ -208,25 +217,36 @@ const App = () => {
           />
           <Route path="/salon-in-whitefield" element={<MeadowsLocPage />} />
           <Route path="/salon-in-jpnagar" element={<Jp />} />
+          {/* -------------Redirection-------------*/}
           <Route
-            path="/hair-salon-in-sahakar-nagar"
+            path="/hair-cut-salon-in-sahakar-nagar"
             element={<HairSalonSahakar />}
           />
-          {/* <Route
-            path="/hair-salon-in-lavelle-road"
-            element={<HairSalonLavelle />}
-          /> */}
-          <Route path="/hair-salon-in-jakkur" element={<HairSalonJakkur />} />
           <Route
-            path="/hair-salon-in-uptown-whitefield"
+            path="/hair-salon-in-sahakar-nagar"
+            element={<Navigate to="/hair-cut-salon-in-sahakar-nagar" replace />}
+          />
+          {/* -------------/Redirection-------------*/}
+
+          <Route
+            path="/hair-cut-salon-in-lavelle-road"
+            element={<HairSalonLavelle />}
+          />
+
+          <Route
+            path="/hair-cut-salon-in-jakkur"
+            element={<HairSalonJakkur />}
+          />
+          <Route
+            path="/hair-cut-salon-in-uptown-whitefield"
             element={<HairSalonUptown />}
           />
           <Route
-            path="/hair-salon-in-meadows-whitefield"
+            path="/hair-cut-salon-in-meadows-whitefield"
             element={<HairSalonMeadows />}
           />
           <Route
-            path="/hair-salon-in-jp-nagar-bangalore"
+            path="/hair-cut-salon-in-jp-nagar-bangalore"
             element={<HairSalonJp />}
           />
           <Route path="/nails-salon-near-me" element={<NailSalonNearMe />} />
@@ -463,11 +483,19 @@ const App = () => {
             element={<BodyWaxingInLavelle />}
           />
           <Route path="/spa-in-lavelle-road" element={<SpaInLavelle />} />
-          <Route path="/eye-lashes-in-lavelle-road" element={<LashesInLavelle />} />
-          <Route path="/bridal-makeup-in-lavelle-road" element={<BridalMakeUpInLavelle />} />
-          <Route path="/eyebrow-microblading-in-lavelle-road" element={<MicroBladingInLavelle />} />
+          <Route
+            path="/eye-lashes-in-lavelle-road"
+            element={<LashesInLavelle />}
+          />
+          <Route
+            path="/bridal-makeup-in-lavelle-road"
+            element={<BridalMakeUpInLavelle />}
+          />
+          <Route
+            path="/eyebrow-microblading-in-lavelle-road"
+            element={<MicroBladingInLavelle />}
+          />
 
-         
           <Route path="/offer" element={<OfferTesting />} />
           <Route
             path="/brazilian-waxing-services-in-bangalore"
@@ -485,7 +513,6 @@ const App = () => {
             path="/olaplex-hair-treatments-in-bangalore"
             element={<Olaplex />}
           />
-     
         </Routes>
       </BrowserRouter>
     </div>

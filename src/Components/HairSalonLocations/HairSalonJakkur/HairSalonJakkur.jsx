@@ -48,24 +48,29 @@ const HairSalonJakkur = () => {
             </p>
           </div>
           <div className="hairSalonLocationWelcomeHead">
-            <h2>
-              Discover Top-Notch Hair Care at SCENT  in Sahakar Nagar
-            </h2>
+            <h2>Discover Top-Notch Hair Care at SCENT in Sahakar Nagar</h2>
           </div>
           <div className="hairSalonLocationWelcomePara">
-            Welcome to <span></span>
-            <Link to={"./hair-salon-in-jakkur"}>
-              SCENT Hair Salon in Jakkur
-            </Link>
-            ,Bangalore's premier destination for exceptional hair care and
-            styling. Our salon combines luxury with expertise to offer you a
-            transformative beauty experience. Whether you seek a
-            <Link to={"/haircut-and-styling"}>stylish haircut</Link>,
-            <Link to={"/hair-highlights-and-streaks"}>vibrant hair color</Link>,
-            or a <Link to={"/hair-treatment"}>rejuvenating hair treatment</Link>
-            ,
-            <Link to={"/hair-salon-in-jakkur"}>SCENT Hair Salon in Jakkur</Link>{" "}
-            is the perfect place to indulge in top-tier hair services.
+            <p>
+              {" "}
+              Welcome to{" "}
+              <Link to={"/hair-salon-in-jakkur"}>
+                SCENT Hair Salon in Jakkur
+              </Link>
+              ,Bangalore's premier destination for exceptional hair care and
+              styling. Our salon combines luxury with expertise to offer you a
+              transformative beauty experience. Whether you seek a{" "}
+              <Link to={"/haircut-and-styling"}>stylish haircut</Link>,
+              <Link to={"/hair-highlights-and-streaks"}>
+                vibrant hair color
+              </Link>
+              , or a{" "}
+              <Link to={"/hair-treatment"}>rejuvenating hair treatment</Link>,
+              <Link to={"/hair-salon-in-jakkur"}>
+                SCENT Hair Salon in Jakkur
+              </Link>{" "}
+              is the perfect place to indulge in top-tier hair services.
+            </p>
           </div>
           <div className="hairSalonLocationService">
             <h2>Our Hair Salon Services</h2>
@@ -122,11 +127,11 @@ const HairSalonJakkur = () => {
                   services.
                 </li>
                 <li>
-                  <span>Personalized Attention:</span> At SCENT , we
-                  believe in delivering personalized attention to each client.
-                  Our stylists take the time to understand your needs and
-                  preferences, ensuring that every service is customized to meet
-                  your unique requirements.
+                  <span>Personalized Attention:</span> At SCENT , we believe in
+                  delivering personalized attention to each client. Our stylists
+                  take the time to understand your needs and preferences,
+                  ensuring that every service is customized to meet your unique
+                  requirements.
                 </li>
                 <li>
                   <span>Premium Hair Care Products: </span> We use only the
@@ -142,9 +147,8 @@ const HairSalonJakkur = () => {
                 </li>
                 <li>
                   <span>Convenient Location:</span> Conveniently located in
-                  Jakkur, SCENT  is easily accessible, making it simple for
-                  you to drop by for a quick service or a complete beauty
-                  makeover.
+                  Jakkur, SCENT is easily accessible, making it simple for you
+                  to drop by for a quick service or a complete beauty makeover.
                 </li>
               </ol>
             </div>
@@ -165,8 +169,8 @@ const HairSalonJakkur = () => {
               achieve your hair goals.
             </p>
             <p>
-              Visit us at <Link to={"/"}>SCENT </Link> and discover why we
-              are the preferred choice for <span></span>
+              Visit us at <Link to={"/"}>SCENT </Link> and discover why we are
+              the preferred choice for <span></span>
               <Link to={"/hair-salon-in-jakkur"}>hair care in Jakkur</Link>. We
               look forward to welcoming you and providing you with an
               exceptional salon experience.
@@ -181,7 +185,7 @@ const HairSalonJakkur = () => {
       <HelpNearYou />
       <TextLocReviews />
       <ServiceWhy />
-      <WhatsApp/>
+      <WhatsApp />
       <LastComp />
     </div>
   );
