@@ -1,6 +1,6 @@
 import React from "react";
 import "./Global.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import HomePage from "./Components/HomePage/HomePage";
 import MainServicePage from "./Components/MainServicePages/MainServicePage";
 import HairServicePage from "./Components/HairServicePage/HairServicePage";
@@ -17,7 +17,7 @@ import ScentPhiloPage from "./Components/ScentPhiloPage/ScentPhiloPage";
 import StyleCrewPage from "./Components/StyleCrewPage/StyleCrewPage";
 import AboutMyselfPage from "./Components/AboutMyselfPage/AboutMyselfPage";
 import MembershipPage from "./Components/MembershipPage/MembershipPage";
-import FranchisePage from "./Components/FranchisePage/FranchisePage";
+// import FranchisePage from "./Components/FranchisePage/FranchisePage";
 import ShopPage from "./Components/ShopPage/ShopPage";
 import SahakarLocPage from "./Components/LocationPage/SahakarLocPage/SahakarLocPage";
 import LavellelLocPage from "./Components/LocationPage/LavelleLoc/LavellelLocPage";
@@ -190,7 +190,12 @@ const App = () => {
           <Route path="/crew" element={<StyleCrewPage />} />
           <Route path="/myself" element={<AboutMyselfPage />} />
           <Route path="/salon-membership" element={<MembershipPage />} />
-          <Route path="/franchise" element={<FranchisePage />} />
+          {/* <Route path="/franchise" element={<FranchisePage />} /> */}
+          <Route
+            path="/beauty-salon-franchise-in-bangalore"
+            element={<SalonFranchise />}
+          />
+           <Route path="/franchise" element={<Navigate to="/beauty-salon-franchise-in-bangalore" replace />}/>
           <Route path="/shop" element={<ShopPage />} />
           <Route path="/contact-us" element={<ContactPage />} />
           <Route path="/location" element={<LocationPage />} />
@@ -480,10 +485,7 @@ const App = () => {
             path="/olaplex-hair-treatments-in-bangalore"
             element={<Olaplex />}
           />
-                  <Route
-            path="/beauty-salon-franchise-in-bangalore"
-            element={<SalonFranchise />}
-          />
+     
         </Routes>
       </BrowserRouter>
     </div>
