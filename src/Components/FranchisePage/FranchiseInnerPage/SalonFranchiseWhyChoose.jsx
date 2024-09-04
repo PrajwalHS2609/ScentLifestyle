@@ -3,7 +3,7 @@ import React from "react";
 const SalonFranchiseWhyChoose = () => {
   return (
     <div className="hairSalonJpHead">
-      <h3>Book Your Appointment at Our Spa in JP Nagar</h3>
+      <h3>Why Choose a Salon Franchise in Bangalore?</h3>
       <p>
         Choosing a{" "}
         <a href="https://scentlifestyle.com/beauty-salon-franchise-in-bangalore">
