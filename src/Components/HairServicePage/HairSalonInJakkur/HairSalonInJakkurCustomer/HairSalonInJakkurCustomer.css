@@ -47,3 +47,14 @@
 .quote {
   font-size: 30px;
 }
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .hairSalonInJakkurCustomerContent > p {
+    /* border: solid; */
+    font-size: 20px;
+    text-align: justify;
+    width: 100%;
+    line-height: 35px;
+    border-radius: 10px;
+    padding: 10px;
+  }
+}
