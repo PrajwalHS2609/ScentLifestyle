@@ -119,14 +119,6 @@ import BlogNail from "./Components/BlogPage/BlogPages/BlogNail/BlogNail";
 import PediAndManicure from "./Components/BlogPage/BlogInnerPages/NailBlogInnerPages/PediAndManicure/PediAndManicure";
 import BlogSpa from "./Components/BlogPage/BlogPages/BlogSpa/BlogSpa";
 import SpaDay from "./Components/BlogPage/BlogInnerPages/SpaInnerPages/SpaDay/SpaDay";
-import HairSalonInJp from "./Components/HairServicePage/HairSalonJp/HairSalonInJp";
-import NailSalonInJp from "./Components/NaliSalonPage/NailSalonInJp/NailSalonInJp";
-import FacialInJp from "./Components/FacialPage/FacialInJp/FacialInJp";
-import BodyWaxingInJp from "./Components/Beauty/BodyWaxingInJp/BodyWaxingInJp";
-import SpaInJp from "./Components/Spa/SpaInJp/SpaInJp";
-import LashesInJp from "./Components/Lashes/LashesInJp/LashesInJp";
-import BridalMakeupInJp from "./Components/BridalMakeUpPage/BridalMakeupInJp/BridalMakeupInJp";
-import MicroBladingInJp from "./Components/MicroBladingPage/MicroBladingInJp/MicroBladingInJp";
 import OfferTesting from "./Components/OfferTesting/OfferTesting";
 import BlogBeautyEssentials from "./Components/BlogPage/BlogPages/BlogBeautyEssentials/BlogBeautyEssentials";
 import BrazilianWaxing from "./Components/BlogPage/BlogInnerPages/BeautyBlogInnerPages/BrazilianWaxing/BrazilianWaxing";
@@ -461,7 +453,7 @@ const App = () => {
             path="/lp-hair-highlights-and-streaks"
             element={<HairColorStreaksLandingPage />}
           />
-          <Route path="/hair-salon-in-jp-nagar" element={<HairSalonInJp />} />
+          {/* <Route path="/hair-salon-in-jp-nagar" element={<HairSalonInJp />} />
           <Route path="/nail-salon-in-jp-nagar" element={<NailSalonInJp />} />
           <Route path="/facials-in-jp-nagar" element={<FacialInJp />} />
 
@@ -478,7 +470,7 @@ const App = () => {
           <Route
             path="/eyebrow-microblading-in-jp-nagar"
             element={<MicroBladingInJp />}
-          />
+          /> */}
           <Route
             path="/hair-salon-in-lavelle-road"
             element={<HairSalonInLavelle />}
