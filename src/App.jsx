@@ -144,6 +144,14 @@ import LashesInLavelle from "./Components/Lashes/LashesInLavelle/LashesInLavelle
 import BridalMakeUpInLavelle from "./Components/BridalMakeUpPage/BridalMakeUpInLavelle/BridalMakeUpInLavelle";
 import MicroBladingInLavelle from "./Components/MicroBladingPage/MicroBladingInLavelle/MicroBladingInLavelle";
 import SalonFranchise from "./Components/FranchisePage/FranchiseInnerPage/SalonFranchise ";
+import HairSalonInJakkur from "./Components/HairServicePage/HairSalonInJakkur/HairSalonInJakkur";
+import NailSalonInJakkur from "./Components/NaliSalonPage/NailSalonInJakkur/NailSalonInJakkur";
+import FacialInJakkur from "./Components/FacialPage/FacialInJakkur/FacialInJakkur";
+import BodyWaxingInJakkur from "./Components/Beauty/BodyWaxingInJakkur/BodyWaxingInJakkur";
+import SpaInJakkur from "./Components/Spa/SpaInJakkur/SpaInJakkur";
+import LashesInJakkur from "./Components/Lashes/LashesInJakkur/LashesInJakkur";
+import BridalMakeupInJakkur from "./Components/BridalMakeUpPage/BridalMakeupInJakkur/BridalMakeupInJakkur";
+import MicroBladingInJakkur from "./Components/MicroBladingPage/MicroBladingInJakkur/MicroBladingInJakkur";
 const NotFound = () => (
   <div
     style={{
@@ -456,6 +464,7 @@ const App = () => {
           <Route path="/hair-salon-in-jp-nagar" element={<HairSalonInJp />} />
           <Route path="/nail-salon-in-jp-nagar" element={<NailSalonInJp />} />
           <Route path="/facials-in-jp-nagar" element={<FacialInJp />} />
+
           <Route
             path="/body-waxing-threading-and-d-tan-in-jp-nagar"
             element={<BodyWaxingInJp />}
@@ -512,6 +521,23 @@ const App = () => {
           <Route
             path="/olaplex-hair-treatments-in-bangalore"
             element={<Olaplex />}
+          />
+          <Route path="/hair-salon-in-jakkur" element={<HairSalonInJakkur />} />
+          <Route path="/nail-salon-in-jakkur" element={<NailSalonInJakkur />} />
+          <Route path="/facials-in-jakkur" element={<FacialInJakkur />} />
+          <Route
+            path="/body-waxing-threading-and-d-tan-in-jakkur"
+            element={<BodyWaxingInJakkur />}
+          />
+          <Route path="/spa-in-jakkur" element={<SpaInJakkur />} />
+          <Route path="/eye-lashes-in-jakkur" element={<LashesInJakkur />} />
+          <Route
+            path="/bridal-makeup-in-jakkur"
+            element={<BridalMakeupInJakkur />}
+          />
+          <Route
+            path="/eyebrow-microblading-in-jakkur"
+            element={<MicroBladingInJakkur />}
           />
         </Routes>
       </BrowserRouter>

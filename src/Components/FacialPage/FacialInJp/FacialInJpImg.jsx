@@ -4,7 +4,7 @@ import facialJpImg from "./../../../Images/JP_Nagar/Facials.png";
 const FacialInJpImg = () => {
   return (
     <div className="HairSalonJpImg">
-      <img src={facialJpImg} alt="facialJpImg" />
+      <img src={facialJpImg} alt="facialJpImg" loading="lazy"/>
     </div>
   );
 };

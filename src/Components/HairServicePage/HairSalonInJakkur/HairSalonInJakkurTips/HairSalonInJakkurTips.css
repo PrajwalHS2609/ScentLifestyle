@@ -1,0 +1,69 @@
+.hairSalonInJakkurTips {
+  /* border: solid red; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  padding: 30px;
+}
+.hairSalonInJakkurTips > h2 {
+  color: var(--customColor);
+  width: 100%;
+  text-align: start;
+  font-size: 25px;
+}
+.hairSalonInJakkurTips > h3 {
+  color: var(--customColor);
+  width: 100%;
+  text-align: center;
+  font-size: 25px;
+}
+
+.hairSalonInJakkurTips > p {
+  width: 100%;
+  font-size: 20px;
+  text-align: justify;
+}
+.hairSalonInJakkurTips > p > a {
+  color: var(--customColor);
+  text-decoration: none;
+}
+.hairSalonInJakkurTips > li > h6 {
+  color: var(--customColor);
+  font-size: 20px;
+}
+.hairSalonInJakkurTips > li > p > a {
+  color: var(--customColor);
+  text-decoration: none;
+}
+.hairSalonInJakkurTips > li {
+  /* border: solid; */
+  width: 100%;
+  font-size: 20px;
+  text-align: start;
+  list-style: none;
+}
+.hairSalonInJakkurTips > li > span {
+  /* border: solid; */
+  color: var(--customColor);
+}
+.hairSalonInJakkurTips > li > a {
+  text-decoration: none;
+  color: var(--customColor);
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .hairSalonInJakkurTips > h2 {
+    color: var(--customColor);
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+  }
+  .hairSalonInJakkurTips > h3 {
+    color: var(--customColor);
+    width: 100%;
+    text-align: start;
+    font-size: 20px;
+  }
+}

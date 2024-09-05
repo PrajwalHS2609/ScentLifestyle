@@ -159,7 +159,7 @@ const FranchiseForm = () => {
                 type="text"
                 placeholder="Details"
                 cols={26}
-                rows={3}
+                rows={3}  
                 onChange={handleData}
                 autoComplete="no"
                 required
