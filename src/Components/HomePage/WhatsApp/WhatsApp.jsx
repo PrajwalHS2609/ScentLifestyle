@@ -26,7 +26,7 @@ const WhatsApp = () => {
         accountName="SCENT"
         avatar={Scent} // Optional
         statusMessage="Typically replies within 5 min" // Optional
-        chatMessage="Welcome to SCENT! Get Hair Botox at a special price for smooth, frizz-free hair. Book now! " // Optional
+        chatMessage="Welcome to SCENT! This month only, enjoy exclusive deals on your favorite services. Don't miss out — Book now!" // Optional
         placeholder="Type a message..." // Optional
       />
     </div>

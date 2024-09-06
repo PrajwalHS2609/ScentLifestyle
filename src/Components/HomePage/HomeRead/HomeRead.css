@@ -71,7 +71,8 @@
 }
 .homeReadDisplayContainer > ul > li > h4 {
   font-size: 20px;
-  font-weight: 400;
+  color: var(--customColor);
+
 }
 .homeReadDisplayContainer > ul > li > p > a {
   color: var(--customColor);
@@ -98,6 +99,7 @@
   font-size: 20px;
   margin-top: 10px;
   color: var(--customColor);
+  font-weight: bold;
 
 }
 

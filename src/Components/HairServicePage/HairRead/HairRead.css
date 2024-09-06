@@ -28,6 +28,7 @@
   font-size: 20px;
   text-decoration: underline;
   font-weight: 400;
+  color: var(--customColor);
 }
 .hairReadContainer > header > h1 {
   margin: 20px;
@@ -60,6 +61,7 @@
 .hairReadHeadContainer > ul > li > h4 {
   font-size: 20px;
   font-weight: 400;
+  color: var(--customColor);
 }
 .hairReadHeadContainer > ul > li > p > a {
   color: var(--customColor);
@@ -78,10 +80,14 @@
 }
 .hairReadDisplayContainer > h3 {
   font-size: 25px;
+  color: var(--customColor);
+
 }
 .hairReadDisplayContainer > ul > li > h4 {
   font-size: 20px;
   font-weight: 400;
+  color: var(--customColor);
+
 }
 .hairReadDisplayContainer > ul > li > p > a {
   color: var(--customColor);
