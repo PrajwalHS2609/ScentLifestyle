@@ -4,7 +4,7 @@ import BouncyHairBlog from "./../../../../Images/Blog/Hair Bouncy and Beautiful 
 const BouncyHairImg = () => {
   return (
     <div className='hairTrimImg'>
-    <img src={BouncyHairBlog} alt="hairTrim" />
+    <img src={BouncyHairBlog} alt="hairTrim" loading='lazy'/>
   </div>
   )
 }

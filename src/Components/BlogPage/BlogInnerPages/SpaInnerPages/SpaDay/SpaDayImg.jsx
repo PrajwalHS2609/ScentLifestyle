@@ -4,7 +4,7 @@ import spaDayBanner from "./../../../../../Images/Blog/How a Spa Day/Banner Imag
 const SpaDayImg = () => {
   return (
     <div className="pediManicureImg">
-    <img src={spaDayBanner} alt="spaDayBanner" />
+    <img src={spaDayBanner} alt="spaDayBanner" loading='lazy'/>
     </div>
   )
 }

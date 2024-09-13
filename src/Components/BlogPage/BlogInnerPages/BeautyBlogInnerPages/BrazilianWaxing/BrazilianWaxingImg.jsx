@@ -4,7 +4,7 @@ import brazilWaxingBanner from "./../../../../../Images/Blog/Everything_About_Br
 const BrazilianWaxingImg = () => {
   return (
     <div className="pediManicureImg">
-    <img src={brazilWaxingBanner} alt="brazilWaxingBanner" />
+    <img src={brazilWaxingBanner} alt="brazilWaxingBanner" loading='lazy'/>
     </div>
   )
 }

@@ -4,7 +4,7 @@ import "./PediAndManicureImg.css";
 const PediAndManicureImg = () => {
   return (
     <div className="pediManicureImg">
-      <img src={pediManicureImg} alt="top10Banner" />
+      <img src={pediManicureImg} alt="top10Banner" loading='lazy'/>
     </div>
   );
 };

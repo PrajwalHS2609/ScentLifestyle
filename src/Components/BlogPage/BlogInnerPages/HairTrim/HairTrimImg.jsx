@@ -4,7 +4,7 @@ import  hairTrim from "./../.././../../Images/Blog/Does Trimming Hair Make It Gr
 const HairTrimImg = () => {
   return (
     <div className='hairTrimImg'>
-      <img src={hairTrim} alt="hairTrim" />
+      <img src={hairTrim} alt="hairTrim" loading='lazy'/>
     </div>
   )
 }
