@@ -10,6 +10,7 @@ import spaDayBanner from "./../../../../Images/Blog/How a Spa Day/Banner Image.p
 import brazilWaxingBanner from "./../../../../Images/Blog/Everything_About_Brazilian_Waxing/Banner Image.png";
 import ChicSleek from "./../../../../Images/Blog/Chic & Sleek/Banner Image.png";
 import top5Spa from "./../../../../Images/Blog/The_Top_5_Hair_Spa_Today/Banner.png";
+import olaplexBanner from "./../../../../Images/Blog/How Olaplex Helps/Banner.png";
 
 import BlogCard from "../BlogCard";
 const BlogMain = () => {
@@ -91,6 +92,12 @@ const BlogMain = () => {
           head="The Top 5 Reasons to Book a Hair Spa Today! "
           para="Hair care is more than just shampooing and conditioning—it’s about deep  ..."
           link="/the-top-5-reasons-to-book-a-hair-spa-today"
+        />
+        <BlogCard
+          img={olaplexBanner}
+          head="How Olaplex Helps Maintain Healthy Hair after Coloring?"
+          para="Coloring your hair can be a fun way to express yourself, but it can also be a challenge to maintain ..."
+          link="/how-olaplex-helps-maintain-healthy-hair-after-coloring"
         />
       </div>
 

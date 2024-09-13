@@ -20,7 +20,7 @@ const ChicSleekBob = () => {
       <ul>
         <li>
           <span>
-            <img src={point} alt="checked" />
+            <img src={point} alt="point" />
             Sleek Bob:
           </span>
           <p>
@@ -31,7 +31,7 @@ const ChicSleekBob = () => {
         </li>
         <li>
           <span>
-            <img src={point} alt="checked" />
+            <img src={point} alt="point" />
             Wavy Bob:
           </span>
           <p>

@@ -4,7 +4,7 @@ import ChicSleekBanner from "./../../../../../Images/Blog/Chic & Sleek/Banner Im
 const ChicSleekBannerImg = () => {
   return (
     <div className="hairTrimImg">
-      <img src={ChicSleekBanner} alt="spaDayBanner" />
+      <img src={ChicSleekBanner} alt="spaDayBanner" loading="lazy"/>
     </div>
   );
 };

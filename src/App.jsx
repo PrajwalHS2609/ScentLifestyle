@@ -144,6 +144,7 @@ import SpaInJakkur from "./Components/Spa/SpaInJakkur/SpaInJakkur";
 import LashesInJakkur from "./Components/Lashes/LashesInJakkur/LashesInJakkur";
 import BridalMakeupInJakkur from "./Components/BridalMakeUpPage/BridalMakeupInJakkur/BridalMakeupInJakkur";
 import MicroBladingInJakkur from "./Components/MicroBladingPage/MicroBladingInJakkur/MicroBladingInJakkur";
+import HowOlaplex from "./Components/BlogPage/BlogInnerPages/HairBlogInnerPages/HowOlaplex/HowOlaplex";
 const NotFound = () => (
   <div
     style={{
@@ -289,7 +290,7 @@ const App = () => {
             path="/bridal-makeup-packages"
             element={<BridalMakeUpPackage />}
           />
-
+--------------------Blog-------------------------------------
           <Route path="/blog" element={<BlogPage />}>
             <Route path="/blog" element={<BlogMain />} />
             <Route path="/blog/hair-blog" element={<BlogHair />} />
@@ -340,6 +341,11 @@ const App = () => {
             path="/the-top-5-reasons-to-book-a-hair-spa-today"
             element={<Top5Spa />}
           />
+               <Route
+            path="/how-olaplex-helps-maintain-healthy-hair-after-coloring"
+            element={<HowOlaplex />}
+          />
+     {/* ------------------------/blog------------------------      */}
           <Route path="/pre-bridal-treatments" element={<PrebridalPackage />} />
 
           <Route path="/organic-facial-services" element={<OrganicFacial />} />

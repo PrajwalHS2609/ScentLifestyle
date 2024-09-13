@@ -5,6 +5,7 @@ import BouncyHairBlog from "./../../../../Images/Blog/Hair Bouncy and Beautiful 
 import BotoxImg from "./../../../../Images/Blog/HairBotoxImgs/HairBotox1.png";
 import top10 from "./../../../../Images/Blog/Top 10 hairColor/Banner Image.png";
 import ChicSleek from "./../../../../Images/Blog/Chic & Sleek/Banner Image.png";
+import olaplexBanner from "./../../../../Images/Blog/How Olaplex Helps/Banner.png";
 
 const BlogHair = () => {
   let [toggle, setToggle] = useState(false);
@@ -50,6 +51,12 @@ const BlogHair = () => {
           head="Chic & Sleek - Women’s Haircuts That Define You"
           para="When it comes to expressing your personal style, few things make as bold a statement as your haircut. A well-chosen haircut not only complements your features but also ..."
           link="/chic-and-sleek-womens-haircuts-that-define-you"
+        />
+        <BlogCard
+          img={olaplexBanner}
+          head="How Olaplex Helps Maintain Healthy Hair after Coloring?"
+          para="Coloring your hair can be a fun way to express yourself, but it can also be a challenge to maintain ..."
+          link="/how-olaplex-helps-maintain-healthy-hair-after-coloring"
         />
       </div>
 
