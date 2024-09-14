@@ -3,7 +3,7 @@ import BodyWaxingJakkurImg from "./../../../Images/JP_Nagar/Waxing, Threding & D
 
 const BodyWaxingInJakkurImg = () => {
   return (
-    <div className="HairSalonJpImg">
+    <div className="hairSalonInJakkurImg">
       <img src={BodyWaxingJakkurImg} alt="BodyWaxingJakkurImg" loading="lazy"/>
     </div>
   );

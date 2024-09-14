@@ -1,6 +1,4 @@
-arrange salon videos to center in mobile ver
 images changes and download
 add arrow to location resp
 add lazy loading to all blog imgs
-add glossy to membership types (silver,ruby ,...) and for upper nav
-
+check all loc in levelle,jakkur,meadows

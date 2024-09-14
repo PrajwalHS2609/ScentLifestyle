@@ -145,6 +145,14 @@ import LashesInJakkur from "./Components/Lashes/LashesInJakkur/LashesInJakkur";
 import BridalMakeupInJakkur from "./Components/BridalMakeUpPage/BridalMakeupInJakkur/BridalMakeupInJakkur";
 import MicroBladingInJakkur from "./Components/MicroBladingPage/MicroBladingInJakkur/MicroBladingInJakkur";
 import HowOlaplex from "./Components/BlogPage/BlogInnerPages/HairBlogInnerPages/HowOlaplex/HowOlaplex";
+import HairSalonInMeadows from "./Components/HairServicePage/HairSalonInMeadows/HairSalonInMeadows";
+import NailSalonInMeadows from "./Components/NaliSalonPage/NailSalonInMeadows/NailSalonInMeadows";
+import FacialInMeadows from "./Components/FacialPage/FacialInMeadows/FacialInMeadows";
+import BodyWaxingInMeadows from "./Components/Beauty/BodyWaxingInMeadows/BodyWaxingInMeadows";
+import SpaInMeadows from "./Components/Spa/SpaInMeadows/SpaInMeadows";
+import LashesInMeadows from "./Components/Lashes/LashesInMeadows/LashesInMeadows";
+import BridalMakeupInMeadows from "./Components/BridalMakeUpPage/BridalMakeupInMeadows/BridalMakeupInMeadows";
+import MicroBladingInMeadows from "./Components/MicroBladingPage/MicroBladingInMeadows/MicroBladingInMeadows";
 const NotFound = () => (
   <div
     style={{
@@ -290,7 +298,7 @@ const App = () => {
             path="/bridal-makeup-packages"
             element={<BridalMakeUpPackage />}
           />
---------------------Blog-------------------------------------
+          {/* --------------------Blog------------------------------------- */}
           <Route path="/blog" element={<BlogPage />}>
             <Route path="/blog" element={<BlogMain />} />
             <Route path="/blog/hair-blog" element={<BlogHair />} />
@@ -341,11 +349,11 @@ const App = () => {
             path="/the-top-5-reasons-to-book-a-hair-spa-today"
             element={<Top5Spa />}
           />
-               <Route
+          <Route
             path="/how-olaplex-helps-maintain-healthy-hair-after-coloring"
             element={<HowOlaplex />}
           />
-     {/* ------------------------/blog------------------------      */}
+          {/* ------------------------/blog------------------------      */}
           <Route path="/pre-bridal-treatments" element={<PrebridalPackage />} />
 
           <Route path="/organic-facial-services" element={<OrganicFacial />} />
@@ -536,6 +544,36 @@ const App = () => {
           <Route
             path="/eyebrow-microblading-in-jakkur"
             element={<MicroBladingInJakkur />}
+          />
+          {/* ----------------------InMeadows---------------------- */}
+          <Route
+            path="/hair-salon-in-meadows-whitefield-bangalore"
+            element={<HairSalonInMeadows />}
+          />
+          <Route
+            path="/nail-salon-in-meadows-whitefield"
+            element={<NailSalonInMeadows />}
+          />
+          <Route
+            path="/facials-in-meadows-whitefield"
+            element={<FacialInMeadows />}
+          />
+          <Route
+            path="/body-waxing-threading-and-d-tan-in-meadows-whitefield"
+            element={<BodyWaxingInMeadows />}
+          />
+          <Route path="/spa-in-meadows-whitefield" element={<SpaInMeadows />} />
+          <Route
+            path="/eye-lashes-in-meadows-whitefield"
+            element={<LashesInMeadows />}
+          />
+          <Route
+            path="/bridal-makeup-in-meadows-whitefield"
+            element={<BridalMakeupInMeadows />}
+          />
+          <Route
+            path="/eyebrow-microblading-in-meadows-whitefield"
+            element={<MicroBladingInMeadows />}
           />
         </Routes>
       </BrowserRouter>

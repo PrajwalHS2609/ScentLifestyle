@@ -1,7 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import NavBg from "../../NavBg/NavBg";
-import HairSalonInLavelleImg from "./HairSalonInLavelleImg/HairSalonInLavelleImg";
 import Members from "../../HomePage/Members/Members";
 import OurSalon from "../../HomePage/OurSalon/OurSalon";
 import Partners from "../../HomePage/Partners/Partners";
@@ -19,6 +18,7 @@ import HairSalonInLavelleDiff from "./HairSalonInLavelleDiff";
 import HairSalonInLavelleCustomer from "./HairSalonInLavelleCustomer/HairSalonInLavelleCustomer";
 import HairSalonInLavelleBook from "./HairSalonInLavelleBook";
 import InnerNavi from "../../InnerServicePage/InnerNavi/InnerNavi";
+import HairSalonInJakkurImg from "../HairSalonInJakkur/HairSalonInJakkurImg/HairSalonInJakkurImg";
 
 const HairSalonInLavelle = () => {
   return (
@@ -38,7 +38,7 @@ const HairSalonInLavelle = () => {
         />
       </Helmet>
       <NavBg />
-      <HairSalonInLavelleImg />
+      <HairSalonInJakkurImg />
       <InnerNavi
         link="/hair-salon"
         service="Hair Salon"
