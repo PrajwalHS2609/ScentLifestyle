@@ -1,6 +1,5 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import FacialInJakkurImg from "../FacialInJakkur/FacialInJakkurImg";
 import InnerNavi from "../../InnerServicePage/InnerNavi/InnerNavi";
 import Members from "../../HomePage/Members/Members";
 import OurSalon from "../../HomePage/OurSalon/OurSalon";
@@ -14,6 +13,8 @@ import LastComp from "../../LastComp/LastComp";
 import FacialInMeadowsComp from "./FacialInMeadowsComp";
 import FacialInMeadowsPersonalized from "./FacialInMeadowsPersonalized";
 import FacialInMeadowsHead from "./FacialInMeadowsHead";
+import facialMeadowsImg from "./../../../Images/JP_Nagar/Facials.png";
+import HairSalonInMeadowsImg from "../../HairServicePage/HairSalonInMeadows/HairSalonInMeadowsImg/HairSalonInMeadowsImg";
 
 const FacialInMeadows = () => {
   return (
@@ -33,7 +34,7 @@ const FacialInMeadows = () => {
           href="https://scentlifestyle.com/facials-in-meadows-whitefield"
         />
       </Helmet>
-      <FacialInJakkurImg />
+      <HairSalonInMeadowsImg img={facialMeadowsImg} alt={facialMeadowsImg} />
       <InnerNavi
         link="/facial"
         service="Facial"

@@ -1,6 +1,5 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import BodyWaxingInJakkurImg from "../BodyWaxingInJakkur/BodyWaxingInJakkurImg";
 import InnerNavi from "../../InnerServicePage/InnerNavi/InnerNavi";
 import BodyWaxingInMeadowsHead from "./BodyWaxingInMeadowsHead";
 import BodyWaxingInMeadowsAtScent from "./BodyWaxingInMeadowsAtScent";
@@ -15,6 +14,8 @@ import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
 import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
 import LastComp from "../../LastComp/LastComp";
+import HairSalonInMeadowsImg from "../../HairServicePage/HairSalonInMeadows/HairSalonInMeadowsImg/HairSalonInMeadowsImg";
+import beautyMeadowsImg from "./../../../Images/JP_Nagar/Waxing, Threding & D-Tan.png";
 
 const BodyWaxingInMeadows = () => {
   return (
@@ -33,7 +34,7 @@ const BodyWaxingInMeadows = () => {
           href="https://scentlifestyle.com/body-waxing-threading-and-d-tan-in-meadows-whitefield"
         />
       </Helmet>
-      <BodyWaxingInJakkurImg />
+      <HairSalonInMeadowsImg img={beautyMeadowsImg} alt={beautyMeadowsImg} />
       <InnerNavi
         link="/beauty-essentials"
         service="Beauty Essentials"

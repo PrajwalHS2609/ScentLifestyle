@@ -1,6 +1,5 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import SpaInJakkurImg from "../SpaInJakkur/SpaInJakkurImg";
 import InnerNavi from "../../InnerServicePage/InnerNavi/InnerNavi";
 import SpaInMeadowsHead from "./SpaInMeadowsHead";
 import Members from "../../HomePage/Members/Members";
@@ -15,6 +14,8 @@ import SpaInMeadowsBenefits from "./SpaInMeadowsBenefits";
 import SpaInMeadowsWhat from "./SpaInMeadowsWhat";
 import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
 import LastComp from "../../LastComp/LastComp";
+import HairSalonInMeadowsImg from "../../HairServicePage/HairSalonInMeadows/HairSalonInMeadowsImg/HairSalonInMeadowsImg";
+import spaMeadowsImg from "./../../../Images/JP_Nagar/Spa.png";
 
 const SpaInMeadows = () => {
   return (
@@ -33,7 +34,7 @@ const SpaInMeadows = () => {
           href="https://scentlifestyle.com/spa-in-meadows-whitefield"
         />
       </Helmet>
-      <SpaInJakkurImg />
+      <HairSalonInMeadowsImg img={spaMeadowsImg} alt={spaMeadowsImg} />
       <InnerNavi link="/spa" service="Spa" currService="Sap in Meadows" />
       <SpaInMeadowsHead />
       <Members />

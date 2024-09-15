@@ -10,13 +10,14 @@ import OurSalon from "../../HomePage/OurSalon/OurSalon";
 import Members from "../../HomePage/Members/Members";
 import NailSalonInMeadowsHead from "./NailSalonInMeadowsHead";
 import InnerNavi from "../../InnerServicePage/InnerNavi/InnerNavi";
-import NailSalonInJakkurImg from "../NailSalonInJakkur/NailSalonInJakkurImg";
 import { Helmet } from "react-helmet";
 import LastComp from "../../LastComp/LastComp";
 import NailSalonInMeadowsWhy from "./NailSalonInMeadowsWhy";
 import NailSalonInMeadowsSpecial from "./NailSalonInMeadowsSpecial";
 import NailSalonInMeadowsCustomer from "./NailSalonInMeadowsCustomer";
 import NailSalonInMeadowsLoc from "./NailSalonInMeadowsLoc";
+import HairSalonInMeadowsImg from "../../HairServicePage/HairSalonInMeadows/HairSalonInMeadowsImg/HairSalonInMeadowsImg";
+import nailMeadowsImg from "./../../../Images/JP_Nagar/Nail.png";
 
 const NailSalonInMeadows = () => {
   return (
@@ -36,7 +37,7 @@ const NailSalonInMeadows = () => {
           href="https://scentlifestyle.com/nail-salon-in-meadows-whitefield"
         />
       </Helmet>
-      <NailSalonInJakkurImg />
+      <HairSalonInMeadowsImg img={nailMeadowsImg} alt={nailMeadowsImg} />
       <InnerNavi
         link="/nail-salon"
         service="Nail Salon"

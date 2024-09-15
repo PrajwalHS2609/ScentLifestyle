@@ -17,7 +17,8 @@ import LashesInMeadowsWhy from "./LashesInMeadowsWhy";
 import LashesInMeadowsBook from "./LashesInMeadowsBook";
 import { Helmet } from "react-helmet";
 import InnerNavi from "../../InnerServicePage/InnerNavi/InnerNavi";
-import LashesInJakkurImg from "../LashesInJakkur/LashesInJakkurImg";
+import HairSalonInMeadowsImg from "../../HairServicePage/HairSalonInMeadows/HairSalonInMeadowsImg/HairSalonInMeadowsImg";
+import lashesMeadowsImg from "./../../../Images/JP_Nagar/Eye Lashes.png";
 
 const LashesInMeadows = () => {
   return (
@@ -37,7 +38,7 @@ const LashesInMeadows = () => {
           href="https://scentlifestyle.com/eye-lashes-in-meadows-whitefield"
         />
       </Helmet>
-      <LashesInJakkurImg />
+      <HairSalonInMeadowsImg img={lashesMeadowsImg} alt={lashesMeadowsImg} />
       <InnerNavi
         link="/eye-lashes"
         service="Eye Lashes"

@@ -10,7 +10,6 @@ import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
 import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
 import LastComp from "../../LastComp/LastComp";
-import BridalMakeupInJakkurImg from "../BridalMakeupInJakkur/BridalMakeupInJakkurImg";
 import BridalMakeupInMeadowsHead from "./BridalMakeupInMeadowsHead";
 import BridalMakeupInMeadowsChoose from "./BridalMakeupInMeadowsChoose";
 import BridalMakeupInMeadowsFull from "./BridalMakeupInMeadowsFull";
@@ -18,6 +17,8 @@ import BridalMakeupInMeadowsMakeup from "./BridalMakeupInMeadowsMakeup";
 import BridalMakeupInMeadowsTrust from "./BridalMakeupInMeadowsTrust";
 import BridalMakeupInMeadowsPre from "./BridalMakeupInMeadowsPre";
 import BridalMakeupInMeadowsEnsuring from "./BridalMakeupInMeadowsEnsuring";
+import HairSalonInMeadowsImg from "../../HairServicePage/HairSalonInMeadows/HairSalonInMeadowsImg/HairSalonInMeadowsImg";
+import bridalMeadowsImg from "./../../../Images/JP_Nagar/Bridal Makeup.png";
 
 const BridalMakeupInMeadows = () => {
   return (
@@ -37,7 +38,7 @@ const BridalMakeupInMeadows = () => {
           href="https://scentlifestyle.com/bridal-makeup-in-meadows-whitefield "
         />
       </Helmet>
-      <BridalMakeupInJakkurImg />
+      <HairSalonInMeadowsImg img={bridalMeadowsImg} alt={bridalMeadowsImg} />
       <InnerNavi
         link="/bridal-makeup"
         service="Bridal Makeup"

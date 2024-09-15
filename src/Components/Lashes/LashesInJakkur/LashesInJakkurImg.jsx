@@ -3,8 +3,8 @@ import lashesJakkurImg from "./../../../Images/JP_Nagar/Eye Lashes.png";
 
 const LashesInJakkurImg = () => {
   return (
-    <div className="HairSalonJpImg">
-      <img src={lashesJakkurImg} alt="lashesJakkurImg" />
+    <div className="hairSalonInLavelleImg">
+      <img src={lashesJakkurImg} alt="lashesJakkurImg" loading="lazy"/>
     </div>
   );
 };

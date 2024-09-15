@@ -1,16 +1,16 @@
-.HairSalonInLavelleImg {
+.hairSalonInLavelleImg {
     /* border: solid red; */
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  .HairSalonInLavelleImg > img {
+  .hairSalonInLavelleImg > img {
     width: 100%;
     height: 100%;
   }
   @media screen and (min-width: 320px) and (max-width: 768px) {
-    .HairSalonInLavelleImg {
+    .hairSalonInLavelleImg {
       /* border: solid red; */
       width: 100%;
     }

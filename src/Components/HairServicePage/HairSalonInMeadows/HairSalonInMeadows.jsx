@@ -15,7 +15,8 @@ import HairSalonInMeadowsCommit from "./HairSalonInMeadowsCommit";
 import HairSalonInMeadowsCustomer from "./HairSalonInMeadowsCustomer/HairSalonInMeadowsCustomer";
 import HairSalonInMeadowsSpecial from "./HairSalonInMeadowsSpecial";
 import OurSalon from "../../HomePage/OurSalon/OurSalon";
-import HairSalonInJakkurImg from "../HairSalonInJakkur/HairSalonInJakkurImg/HairSalonInJakkurImg";
+import HairSalonInMeadowsImg from "./HairSalonInMeadowsImg/HairSalonInMeadowsImg";
+import hairMeadowsImg from "./../../../Images/JP_Nagar/Hair.png";
 
 const HairSalonInMeadows = () => {
   return (
@@ -35,7 +36,7 @@ const HairSalonInMeadows = () => {
           href="https://scentlifestyle.com/hair-salon-in-meadows-whitefield-bangalore"
         />
       </Helmet>
-      <HairSalonInJakkurImg />
+      <HairSalonInMeadowsImg img={hairMeadowsImg} alt={hairMeadowsImg} />
       <InnerNavi
         link="/hair-salon"
         service="Hair Salon"
