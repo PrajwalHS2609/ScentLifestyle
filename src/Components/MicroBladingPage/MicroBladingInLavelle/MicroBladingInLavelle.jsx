@@ -16,8 +16,9 @@ import MicroBladingInLavelleBenefits from "./MicroBladingInLavelleBenefits";
 import { Helmet } from "react-helmet";
 import LastComp from "../../LastComp/LastComp";
 import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
-import MicroBladingInLavelleImg from "./MicroBladingInLavelleImg";
 import MicroBladingInLavelleBook from "./MicroBladingInLavelleBook";
+import HairSalonInLavelleImg from "../../HairServicePage/HairSalonInLavelle/HairSalonInLavelleImg/HairSalonInLavelleImg";
+import microLavelleImg from "./../../../Images/JP_Nagar/Eyeborw Microblading.png";
 
 const MicroBladingInLavelle = () => {
   return (
@@ -38,7 +39,7 @@ const MicroBladingInLavelle = () => {
         />
       </Helmet>
       <NavBg />
-      <MicroBladingInLavelleImg />
+      <HairSalonInLavelleImg img={microLavelleImg} alt={microLavelleImg} />
       <InnerNavi
         link="/facial"
         service="Hair Salon"

@@ -12,12 +12,13 @@ import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
 import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
 import LastComp from "../../LastComp/LastComp";
 import BridalMakeUpInLavelleHead from "./BridalMakeUpInLavelleHead";
-import BridalMakeUpInLavelleImg from "./BridalMakeUpInLavelleImg";
 import BridalMakeUpInLavelleWhy from "./BridalMakeUpInLavelleWhy";
 import BridalMakeUpInLavelleWhyChoose from "./BridalMakeUpInLavelleWhyChoose";
 import BridalMakeUpInLavellePerfect from "./BridalMakeUpInLavellePerfect";
 import BridalMakeUpInLavelleEnchance from "./BridalMakeUpInLavelleEnchance";
 import BridalMakeUpInLavelleBook from "./BridalMakeUpInLavelleBook";
+import HairSalonInLavelleImg from "../../HairServicePage/HairSalonInLavelle/HairSalonInLavelleImg/HairSalonInLavelleImg";
+import bridalLavelleImg from "./../../../Images/JP_Nagar/Bridal Makeup.png";
 
 const BridalMakeUpInLavelle = () => {
   return (
@@ -38,7 +39,7 @@ const BridalMakeUpInLavelle = () => {
         />
       </Helmet>
       <NavBg />
-      <BridalMakeUpInLavelleImg />
+      <HairSalonInLavelleImg img={bridalLavelleImg} alt={bridalLavelleImg} />
       <InnerNavi
         link="/facial"
         service="Bridal MakeUp"

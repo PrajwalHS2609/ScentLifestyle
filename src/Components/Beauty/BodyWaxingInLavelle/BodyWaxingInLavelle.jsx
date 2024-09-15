@@ -5,7 +5,8 @@ import InnerNavi from "../../InnerServicePage/InnerNavi/InnerNavi";
 import BodyWaxingInLavelleHead from "./BodyWaxingInLavelleHead";
 import { Helmet } from "react-helmet";
 import NavBg from "./../../NavBg/NavBg";
-import BodyWaxingInLavelleImg from "./BodyWaxingInLavelleImg";
+import HairSalonInLavelleImg from "../../HairServicePage/HairSalonInLavelle/HairSalonInLavelleImg/HairSalonInLavelleImg";
+import beautylavelleImg from "./../../../Images/JP_Nagar/Waxing, Threding & D-Tan.png";
 
 const BodyWaxingInLavelle = () => {
   return (
@@ -23,7 +24,7 @@ const BodyWaxingInLavelle = () => {
         />
       </Helmet>
       <NavBg />
-      <BodyWaxingInLavelleImg />
+      <HairSalonInLavelleImg img={beautylavelleImg} alt={beautylavelleImg} />
       <InnerNavi
         link="/beauty-essentials"
         service="Beauty Essentials"

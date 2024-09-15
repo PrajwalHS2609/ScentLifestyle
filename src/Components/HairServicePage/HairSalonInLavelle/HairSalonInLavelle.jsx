@@ -18,7 +18,8 @@ import HairSalonInLavelleDiff from "./HairSalonInLavelleDiff";
 import HairSalonInLavelleCustomer from "./HairSalonInLavelleCustomer/HairSalonInLavelleCustomer";
 import HairSalonInLavelleBook from "./HairSalonInLavelleBook";
 import InnerNavi from "../../InnerServicePage/InnerNavi/InnerNavi";
-import HairSalonInJakkurImg from "../HairSalonInJakkur/HairSalonInJakkurImg/HairSalonInJakkurImg";
+import HairSalonInLavelleImg from "./HairSalonInLavelleImg/HairSalonInLavelleImg";
+import hairlavelleImg from "./../../../Images/JP_Nagar/Hair.png";
 
 const HairSalonInLavelle = () => {
   return (
@@ -38,7 +39,7 @@ const HairSalonInLavelle = () => {
         />
       </Helmet>
       <NavBg />
-      <HairSalonInJakkurImg />
+      <HairSalonInLavelleImg img={hairlavelleImg} alt={hairlavelleImg} />
       <InnerNavi
         link="/hair-salon"
         service="Hair Salon"

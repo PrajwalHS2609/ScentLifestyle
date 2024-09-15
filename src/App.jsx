@@ -485,6 +485,7 @@ const App = () => {
             path="/eyebrow-microblading-in-jp-nagar"
             element={<MicroBladingInJp />}
           /> */}
+          {/* -------------------InLavelleRoad-------------------- */}
           <Route
             path="/hair-salon-in-lavelle-road"
             element={<HairSalonInLavelle />}
@@ -510,7 +511,7 @@ const App = () => {
             path="/eyebrow-microblading-in-lavelle-road"
             element={<MicroBladingInLavelle />}
           />
-
+          {/* -----------------------/InLavelleRoad-------------------- */}
           <Route path="/offer" element={<OfferTesting />} />
           <Route
             path="/brazilian-waxing-services-in-bangalore"
@@ -528,6 +529,7 @@ const App = () => {
             path="/olaplex-hair-treatments-in-bangalore"
             element={<Olaplex />}
           />
+          {/*-----------------InJakkur------------------------------------ */}
           <Route path="/hair-salon-in-jakkur" element={<HairSalonInJakkur />} />
           <Route path="/nail-salon-in-jakkur" element={<NailSalonInJakkur />} />
           <Route path="/facials-in-jakkur" element={<FacialInJakkur />} />
@@ -545,7 +547,7 @@ const App = () => {
             path="/eyebrow-microblading-in-jakkur"
             element={<MicroBladingInJakkur />}
           />
-          {/* ----------------------InMeadows---------------------- */}
+          {/* ----------------------/InMeadows---------------------- */}
           <Route
             path="/hair-salon-in-meadows-whitefield-bangalore"
             element={<HairSalonInMeadows />}

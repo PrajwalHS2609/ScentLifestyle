@@ -1,7 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import NavBg from "./../../NavBg/NavBg";
-import SpaInLavelleImg from "./SpaInLavelleImg";
 import InnerNavi from "../../InnerServicePage/InnerNavi/InnerNavi";
 import SpaInLavelleHead from "./SpaInLavelleHead";
 import SpaInLavelleWhy from "./SpaInLavelleWhy";
@@ -18,6 +17,8 @@ import SpaInLavelleWhyScent from "./SpaInLavelleWhyScent";
 import SpaInLavelleVisit from "./SpaInLavelleVisit";
 import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
 import LastComp from "../../LastComp/LastComp";
+import HairSalonInLavelleImg from "../../HairServicePage/HairSalonInLavelle/HairSalonInLavelleImg/HairSalonInLavelleImg";
+import spalavelleImg from "./../../../Images/JP_Nagar/Spa.png";
 
 const SpaInLavelle = () => {
   return (
@@ -37,7 +38,7 @@ const SpaInLavelle = () => {
         />
       </Helmet>
       <NavBg />
-      <SpaInLavelleImg />
+      <HairSalonInLavelleImg img={spalavelleImg} alt={spalavelleImg} />
       <InnerNavi link="/spa" service="Spa" currService="Spa in Lavelle" />
       <SpaInLavelleHead />
       <SpaInLavelleWhy />

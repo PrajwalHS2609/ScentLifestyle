@@ -2,7 +2,6 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import NavBg from "../../NavBg/NavBg";
 import InnerNavi from "../../InnerServicePage/InnerNavi/InnerNavi";
-import LashesInLavelleImg from "./LashesInLavelleImg";
 import LashesInLavelleHead from "./LashesInLavelleHead";
 import LashesInLavelleWhy from "./LashesInLavelleWhy";
 import Members from "../../HomePage/Members/Members";
@@ -16,6 +15,8 @@ import LashesInJpBenefits from "./../LashesInJp/LashesInJpBenefits";
 import LashesInLavelleBook from "./LashesInLavelleBook";
 import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
 import LastComp from "../../LastComp/LastComp";
+import HairSalonInLavelleImg from "../../HairServicePage/HairSalonInLavelle/HairSalonInLavelleImg/HairSalonInLavelleImg";
+import lasheslavelleImg from "./../../../Images/JP_Nagar/Eye Lashes.png";
 
 const LashesInLavelle = () => {
   return (
@@ -36,7 +37,7 @@ const LashesInLavelle = () => {
         />
       </Helmet>
       <NavBg />
-      <LashesInLavelleImg />
+      <HairSalonInLavelleImg img={lasheslavelleImg} alt={lasheslavelleImg} />
       <InnerNavi
         link="/eye-lashes"
         service="Eye Lashes"

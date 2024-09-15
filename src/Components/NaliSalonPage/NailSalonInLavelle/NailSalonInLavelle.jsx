@@ -1,6 +1,5 @@
 import React from "react";
 import InnerNavi from "../../InnerServicePage/InnerNavi/InnerNavi";
-import NailSalonInLavelleImg from './NailSalonInLavelleImg';
 import NailSalonInLavelleHead from './NailSalonInLavelleHead';
 import NailSalonInLavelleWhy from './NailSalonInLavelleWhy';
 import Members from "../../HomePage/Members/Members";
@@ -18,6 +17,8 @@ import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
 import LastComp from "../../LastComp/LastComp";
 import { Helmet } from "react-helmet";
 import NavBg from "../../NavBg/NavBg";
+import HairSalonInLavelleImg from "../../HairServicePage/HairSalonInLavelle/HairSalonInLavelleImg/HairSalonInLavelleImg";
+import naillavelleImg from "./../../../Images/JP_Nagar/Nail.png";
 
 const NailSalonInLavelle = () => {
   return (
@@ -37,7 +38,7 @@ const NailSalonInLavelle = () => {
         />
       </Helmet>
       <NavBg />
-      <NailSalonInLavelleImg />
+      <HairSalonInLavelleImg img={naillavelleImg} alt={naillavelleImg} />
       <InnerNavi
         link="/nails-salon"
         service="Nail Salon"
