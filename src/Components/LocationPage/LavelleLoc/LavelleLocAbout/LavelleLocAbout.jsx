@@ -2,7 +2,7 @@ import React from "react";
 import "./LavelleLocAbout.css";
 const LavelleLocAbout = () => {
   return (
-    <div className="sahakarLocAboutContainer">
+    <div className="lavelleLocAboutContainer">
       <h1>Experience Luxury at Scent  in Lavelle Road, Bangalore</h1>
       <p>
         <ul>

@@ -3,33 +3,32 @@ import "./UpTownLocAbout.css";
 const UpTownLocAbout = () => {
   return (
     <div className="uptownLocAboutContainer">
-      <h1>
-        Discover Luxury at Scent  in Up Town Whitefield, Bangalore
-      </h1>
+      <h1>Discover Luxury at Scent in Up Town Whitefield, Bangalore</h1>
       <p>
         <ul>
           <li>
-            Nestled in the heart of Up Town Whitefield, Scent offers
-            an unparalleled experience of luxury and relaxation. Our salon and
-            spa cater to the diverse beauty and wellness needs of the vibrant
+            Nestled in the heart of Up Town Whitefield, Scent offers an
+            unparalleled experience of luxury and relaxation. Our salon and spa
+            cater to the diverse beauty and wellness needs of the vibrant
             community in Whitefield and its surrounding areas.
           </li>
           <li>
-            At Scent, we are committed to providing top-notch
-            services that leave our clients feeling refreshed, rejuvenated, and
-            pampered. With a team of skilled professionals and a wide range of
-            services, we aim to exceed the expectations of every visitor who
-            walks through our doors.
+            At Scent, we are committed to providing top-notch services that
+            leave our clients feeling refreshed, rejuvenated, and pampered. With
+            a team of skilled professionals and a wide range of services, we aim
+            to exceed the expectations of every visitor who walks through our
+            doors.
           </li>
+          <br />
           <li>
             <h3>Our Services</h3>
           </li>
           <li>
             <span>Hair Services:</span> Whether you're looking for a trendy
             haircut, a stylish hair color, or a luxurious hair spa treatment,
-            our expert stylists at Scent  have got you covered. From
-            classic cuts to the latest trends, we offer a variety of hair
-            services to suit your preferences.
+            our expert stylists at Scent have got you covered. From classic cuts
+            to the latest trends, we offer a variety of hair services to suit
+            your preferences.
           </li>
           <li>
             <span>Nail Services:</span> Treat yourself to a manicure and
@@ -56,6 +55,7 @@ const UpTownLocAbout = () => {
             a more dramatic effect, our lash technicians will create the perfect
             set of lashes to suit your style.
           </li>
+          <br />
           <li>
             <h3>Why Choose Us?</h3>
           </li>
@@ -76,18 +76,19 @@ const UpTownLocAbout = () => {
             unwind and escape from the hustle and bustle of daily life.
           </li>
           <li>
-            <span>Affordable Luxury:</span> At Scent , we believe
-            that luxury should be accessible to everyone. That's why we offer
-            competitive prices without compromising on quality.
+            <span>Affordable Luxury:</span> At Scent , we believe that luxury
+            should be accessible to everyone. That's why we offer competitive
+            prices without compromising on quality.
           </li>
+          <br />
           <li>
             <h3>Book Your Appointment Today!</h3>
           </li>
           <li>
             Ready to experience the ultimate in beauty and relaxation? Book your
-            appointment at Scent in Up Town Whitefield, Bangalore,
-            and treat yourself to a day of pampering and indulgence. We look
-            forward to welcoming you to our salon and spa soon!
+            appointment at Scent in Up Town Whitefield, Bangalore, and treat
+            yourself to a day of pampering and indulgence. We look forward to
+            welcoming you to our salon and spa soon!
           </li>
         </ul>
       </p>
