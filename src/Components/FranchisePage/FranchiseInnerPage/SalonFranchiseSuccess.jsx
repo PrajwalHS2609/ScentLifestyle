@@ -2,7 +2,7 @@ import React from "react";
 
 const SalonFranchiseSuccess = () => {
   return (
-    <div className="hairSalonJpHead">
+    <div className="hairSalonInLavelleHead">
       <h3>Success Stories from Our Salon Franchise in Bangalore</h3>
       <p>
         Many entrepreneurs have found tremendous success by opening a{" "}

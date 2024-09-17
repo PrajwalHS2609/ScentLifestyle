@@ -32,24 +32,12 @@ const BlogSpa = () => {
         />
       </div>
       <div className="blogMainDisplay2" ref={switchRef}>
-        <BlogCard
+        {/* <BlogCard
           img="https://img.freepik.com/free-photo/portrait-attractive-woman-studio_329181-9782.jpg?ga=GA1.1.798303094.1721912336&semt=ais_hybrid"
           head="Raccoon Eyes: Causes, Treatment, and How to Get Rid of It"
           para="Ever noticed those unsightly dark circles around your eyes? In..."
           link="/"
-        />
-        <BlogCard
-          img="https://img.freepik.com/free-photo/portrait-attractive-woman-studio_329181-9782.jpg?ga=GA1.1.798303094.1721912336&semt=ais_hybrid"
-          head="Raccoon Eyes: Causes, Treatment, and How to Get Rid of It"
-          para="Ever noticed those unsightly dark circles around your eyes? In..."
-          link="/"
-        />
-        <BlogCard
-          img="https://img.freepik.com/free-photo/portrait-attractive-woman-studio_329181-9782.jpg?ga=GA1.1.798303094.1721912336&semt=ais_hybrid"
-          head="Raccoon Eyes: Causes, Treatment, and How to Get Rid of It"
-          para="Ever noticed those unsightly dark circles around your eyes? In..."
-          link="/"
-        />
+        /> */}
       </div>
 
       <div className="blogMainReadMore">

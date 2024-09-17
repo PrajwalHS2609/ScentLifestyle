@@ -2,7 +2,7 @@ import React from "react";
 
 const SalonFranchiseHead = () => {
   return (
-    <div className="hairSalonJpHead">
+    <div className="hairSalonInLavelleHead">
       <h1>
         Unlock the Opportunity: Start Your Own Salon Franchise in Bangalore with
         SCENT
