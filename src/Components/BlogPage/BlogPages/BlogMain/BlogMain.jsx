@@ -4,7 +4,7 @@ import trimBlog from "./../../../../Images/Blog/Does Trimming Hair Make It Grow 
 import BouncyHairBlog from "./../../../../Images/Blog/Hair Bouncy and Beautiful Curls During Monsoon.png";
 import BotoxImg from "./../../../../Images/Blog/HairBotoxImgs/HairBotox1.png";
 import top10 from "./../../../../Images/Blog/Top 10 hairColor/Banner Image.png";
-import hairKeratin from "./../../../../Images/Blog/Keratin_Hair_Treatment/Banner Image.png";
+  import hairKeratin from "./../../../../Images/Blog/Keratin_Hair_Treatment/Banner Image.png";
 import pedimanicurebanner from "./../../../../Images/Blog/Pedi&manicureBlog/Banner Image.png";
 import spaDayBanner from "./../../../../Images/Blog/How a Spa Day/Banner Image.png";
 import brazilWaxingBanner from "./../../../../Images/Blog/Everything_About_Brazilian_Waxing/Banner Image.png";

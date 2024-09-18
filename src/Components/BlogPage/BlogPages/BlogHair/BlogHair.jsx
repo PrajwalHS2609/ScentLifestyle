@@ -6,6 +6,7 @@ import BotoxImg from "./../../../../Images/Blog/HairBotoxImgs/HairBotox1.png";
 import top10 from "./../../../../Images/Blog/Top 10 hairColor/Banner Image.png";
 import ChicSleek from "./../../../../Images/Blog/Chic & Sleek/Banner Image.png";
 import olaplexBanner from "./../../../../Images/Blog/How Olaplex Helps/Banner.png";
+import hairKeratin from "./../../../../Images/Blog/Keratin_Hair_Treatment/Banner Image.png";
 
 const BlogHair = () => {
   let [toggle, setToggle] = useState(false);
@@ -60,7 +61,14 @@ const BlogHair = () => {
         />
       </div>
 
-      <div className="blogMainDisplay2" ref={switchRef}></div>
+      <div className="blogMainDisplay2" ref={switchRef}>
+      <BlogCard
+          img={hairKeratin}
+          head="Why You Should Consider Keratin Hair Treatment"
+          para=" In recent years, the beauty and hair care industry has seen a significant surge in  ..."
+          link="/why-you-should-consider-keratin-hair-treatment"
+        />
+      </div>
 
       <div className="blogMainReadMore">
         <button onClick={handleRead}>Load {toggle ? "Less" : "More"}</button>

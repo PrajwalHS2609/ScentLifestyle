@@ -302,3 +302,37 @@
     display: flex;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 800px) {
+  .logo {
+    /* border: green solid; */
+    width: 90px;
+  }
+
+  .menuContent {
+    display: none;
+  }
+  .mainMenu {
+    display: flex;
+  }
+  .mainMenu {
+    margin-left: 200px;
+    width: 50px;
+    /* border: solid red; */
+  }
+}
+@media only screen and (min-width: 800px) and (max-width: 1200px) {
+  .logo {
+    /* border: green solid; */
+    width: 90px;
+  }
+  .menuContainer {
+    /* border: solid red; */
+    width: 100%;
+
+  }
+  .menuContent > li {
+    /* border: solid blueviolet; */
+    font-size: 15px;
+    text-align: center;
+  }
+}
