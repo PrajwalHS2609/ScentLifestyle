@@ -18,7 +18,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: 5%;
+  margin-top: 20px;
 }
 .membershipHeadContainer > h1 {
   font-size: 30px;
@@ -30,14 +30,18 @@
 }
 .membershipParaContainer {
   /* border: solid; */
-  margin-top: 5%;
   height: 100%;
   padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .membershipParaContainer > p {
   font-size: 20px;
   margin: 10px;
-  text-align: center;
+  text-align: justify;
+  width: 80%;
 }
 .membershipPriceContainer {
   /* border: solid; */
