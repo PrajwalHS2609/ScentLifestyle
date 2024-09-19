@@ -4,13 +4,14 @@ import trimBlog from "./../../../../Images/Blog/Does Trimming Hair Make It Grow 
 import BouncyHairBlog from "./../../../../Images/Blog/Hair Bouncy and Beautiful Curls During Monsoon.png";
 import BotoxImg from "./../../../../Images/Blog/HairBotoxImgs/HairBotox1.png";
 import top10 from "./../../../../Images/Blog/Top 10 hairColor/Banner Image.png";
-  import hairKeratin from "./../../../../Images/Blog/Keratin_Hair_Treatment/Banner Image.png";
+import hairKeratin from "./../../../../Images/Blog/Keratin_Hair_Treatment/Banner Image.png";
 import pedimanicurebanner from "./../../../../Images/Blog/Pedi&manicureBlog/Banner Image.png";
 import spaDayBanner from "./../../../../Images/Blog/How a Spa Day/Banner Image.png";
 import brazilWaxingBanner from "./../../../../Images/Blog/Everything_About_Brazilian_Waxing/Banner Image.png";
 import ChicSleek from "./../../../../Images/Blog/Chic & Sleek/Banner Image.png";
 import top5Spa from "./../../../../Images/Blog/The_Top_5_Hair_Spa_Today/Banner.png";
 import olaplexBanner from "./../../../../Images/Blog/How Olaplex Helps/Banner.png";
+import franchiseBanner from "./../../../../Images/Blog/Step-by-Step Guide/Banner.png";
 
 import BlogCard from "../BlogCard";
 const BlogMain = () => {
@@ -98,6 +99,12 @@ const BlogMain = () => {
           head="How Olaplex Helps Maintain Healthy Hair after Coloring?"
           para="Coloring your hair can be a fun way to express yourself, but it can also be a challenge to maintain ..."
           link="/how-olaplex-helps-maintain-healthy-hair-after-coloring"
+        />
+        <BlogCard
+          img={franchiseBanner}
+          head="Step-by-Step Guide to Setting up a Successful Salon Franchise in Bangalore"
+          para="Setting up a salon franchise in Bangalore is a lucrative business opportunity for ..."
+          link="/step-by-step-guide-to-setting-up-a-successful-salon-franchise-in-bangalore "
         />
       </div>
 

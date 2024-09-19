@@ -32,6 +32,11 @@
   color: var(--customColor);
   font-weight: bold;
 }
+.pediManicureWhat > ul > h4 {
+  color: var(--customColor);
+  font-size: 20px;
+  text-align: start;
+}
 .pediManicureWhat > ul > li > p > a {
   text-decoration: none;
   color: var(--customColor);
@@ -65,4 +70,5 @@
     /* border: solid red; */
     padding: 5px;
   }
+
 }

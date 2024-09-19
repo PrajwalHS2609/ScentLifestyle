@@ -153,6 +153,7 @@ import SpaInMeadows from "./Components/Spa/SpaInMeadows/SpaInMeadows";
 import LashesInMeadows from "./Components/Lashes/LashesInMeadows/LashesInMeadows";
 import BridalMakeupInMeadows from "./Components/BridalMakeUpPage/BridalMakeupInMeadows/BridalMakeupInMeadows";
 import MicroBladingInMeadows from "./Components/MicroBladingPage/MicroBladingInMeadows/MicroBladingInMeadows";
+import StepByStep from "./Components/BlogPage/BlogInnerPages/FranchiseInnerPage/StepByStep/StepByStep";
 const NotFound = () => (
   <div
     style={{
@@ -352,6 +353,10 @@ const App = () => {
           <Route
             path="/how-olaplex-helps-maintain-healthy-hair-after-coloring"
             element={<HowOlaplex />}
+          />
+          <Route
+            path="/step-by-step-guide-to-setting-up-a-successful-salon-franchise-in-bangalore"
+            element={<StepByStep />}
           />
           {/* ------------------------/blog------------------------      */}
           <Route path="/pre-bridal-treatments" element={<PrebridalPackage />} />

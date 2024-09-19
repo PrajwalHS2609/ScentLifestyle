@@ -73,3 +73,10 @@
     color: var(--customColor);
     font-weight: bold;
   }
+  @media screen and (min-width:320px) and (max-width:768px) {
+    .pediManicureHead > h1 {
+      font-size: 25px;
+      color: var(--customColor);
+      text-align: center;
+    }
+  }
