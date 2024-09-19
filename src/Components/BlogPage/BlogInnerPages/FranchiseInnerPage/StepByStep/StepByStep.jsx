@@ -23,6 +23,8 @@ import StepByStepLaunch from "./StepByStepLaunch";
 import StepByStepFocus from "./StepByStepFocus";
 import StepByStepMonitor from "./StepByStepMonitor";
 import StepByStepFinal from "./StepByStepFinal";
+import WhatsApp from "../../../../HomePage/WhatsApp/WhatsApp";
+import LastComp from "../../../../LastComp/LastComp";
 
 const StepByStep = () => {
   return (
@@ -65,6 +67,8 @@ const StepByStep = () => {
         <StepByStepMonitor />
         <StepByStepFinal />
       </div>
+      <WhatsApp/>
+      <LastComp />
     </div>
   );
 };
