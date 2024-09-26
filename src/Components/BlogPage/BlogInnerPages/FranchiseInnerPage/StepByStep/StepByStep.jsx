@@ -14,7 +14,6 @@ import hire from "./../../../../../Images/Blog/Step-by-Step Guide/Hire and Train
 import launch from "./../../../../../Images/Blog/Step-by-Step Guide/Launch a Strong Marketing Campaign.png";
 import focus from "./../../../../../Images/Blog/Step-by-Step Guide/Focus on Customer Experience.png";
 import monitor from "./../../../../../Images/Blog/Step-by-Step Guide/Monitor Performance and Adapt.png";
-
 import StepByStepSecure from "./StepByStepSecure";
 import StepByStepObtain from "./StepByStepObtain";
 import StepByStepDesign from "./StepByStepDesign";

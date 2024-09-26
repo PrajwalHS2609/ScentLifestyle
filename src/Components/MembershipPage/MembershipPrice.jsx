@@ -118,7 +118,7 @@ const MembershipPrice = () => {
           </h3>
         </div>
         <div className="membershipPriceItem25">
-          <h3>2 YEAR</h3>
+          <h3>2 YEARS</h3>
         </div>
         <div className="membershipPriceItem16">
           <h3>GOLD</h3>

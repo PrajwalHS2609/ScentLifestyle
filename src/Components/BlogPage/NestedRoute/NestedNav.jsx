@@ -1,6 +1,6 @@
 import React from "react";
 import "./Nested.css";
-import {NavLink} from "react-router-dom";
+import { NavLink } from "react-router-dom";
 const NestedNav = () => {
   return (
     <div className="nestedNav">
@@ -27,10 +27,12 @@ const NestedNav = () => {
       </li> */}
       {/* <li>
         <NavLink to={"/blog/bridal-makeup-blog"}>Bridal Makeup</NavLink>
-      </li>
-      <li>
-        <NavLink to={"/blog/hair-blog"}>Eyebrow Microblading</NavLink>
       </li> */}
+      <li>
+        <NavLink to={"/blog/eyebrow-microblading-blog"}>
+          Eyebrow Microblading
+        </NavLink>
+      </li>
     </div>
   );
 };

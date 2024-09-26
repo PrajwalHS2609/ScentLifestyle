@@ -154,6 +154,16 @@ import LashesInMeadows from "./Components/Lashes/LashesInMeadows/LashesInMeadows
 import BridalMakeupInMeadows from "./Components/BridalMakeUpPage/BridalMakeupInMeadows/BridalMakeupInMeadows";
 import MicroBladingInMeadows from "./Components/MicroBladingPage/MicroBladingInMeadows/MicroBladingInMeadows";
 import StepByStep from "./Components/BlogPage/BlogInnerPages/FranchiseInnerPage/StepByStep/StepByStep";
+import WhyEyeBrowPage from "./Components/BlogPage/BlogInnerPages/EyeBrowInnerPages/WhyEyeBrowPage/WhyEyeBrowPage";
+import BlogEyeBrow from "./Components/BlogPage/BlogPages/BlogEyeBrow/BlogEyeBrow";
+import HairSalonInSahakaranagar from "./Components/HairServicePage/HairSalonInSahakaranagar/HairSalonInSahakaranagar";
+import NailSalonInSahakarNagar from "./Components/NaliSalonPage/NailSalonInSahakarNagar/NailSalonInSahakarNagar";
+import FacialInSahakaraNagar from "./Components/FacialPage/FacialInSahakaraNagar/FacialInSahakaraNagar";
+import BeautyInSahakarNagar from "./Components/Beauty/BeautyInSahakarNagar/BeautyInSahakarNagar";
+import SpaInSahakarNagar from "./Components/Spa/SpaInSahakarNagar/SpaInSahakarNagar";
+import LashesInSahakarNagar from "./Components/Lashes/LashesInSahakarNagar/LashesInSahakarNagar";
+import BridalMakeUpInSahakarNagar from "./Components/BridalMakeUpPage/BridalMakeUpInSahakarNagar/BridalMakeUpInSahakarNagar";
+import MicroBladingInSahakarNagar from "./Components/MicroBladingPage/MicroBladingInSahakarNagar/MicroBladingInSahakarNagar";
 const NotFound = () => (
   <div
     style={{
@@ -309,6 +319,10 @@ const App = () => {
               path="/blog/beauty-essentials-blog"
               element={<BlogBeautyEssentials />}
             />
+            <Route
+              path="/blog/eyebrow-microblading-blog"
+              element={<BlogEyeBrow />}
+            />
           </Route>
           <Route
             path="/does-trimming-hair-make-it-grow-faster"
@@ -357,6 +371,10 @@ const App = () => {
           <Route
             path="/step-by-step-guide-to-setting-up-a-successful-salon-franchise-in-bangalore"
             element={<StepByStep />}
+          />
+          <Route
+            path="/why-eyebrow-shaping-is-the-secret-to-a-polished-look"
+            element={<WhyEyeBrowPage />}
           />
           {/* ------------------------/blog------------------------      */}
           <Route path="/pre-bridal-treatments" element={<PrebridalPackage />} />
@@ -581,6 +599,39 @@ const App = () => {
           <Route
             path="/eyebrow-microblading-in-meadows-whitefield"
             element={<MicroBladingInMeadows />}
+          />
+          {/* -----------------InSahakarNagar-------------- */}
+          <Route
+            path="/hair-salon-in-sahakara-nagar-bangalore"
+            element={<HairSalonInSahakaranagar />}
+          />
+          <Route
+            path="/nail-salon-in-sahakara-nagar-bangalore"
+            element={<NailSalonInSahakarNagar />}
+          />
+          <Route
+            path="/facials-in-sahakara-nagar-bangalore"
+            element={<FacialInSahakaraNagar />}
+          />
+          <Route
+            path="/body-waxing-threading-and-d-tan-in-sahakara-nagar-bangalore"
+            element={<BeautyInSahakarNagar />}
+          />
+          <Route
+            path="/spa-in-sahakara-nagar-bangalore"
+            element={<SpaInSahakarNagar />}
+          />
+          <Route
+            path="/eye-lashes-in-sahakara-nagar-bangalore"
+            element={<LashesInSahakarNagar />}
+          />
+          <Route
+            path="/bridal-makeup-in-sahakara-nagar-bangalore"
+            element={<BridalMakeUpInSahakarNagar />}
+          />
+          <Route
+            path="/eyebrow-microblading-in-sahakara-nagar-bangalore"
+            element={<MicroBladingInSahakarNagar />}
           />
         </Routes>
       </BrowserRouter>

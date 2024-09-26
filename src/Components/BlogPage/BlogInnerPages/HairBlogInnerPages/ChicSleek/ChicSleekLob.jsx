@@ -19,7 +19,7 @@ const ChicSleekLob = () => {
             Sleek Pixie:
           </span>
           <p>
-            • Straight Lob: A straight lob with blunt ends is sleek and
+            Straight Lob: A straight lob with blunt ends is sleek and
             sophisticated, making it ideal for a professional setting. It’s also
             a great option for women with fine hair, as it adds the appearance
             of fullness.ect for women who want a low-maintenance yet stylish

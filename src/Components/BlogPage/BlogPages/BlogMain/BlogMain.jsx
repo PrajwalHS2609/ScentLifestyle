@@ -12,6 +12,7 @@ import ChicSleek from "./../../../../Images/Blog/Chic & Sleek/Banner Image.png";
 import top5Spa from "./../../../../Images/Blog/The_Top_5_Hair_Spa_Today/Banner.png";
 import olaplexBanner from "./../../../../Images/Blog/How Olaplex Helps/Banner.png";
 import franchiseBanner from "./../../../../Images/Blog/Step-by-Step Guide/Banner.png";
+import eyeBrowBanner from "./../../../../Images/Blog/Why_Eyebrow_Shaping/Banner.png";
 
 import BlogCard from "../BlogCard";
 const BlogMain = () => {
@@ -104,7 +105,13 @@ const BlogMain = () => {
           img={franchiseBanner}
           head="Step-by-Step Guide to Setting up a Successful Salon Franchise in Bangalore"
           para="Setting up a salon franchise in Bangalore is a lucrative business opportunity for ..."
-          link="/step-by-step-guide-to-setting-up-a-successful-salon-franchise-in-bangalore "
+          link="/step-by-step-guide-to-setting-up-a-successful-salon-franchise-in-bangalore"
+        />
+        <BlogCard
+          img={eyeBrowBanner}
+          head="Why Eyebrow Shaping is the Secret to a Polished Look"
+          para="When it comes to beauty and grooming, eyebrows often take center stage. They frame your..."
+          link="/why-eyebrow-shaping-is-the-secret-to-a-polished-look"
         />
       </div>
 
