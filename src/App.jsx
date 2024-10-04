@@ -107,7 +107,6 @@ import HairSpa from "./Components/HairServicePage/HairInnerServicePage/HairSpa/H
 import HairTreatment from "./Components/HairServicePage/HairInnerServicePage/HairTreatment/HairTreatment";
 import BeardPage from "./Components/HairServicePage/HairInnerServicePage/BeardPage/BeardPage";
 import MustachePage from "./Components/HairServicePage/HairInnerServicePage/MustachePage/MustachePage";
-import NavBg from "./Components/NavBg/NavBg";
 import HairKeratin from "./Components/BlogPage/BlogInnerPages/HairKeratin/HairKeratin";
 import BotoxLanding from "./Components/BotoxLanding/BotoxLanding";
 import HairTreatmentLandingPage from "./Components/HairTreatmentLandingPage/HairTreatmentLandingPage";
@@ -170,20 +169,6 @@ import SpaInUptown from "./Components/Spa/SpaInUptown/SpaInUptown";
 import LashesInUptown from "./Components/Lashes/LashesInUptown/LashesInUptown";
 import BridalMakeupInUptown from "./Components/BridalMakeUpPage/BridalMakeupInUptown/BridalMakeupInUptown";
 import MicroBladingInUptown from "./Components/MicroBladingPage/MicroBladingInUptown/MicroBladingInUptown";
-const NotFound = () => (
-  <div
-    style={{
-      fontSize: "100px",
-      width: "100%",
-      textAlign: "center",
-      backgroundColor: "white",
-      height: "100vh",
-    }}
-  >
-    <NavBg />
-    Page Not Found
-  </div>
-);
 
 const App = () => {
   return (
@@ -193,7 +178,9 @@ const App = () => {
         {/* <NavBar/> */}
         <ScrollTo />
         <Routes>
-          <Route path="*" element={<NotFound />} />
+        {/* ----pageNotfound---- */}
+          <Route path="*" element={<Navigate to="/" replace />} /> 
+          {/* ----/pageNotfound---- */}
           <Route path="/" element={<HomePage />} />
           <Route path="/service" element={<MainServicePage />} />
           <Route path="/hair-salon" element={<HairServicePage />} />
