@@ -13,9 +13,9 @@ import InstaFeed from "../../HomePage/InstaFeed/InstaFeed";
 import HelpNearYou from "../../Help/HelpNearYou";
 import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
-import HairSalonJpImg from "../HairSalonJp/HairSalonJpImg/HairSalonJpImg";
 import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
 import LastComp from "../../LastComp/LastComp";
+import HairSalonInLavelleImg from "../HairSalonInLavelle/HairSalonInLavelleImg/HairSalonInLavelleImg";
 
 const HairSalonInSahakaranagar = () => {
   return (
@@ -35,7 +35,7 @@ const HairSalonInSahakaranagar = () => {
           href="https://scentlifestyle.com/hair-salon-in-sahakara-nagar-bangalore"
         />
       </Helmet>
-      <HairSalonJpImg />
+      <HairSalonInLavelleImg />
       <InnerNavi
         link="/hair-salon"
         service="Hair Salon"

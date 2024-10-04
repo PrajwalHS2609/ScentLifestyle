@@ -17,6 +17,7 @@ import FacialInLavelleXp from "./FacialInLavelleXp";
 import FacialInLavelleDiff from "./FacialInLavelleDiff";
 import FacialInLavelleCustomer from "./FacialInLavelleCustomer";
 import FacialInLavelleBook from "./FacialInLavelleBook";
+import FacialInLavelleImg from "./FacialInLavelleImg";
 
 const FacialInLavelle = () => {
   return (
@@ -37,7 +38,7 @@ const FacialInLavelle = () => {
         />
       </Helmet>
       <NavBg />
-      <HairSalonInLavelleImg />
+      <FacialInLavelleImg/>
       <InnerNavi
         link="/facial"
         service="Hair Salon"

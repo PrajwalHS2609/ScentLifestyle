@@ -10,7 +10,6 @@ import Lavelle from "./../../Images/lavelle road.jpg";
 import Jakkur from "./../../Images/jakkur.jpg";
 import varthur from "./../../Images/Varthur - whitefield.jpg";
 import Seege from "./../../Images/seegehalli - whitefield.jpg";
-import jp from "./../../Images/JP Nagar.jpg";
 
 const HelpNearYouCards = () => {
   function SampleNextArrow(props) {
@@ -117,12 +116,6 @@ const HelpNearYouCards = () => {
           no="9686221700"
           link="/salon-in-whitefield"
         />
-        <HelpCard
-          city="JP Nagar"
-          image={jp}
-          no="88612 22700"
-          link="/salon-in-jpnagar"
-        />
       </div>
 
       <div className="respHelpNearYouCardContainer">
@@ -157,12 +150,6 @@ const HelpNearYouCards = () => {
             image={Seege}
             no="9686221700"
             link="/salon-in-whitefield"
-          />
-          <HelpCard
-            city="JP Nagar"
-            image={jp}
-            no="8861222700"
-            link="/salon-in-jpnagar"
           />
         </Slider>
       </div>

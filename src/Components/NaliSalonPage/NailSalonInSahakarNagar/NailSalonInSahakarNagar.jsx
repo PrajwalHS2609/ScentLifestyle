@@ -39,8 +39,8 @@ const NailSalonInSahakarNagar = () => {
     </Helmet>
     <HairSalonInMeadowsImg img={nailMeadowsImg} alt={nailMeadowsImg} />
     <InnerNavi
-      link="/hair-salon"
-      service="Hair Salon"
+      link="/nail-salon"
+      service="Nail Salon"
       currService="Nail salon in Sahakara Nagar"
     />
     <NailSalonInSahakarNagarHead />

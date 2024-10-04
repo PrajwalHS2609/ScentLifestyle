@@ -24,14 +24,12 @@ import LavellelLocPage from "./Components/LocationPage/LavelleLoc/LavellelLocPag
 import JakkuruLocPage from "./Components/LocationPage/JakkuruLocPage/JakkuruLocPage";
 import UpTownLocPage from "./Components/LocationPage/UpTownLocPage/UpTownLocPage";
 import MeadowsLocPage from "./Components/LocationPage/MeadowsLocPage/MeadowsLocPage";
-import Jp from "./Components/LocationPage/Jp/Jp";
 import ContactPage from "./Components/ContactPage/ContactPage";
 import HairSalonSahakar from "./Components/HairSalonLocations/HairSalonSahakar/HairSalonSahakar";
 import HairSalonLavelle from "./Components/HairSalonLocations/HairSalonLavelle/HairSalonLavelle";
 import HairSalonJakkur from "./Components/HairSalonLocations/HairSalonJakkur/HairSalonJakkur";
 import HairSalonUptown from "./Components/HairSalonLocations/HairSalonUptown/HairSalonUptown";
 import HairSalonMeadows from "./Components/HairSalonLocations/HairSalonMedows/HairSalonMeadows";
-import HairSalonJp from "./Components/HairSalonLocations/HairSalonJp/HairSalonJp";
 import NailSalonNearMe from "./Components/NearMe/NailNearMe/NailSalonNearMe";
 import PedicureNearMe from "./Components/NearMe/PedicureNearMe/PedicureNearMe";
 import WomeSpaNearMe from "./Components/NearMe/WomenSpaNearMe/WomeSpaNearMe";
@@ -164,6 +162,14 @@ import SpaInSahakarNagar from "./Components/Spa/SpaInSahakarNagar/SpaInSahakarNa
 import LashesInSahakarNagar from "./Components/Lashes/LashesInSahakarNagar/LashesInSahakarNagar";
 import BridalMakeUpInSahakarNagar from "./Components/BridalMakeUpPage/BridalMakeUpInSahakarNagar/BridalMakeUpInSahakarNagar";
 import MicroBladingInSahakarNagar from "./Components/MicroBladingPage/MicroBladingInSahakarNagar/MicroBladingInSahakarNagar";
+import HairSalonInUptown from "./Components/HairServicePage/HairSalonInUptown/HairSalonInUptown";
+import NailSalonInUptown from "./Components/NaliSalonPage/NaliSalonInUptown/NailSalonInUptown";
+import FacialInUptown from "./Components/FacialPage/FacialInUptown/FacialInUptown";
+import BeautyInUptown from "./Components/Beauty/BeautyInUptown/BeautyInUptown";
+import SpaInUptown from "./Components/Spa/SpaInUptown/SpaInUptown";
+import LashesInUptown from "./Components/Lashes/LashesInUptown/LashesInUptown";
+import BridalMakeupInUptown from "./Components/BridalMakeUpPage/BridalMakeupInUptown/BridalMakeupInUptown";
+import MicroBladingInUptown from "./Components/MicroBladingPage/MicroBladingInUptown/MicroBladingInUptown";
 const NotFound = () => (
   <div
     style={{
@@ -212,7 +218,6 @@ const App = () => {
           <Route path="/salon-membership" element={<MembershipPage />} />
           {/* <Route path="/franchise" element={<FranchisePage />} /> */}
           {/* -------------Redirection-------------*/}
-
           <Route
             path="/beauty-salon-franchise-in-bangalore"
             element={<SalonFranchise />}
@@ -224,7 +229,6 @@ const App = () => {
             }
           />
           {/* -------------/Redirection-------------*/}
-
           <Route path="/shop" element={<ShopPage />} />
           <Route path="/contact-us" element={<ContactPage />} />
           <Route path="/location" element={<LocationPage />} />
@@ -236,7 +240,6 @@ const App = () => {
             element={<UpTownLocPage />}
           />
           <Route path="/salon-in-whitefield" element={<MeadowsLocPage />} />
-          <Route path="/salon-in-jpnagar" element={<Jp />} />
           {/* -------------Redirection-------------*/}
           <Route
             path="/hair-cut-salon-in-sahakar-nagar"
@@ -247,12 +250,10 @@ const App = () => {
             element={<Navigate to="/hair-cut-salon-in-sahakar-nagar" replace />}
           />
           {/* -------------/Redirection-------------*/}
-
           <Route
             path="/hair-cut-salon-in-lavelle-road"
             element={<HairSalonLavelle />}
           />
-
           <Route
             path="/hair-cut-salon-in-jakkur"
             element={<HairSalonJakkur />}
@@ -264,10 +265,6 @@ const App = () => {
           <Route
             path="/hair-cut-salon-in-meadows-whitefield"
             element={<HairSalonMeadows />}
-          />
-          <Route
-            path="/hair-cut-salon-in-jp-nagar-bangalore"
-            element={<HairSalonJp />}
           />
           <Route path="/nails-salon-near-me" element={<NailSalonNearMe />} />
           <Route path="/pedicure-near-me" element={<PedicureNearMe />} />
@@ -378,7 +375,6 @@ const App = () => {
           />
           {/* ------------------------/blog------------------------      */}
           <Route path="/pre-bridal-treatments" element={<PrebridalPackage />} />
-
           <Route path="/organic-facial-services" element={<OrganicFacial />} />
           <Route
             path="/snow-white-facial-services"
@@ -490,24 +486,6 @@ const App = () => {
             path="/lp-hair-highlights-and-streaks"
             element={<HairColorStreaksLandingPage />}
           />
-          {/* <Route path="/hair-salon-in-jp-nagar" element={<HairSalonInJp />} />
-          <Route path="/nail-salon-in-jp-nagar" element={<NailSalonInJp />} />
-          <Route path="/facials-in-jp-nagar" element={<FacialInJp />} />
-
-          <Route
-            path="/body-waxing-threading-and-d-tan-in-jp-nagar"
-            element={<BodyWaxingInJp />}
-          />
-          <Route path="/spa-in-jp-nagar" element={<SpaInJp />} />
-          <Route path="/eye-lashes-in-jp-nagar" element={<LashesInJp />} />
-          <Route
-            path="/bridal-makeup-in-jp-nagar"
-            element={<BridalMakeupInJp />}
-          />
-          <Route
-            path="/eyebrow-microblading-in-jp-nagar"
-            element={<MicroBladingInJp />}
-          /> */}
           {/* -------------------InLavelleRoad-------------------- */}
           <Route
             path="/hair-salon-in-lavelle-road"
@@ -632,6 +610,39 @@ const App = () => {
           <Route
             path="/eyebrow-microblading-in-sahakara-nagar-bangalore"
             element={<MicroBladingInSahakarNagar />}
+          />
+          {/* -----------------------InUptown--------------------------- */}
+          <Route
+            path="/hair-salon-in-uptown-whitefield-bangalore"
+            element={<HairSalonInUptown />}
+          />
+          <Route
+            path="/nail-salon-in-uptown-whitefield"
+            element={<NailSalonInUptown />}
+          />
+          <Route
+            path="/facials-in-uptown-whitefield-bangalore"
+            element={<FacialInUptown />}
+          />
+          <Route
+            path="/body-waxing-threading-and-d-tan-in-uptown-whitefield-bangalore"
+            element={<BeautyInUptown />}
+          />
+          <Route
+            path="/spa-in-uptown-whitefield-bangalore"
+            element={<SpaInUptown />}
+          />
+          <Route
+            path="/eye-lashes-in-uptown-whitefield-bangalore"
+            element={<LashesInUptown />}
+          />
+          <Route
+            path="/bridal-makeup-in-uptown-whitefield-bangalore"
+            element={<BridalMakeupInUptown />}
+          />
+          <Route
+            path="/eyebrow-microblading-in-uptown-whitefield-bangalore"
+            element={<MicroBladingInUptown />}
           />
         </Routes>
       </BrowserRouter>
