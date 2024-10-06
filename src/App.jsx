@@ -17,7 +17,6 @@ import ScentPhiloPage from "./Components/ScentPhiloPage/ScentPhiloPage";
 import StyleCrewPage from "./Components/StyleCrewPage/StyleCrewPage";
 import AboutMyselfPage from "./Components/AboutMyselfPage/AboutMyselfPage";
 import MembershipPage from "./Components/MembershipPage/MembershipPage";
-// import FranchisePage from "./Components/FranchisePage/FranchisePage";
 import ShopPage from "./Components/ShopPage/ShopPage";
 import SahakarLocPage from "./Components/LocationPage/SahakarLocPage/SahakarLocPage";
 import LavellelLocPage from "./Components/LocationPage/LavelleLoc/LavellelLocPage";
@@ -41,7 +40,6 @@ import BodySpaNearMe from "./Components/NearMe/BodySpaNearMe/BodySpaNearMe";
 import GentsSalonNearMe from "./Components/NearMe/GentsSalon/GentsSalonNearMe";
 import HeadMassageNearMe from "./Components/NearMe/HeadMassageNearMe.jsx/HeadMassageNearMe";
 import FootMassageNearMe from "./Components/NearMe/FootMassageNearMe/FootMassageNearMe";
-// import OfferPage from "./Components/OfferPage/OfferPage";
 import MainLayout from "./Components/MainLayout/MainLayout";
 import NailExtensionPage from "./Components/NaliSalonPage/NailExtensionPage/NailExtensionPage";
 import GelNailArtPage from "./Components/NaliSalonPage/GelNailArtPage/GelNailArtPage";
@@ -175,7 +173,6 @@ const App = () => {
     <div>
       <BrowserRouter>
         <MainLayout />
-        {/* <NavBar/> */}
         <ScrollTo />
         <Routes>
         {/* ----pageNotfound---- */}
@@ -203,7 +200,6 @@ const App = () => {
           <Route path="/crew" element={<StyleCrewPage />} />
           <Route path="/myself" element={<AboutMyselfPage />} />
           <Route path="/salon-membership" element={<MembershipPage />} />
-          {/* <Route path="/franchise" element={<FranchisePage />} /> */}
           {/* -------------Redirection-------------*/}
           <Route
             path="/beauty-salon-franchise-in-bangalore"
@@ -267,7 +263,6 @@ const App = () => {
           <Route path="/gents-salon-near-me" element={<GentsSalonNearMe />} />
           <Route path="/head-massage-near-me" element={<HeadMassageNearMe />} />
           <Route path="/foot-massage-near-me" element={<FootMassageNearMe />} />
-          {/* <Route path="/offer" element={<OfferPage />} /> */}
           <Route path="/nails-extension" element={<NailExtensionPage />} />
           <Route path="/gel-nail-art" element={<GelNailArtPage />} />
           <Route path="/chrome-gel-nail-polish" element={<ChromeGelPage />} />
