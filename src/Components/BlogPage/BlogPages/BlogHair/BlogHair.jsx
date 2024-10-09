@@ -7,6 +7,7 @@ import top10 from "./../../../../Images/Blog/Top 10 hairColor/Banner Image.png";
 import ChicSleek from "./../../../../Images/Blog/Chic & Sleek/Banner Image.png";
 import olaplexBanner from "./../../../../Images/Blog/How Olaplex Helps/Banner.png";
 import hairKeratin from "./../../../../Images/Blog/Keratin_Hair_Treatment/Banner Image.png";
+import GlamorousImg from "./../../../../Images/Blog/Get Ready for a Glamorous Night/Banner.png";
 
 const BlogHair = () => {
   let [toggle, setToggle] = useState(false);
@@ -50,7 +51,7 @@ const BlogHair = () => {
         <BlogCard
           img={ChicSleek}
           head="Chic & Sleek - Women’s Haircuts That Define You"
-          para="When it comes to expressing your personal style, few things make as bold a statement as your haircut. A well-chosen haircut not only complements your features but also ..."
+          para="When it comes to expressing your personal style, few things make as bold a statement as your haircut. A well-chosen haircut not only..."
           link="/chic-and-sleek-womens-haircuts-that-define-you"
         />
         <BlogCard
@@ -62,11 +63,17 @@ const BlogHair = () => {
       </div>
 
       <div className="blogMainDisplay2" ref={switchRef}>
-      <BlogCard
+        <BlogCard
           img={hairKeratin}
           head="Why You Should Consider Keratin Hair Treatment"
           para=" In recent years, the beauty and hair care industry has seen a significant surge in  ..."
           link="/why-you-should-consider-keratin-hair-treatment"
+        />
+        <BlogCard
+          img={GlamorousImg}
+          head="Get Ready for a Glamorous Night Out: 5 Quick and Easy Hairstyles"
+          para="A glamorous night out calls for a stunning hairstyle that complements your outfit and makes you feel confident and ..."
+          link="/get-ready-for-a-glamorous-night-out-5-quick-and-easy-hairstyles"
         />
       </div>
 

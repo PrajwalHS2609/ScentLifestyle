@@ -167,6 +167,7 @@ import SpaInUptown from "./Components/Spa/SpaInUptown/SpaInUptown";
 import LashesInUptown from "./Components/Lashes/LashesInUptown/LashesInUptown";
 import BridalMakeupInUptown from "./Components/BridalMakeUpPage/BridalMakeupInUptown/BridalMakeupInUptown";
 import MicroBladingInUptown from "./Components/MicroBladingPage/MicroBladingInUptown/MicroBladingInUptown";
+import Glamorous from "./Components/BlogPage/BlogInnerPages/HairBlogInnerPages/Glamorous/Glamorous";
 
 const App = () => {
   return (
@@ -175,8 +176,8 @@ const App = () => {
         <MainLayout />
         <ScrollTo />
         <Routes>
-        {/* ----pageNotfound---- */}
-          <Route path="*" element={<Navigate to="/" replace />} /> 
+          {/* ----pageNotfound---- */}
+          <Route path="*" element={<Navigate to="/" replace />} />
           {/* ----/pageNotfound---- */}
           <Route path="/" element={<HomePage />} />
           <Route path="/service" element={<MainServicePage />} />
@@ -354,6 +355,10 @@ const App = () => {
           <Route
             path="/why-eyebrow-shaping-is-the-secret-to-a-polished-look"
             element={<WhyEyeBrowPage />}
+          />
+          <Route
+            path="/get-ready-for-a-glamorous-night-out-5-quick-and-easy-hairstyles"
+            element={<Glamorous />}
           />
           {/* ------------------------/blog------------------------      */}
           <Route path="/pre-bridal-treatments" element={<PrebridalPackage />} />

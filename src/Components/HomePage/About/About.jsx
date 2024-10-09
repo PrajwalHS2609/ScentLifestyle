@@ -33,7 +33,7 @@ const About = () => {
             <p>We indulge you.</p>
 
             <p>
-              We have seven salons located in the significant locations in the
+              We have five salons located in the significant locations in the
               city. Premium services with a touch of hedonism, opulence, and
               luxury are part of the scent experience. Take time out, unwind,
               put your feet up! Experience a confident boosting makeover. Bring
