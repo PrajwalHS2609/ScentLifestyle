@@ -40,7 +40,8 @@ const BodySpaNearMePara = () => {
         a <Link to={"/spa"}>radiant glow and smooth texture</Link>, making them
         a must-try for anyone seeking comprehensive body care.
       </p>
-      <h2>"Why SCENT Salon is the Best Choice for Body Spa Near Me</h2>
+      <br />
+      <h2>Why SCENT Salon is the Best Choice for Body Spa Near Me</h2>
       <p>
         <Link to={"/"}>SCENT Salon </Link> has earned a reputation as a premier
         body spa, making it the ideal choice for those looking for a{" "}
@@ -71,6 +72,7 @@ const BodySpaNearMePara = () => {
         <Link to={"/"}> SCENT Salon's</Link> packages offer excellent value and
         exceptional results.
       </p>
+      <br />
       <h2>A Haven for Your Body and Mind</h2>
       <p>
         Finding a <Link to={"/body-spa-near-me"}>"body spa near me,"</Link> that
@@ -104,6 +106,7 @@ const BodySpaNearMePara = () => {
         to provide a deeply relaxing experience that leaves you feeling
         revitalized.
       </p>
+      <br />
       <h2>Book Your Body Spa Appointment Today</h2>
       <p>
         Your search for the perfect{" "}
@@ -125,6 +128,7 @@ const BodySpaNearMePara = () => {
         thoughtful gesture, allowing your loved ones to experience the best{" "}
         <Link to={"/body-spa-near-me"}>"body spa near me,"</Link>.
       </p>
+      <br />
       <h2>Conclusion</h2>
       <p>
         When searching for{" "}
@@ -145,6 +149,7 @@ const BodySpaNearMePara = () => {
         care session, <Link to={"/"}>SCENT Salon</Link> is the ultimate "body
         spa near me" for all your wellness needs.
       </p>
+      <br />
       <h2>Specialized Treatments for Total Well-Being</h2>
       <p>
         For those seeking specialized{" "}
@@ -188,6 +193,7 @@ const BodySpaNearMePara = () => {
         <Link to={"/spa"}>relaxing and rejuvenating</Link> escape, providing you
         with the best possible body care experience.
       </p>
+      <br />
       <h2>Aromatherapy Sessions for Mental Wellness</h2>
       <p>
         SCENT Salon’s aromatherapy sessions are a perfect choice for those
@@ -199,6 +205,7 @@ const BodySpaNearMePara = () => {
         <Link to={"/"}>SCENT Salon</Link> is an excellent way to support your
         overall well-being.
       </p>
+      <br />
       <h2>Convenient Location and Flexible Hours</h2>
       <p>
         A key factor in choosing a{" "}

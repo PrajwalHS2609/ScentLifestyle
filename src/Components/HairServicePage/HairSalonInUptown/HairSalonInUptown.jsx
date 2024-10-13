@@ -16,6 +16,7 @@ import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
 import HairSalonInUptownHead from "./HairSalonInUptownHead/HairSalonInUptownHead";
 import HairSalonInLavelleImg from "../HairSalonInLavelle/HairSalonInLavelleImg/HairSalonInLavelleImg";
+import hairUptownImg from "./../../../Images/JP_Nagar/Hair.png";
 
 const HairSalonInUptown = () => {
   return (
@@ -35,7 +36,7 @@ const HairSalonInUptown = () => {
           href="https://scentlifestyle.com/hair-salon-in-uptown-whitefield-bangalore"
         />
       </Helmet>
-      <HairSalonInLavelleImg />
+      <HairSalonInLavelleImg img={hairUptownImg} alt={hairUptownImg} />
       <InnerNavi
         link="/hair-salon"
         service="Hair Salon"

@@ -1,0 +1,50 @@
+.hairSalonNearMeCustomer {
+    /* border: solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+  }
+  .hairSalonNearMeCustomer > h5 {
+    text-align: center;
+    width: 100%;
+    font-size: 25px;
+    color: var(--customColor);
+  }
+  .hairSalonNearMeCustomer > p {
+    font-size: 20px;
+    text-align: justify;
+  }
+  .hairSalonNearMeCustomer > p > a {
+    text-decoration: none;
+    color: var(--customColor);
+  }
+  .hairSalonNearMeCustomerContent {
+    /* border: solid blue; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .hairSalonNearMeCustomerContent > p {
+    font-size: 20px;
+    text-align: justify;
+    width: 70%;
+    line-height: 35px;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 5px rgb(171, 171, 171);
+  }
+  .hairSalonNearMeCustomerContent > p > span {
+    color: var(--customColor);
+    font-weight: bold;
+  }
+  .quote {
+    font-size: 30px;
+  }
+  

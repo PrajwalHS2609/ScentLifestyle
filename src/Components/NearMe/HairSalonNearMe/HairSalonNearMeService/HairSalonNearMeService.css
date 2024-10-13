@@ -1,0 +1,93 @@
+.hairSalonNearMeService {
+    /* border: solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px;
+  }
+  .hairSalonNearMeService > h2 {
+    color: var(--customColor);
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+  }
+  .hairSalonNearMeService > h3 {
+    color: var(--customColor);
+    width: 100%;
+    text-align: start;
+    font-size: 25px;
+  }
+  .hairSalonNearMeService > p {
+    width: 100%;
+    font-size: 20px;
+    text-align: justify;
+  }
+  .hairSalonNearMeService > p > a {
+    color: var(--customColor);
+    text-decoration: none;
+  }
+  .hairSalonNearMeService > li > h6 {
+    color: var(--customColor);
+    font-size: 20px;
+  }
+  .hairSalonNearMeService > li > p > a {
+    color: var(--customColor);
+    text-decoration: none;
+  }
+  .hairSalonNearMeService > li {
+    /* border: solid; */
+    width: 100%;
+    font-size: 20px;
+    text-align: start;
+    list-style: none;
+  }
+  .hairSalonNearMeService > li > ul > li {
+    list-style: none;
+    font-size: 20px;
+    text-align: justify;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+    width: 90%;
+  }
+  .hairSalonNearMeService > li > ul > li > span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: var(--customColor);
+    text-align: start;
+  }
+  .hairSalonNearMeService > li > ul > li > span > img {
+    width: 20px;
+    height: 20px;
+  }
+  .hairSalonNearMeService > li > span {
+    /* border: solid; */
+    color: var(--customColor);
+  }
+  .hairSalonNearMeService > li > a {
+    text-decoration: none;
+    color: var(--customColor);
+  }
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    .hairSalonNearMeService > h2 {
+      color: var(--customColor);
+      width: 100%;
+      text-align: center;
+      font-size: 20px;
+    }
+    .hairSalonNearMeService > h3 {
+      color: var(--customColor);
+      width: 100%;
+      text-align: start;
+      font-size: 20px;
+    }
+  }
+  

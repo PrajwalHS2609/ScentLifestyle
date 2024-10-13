@@ -168,6 +168,16 @@ import LashesInUptown from "./Components/Lashes/LashesInUptown/LashesInUptown";
 import BridalMakeupInUptown from "./Components/BridalMakeUpPage/BridalMakeupInUptown/BridalMakeupInUptown";
 import MicroBladingInUptown from "./Components/MicroBladingPage/MicroBladingInUptown/MicroBladingInUptown";
 import Glamorous from "./Components/BlogPage/BlogInnerPages/HairBlogInnerPages/Glamorous/Glamorous";
+import HairSalonNearMe from "./Components/NearMe/HairSalonNearMe/HairSalonNearMe";
+import HairBeautyNearMe from "./Components/NearMe/HairBeautyNearMe/HairBeautyNearMe";
+import HairColoristNearMe from "./Components/NearMe/HairColoristNearMe/HairColoristNearMe";
+import UnisexHairSalonNearMe from "./Components/NearMe/UnisexHairSalonNearMe/UnisexHairSalonNearMe";
+import BrunetteColorNearMe from "./Components/NearMe/BrunetteColorNearMe/BrunetteColorNearMe";
+import GlobalColorNearMe from "./Components/NearMe/GlobalColorNearMe/GlobalColorNearMe";
+import BalayageColorNearMe from "./Components/NearMe/BalayageColorNearMe/BalayageColorNearMe";
+import HairColorServiceNearMe from "./Components/NearMe/HairColorServiceNearMe/HairColorServiceNearMe";
+import SchwarzkopfColorNearMe from "./Components/NearMe/SchwarzkopfColorNearMe/SchwarzkopfColorNearMe";
+import GoldenColorNearMe from "./Components/NearMe/GoldenColorNearMe/GoldenColorNearMe";
 
 const App = () => {
   return (
@@ -250,6 +260,7 @@ const App = () => {
             path="/hair-cut-salon-in-meadows-whitefield"
             element={<HairSalonMeadows />}
           />
+          {/* --------------------------------------NearMe------------------------ */}
           <Route path="/nails-salon-near-me" element={<NailSalonNearMe />} />
           <Route path="/pedicure-near-me" element={<PedicureNearMe />} />
           <Route path="/women-spa-near-me" element={<WomeSpaNearMe />} />
@@ -264,6 +275,49 @@ const App = () => {
           <Route path="/gents-salon-near-me" element={<GentsSalonNearMe />} />
           <Route path="/head-massage-near-me" element={<HeadMassageNearMe />} />
           <Route path="/foot-massage-near-me" element={<FootMassageNearMe />} />
+          <Route path="/hair-salon-near-me" element={<HairSalonNearMe />} />
+          <Route
+            path="/hair-and-beauty-salon-near-me"
+            element={<HairBeautyNearMe />}
+          />
+          <Route
+            path="/gents-hair-salon-near-me"
+            element={<GentsSalonNearMe />}
+          />
+          <Route
+            path="/unisex-hair-salon-near-me"
+            element={<UnisexHairSalonNearMe />}
+          />
+          <Route
+            path="/hair-colorist-salon-near-me"
+            element={<HairColoristNearMe />}
+          />
+          <Route
+            path="/brunette-hair-color-and-highlights-near-me"
+            element={<BrunetteColorNearMe />}
+          />
+          <Route
+            path="/global-hair-color-salon-near-me"
+            element={<GlobalColorNearMe />}
+          />
+          <Route
+            path="/balayage-hair-color-salon-near-me"
+            element={<BalayageColorNearMe />}
+          />
+          <Route
+            path="/hair-color-services-near-me"
+            element={<HairColorServiceNearMe />}
+          />
+          <Route
+            path="/schwarzkopf-hair-color-near-me"
+            element={<SchwarzkopfColorNearMe />}
+          />
+          <Route
+            path="/golden-brown-hair-color-near-me"
+            element={<GoldenColorNearMe />}
+          />
+
+          {/* -----------------------------/NearMe-------------------------------------------------           */}
           <Route path="/nails-extension" element={<NailExtensionPage />} />
           <Route path="/gel-nail-art" element={<GelNailArtPage />} />
           <Route path="/chrome-gel-nail-polish" element={<ChromeGelPage />} />

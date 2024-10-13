@@ -1,0 +1,66 @@
+.hairSalonNearMeWhy {
+    /* border: solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    padding: 30px;
+  }
+  .hairSalonNearMeWhy > h5 {
+    font-size: 25px;
+    color: var(--customColor);
+    text-align: start;
+    width: 100%;
+  }
+  .hairSalonNearMeWhy > p {
+    font-size: 20px;
+    width: 100%;
+    text-align: justify;
+  }
+  .hairSalonNearMeWhy > p > a {
+    color: var(--customColor);
+    text-decoration: none;
+  }
+  .hairSalonNearMeWhy > ul > li > p > a {
+    text-decoration: none;
+    color: var(--customColor);
+  }
+  .hairSalonNearMeWhy > ul > li {
+    list-style: none;
+    font-size: 20px;
+    text-align: justify;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+    width: 90%;
+  }
+  .hairSalonNearMeWhy > ul > li > span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: var(--customColor);
+    text-align: start;
+  }
+  .hairSalonNearMeWhy > ul > li > span > img {
+    width: 20px;
+    height: 20px;
+  }
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    .hairSalonNearMeWhy {
+      /* border: solid red; */
+      padding: 10px;
+    }
+    .hairSalonNearMeWhy > h5 {
+      padding: 10px;
+    }
+    .hairSalonNearMeWhy > p {
+      padding: 10px;
+    }
+  }
+  

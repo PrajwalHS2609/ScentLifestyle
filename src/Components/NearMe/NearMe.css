@@ -29,12 +29,14 @@
   color: #cc2228;
 }
 .compContainer {
-  width: 90%;
+  /* border: solid; */
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
   gap: 10px;
+  padding: 50px;
 }
 .compContainer > p {
   font-size: 20px;
