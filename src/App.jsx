@@ -178,6 +178,7 @@ import BalayageColorNearMe from "./Components/NearMe/BalayageColorNearMe/Balayag
 import HairColorServiceNearMe from "./Components/NearMe/HairColorServiceNearMe/HairColorServiceNearMe";
 import SchwarzkopfColorNearMe from "./Components/NearMe/SchwarzkopfColorNearMe/SchwarzkopfColorNearMe";
 import GoldenColorNearMe from "./Components/NearMe/GoldenColorNearMe/GoldenColorNearMe";
+import WhyKeratin from "./Components/BlogPage/BlogInnerPages/HairBlogInnerPages/WhyKeratin/WhyKeratin";
 
 const App = () => {
   return (
@@ -413,6 +414,10 @@ const App = () => {
           <Route
             path="/get-ready-for-a-glamorous-night-out-5-quick-and-easy-hairstyles"
             element={<Glamorous />}
+          />
+          <Route
+            path="/why-keratin-hair-treatment-is-the-ultimate-solution-for-damaged-hair"
+            element={<WhyKeratin />}
           />
           {/* ------------------------/blog------------------------      */}
           <Route path="/pre-bridal-treatments" element={<PrebridalPackage />} />

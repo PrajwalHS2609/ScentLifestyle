@@ -14,6 +14,7 @@ import olaplexBanner from "./../../../../Images/Blog/How Olaplex Helps/Banner.pn
 import franchiseBanner from "./../../../../Images/Blog/Step-by-Step Guide/Banner.png";
 import eyeBrowBanner from "./../../../../Images/Blog/Why_Eyebrow_Shaping/Banner.png";
 import GlamorousImg from "./../../../../Images/Blog/Get Ready for a Glamorous Night/Banner.png";
+import whyKeratinBanner from "./../../../../Images/Blog/Why_Keratin_Hair/Banner.png";
 
 import BlogCard from "../BlogCard";
 const BlogMain = () => {
@@ -119,6 +120,12 @@ const BlogMain = () => {
           head="Get Ready for a Glamorous Night Out: 5 Quick and Easy Hairstyles"
           para="A glamorous night out calls for a stunning hairstyle that complements your outfit and makes you feel confident and ..."
           link="/get-ready-for-a-glamorous-night-out-5-quick-and-easy-hairstyles"
+        />
+        <BlogCard
+          img={whyKeratinBanner}
+          head="Why Keratin Hair Treatment is the Ultimate Solution for Damaged Hair?"
+          para="Hair is often considered one of the most important features that enhance beauty, making it a major part..."
+          link="/why-keratin-hair-treatment-is-the-ultimate-solution-for-damaged-hair"
         />
       </div>
 
