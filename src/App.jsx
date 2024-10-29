@@ -179,6 +179,7 @@ import HairColorServiceNearMe from "./Components/NearMe/HairColorServiceNearMe/H
 import SchwarzkopfColorNearMe from "./Components/NearMe/SchwarzkopfColorNearMe/SchwarzkopfColorNearMe";
 import GoldenColorNearMe from "./Components/NearMe/GoldenColorNearMe/GoldenColorNearMe";
 import WhyKeratin from "./Components/BlogPage/BlogInnerPages/HairBlogInnerPages/WhyKeratin/WhyKeratin";
+import CurlyHair from "./Components/BlogPage/BlogInnerPages/HairBlogInnerPages/CurlyHair/CurlyHair";
 
 const App = () => {
   return (
@@ -418,6 +419,10 @@ const App = () => {
           <Route
             path="/why-keratin-hair-treatment-is-the-ultimate-solution-for-damaged-hair"
             element={<WhyKeratin />}
+          />
+              <Route
+            path="/is-curly-hair-the-right-style-for-you-heres-how-to-find-out"
+            element={<CurlyHair />}
           />
           {/* ------------------------/blog------------------------      */}
           <Route path="/pre-bridal-treatments" element={<PrebridalPackage />} />

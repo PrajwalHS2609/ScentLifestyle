@@ -9,16 +9,14 @@ import { Link } from "react-router-dom";
 import ServiceHead from "./ServiceHead";
 import leftArrow from "./../../../Images/left.png";
 import rightArrow from "./../../../Images/right.png";
-// import hair from "./../../../Images/homeService/Hair.png";
+import hair from "./../../../Images/homeService/Hair.png";
 import facial from "./../../../Images/homeService/Facials.png";
 import spa from "./../../../Images/homeService/Spa.png";
-// import nails from "./../../../Images/homeService/Nails.png";
+import nails from "./../../../Images/homeService/Nails.png";
 import beautyEssentials from "./../../../Images/homeService/Beauty Essentials.png";
 import lashes from "./../../../Images/homeService/Eyelashes.png";
 import bride from "./../../../Images/homeService/Bridal Makeup.png";
 import micro from "./../../../Images/homeService/Eyebrow Microblading.png";
-import homeServ1 from "./../../../video/homeServ1.mp4";
-import homeServ2 from "./../../../video/homeServ2.mp4";
 
 const Services = () => {
   function SampleNextArrow(props) {
@@ -135,7 +133,7 @@ const Services = () => {
         <Slider {...settings}>
           <div className="serviceSlideContainer">
             <div className="serviceSlideContent">
-              <video src={homeServ1} autoPlay loop muted></video>
+              <img src={hair} alt="Hair" loading=""/>
             </div>
             <h3>
               <Link to={"/hair-salon"}>Hair</Link>
@@ -143,7 +141,7 @@ const Services = () => {
           </div>
           <div className="serviceSlideContainer">
             <div className="serviceSlideContent">
-              <video src={homeServ2} autoPlay loop muted></video>
+              <img src={nails} alt="Nails" loading=""/>
             </div>
             <h3>
               <Link to={"/nails-salon"}>Nails</Link>
@@ -151,7 +149,7 @@ const Services = () => {
           </div>
           <div className="serviceSlideContainer">
             <div className="serviceSlideContent">
-              <img src={facial} alt="Facial" loading="" />
+              <img src={facial} alt="Facial" loading=""/>
             </div>
             <h3>
               <Link to={"/facial"}>Facials</Link>
@@ -159,7 +157,7 @@ const Services = () => {
           </div>
           <div className="serviceSlideContainer">
             <div className="serviceSlideContent">
-              <img src={beautyEssentials} alt="Beauty Essentials" loading="" />
+              <img src={beautyEssentials} alt="Beauty Essentials" loading=""/>
             </div>
             <h3>
               <Link to={"/beauty-essentials"}>Beauty Essentials</Link>
@@ -168,7 +166,7 @@ const Services = () => {
 
           <div className="serviceSlideContainer">
             <div className="serviceSlideContent">
-              <img src={spa} alt="Spa" loading="" />
+              <img src={spa} alt="Spa" loading=""/>
             </div>
             <h3>
               <Link to={"/spa"}>Spa</Link>
@@ -176,7 +174,7 @@ const Services = () => {
           </div>
           <div className="serviceSlideContainer">
             <div className="serviceSlideContent">
-              <img src={lashes} alt="lashes" loading="" />
+              <img src={lashes} alt="lashes" loading=""/>
             </div>
             <h3>
               <Link to={"/eye-lashes"}>Lashes</Link>
@@ -184,7 +182,7 @@ const Services = () => {
           </div>
           <div className="serviceSlideContainer">
             <div className="serviceSlideContent">
-              <img src={bride} alt="bride" loading="" />
+              <img src={bride} alt="bride" loading=""/>
             </div>
             <h3>
               <Link to={"/bridal-makeup"}>Bridal Makeup</Link>
@@ -192,7 +190,7 @@ const Services = () => {
           </div>
           <div className="serviceSlideContainer">
             <div className="serviceSlideContent">
-              <img src={micro} alt="micro" loading="" />
+              <img src={micro} alt="micro" loading=""/>
             </div>
             <h3>
               <Link to={"/eyebrow-microblading"}>Eyebrow Microblading</Link>
@@ -214,3 +212,4 @@ const Services = () => {
 };
 
 export default Services;
+

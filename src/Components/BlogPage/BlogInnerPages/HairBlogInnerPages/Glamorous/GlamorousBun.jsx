@@ -12,9 +12,7 @@ const GlamorousBun = () => {
         undone.
       </p>
       <ul>
-        <p>
-          <span>How to Achieve the Look:</span>{" "}
-        </p>
+       
         <li>
           <span>
             <img src={point} alt="checked" />
