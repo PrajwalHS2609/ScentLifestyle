@@ -420,7 +420,7 @@ const App = () => {
             path="/why-keratin-hair-treatment-is-the-ultimate-solution-for-damaged-hair"
             element={<WhyKeratin />}
           />
-              <Route
+          <Route
             path="/is-curly-hair-the-right-style-for-you-heres-how-to-find-out"
             element={<CurlyHair />}
           />

@@ -12,6 +12,18 @@ import CurlyHairActive from "./CurlyHairActive";
 import CurlyHairProsCons from "./CurlyHairProsCons";
 import CurlyHairConsult from "./CurlyHairConsult";
 import HairServImg from "../../HairBotox/HairServImg";
+import curlyHairUnderstand from "./../../../../../Images/Blog/Is Curly Hair the Right Style/Understanding the Appeal of Curly Hair.png";
+import curlyHairAssess from "./../../../../../Images/Blog/Is Curly Hair the Right Style/Assess Your Face Shape.png";
+import curlyHairNatural from "./../../../../../Images/Blog/Is Curly Hair the Right Style/Consider Your Natural Hair Texture.png";
+import curlyHairTypes from "./../../../../../Images/Blog/Is Curly Hair the Right Style/Explore Different Types of Curly Hairstyles.png";
+import curlyHairUpkeep from "./../../../../../Images/Blog/Is Curly Hair the Right Style/Are You Ready for the Upkeep.png";
+import curlyHairActive from "./../../../../../Images/Blog/Is Curly Hair the Right Style/How Active Is Your Lifestyle.png";
+import curlyHairProsCons from "./../../../../../Images/Blog/Is Curly Hair the Right Style/Pros and Cons of Curly Hair.png";
+import curlyHairConsult from "./../../../../../Images/Blog/Is Curly Hair the Right Style/Consulting with a Professional Stylist.png";
+import curlyHairTemporary from "./../../../../../Images/Blog/Is Curly Hair the Right Style/Try Temporary Curly Styles First.png";
+import curlyHairVerdict from "./../../../../../Images/Blog/Is Curly Hair the Right Style/The Verdict_ Is Curly Hair for You.png";
+import CurlyHairVerdict from "./CurlyHairVerdict";
+import CurlyHairTemporary from "./CurlyHairTemporary";
 
 const CurlyHair = () => {
   return (
@@ -33,23 +45,35 @@ const CurlyHair = () => {
       <div className="hairTrimContent">
         <CurlyHairHead />
         <br />
-        {/* <HairServImg hairBotoxImg={glamorousPony} /> */}
+        <HairServImg hairBotoxImg={curlyHairUnderstand} />
         <CurlyHairUnderstand />
         <br />
-        {/* <HairServImg hairBotoxImg={glamorousPony} /> */}
+        <HairServImg hairBotoxImg={curlyHairAssess} />
         <CurlyHairAssess />
         <br />
+        <HairServImg hairBotoxImg={curlyHairNatural} />
         <CurlyHairNatural />
         <br />
+        <HairServImg hairBotoxImg={curlyHairTypes} />
         <CurlyHairTypes />
         <br />
+        <HairServImg hairBotoxImg={curlyHairUpkeep} />
         <CurlyHairUpkeep />
         <br />
+        <HairServImg hairBotoxImg={curlyHairActive} />
         <CurlyHairActive />
         <br />
+        <HairServImg hairBotoxImg={curlyHairTemporary} />
+        <CurlyHairTemporary />
+        <br />
+        <HairServImg hairBotoxImg={curlyHairProsCons} />
         <CurlyHairProsCons />
         <br />
+        <HairServImg hairBotoxImg={curlyHairConsult} />
         <CurlyHairConsult />
+        <br />
+        <HairServImg hairBotoxImg={curlyHairVerdict} />
+        <CurlyHairVerdict />
       </div>
       <WhatsApp />
       <LastComp />

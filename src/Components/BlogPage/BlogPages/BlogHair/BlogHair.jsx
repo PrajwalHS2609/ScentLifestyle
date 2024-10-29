@@ -9,6 +9,7 @@ import olaplexBanner from "./../../../../Images/Blog/How Olaplex Helps/Banner.pn
 import hairKeratin from "./../../../../Images/Blog/Keratin_Hair_Treatment/Banner Image.png";
 import GlamorousImg from "./../../../../Images/Blog/Get Ready for a Glamorous Night/Banner.png";
 import whyKeratinBanner from "./../../../../Images/Blog/Why_Keratin_Hair/Banner.png";
+import curlyHairBanner from "./../../../../Images/Blog/Is Curly Hair the Right Style/Banner.png";
 
 const BlogHair = () => {
   let [toggle, setToggle] = useState(false);
@@ -81,6 +82,12 @@ const BlogHair = () => {
           head="Why Keratin Hair Treatment is the Ultimate Solution for Damaged Hair?"
           para="Hair is often considered one of the most important features that enhance beauty, making it a major part..."
           link="/why-keratin-hair-treatment-is-the-ultimate-solution-for-damaged-hair"
+        />
+        <BlogCard
+          img={curlyHairBanner}
+          head="Is Curly Hair the Right Style for You? Here’s How to Find Out"
+          para="Curly hair is vibrant, full of life, and a surefire way to make a statement. But not everyone feels..."
+          link="/is-curly-hair-the-right-style-for-you-heres-how-to-find-out"
         />
       </div>
 

@@ -44,12 +44,12 @@ const CurlyHairProsCons = () => {
         </p>
         <li>
           <span>
-            <img src={point} alt="point" />o Can be time-consuming to maintain{" "}
+            <img src={point} alt="point" /> Can be time-consuming to maintain{" "}
           </span>
         </li>
         <li>
           <span>
-            <img src={point} alt="point" />o Prone to frizz, especially in humid
+            <img src={point} alt="point" /> Prone to frizz, especially in humid
             weather{" "}
           </span>
         </li>
