@@ -24,6 +24,7 @@ import curlyHairTemporary from "./../../../../../Images/Blog/Is Curly Hair the R
 import curlyHairVerdict from "./../../../../../Images/Blog/Is Curly Hair the Right Style/The Verdict_ Is Curly Hair for You.png";
 import CurlyHairVerdict from "./CurlyHairVerdict";
 import CurlyHairTemporary from "./CurlyHairTemporary";
+import CurlyHairImg from "./CurlyHairImg";
 
 const CurlyHair = () => {
   return (
@@ -43,6 +44,7 @@ const CurlyHair = () => {
         />
       </Helmet>
       <div className="hairTrimContent">
+        <CurlyHairImg />
         <CurlyHairHead />
         <br />
         <HairServImg hairBotoxImg={curlyHairUnderstand} />
