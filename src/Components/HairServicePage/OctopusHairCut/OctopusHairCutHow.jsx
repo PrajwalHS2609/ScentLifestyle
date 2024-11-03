@@ -1,5 +1,5 @@
 import React from "react";
-import checked from "./../../../Images/checked.png";
+import point from "./../../../Images/point.png";
 
 const OctopusHairCutHow = () => {
   return (
@@ -12,7 +12,7 @@ const OctopusHairCutHow = () => {
       <ul>
         <li>
           <span>
-            <img src={checked} alt="" />
+            <img src={point} alt="" />
             For a Casual Look{" "}
           </span>
           <p>
@@ -25,7 +25,7 @@ const OctopusHairCutHow = () => {
         </li>
         <li>
           <span>
-            <img src={checked} alt="" />
+            <img src={point} alt="" />
             For a Polished Finish{" "}
           </span>
           <p>
@@ -38,7 +38,7 @@ const OctopusHairCutHow = () => {
         </li>
         <li>
           <span>
-            <img src={checked} alt="" />
+            <img src={point} alt="" />
             Accessorize!{" "}
           </span>
           <p>

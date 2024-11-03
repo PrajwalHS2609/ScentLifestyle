@@ -30,7 +30,7 @@ const OctopusHairCutWhyChoose = () => {
         <li>
           <span>
             <img src={checked} alt="" />
-            2. Personalized Consultations{" "}
+            Personalized Consultations{" "}
           </span>
           <p>
             We believe in providing a personalized experience for our clients.
@@ -43,7 +43,7 @@ const OctopusHairCutWhyChoose = () => {
         <li>
           <span>
             <img src={checked} alt="" />
-            3. Quality Products{" "}
+            Quality Products{" "}
           </span>
           <p>
             {" "}
@@ -57,7 +57,7 @@ const OctopusHairCutWhyChoose = () => {
         <li>
           <span>
             <img src={checked} alt="" />
-            4. Relaxing Atmosphere{" "}
+            Relaxing Atmosphere{" "}
           </span>
           <p>
             We understand that getting a haircut is not just about the final
