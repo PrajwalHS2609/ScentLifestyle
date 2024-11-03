@@ -10,6 +10,7 @@ import hairKeratin from "./../../../../Images/Blog/Keratin_Hair_Treatment/Banner
 import GlamorousImg from "./../../../../Images/Blog/Get Ready for a Glamorous Night/Banner.png";
 import whyKeratinBanner from "./../../../../Images/Blog/Why_Keratin_Hair/Banner.png";
 import curlyHairBanner from "./../../../../Images/Blog/Is Curly Hair the Right Style/Banner.png";
+import hairColorBanner from "./../../../../Images/Blog/25+ Hair Colors/Banner.png";
 
 const BlogHair = () => {
   let [toggle, setToggle] = useState(false);
@@ -88,6 +89,12 @@ const BlogHair = () => {
           head="Is Curly Hair the Right Style for You? Here’s How to Find Out"
           para="Curly hair is vibrant, full of life, and a surefire way to make a statement. But not everyone feels..."
           link="/is-curly-hair-the-right-style-for-you-heres-how-to-find-out"
+        />
+        <BlogCard
+          img={hairColorBanner}
+          head="25+ Hair Colors Every Woman Should Try"
+          para="In the world of beauty, hair color is one of the most transformative tools at our disposal..."
+          link="/25-hair-colors-every-woman-should-try"
         />
       </div>
 

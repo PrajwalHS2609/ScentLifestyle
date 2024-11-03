@@ -9,6 +9,11 @@
   width: 90%;
   padding: 20px;
 }
+.pediAndMainCureBenefits > h1 {
+  font-size: 30px;
+  color: var(--customColor);
+  text-align: center;
+}
 .pediAndMainCureBenefits > h2 {
   color: var(--customColor);
   width: 100%;
@@ -44,6 +49,10 @@
 }
 .pediAndMainCureBenefits > li > span {
   /* border: solid; */
+  color: var(--customColor);
+}
+.pediAndMainCureBenefits > li > p > a {
+  text-decoration: none;
   color: var(--customColor);
 }
 .pediAndMainCureBenefits > li > a {

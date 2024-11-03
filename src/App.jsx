@@ -180,6 +180,10 @@ import SchwarzkopfColorNearMe from "./Components/NearMe/SchwarzkopfColorNearMe/S
 import GoldenColorNearMe from "./Components/NearMe/GoldenColorNearMe/GoldenColorNearMe";
 import WhyKeratin from "./Components/BlogPage/BlogInnerPages/HairBlogInnerPages/WhyKeratin/WhyKeratin";
 import CurlyHair from "./Components/BlogPage/BlogInnerPages/HairBlogInnerPages/CurlyHair/CurlyHair";
+import HairColorTry from "./Components/BlogPage/BlogInnerPages/HairBlogInnerPages/HairColorTry/HairColorTry";
+import ButterflyHaircut from "./Components/HairServicePage/ButterflyHaircut/ButterflyHaircut";
+import OctopusHairCut from "./Components/HairServicePage/OctopusHairCut/OctopusHairCut";
+import MulletHairCut from "./Components/HairServicePage/MulletHairCut/MulletHairCut";
 
 const App = () => {
   return (
@@ -345,6 +349,21 @@ const App = () => {
             path="/bridal-makeup-packages"
             element={<BridalMakeUpPackage />}
           />
+          {/* ------------------------------hairStyleService------------------------- */}
+          <Route
+            path="/butterfly-haircut-for-women-in-bangalore"
+            element={<ButterflyHaircut />}
+          />
+          <Route
+            path="/octopus-haircut-for-women-in-bangalore"
+            element={<OctopusHairCut />}
+          />
+          <Route
+            path="/modern-mullet-haircut-for-women-in-bangalore"
+            element={<MulletHairCut />}
+          />
+          {/* ------------------------------/hairStyleService------------------------- */}
+
           {/* --------------------Blog------------------------------------- */}
           <Route path="/blog" element={<BlogPage />}>
             <Route path="/blog" element={<BlogMain />} />
@@ -423,6 +442,10 @@ const App = () => {
           <Route
             path="/is-curly-hair-the-right-style-for-you-heres-how-to-find-out"
             element={<CurlyHair />}
+          />
+          <Route
+            path="/25-hair-colors-every-woman-should-try"
+            element={<HairColorTry />}
           />
           {/* ------------------------/blog------------------------      */}
           <Route path="/pre-bridal-treatments" element={<PrebridalPackage />} />

@@ -29,7 +29,7 @@ const HairServicePage = () => {
       </Helmet>
       <NavBg />
       <HairServiceImg />
-<ServBreadCrumb currService="Hair Salon"/>
+      <ServBreadCrumb currService="Hair Salon" />
       <HairServiceCardContain />
       <HairSalon />
       <Members />
@@ -39,7 +39,7 @@ const HairServicePage = () => {
       <HelpNearYou />
       <TextLocReviews />
       <ServiceWhy />
-      <WhatsApp/>
+      <WhatsApp />
       <HairRead />
       <LastComp />
     </div>
