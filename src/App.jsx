@@ -184,6 +184,8 @@ import HairColorTry from "./Components/BlogPage/BlogInnerPages/HairBlogInnerPage
 import ButterflyHaircut from "./Components/HairServicePage/ButterflyHaircut/ButterflyHaircut";
 import OctopusHairCut from "./Components/HairServicePage/OctopusHairCut/OctopusHairCut";
 import MulletHairCut from "./Components/HairServicePage/MulletHairCut/MulletHairCut";
+import NailExtensionBangalore from "./Components/NaliSalonPage/NailExtensionBangalore/NailExtensionBangalore";
+import HairBotoxTreatment from "./Components/BlogPage/BlogInnerPages/HairBlogInnerPages/HairBotoxTreatment/HairBotoxTreatment";
 
 const App = () => {
   return (
@@ -325,6 +327,10 @@ const App = () => {
 
           {/* -----------------------------/NearMe-------------------------------------------------           */}
           <Route path="/nails-extension" element={<NailExtensionPage />} />
+          <Route
+            path="/nail-extensions-in-bangalore"
+            element={<NailExtensionBangalore />}
+          />
           <Route path="/gel-nail-art" element={<GelNailArtPage />} />
           <Route path="/chrome-gel-nail-polish" element={<ChromeGelPage />} />
           <Route
@@ -447,7 +453,12 @@ const App = () => {
             path="/25-hair-colors-every-woman-should-try"
             element={<HairColorTry />}
           />
+          <Route
+            path="/hair-botox-treatment-all-you-need-to-know"
+            element={<HairBotoxTreatment />}
+          />
           {/* ------------------------/blog------------------------      */}
+
           <Route path="/pre-bridal-treatments" element={<PrebridalPackage />} />
           <Route path="/organic-facial-services" element={<OrganicFacial />} />
           <Route

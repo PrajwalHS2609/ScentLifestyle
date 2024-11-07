@@ -1,17 +1,21 @@
 .nailExtImg {
+  /* border: solid red; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nailExtImg > img {
+  width: 100%;
+  height: 100%;
+}
+.nailExtImg > video {
+  width: 100%;
+  height: 100%;
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .haircutImg {
     /* border: solid red; */
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
-  .nailExtImg > img {
-    width: 100%;
-    height: 100%;
-  }
-  @media screen and (min-width:320px) and (max-width:768px) {
-    .haircutImg {
-      /* border: solid red; */
-      width: 100%;
-    }
-  }
+}

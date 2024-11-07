@@ -17,6 +17,7 @@ import GlamorousImg from "./../../../../Images/Blog/Get Ready for a Glamorous Ni
 import whyKeratinBanner from "./../../../../Images/Blog/Why_Keratin_Hair/Banner.png";
 import curlyHairBanner from "./../../../../Images/Blog/Is Curly Hair the Right Style/Banner.png";
 import hairColorBanner from "./../../../../Images/Blog/25+ Hair Colors/Banner.png";
+import hairBotoxTreatmentBanner from "./../../../../Images/Blog/Hair_Botox_Treatment/Banner.png";
 
 import BlogCard from "../BlogCard";
 const BlogMain = () => {
@@ -140,6 +141,12 @@ const BlogMain = () => {
           head="25+ Hair Colors Every Woman Should Try"
           para="In the world of beauty, hair color is one of the most transformative tools at our disposal..."
           link="/25-hair-colors-every-woman-should-try"
+        />
+        <BlogCard
+          img={hairBotoxTreatmentBanner}
+          head="Hair Botox Treatment: All You Need to Know for Smooth, Healthy Hair"
+          para="If you're looking to rejuvenate your hair, tame frizz, and bring life back to your locks, Hair Botox might be..."
+          link="/hair-botox-treatment-all-you-need-to-know"
         />
       </div>
 

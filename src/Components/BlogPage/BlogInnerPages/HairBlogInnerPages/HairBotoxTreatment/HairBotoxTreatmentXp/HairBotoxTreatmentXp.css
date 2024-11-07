@@ -1,0 +1,113 @@
+.hairBotoxTreatmentXp {
+  /* border: solid blue; */
+  width: 90%;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.hairBotoxTreatmentXp > h1 {
+  font-size: 30px;
+  color: var(--customColor);
+  text-align: center;
+}
+.hairBotoxTreatmentXp > h2 {
+  font-size: 30px;
+  color: var(--customColor);
+  text-align: center;
+}
+.hairBotoxTreatmentXp > h3 {
+  font-size: 25px;
+  color: var(--customColor);
+  text-align: start;
+  width: 100%;
+}
+.hairBotoxTreatmentXp > p {
+  width: 100%;
+  font-size: 20px;
+  text-align: justify;
+}
+.hairBotoxTreatmentXp > p > a {
+  text-decoration: none;
+  color: var(--customColor);
+}
+.hairBotoxTreatmentXp {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.hairBotoxTreatmentXp > p {
+  font-size: 20px;
+  width: 100%;
+  text-align: justify;
+}
+.hairBotoxTreatmentXp > p > span {
+  color: var(--customColor);
+  font-size: 20px;
+  font-weight: bold;
+}
+.hairBotoxTreatmentXp > h3 {
+  font-size: 20px;
+  width: 100%;
+  color: var(--customColor);
+  text-align: start;
+}
+.hairBotoxTreatmentXp > h5 {
+  font-size: 25px;
+  width: 100%;
+  color: var(--customColor);
+  text-align: center;
+}
+.hairBotoxTreatmentXp > ul {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.hairBotoxTreatmentXp > ul > li {
+  font-size: 20px;
+  margin: 10px;
+}
+.hairBotoxTreatmentXp > ul > li > span {
+  color: var(--customColor);
+  font-weight: bold;
+}
+.hairBotoxTreatmentXpVid {
+  /* border: solid red; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+.hairBotoxTreatmentXpVid-Content {
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .hairBotoxTreatmentXp > h1 {
+    font-size: 25px;
+    color: var(--customColor);
+    text-align: center;
+  }
+  .hairBotoxTreatmentXpVid {
+    /* border: solid red; */
+
+    flex-direction: column;
+  }
+  .hairBotoxTreatmentXpVid-Content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
