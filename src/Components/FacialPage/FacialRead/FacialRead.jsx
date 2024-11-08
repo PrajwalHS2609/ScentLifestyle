@@ -61,57 +61,53 @@ const FacialRead = () => {
               why you should choose SCENT Salon for your facial needs:
             </p>
           </li>
+          <li>
+            <p>
+              <span>Comprehensive Range of Facial Treatments:</span> We offer a
+              variety of facials tailored to different skin types and concerns,
+              including oily skin, dry skin, aging skin, and acne-prone skin.
+              Whether you need a{" "}
+              <a href="https://scentlifestyle.com/facial">hydrating facial</a>,
+              an{" "}
+              <a href="https://scentlifestyle.com/facial">anti-aging facial</a>,
+              or a <a href="https://scentlifestyle.com/facial">bridal facial</a>
+              , we have something for everyone.
+            </p>
+          </li>
+          <li>
+            <p>
+              <span>Experienced Skincare Professionals:</span> Our team of
+              experts is highly trained and experienced in providing{" "}
+              <a href="https://scentlifestyle.com/facial">
+                top-notch facials services in Bangalore
+              </a>
+              . They will assess your skin type and recommend the best facial
+              treatment to achieve your desired results.
+            </p>
+          </li>
+          <li>
+            <p>
+              <span> Premium Skincare Products:</span> At SCENT Salon, we use
+              only the finest skincare products that are gentle on your skin and
+              deliver excellent results. Our products are carefully selected to
+              provide maximum benefits and ensure a{" "}
+              <a href="https://scentlifestyle.com/facial">
+                luxurious facial experience
+              </a>
+            </p>
+          </li>
+          <li>
+            <p>
+              <span>Relaxing and Inviting Atmosphere:</span> When you step into
+              our salon, you will be welcomed into a serene and relaxing
+              environment. Our treatment areas are designed to provide you with
+              the utmost comfort and tranquility, allowing you to unwind and
+              enjoy your facial treatment.
+            </p>
+          </li>
         </ul>
         <div ref={switchRef} className="facialReadDisplayContainer">
           <ul>
-            <li>
-              <p>
-                <span>Comprehensive Range of Facial Treatments:</span> We offer
-                a variety of facials tailored to different skin types and
-                concerns, including oily skin, dry skin, aging skin, and
-                acne-prone skin. Whether you need a{" "}
-                <a href="https://scentlifestyle.com/facial">hydrating facial</a>
-                , an{" "}
-                <a href="https://scentlifestyle.com/facial">
-                  anti-aging facial
-                </a>
-                , or a{" "}
-                <a href="https://scentlifestyle.com/facial">bridal facial</a>,
-                we have something for everyone.
-              </p>
-            </li>
-            <li>
-              <p>
-                <span>Experienced Skincare Professionals:</span> Our team of
-                experts is highly trained and experienced in providing{" "}
-                <a href="https://scentlifestyle.com/facial">
-                  top-notch facials services in Bangalore
-                </a>
-                . They will assess your skin type and recommend the best facial
-                treatment to achieve your desired results.
-              </p>
-            </li>
-            <li>
-              <p>
-                <span> Premium Skincare Products:</span> At SCENT Salon, we use
-                only the finest skincare products that are gentle on your skin
-                and deliver excellent results. Our products are carefully
-                selected to provide maximum benefits and ensure a{" "}
-                <a href="https://scentlifestyle.com/facial">
-                  luxurious facial experience
-                </a>
-                .
-              </p>
-            </li>
-            <li>
-              <p>
-                <span>Relaxing and Inviting Atmosphere:</span> When you step
-                into our salon, you will be welcomed into a serene and relaxing
-                environment. Our treatment areas are designed to provide you
-                with the utmost comfort and tranquility, allowing you to unwind
-                and enjoy your facial treatment.
-              </p>
-            </li>
             <li>
               <h3>Types of Facials Services in Bangalore at SCENT Salon</h3>
               <p>
@@ -344,18 +340,6 @@ const FacialRead = () => {
                 will also answer any questions you may have about your skin care
                 routine.
               </p>
-              <li>
-                <h3>Discover the Best Facial Offers in Bangalore</h3>
-                <p>
-                  At SCENT Salon, we believe that everyone deserves to
-                  experience the benefits of a professional facial. That’s why
-                  we offer a variety of facial services in Bangalore at
-                  competitive prices . Keep an eye on our website and social
-                  media pages for special offers and discounts on facials. You
-                  can also book a consultation with our skincare experts to find
-                  out which facial treatment is best for you.
-                </p>
-              </li>
             </li>
             <li>
               <FacialTestimonials />

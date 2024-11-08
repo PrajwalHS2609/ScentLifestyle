@@ -7,6 +7,7 @@
   align-items: center;
   flex-direction: column;
   margin-top: 40px;
+  padding: 20px;
 }
 .spaReadContainer > header > h1 {
   margin: 20px;
@@ -101,7 +102,12 @@
 .spaReadDisplayContainer > ul > li > p > span {
   color: var(--customColor);
 }
-
+.spaReadDisplayContainer > ul > li > h3 {
+  color: var(--customColor);
+}
+.spaReadDisplayContainer > ul > li > h4 {
+  color: var(--customColor);
+}
 @media screen and (max-width: 600px) {
   .spaReadContainer {
     /* border: solid red; */

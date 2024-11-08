@@ -118,7 +118,7 @@ const LashesRead = () => {
               </ul>
             </li>
             <li>
-              <h3>Safety and Expertise</h3>
+              <h4>Safety and Expertise</h4>
               <p>
                 At SCENT Salon, your safety and satisfaction are our top
                 priorities. Our technicians are highly trained in the proper

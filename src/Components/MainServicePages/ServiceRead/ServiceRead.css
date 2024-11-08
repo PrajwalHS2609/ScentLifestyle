@@ -99,7 +99,9 @@
   font-size: 20px;
   margin-top: 10px;
 }
-
+.openBut{
+  color: var(--customColor);
+}
 .serviceReadDisplayContainer > ul > li {
   /* border: solid blue; */
   width: 90%;

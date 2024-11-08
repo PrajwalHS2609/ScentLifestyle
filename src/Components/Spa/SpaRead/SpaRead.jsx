@@ -122,6 +122,7 @@ const SpaRead = () => {
                 vitality and relaxation.
               </p>
             </li>
+            <br />
             <li>
               <h3>SCENT Signature Massage</h3>
               <p>
@@ -193,19 +194,20 @@ const SpaRead = () => {
               </p>
               <p>
                 Don't wait any longer to prioritize your well-being. Book your
-                appointment today at <a href="https://scentlifestyle.com/">SCENT salon</a>{" "}
-                and discover why we are renowned for being the best spa near
-                you. Remember, when life gets hectic, it's essential to take
-                time for yourself and indulge in the rejuvenating benefits of
-                spa therapy. Treat yourself to the ultimate relaxation
-                experience at SCENT Salon in Bangalore.
+                appointment today at{" "}
+                <a href="https://scentlifestyle.com/">SCENT salon</a> and
+                discover why we are renowned for being the best spa near you.
+                Remember, when life gets hectic, it's essential to take time for
+                yourself and indulge in the rejuvenating benefits of spa
+                therapy. Treat yourself to the ultimate relaxation experience at
+                SCENT Salon in Bangalore.
               </p>
             </li>
           </ul>
         </div>
         <button>
           <h2 className="openBut" onClick={open}>
-          Read {toggle ? "Less" : "More"}
+            Read {toggle ? "Less" : "More"}
           </h2>
         </button>
       </div>

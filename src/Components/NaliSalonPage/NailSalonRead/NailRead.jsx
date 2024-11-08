@@ -45,6 +45,7 @@ const NailRead = () => {
               for all your nail care needs.
             </p>
           </li>
+          <br />
           <li>
             <h4>The Ultimate Nail Experience at SCENT Salon</h4>
             <p>
@@ -173,7 +174,7 @@ const NailRead = () => {
               </p>
             </li>
             <li>
-              <h3>Why Choose SCENT Salon?</h3>
+              <h4>Why Choose SCENT Salon?</h4>
               <p>
                 As the <a href="/nails-salon"> best nails salon in Bangalore </a>, SCENT
                 Salon is committed to providing an exceptional experience for

@@ -244,7 +244,7 @@ const BeautyRead = () => {
             </li>
             <li>
               <ul>
-                <h4>Why Choose SCENT Salon?</h4>
+                <h3>Why Choose SCENT Salon?</h3>
                 <li>
                   <span>Expert Technicians:</span> Our team of skilled
                   technicians is trained to provide the best services with

@@ -7,6 +7,7 @@
   align-items: center;
   flex-direction: column;
   margin-top: 40px;
+  padding: 20px;
 }
 .facialReadContainer > header > h1 {
   margin: 20px;
@@ -15,6 +16,7 @@
   display: block;
   font-weight: lighter;
   text-align: center;
+  font-weight: 400;
 }
 .facialReadHeadContainer {
   /* border: solid red; */
@@ -44,6 +46,7 @@
   align-items: flex-start;
   flex-direction: column;
   gap: 10px;
+  padding: 10px;
 }
 .facialReadHeadContainer > ul > li > p > a {
   color: var(--customColor);
@@ -89,6 +92,7 @@
   align-items: flex-start;
   flex-direction: column;
   gap: 10px;
+  padding: 10px;
 }
 .facialReadDisplayContainer > ul > li > p > a {
   color: var(--customColor);
@@ -98,10 +102,25 @@
   text-decoration: underline;
   font-weight: 400;
 }
+.facialReadHeadContainer > ul > li > p > span {
+  color: var(--customColor);
+}
 .facialReadDisplayContainer > ul > li > p > span {
   color: var(--customColor);
 }
-
+.facialReadHeadContainer > ul > li > h4 {
+  color: var(--customColor);
+  font-weight: bold;
+}
+.facialReadDisplayContainer > ul > li > h3 {
+  color: var(--customColor);
+}
+.facialReadDisplayContainer > ul > li > p > h4 {
+  color: var(--customColor);
+}
+.nailTestimonialHeadContainer > h3 {
+  color: var(--customColor);
+}
 @media screen and (max-width: 600px) {
   .facialReadContainer {
     /* border: solid red; */
