@@ -186,6 +186,10 @@ import OctopusHairCut from "./Components/HairServicePage/OctopusHairCut/OctopusH
 import MulletHairCut from "./Components/HairServicePage/MulletHairCut/MulletHairCut";
 import NailExtensionBangalore from "./Components/NaliSalonPage/NailExtensionBangalore/NailExtensionBangalore";
 import HairBotoxTreatment from "./Components/BlogPage/BlogInnerPages/HairBlogInnerPages/HairBotoxTreatment/HairBotoxTreatment";
+import NailExtensionInSahakaraNagar from "./Components/NaliSalonPage/NailExtensionInSahakaraNagar/NailExtensionInSahakaraNagar";
+import NailExtensionInJakkur from "./Components/NaliSalonPage/NailExtensionInJakkur/NailExtensionInJakkur";
+import NailExtensionInLavelle from "./Components/NaliSalonPage/NailExtensionInLavelle/NailExtensionInLavelle";
+import NailExtensionInUptown from "./Components/NaliSalonPage/NailExtensionInUptown/NailExtensionInUptown";
 
 const App = () => {
   return (
@@ -615,6 +619,10 @@ const App = () => {
             path="/olaplex-hair-treatments-in-bangalore"
             element={<Olaplex />}
           />
+          <Route
+            path="/nail-extensions-near-lavelle-road"
+            element={<NailExtensionInLavelle />}
+          />
           {/*-----------------InJakkur------------------------------------ */}
           <Route path="/hair-salon-in-jakkur" element={<HairSalonInJakkur />} />
           <Route path="/nail-salon-in-jakkur" element={<NailSalonInJakkur />} />
@@ -632,6 +640,10 @@ const App = () => {
           <Route
             path="/eyebrow-microblading-in-jakkur"
             element={<MicroBladingInJakkur />}
+          />
+          <Route
+            path="/nail-extensions-near-jakkur"
+            element={<NailExtensionInJakkur />}
           />
           {/* ----------------------/InMeadows---------------------- */}
           <Route
@@ -696,6 +708,14 @@ const App = () => {
             path="/eyebrow-microblading-in-sahakara-nagar-bangalore"
             element={<MicroBladingInSahakarNagar />}
           />
+          <Route
+            path="/nail-extensions-near-sahakaranagar"
+            element={<NailExtensionInSahakaraNagar />}
+          />
+          <Route
+            path="/nail-extensions-near-jakkur"
+            element={<NailExtensionInJakkur />}
+          />
           {/* -----------------------InUptown--------------------------- */}
           <Route
             path="/hair-salon-in-uptown-whitefield-bangalore"
@@ -728,6 +748,10 @@ const App = () => {
           <Route
             path="/eyebrow-microblading-in-uptown-whitefield-bangalore"
             element={<MicroBladingInUptown />}
+          />
+          <Route
+            path="/nail-extensions-near-uptown-whitefield"
+            element={<NailExtensionInUptown />}
           />
         </Routes>
       </BrowserRouter>
