@@ -12,6 +12,7 @@ import whyKeratinBanner from "./../../../../Images/Blog/Why_Keratin_Hair/Banner.
 import curlyHairBanner from "./../../../../Images/Blog/Is Curly Hair the Right Style/Banner.png";
 import hairColorBanner from "./../../../../Images/Blog/25+ Hair Colors/Banner.png";
 import hairBotoxTreatmentBanner from "./../../../../Images/Blog/Hair_Botox_Treatment/Banner.png";
+import hairSpaTreatmentBanner from "./../../../../Images/Blog/Hair_Spa_Treatments/Banner.png";
 
 const BlogHair = () => {
   let [toggle, setToggle] = useState(false);
@@ -103,6 +104,13 @@ const BlogHair = () => {
           para="If you're looking to rejuvenate your hair, tame frizz, and bring life back to your locks, Hair Botox might be..."
           link="/hair-botox-treatment-all-you-need-to-know"
         />
+        <BlogCard
+          img={hairSpaTreatmentBanner}
+          head="Top Benefits of Regular Hair Spa Treatments"
+          para="Hair is one of the most defining aspects of personal style and grooming for both..."
+          link="/top-benefits-of-regular-hair-spa-treatments"
+        />
+ 
       </div>
 
       <div className="blogMainReadMore">

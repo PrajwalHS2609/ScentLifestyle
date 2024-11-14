@@ -35,7 +35,6 @@ const HairBotoxTreatmentHead = () => {
         treatment targets common hair problems like frizz, split ends, and lack
         of shine, and aims to improve overall hair health.
       </p>
-      <br />
     </div>
   );
 };

@@ -51,7 +51,7 @@
   align-items: flex-start;
   flex-direction: column;
   gap: 10px;
-  width: 90%;
+  width: 100%;
 }
 .pediManicureWhat > ul > li > span {
   display: flex;
@@ -70,5 +70,4 @@
     /* border: solid red; */
     padding: 5px;
   }
-
 }

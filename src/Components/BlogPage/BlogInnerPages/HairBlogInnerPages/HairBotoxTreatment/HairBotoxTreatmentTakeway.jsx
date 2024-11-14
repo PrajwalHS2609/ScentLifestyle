@@ -19,7 +19,6 @@ const HairBotoxTreatmentTakeway = () => {
         vibrant hair you’ve always wanted, making it an ideal option for those
         seeking a non-invasive beauty solution.
       </p>
-      <br />
     </div>
   );
 };

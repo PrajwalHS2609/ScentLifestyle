@@ -46,6 +46,8 @@
     gap: 10px;
     color: var(--customColor);
     text-align: start;
+    font-weight: 500;
+
   }
   .hairSalonInSahakaraWhy > ul > li > span > img {
     width: 20px;

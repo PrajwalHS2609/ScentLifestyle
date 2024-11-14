@@ -1,6 +1,8 @@
 import React, { useRef, useState } from "react";
 import BlogCard from "../BlogCard";
 import brazilWaxingBanner from "./../../../../Images/Blog/Everything_About_Brazilian_Waxing/Banner Image.png";
+import bodyDTanTreatmentBanner from "./../../../../Images/Blog/Body_D-Tan_Treatment/Banner.png";
+
 const BlogBeautyEssentials = () => {
   let [toggle, setToggle] = useState(false);
   let switchRef = useRef();
@@ -22,6 +24,12 @@ const BlogBeautyEssentials = () => {
           para="When it comes to smooth, flawless skin, nothing beats the confidence that comes with a professional Brazilian waxing service. At SCENT, we take pride in ..."
           link="/everything-you-need-to-know-about-brazilian-waxing"
         />
+        <BlogCard
+          img={bodyDTanTreatmentBanner}
+          head="Top Benefits of Regular Hair Spa Treatments"
+          para="Aging is a natural process, but with the right skincare strategies, you can maintain radiant and..."
+          link="/the-role-of-body-d-tan-in-anti-aging-skincare"
+        />
       </div>
 
       <div className="blogMainDisplay2" ref={switchRef}>
@@ -31,7 +39,6 @@ const BlogBeautyEssentials = () => {
           para="Ever noticed those unsightly dark circles around your eyes? In..."
           link="/"
         /> */}
-       
       </div>
 
       <div className="blogMainReadMore">

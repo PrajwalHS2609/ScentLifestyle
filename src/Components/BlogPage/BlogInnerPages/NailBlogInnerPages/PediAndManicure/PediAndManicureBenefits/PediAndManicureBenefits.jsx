@@ -6,21 +6,27 @@ const PediAndManicureBenefits = () => {
     <div className="pediAndMainCureBenefits">
       <h3>The Benefits of Professional Pedicures and Manicures</h3>
       <li>
-        <h6>Improved Nail Health :</h6>One of the primary benefits of professional
-        pedicures and manicures is improved nail health. Regular treatments help
-        prevent common nail issues such as fungal infections, ingrown nails, and
-        brittle nails. At SCENT Salon, our experienced technicians use
-        high-quality tools and products to ensure that your nails are treated
-        gently and effectively, promoting overall nail health.
+        <h6>Improved Nail Health :</h6>
+        <p>
+          One of the primary benefits of professional pedicures and manicures is
+          improved nail health. Regular treatments help prevent common nail
+          issues such as fungal infections, ingrown nails, and brittle nails. At
+          SCENT Salon, our experienced technicians use high-quality tools and
+          products to ensure that your nails are treated gently and effectively,
+          promoting overall nail health.
+        </p>
       </li>
       <li>
-        <h6>Enhanced Aesthetic Appeal :</h6>Professional pedicures and manicures
-        significantly enhance the appearance of your hands and feet.
-        Well-groomed nails with a fresh coat of polish can make a big difference
-        in your overall look. Whether you’re preparing for a special occasion or
-        simply want to feel more polished in your everyday life, a professional
-        manicure or pedicure at SCENT Salon can provide that extra touch of
-        elegance and sophistication.
+        <h6>Enhanced Aesthetic Appeal :</h6>
+        <p>
+          Professional pedicures and manicures significantly enhance the
+          appearance of your hands and feet. Well-groomed nails with a fresh
+          coat of polish can make a big difference in your overall look. Whether
+          you’re preparing for a special occasion or simply want to feel more
+          polished in your everyday life, a professional manicure or pedicure at
+          SCENT Salon can provide that extra touch of elegance and
+          sophistication.
+        </p>
       </li>
       <li>
         <h6>Relaxation and Stress Relief :</h6>One of the most enjoyable aspects
@@ -69,12 +75,12 @@ const PediAndManicureBenefits = () => {
         enjoyment of the service.
       </li>
       <li>
-        <h6>Long-Lasting Results :</h6>Professional pedicures and manicures offer
-        long-lasting results compared to at-home treatments. The high-quality
-        products and techniques used by our technicians at SCENT Salon ensure
-        that your nails and skin remain beautiful and healthy for an extended
-        period. This means you can enjoy the benefits of your treatment without
-        the need for frequent touch-ups.
+        <h6>Long-Lasting Results :</h6>Professional pedicures and manicures
+        offer long-lasting results compared to at-home treatments. The
+        high-quality products and techniques used by our technicians at SCENT
+        Salon ensure that your nails and skin remain beautiful and healthy for
+        an extended period. This means you can enjoy the benefits of your
+        treatment without the need for frequent touch-ups.
       </li>
       <li>
         <h6>Educational Insights :</h6>During your professional pedicure or
@@ -86,10 +92,10 @@ const PediAndManicureBenefits = () => {
         between appointments.
       </li>
       <li>
-        <h6>Enhanced Hygiene and Safety :</h6>Professional pedicures and manicures
-        at SCENT Salon are performed with a strong emphasis on hygiene and
-        safety. We use sterilized tools and high-quality products to ensure a
-        clean and safe environment. This reduces the risk of infections and
+        <h6>Enhanced Hygiene and Safety :</h6>Professional pedicures and
+        manicures at SCENT Salon are performed with a strong emphasis on hygiene
+        and safety. We use sterilized tools and high-quality products to ensure
+        a clean and safe environment. This reduces the risk of infections and
         ensures that you receive a treatment that prioritizes your health and
         well-being.
       </li>

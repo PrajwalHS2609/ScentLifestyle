@@ -18,6 +18,8 @@ import whyKeratinBanner from "./../../../../Images/Blog/Why_Keratin_Hair/Banner.
 import curlyHairBanner from "./../../../../Images/Blog/Is Curly Hair the Right Style/Banner.png";
 import hairColorBanner from "./../../../../Images/Blog/25+ Hair Colors/Banner.png";
 import hairBotoxTreatmentBanner from "./../../../../Images/Blog/Hair_Botox_Treatment/Banner.png";
+import hairSpaTreatmentBanner from "./../../../../Images/Blog/Hair_Spa_Treatments/Banner.png";
+import BodyDTanTreatmentBanner from "./../../../../Images/Blog/Body_D-Tan_Treatment/Banner.png";
 
 import BlogCard from "../BlogCard";
 const BlogMain = () => {
@@ -147,6 +149,18 @@ const BlogMain = () => {
           head="Hair Botox Treatment: All You Need to Know for Smooth, Healthy Hair"
           para="If you're looking to rejuvenate your hair, tame frizz, and bring life back to your locks, Hair Botox might be..."
           link="/hair-botox-treatment-all-you-need-to-know"
+        />
+        <BlogCard
+          img={hairSpaTreatmentBanner}
+          head="Top Benefits of Regular Hair Spa Treatments"
+          para="Hair is one of the most defining aspects of personal style and grooming for both..."
+          link="/top-benefits-of-regular-hair-spa-treatments"
+        />
+        <BlogCard
+          img={BodyDTanTreatmentBanner}
+          head="The Role of Body D-Tan in Anti-Aging Skincare"
+          para="Aging is a natural process, but with the right skincare strategies, you can maintain radiant and..."
+          link="/the-role-of-body-d-tan-in-anti-aging-skincare"
         />
       </div>
 
