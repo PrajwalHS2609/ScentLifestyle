@@ -26,7 +26,7 @@ const BlogBeautyEssentials = () => {
         />
         <BlogCard
           img={bodyDTanTreatmentBanner}
-          head="Top Benefits of Regular Hair Spa Treatments"
+          head="The Role of Body D-Tan in Anti-Aging Skincare"
           para="Aging is a natural process, but with the right skincare strategies, you can maintain radiant and..."
           link="/the-role-of-body-d-tan-in-anti-aging-skincare"
         />
