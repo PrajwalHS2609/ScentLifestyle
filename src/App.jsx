@@ -198,6 +198,7 @@ import HairDetoxSpa from "./Components/HairServicePage/HairDetoxSpa/HairDetoxSpa
 import HairColouredSpa from "./Components/HairServicePage/HairColouredSpa/HairColouredSpa";
 import HairSpaTreatment from "./Components/BlogPage/BlogInnerPages/HairBlogInnerPages/HairSpaTreatment/HairSpaTreatment";
 import BodyDTanTreatment from "./Components/BlogPage/BlogInnerPages/BeautyBlogInnerPages/BodyDTanTreatment/BodyDTanTreatment";
+import LashesExtensionBlog from "./Components/BlogPage/BlogInnerPages/LashesBlogInnerPages/LashesExtension/LashesExtension";
 
 const App = () => {
   return (
@@ -498,7 +499,11 @@ const App = () => {
           />
           <Route
             path="/the-role-of-body-d-tan-in-anti-aging-skincare"
-            element={<BodyDTanTreatment/>}
+            element={<BodyDTanTreatment />}
+          />
+          <Route
+            path="/eyelash-extensions-for-special-occasions-your-go-to-glam-look"
+            element={<LashesExtensionBlog />}
           />
           {/* ------------------------/blog------------------------      */}
 

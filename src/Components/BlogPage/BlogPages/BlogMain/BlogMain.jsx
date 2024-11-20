@@ -20,6 +20,7 @@ import hairColorBanner from "./../../../../Images/Blog/25+ Hair Colors/Banner.pn
 import hairBotoxTreatmentBanner from "./../../../../Images/Blog/Hair_Botox_Treatment/Banner.png";
 import hairSpaTreatmentBanner from "./../../../../Images/Blog/Hair_Spa_Treatments/Banner.png";
 import BodyDTanTreatmentBanner from "./../../../../Images/Blog/Body_D-Tan_Treatment/Banner.png";
+import eyelashExtensionBanner from "./../../../../Images/Blog/Eyelash Extensions/Banner.png";
 
 import BlogCard from "../BlogCard";
 const BlogMain = () => {
@@ -161,6 +162,12 @@ const BlogMain = () => {
           head="The Role of Body D-Tan in Anti-Aging Skincare"
           para="Aging is a natural process, but with the right skincare strategies, you can maintain radiant and..."
           link="/the-role-of-body-d-tan-in-anti-aging-skincare"
+        />
+        <BlogCard
+          img={eyelashExtensionBanner}
+          head="Eyelash Extensions for Special Occasions: Your Go-To Glam Look"
+          para="Special occasions call for making unforgettable impressions, and nothing enhances your..."
+          link="/eyelash-extensions-for-special-occasions-your-go-to-glam-look"
         />
       </div>
 

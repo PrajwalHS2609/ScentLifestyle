@@ -53,6 +53,27 @@
   gap: 10px;
   width: 100%;
 }
+.pediManicureWhat > ul > li > ul > li {
+  list-style: none;
+  font-size: 20px;
+  text-align: justify;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.pediManicureWhat > ul > li > ul > li > span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: var(--customColor);
+  text-align: start;
+}
 .pediManicureWhat > ul > li > span {
   display: flex;
   justify-content: center;
@@ -69,5 +90,8 @@
   .pediManicureWhat {
     /* border: solid red; */
     padding: 5px;
+  }
+  .pediManicureWhat > ul > li > ul {
+    margin-right: 30px;
   }
 }

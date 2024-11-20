@@ -22,9 +22,9 @@ const NestedNav = () => {
       <li className="nestedNav5">
         <NavLink to={"/blog/beauty-essentials-blog"}>Beauty Essentials</NavLink>
       </li>
-      {/* <li>
+      <li>
         <NavLink to={"/blog/eye-lashes-blog"}>Eye Lashes</NavLink>
-      </li> */}
+      </li>
       {/* <li>
         <NavLink to={"/blog/bridal-makeup-blog"}>Bridal Makeup</NavLink>
       </li> */}
