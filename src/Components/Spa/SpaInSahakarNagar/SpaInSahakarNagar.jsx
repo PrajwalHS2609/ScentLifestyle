@@ -2,7 +2,7 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import InnerNavi from "../../InnerServicePage/InnerNavi/InnerNavi";
 import HairSalonInMeadowsImg from "../../HairServicePage/HairSalonInMeadows/HairSalonInMeadowsImg/HairSalonInMeadowsImg";
-import spaSahakarImg from "./../../../Images/JP_Nagar/Spa.png";
+import spaSahakarImg from "./../../../Images/SahakarNagar/Spa.png";
 import SpaInSahakarNagarHead from "./SpaInSahakarNagarHead";
 import Members from "../../HomePage/Members/Members";
 import SpaDayBenefits from "../../BlogPage/BlogInnerPages/SpaInnerPages/SpaDay/SpaDayBenefits";

@@ -17,7 +17,7 @@ import NailSalonInMeadowsSpecial from "./NailSalonInMeadowsSpecial";
 import NailSalonInMeadowsCustomer from "./NailSalonInMeadowsCustomer";
 import NailSalonInMeadowsLoc from "./NailSalonInMeadowsLoc";
 import HairSalonInMeadowsImg from "../../HairServicePage/HairSalonInMeadows/HairSalonInMeadowsImg/HairSalonInMeadowsImg";
-import nailMeadowsImg from "./../../../Images/JP_Nagar/Nail.png";
+import nailMeadowsImg from "./../../../Images/SahakarNagar/Nail.png";
 
 const NailSalonInMeadows = () => {
   return (

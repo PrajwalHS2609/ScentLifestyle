@@ -16,7 +16,7 @@ import MicroBladingInSahakarWhyChoose from "./MicroBladingInSahakarWhyChoose";
 import MicroBladingInSahakarBook from "./MicroBladingInSahakarBook";
 import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
 import LastComp from "../../LastComp/LastComp";
-import microbladingSahakarImg from "./../../../Images/JP_Nagar/Eyeborw Microblading.png";
+import microbladingSahakarImg from "./../../../Images/SahakarNagar/Eyeborw Microblading.png";
 
 const MicroBladingInSahakarNagar = () => {
   return (

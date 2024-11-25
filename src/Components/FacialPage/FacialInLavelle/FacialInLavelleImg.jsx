@@ -1,5 +1,5 @@
 import React from 'react'
-import facialJpImg from "./../../../Images/JP_Nagar/Facials.png";
+import facialJpImg from "./../../../Images/SahakarNagar/Facials.png";
 
 const FacialInLavelleImg = () => {
   return (

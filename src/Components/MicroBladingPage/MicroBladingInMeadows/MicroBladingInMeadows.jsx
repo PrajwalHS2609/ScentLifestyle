@@ -17,7 +17,7 @@ import LastComp from "../../LastComp/LastComp";
 import { Helmet } from "react-helmet";
 import InnerNavi from "../../InnerServicePage/InnerNavi/InnerNavi";
 import HairSalonInMeadowsImg from "../../HairServicePage/HairSalonInMeadows/HairSalonInMeadowsImg/HairSalonInMeadowsImg";
-import microbladingMeadowsImg from "./../../../Images/JP_Nagar/Eyeborw Microblading.png";
+import microbladingMeadowsImg from "./../../../Images/SahakarNagar/Eyeborw Microblading.png";
 
 const MicroBladingInMeadows = () => {
   return (

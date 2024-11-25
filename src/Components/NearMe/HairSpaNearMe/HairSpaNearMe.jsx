@@ -7,7 +7,6 @@ import InstaFeed from "../../HomePage/InstaFeed/InstaFeed";
 import HelpNearYou from "../../Help/HelpNearYou";
 import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
-import HairSpaNearMain from "./HairSpaNearMain";
 import { Helmet } from "react-helmet";
 import LastComp from "../../LastComp/LastComp";
 import Navi1 from "../../HairServicePage/Navi1/Navi1";
@@ -15,6 +14,8 @@ import HairServiceImg from "../../HairServicePage/HairServiceImg/HairServiceImg"
 import HairServiceCardContain from "../../HairServicePage/HairServiceCard/HairServiceCardContain";
 import HairSalon from "../../HairServicePage/HairSalon/HairSalon";
 import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
+import HairSpaNearMeHead from './HairSpaNearMeHead';
+import HairSpaNearMePara from './HairSpaNearMePara';
 
 const HairSpaNearMe = () => {
   return (
@@ -31,7 +32,7 @@ const HairSpaNearMe = () => {
       <NavBg />
       <HairServiceImg />
       <Navi1 />
-      <HairSpaNearMain/>
+      <HairSpaNearMeHead />
       <HairServiceCardContain />
       <HairSalon />
       <Members />
@@ -41,7 +42,7 @@ const HairSpaNearMe = () => {
       <HelpNearYou />
       <TextLocReviews />
       <ServiceWhy />
-      <HairSpaNearMain />
+      <HairSpaNearMePara />
       <WhatsApp/>
       <LastComp />
     </div>

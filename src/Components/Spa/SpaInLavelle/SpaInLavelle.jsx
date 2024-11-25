@@ -18,7 +18,7 @@ import SpaInLavelleVisit from "./SpaInLavelleVisit";
 import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
 import LastComp from "../../LastComp/LastComp";
 import HairSalonInLavelleImg from "../../HairServicePage/HairSalonInLavelle/HairSalonInLavelleImg/HairSalonInLavelleImg";
-import spalavelleImg from "./../../../Images/JP_Nagar/Spa.png";
+import spalavelleImg from "./../../../Images/SahakarNagar/Spa.png";
 
 const SpaInLavelle = () => {
   return (

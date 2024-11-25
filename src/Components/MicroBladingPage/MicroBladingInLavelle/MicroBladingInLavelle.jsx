@@ -18,7 +18,7 @@ import LastComp from "../../LastComp/LastComp";
 import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
 import MicroBladingInLavelleBook from "./MicroBladingInLavelleBook";
 import HairSalonInLavelleImg from "../../HairServicePage/HairSalonInLavelle/HairSalonInLavelleImg/HairSalonInLavelleImg";
-import microLavelleImg from "./../../../Images/JP_Nagar/Eyeborw Microblading.png";
+import microLavelleImg from "./../../../Images/SahakarNagar/Eyeborw Microblading.png";
 
 const MicroBladingInLavelle = () => {
   return (

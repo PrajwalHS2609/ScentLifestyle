@@ -1,6 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import lashesUptownImg from "./../../../Images/JP_Nagar/Eye Lashes.png";
+import lashesUptownImg from "./../../../Images/SahakarNagar/Eye Lashes.png";
 import InnerNavi from "../../InnerServicePage/InnerNavi/InnerNavi";
 import LashesInUptownHead from "./LashesInUptownHead";
 import Members from "../../HomePage/Members/Members";

@@ -1,5 +1,5 @@
 import React from "react";
-import facialJakkurImg from "./../../../Images/JP_Nagar/Facials.png";
+import facialJakkurImg from "./../../../Images/SahakarNagar/Facials.png";
 
 const FacialInJakkurImg = () => {
   return (

@@ -16,7 +16,7 @@ import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
 import HairSalonInUptownHead from "./HairSalonInUptownHead/HairSalonInUptownHead";
 import HairSalonInLavelleImg from "../HairSalonInLavelle/HairSalonInLavelleImg/HairSalonInLavelleImg";
-import hairUptownImg from "./../../../Images/JP_Nagar/Hair.png";
+import hairUptownImg from "./../../../Images/SahakarNagar/Hair.png";
 
 const HairSalonInUptown = () => {
   return (

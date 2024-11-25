@@ -15,7 +15,7 @@ import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
 import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
 import LastComp from "../../LastComp/LastComp";
 import HairSalonInMeadowsImg from "../../HairServicePage/HairSalonInMeadows/HairSalonInMeadowsImg/HairSalonInMeadowsImg";
-import beautyMeadowsImg from "./../../../Images/JP_Nagar/Waxing, Threding & D-Tan.png";
+import beautyMeadowsImg from "./../../../Images/SahakarNagar/Waxing, Threding & D-Tan.png";
 
 const BodyWaxingInMeadows = () => {
   return (

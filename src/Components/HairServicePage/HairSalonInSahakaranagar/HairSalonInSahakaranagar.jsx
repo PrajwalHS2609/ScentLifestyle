@@ -16,7 +16,7 @@ import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
 import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
 import LastComp from "../../LastComp/LastComp";
 import HairSalonInLavelleImg from "../HairSalonInLavelle/HairSalonInLavelleImg/HairSalonInLavelleImg";
-
+import hairSahakarnagar from "./../../../Images/SahakarNagar/Hair.png"
 const HairSalonInSahakaranagar = () => {
   return (
     <div>
@@ -35,7 +35,7 @@ const HairSalonInSahakaranagar = () => {
           href="https://scentlifestyle.com/hair-salon-in-sahakara-nagar-bangalore"
         />
       </Helmet>
-      <HairSalonInLavelleImg />
+      <HairSalonInLavelleImg img={hairSahakarnagar} alt="hairSahakarnagar"/>
       <InnerNavi
         link="/hair-salon"
         service="Hair Salon"

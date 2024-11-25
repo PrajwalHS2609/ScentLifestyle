@@ -18,7 +18,7 @@ import BridalMakeUpInLavellePerfect from "./BridalMakeUpInLavellePerfect";
 import BridalMakeUpInLavelleEnchance from "./BridalMakeUpInLavelleEnchance";
 import BridalMakeUpInLavelleBook from "./BridalMakeUpInLavelleBook";
 import HairSalonInLavelleImg from "../../HairServicePage/HairSalonInLavelle/HairSalonInLavelleImg/HairSalonInLavelleImg";
-import bridalLavelleImg from "./../../../Images/JP_Nagar/Bridal Makeup.png";
+import bridalLavelleImg from "./../../../Images/SahakarNagar/Bridal Makeup.png";
 
 const BridalMakeUpInLavelle = () => {
   return (

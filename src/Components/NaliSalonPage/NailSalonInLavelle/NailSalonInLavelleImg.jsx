@@ -1,5 +1,5 @@
 import React from "react";
-import nailJpImg from "./../../..//Images/JP_Nagar/Nail.png";
+import nailJpImg from "./../../..//Images/SahakarNagar/Nail.png";
 
 const NailSalonInLavelleImg = () => {
   return (

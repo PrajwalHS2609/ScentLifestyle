@@ -18,7 +18,7 @@ import BridalMakeupInMeadowsTrust from "./BridalMakeupInMeadowsTrust";
 import BridalMakeupInMeadowsPre from "./BridalMakeupInMeadowsPre";
 import BridalMakeupInMeadowsEnsuring from "./BridalMakeupInMeadowsEnsuring";
 import HairSalonInMeadowsImg from "../../HairServicePage/HairSalonInMeadows/HairSalonInMeadowsImg/HairSalonInMeadowsImg";
-import bridalMeadowsImg from "./../../../Images/JP_Nagar/Bridal Makeup.png";
+import bridalMeadowsImg from "./../../../Images/SahakarNagar/Bridal Makeup.png";
 
 const BridalMakeupInMeadows = () => {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import bridalJakkurImg from "./../../../Images/JP_Nagar/Bridal Makeup.png";
+import bridalJakkurImg from "./../../../Images/SahakarNagar/Bridal Makeup.png";
 
 const BridalMakeupInJakkurImg = () => {
   return (

@@ -2,7 +2,7 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import HairSalonInMeadowsImg from "../../HairServicePage/HairSalonInMeadows/HairSalonInMeadowsImg/HairSalonInMeadowsImg";
 import InnerNavi from "../../InnerServicePage/InnerNavi/InnerNavi";
-import beautySahakarImg from "./../../../Images/JP_Nagar/Waxing, Threding & D-Tan.png";
+import beautySahakarImg from "./../../../Images/SahakarNagar/Waxing, Threding & D-Tan.png";
 import BeautyInSahakarNagarHead from "./BeautyInSahakarNagarHead";
 import BeautyInSahakarNagarWhy from "./BeautyInSahakarNagarWhy";
 import Members from "../../HomePage/Members/Members";

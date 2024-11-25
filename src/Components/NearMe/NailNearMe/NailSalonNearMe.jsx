@@ -12,8 +12,9 @@ import HelpNearYou from "../../Help/HelpNearYou";
 import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
 import LastComp from "../../LastComp/LastComp";
-import NailNearMe from "./NailNearMe";
 import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
+import ComprehensiveNail from "./ComprehensiveNail";
+import NailNearHead from "./NailNearHead";
 
 const NailSalonNearMe = () => {
   return (
@@ -30,7 +31,7 @@ const NailSalonNearMe = () => {
       <NavBg />
       <NailSalonImg />
       <Navi7 />
-      <NailNearMe/>
+      <NailNearHead />
       <NailServiceCardContain />
       <Members />
       <OurSalon />
@@ -39,8 +40,8 @@ const NailSalonNearMe = () => {
       <HelpNearYou />
       <TextLocReviews />
       <ServiceWhy />
-      <NailNearMe />
-      <WhatsApp/>
+      <ComprehensiveNail />
+      <WhatsApp />
       <LastComp />
     </div>
   );

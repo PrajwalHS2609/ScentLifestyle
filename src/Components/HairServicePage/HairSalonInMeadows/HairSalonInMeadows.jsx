@@ -16,7 +16,7 @@ import HairSalonInMeadowsCustomer from "./HairSalonInMeadowsCustomer/HairSalonIn
 import HairSalonInMeadowsSpecial from "./HairSalonInMeadowsSpecial";
 import OurSalon from "../../HomePage/OurSalon/OurSalon";
 import HairSalonInMeadowsImg from "./HairSalonInMeadowsImg/HairSalonInMeadowsImg";
-import hairMeadowsImg from "./../../../Images/JP_Nagar/Hair.png";
+import hairMeadowsImg from "./../../../Images/SahakarNagar/Hair.png";
 
 const HairSalonInMeadows = () => {
   return (

@@ -13,7 +13,7 @@ import LastComp from "../../LastComp/LastComp";
 import FacialInMeadowsComp from "./FacialInMeadowsComp";
 import FacialInMeadowsPersonalized from "./FacialInMeadowsPersonalized";
 import FacialInMeadowsHead from "./FacialInMeadowsHead";
-import facialMeadowsImg from "./../../../Images/JP_Nagar/Facials.png";
+import facialMeadowsImg from "./../../../Images/SahakarNagar/Facials.png";
 import HairSalonInMeadowsImg from "../../HairServicePage/HairSalonInMeadows/HairSalonInMeadowsImg/HairSalonInMeadowsImg";
 
 const FacialInMeadows = () => {

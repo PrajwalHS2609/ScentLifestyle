@@ -18,7 +18,7 @@ import LashesInMeadowsBook from "./LashesInMeadowsBook";
 import { Helmet } from "react-helmet";
 import InnerNavi from "../../InnerServicePage/InnerNavi/InnerNavi";
 import HairSalonInMeadowsImg from "../../HairServicePage/HairSalonInMeadows/HairSalonInMeadowsImg/HairSalonInMeadowsImg";
-import lashesMeadowsImg from "./../../../Images/JP_Nagar/Eye Lashes.png";
+import lashesMeadowsImg from "./../../../Images/SahakarNagar/Eye Lashes.png";
 
 const LashesInMeadows = () => {
   return (

@@ -19,7 +19,7 @@ import HairSalonInLavelleCustomer from "./HairSalonInLavelleCustomer/HairSalonIn
 import HairSalonInLavelleBook from "./HairSalonInLavelleBook";
 import InnerNavi from "../../InnerServicePage/InnerNavi/InnerNavi";
 import HairSalonInLavelleImg from "./HairSalonInLavelleImg/HairSalonInLavelleImg";
-import hairlavelleImg from "./../../../Images/JP_Nagar/Hair.png";
+import hairlavelleImg from "./../../../Images/SahakarNagar/Hair.png";
 
 const HairSalonInLavelle = () => {
   return (

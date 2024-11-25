@@ -13,6 +13,7 @@ import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 import UnisexHairSalonNearMeRead from "./UnisexHairSalonNearMeRead";
 import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
 import LastComp from "../../LastComp/LastComp";
+import UnisexHairSalonNearMeHead from "./UnisexHairSalonNearMeHead";
 
 const UnisexHairSalonNearMe = () => {
   return (
@@ -33,6 +34,7 @@ const UnisexHairSalonNearMe = () => {
       </Helmet>
       <HairServiceImg />
       <Navi1 />
+      <UnisexHairSalonNearMeHead />
       <HairServiceCardContain />
       <HairSalon />
       <Members />

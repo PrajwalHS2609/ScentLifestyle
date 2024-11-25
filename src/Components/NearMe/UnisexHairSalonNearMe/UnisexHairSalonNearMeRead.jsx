@@ -21,9 +21,9 @@ const UnisexHairSalonNearMeRead = () => {
   return (
     <div className="hairSalonNearMeRead">
       <div className="hairSalonNearMeReadHead">
-        <UnisexHairSalonNearMeHead />
+        <UnisexHairSalonNearMeWhy />
+
         <div ref={switchRef} className="hairSalonNearMeReadDisplay">
-          <UnisexHairSalonNearMeWhy />
           <UnisexHairSalonNearMeService />
           <UnisexHairSalonNearMeDiff />
           <UnisexHairSalonNearMeCustomer />

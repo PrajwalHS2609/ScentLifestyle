@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const HairSpaNearMePara = () => {
   return (
     <div className="compContainer">
-      <h3>Discover the Transformative Power of SCENT Salon</h3>
+      <h2>Discover the Transformative Power of SCENT Salon</h2>
       <p>
         When it comes to finding a
         <Link to={"/hair-spa-near-me"}>"hair spa near me,"</Link> SCENT Salon
@@ -37,7 +37,8 @@ const HairSpaNearMePara = () => {
         <Link to={"/hair-spa-near-me"}> hair spa treatment</Link>, ensuring you
         leave the salon feeling completely relaxed and rejuvenated.
       </p>
-      <h3>Why SCENT Salon is the Best Hair Spa Near Me?</h3>
+      <br />
+      <h2>Why SCENT Salon is the Best Hair Spa Near Me?</h2>
       <p>
         <Link to={"/"}> SCENT Salon</Link> has earned a reputation as the
         premier choice for anyone seeking a{" "}

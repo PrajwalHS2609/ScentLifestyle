@@ -1,5 +1,5 @@
 import React from "react";
-import hairJakkurImg from "./../../../../Images/JP_Nagar/Hair.png";
+import hairJakkurImg from "./../../../../Images/SahakarNagar/Hair.png";
 import "./HairSalonInJakkurImg.css"
 const HairSalonInJakkurImg = () => {
   return (

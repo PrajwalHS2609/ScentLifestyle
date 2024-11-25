@@ -1,7 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import HairSalonInMeadowsImg from "../../HairServicePage/HairSalonInMeadows/HairSalonInMeadowsImg/HairSalonInMeadowsImg";
-import facialSahakarImg from "./../../../Images/JP_Nagar/Facials.png";
+import facialSahakarImg from "./../../../Images/SahakarNagar/Facials.png";
 import InnerNavi from "../../InnerServicePage/InnerNavi/InnerNavi";
 import FacialInSahakaraNagarHead from './FacialInSahakaraNagarHead';
 import FacialInSahakaraNagarWhy from './FacialInSahakaraNagarWhy';

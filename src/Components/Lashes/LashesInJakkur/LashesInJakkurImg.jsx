@@ -1,5 +1,5 @@
 import React from "react";
-import lashesJakkurImg from "./../../../Images/JP_Nagar/Eye Lashes.png";
+import lashesJakkurImg from "./../../../Images/SahakarNagar/Eye Lashes.png";
 
 const LashesInJakkurImg = () => {
   return (

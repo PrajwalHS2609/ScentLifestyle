@@ -1,6 +1,6 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
-import nailMeadowsImg from "./../../../Images/JP_Nagar/Nail.png";
+import nailSahakarnagarImg from "./../../../Images/SahakarNagar/Nail.png";
 import NailSalonInSahakarNagarHead from './NailSalonInSahakarNagarHead';
 import NailSalonInSahakarNagarWhy from './NailSalonInSahakarNagarWhy';
 import Members from '../../HomePage/Members/Members';
@@ -37,7 +37,7 @@ const NailSalonInSahakarNagar = () => {
         href="https://scentlifestyle.com/hair-salon-in-sahakara-nagar-bangalore"
       />
     </Helmet>
-    <HairSalonInMeadowsImg img={nailMeadowsImg} alt={nailMeadowsImg} />
+    <HairSalonInMeadowsImg img={nailSahakarnagarImg} alt={nailSahakarnagarImg} />
     <InnerNavi
       link="/nail-salon"
       service="Nail Salon"

@@ -16,7 +16,7 @@ import BridalMakeUpInSahakarBook from "./BridalMakeUpInSahakarBook";
 import BridalMakeUpInSahakarWhat from "./BridalMakeUpInSahakarWhat";
 import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
 import LastComp from "../../LastComp/LastComp";
-import bridalSahakarImg from "./../../../Images/JP_Nagar/Bridal Makeup.png";
+import bridalSahakarImg from "./../../../Images/SahakarNagar/Bridal Makeup.png";
 
 const BridalMakeUpInSahakarNagar = () => {
   return (

@@ -35,10 +35,8 @@ const FacialsNearMePara = () => {
         processes that remove impurities and dead skin cells. The result is a
         clearer, brighter complexion that looks and feels refreshed.
       </p>
-      <h3>
-        Why SCENT Salon is the Best Choice for
-        <Link to={"/facials-near-me"}> Facials Near Me</Link>
-      </h3>
+      <br />
+      <h2>Why SCENT Salon is the Best Choice for Facials Near Me</h2>
       <p>
         SCENT Salon has built a reputation as a premier skincare destination,
         making it the ideal choice for those looking for
@@ -127,7 +125,7 @@ const FacialsNearMePara = () => {
         access make your visit stress-free, so you can focus entirely on your
         skincare and relaxation.
       </p>
-
+<br />
       <h2>Book Your Facial Appointment Today</h2>
       <p>
         Your search for the perfect
@@ -149,6 +147,7 @@ const FacialsNearMePara = () => {
         regular guests with exclusive benefits and discounts, ensuring that
         top-quality skincare is always within reach.
       </p>
+      <br />
       <h2>Conclusion</h2>
       <p>
         When searching for

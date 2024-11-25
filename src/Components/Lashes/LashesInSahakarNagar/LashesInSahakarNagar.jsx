@@ -15,7 +15,7 @@ import LashesInSahakarNagarBenefit from "./LashesInSahakarNagarBenefit";
 import LashesInSahakarNagarBook from "./LashesInSahakarNagarBook";
 import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
 import LastComp from "../../LastComp/LastComp";
-import lashesSahakarImg from "./../../../Images/JP_Nagar/Eye Lashes.png";
+import lashesSahakarImg from "./../../../Images/SahakarNagar/Eye Lashes.png";
 import LashesInSahakarNagarWhyChoose from "./LashesInSahakarNagarWhyChoose";
 
 const LashesInSahakarNagar = () => {

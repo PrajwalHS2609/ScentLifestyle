@@ -1,5 +1,5 @@
 import React from "react";
-import spaJakkurImg from "./../../../Images/JP_Nagar/Spa.png";
+import spaJakkurImg from "./../../../Images/SahakarNagar/Spa.png";
 
 const SpaInJakkurImg = () => {
   return (

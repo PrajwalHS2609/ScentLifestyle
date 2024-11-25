@@ -7,13 +7,14 @@ import InstaFeed from "../../HomePage/InstaFeed/InstaFeed";
 import HelpNearYou from "../../Help/HelpNearYou";
 import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
-import FacialsNearMeMain from "./FacialsNearMeMain";
 import LastComp from "../../LastComp/LastComp";
 import { Helmet } from "react-helmet";
 import FacialImg from "../../FacialPage/FacialImg/FacialImg";
 import Navi3 from "../../FacialPage/Navi3/Navi3";
 import FacialServiceCardContain from "../../FacialPage/FacialCards/FacialServiceCardContain";
 import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
+import FacialsNearMeHead from "./FacialsNearMeHead";
+import FacialsNearMePara from "./FacialsNearMePara";
 
 const FacialsNearMe = () => {
   return (
@@ -30,6 +31,8 @@ const FacialsNearMe = () => {
       <NavBg />
       <FacialImg />
       <Navi3 />
+      <FacialsNearMeHead />
+
       <FacialServiceCardContain />
       <Members />
       <OurSalon />
@@ -38,7 +41,7 @@ const FacialsNearMe = () => {
       <HelpNearYou />
       <TextLocReviews />
       <ServiceWhy />
-      <FacialsNearMeMain />
+      <FacialsNearMePara />
       <WhatsApp />
       <LastComp />
     </div>

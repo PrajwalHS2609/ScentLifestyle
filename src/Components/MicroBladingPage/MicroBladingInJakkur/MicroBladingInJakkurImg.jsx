@@ -1,5 +1,5 @@
 import React from "react";
-import microBladingImg from "./../../../Images/JP_Nagar/Eyeborw Microblading.png";
+import microBladingImg from "./../../../Images/SahakarNagar/Eyeborw Microblading.png";
 
 const MicroBladingInJakkurImg = () => {
   return (

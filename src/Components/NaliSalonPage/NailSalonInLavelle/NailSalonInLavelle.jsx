@@ -18,7 +18,7 @@ import LastComp from "../../LastComp/LastComp";
 import { Helmet } from "react-helmet";
 import NavBg from "../../NavBg/NavBg";
 import HairSalonInLavelleImg from "../../HairServicePage/HairSalonInLavelle/HairSalonInLavelleImg/HairSalonInLavelleImg";
-import naillavelleImg from "./../../../Images/JP_Nagar/Nail.png";
+import naillavelleImg from "./../../../Images/SahakarNagar/Nail.png";
 
 const NailSalonInLavelle = () => {
   return (

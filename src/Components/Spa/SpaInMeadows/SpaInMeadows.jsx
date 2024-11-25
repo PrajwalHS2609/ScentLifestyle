@@ -15,7 +15,7 @@ import SpaInMeadowsWhat from "./SpaInMeadowsWhat";
 import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
 import LastComp from "../../LastComp/LastComp";
 import HairSalonInMeadowsImg from "../../HairServicePage/HairSalonInMeadows/HairSalonInMeadowsImg/HairSalonInMeadowsImg";
-import spaMeadowsImg from "./../../../Images/JP_Nagar/Spa.png";
+import spaMeadowsImg from "./../../../Images/SahakarNagar/Spa.png";
 
 const SpaInMeadows = () => {
   return (

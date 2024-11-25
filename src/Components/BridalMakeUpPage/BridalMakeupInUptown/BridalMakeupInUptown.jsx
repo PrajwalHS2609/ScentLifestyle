@@ -1,6 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import bridalUptownImg from "./../../../Images/JP_Nagar/Bridal Makeup.png";
+import bridalUptownImg from "./../../../Images/SahakarNagar/Bridal Makeup.png";
 import HairSalonInMeadowsImg from "../../HairServicePage/HairSalonInMeadows/HairSalonInMeadowsImg/HairSalonInMeadowsImg";
 import InnerNavi from "../../InnerServicePage/InnerNavi/InnerNavi";
 import BridalMakeupInUptownHead from "./BridalMakeupInUptownHead";

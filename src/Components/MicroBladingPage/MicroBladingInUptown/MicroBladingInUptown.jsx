@@ -1,5 +1,5 @@
 import React from "react";
-import microbladingUptownImg from "./../../../Images/JP_Nagar/Eyeborw Microblading.png";
+import microbladingUptownImg from "./../../../Images/SahakarNagar/Eyeborw Microblading.png";
 import HairSalonInMeadowsImg from "../../HairServicePage/HairSalonInMeadows/HairSalonInMeadowsImg/HairSalonInMeadowsImg";
 import { Helmet } from "react-helmet";
 import InnerNavi from "../../InnerServicePage/InnerNavi/InnerNavi";

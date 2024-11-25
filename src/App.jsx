@@ -199,6 +199,9 @@ import HairColouredSpa from "./Components/HairServicePage/HairColouredSpa/HairCo
 import HairSpaTreatment from "./Components/BlogPage/BlogInnerPages/HairBlogInnerPages/HairSpaTreatment/HairSpaTreatment";
 import BodyDTanTreatment from "./Components/BlogPage/BlogInnerPages/BeautyBlogInnerPages/BodyDTanTreatment/BodyDTanTreatment";
 import LashesExtensionBlog from "./Components/BlogPage/BlogInnerPages/LashesBlogInnerPages/LashesExtension/LashesExtension";
+import NailArtNearMe from "./Components/NearMe/NailArtNearMe/NailArtNearMe";
+import GelNailExtensionNearMe from "./Components/NearMe/GelNailExtensionNearMe/GelNailExtensionNearMe";
+import PedicuristNearMe from "./Components/NearMe/PedicuristNearMe/PedicuristNearMe";
 
 const App = () => {
   return (
@@ -360,6 +363,12 @@ const App = () => {
             path="/golden-brown-hair-color-near-me"
             element={<GoldenColorNearMe />}
           />
+          <Route path="/pedicurist-near-me" element={<PedicuristNearMe />} />
+          <Route
+            path="/gel-nail-extension-near-me"
+            element={<GelNailExtensionNearMe />}
+          />
+          <Route path="/nail-art-near-me" element={<NailArtNearMe />} />
 
           {/* -----------------------------/NearMe-------------------------------------------------           */}
           <Route path="/nails-extension" element={<NailExtensionPage />} />
@@ -619,37 +628,7 @@ const App = () => {
             path="/lp-hair-highlights-and-streaks"
             element={<HairColorStreaksLandingPage />}
           />
-          {/* -------------------InLavelleRoad-------------------- */}
-          <Route
-            path="/hair-salon-in-lavelle-road"
-            element={<HairSalonInLavelle />}
-          />
-          <Route
-            path="/nail-salon-in-lavelle-road"
-            element={<NailSalonInLavelle />}
-          />
-          <Route
-            path="/body-waxing-threading-and-d-tan-in-lavelle-road"
-            element={<BodyWaxingInLavelle />}
-          />
-          <Route path="/spa-in-lavelle-road" element={<SpaInLavelle />} />
-          <Route
-            path="/eye-lashes-in-lavelle-road"
-            element={<LashesInLavelle />}
-          />
-          <Route
-            path="/bridal-makeup-in-lavelle-road"
-            element={<BridalMakeUpInLavelle />}
-          />
-          <Route
-            path="/eyebrow-microblading-in-lavelle-road"
-            element={<MicroBladingInLavelle />}
-          />
-          <Route
-            path="/nail-extensions-near-lavelle-road"
-            element={<NailExtensionInLavelle />}
-          />
-          {/* -----------------------/InLavelleRoad-------------------- */}
+
           <Route path="/offer" element={<OfferTesting />} />
           <Route
             path="/brazilian-waxing-services-in-bangalore"
@@ -668,62 +647,6 @@ const App = () => {
             element={<Olaplex />}
           />
 
-          {/*-----------------InJakkur------------------------------------ */}
-          <Route path="/hair-salon-in-jakkur" element={<HairSalonInJakkur />} />
-          <Route path="/nail-salon-in-jakkur" element={<NailSalonInJakkur />} />
-          <Route path="/facials-in-jakkur" element={<FacialInJakkur />} />
-          <Route
-            path="/body-waxing-threading-and-d-tan-in-jakkur"
-            element={<BodyWaxingInJakkur />}
-          />
-          <Route path="/spa-in-jakkur" element={<SpaInJakkur />} />
-          <Route path="/eye-lashes-in-jakkur" element={<LashesInJakkur />} />
-          <Route
-            path="/bridal-makeup-in-jakkur"
-            element={<BridalMakeupInJakkur />}
-          />
-          <Route
-            path="/eyebrow-microblading-in-jakkur"
-            element={<MicroBladingInJakkur />}
-          />
-          <Route
-            path="/nail-extensions-near-jakkur"
-            element={<NailExtensionInJakkur />}
-          />
-          {/* ----------------------/InMeadows---------------------- */}
-          <Route
-            path="/hair-salon-in-meadows-whitefield-bangalore"
-            element={<HairSalonInMeadows />}
-          />
-          <Route
-            path="/nail-salon-in-meadows-whitefield"
-            element={<NailSalonInMeadows />}
-          />
-          <Route
-            path="/facials-in-meadows-whitefield"
-            element={<FacialInMeadows />}
-          />
-          <Route
-            path="/body-waxing-threading-and-d-tan-in-meadows-whitefield"
-            element={<BodyWaxingInMeadows />}
-          />
-          <Route path="/spa-in-meadows-whitefield" element={<SpaInMeadows />} />
-          <Route
-            path="/eye-lashes-in-meadows-whitefield"
-            element={<LashesInMeadows />}
-          />
-          <Route
-            path="/bridal-makeup-in-meadows-whitefield"
-            element={<BridalMakeupInMeadows />}
-          />
-          <Route
-            path="/eyebrow-microblading-in-meadows-whitefield"
-            element={<MicroBladingInMeadows />}
-          />
-          <Route
-            path="/nail-extensions-near-meadows-whitefield"
-            element={<NailExtensionInMeadows />}
-          />
           {/* -----------------InSahakarNagar-------------- */}
           <Route
             path="/hair-salon-in-sahakara-nagar-bangalore"
@@ -761,6 +684,98 @@ const App = () => {
             path="/nail-extensions-near-sahakaranagar"
             element={<NailExtensionInSahakaraNagar />}
           />
+          {/* ----------------------/InSahakarnagar---------------------- */}
+
+          {/* ----------------------InMeadows---------------------- */}
+          <Route
+            path="/hair-salon-in-meadows-whitefield-bangalore"
+            element={<HairSalonInMeadows />}
+          />
+          <Route
+            path="/nail-salon-in-meadows-whitefield"
+            element={<NailSalonInMeadows />}
+          />
+          <Route
+            path="/facials-in-meadows-whitefield"
+            element={<FacialInMeadows />}
+          />
+          <Route
+            path="/body-waxing-threading-and-d-tan-in-meadows-whitefield"
+            element={<BodyWaxingInMeadows />}
+          />
+          <Route path="/spa-in-meadows-whitefield" element={<SpaInMeadows />} />
+          <Route
+            path="/eye-lashes-in-meadows-whitefield"
+            element={<LashesInMeadows />}
+          />
+          <Route
+            path="/bridal-makeup-in-meadows-whitefield"
+            element={<BridalMakeupInMeadows />}
+          />
+          <Route
+            path="/eyebrow-microblading-in-meadows-whitefield"
+            element={<MicroBladingInMeadows />}
+          />
+          <Route
+            path="/nail-extensions-near-meadows-whitefield"
+            element={<NailExtensionInMeadows />}
+          />
+          {/* ----------------------/InMeadows---------------------- */}
+
+          {/* -------------------InLavelleRoad-------------------- */}
+          <Route
+            path="/hair-salon-in-lavelle-road"
+            element={<HairSalonInLavelle />}
+          />
+          <Route
+            path="/nail-salon-in-lavelle-road"
+            element={<NailSalonInLavelle />}
+          />
+          <Route
+            path="/body-waxing-threading-and-d-tan-in-lavelle-road"
+            element={<BodyWaxingInLavelle />}
+          />
+          <Route path="/spa-in-lavelle-road" element={<SpaInLavelle />} />
+          <Route
+            path="/eye-lashes-in-lavelle-road"
+            element={<LashesInLavelle />}
+          />
+          <Route
+            path="/bridal-makeup-in-lavelle-road"
+            element={<BridalMakeUpInLavelle />}
+          />
+          <Route
+            path="/eyebrow-microblading-in-lavelle-road"
+            element={<MicroBladingInLavelle />}
+          />
+          <Route
+            path="/nail-extensions-near-lavelle-road"
+            element={<NailExtensionInLavelle />}
+          />
+          {/* -----------------------/InLavelleRoad-------------------- */}
+          {/*-----------------InJakkur------------------------------------ */}
+          <Route path="/hair-salon-in-jakkur" element={<HairSalonInJakkur />} />
+          <Route path="/nail-salon-in-jakkur" element={<NailSalonInJakkur />} />
+          <Route path="/facials-in-jakkur" element={<FacialInJakkur />} />
+          <Route
+            path="/body-waxing-threading-and-d-tan-in-jakkur"
+            element={<BodyWaxingInJakkur />}
+          />
+          <Route path="/spa-in-jakkur" element={<SpaInJakkur />} />
+          <Route path="/eye-lashes-in-jakkur" element={<LashesInJakkur />} />
+          <Route
+            path="/bridal-makeup-in-jakkur"
+            element={<BridalMakeupInJakkur />}
+          />
+          <Route
+            path="/eyebrow-microblading-in-jakkur"
+            element={<MicroBladingInJakkur />}
+          />
+          <Route
+            path="/nail-extensions-near-jakkur"
+            element={<NailExtensionInJakkur />}
+          />
+
           {/* -----------------------InUptown--------------------------- */}
           <Route
             path="/hair-salon-in-uptown-whitefield-bangalore"

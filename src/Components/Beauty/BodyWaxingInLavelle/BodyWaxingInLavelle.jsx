@@ -6,7 +6,7 @@ import BodyWaxingInLavelleHead from "./BodyWaxingInLavelleHead";
 import { Helmet } from "react-helmet";
 import NavBg from "./../../NavBg/NavBg";
 import HairSalonInLavelleImg from "../../HairServicePage/HairSalonInLavelle/HairSalonInLavelleImg/HairSalonInLavelleImg";
-import beautylavelleImg from "./../../../Images/JP_Nagar/Waxing, Threding & D-Tan.png";
+import beautylavelleImg from "./../../../Images/SahakarNagar/Waxing, Threding & D-Tan.png";
 
 const BodyWaxingInLavelle = () => {
   return (

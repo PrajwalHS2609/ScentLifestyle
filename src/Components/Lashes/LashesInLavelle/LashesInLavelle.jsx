@@ -15,7 +15,7 @@ import LashesInLavelleBook from "./LashesInLavelleBook";
 import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
 import LastComp from "../../LastComp/LastComp";
 import HairSalonInLavelleImg from "../../HairServicePage/HairSalonInLavelle/HairSalonInLavelleImg/HairSalonInLavelleImg";
-import lasheslavelleImg from "./../../../Images/JP_Nagar/Eye Lashes.png";
+import lasheslavelleImg from "./../../../Images/SahakarNagar/Eye Lashes.png";
 import LashesInLavelleBenefits from './LashesInLavelleBenefits';
 
 const LashesInLavelle = () => {

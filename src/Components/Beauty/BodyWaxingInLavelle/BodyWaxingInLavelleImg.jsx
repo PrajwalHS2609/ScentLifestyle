@@ -1,5 +1,5 @@
 import React from "react";
-import BodyWaxingJpImg from "./../../../Images/JP_Nagar/Waxing, Threding & D-Tan.png";
+import BodyWaxingJpImg from "./../../../Images/SahakarNagar/Waxing, Threding & D-Tan.png";
 
 const BodyWaxingInLavelleImg = () => {
   return (
