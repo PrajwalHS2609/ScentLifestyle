@@ -1,5 +1,4 @@
 import React, { useRef, useState } from "react";
-import UnisexHairSalonNearMeHead from "./UnisexHairSalonNearMeHead";
 import UnisexHairSalonNearMeWhy from "./UnisexHairSalonNearMeWhy";
 import UnisexHairSalonNearMeService from "./UnisexHairSalonNearMeService";
 import UnisexHairSalonNearMeDiff from "./UnisexHairSalonNearMeDiff";
