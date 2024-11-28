@@ -8,9 +8,7 @@ const QAPage = () => {
     <div className="QAPageContainer">
       {/* <QAPageHeader /> */}
       <div className="QAPageWrapper">
-        {" "}
         <QAPageMain />
-        {/* <QAStatistics /> */}
       </div>
     </div>
   );

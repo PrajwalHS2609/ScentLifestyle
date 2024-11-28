@@ -110,7 +110,8 @@ const QAPageMain = () => {
     <div className="QAPageMain">
       {/* Search Input */}
       <div className="QAPageMainSearch">
-        <div className="QAPageMainSearchWrapper">
+     <div className="QAPageMainSearchCover">
+     <div className="QAPageMainSearchWrapper">
           <input
             type="text"
             placeholder="Search for name, questions, or content..."
@@ -138,6 +139,7 @@ const QAPageMain = () => {
             ></FontAwesomeIcon>
           </button>
         </div>
+     </div>
       </div>
 
       {/* Display Cards */}
@@ -155,6 +157,9 @@ const QAPageMain = () => {
             />
           </div>
         ))}
+      </div>
+      <div className="QAPageMainSearch">
+        
       </div>
     </div>
   );
