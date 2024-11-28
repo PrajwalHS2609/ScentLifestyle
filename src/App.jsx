@@ -202,6 +202,8 @@ import LashesExtensionBlog from "./Components/BlogPage/BlogInnerPages/LashesBlog
 import NailArtNearMe from "./Components/NearMe/NailArtNearMe/NailArtNearMe";
 import GelNailExtensionNearMe from "./Components/NearMe/GelNailExtensionNearMe/GelNailExtensionNearMe";
 import PedicuristNearMe from "./Components/NearMe/PedicuristNearMe/PedicuristNearMe";
+import QAPage from "./Components/QAPage/QAPage";
+import HairBleach from "./Components/BlogPage/BlogInnerPages/HairBlogInnerPages/HairBleach/HairBleach";
 
 const App = () => {
   return (
@@ -514,6 +516,10 @@ const App = () => {
             path="/eyelash-extensions-for-special-occasions-your-go-to-glam-look"
             element={<LashesExtensionBlog />}
           />
+          <Route
+            path="/how-often-should-you-bleach-your-hair"
+            element={<HairBleach />}
+          />
           {/* ------------------------/blog------------------------      */}
 
           <Route path="/pre-bridal-treatments" element={<PrebridalPackage />} />
@@ -813,6 +819,8 @@ const App = () => {
             path="/nail-extensions-near-uptown-whitefield"
             element={<NailExtensionInUptown />}
           />
+          {/* -----------------------/InUptown--------------------------- */}
+          <Route path="/q-and-a" element={<QAPage />} />
         </Routes>
       </BrowserRouter>
     </div>

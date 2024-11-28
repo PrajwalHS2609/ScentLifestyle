@@ -13,6 +13,7 @@ import curlyHairBanner from "./../../../../Images/Blog/Is Curly Hair the Right S
 import hairColorBanner from "./../../../../Images/Blog/25+ Hair Colors/Banner.png";
 import hairBotoxTreatmentBanner from "./../../../../Images/Blog/Hair_Botox_Treatment/Banner.png";
 import hairSpaTreatmentBanner from "./../../../../Images/Blog/Hair_Spa_Treatments/Banner.png";
+import hairBleachBanner from "./../../../../Images/Blog/How Often Should You Bleach Your Hair/Banner.png";
 
 const BlogHair = () => {
   let [toggle, setToggle] = useState(false);
@@ -110,7 +111,12 @@ const BlogHair = () => {
           para="Hair is one of the most defining aspects of personal style and grooming for both..."
           link="/top-benefits-of-regular-hair-spa-treatments"
         />
- 
+        <BlogCard
+          img={hairBleachBanner}
+          head="How Often Should You Bleach Your Hair? Expert Advice"
+          para="Bleaching your hair can be a transformative experience, offering a fresh and..."
+          link="/how-often-should-you-bleach-your-hair"
+        />
       </div>
 
       <div className="blogMainReadMore">
