@@ -1,7 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import WhatsApp from "../../../../HomePage/WhatsApp/WhatsApp";
-import LastComp from "../../../../LastComp/LastComp";
 import HairSpaTreatmentImg from "./HairSpaTreatmentImg";
 import HairSpaTreatmentHead from "./HairSpaTreatmentHead";
 import HairServImg from "../../HairBotox/HairServImg";
@@ -67,8 +66,7 @@ const HairSpaTreatment = () => {
         <HairSpaTreatmentFinal />
         <br />
       </div>
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

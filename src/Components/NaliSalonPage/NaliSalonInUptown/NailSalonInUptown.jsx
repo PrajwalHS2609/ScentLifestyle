@@ -7,8 +7,6 @@ import InstaFeed from "../../HomePage/InstaFeed/InstaFeed";
 import HelpNearYou from "../../Help/HelpNearYou";
 import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
-import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
-import LastComp from "../../LastComp/LastComp";
 import NailSalonInUptownHead from "./NailSalonInUptownHead";
 import NailSalonInUptownWhyChoose from "./NailSalonInUptownWhyChoose";
 import NailSalonInUptownService from "./NailSalonInUptownService";
@@ -51,8 +49,7 @@ const NailSalonInUptown = () => {
       <NailSalonInUptownWhyChoose/>
       <NailSalonInUptownService/>
       <NailSalonInUptownWhy/>
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

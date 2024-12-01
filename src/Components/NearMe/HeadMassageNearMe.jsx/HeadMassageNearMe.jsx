@@ -11,9 +11,7 @@ import InstaFeed from "../../HomePage/InstaFeed/InstaFeed";
 import HelpNearYou from "../../Help/HelpNearYou";
 import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
-import LastComp from "../../LastComp/LastComp";
 import HeadMassageMain from "./HeadMassageMain";
-import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
 
 const HeadMassageNearMe = () => {
   return (
@@ -40,8 +38,7 @@ const HeadMassageNearMe = () => {
       <TextLocReviews />
       <ServiceWhy />
       <HeadMassageMain />
-      <WhatsApp/>
-      <LastComp />
+      
     </div>
   );
 };

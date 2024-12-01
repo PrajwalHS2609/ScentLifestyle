@@ -14,8 +14,6 @@ import NailSalonInSahakarNagarMaincure from './NailSalonInSahakarNagarMaincure';
 import NailSalonInSahakarNagarArt from './NailSalonInSahakarNagarArt';
 import NailSalonInSahakarNagarExtension from './NailSalonInSahakarNagarExtension';
 import NailSalonInSahakarNagarHealth from './NailSalonInSahakarNagarHealth';
-import WhatsApp from '../../HomePage/WhatsApp/WhatsApp';
-import LastComp from '../../LastComp/LastComp';
 import InnerNavi from '../../InnerServicePage/InnerNavi/InnerNavi';
 import HairSalonInMeadowsImg from '../../HairServicePage/HairSalonInMeadows/HairSalonInMeadowsImg/HairSalonInMeadowsImg';
 
@@ -56,9 +54,7 @@ const NailSalonInSahakarNagar = () => {
     <NailSalonInSahakarNagarArt />
     <NailSalonInSahakarNagarExtension />
     <NailSalonInSahakarNagarHealth/>
-    <WhatsApp />
-    <LastComp />
-  </div>
+      </div>
   )
 }
 

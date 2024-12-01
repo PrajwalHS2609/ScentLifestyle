@@ -6,14 +6,12 @@ import InstaFeed from "../HomePage/InstaFeed/InstaFeed";
 import HelpNearYou from "../Help/HelpNearYou";
 import TextLocReviews from "../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../MainServicePages/ServiceWhy/ServiceWhy";
-import LastComp from "../LastComp/LastComp";
 import Partners from "../HomePage/Partners/Partners";
 import OurSalon from "../HomePage/OurSalon/OurSalon";
 import Members from "../HomePage/Members/Members";
 import BridalMakeUpServiceCard from "./BridalMakeUpServiceCard";
 import BridalMakeUpAbout from "./BridalMakeUpAbout/BridalMakeUpAbout";
 import BridalReadMore from "./BridalReadMore/BridalReadMore";
-import WhatsApp from "../HomePage/WhatsApp/WhatsApp";
 import ServBreadCrumb from "../InnerServicePage/InnerNavi/ServBreadCrumb";
 // import BridalGallery from "./BridalGallery/BridalGallery";
 
@@ -44,9 +42,8 @@ const BridalMakeUpPage = () => {
       <HelpNearYou />
       <TextLocReviews />
       <ServiceWhy />
-      <WhatsApp/>
       <BridalReadMore />
-      <LastComp />
+      
     </div>
   );
 };

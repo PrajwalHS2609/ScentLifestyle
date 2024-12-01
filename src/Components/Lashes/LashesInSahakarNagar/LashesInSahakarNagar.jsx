@@ -13,8 +13,6 @@ import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
 import LashesInSahakarNagarWhy from "./LashesInSahakarNagarWhy";
 import LashesInSahakarNagarBenefit from "./LashesInSahakarNagarBenefit";
 import LashesInSahakarNagarBook from "./LashesInSahakarNagarBook";
-import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
-import LastComp from "../../LastComp/LastComp";
 import lashesSahakarImg from "./../../../Images/SahakarNagar/Eye Lashes.png";
 import LashesInSahakarNagarWhyChoose from "./LashesInSahakarNagarWhyChoose";
 
@@ -54,8 +52,7 @@ const LashesInSahakarNagar = () => {
       <LashesInSahakarNagarBenefit />
       <LashesInSahakarNagarWhy />
       <LashesInSahakarNagarBook />
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

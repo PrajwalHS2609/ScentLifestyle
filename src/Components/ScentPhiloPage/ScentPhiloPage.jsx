@@ -2,10 +2,8 @@ import React from "react";
 import "./ScentPhiloPage.css";
 import ScentPhiloHead from "./ScentPhiloHead";
 import ScentPhiloTxt from "./ScentPhiloTxt";
-import LastComp from "../LastComp/LastComp";
 import NavBg from "../NavBg/NavBg";
 import { Helmet } from "react-helmet";
-import WhatsApp from "../HomePage/WhatsApp/WhatsApp";
 
 const ScentPhiloPage = () => {
   return (
@@ -23,9 +21,8 @@ const ScentPhiloPage = () => {
       <div className="scentPhiloPageContent">
         <ScentPhiloHead />
         <ScentPhiloTxt />
-        <WhatsApp/>
-      </div>
-      <LastComp />
+        </div>
+      
     </div>
   );
 };

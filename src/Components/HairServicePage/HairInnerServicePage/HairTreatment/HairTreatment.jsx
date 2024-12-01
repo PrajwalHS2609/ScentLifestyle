@@ -1,8 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import NavBg from "../../../NavBg/NavBg";
-import LastComp from "../../../LastComp/LastComp";
-import WhatsApp from "../../../HomePage/WhatsApp/WhatsApp";
 import HairTreatmentBook from "./HairTreatmentBook";
 import HairTreatmentWhy from "./HairTreatmentWhy";
 import HairTreatmentXp from "./HairTreatmentXp";
@@ -41,8 +39,7 @@ const HairTreatment = () => {
       <HairTreatmentWhy />
       <HairTreatmentBook />
     
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

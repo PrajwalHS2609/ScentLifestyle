@@ -1,5 +1,4 @@
 import React from "react";
-import LastComp from "../../LastComp/LastComp";
 import "./UpTownLocPage.css";
 import LocationImg from "../LocationImg/LocationImg";
 import loc4 from "./../../../Images/Varthur - whitefield.jpg";
@@ -13,7 +12,6 @@ import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 import UpTownLocAbout from "./UpTownLocAbout/UpTownLocAbout";
 import { Helmet } from "react-helmet";
 import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
-import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
 import ServBreadCrumb from "../../InnerServicePage/InnerNavi/ServBreadCrumb";
 // import LocationCard from "../LocationCard/LocationCard";
 import LocationCard1 from "../LocationCard/LocationCard1";
@@ -71,9 +69,8 @@ const UpTownLocPage = () => {
       <Partners />
       <InstaFeed />
       <ServiceWhy />
-      <WhatsApp />
-
-      <LastComp />
+      
+      
     </div>
   );
 };

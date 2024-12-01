@@ -1,6 +1,5 @@
 import React from "react";
 import "./LavellelLocPage.css";
-import LastComp from "../../LastComp/LastComp";
 // import LavellelLocMap from "./LavellelLocMap/LavellelLocMap";
 import LocationImg from "../LocationImg/LocationImg";
 import loc2 from "./../../../Images/lavelle road.jpg";
@@ -13,7 +12,6 @@ import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 import LavelleLocAbout from "./LavelleLocAbout/LavelleLocAbout";
 import { Helmet } from "react-helmet";
 import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
-import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
 import ServBreadCrumb from "../../InnerServicePage/InnerNavi/ServBreadCrumb";
 // import LocationCard from "../LocationCard/LocationCard";
 import LocationCard1 from "../LocationCard/LocationCard1";
@@ -81,8 +79,7 @@ const LavellelLocPage = () => {
       <Partners />
       <InstaFeed />
       <ServiceWhy />
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

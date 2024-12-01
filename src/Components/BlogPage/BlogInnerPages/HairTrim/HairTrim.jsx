@@ -5,8 +5,6 @@ import HairTrimHead from "./HairTrimHead";
 import HairTrimImg from "./HairTrimImg";
 import HairTrimFaq from "./HairTrimFaq";
 import InnerNavi from "../../../InnerServicePage/InnerNavi/InnerNavi";
-import LastComp from "../../../LastComp/LastComp";
-import WhatsApp from "../../../HomePage/WhatsApp/WhatsApp";
 import { Helmet } from "react-helmet";
 const HairTrim = () => {
   return (
@@ -30,8 +28,7 @@ const HairTrim = () => {
         <HairTrimHead />
         <HairTrimFaq />
       </div>
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

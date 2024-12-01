@@ -6,6 +6,13 @@ import "slick-carousel/slick/slick-theme.css";
 import leftArrow from "./../../../Images/left.png";
 import rightArrow from "./../../../Images/right.png";
 // import abstractImg from "./../../../Images/Abstract Shapes.png";
+import olaplex from "./../../../Images/homePartners/olaplex.png"
+import casmara from "./../../../Images/homePartners/casmara.png"
+import estee from "./../../../Images/homePartners/estee_lauder.jpg"
+import beautyGarage from "./../../../Images/homePartners/beautyGarage.jpg"
+import kerastase from "./../../../Images/homePartners/kerastase.png"
+
+
 const Partners = () => {
   function SampleNextArrow(props) {
     const { className, style, onClick } = props;
@@ -133,35 +140,35 @@ const Partners = () => {
         <Slider {...settings}>
           <div className="partnerSlideContainer">
             <img
-              src="https://lh3.googleusercontent.com/proxy/U28vdrpWn5iMQm_uA9mi6Jf8gsWWe2YVvgVWu0OcxLoflRGuWNTvSq59oKSKFF-zOOwuH79zmW90bC6If8SKlnpb8k4Ci9_NX_b0C76TceAKWtfMcmlo"
+              src={olaplex}
               alt="olaplex"
             />
           </div>
           <div className="partnerSlideContainer">
             <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXHvSR4841_YgvWBIBrGnO9Gkcxsi54XVhh0F9XJsscA&s"
-              alt="casma"
+              src={casmara}
+              alt="casmara"
             />
           </div>
 
           <div className="partnerSlideContainer" id="estee">
             <img
-              src="https://logowik.com/content/uploads/images/550_estee_lauder.jpg "
+              src={estee}
               alt="estee"
             />
           </div>
 
           <div className="partnerSlideContainer">
             <img
-              src="https://oemfile.informamarkets-info.com/FileUpload/CA2022_32978/20221020140941496.jpg "
-              alt="bg"
+              src={beautyGarage}
+              alt="beautyGarage"
             />
           </div>
 
           <div className="partnerSlideContainer" id="keraste">
             <img
-              src="https://www.powerreviews.com/wp-content/uploads/2020/11/kerastase-logo-768x217.png"
-              alt="keraste"
+              src={kerastase}
+              alt="kerastase"
             />
           </div>
         </Slider>

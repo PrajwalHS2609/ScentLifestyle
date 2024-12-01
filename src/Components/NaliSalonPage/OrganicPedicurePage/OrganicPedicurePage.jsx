@@ -13,8 +13,6 @@ import InstaFeed from "../../HomePage/InstaFeed/InstaFeed";
 import HelpNearYou from "../../Help/HelpNearYou";
 import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
-import LastComp from "../../LastComp/LastComp";
-import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
 import OrganicPedicureImg from "./OrganicPedicureImg";
 
 const OrganicPedicurePage = () => {
@@ -49,8 +47,7 @@ const OrganicPedicurePage = () => {
       <OrganicPedicureMaintain />
       <OrganicPedicureBook />
 
-      <WhatsApp/>
-      <LastComp />
+      
     </div>
   );
 };

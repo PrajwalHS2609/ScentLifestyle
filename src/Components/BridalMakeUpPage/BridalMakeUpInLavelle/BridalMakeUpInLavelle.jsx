@@ -9,8 +9,6 @@ import InstaFeed from "../../HomePage/InstaFeed/InstaFeed";
 import HelpNearYou from "../../Help/HelpNearYou";
 import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
-import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
-import LastComp from "../../LastComp/LastComp";
 import BridalMakeUpInLavelleHead from "./BridalMakeUpInLavelleHead";
 import BridalMakeUpInLavelleWhy from "./BridalMakeUpInLavelleWhy";
 import BridalMakeUpInLavelleWhyChoose from "./BridalMakeUpInLavelleWhyChoose";
@@ -58,8 +56,7 @@ const BridalMakeUpInLavelle = () => {
       <BridalMakeUpInLavelleEnchance />
       <BridalMakeUpInLavelleWhy />
       <BridalMakeUpInLavelleBook />
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

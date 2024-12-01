@@ -1,6 +1,4 @@
 import React from "react";
-import LastComp from "../../../LastComp/LastComp";
-import WhatsApp from "../../../HomePage/WhatsApp/WhatsApp";
 import { Helmet } from "react-helmet";
 import NavBg from "../../../NavBg/NavBg";
 import InnerNavi from "../../../InnerServicePage/InnerNavi/InnerNavi";
@@ -33,8 +31,7 @@ const HairSpa = () => {
       <HairSpaBenefits />
       <HairSpaWhy />
       <HairSpaBook />
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

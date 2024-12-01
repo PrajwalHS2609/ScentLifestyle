@@ -2,7 +2,6 @@ import React from "react";
 import MembershipHead from "./MembershipHead";
 import MembershipPara from "./MembershipPara";
 import "./MembershipPage.css";
-import LastComp from "../LastComp/LastComp";
 import MembershipImg from "./MembershipImg";
 import MembershipPrice from "./MembershipPrice";
 import Members from "../HomePage/Members/Members";
@@ -11,7 +10,6 @@ import Partners from "../HomePage/Partners/Partners";
 import InstaFeed from "../HomePage/InstaFeed/InstaFeed";
 import { Helmet } from "react-helmet";
 import NavBg from "../NavBg/NavBg";
-import WhatsApp from "../HomePage/WhatsApp/WhatsApp";
 import ServiceWhy from "../MainServicePages/ServiceWhy/ServiceWhy";
 import TextLocReviews from "../TextLocReviews/TextLocReviews";
 import HelpNearYou from "../Help/HelpNearYou";
@@ -45,8 +43,7 @@ const MembershipPage = () => {
       <HelpNearYou />
       <TextLocReviews />
       <ServiceWhy />
-      <WhatsApp/>
-      <LastComp />
+      
     </div>
   );
 };

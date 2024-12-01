@@ -10,8 +10,6 @@ import HelpNearYou from "../../../Help/HelpNearYou";
 import TextLocReviews from "../../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../../MainServicePages/ServiceWhy/ServiceWhy";
 import BeautyRead from "../../../Beauty/BeautyRead/BeautyRead";
-import WhatsApp from "../../../HomePage/WhatsApp/WhatsApp";
-import LastComp from "../../../LastComp/LastComp";
 import BackSpaHead from "./BackSpaHead";
 import BackBenefits from "./../../../Beauty/BeautyInnerPages/BackPage/BackBenefits";
 import NavBg from "../../../NavBg/NavBg";
@@ -57,8 +55,7 @@ const BackSpa = () => {
       <TextLocReviews />
       <ServiceWhy />
       <BeautyRead />
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

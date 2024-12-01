@@ -6,8 +6,6 @@ import OurSalon from "../../../HomePage/OurSalon/OurSalon";
 import HelpNearYou from "../../../Help/HelpNearYou";
 import TextLocReviews from "../../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../../MainServicePages/ServiceWhy/ServiceWhy";
-import WhatsApp from "../../../HomePage/WhatsApp/WhatsApp";
-import LastComp from "../../../LastComp/LastComp";
 import { Helmet } from "react-helmet";
 import NeckHead from "./NeckHead";
 import NeckXp from "./NeckXp";
@@ -58,8 +56,7 @@ const NeckPage = () => {
       <NeckWhat />
       <NeckAftercare />
       <NeckBook />
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

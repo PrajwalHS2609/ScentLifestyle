@@ -15,8 +15,6 @@ import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
 import FacialInSahakaraNagarXp from "./FacialInSahakaraNagarXp";
 import FacialInSahakaraNagarImp from './FacialInSahakaraNagarImp';
 import FacialInSahakaraNagarBook from './FacialInSahakaraNagarBook';
-import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
-import LastComp from "../../LastComp/LastComp";
 
 const FacialInSahakaraNagar = () => {
   return (
@@ -54,8 +52,7 @@ const FacialInSahakaraNagar = () => {
       <FacialInSahakaraNagarXp />
       <FacialInSahakaraNagarImp />
       <FacialInSahakaraNagarBook />
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

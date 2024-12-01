@@ -1,6 +1,4 @@
-:root {
-  --customRed: #cc2228;
-}
+
 .navbgService {
   background-color: black;
   height: 100px;
@@ -64,7 +62,7 @@
 .serviceCoverUnderline {
   border: 2px solid;
   width: 100px;
-  color: var(--customRed);
+  color: var(--customColor);
 }
 .serviceOverCoverTxt > p {
   /* border: solid; */
@@ -154,7 +152,7 @@
   .serviceCoverUnderline {
     border: 2px solid;
     width: 100px;
-    color: var(--customRed);
+    color: var(--customColor);
   }
   .serviceOverCoverTxt > p {
     /* border: solid; */
@@ -222,7 +220,7 @@
   .serviceCoverUnderline {
     border: 2px solid;
     width: 100px;
-    color: var(--customRed);
+    color: var(--customColor);
   }
   .serviceOverCoverTxt > p {
     /* border: solid; */

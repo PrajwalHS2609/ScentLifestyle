@@ -11,8 +11,6 @@ import HelpNearYou from "../../Help/HelpNearYou";
 import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
 import GlobalColorNearMeRead from "./GlobalColorNearMeRead";
-import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
-import LastComp from "../../LastComp/LastComp";
 
 const GlobalColorNearMe = () => {
   return (
@@ -46,8 +44,7 @@ const GlobalColorNearMe = () => {
       <TextLocReviews />
       <ServiceWhy />
       <GlobalColorNearMeRead />
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

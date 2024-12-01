@@ -5,8 +5,6 @@ import HairSalonInUptownExpert from "./HairSalonInUptownExpert";
 import HairSalonInUptownBook from "./HairSalonInUptownBook";
 import HairsalonInUptownWhyChoose from "./HairsalonInUptownWhyChoose/HairsalonInUptownWhyChoose";
 import HairsalonInUptownService from "./HairsalonInUptownService/HairsalonInUptownService";
-import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
-import LastComp from "../../LastComp/LastComp";
 import Members from "../../HomePage/Members/Members";
 import OurSalon from "../../HomePage/OurSalon/OurSalon";
 import Partners from "../../HomePage/Partners/Partners";
@@ -54,8 +52,7 @@ const HairSalonInUptown = () => {
       <HairsalonInUptownWhyChoose />
       <HairsalonInUptownService />
       <HairSalonInUptownBook />
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

@@ -4,7 +4,6 @@ import Olaplex from "./Olaplex/Olaplex";
 import Schw from "./Schw/Schw";
 import { Helmet } from "react-helmet";
 import NavBg from "../NavBg/NavBg";
-import LastComp from "../LastComp/LastComp";
 import ShopPageHead from "./ShopPageHead";
 const ShopPage = () => {
   return (
@@ -25,7 +24,7 @@ const ShopPage = () => {
       <BeautyGarage />
       <Olaplex />
       <Schw />
-      <LastComp />
+      
     </div>
   );
 };

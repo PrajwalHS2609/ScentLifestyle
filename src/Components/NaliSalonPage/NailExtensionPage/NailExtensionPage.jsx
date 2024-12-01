@@ -8,8 +8,6 @@ import NailExtensionWhy from "./NailExtensionWhy/NailExtensionWhy";
 import NailSalonBook from "./NailSalonBook/NailSalonBook";
 import SalonXp from "./SalonXp/SalonXp";
 import NailArtDesign from "./NailArtDesign/NailArtDesign";
-import LastComp from "../../LastComp/LastComp";
-import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
 import NailExtensionImg from "./NailExtensionImg/NailExtensionImg";
 
 const NailExtensionPage = () => {
@@ -37,8 +35,7 @@ const NailExtensionPage = () => {
       <SalonXp />
       <NailArtDesign />
       <NailSalonBook />
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

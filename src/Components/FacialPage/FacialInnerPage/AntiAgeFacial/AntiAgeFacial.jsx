@@ -1,7 +1,5 @@
 import React from "react";
 import NavBg from "../../../NavBg/NavBg";
-import WhatsApp from "../../../HomePage/WhatsApp/WhatsApp";
-import LastComp from "../../../LastComp/LastComp";
 import AntiAgeFacialHead from "./AntiAgeFacialHead";
 import AntiAgeFacialBenefits from "./AntiAgeFacialBenefits";
 import AntiAgeFacialFind from "./AntiAgeFacialFind";
@@ -31,8 +29,7 @@ const AntiAgeFacial = () => {
       <AntiAgeFacialHead />
       <AntiAgeFacialBenefits />
       <AntiAgeFacialFind />
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

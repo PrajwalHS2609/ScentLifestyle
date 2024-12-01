@@ -1,11 +1,18 @@
 .styleContainer {
   /* border: solid; */
   height: 300px;
-  background-color: black;
+  background-color: var(--charcoalGray);
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background-image: url("https://images.unsplash.com/photo-1454117096348-e4abbeba002c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.slick-prev:before,
+.slick-next:before {
+  content: none; /* Remove the default white arrow icon */
 }
 .styleContent {
   /* border: solid red; */
@@ -17,7 +24,7 @@
 }
 .styleTxt > h3 {
   font-size: 30px;
-  color: white;
+  color: var(--charcoalGray);
   letter-spacing: 2px;
 }
 .styleUnderline {
@@ -27,7 +34,7 @@
 .styleContent > p {
   font-size: 20px;
   width: 85%;
-  color: white;
+  color: var(--charcoalGray);
   text-align: center;
 }
 @media only screen and (min-width: 320px) and (max-width: 768px) {

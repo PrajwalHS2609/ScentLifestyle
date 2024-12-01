@@ -1,6 +1,4 @@
-:root {
-  --customRed: #cc2228;
-}
+
 
 .beautyCardContainer {
   /* border: solid blue; */
@@ -83,7 +81,7 @@
   background-color: white;
   font-weight: bold;
   border: none;
-  color: var(--customRed);
+  color: var(--customColor);
 }
 .beautyGoto {
   border: 2px whitesmoke solid;
@@ -102,7 +100,7 @@
   margin-left: 20px;
 }
 .goTo1 > h3 {
-  color: var(--customRed);
+  color: var(--customColor);
   font-size: 20px;
 }
 .goTo2 {
@@ -163,7 +161,7 @@
   background-color: white;
   font-weight: bold;
   border: none;
-  color: var(--customRed);
+  color: var(--customColor);
 }
 
 @media only screen and (min-width: 320px) {
@@ -361,7 +359,7 @@
     background-color: white;
     font-weight: bold;
     border: none;
-    color: var(--customRed);
+    color: var(--customColor);
   }
   .beautyGoto {
     border: 2px whitesmoke solid;
@@ -380,7 +378,7 @@
     margin-left: 20px;
   }
   .goTo1 > h3 {
-    color: var(--customRed);
+    color: var(--customColor);
     font-size: 20px;
   }
   .goTo2 {
@@ -469,7 +467,7 @@
     background-color: white;
     font-weight: bold;
     border: none;
-    color: var(--customRed);
+    color: var(--customColor);
   }
   .beautyGoto {
     border: 2px whitesmoke solid;
@@ -488,7 +486,7 @@
     margin-left: 20px;
   }
   .goTo1 > h3 {
-    color: var(--customRed);
+    color: var(--customColor);
     font-size: 20px;
   }
   .goTo2 {

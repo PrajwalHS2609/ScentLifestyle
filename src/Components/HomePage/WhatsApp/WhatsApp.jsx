@@ -4,29 +4,14 @@ import Scent from "./../../../Images/SCENT Logo.png";
 import { FloatingWhatsApp } from "react-floating-whatsapp";
 
 const WhatsApp = () => {
-  // let [visible, setVisible] = useState();
-  // useEffect(() => {
-  //   const interval = setInterval(() => {
-  //     setVisible(true);
-  //     setTimeout(() => {
-  //       setVisible(false);
-  //     }, 10000); // Hide after 5 seconds
-  //   }, 10000); // Show every 10 seconds
-
-  //   return () => clearInterval(interval); // Cleanup interval on component unmount
-  // }, []);
   return (
     <div className="whatsAppContainer">
-      {/* <div className="whatsAppContent">Hello</div> */}
-      {/* <a href="https://wa.me/919742232700?text=Hello" >
-        <img src={whatsApp} alt="" />
-      </a> */}
       <FloatingWhatsApp
         phoneNumber="919742232700"
         accountName="SCENT"
         avatar={Scent} // Optional
         statusMessage="Typically replies within 5 min" // Optional
-        chatMessage="Welcome to SCENT! This month only, enjoy exclusive deals on your favorite services. Don't miss out — Book now!" // Optional
+        chatMessage="🎄Hello December! Treat yourself or someone special to SCENT’s exclusive holiday beauty offers. Pamper,glow and celebrate in style book today!" // Optional
         placeholder="Type a message..." // Optional
       />
     </div>

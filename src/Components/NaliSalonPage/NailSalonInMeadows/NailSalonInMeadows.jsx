@@ -1,5 +1,4 @@
 import React from "react";
-import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
 import NailSalonInMeadowsService from "./NailSalonInMeadowsService";
 import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
 import TextLocReviews from "../../TextLocReviews/TextLocReviews";
@@ -11,7 +10,6 @@ import Members from "../../HomePage/Members/Members";
 import NailSalonInMeadowsHead from "./NailSalonInMeadowsHead";
 import InnerNavi from "../../InnerServicePage/InnerNavi/InnerNavi";
 import { Helmet } from "react-helmet";
-import LastComp from "../../LastComp/LastComp";
 import NailSalonInMeadowsWhy from "./NailSalonInMeadowsWhy";
 import NailSalonInMeadowsSpecial from "./NailSalonInMeadowsSpecial";
 import NailSalonInMeadowsCustomer from "./NailSalonInMeadowsCustomer";
@@ -56,8 +54,7 @@ const NailSalonInMeadows = () => {
       <NailSalonInMeadowsSpecial />
       <NailSalonInMeadowsCustomer />
       <NailSalonInMeadowsLoc />
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

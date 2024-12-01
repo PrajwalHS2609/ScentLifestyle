@@ -12,8 +12,6 @@ import HairHydrationSpaBenefits from "./HairHydrationSpaBenefits";
 import HairHydrationSpaXp from "./HairHydrationSpaXp";
 import HairHydrationSpaWhy from "./HairHydrationSpaWhy";
 import HairHydrationSpaMen from "./HairHydrationSpaMen";
-import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
-import LastComp from "../../LastComp/LastComp";
 import InstaFeed from "../../HomePage/InstaFeed/InstaFeed";
 import HelpNearYou from "../../Help/HelpNearYou";
 import TextLocReviews from "../../TextLocReviews/TextLocReviews";
@@ -58,8 +56,7 @@ const HairHydrationSpa = () => {
       <HairHydrationSpaWhy />
       <HairHydrationSpaTips/>
       <HairHydrationSpaMen />
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

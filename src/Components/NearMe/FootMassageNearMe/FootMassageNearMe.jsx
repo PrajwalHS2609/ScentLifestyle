@@ -1,6 +1,5 @@
 import React from 'react'
 import FootMassageMain from './FootMassageMain';
-import LastComp from '../../LastComp/LastComp';
 import ServiceWhy from '../../MainServicePages/ServiceWhy/ServiceWhy';
 import TextLocReviews from '../../TextLocReviews/TextLocReviews';
 import HelpNearYou from '../../Help/HelpNearYou';
@@ -13,7 +12,6 @@ import Navi5 from '../../Spa/Navi5/Navi5';
 import SpaImg from '../../Spa/SpaImg/SpaImg';
 import NavBg from '../../NavBg/NavBg';
 import { Helmet } from 'react-helmet';
-import WhatsApp from '../../HomePage/WhatsApp/WhatsApp';
 const FootMassageNearMe = () => {
   return (
     <div>
@@ -38,8 +36,7 @@ const FootMassageNearMe = () => {
     <TextLocReviews />
     <ServiceWhy />
     <FootMassageMain />
-    <WhatsApp/>
-    <LastComp />
+    
   </div>
   )
 }

@@ -12,8 +12,6 @@ import HelpNearYou from "../../Help/HelpNearYou";
 import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
 import LashesInLavelleBook from "./LashesInLavelleBook";
-import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
-import LastComp from "../../LastComp/LastComp";
 import HairSalonInLavelleImg from "../../HairServicePage/HairSalonInLavelle/HairSalonInLavelleImg/HairSalonInLavelleImg";
 import lasheslavelleImg from "./../../../Images/SahakarNagar/Eye Lashes.png";
 import LashesInLavelleBenefits from './LashesInLavelleBenefits';
@@ -54,8 +52,7 @@ const LashesInLavelle = () => {
       <ServiceWhy />
       <LashesInLavelleBenefits />
       <LashesInLavelleBook />
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

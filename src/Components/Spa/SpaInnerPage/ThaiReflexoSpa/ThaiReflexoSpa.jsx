@@ -12,8 +12,6 @@ import HelpNearYou from "../../../Help/HelpNearYou";
 import TextLocReviews from "../../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../../MainServicePages/ServiceWhy/ServiceWhy";
 import BeautyRead from "../../../Beauty/BeautyRead/BeautyRead";
-import WhatsApp from "../../../HomePage/WhatsApp/WhatsApp";
-import LastComp from "../../../LastComp/LastComp";
 import ThaiReflexoSpaWellness from "./ThaiReflexoSpaWellness";
 import ThaiReflexoSpaCustomer from "./ThaiReflexoSpaCustomer";
 import ThaiReflexoSpaBook from './ThaiReflexoSpaBook';
@@ -54,8 +52,7 @@ const ThaiReflexoSpa = () => {
       <TextLocReviews />
       <ServiceWhy />
       <BeautyRead />
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

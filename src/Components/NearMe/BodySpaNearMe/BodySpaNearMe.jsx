@@ -9,11 +9,9 @@ import HelpNearYou from "../../Help/HelpNearYou";
 import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
 import BodySpaNearMeMain from "./BodySpaNearMeMain";
-import LastComp from "../../LastComp/LastComp";
 import SpaImg from "../../Spa/SpaImg/SpaImg";
 import Navi5 from "../../Spa/Navi5/Navi5";
 import SpaServiceCardContain from "../../Spa/SpaServiceCard/SpaServiceCardContain";
-import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
 
 const BodySpaNearMe = () => {
   return (
@@ -39,8 +37,7 @@ const BodySpaNearMe = () => {
       <TextLocReviews />
       <ServiceWhy />
       <BodySpaNearMeMain />
-      <WhatsApp/>
-      <LastComp />
+      
     </div>
   );
 };

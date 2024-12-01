@@ -1,6 +1,4 @@
-:root {
-  --customRed: #cc2228;
-}
+
 
 .partnerContainer {
   /* border: solid green; */
@@ -31,12 +29,12 @@
 }
 .partnerItem1 > h5 {
   font-size: 30px;
-  color: var(--customRed);
+  color: var(--customColor);
 }
 .partnerUnderline {
   border: 2px solid;
   width: 75px;
-  color: var(--customRed);
+  color: var(--customColor);
 }
 #partnerContent2 {
   /* border: solid teal; */
@@ -186,7 +184,7 @@
   .partnerUnderline {
     border: 2px solid;
     width: 75px;
-    color: var(--customRed);
+    color: var(--customColor);
   }
   #partnerContent2 {
     /* border: solid teal; */

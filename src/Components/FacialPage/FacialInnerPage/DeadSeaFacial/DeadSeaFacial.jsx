@@ -1,8 +1,6 @@
 import React from "react";
 import NavBg from "../../../NavBg/NavBg";
 import { Helmet } from "react-helmet";
-import WhatsApp from "../../../HomePage/WhatsApp/WhatsApp";
-import LastComp from "../../../LastComp/LastComp";
 import DeadSeaFacialHead from "./DeadSeaFacialHead";
 import DeadSeaFacialWhy from "./DeadSeaFacialWhy";
 import DeadSeaFacialBenefits from "./DeadSeaFacialBenefits";
@@ -39,8 +37,7 @@ const DeadSeaFacial = () => {
       <DeadSeaFacialProcess />
       <DeadSeaFacialExp />
       <DeadSeaFacialCustomer />
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

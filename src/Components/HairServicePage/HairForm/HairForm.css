@@ -1,6 +1,4 @@
-:root {
-  --customRed: #cc2228;
-}
+
 /* .homeFormWrapper {
     border: solid;
     height: 80vh;
@@ -111,7 +109,7 @@
   border-radius: 20px;
   font-size: 130%;
   background-color: white;
-  color: var(--customRed);
+  color: var(--customColor);
 }
 .hairFormContainer > form > fieldset > table > button:hover {
   background-color: var(--customRed);
@@ -167,7 +165,7 @@
     border-radius: 20px;
     font-size: 130%;
     background-color: white;
-    color: var(--customRed);
+    color: var(--customColor);
   }
 }
 @media screen and (max-width: 990px) and (min-width: 600px) {
@@ -220,7 +218,7 @@
     border-radius: 20px;
     font-size: 130%;
     background-color: white;
-    color: var(--customRed);
+    color: var(--customColor);
   }
 }
 
@@ -274,6 +272,6 @@
     border-radius: 20px;
     font-size: 130%;
     background-color: white;
-    color: var(--customRed);
+    color: var(--customColor);
   }
 }

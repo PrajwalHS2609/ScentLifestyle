@@ -5,8 +5,6 @@ import HairCutHead from "./HairCutHead/HairCutHead";
 import HairCutWhy from "./HairCutWhy/HairCutWhy";
 import HairCutXp from "./HairCutXp";
 import HairCutBook from "./HairCutBook";
-import LastComp from "../../../LastComp/LastComp";
-import WhatsApp from "../../../HomePage/WhatsApp/WhatsApp";
 import NavBg from "../../../NavBg/NavBg";
 import HairCutImg from "./HairCutImg/HairCutImg";
 
@@ -36,8 +34,7 @@ const HairCut = () => {
       <HairCutWhy />
       <HairCutXp />
       <HairCutBook />
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

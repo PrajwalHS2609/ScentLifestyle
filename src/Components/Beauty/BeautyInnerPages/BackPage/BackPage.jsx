@@ -6,8 +6,6 @@ import InstaFeed from "../../../HomePage/InstaFeed/InstaFeed";
 import HelpNearYou from "../../../Help/HelpNearYou";
 import TextLocReviews from "../../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../../MainServicePages/ServiceWhy/ServiceWhy";
-import WhatsApp from "../../../HomePage/WhatsApp/WhatsApp";
-import LastComp from "../../../LastComp/LastComp";
 import InnerNavi from "../../../InnerServicePage/InnerNavi/InnerNavi";
 import NavBg from "../../../NavBg/NavBg";
 import { Helmet } from "react-helmet";
@@ -59,8 +57,7 @@ const BackPage = () => {
       <BackBenefits/>
       <BackAftercare/>
       <BackConclusion/>
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

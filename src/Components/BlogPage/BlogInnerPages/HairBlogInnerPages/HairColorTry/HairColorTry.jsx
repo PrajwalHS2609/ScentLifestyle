@@ -1,7 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import WhatsApp from "../../../../HomePage/WhatsApp/WhatsApp";
-import LastComp from "../../../../LastComp/LastComp";
 import HairColorTryImg from "./HairColorTryImg";
 import HairColorTryIntro from "./HairColorTryIntro";
 import HairColorTryColors from "./HairColorTryColors";
@@ -50,8 +49,7 @@ const HairColorTry = () => {
         <HairServImg hairBotoxImg={HairColorTryWhyBanner} />
         <HairColorTryWhy />
       </div>
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

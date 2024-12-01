@@ -13,7 +13,7 @@
   }
   .schwUnderline {
     border: 2px solid;
-    color: var(--customRed);
+    color: var(--customColor);
     width: 50px;
   }
   .schwCardContainWrapper {
@@ -73,7 +73,7 @@
   .schwCardHead > h2 {
     font-size: 110%;
     text-align: center;
-    color: var(--customRed);
+    color: var(--customColor);
  
   }
   .schwCardTxt > button > a {

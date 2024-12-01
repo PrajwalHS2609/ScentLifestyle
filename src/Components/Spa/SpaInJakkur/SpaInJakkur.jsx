@@ -16,8 +16,6 @@ import SpaInJakkurBenefits from "./SpaInJakkurBenefits";
 import SpaInJakkurCustomer from "./SpaInJakkurCustomer";
 import SpaInJakkurTips from "./SpaInJakkurTips";
 import SpaInJakkurBook from "./SpaInJakkurBook";
-import WhatsApp from "./../../HomePage/WhatsApp/WhatsApp";
-import LastComp from "./../../LastComp/LastComp";
 import Partners from "../../HomePage/Partners/Partners";
 
 const SpaInJakkur = () => {
@@ -52,8 +50,7 @@ const SpaInJakkur = () => {
       <SpaInJakkurCustomer />
       <SpaInJakkurTips />
       <SpaInJakkurBook />
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

@@ -11,8 +11,6 @@ import HelpNearYou from "../../../Help/HelpNearYou";
 import TextLocReviews from "../../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../../MainServicePages/ServiceWhy/ServiceWhy";
 import BeautyRead from "../../../Beauty/BeautyRead/BeautyRead";
-import WhatsApp from "../../../HomePage/WhatsApp/WhatsApp";
-import LastComp from "../../../LastComp/LastComp";
 import HeadSpaProcess from "./HeadSpaProcess";
 import HeadSpaBenefits from "./HeadSpaBenefits/HeadSpaBenefits";
 import HeadSpaImg from "./HeadSpaImg/HeadSpaImg";
@@ -46,8 +44,7 @@ const HeadSpa = () => {
       <TextLocReviews />
       <ServiceWhy />
       <BeautyRead />
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

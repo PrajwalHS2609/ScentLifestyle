@@ -8,12 +8,10 @@ import HelpNearYou from "../../Help/HelpNearYou";
 import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
 import WomenSpa from "./WomenSpa";
-import LastComp from "../../LastComp/LastComp";
 import { Helmet } from "react-helmet";
 import SpaImg from "../../Spa/SpaImg/SpaImg";
 import Navi5 from "../../Spa/Navi5/Navi5";
 import SpaServiceCardContain from "../../Spa/SpaServiceCard/SpaServiceCardContain";
-import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
 
 const WomeSpaNearMe = () => {
   return (
@@ -38,9 +36,8 @@ const WomeSpaNearMe = () => {
       <HelpNearYou />
       <TextLocReviews />
       <ServiceWhy />
-      <WhatsApp />
-      <WomenSpa />
-      <LastComp />
+            <WomenSpa />
+      
     </div>
   );
 };

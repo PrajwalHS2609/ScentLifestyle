@@ -1,6 +1,5 @@
 import React from "react";
 import "./SahakarLocPage.css";
-import LastComp from "./../../LastComp/LastComp";
 import LocationImg from "../LocationImg/LocationImg";
 import loc1 from "./../../../Images/sahakaranagar.jpg";
 import ServiceCardContain from "../../MainServicePages/ServiceCards/ServiceCardContain";
@@ -12,7 +11,6 @@ import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 import SahakarLocAbout from "./SahakarLocAbout/SahakarLocAbout";
 import { Helmet } from "react-helmet";
 import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
-import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
 import ServBreadCrumb from "../../InnerServicePage/InnerNavi/ServBreadCrumb";
 // import LocationCard from "../LocationCard/LocationCard";
 // import SahakarLocMap from "./SahakarLocMap/SahakarLocMap";
@@ -69,8 +67,7 @@ const SahakarLocPage = () => {
       <Partners />
       <InstaFeed />
       <ServiceWhy />
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

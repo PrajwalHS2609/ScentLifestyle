@@ -159,7 +159,7 @@
   background-color: white;
   font-weight: bold;
   border: none;
-  color: var(--customRed);
+  color: var(--customColor);
 }
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
@@ -188,7 +188,7 @@
     background-color: white;
     font-weight: bold;
     border: none;
-    color: var(--customRed);
+    color: var(--customColor);
   }
   .serviceGoto {
     width: 90%;

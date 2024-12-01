@@ -91,6 +91,8 @@
   color: white;
   text-decoration: none;
 }
+
+
 .menuIcon {
   margin-top: -4px;
   margin-left: 4px;
@@ -328,7 +330,6 @@
   .menuContainer {
     /* border: solid red; */
     width: 100%;
-
   }
   .menuContent > li {
     /* border: solid blueviolet; */

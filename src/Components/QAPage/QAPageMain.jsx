@@ -34,7 +34,8 @@ const QAPageMain = () => {
     {
       id: "3",
       name: "Alice Johnson",
-      questions:"What are some effective strategies for learning new vocabulary?",
+      questions:
+        "What are some effective strategies for learning new vocabulary?",
       para: `I am constantly trying to expand my vocabulary, but I often forget 
               new words shortly after learning them. Can you recommend effective 
               techniques to retain and use new vocabulary in conversations?`,
@@ -110,56 +111,58 @@ const QAPageMain = () => {
     <div className="QAPageMain">
       {/* Search Input */}
       <div className="QAPageMainSearch">
-     <div className="QAPageMainSearchCover">
-     <div className="QAPageMainSearchWrapper">
-          <input
-            type="text"
-            placeholder="Search for name, questions, or content..."
-            value={searchInput}
-            onChange={(e) => setSearchInput(e.target.value)}
-          />
-          <button onClick={handleSearch} className="magBtn">
-            {" "}
-            <FontAwesomeIcon
-              icon={faMagnifyingGlass}
-              className="searchIcon"
-            ></FontAwesomeIcon>
-          </button>
-          <button
-            onClick={handleNextMatch}
-            disabled={currentMatchIndex === -1}
-            style={{
-              cursor: currentMatchIndex === -1 ? "not-allowed" : "pointer",
-            }}
-            className="downArrowBtn"
-          >
-            <FontAwesomeIcon
-              icon={faSortDown}
-              className="searchIcon"
-            ></FontAwesomeIcon>
-          </button>
+        <div className="QAPageMainSearchCover">
+          <div className="QAPageMainSearchWrapper">
+            <input
+              type="text"
+              placeholder="Search for name, questions, or content..."
+              value={searchInput}
+              onChange={(e) => setSearchInput(e.target.value)}
+            />
+            <button onClick={handleSearch} className="magBtn">
+              {" "}
+              <FontAwesomeIcon
+                icon={faMagnifyingGlass}
+                className="searchIcon"
+              ></FontAwesomeIcon>
+            </button>
+            <button
+              onClick={handleNextMatch}
+              disabled={currentMatchIndex === -1}
+              style={{
+                cursor: currentMatchIndex === -1 ? "not-allowed" : "pointer",
+              }}
+              className="downArrowBtn"
+            >
+              <FontAwesomeIcon
+                icon={faSortDown}
+                className="searchIcon"
+              ></FontAwesomeIcon>
+            </button>
+          </div>
         </div>
-     </div>
       </div>
 
       {/* Display Cards */}
-      <div className="QAPageMainContent">
-        {data.map((item, index) => (
-          <div
-            key={item.id}
-            ref={cardRefs.current[index]}
-            style={{ marginBottom: "20px" }}
-          >
-            <QAPageCard
-              name={highlightText(item.name, searchInput)}
-              questions={highlightText(item.questions, searchInput)}
-              para={highlightText(item.para, searchInput)}
-            />
-          </div>
-        ))}
-      </div>
-      <div className="QAPageMainSearch">
-        
+      <div className="QAPageMainContentWrapper">
+        <div className="QAPageMainContent">
+          {data.map((item, index) => (
+            <div
+              key={item.id}
+              ref={cardRefs.current[index]}
+              style={{ marginBottom: "20px" }}
+            >
+              <QAPageCard
+                name={highlightText(item.name, searchInput)}
+                questions={highlightText(item.questions, searchInput)}
+                para={highlightText(item.para, searchInput)}
+              />
+            </div>
+          ))}
+        </div>
+        <div className="QAPageMenuContent">
+          <h3>Our Statistics</h3>
+        </div>
       </div>
     </div>
   );

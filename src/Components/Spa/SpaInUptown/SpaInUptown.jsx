@@ -13,8 +13,6 @@ import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
 import SpaInUptownSignature from "./SpaInUptownSignature";
 import SpaInUptownXp from "./SpaInUptownXp";
-import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
-import LastComp from "../../LastComp/LastComp";
 
 const SpaInUptown = () => {
   return (
@@ -46,8 +44,7 @@ const SpaInUptown = () => {
       <ServiceWhy />
       <SpaInUptownSignature />
       <SpaInUptownXp />
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

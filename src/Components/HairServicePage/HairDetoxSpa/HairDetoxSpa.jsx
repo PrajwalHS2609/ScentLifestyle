@@ -10,8 +10,6 @@ import InstaFeed from "../../HomePage/InstaFeed/InstaFeed";
 import HelpNearYou from "../../Help/HelpNearYou";
 import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
-import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
-import LastComp from "../../LastComp/LastComp";
 import HairDetoxSpaHead from "./HairDetoxSpaHead";
 import HairDetoxSpaBenefits from "./HairDetoxSpaBenefits";
 import HairDetoxSpaWhat from "./HairDetoxSpaWhat";
@@ -55,8 +53,7 @@ const HairDetoxSpa = () => {
       <HairDetoxSpaWho />
       <HairDetoxSpaMaintain />
       <HairDetoxSpaBook />
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

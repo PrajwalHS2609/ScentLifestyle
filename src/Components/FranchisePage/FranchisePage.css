@@ -143,7 +143,7 @@ textarea::placeholder {
   border-radius: 20px;
   font-size: 130%;
   background-color: white;
-  color: var(--customRed);
+  color: var(--customColor);
 }
 .franchiseFormContainer > form > fieldset > table > button:hover {
   background-color: var(--customRed);
@@ -353,7 +353,7 @@ textarea::placeholder {
     border-radius: 20px;
     font-size: 130%;
     background-color: white;
-    color: var(--customRed);
+    color: var(--customColor);
   }
   .franchiseFormContainer > form > fieldset > table > button:hover {
     background-color: var(--customRed);
@@ -562,7 +562,7 @@ textarea::placeholder {
     border-radius: 20px;
     font-size: 130%;
     background-color: white;
-    color: var(--customRed);
+    color: var(--customColor);
   }
   .franchiseFormContainer > form > fieldset > table > button:hover {
     background-color: var(--customRed);
@@ -769,7 +769,7 @@ textarea::placeholder {
     border-radius: 20px;
     font-size: 130%;
     background-color: white;
-    color: var(--customRed);
+    color: var(--customColor);
   }
   .franchiseFormContainer > form > fieldset > table > button:hover {
     background-color: var(--customRed);

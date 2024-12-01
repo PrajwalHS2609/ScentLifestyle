@@ -12,9 +12,7 @@ import InstaFeed from "./../../HomePage/InstaFeed/InstaFeed";
 import Partners from "./../../HomePage/Partners/Partners";
 import OurSalon from "./../../HomePage/OurSalon/OurSalon";
 import Members from "./../../HomePage/Members/Members";
-import LastComp from "../../LastComp/LastComp";
 import { Helmet } from "react-helmet";
-import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
 import BeardStyleImg from "./BeardStyleImg";
 const BeardStyle = () => {
   return (
@@ -93,8 +91,7 @@ const BeardStyle = () => {
       <HelpNearYou />
       <TextLocReviews />
       <ServiceWhy />
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

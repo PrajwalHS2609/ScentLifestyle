@@ -3,7 +3,6 @@ import BeautyImg from "./BeautyImg/BeautyImg";
 import Members from "./../HomePage/Members/Members";
 import OurSalon from "./../HomePage/OurSalon/OurSalon";
 import HelpNearYou from "../Help/HelpNearYou";
-import LastComp from "../LastComp/LastComp";
 import BeautyServiceCardContain from "./BeautyServiceCards/BeautyServiceCardContain";
 import ServiceWhy from "../MainServicePages/ServiceWhy/ServiceWhy";
 import BeautyRead from "./BeautyRead/BeautyRead";
@@ -12,7 +11,6 @@ import InstaFeed from "../HomePage/InstaFeed/InstaFeed";
 import { Helmet } from "react-helmet";
 import NavBg from "../NavBg/NavBg";
 import TextLocReviews from "../TextLocReviews/TextLocReviews";
-import WhatsApp from "../HomePage/WhatsApp/WhatsApp";
 import ServBreadCrumb from "../InnerServicePage/InnerNavi/ServBreadCrumb";
 
 const BeautyPage = () => {
@@ -44,8 +42,7 @@ const BeautyPage = () => {
       <TextLocReviews />
       <ServiceWhy />
       <BeautyRead />
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

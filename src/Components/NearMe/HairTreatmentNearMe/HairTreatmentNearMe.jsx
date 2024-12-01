@@ -8,13 +8,11 @@ import InstaFeed from "../../HomePage/InstaFeed/InstaFeed";
 import HelpNearYou from "../../Help/HelpNearYou";
 import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
-import LastComp from "../../LastComp/LastComp";
 import HairTreatmentNearMeMain from "./HairTreatmentNearMeMain";
 import HairServiceCardContain from "../../HairServicePage/HairServiceCard/HairServiceCardContain";
 import HairSalon from "../../HairServicePage/HairSalon/HairSalon";
 import Navi1 from "../../HairServicePage/Navi1/Navi1";
 import HairServiceImg from "../../HairServicePage/HairServiceImg/HairServiceImg";
-import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
 
 const HairTreatmentNearMe = () => {
   return (
@@ -41,8 +39,7 @@ const HairTreatmentNearMe = () => {
       <TextLocReviews />
       <ServiceWhy />
       <HairTreatmentNearMeMain />
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

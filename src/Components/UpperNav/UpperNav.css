@@ -6,12 +6,7 @@
   z-index: 6;
   height: 40px;
   background-color: var(--customColor);
-  background-image: linear-gradient(
-    #cc2228 0%,
-    #cc2228 50%,
-    #cc2228 50%,
-    #cc2228 100%
-  );
+
   display: flex;
   justify-content: center;
   align-items: center;

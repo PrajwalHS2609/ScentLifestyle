@@ -14,8 +14,6 @@ import LashesInUptownTypes from "./LashesInUptownTypes";
 import LashesInUptownBenefits from "./LashesInUptownBenefits";
 import LashesInUptownHow from "./LashesInUptownHow";
 import LashesInUptownBook from "./LashesInUptownBook";
-import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
-import LastComp from "../../LastComp/LastComp";
 import HairSalonInMeadowsImg from "../../HairServicePage/HairSalonInMeadows/HairSalonInMeadowsImg/HairSalonInMeadowsImg";
 import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
 
@@ -56,8 +54,7 @@ const LashesInUptown = () => {
       <LashesInUptownBenefits />
       <LashesInUptownHow />
       <LashesInUptownBook />
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

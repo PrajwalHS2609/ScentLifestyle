@@ -1,6 +1,4 @@
-:root {
-  --customRed: #cc2228;
-}
+
 
 .nailCardContainer {
   /* border: solid blue; */
@@ -83,7 +81,7 @@
   background-color: white;
   font-weight: bold;
   border: none;
-  color: var(--customRed);
+  color: var(--customColor);
 }
 .nailGoto {
   border: 2px whitesmoke solid;
@@ -102,7 +100,7 @@
   margin-left: 20px;
 }
 .nailGoTo1 > h3 {
-  color: var(--customRed);
+  color: var(--customColor);
   font-size: 100%;
 }
 .nailGoto > .nailGoTo2 {
@@ -163,7 +161,7 @@
   background-color: white;
   font-weight: bold;
   border: none;
-  color: var(--customRed);
+  color: var(--customColor);
 }
 
 @media screen and (min-width: 320px) {
@@ -237,7 +235,7 @@
     background-color: white;
     font-weight: bold;
     border: none;
-    color: var(--customRed);
+    color: var(--customColor);
   }
   .nailGoto {
     border: 2px whitesmoke solid;
@@ -256,7 +254,7 @@
     margin-left: 20px;
   }
   .goTo1 > h3 {
-    color: var(--customRed);
+    color: var(--customColor);
     font-size: 100%;
   }
   .goTo2 {
@@ -350,7 +348,7 @@
     background-color: white;
     font-weight: bold;
     border: none;
-    color: var(--customRed);
+    color: var(--customColor);
   }
   .nailGoto {
     border: 2px whitesmoke solid;
@@ -369,7 +367,7 @@
     margin-left: 20px;
   }
   .goTo1 > h3 {
-    color: var(--customRed);
+    color: var(--customColor);
     font-size: 100%;
   }
   .goTo2 {
@@ -459,7 +457,7 @@
     background-color: white;
     font-weight: bold;
     border: none;
-    color: var(--customRed);
+    color: var(--customColor);
   }
   .nailGoto {
     border: 2px whitesmoke solid;
@@ -478,7 +476,7 @@
     margin-left: 20px;
   }
   .goTo1 > h3 {
-    color: var(--customRed);
+    color: var(--customColor);
     font-size: 100%;
   }
   .goTo2 {
@@ -571,7 +569,7 @@
     background-color: white;
     font-weight: bold;
     border: none;
-    color: var(--customRed);
+    color: var(--customColor);
   }
   .nailGoto {
     border: 2px whitesmoke solid;
@@ -590,7 +588,7 @@
     margin-left: 20px;
   }
   .goTo1 > h3 {
-    color: var(--customRed);
+    color: var(--customColor);
     font-size: 100%;
   }
   .goTo2 {

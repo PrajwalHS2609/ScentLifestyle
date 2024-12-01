@@ -8,8 +8,6 @@ import InstaFeed from "../../HomePage/InstaFeed/InstaFeed";
 import HelpNearYou from "../../Help/HelpNearYou";
 import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
-import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
-import LastComp from "../../LastComp/LastComp";
 import MulletHairCutWhat from "./MulletHairCutWhat";
 import MulletHairCutWhy from "./MulletHairCutWhy";
 import MulletHairCutHow from "./MulletHairCutHow";
@@ -54,8 +52,7 @@ const MulletHairCut = () => {
       <MulletHairCutDestination />
       <MulletHairCutMaintain />
       <MulletHairCutBottom />
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

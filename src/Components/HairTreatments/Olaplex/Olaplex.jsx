@@ -8,8 +8,6 @@ import OlaplexHow from "./OlaplexHow";
 import OlaplexWhy from "./OlaplexWhy";
 import OlaplexWho from "./OlaplexWho";
 import OlaplexBook from "./OlaplexBook";
-import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
-import LastComp from "../../LastComp/LastComp";
 import OlaplexTreatment from "./../../../Images/Hair Treatments/Olaplex.png";
 import Members from "../../HomePage/Members/Members";
 import OurSalon from "../../HomePage/OurSalon/OurSalon";
@@ -53,8 +51,7 @@ const Olaplex = () => {
       <OlaplexWhy />
       <OlaplexWho />
       <OlaplexBook />
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

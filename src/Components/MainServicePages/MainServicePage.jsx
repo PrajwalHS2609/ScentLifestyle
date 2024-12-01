@@ -2,7 +2,6 @@ import React from "react";
 import ServicePage from "./ServicePage/ServicePage";
 import ServiceCardContain from "./ServiceCards/ServiceCardContain";
 import UnisexSalon from "./UnisexSalon/UnisexSalon";
-import LastComp from "../LastComp/LastComp";
 import ServiceWhy from "./ServiceWhy/ServiceWhy";
 import ServiceRead from "./ServiceRead/ServiceRead";
 import HelpNearYou from "../Help/HelpNearYou";
@@ -13,7 +12,6 @@ import InstaFeed from "./../HomePage/InstaFeed/InstaFeed";
 import { Helmet } from "react-helmet";
 import NavBg from "./../NavBg/NavBg";
 import TextLocReviews from "../TextLocReviews/TextLocReviews";
-import WhatsApp from "../HomePage/WhatsApp/WhatsApp";
 import BreadCrumb from "../InnerServicePage/InnerNavi/BreadCrumb";
 
 const MainServicePage = () => {
@@ -43,9 +41,8 @@ const MainServicePage = () => {
       <HelpNearYou />
       <TextLocReviews />
       <ServiceWhy />
-      <WhatsApp />
-      <ServiceRead />
-      <LastComp />
+            <ServiceRead />
+      
     </div>
   );
 };

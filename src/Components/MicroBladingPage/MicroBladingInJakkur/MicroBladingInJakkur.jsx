@@ -17,8 +17,6 @@ import MicroBladingInJakkurCustomer from "./MicroBladingInJakkurCustomer";
 import MicroBladingInJakkurHow from "./MicroBladingInJakkurHow";
 import MicroBladingInJakkurBook from "./MicroBladingInJakkurBook";
 import MicroBladingInJakkurImg from "./MicroBladingInJakkurImg";
-import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
-import LastComp from "../../LastComp/LastComp";
 
 const MicroBladingInJakkur = () => {
   return (
@@ -59,8 +57,7 @@ const MicroBladingInJakkur = () => {
       <MicroBladingInJakkurCustomer />
       <MicroBladingInJakkurHow />
       <MicroBladingInJakkurBook />
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

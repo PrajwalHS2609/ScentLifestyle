@@ -13,8 +13,6 @@ import FacialInUptownBenefits from "./FacialInUptownBenefits";
 import FacialInUptownTypes from "./FacialInUptownTypes";
 import FacialInUptownWhat from "./FacialInUptownWhat";
 import FacialInUptownSpecial from "./FacialInUptownSpecial";
-import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
-import LastComp from "../../LastComp/LastComp";
 import { Helmet } from "react-helmet";
 import InnerNavi from "../../InnerServicePage/InnerNavi/InnerNavi";
 
@@ -55,8 +53,7 @@ const FacialInUptown = () => {
       <FacialInUptownTypes />
       <FacialInUptownWhat />
       <FacialInUptownSpecial /> 
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

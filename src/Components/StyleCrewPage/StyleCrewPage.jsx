@@ -3,7 +3,6 @@ import StyleCrewHead from "./StyleCrewHead";
 import StyleCrewPara from "./StyleCrewPara";
 import StyleCrewImg from "./StyleCrewImg";
 import "./StyleCrewPage.css";
-import LastComp from "../LastComp/LastComp";
 import NavBg from "../NavBg/NavBg";
 import OurSalon from "../HomePage/OurSalon/OurSalon";
 import Partners from "../HomePage/Partners/Partners";
@@ -12,7 +11,6 @@ import HelpNearYou from "../Help/HelpNearYou";
 import TextLocReviews from "../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../MainServicePages/ServiceWhy/ServiceWhy";
 import { Helmet } from "react-helmet";
-import WhatsApp from "../HomePage/WhatsApp/WhatsApp";
 
 const StyleCrewPage = () => {
   return (
@@ -38,8 +36,7 @@ const StyleCrewPage = () => {
       <HelpNearYou />
       <TextLocReviews />
       <ServiceWhy />
-      <WhatsApp/>
-      <LastComp />
+      
     </div>
   );
 };

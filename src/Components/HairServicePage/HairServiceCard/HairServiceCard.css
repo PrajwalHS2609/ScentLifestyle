@@ -1,6 +1,4 @@
-:root {
-  --customRed: #cc2228;
-}
+
 .hairFormWrapper {
   /* border: solid; */
   height: 80vh;
@@ -110,7 +108,7 @@
   background-color: white;
   font-weight: bold;
   border: none;
-  color: var(--customRed);
+  color: var(--customColor);
 }
 .hairGoto {
   border: 2px whitesmoke solid;
@@ -129,7 +127,7 @@
   margin-left: 20px;
 }
 .goTo1 > h3 {
-  color: var(--customRed);
+  color: var(--customColor);
   font-size: 20px;
 }
 .goTo2 {
@@ -189,7 +187,7 @@
   background-color: white;
   font-weight: bold;
   border: none;
-  color: var(--customRed);
+  color: var(--customColor);
 }
 @media screen and (min-width: 320px) {
   .hairCardContainer {
@@ -277,7 +275,7 @@
     background-color: white;
     font-weight: bold;
     border: none;
-    color: var(--customRed);
+    color: var(--customColor);
   }
   .hairGoto {
     border: 2px whitesmoke solid;
@@ -296,7 +294,7 @@
     margin-left: 20px;
   }
   .goTo1 > h3 {
-    color: var(--customRed);
+    color: var(--customColor);
     font-size: 20px;
   }
   .goTo2 {
@@ -391,7 +389,7 @@
     background-color: white;
     font-weight: bold;
     border: none;
-    color: var(--customRed);
+    color: var(--customColor);
   }
   .hairGoto {
     border: 2px whitesmoke solid;
@@ -410,7 +408,7 @@
     margin-left: 20px;
   }
   .goTo1 > h3 {
-    color: var(--customRed);
+    color: var(--customColor);
     font-size: 20px;
   }
   .goTo2 {
@@ -499,7 +497,7 @@
     background-color: white;
     font-weight: bold;
     border: none;
-    color: var(--customRed);
+    color: var(--customColor);
   }
   .hairGoto {
     border: 2px whitesmoke solid;
@@ -518,7 +516,7 @@
     margin-left: 20px;
   }
   .goTo1 > h3 {
-    color: var(--customRed);
+    color: var(--customColor);
     font-size: 20px;
   }
   .goTo2 {
@@ -610,7 +608,7 @@
     background-color: white;
     font-weight: bold;
     border: none;
-    color: var(--customRed);
+    color: var(--customColor);
   }
   .hairGoto {
     border: 2px whitesmoke solid;
@@ -629,7 +627,7 @@
     margin-left: 20px;
   }
   .goTo1 > h3 {
-    color: var(--customRed);
+    color: var(--customColor);
     font-size: 20px;
   }
   .goTo2 {

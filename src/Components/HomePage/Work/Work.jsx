@@ -3,12 +3,13 @@ import "./Work.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
+import homeWorkImg from "./../../../Images/homeWorkImg.png"
 const Work = () => {
   return (
     <div className="workContainer">
       <img
-        src="https://images.unsplash.com/photo-1700760934268-8aa0ef52ce0a?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-        alt=""
+        src={homeWorkImg}
+        alt="homeWorkImg"
       />
       <div className="workContent">
         <div className="innerWorkContent">

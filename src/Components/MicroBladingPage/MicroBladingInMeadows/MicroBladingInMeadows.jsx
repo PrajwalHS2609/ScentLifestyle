@@ -12,8 +12,6 @@ import MicroBladingInMeadowsWhy from "./MicroBladingInMeadowsWhy";
 import MicroBladingInMeadowsProcess from "./MicroBladingInMeadowsProcess";
 import MicroBladingInMeadowsAfterCare from "./MicroBladingInMeadowsAfterCare";
 import MicroBladingInMeadowsBook from "./MicroBladingInMeadowsBook";
-import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
-import LastComp from "../../LastComp/LastComp";
 import { Helmet } from "react-helmet";
 import InnerNavi from "../../InnerServicePage/InnerNavi/InnerNavi";
 import HairSalonInMeadowsImg from "../../HairServicePage/HairSalonInMeadows/HairSalonInMeadowsImg/HairSalonInMeadowsImg";
@@ -56,8 +54,7 @@ const MicroBladingInMeadows = () => {
       <MicroBladingInMeadowsProcess />
       <MicroBladingInMeadowsAfterCare />
       <MicroBladingInMeadowsBook />
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

@@ -1,8 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import InnerNavi from "../../../InnerServicePage/InnerNavi/InnerNavi";
-import WhatsApp from "../../../HomePage/WhatsApp/WhatsApp";
-import LastComp from "../../../LastComp/LastComp";
 import Top10HairColorHead from "./Top10HairColorHead";
 import Top10HairColorImg from "./Top10HairColorImg";
 import NavBg from "../../../NavBg/NavBg";
@@ -52,8 +50,7 @@ const Top10HairColor = () => {
         <Top10Choosing/>
         <Top10How/>
       </div>
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

@@ -8,8 +8,6 @@ import OrganicFacialDiff from "./OrganicFacialDiff/OrganicFacialDiff";
 import OrganicFacialProcess from "./OrganicFacialProcess/OrganicFacialProcess";
 import OrganicFacialCustomer from "./OrganicFacialCustomer/OrganicFacialCustomer";
 import OrganicFacialBook from "./OrganicFacialBook/OrganicFacialBook";
-import WhatsApp from "../../../HomePage/WhatsApp/WhatsApp";
-import LastComp from "../../../LastComp/LastComp";
 import OrganicFacialImg from "./OrganicFacialImg/OrganicFacialImg";
 
 const OrganicFacial = () => {
@@ -37,8 +35,7 @@ const OrganicFacial = () => {
       <OrganicFacialProcess />
       <OrganicFacialCustomer />
       <OrganicFacialBook />
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

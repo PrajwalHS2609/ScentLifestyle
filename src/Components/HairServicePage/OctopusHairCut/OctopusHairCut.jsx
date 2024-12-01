@@ -14,8 +14,6 @@ import OctopusHairCutHow from "./OctopusHairCutHow";
 import OctopusHairCutWhyChoose from "./OctopusHairCutWhyChoose";
 import OctopusHairCutBottom from "./OctopusHairCutBottom";
 import OctopusHairCutImg from "./OctopusHairCutImg";
-import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
-import LastComp from "../../LastComp/LastComp";
 
 const OctopusHairCut = () => {
   return (
@@ -50,8 +48,7 @@ const OctopusHairCut = () => {
       <OctopusHairCutHow />
       <OctopusHairCutWhyChoose />
       <OctopusHairCutBottom />
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

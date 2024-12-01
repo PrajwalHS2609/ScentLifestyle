@@ -8,8 +8,6 @@ import InstaFeed from "../../HomePage/InstaFeed/InstaFeed";
 import HelpNearYou from "../../Help/HelpNearYou";
 import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
-import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
-import LastComp from "../../LastComp/LastComp";
 import BridalMakeupInMeadowsHead from "./BridalMakeupInMeadowsHead";
 import BridalMakeupInMeadowsChoose from "./BridalMakeupInMeadowsChoose";
 import BridalMakeupInMeadowsFull from "./BridalMakeupInMeadowsFull";
@@ -58,8 +56,7 @@ const BridalMakeupInMeadows = () => {
       <BridalMakeupInMeadowsMakeup />
       <BridalMakeupInMeadowsEnsuring/>
       <BridalMakeupInMeadowsTrust />
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

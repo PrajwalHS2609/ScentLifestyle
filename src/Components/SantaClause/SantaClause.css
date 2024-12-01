@@ -1,0 +1,13 @@
+.santa-container {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 50px;
+  left: 0;
+  z-index: 100;
+}
+.santa-container > marquee > video {
+  width: 150px;
+  height: 150px;
+  mix-blend-mode: multiply;
+}

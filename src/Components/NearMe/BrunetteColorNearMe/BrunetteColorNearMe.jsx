@@ -11,8 +11,6 @@ import HelpNearYou from "../../Help/HelpNearYou";
 import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
 import BrunetteColorNearMeRead from "./BrunetteColorNearMeRead";
-import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
-import LastComp from "../../LastComp/LastComp";
 
 const BrunetteColorNearMe = () => {
   return (
@@ -47,8 +45,7 @@ const BrunetteColorNearMe = () => {
       <TextLocReviews />
       <ServiceWhy />    
       <BrunetteColorNearMeRead />
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

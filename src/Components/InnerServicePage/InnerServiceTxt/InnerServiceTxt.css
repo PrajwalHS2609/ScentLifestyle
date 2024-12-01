@@ -1,6 +1,4 @@
-:root {
-  --customRed: #cc2228;
-}
+
 .innerServiceTxtContainer {
   /* border: solid red; */
   height: 100%;
@@ -19,24 +17,24 @@
   justify-content: space-evenly;
   align-items: center;
   flex-direction: column;
-  color: var(--customRed);
+  color: var(--customColor);
 }
 .innerServiceTxtHeadContainer > h1 {
   /* border: solid; */
   font-size: 30px;
   text-align: center;
-  color: var(--customRed);
+  color: var(--customColor);
 }
 .innerServiceTxtHeadContainer > h2 {
   /* border: solid; */
   font-size: 30px;
   text-align: center;
-  color: var(--customRed);
+  color: var(--customColor);
 }
 .innerServiceTxtUnderline {
   border: 2px solid;
   width: 10%;
-  color: var(--customRed);
+  color: var(--customColor);
 }
 .innerServiceTxtParaContainer {
   /* border: solid; */
@@ -69,25 +67,25 @@
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
-    color: var(--customRed);
+    color: var(--customColor);
   }
   .innerServiceTxtHeadContainer > h1 {
     /* border: solid; */
     font-size: 30px;
     text-align: center;
-    color: var(--customRed);
+    color: var(--customColor);
   }
 
   .innerServiceTxtHeadContainer > h2 {
     /* border: solid; */
     font-size: 30px;
     text-align: center;
-    color: var(--customRed);
+    color: var(--customColor);
   }
   .innerServiceTxtUnderline {
     border: 2px solid;
     width: 20%;
-    color: var(--customRed);
+    color: var(--customColor);
   }
   .innerServiceTxtParaContainer {
     /* border: solid; */

@@ -9,8 +9,6 @@ import Partners from "../../HomePage/Partners/Partners";
 import HelpNearYou from "../../Help/HelpNearYou";
 import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
-import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
-import LastComp from "../../LastComp/LastComp";
 import PedicureNearMeImg from "./PedicureNearMeImg";
 import InnerNavi from "../../InnerServicePage/InnerNavi/InnerNavi";
 
@@ -44,8 +42,7 @@ const PedicureNearMe = () => {
       <TextLocReviews />
       <ServiceWhy />
       <PedicureNearMeRead />
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

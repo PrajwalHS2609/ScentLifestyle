@@ -14,8 +14,6 @@ import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
 import BeautyInSahakarNagarBenefits from "./BeautyInSahakarNagarBenefits";
 import BeautyInSahakarNagarBook from "./BeautyInSahakarNagarBook";
-import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
-import LastComp from "../../LastComp/LastComp";
 
 const BeautyInSahakarNagar = () => {
   return (
@@ -51,8 +49,7 @@ const BeautyInSahakarNagar = () => {
       <ServiceWhy />
       <BeautyInSahakarNagarBenefits />
       <BeautyInSahakarNagarBook />
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

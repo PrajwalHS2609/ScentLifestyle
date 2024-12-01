@@ -1,6 +1,4 @@
-:root {
-  --customRed: #cc2228;
-}
+
 .membersMainContainer {
   /* border: solid; */
   height: 100%;
@@ -11,6 +9,9 @@
   flex-direction: column;
   gap: 20px;
   padding: 20px;
+  background-image: url("https://img.freepik.com/free-vector/old-parchment-paper-texture-crumples-effect_1017-30613.jpg?t=st=1733042224~exp=1733045824~hmac=9c27a88442d4001cc7fb863b27246d60266126f875c90933924d232929e72519&w=1060");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .headingContainer {
   /* border: solid; */
@@ -37,7 +38,7 @@
   color: black;
 }
 .secondMemberHeading > h4 > span {
-  color: var(--customRed);
+  color: var(--customColor);
 }
 .memberSlideContainer {
   /* border: solid; */

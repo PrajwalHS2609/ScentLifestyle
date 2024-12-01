@@ -14,8 +14,6 @@ import Partners from "../../HomePage/Partners/Partners";
 import HelpNearYou from "../../Help/HelpNearYou";
 import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
-import LastComp from "../../LastComp/LastComp";
-import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
 import ClassicManicureImg from "./ClassicManicureImg";
 
 const ClassicManicurePage = () => {
@@ -50,8 +48,7 @@ const ClassicManicurePage = () => {
       <ClassicManicureProcess/>
       <ClassicManiMaintain/>
       <ClassicManiBook/>
-      <WhatsApp/>
-      <LastComp />
+      
     </div>
   );
 };

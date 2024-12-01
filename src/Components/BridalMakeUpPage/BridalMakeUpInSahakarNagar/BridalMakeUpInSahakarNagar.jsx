@@ -14,8 +14,6 @@ import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
 import BridalMakeUpInSahakarService from "./BridalMakeUpInSahakarService";
 import BridalMakeUpInSahakarBook from "./BridalMakeUpInSahakarBook";
 import BridalMakeUpInSahakarWhat from "./BridalMakeUpInSahakarWhat";
-import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
-import LastComp from "../../LastComp/LastComp";
 import bridalSahakarImg from "./../../../Images/SahakarNagar/Bridal Makeup.png";
 
 const BridalMakeUpInSahakarNagar = () => {
@@ -54,8 +52,7 @@ const BridalMakeUpInSahakarNagar = () => {
       <BridalMakeUpInSahakarService />
       <BridalMakeUpInSahakarBook />
       <BridalMakeUpInSahakarWhat />
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

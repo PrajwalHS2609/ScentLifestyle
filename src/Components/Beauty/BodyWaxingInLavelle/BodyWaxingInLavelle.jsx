@@ -1,6 +1,4 @@
 import React from "react";
-import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
-import LastComp from "../../LastComp/LastComp";
 import InnerNavi from "../../InnerServicePage/InnerNavi/InnerNavi";
 import BodyWaxingInLavelleHead from "./BodyWaxingInLavelleHead";
 import { Helmet } from "react-helmet";
@@ -31,8 +29,7 @@ const BodyWaxingInLavelle = () => {
         currService="Body Waxing in Lavelle"
       />
       <BodyWaxingInLavelleHead />
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

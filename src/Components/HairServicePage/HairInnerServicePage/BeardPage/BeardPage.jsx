@@ -1,6 +1,4 @@
 import React from "react";
-import WhatsApp from "../../../HomePage/WhatsApp/WhatsApp";
-import LastComp from "../../../LastComp/LastComp";
 import { Helmet } from "react-helmet";
 import InnerNavi from "../../../InnerServicePage/InnerNavi/InnerNavi";
 import BeardHead from "./BeardHead";
@@ -29,8 +27,7 @@ const BeardPage = () => {
       <BeardXp />
       <BeardWhy />
       <BeardBook />
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

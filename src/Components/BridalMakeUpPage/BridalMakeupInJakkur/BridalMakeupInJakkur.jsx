@@ -6,8 +6,6 @@ import Members from "../../HomePage/Members/Members";
 import InstaFeed from "../../HomePage/InstaFeed/InstaFeed";
 import Partners from "../../HomePage/Partners/Partners";
 import OurSalon from "../../HomePage/OurSalon/OurSalon";
-import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
-import LastComp from "../../LastComp/LastComp";
 import HelpNearYou from "../../Help/HelpNearYou";
 import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
@@ -60,8 +58,7 @@ const BridalMakeupInJakkur = () => {
       <BridalMakeupInJakkurCustomer />
       <BridalMakeupInJakkurHow />
       <BridalMakeupInJakkurBook />
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

@@ -9,8 +9,6 @@ import NailSalonInJakkurCustomer from "./NailSalonInJakkurCustomer";
 import NailSalonInJakkurTips from "./NailSalonInJakkurTips";
 import NailSalonInJakkurBook from "./NailSalonInJakkurBook";
 import NailSalonInJakkurService from "./NailSalonInJakkurService";
-import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
-import LastComp from "../../LastComp/LastComp";
 import Members from "../../HomePage/Members/Members";
 import OurSalon from "../../HomePage/OurSalon/OurSalon";
 import Partners from "../../HomePage/Partners/Partners";
@@ -56,8 +54,7 @@ const NailSalonInJakkur = () => {
       <NailSalonInJakkurCustomer />
       <NailSalonInJakkurTips />
       <NailSalonInJakkurBook />
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

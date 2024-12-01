@@ -11,8 +11,6 @@ import HelpNearYou from "../../Help/HelpNearYou";
 import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
 import HairColorServiceNearMeRead from "./HairColorServiceNearMeRead";
-import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
-import LastComp from "../../LastComp/LastComp";
 
 const HairColorServiceNearMe = () => {
   return (
@@ -47,8 +45,7 @@ const HairColorServiceNearMe = () => {
       <TextLocReviews />
       <ServiceWhy />
       <HairColorServiceNearMeRead />
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

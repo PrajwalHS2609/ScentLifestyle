@@ -1,6 +1,4 @@
 import React from "react";
-import LastComp from "../../LastComp/LastComp";
-import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
 import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
 import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 import HelpNearYou from "../../Help/HelpNearYou";
@@ -52,8 +50,7 @@ const NailExtensionBangalore = () => {
       <NailExtensionBangaloreAfford />
       <NailExtensionBangaloreMaintain />
       <NailExtensionBangaloreBook />
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

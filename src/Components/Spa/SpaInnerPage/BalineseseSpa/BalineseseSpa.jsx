@@ -9,8 +9,6 @@ import HelpNearYou from "../../../Help/HelpNearYou";
 import TextLocReviews from "../../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../../MainServicePages/ServiceWhy/ServiceWhy";
 import BeautyRead from "../../../Beauty/BeautyRead/BeautyRead";
-import WhatsApp from "../../../HomePage/WhatsApp/WhatsApp";
-import LastComp from "../../../LastComp/LastComp";
 import BalineseseSpaWhy from "./BalineseseSpaWhy";
 import BalineseseSpaBenefits from "./BalineseseSpaBenefits";
 import BalineseseSpaHead from "./BalineseseSpaHead";
@@ -54,8 +52,7 @@ const BalineseseSpa = () => {
       <TextLocReviews />
       <ServiceWhy />
       <BeautyRead />
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

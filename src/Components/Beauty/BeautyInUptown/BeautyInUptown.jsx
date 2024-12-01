@@ -16,8 +16,6 @@ import BeautyInUptownBodyWaxing from "./BeautyInUptownBodyWaxing";
 import BeautyInUptownThreading from "./BeautyInUptownThreading";
 import BeautyInUptownDtan from "./BeautyInUptownDtan";
 import BeautyInUptownXp from "./BeautyInUptownXp";
-import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
-import LastComp from "../../LastComp/LastComp";
 
 const BeautyInUptown = () => {
   return (
@@ -56,8 +54,7 @@ const BeautyInUptown = () => {
       <BeautyInUptownDtan />
       <BeautyInUptownXp />
       <BeautyInUptownBook />
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

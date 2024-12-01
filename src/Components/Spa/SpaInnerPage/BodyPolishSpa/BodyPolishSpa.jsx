@@ -9,8 +9,6 @@ import HelpNearYou from "../../../Help/HelpNearYou";
 import TextLocReviews from "../../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../../MainServicePages/ServiceWhy/ServiceWhy";
 import BeautyRead from "../../../Beauty/BeautyRead/BeautyRead";
-import WhatsApp from "../../../HomePage/WhatsApp/WhatsApp";
-import LastComp from "../../../LastComp/LastComp";
 import BodyPolishSpaHead from "./BodyPolishSpaHead";
 import BodyPolishSpaXp from "./BodyPolishSpaXp";
 import BodyPolishSpaCustomer from "./BodyPolishSpaCustomer";
@@ -52,8 +50,7 @@ const BodyPolishSpa = () => {
       <TextLocReviews />
       <ServiceWhy />
       <BeautyRead />
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

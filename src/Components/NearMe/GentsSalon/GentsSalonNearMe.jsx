@@ -12,9 +12,7 @@ import InstaFeed from '../../HomePage/InstaFeed/InstaFeed'
 import ServiceWhy from '../../MainServicePages/ServiceWhy/ServiceWhy'
 import TextLocReviews from '../../TextLocReviews/TextLocReviews'
 import HelpNearYou from '../../Help/HelpNearYou'
-import LastComp from '../../LastComp/LastComp'
 import GentsSalonMain from './GentsSalonMain'
-import WhatsApp from '../../HomePage/WhatsApp/WhatsApp'
 
 const GentsSalonNearMe = () => {
   return (
@@ -41,8 +39,7 @@ const GentsSalonNearMe = () => {
     <TextLocReviews />
     <ServiceWhy />
     <GentsSalonMain />
-    <WhatsApp/>
-    <LastComp />
+    
 
   </div>
   )

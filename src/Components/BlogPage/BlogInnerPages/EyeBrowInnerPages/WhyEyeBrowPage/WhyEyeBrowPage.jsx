@@ -2,7 +2,6 @@ import React from "react";
 import HairServImg from "../../HairBotox/HairServImg";
 import { Helmet } from "react-helmet";
 import WhatsApp from "../../../../HomePage/WhatsApp/WhatsApp";
-import LastComp from "../../../../LastComp/LastComp";
 import WhyEyeBrowHead from "./WhyEyeBrowHead";
 import WhyEyeBrowFrame from "./WhyEyeBrowFrame";
 import WhyEyeBrowImg from "./WhyEyeBrowImg";
@@ -49,8 +48,7 @@ const WhyEyeBrowPage = () => {
         <WhyEyeBrowImp />
         <WhyEyeBrowYouthful />
       </div>
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

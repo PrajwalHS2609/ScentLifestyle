@@ -16,7 +16,6 @@ import glamorousTwist from "./../../../../../Images/Blog/Get Ready for a Glamoro
 import glamorousWaves from "./../../../../../Images/Blog/Get Ready for a Glamorous Night/The Glamorous Hollywood Waves.png";
 import glamorousCrown from "./../../../../../Images/Blog/Get Ready for a Glamorous Night/The Braided Crown.png";
 import WhatsApp from "../../../../HomePage/WhatsApp/WhatsApp";
-import LastComp from "../../../../LastComp/LastComp";
 
 
 const Glamorous = () => {
@@ -58,8 +57,7 @@ const Glamorous = () => {
         <br />
         <GlamorousFinal/>
       </div>
-      <WhatsApp/>
-      <LastComp />
+      
     </div>
   );
 };

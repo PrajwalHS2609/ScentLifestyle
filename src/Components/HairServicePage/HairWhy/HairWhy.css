@@ -4,7 +4,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 30px;margin-top: 5%;
+  gap: 30px;
+  margin-top: 5%;
+  background-image: url("https://thumbs.dreamstime.com/b/grey-mat-electrical-hand-held-hair-iron-dryer-salon-barber-shop-mirror-background-160479849.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .hairWhyCardContainer {
   /* border: solid; */

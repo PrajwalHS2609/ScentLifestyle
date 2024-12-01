@@ -1,6 +1,5 @@
 import React from "react";
 import NailSalonImg from "./NailSalonImg/NailSalonImg";
-import LastComp from "../LastComp/LastComp";
 import NailServiceCardContain from "./NailService Card/NailServiceCardContain";
 import Members from "./../HomePage/Members/Members";
 import OurSalon from "./../HomePage/OurSalon/OurSalon";
@@ -12,7 +11,6 @@ import Partners from "../HomePage/Partners/Partners";
 import { Helmet } from "react-helmet";
 import NavBg from "./../NavBg/NavBg";
 import TextLocReviews from "../TextLocReviews/TextLocReviews";
-import WhatsApp from "../HomePage/WhatsApp/WhatsApp";
 import ServBreadCrumb from "../InnerServicePage/InnerNavi/ServBreadCrumb";
 
 const NailSalonPage = () => {
@@ -43,9 +41,8 @@ const NailSalonPage = () => {
       <HelpNearYou />
       <TextLocReviews />
       <ServiceWhy />
-      <WhatsApp/>
       <NailRead />
-      <LastComp />
+      
     </div>
   );
 };

@@ -1,8 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import NavBg from "../../../NavBg/NavBg";
-import WhatsApp from "../../../HomePage/WhatsApp/WhatsApp";
-import LastComp from "../../../LastComp/LastComp";
 import BouncyHairImg from "./BouncyHairImg";
 import InnerNavi from "../../../InnerServicePage/InnerNavi/InnerNavi";
 import BouncyHairHead from "./BouncyHairHead";
@@ -30,8 +28,7 @@ const BouncyHair = () => {
         <InnerNavi link="/blog" service="Blog" currService="Hair Blog" />
         <BouncyHairHead />
       </div>
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

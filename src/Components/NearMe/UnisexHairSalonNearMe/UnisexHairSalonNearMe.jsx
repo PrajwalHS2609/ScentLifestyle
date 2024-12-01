@@ -11,8 +11,6 @@ import InstaFeed from "../../HomePage/InstaFeed/InstaFeed";
 import HelpNearYou from "../../Help/HelpNearYou";
 import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 import UnisexHairSalonNearMeRead from "./UnisexHairSalonNearMeRead";
-import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
-import LastComp from "../../LastComp/LastComp";
 import UnisexHairSalonNearMeHead from "./UnisexHairSalonNearMeHead";
 
 const UnisexHairSalonNearMe = () => {
@@ -44,8 +42,7 @@ const UnisexHairSalonNearMe = () => {
       <HelpNearYou />
       <TextLocReviews />
       <UnisexHairSalonNearMeRead />
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

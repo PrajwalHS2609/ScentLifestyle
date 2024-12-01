@@ -3,13 +3,18 @@ import "./Video.css";
 import scentVid from "./../../../video/ScentHomeVid.mp4";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
+import christmas from "./../../../Images/Christmas.png";
 
 const Video = () => {
-   return (
+  return (
     <div className="vidContainer">
+      {/* <img src={christmas} alt="" /> */}
       <video className="videoContent" src={scentVid} autoPlay loop muted />
       <div className="vidTxt">
-       <a href="https://api.whatsapp.com/send?phone=919742232700"> <pre>Book an Appointment Now</pre></a>
+        <a href="https://api.whatsapp.com/send?phone=919742232700">
+          {" "}
+          <pre>Book an Appointment Now</pre>
+        </a>
         <FontAwesomeIcon
           icon={faArrowDown}
           className="vidIcon"

@@ -6,8 +6,6 @@ import SalonXp from "./SalonXp";
 import OmbreProcess from "./OmbreProcess";
 import OmbreGelPolishMaintain from "./OmbreGelPolishMaintain";
 import OmbreGelPolishBook from "./OmbreGelPolishBook";
-import LastComp from "../../LastComp/LastComp";
-import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
 import OmbreGelPolishImg from "./OmbreGelPolishImg";
 
 const OmbreGelPolishPage = () => {
@@ -34,8 +32,7 @@ const OmbreGelPolishPage = () => {
      <OmbreProcess/>
      <OmbreGelPolishMaintain/>
      <OmbreGelPolishBook/>
-      <WhatsApp/>
-      <LastComp />
+      
     </div>
   );
 };

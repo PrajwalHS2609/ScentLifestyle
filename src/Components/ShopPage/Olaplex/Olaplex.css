@@ -1,6 +1,4 @@
-:root {
-  --customRed: #cc2228;
-}
+
 .olaplexHeadContainer {
   /* border: solid; */
   display: flex;
@@ -13,7 +11,7 @@
 }
 .olaplexUnderline {
   border: 2px solid;
-  color: var(--customRed);
+  color: var(--customColor);
   width: 50px;
 }
 .olaplexCardContainWrapper {
@@ -67,7 +65,7 @@
 .olaplexCardHead > h2 {
   font-size: 110%;
   text-align: center;
-  color: var(--customRed);
+  color: var(--customColor);
 }
 .olaplexCardTxt > button > a {
   border: none;

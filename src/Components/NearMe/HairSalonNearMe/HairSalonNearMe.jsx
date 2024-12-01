@@ -2,8 +2,6 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import HairServiceImg from "../../HairServicePage/HairServiceImg/HairServiceImg";
 import Navi1 from "../../HairServicePage/Navi1/Navi1";
-import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
-import LastComp from "../../LastComp/LastComp";
 import HairServiceCardContain from "../../HairServicePage/HairServiceCard/HairServiceCardContain";
 import HairSalon from "../../HairServicePage/HairSalon/HairSalon";
 import Members from "../../HomePage/Members/Members";
@@ -40,8 +38,7 @@ const HairSalonNearMe = () => {
       <HelpNearYou />
       <TextLocReviews />
       <HairSalonNearMeRead/>
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

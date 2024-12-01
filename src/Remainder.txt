@@ -2,5 +2,5 @@ images changes and download
 add arrow to location resp
 add lazy loading to all blog imgs
 check all loc in levelle,jakkur,meadows
-check all services readmore from spa
 
+changes in homeservice and homestyle

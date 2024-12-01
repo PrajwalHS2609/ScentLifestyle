@@ -4,8 +4,6 @@ import PedicuristNearMeImg from "./PedicuristNearMeImg";
 import InnerNavi from "../../InnerServicePage/InnerNavi/InnerNavi";
 import PedicuristNearMeHead from "./PedicuristNearMeHead";
 import PedicuristNearMeRead from "./PedicuristNearMeRead";
-import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
-import LastComp from "../../LastComp/LastComp";
 import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
 import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 import HelpNearYou from "../../Help/HelpNearYou";
@@ -44,8 +42,7 @@ const PedicuristNearMe = () => {
       <TextLocReviews />
       <ServiceWhy />
       <PedicuristNearMeRead />
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

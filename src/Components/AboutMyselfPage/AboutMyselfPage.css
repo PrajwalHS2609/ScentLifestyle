@@ -10,6 +10,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  padding: 20px;
 }
 
 .aboutMyselfTxtContainer {
@@ -23,7 +24,8 @@
 .aboutMyselfTxtContainer > li {
   list-style: none;
   margin: 30px;
-  font-size: 16px;
+  font-size: 20px;
+
 }
 .aboutMyselfContactContainer {
   border: solid;
@@ -34,13 +36,13 @@
   margin-top: 6%;
   justify-content: center;
   align-items: center;
-  color: #cc2228;
+  color: var(--customColor);
 }
 .aboutMyselfContactContainer > h2 > a {
   text-decoration: none;
-  color: #cc2228;
+  color: var(--customColor);
 }
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 320px) and (max-width: 600px) {
   .abtnavbg {
     background-color: black;
     height: 100px;
@@ -94,7 +96,7 @@
   .aboutMyselfContactContainer > h2 {
     /* border: solid; */
     text-decoration: none;
-    color: #cc2228;
+    color: var(--customColor);
     text-align: center;
   }
 }
@@ -146,7 +148,7 @@
   }
   .aboutMyselfContactContainer > h2 > a {
     text-decoration: none;
-    color: #cc2228;
+    color: var(--customColor);
     text-align: center;
   }
 }
@@ -187,11 +189,11 @@
     margin-top: 6%;
     justify-content: center;
     align-items: center;
-    color: #cc2228;
+    color: var(--customColor);
   }
   .aboutMyselfContactContainer > h2 > a {
     text-decoration: none;
-    color: #cc2228;
+    color: var(--customColor);
   }
 }
 @media screen and (max-width: 1440px) and (min-width: 1200px) {

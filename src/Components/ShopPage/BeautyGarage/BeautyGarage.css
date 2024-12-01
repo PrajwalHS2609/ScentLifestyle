@@ -1,6 +1,4 @@
-:root {
-  --customRed: #cc2228;
-}
+
 .beautyGarageHeadContainer {
   /* border: solid; */
   display: flex;
@@ -12,7 +10,7 @@
 }
 .beautyGarageUnderline {
   border: 2px solid;
-  color: var(--customRed);
+  color: var(--customColor);
   width: 5%;
 }
 .beautyGarageCardContainWrapper {
@@ -66,7 +64,7 @@
 .beautyGarageCardHead > h2 {
   font-size: 110%;
   text-align: center;
-  color: var(--customRed);
+  color: var(--customColor);
 }
 .beautyGarageCardPrice {
   /* border: solid yellow; */
@@ -75,7 +73,7 @@
   justify-content: space-evenly;
   align-items: center;
   flex-direction: column;
-  color: var(--customRed);
+  color: var(--customColor);
 }
 .beautyGarageCardPrice > pre {
   text-align: center;

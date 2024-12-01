@@ -204,12 +204,19 @@ import GelNailExtensionNearMe from "./Components/NearMe/GelNailExtensionNearMe/G
 import PedicuristNearMe from "./Components/NearMe/PedicuristNearMe/PedicuristNearMe";
 import QAPage from "./Components/QAPage/QAPage";
 import HairBleach from "./Components/BlogPage/BlogInnerPages/HairBlogInnerPages/HairBleach/HairBleach";
+import Footer from "./Components/Footer/Footer";
+import WhatsApp from "./Components/HomePage/WhatsApp/WhatsApp";
+import Academy from "./Components/Academy/Academy";
+import Christmas from "./Components/Christmas/Christmas";
+import SantaClause from "./Components/SantaClause/SantaClause";
 
 const App = () => {
   return (
     <div>
       <BrowserRouter>
         <MainLayout />
+        <Christmas />
+        {/* <SantaClause /> */}
         <ScrollTo />
         <Routes>
           {/* ----pageNotfound---- */}
@@ -821,7 +828,10 @@ const App = () => {
           />
           {/* -----------------------/InUptown--------------------------- */}
           <Route path="/q-and-a" element={<QAPage />} />
+          <Route path="/academy" element={<Academy />} />
         </Routes>
+        <WhatsApp />
+        <Footer />
       </BrowserRouter>
     </div>
   );

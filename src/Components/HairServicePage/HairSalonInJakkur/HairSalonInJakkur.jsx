@@ -16,8 +16,6 @@ import HairSalonInJakkurService from "./HairSalonInJakkurService/HairSalonInJakk
 import HairSalonInJakkurCustomer from "./HairSalonInJakkurCustomer/HairSalonInJakkurCustomer";
 import HairSalonInJakkurBook from "./HairSalonInJakkurBook";
 import HairSalonInJakkurTips from "./HairSalonInJakkurTips/HairSalonInJakkurTips";
-import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
-import LastComp from "../../LastComp/LastComp";
 
 const HairSalonInJakkur = () => {
   return (
@@ -54,8 +52,7 @@ const HairSalonInJakkur = () => {
       <HairSalonInJakkurCustomer />
       <HairSalonInJakkurTips />
       <HairSalonInJakkurBook />
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

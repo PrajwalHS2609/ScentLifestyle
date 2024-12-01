@@ -101,15 +101,16 @@ const Services = () => {
     speed: 500,
     slidesToShow: 4,
     slidesToScroll: 4,
-    nextArrow: <SampleNextArrow />,
-    prevArrow: <SamplePrevArrow />,
+    arrows: true, // Enable custom arrows
+    nextArrow: <SampleNextArrow />, // Use custom next arrow
+    prevArrow: <SamplePrevArrow />, // Use custom previous arrow
     responsive: [
       {
         breakpoint: 600,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
-          initialSlide: 2,
+          arrows: true,
           nextArrow: <RespSampleNextArrow />,
           prevArrow: <RespSamplePrevArrow />,
         },
@@ -119,13 +120,14 @@ const Services = () => {
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,
-          initialSlide: 2,
+          arrows: true,
           nextArrow: <SampleNextArrow />,
           prevArrow: <SamplePrevArrow />,
         },
       },
     ],
   };
+  
   return (
     <div className="serviceContainer">
       <ServiceHead />

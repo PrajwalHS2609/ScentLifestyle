@@ -8,8 +8,6 @@ import MicroBladingInUptownWhyChoose from "./MicroBladingInUptownWhyChoose";
 import MicroBladingInUptownXp from "./MicroBladingInUptownXp";
 import MicroBladingInUptownBenefits from "./MicroBladingInUptownBenefits";
 import MicroBladingInUptownBook from "./MicroBladingInUptownBook";
-import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
-import LastComp from "../../LastComp/LastComp";
 import Members from "../../HomePage/Members/Members";
 import OurSalon from "../../HomePage/OurSalon/OurSalon";
 import Partners from "../../HomePage/Partners/Partners";
@@ -57,8 +55,7 @@ const MicroBladingInUptown = () => {
       <MicroBladingInUptownXp />
       <MicroBladingInUptownBenefits />
       <MicroBladingInUptownBook />
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

@@ -6,8 +6,6 @@ import OurSalon from "../../../HomePage/OurSalon/OurSalon";
 import Partners from "../../../HomePage/Partners/Partners";
 import TextLocReviews from "../../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../../MainServicePages/ServiceWhy/ServiceWhy";
-import LastComp from "../../../LastComp/LastComp";
-import WhatsApp from "../../../HomePage/WhatsApp/WhatsApp";
 import DiamondFacialHead from "./DiamondFacialHead";
 import DiamondFacialBenefits from "./DiamondFacialBenefits";
 import DiamondFacialProcess from "./DiamondFacialProcess";
@@ -49,8 +47,7 @@ const DiamondFacial = () => {
       <DiamondFacialProcess />
       <DiamondFacialWhy />
       <DiamondFacialCustomer />
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

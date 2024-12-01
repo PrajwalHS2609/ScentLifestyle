@@ -1,6 +1,4 @@
 import React from "react";
-import LastComp from "../../LastComp/LastComp";
-import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
 import Members from "../../HomePage/Members/Members";
 import OurSalon from "../../HomePage/OurSalon/OurSalon";
 import Partners from "../../HomePage/Partners/Partners";
@@ -50,8 +48,7 @@ const Botox = () => {
       <BotoxProcess/>
       <BotoxWhy/>
       <BotoxAftercare/>
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

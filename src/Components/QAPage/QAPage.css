@@ -159,7 +159,7 @@
 /* ------------------------search tab--------------------------- */
 
 .QAPageMainSearch {
-  border: solid red;
+  /* border: solid red; */
   width: 100%;
   height: 600px;
   display: flex;
@@ -243,4 +243,29 @@
   100% {
     transform: scale(1.2);
   }
+}
+.QAPageMainContentWrapper {
+  /* border: solid green; */
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  padding: 30px;
+}
+/* .QAPageMainContent {
+  border: solid red;
+} */
+.QAPageMenuContent {
+  border: solid blue;
+  width: 500px;
+  height: 100%;
+  padding: 10px;
+  box-shadow: 0 0 5px black;
+}
+.QAPageMenuContent > h3 {
+  border-bottom: 2px solid grey;
+  height: 60px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }

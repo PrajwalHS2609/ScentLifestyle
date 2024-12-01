@@ -7,8 +7,6 @@ import InstaFeed from "../../HomePage/InstaFeed/InstaFeed";
 import HelpNearYou from "../../Help/HelpNearYou";
 import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
-import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
-import LastComp from "../../LastComp/LastComp";
 import LashesInMeadowsWhyChoose from "./LashesInMeadowsWhyChoose";
 import LashesInMeadowsTypes from "./LashesInMeadowsTypes";
 import LashesInMeadowsBenefits from "./LashesInMeadowsBenefits";
@@ -58,8 +56,7 @@ const LashesInMeadows = () => {
       <LashesInMeadowsHow />
       <LashesInMeadowsWhy />
       <LashesInMeadowsBook />
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

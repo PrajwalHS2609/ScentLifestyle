@@ -1,6 +1,5 @@
 import React from "react";
 import LashesImg from "./LashesImg/LashesImg";
-import LastComp from "../LastComp/LastComp";
 import HelpNearYou from "../Help/HelpNearYou";
 import Members from "./../HomePage/Members/Members";
 import OurSalon from "./../HomePage/OurSalon/OurSalon";
@@ -12,7 +11,6 @@ import InstaFeed from "../HomePage/InstaFeed/InstaFeed";
 import { Helmet } from "react-helmet";
 import NavBg from "../NavBg/NavBg";
 import TextLocReviews from "../TextLocReviews/TextLocReviews";
-import WhatsApp from "../HomePage/WhatsApp/WhatsApp";
 import ServBreadCrumb from "../InnerServicePage/InnerNavi/ServBreadCrumb";
 
 const LashesPage = () => {
@@ -43,9 +41,8 @@ const LashesPage = () => {
       <HelpNearYou />
       <TextLocReviews />
       <ServiceWhy />
-      <WhatsApp/>
       <LashesRead />
-      <LastComp />
+      
     </div>
   );
 };

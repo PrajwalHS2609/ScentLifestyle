@@ -1,6 +1,4 @@
-:root {
-  --customRed: #cc2228;
-}
+
 .hairSalonContainer {
   /* border: solid red; */
   height: 100%;
@@ -20,17 +18,17 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  color: var(--customRed);
+  color: var(--customColor);
 }
 .hairSalonHeadContainer > h2 {
   font-size: 30px;
   text-align: center;
-  color: var(--customRed);
+  color: var(--customColor);
 }
 .hairSalonUnderline {
   border: 2px solid;
   width: 60px;
-  color: var(--customRed);
+  color: var(--customColor);
 }
 .hairSalonParaContainer {
   /* border: solid; */

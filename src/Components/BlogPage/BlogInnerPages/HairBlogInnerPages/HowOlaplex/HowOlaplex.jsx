@@ -13,7 +13,6 @@ import HowOlaplexWhy from "./HowOlaplexWhy";
 import HowOlaplexInvest from "./HowOlaplexInvest";
 import HowOlaplexMaintain from "./HowOlaplexMaintain";
 import WhatsApp from "../../../../HomePage/WhatsApp/WhatsApp";
-import LastComp from "../../../../LastComp/LastComp";
 
 const HowOlaplex = () => {
   return (
@@ -43,8 +42,7 @@ const HowOlaplex = () => {
         <HairServImg hairBotoxImg={olaplexInvest} />
         <HowOlaplexInvest />
       </div>
-      <WhatsApp/>
-      <LastComp />
+      
     </div>
   );
 };

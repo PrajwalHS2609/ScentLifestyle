@@ -7,8 +7,6 @@ import InstaFeed from "../../../HomePage/InstaFeed/InstaFeed";
 import HelpNearYou from "../../../Help/HelpNearYou";
 import TextLocReviews from "../../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../../MainServicePages/ServiceWhy/ServiceWhy";
-import WhatsApp from "../../../HomePage/WhatsApp/WhatsApp";
-import LastComp from "../../../LastComp/LastComp";
 import NavBg from "../../../NavBg/NavBg";
 import { Helmet } from "react-helmet";
 import BridalMakeUpPackageHead from "./BridalMakeUpPackageHead/BridalMakeUpPackageHead";
@@ -51,8 +49,7 @@ const BridalMakeUpPackage = () => {
       <BridalMakeUpPackageProcess />
       <BridalMakeUpPackageCustomer />
       <BridalMakeUpPackageBook/>
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

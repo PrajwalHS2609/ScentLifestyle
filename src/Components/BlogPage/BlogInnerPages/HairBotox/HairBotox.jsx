@@ -2,8 +2,6 @@ import React from "react";
 import HairBotoxHead from "./HairBotoxHead";
 import HairBotoxWhat from "./HairBotoxWhat/HairBotoxWhat";
 import { Helmet } from "react-helmet";
-import WhatsApp from "../../../HomePage/WhatsApp/WhatsApp";
-import LastComp from "../../../LastComp/LastComp";
 import HairBotoxImg from "./HairBotoxImg";
 import NavBg from "../../../NavBg/NavBg";
 import InnerNavi from "../../../InnerServicePage/InnerNavi/InnerNavi";
@@ -48,8 +46,7 @@ const HairBotox = () => {
         <HairBotoxWho />
         <HairBotoxXp />
       </div>
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

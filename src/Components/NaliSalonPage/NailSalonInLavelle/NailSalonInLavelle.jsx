@@ -13,8 +13,6 @@ import NailSalonInLavelleService from './NailSalonInLavelleService';
 import NailSalonInLavelleXp from './NailSalonInLavelleXp';
 import NailSalonInLavelleWhyScent from "./NailSalonInLavelleWhyScent";
 import NailSalonInLavelleVisit from './NailSalonInLavelleVisit';
-import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
-import LastComp from "../../LastComp/LastComp";
 import { Helmet } from "react-helmet";
 import NavBg from "../../NavBg/NavBg";
 import HairSalonInLavelleImg from "../../HairServicePage/HairSalonInLavelle/HairSalonInLavelleImg/HairSalonInLavelleImg";
@@ -57,8 +55,7 @@ const NailSalonInLavelle = () => {
       <NailSalonInLavelleXp />
       <NailSalonInLavelleWhyScent />
       <NailSalonInLavelleVisit />
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

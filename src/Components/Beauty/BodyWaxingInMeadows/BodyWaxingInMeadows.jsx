@@ -12,8 +12,6 @@ import InstaFeed from "../../HomePage/InstaFeed/InstaFeed";
 import HelpNearYou from "../../Help/HelpNearYou";
 import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
-import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
-import LastComp from "../../LastComp/LastComp";
 import HairSalonInMeadowsImg from "../../HairServicePage/HairSalonInMeadows/HairSalonInMeadowsImg/HairSalonInMeadowsImg";
 import beautyMeadowsImg from "./../../../Images/SahakarNagar/Waxing, Threding & D-Tan.png";
 
@@ -51,8 +49,7 @@ const BodyWaxingInMeadows = () => {
       <BodyWaxingInMeadowsAtScent />
       <BodyWaxingInMeadowsBenefits />
       <BodyWaxingInMeadowsWhat />
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

@@ -7,8 +7,6 @@ import ChromeProcess from "./ChromeProcess";
 import ChromeGelBenefits from "./ChromeGelBenefits";
 import ChromeMaintain from "./ChromeMaintain";
 import ChromeGelCustomer from "./ChromeGelCustomer";
-import LastComp from "../../LastComp/LastComp";
-import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
 import ChromeGelImg from "./ChromeGelImg";
 
 const ChromeGelPage = () => {
@@ -36,8 +34,7 @@ const ChromeGelPage = () => {
       <ChromeGelBenefits />
       <ChromeMaintain />
       <ChromeGelCustomer/>
-      <WhatsApp/>
-      <LastComp />
+      
     </div>
   );
 };

@@ -12,7 +12,7 @@ const Style = () => {
         <p>
           where luxury meets innovation in hair and beauty care. Located in the
           heart of Bangalore on Lavelle road,and other prime locations like
-          Whitefield, Sahakarnagar, Jakkur and JP Nagar our salons are renowned
+          Whitefield, Sahakarnagar and Jakkur our salons are renowned
           for delivering exceptional results and personalized service to
           discerning clients.
         </p>

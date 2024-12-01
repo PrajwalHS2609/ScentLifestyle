@@ -9,8 +9,6 @@ import InstaFeed from "../../HomePage/InstaFeed/InstaFeed";
 import HelpNearYou from "../../Help/HelpNearYou";
 import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
-import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
-import LastComp from "../../LastComp/LastComp";
 import NailExtensionInLavelleHead from "./NailExtensionInLavelleHead";
 import NailExtensionInLavelleFocus from "./NailExtensionInLavelleFocus";
 import NailExtensionInLavelleDesign from "./NailExtensionInLavelleDesign";
@@ -63,8 +61,7 @@ const NailExtensionInLavelle = () => {
       <NailExtensionInLavelleAfford />
       <NailExtensionInLavelleWhy />
       <NailExtensionInLavelleBook />
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

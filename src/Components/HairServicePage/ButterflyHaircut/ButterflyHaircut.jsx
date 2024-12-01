@@ -1,6 +1,4 @@
 import React from "react";
-import LastComp from "../../LastComp/LastComp";
-import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
 import { Helmet } from "react-helmet";
 import InnerNavi from "../../InnerServicePage/InnerNavi/InnerNavi";
 import ButterflyHaircutHead from "./ButterflyHaircutHead";
@@ -50,8 +48,7 @@ const ButterflyHaircut = () => {
       <ButterflyHaircutBenefit />
       <ButterflyHaircutStyling />
       <ButterflyHaircutWhyChoose />
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

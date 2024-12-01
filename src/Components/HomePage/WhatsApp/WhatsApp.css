@@ -24,6 +24,12 @@
   background-color: rgb(152, 152, 152);
   display: none;
 }
+/* .styles-module_whatsappChatBox__MdQ5U.styles-module_open__R8NqR {
+  width: 450px;
+} */
+.styles-module_chatBody__VBxQH {
+  overflow-y: scroll;
+}
 @media screen and (min-width: 320px) and (max-width: 768px) {
   .whatsAppContainer > a > img {
     /* border: solid blue; */
@@ -37,4 +43,5 @@
     right: 5px;
     width: 100px;
   }
+
 }

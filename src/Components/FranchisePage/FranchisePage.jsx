@@ -3,10 +3,8 @@ import FranchiseHead from "./FranchiseHead";
 import FranchisePara from "./FranchisePara";
 import FranchiseForm from "./FranchiseForm";
 import FranchiseContact from "./FranchiseContact";
-import LastComp from "./../LastComp/LastComp";
 import FranchiseImg from "./FranchiseImg";
 import { Helmet } from "react-helmet";
-import WhatsApp from "../HomePage/WhatsApp/WhatsApp";
 import NavBg from "../NavBg/NavBg";
 
 const FranchisePage = () => {
@@ -30,8 +28,7 @@ const FranchisePage = () => {
       <FranchisePara />
       <FranchiseForm />
       <FranchiseContact />
-      <WhatsApp/>
-      <LastComp />
+      
     </div>
   );
 };

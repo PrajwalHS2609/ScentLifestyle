@@ -9,8 +9,6 @@ import InstaFeed from "../../HomePage/InstaFeed/InstaFeed";
 import HelpNearYou from "../../Help/HelpNearYou";
 import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
-import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
-import LastComp from "../../LastComp/LastComp";
 import hairAntiDandruffSpaImg from "./../../../Images/HairSalonInnerPage/HAIR SPA SERVICES.png";
 import HairAntiDandruffSpaHead from './HairAntiDandruffSpaHead';
 import HairAntiDandruffSpaProcess from './HairAntiDandruffSpaProcess';
@@ -54,8 +52,7 @@ const HairAntiDandruffSpa = () => {
       <HairAntiDandruffSpaBenefits/>
       <HairAntiDandruffSpaWhy/>
       <HairAntiDandruffSpaBook/>
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

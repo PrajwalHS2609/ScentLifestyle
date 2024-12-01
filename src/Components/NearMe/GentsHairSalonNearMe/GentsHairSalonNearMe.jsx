@@ -11,8 +11,6 @@ import InstaFeed from "../../HomePage/InstaFeed/InstaFeed";
 import HelpNearYou from "../../Help/HelpNearYou";
 import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 import GentsHairSalonNearMeRead from "./GentsHairSalonNearMeRead";
-import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
-import LastComp from "../../LastComp/LastComp";
 
 const GentsHairSalonNearMe = () => {
   return (
@@ -40,8 +38,7 @@ const GentsHairSalonNearMe = () => {
       <HelpNearYou />
       <TextLocReviews />
       <GentsHairSalonNearMeRead />
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

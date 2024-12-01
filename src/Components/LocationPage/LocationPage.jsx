@@ -1,6 +1,5 @@
 import React from "react";
 import HelpNearYou from "../Help/HelpNearYou";
-import LastComp from "../LastComp/LastComp";
 import { Helmet } from "react-helmet";
 import NavBg from "../NavBg/NavBg";
 
@@ -21,7 +20,7 @@ const LocationPage = () => {
       </Helmet>
       <NavBg />
       <HelpNearYou />
-      <LastComp />
+      
     </div>
   );
 };

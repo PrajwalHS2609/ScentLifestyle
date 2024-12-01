@@ -17,7 +17,9 @@
   /* border: solid blue; */
   position: absolute;
   right: 0;
-  background-color: var(--customColorTrans);
+  /* background-color: var(--customColorTrans); */
+  background-color: #6a7ba297;
+
   top: 0;
   width: 40%;
   height: 100%;

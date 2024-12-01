@@ -14,8 +14,6 @@ import MicroBladingInLavelleProcess from "./MicroBladingInLavelleProcess";
 import MicroBladingInLavelleWhyChoose from "./MicroBladingInLavelleWhyChoose";
 import MicroBladingInLavelleBenefits from "./MicroBladingInLavelleBenefits";
 import { Helmet } from "react-helmet";
-import LastComp from "../../LastComp/LastComp";
-import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
 import MicroBladingInLavelleBook from "./MicroBladingInLavelleBook";
 import HairSalonInLavelleImg from "../../HairServicePage/HairSalonInLavelle/HairSalonInLavelleImg/HairSalonInLavelleImg";
 import microLavelleImg from "./../../../Images/SahakarNagar/Eyeborw Microblading.png";
@@ -60,8 +58,7 @@ const MicroBladingInLavelle = () => {
       <MicroBladingInLavelleWhy />
       <MicroBladingInLavelleBenefits />
       <MicroBladingInLavelleBook />
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

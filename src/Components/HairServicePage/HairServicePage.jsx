@@ -1,7 +1,6 @@
 import React from "react";
 import HairServiceCardContain from "./HairServiceCard/HairServiceCardContain";
 import HairSalon from "./HairSalon/HairSalon";
-import LastComp from "../LastComp/LastComp";
 import HairServiceImg from "./HairServiceImg/HairServiceImg";
 import HairRead from "./HairRead/HairRead";
 import ServiceWhy from "./../MainServicePages/ServiceWhy/ServiceWhy";
@@ -13,7 +12,6 @@ import InstaFeed from "../HomePage/InstaFeed/InstaFeed";
 import { Helmet } from "react-helmet";
 import NavBg from "../NavBg/NavBg";
 import TextLocReviews from "../TextLocReviews/TextLocReviews";
-import WhatsApp from "../HomePage/WhatsApp/WhatsApp";
 import ServBreadCrumb from "../InnerServicePage/InnerNavi/ServBreadCrumb";
 const HairServicePage = () => {
   return (
@@ -39,9 +37,8 @@ const HairServicePage = () => {
       <HelpNearYou />
       <TextLocReviews />
       <ServiceWhy />
-      <WhatsApp />
-      <HairRead />
-      <LastComp />
+            <HairRead />
+      
     </div>
   );
 };

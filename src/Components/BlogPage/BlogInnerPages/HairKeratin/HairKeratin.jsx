@@ -2,8 +2,6 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import NavBg from "../../../NavBg/NavBg";
 import InnerNavi from "../../../InnerServicePage/InnerNavi/InnerNavi";
-import WhatsApp from "../../../HomePage/WhatsApp/WhatsApp";
-import LastComp from "../../../LastComp/LastComp";
 import HairKeratinHead from "./HairKeratinHead";
 import HairKeratinBenefits from "./HairKeratinBenefits";
 import HairKeratinProcess from "./HairKeratinProcess";
@@ -53,8 +51,7 @@ const HairKeratin = () => {
         <HairServImg hairBotoxImg={hairKeratinRight} />
         <HairKeratinRight />
       </div>
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

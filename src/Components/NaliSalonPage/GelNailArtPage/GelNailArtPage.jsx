@@ -6,8 +6,6 @@ import GelNailArtBenefits from "./GelNailArtBenefits";
 import GelNailArtPageMaintain from "./GelNailArtPageMaintain";
 import GelNailArtBook from "./GelNailArtBook";
 import GelNailArtCustomer from "./GelNailArtCustomer";
-import LastComp from "../../LastComp/LastComp";
-import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
 import GelNailArtPageImg from "./GelNailArtPageImg";
 
 const GelNailArtPage = () => {
@@ -29,8 +27,7 @@ const GelNailArtPage = () => {
       <GelNailArtPageMaintain/>
       <GelNailArtBook/>
       <GelNailArtCustomer/>
-      <WhatsApp/>
-      <LastComp />
+      
     </div>
   );
 };

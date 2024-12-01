@@ -7,8 +7,6 @@ import BotoxLandingAbout from "./BotoxLandingAbout/BotoxLandingAbout";
 import Members from "./../HomePage/Members/Members";
 import BotoxLandingProducts from "./BotoxLandingProducts/BotoxLandingProducts";
 import ServiceWhy from "../MainServicePages/ServiceWhy/ServiceWhy";
-import WhatsApp from "../HomePage/WhatsApp/WhatsApp";
-import LastComp from "../LastComp/LastComp";
 import OurSalon from "../HomePage/OurSalon/OurSalon";
 import Partners from "../HomePage/Partners/Partners";
 import InstaFeed from "../HomePage/InstaFeed/InstaFeed";
@@ -51,8 +49,7 @@ const BotoxLanding = () => {
       <HelpNearYou />
       <TextLocReviews />
       <ServiceWhy />
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

@@ -1,12 +1,13 @@
-:root {
-  --customRed: #cc2228;
-}
+
 .serviceWhyContainer {
   /* border: solid green; */
   width: 100%;
   height: 100%;
   padding: 20px;
   background-color: white;
+  background-image: url("https://images7.alphacoders.com/714/714070.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .serviceWhyHeadContainer {
   /* border: solid; */
@@ -20,12 +21,12 @@
 }
 .serviceWhyHeadContainer > h6 {
   font-size: 30px;
-  color: var(--customRed);
+  color: var(--charcoalGray);
 }
 
 .serviceWhyUnderline {
   border: 2px solid;
-  color: var(--customRed);
+  color: var(--charcoalGray);
   width: 5%;
 }
 .serviceWhyMainContainer {
@@ -77,7 +78,7 @@
   }
   .serviceWhyUnderline {
     border: 2px solid;
-    color: var(--customRed);
+    color: var(--customColor);
     width: 20%;
   }
   .serviceWhyMainContainer {
@@ -112,7 +113,7 @@
   }
   .serviceWhyUnderline {
     border: 2px solid;
-    color: var(--customRed);
+    color: var(--customColor);
     width: 10%;
   }
   .serviceWhyMainContainer {

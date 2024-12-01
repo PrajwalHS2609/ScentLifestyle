@@ -8,8 +8,6 @@ import InstaFeed from "../../HomePage/InstaFeed/InstaFeed";
 import HelpNearYou from "../../Help/HelpNearYou";
 import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
-import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
-import LastComp from "../../LastComp/LastComp";
 import HairSalonInLavelleHead from "./HairSalonInLavelleHead/HairSalonInLavelleHead";
 import HairSalonInLavelleWhy from "./HairSalonInLavelleWhy/HairSalonInLavelleWhy";
 import HairSalonInLavelleService from "./HairSalonInLavelleService/HairSalonInLavelleService";
@@ -59,8 +57,7 @@ const HairSalonInLavelle = () => {
       <HairSalonInLavelleDiff />
       <HairSalonInLavelleCustomer />
       <HairSalonInLavelleBook />
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

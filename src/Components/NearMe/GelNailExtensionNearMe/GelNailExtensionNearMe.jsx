@@ -11,8 +11,6 @@ import HelpNearYou from "../../Help/HelpNearYou";
 import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
 import GelNailExtensionNearMeRead from "./GelNailExtensionNearMeRead";
-import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
-import LastComp from "../../LastComp/LastComp";
 
 const GelNailExtensionNearMe = () => {
   return (
@@ -47,8 +45,7 @@ const GelNailExtensionNearMe = () => {
       <TextLocReviews />
       <ServiceWhy />
       <GelNailExtensionNearMeRead />
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

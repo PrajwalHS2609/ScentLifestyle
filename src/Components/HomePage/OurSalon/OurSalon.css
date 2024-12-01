@@ -1,6 +1,4 @@
-:root {
-  --customRed: #cc2228;
-}
+
 .salonContainer {
   /* border: solid; */
   height: 400px;
@@ -13,11 +11,12 @@
   position: relative;
   overflow: hidden;
   background-color: white;
+
 }
 .salonContainer > img {
   /* border: solid; */
   height: 100%;
-  width: 50%;
+  width: 100%;
   position: absolute;
   right: -350px;
   z-index: -1;
@@ -34,11 +33,11 @@
 .salonContent1 > p {
   font-size: 30px;
   text-align: center;
-  color: var(--customRed);
+  color: var(--customColor);
 }
 .salonUnderline {
   border: 2px solid;
-  color: var(--customRed);
+  color: var(--customColor);
   width: 100px;
 }
 .salonContent2 {
@@ -51,7 +50,7 @@
 }
 .salonItem {
   border: solid;
-  color: var(--customRed);
+  color: var(--customColor);
   border-radius: 50%;
   height: 100%;
   width: 20%;
@@ -84,11 +83,11 @@
   font-weight: lighter;
   text-decoration: underline;
   cursor: pointer;
-  color: var(--customRed);
+  color: var(--customColor);
   font-weight: bold;
 }
 .salonIcon {
-  color: var(--customRed);
+  color: var(--customColor);
 }
 @media only screen and (max-width: 600px) {
   .salonContainer {
@@ -115,7 +114,7 @@
   .salonContent1 > p {
     font-size: 170%;
     text-align: center;
-    color: var(--customRed);
+    color: var(--customColor);
     /* border: solid; */
     width: 90%;
   }
@@ -163,7 +162,7 @@
   .salonContent1 > p {
     font-size: 170%;
     text-align: center;
-    color: var(--customRed);
+    color: var(--customColor);
     /* border: solid; */
     width: 90%;
   }
@@ -208,11 +207,11 @@
   .salonContent1 > p {
     font-size: 30px;
     text-align: center;
-    color: var(--customRed);
+    color: var(--customColor);
   }
   .salonUnderline {
     border: 2px solid;
-    color: var(--customRed);
+    color: var(--customColor);
     width: 100px;
   }
   .salonContent2 {
@@ -225,7 +224,7 @@
   }
   .salonItem {
     border: solid;
-    color: var(--customRed);
+    color: var(--customColor);
     border-radius: 50%;
     height: 100%;
     width: 20%;

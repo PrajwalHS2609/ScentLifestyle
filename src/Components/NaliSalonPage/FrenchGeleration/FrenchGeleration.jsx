@@ -8,8 +8,6 @@ import InstaFeed from "../../HomePage/InstaFeed/InstaFeed";
 import HelpNearYou from "../../Help/HelpNearYou";
 import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
-import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
-import LastComp from "../../LastComp/LastComp";
 import FrenchGelerationHead from "./FrenchGelerationHead";
 import FrenchGelerationBenefits from './FrenchGelerationBenefits';
 import FrenchGelerationProcess from "./FrenchGelerationProcess";
@@ -51,8 +49,7 @@ const FrenchGeleration = () => {
       <FrenchGelerationTrend/>
       <FrenchGelerationMaintain/>
       <FrenchGelerationCustomer/>
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

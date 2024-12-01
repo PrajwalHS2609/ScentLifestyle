@@ -9,8 +9,6 @@ import InstaFeed from "../../HomePage/InstaFeed/InstaFeed";
 import HelpNearYou from "../../Help/HelpNearYou";
 import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
-import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
-import LastComp from "../../LastComp/LastComp";
 import NailExtensionInUptownHead from "./NailExtensionInUptownHead";
 import NailExtensionInUptownExpertise from "./NailExtensionInUptownExpertise";
 import NailExtensionInUptownDesign from "./NailExtensionInUptownDesign";
@@ -63,8 +61,7 @@ const NailExtensionInUptown = () => {
       <NailExtensionInUptownAfford />
       <NailExtensionInUptownWhy />
       <NailExtensionInUptownBook />
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

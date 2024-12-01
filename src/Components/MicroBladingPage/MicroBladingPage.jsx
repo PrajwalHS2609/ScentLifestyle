@@ -8,11 +8,9 @@ import InstaFeed from "../HomePage/InstaFeed/InstaFeed";
 import HelpNearYou from "../Help/HelpNearYou";
 import TextLocReviews from "../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../MainServicePages/ServiceWhy/ServiceWhy";
-import LastComp from "../LastComp/LastComp";
 import MicroBladingReadMore from "./MicroBladingReadMore/MicroBladingReadMore";
 import { Helmet } from "react-helmet";
 import MicroBladingContent from "./MicroBladingReadMore/MicroBladingContent/MicroBladingContent";
-import WhatsApp from "../HomePage/WhatsApp/WhatsApp";
 import MicroBladingCompare from "./MicroBladingCompare/MicroBladingCompare";
 import ServBreadCrumb from "../InnerServicePage/InnerNavi/ServBreadCrumb";
 
@@ -43,9 +41,8 @@ const MicroBladingPage = () => {
       <HelpNearYou />
       <TextLocReviews />
       <ServiceWhy />
-      <WhatsApp/>
       <MicroBladingReadMore />
-      <LastComp />
+      
     </div>
   );
 };

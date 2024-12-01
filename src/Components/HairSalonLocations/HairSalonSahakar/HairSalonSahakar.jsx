@@ -2,7 +2,6 @@ import React from "react";
 import NavBg from "../../NavBg/NavBg";
 import { Link } from "react-router-dom";
 import "../HairSalonLocation.css";
-import LastComp from "../../LastComp/LastComp";
 import Members from "../../HomePage/Members/Members";
 import OurSalon from "../../HomePage/OurSalon/OurSalon";
 import Partners from "../../HomePage/Partners/Partners";
@@ -14,7 +13,6 @@ import { Helmet } from "react-helmet";
 import HairServiceImg from "../../HairServicePage/HairServiceImg/HairServiceImg";
 import Navi1 from "../../HairServicePage/Navi1/Navi1";
 import HairServiceCardContain from "../../HairServicePage/HairServiceCard/HairServiceCardContain";
-import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
 const HairSalonSahakar = () => {
   return (
     <div className="hairSalonLocation">
@@ -181,8 +179,7 @@ const HairSalonSahakar = () => {
       <HelpNearYou />
       <TextLocReviews />
       <ServiceWhy />
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

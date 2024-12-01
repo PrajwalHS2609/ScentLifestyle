@@ -11,8 +11,6 @@ import InstaFeed from "../../HomePage/InstaFeed/InstaFeed";
 import HelpNearYou from "../../Help/HelpNearYou";
 import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
-import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
-import LastComp from "../../LastComp/LastComp";
 import NailExtensionInMeadowsTypes from "./NailExtensionInMeadowsTypes";
 import NailExtensionInMeadowsBenefits from "./NailExtensionInMeadowsBenefits";
 import NailExtensionInMeadowsWhy from "./NailExtensionInMeadowsWhy";
@@ -57,8 +55,7 @@ const NailExtensionInMeadows = () => {
       <NailExtensionInMeadowsBenefits />
       <NailExtensionInMeadowsWhy />
       <NailExtensionInMeadowsBook />
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

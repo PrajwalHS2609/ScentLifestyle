@@ -1,6 +1,5 @@
 import React from "react";
 import "./JakkuruLocPage.css";
-import LastComp from "../../LastComp/LastComp";
 // import JakkuruLocMap from "./JakkuruLocMap/JakkuruLocMap";
 import LocationImg from "../LocationImg/LocationImg";
 import loc3 from "./../../../Images/jakkur.jpg";
@@ -13,7 +12,6 @@ import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 import JakkuruLocAbout from "./JakkuruLocAbout/JakkuruLocAbout";
 import { Helmet } from "react-helmet";
 import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
-import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
 import ServBreadCrumb from "../../InnerServicePage/InnerNavi/ServBreadCrumb";
 // import LocationCard from "../LocationCard/LocationCard";
 import LocationCard1 from "../LocationCard/LocationCard1";
@@ -69,8 +67,7 @@ const JakkuruLocPage = () => {
       <Partners />
       <InstaFeed />
       <ServiceWhy />
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

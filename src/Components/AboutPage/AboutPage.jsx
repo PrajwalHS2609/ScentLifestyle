@@ -2,7 +2,6 @@ import React from "react";
 import AboutImg from "./AboutImg";
 import AboutTxt from "./AboutTxt";
 import "./AboutPage.css";
-import LastComp from "../LastComp/LastComp";
 import AboutPageHead from "./AboutPageHead";
 import NavBg from "../NavBg/NavBg";
 import ServiceWhy from "../MainServicePages/ServiceWhy/ServiceWhy";
@@ -13,7 +12,6 @@ import Partners from "../HomePage/Partners/Partners";
 import OurSalon from "../HomePage/OurSalon/OurSalon";
 import Members from "../HomePage/Members/Members";
 import { Helmet } from "react-helmet";
-import WhatsApp from "../HomePage/WhatsApp/WhatsApp";
 const AboutPage = () => {
   return (
     <div className="aboutPgContainer">
@@ -37,8 +35,7 @@ const AboutPage = () => {
       <HelpNearYou />
       <TextLocReviews />
       <ServiceWhy />
-      <WhatsApp/>
-      <LastComp />
+      
     </div>
   );
 };

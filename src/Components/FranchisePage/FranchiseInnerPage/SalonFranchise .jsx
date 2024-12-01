@@ -9,8 +9,6 @@ import SalonFranchiseSteps from "./SalonFranchiseSteps";
 import SalonFranchiseSuccess from "./SalonFranchiseSuccess";
 import FranchiseForm from "../FranchiseForm";
 import FranchiseContact from "../FranchiseContact";
-import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
-import LastComp from "../../LastComp/LastComp";
 
 const SalonFranchise = () => {
   return (
@@ -38,8 +36,7 @@ const SalonFranchise = () => {
       <SalonFranchiseAdv />
       <SalonFranchiseSteps />
       <SalonFranchiseSuccess />
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

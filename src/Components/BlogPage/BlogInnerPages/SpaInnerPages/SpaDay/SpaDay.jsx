@@ -1,6 +1,5 @@
 import React from "react";
 import WhatsApp from "../../../../HomePage/WhatsApp/WhatsApp";
-import LastComp from "../../../../LastComp/LastComp";
 import InnerNavi from "../../../../InnerServicePage/InnerNavi/InnerNavi";
 import NavBg from "../../../../NavBg/NavBg";
 import { Helmet } from "react-helmet";
@@ -45,8 +44,7 @@ const SpaDay = () => {
         <SpaDayBenefits />
         <SpaDayIncorporating />
       </div>
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

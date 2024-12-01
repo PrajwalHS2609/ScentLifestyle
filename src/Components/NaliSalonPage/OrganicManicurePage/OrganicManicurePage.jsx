@@ -14,8 +14,6 @@ import InstaFeed from "../../HomePage/InstaFeed/InstaFeed";
 import HelpNearYou from "../../Help/HelpNearYou";
 import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
-import LastComp from "../../LastComp/LastComp";
-import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
 import OrganicManicureImg from "./OrganicManicureImg";
 
 const OrganicManicurePage = () => {
@@ -50,8 +48,7 @@ const OrganicManicurePage = () => {
       <OrganicProducts />
       <OrganicManicureMaintain />
       <OrganicManicureBook />
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

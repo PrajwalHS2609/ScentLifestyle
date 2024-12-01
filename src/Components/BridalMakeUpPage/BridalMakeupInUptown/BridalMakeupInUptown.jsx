@@ -16,8 +16,6 @@ import BridalMakeupInUptownWhat from "./BridalMakeupInUptownWhat";
 import BridalMakeupInUptownTrend from "./BridalMakeupInUptownTrend";
 import BridalMakeupInUptownXp from "./BridalMakeupInUptownXp";
 import BridalMakeupInUptownBook from "./BridalMakeupInUptownBook";
-import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
-import LastComp from "../../LastComp/LastComp";
 
 const BridalMakeupInUptown = () => {
   return (
@@ -56,8 +54,7 @@ const BridalMakeupInUptown = () => {
       <BridalMakeupInUptownTrend />
       <BridalMakeupInUptownXp />
       <BridalMakeupInUptownBook />
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

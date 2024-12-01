@@ -8,8 +8,6 @@ import InstaFeed from "../../HomePage/InstaFeed/InstaFeed";
 import Partners from "../../HomePage/Partners/Partners";
 import OurSalon from "../../HomePage/OurSalon/OurSalon";
 import Members from "../../HomePage/Members/Members";
-import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
-import LastComp from "../../LastComp/LastComp";
 import NailExtensionInSahakaraHead from "./NailExtensionInSahakaraHead";
 import NailExtensionInSahakaraWhy from "./NailExtensionInSahakaraWhy";
 import NailExtensionInSahakaraExpertise from "./NailExtensionInSahakaraExpertise";
@@ -67,8 +65,7 @@ const NailExtensionInSahakaraNagar = () => {
       <NailExtensionInSahakaraLuxury />
       <NailExtensionInSahakaraWhyChoose />
       <NailExtensionInSahakaraBook />
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

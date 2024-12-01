@@ -7,8 +7,6 @@ import InstaFeed from "../../../HomePage/InstaFeed/InstaFeed";
 import HelpNearYou from "../../../Help/HelpNearYou";
 import TextLocReviews from "../../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../../MainServicePages/ServiceWhy/ServiceWhy";
-import WhatsApp from "../../../HomePage/WhatsApp/WhatsApp";
-import LastComp from "../../../LastComp/LastComp";
 import HydraFacialHead from "./HydraFacialHead";
 import HydraFacialBenefits from "./HydraFacialBenefits";
 import HydraFacialBook from "./HydraFacialBook";
@@ -48,8 +46,7 @@ const HydraFacial = () => {
       <HydraFacialWhy />
       <HydraFacialCustomer />
       <HydraFacialBook />
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

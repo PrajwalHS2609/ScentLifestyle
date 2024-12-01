@@ -13,8 +13,6 @@ import InstaFeed from "../../HomePage/InstaFeed/InstaFeed";
 import HelpNearYou from "../../Help/HelpNearYou";
 import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
-import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
-import LastComp from "../../LastComp/LastComp";
 import HairSalonInLavelleImg from "../HairSalonInLavelle/HairSalonInLavelleImg/HairSalonInLavelleImg";
 import hairSahakarnagar from "./../../../Images/SahakarNagar/Hair.png"
 const HairSalonInSahakaranagar = () => {
@@ -53,8 +51,7 @@ const HairSalonInSahakaranagar = () => {
       <HairSalonInSahakaranagarService />
       <HairSalonInSahakaranagarWhat />
       <HairSalonInSahakaranagarBook />
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

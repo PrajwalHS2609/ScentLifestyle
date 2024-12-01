@@ -13,8 +13,6 @@ import InstaFeed from "../../HomePage/InstaFeed/InstaFeed";
 import HelpNearYou from "../../Help/HelpNearYou";
 import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
-import LastComp from "../../LastComp/LastComp";
-import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
 import CandleManicureImg from "./CandleManicureImg";
 
 const CandleManicurePage = () => {
@@ -48,8 +46,7 @@ const CandleManicurePage = () => {
       <CandleManicureBenefits />
       <CandleManicureWhy />
       <CandleManicureBook />
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

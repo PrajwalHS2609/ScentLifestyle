@@ -1,7 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import WhatsApp from "../../../../HomePage/WhatsApp/WhatsApp";
-import LastComp from "../../../../LastComp/LastComp";
 import LashesExtensionImg from "./LashesExtensionImg";
 import LashesExtensionHead from "./LashesExtensionHead";
 import LashesExtensionWhyChoose from "./LashesExtensionWhyChoose";
@@ -55,8 +54,7 @@ const LashesExtensionBlog = () => {
         <HairServImg hairBotoxImg={lashesExtensionWhy} />
         <LashesExtensionBlogWhy />
       </div>
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

@@ -19,7 +19,6 @@ import Top5SpaRelaxImg from "./../../../../../Images/Blog/The_Top_5_Hair_Spa_Tod
 import Top5SpaImprovingImg from "./../../../../../Images/Blog/The_Top_5_Hair_Spa_Today/Improving Scalp Health and Reducing Dandruff.png";
 import Top5SpaReviveImg from "./../../../../../Images/Blog/The_Top_5_Hair_Spa_Today/Revive.png";
 import WhatsApp from "../../../../HomePage/WhatsApp/WhatsApp";
-import LastComp from "../../../../LastComp/LastComp";
 
 const Top5Spa = () => {
   return (
@@ -55,8 +54,7 @@ const Top5Spa = () => {
         <Top5SpaWhy />
         <Top5SpaYour />{" "}
       </div>
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

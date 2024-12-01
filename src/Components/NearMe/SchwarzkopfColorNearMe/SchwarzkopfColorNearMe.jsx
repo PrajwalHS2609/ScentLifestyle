@@ -10,8 +10,6 @@ import HelpNearYou from "../../Help/HelpNearYou";
 import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
 import SchwarzkopfColorNearMeRead from "./SchwarzkopfColorNearMeRead";
-import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
-import LastComp from "../../LastComp/LastComp";
 import HairColorImg from "../../HairServicePage/HairColorPage/HairColorImg";
 
 const SchwarzkopfColorNearMe = () => {
@@ -46,8 +44,7 @@ const SchwarzkopfColorNearMe = () => {
       <TextLocReviews />
       <ServiceWhy />
       <SchwarzkopfColorNearMeRead />
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

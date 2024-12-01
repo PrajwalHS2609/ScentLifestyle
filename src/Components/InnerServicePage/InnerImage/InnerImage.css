@@ -1,6 +1,4 @@
-:root {
-  --customRed: #cc2228;
-}
+
 
 .innerImgContainer {
   /* border: solid red; */
@@ -51,7 +49,7 @@
 .innerOverUnderline {
   border: 2px solid;
   width: 100px;
-  color: var(--customRed);
+  color: var(--customColor);
 }
 .innerOverCoverTxt > p {
   /* border: solid; */

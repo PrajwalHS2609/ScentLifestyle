@@ -3,12 +3,13 @@ import "./About.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
+import homeAboutUs from "./../../../Images/homeAboutUs.png"
 const About = () => {
   return (
     <div className="aboutContainer">
       <img
-        src="https://images.unsplash.com/photo-1521490878864-a50e9fcb5718?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-        alt=""
+        src={homeAboutUs}
+        alt="homeAboutUs"
       />
       <div className="aboutContent">
         <div className="innerAboutContent">

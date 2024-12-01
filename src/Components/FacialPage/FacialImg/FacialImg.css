@@ -1,6 +1,4 @@
-:root {
-  --customRed: #cc2228;
-}
+
 
 .facialImgContainer {
   /* border: solid red; */
@@ -60,7 +58,7 @@
 .coverUnderline {
   border: 2px solid;
   width: 100px;
-  color: var(--customRed);
+  color: var(--customColor);
 }
 .overCoverTxt > p {
   /* border: solid; */

@@ -3,7 +3,6 @@ import SpaImg from "./SpaImg/SpaImg";
 import Members from "./../HomePage/Members/Members";
 import OurSalon from "./../HomePage/OurSalon/OurSalon";
 import HelpNearYou from "./../Help/HelpNearYou";
-import LastComp from "./../LastComp/LastComp";
 import SpaServiceCardContain from "./SpaServiceCard/SpaServiceCardContain";
 import SpaRead from "./SpaRead/SpaRead";
 import Partners from "../HomePage/Partners/Partners";
@@ -12,7 +11,6 @@ import { Helmet } from "react-helmet";
 import NavBg from "../NavBg/NavBg";
 import TextLocReviews from "./../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../MainServicePages/ServiceWhy/ServiceWhy";
-import WhatsApp from "../HomePage/WhatsApp/WhatsApp";
 import ServBreadCrumb from "../InnerServicePage/InnerNavi/ServBreadCrumb";
 
 const SpaPages = () => {
@@ -38,9 +36,8 @@ const SpaPages = () => {
       <HelpNearYou />
       <TextLocReviews />
       <ServiceWhy />
-      <WhatsApp/>
       <SpaRead />
-      <LastComp />
+      
     </div>
   );
 };

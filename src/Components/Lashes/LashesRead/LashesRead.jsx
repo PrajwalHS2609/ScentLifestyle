@@ -48,11 +48,11 @@ const LashesRead = () => {
             </li>
             <li>
               <ul>
-                <h3>
+                <p>
                   At SCENT Salon, we offer a variety of eyelash extension
                   options to suit different preferences and styles. Our sets
                   include:
-                </h3>
+                </p>
                 <li>
                   <span>60 Lashes Set:</span> Ideal for a subtle enhancement,
                   this set adds volume and length without being overly dramatic.

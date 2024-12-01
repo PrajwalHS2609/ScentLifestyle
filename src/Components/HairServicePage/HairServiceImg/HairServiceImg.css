@@ -1,6 +1,4 @@
-:root {
-  --customRed: #cc2228;
-}
+
 
 .hairServiceImgContainer {
   /* border: solid red; */
@@ -61,7 +59,7 @@
 .hairCoverUnderline {
   border: 2px solid;
   width: 100px;
-  color: var(--customRed);
+  color: var(--customColor);
 }
 .hairOverCoverTxt > p {
   border: solid 10px transparent;

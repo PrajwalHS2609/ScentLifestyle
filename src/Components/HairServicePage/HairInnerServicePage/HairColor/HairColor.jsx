@@ -6,8 +6,6 @@ import HairColorBook from "./HairColorBook";
 import InnerNavi from "../../../InnerServicePage/InnerNavi/InnerNavi";
 import HairColorImg from "./../../HairColorPage/HairColorImg";
 import { Helmet } from "react-helmet";
-import WhatsApp from "../../../HomePage/WhatsApp/WhatsApp";
-import LastComp from "../../../LastComp/LastComp";
 import HairColorTrend from "./HairColorTrend";
 import NavBg from "../../../NavBg/NavBg";
 
@@ -37,8 +35,7 @@ const HairColor = () => {
       <HairColorTrend />
       <HairColorBook />
     
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

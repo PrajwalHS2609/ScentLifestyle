@@ -1,6 +1,4 @@
-:root {
-  --customRed: #cc2228;
-}
+
 .instaContainer {
   /* border: solid; */
   height: 100%;
@@ -9,8 +7,11 @@
   align-items: center;
   flex-direction: column;
   /* margin-top: 100px; */
-  background-color: white;
-
+  background-color: #b8a08c;
+  padding: 10px;
+  background-image: url("https://img.freepik.com/premium-photo/gray-female-hair-closeup-abstract-image-texture-pattern-background-wallpaper-cover-screen_867671-39054.jpg?w=1060");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .instaHeadContainer {
   /* border: solid; */
@@ -22,12 +23,12 @@
 }
 .instaHeadContainer > h6 {
   font-size: 30px;
-  color: var(--customRed);
+  color: var(--lightBeige);
 }
 .instaUnderline {
   border: 2px solid;
   width: 80px;
-  color: var(--customRed);
+  color: var(--lightBeige);
 }
 .instaParaContainer {
   /* border: solid; */
@@ -57,15 +58,15 @@
   flex-wrap: wrap;
 }
 .instaFeedVidContainer {
-    border: solid transparent;
-    width: 328px;
-    margin: 10px;
-    margin-left: 50px;
-    height: 550px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
+  border: solid transparent;
+  width: 328px;
+  margin: 10px;
+  margin-left: 50px;
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
 .instaSlider {
   /* border: solid teal; */
@@ -97,16 +98,16 @@
     align-items: center;
     flex-direction: column;
   }
-  .instaHeadContainer > h6 {
+  /* .instaHeadContainer > h6 {
     font-size: 30px;
-    color: var(--customRed);
+    color: var(--customColor);
     text-align: center;
   }
   .instaUnderline {
     border: 2px solid;
     width: 80px;
-    color: var(--customRed);
-  }
+    color: var(--customColor);
+  } */
   .instaParaContainer {
     /* border: solid; */
     height: 60px;
@@ -176,7 +177,7 @@
   .instaContent4 {
     /* border: solid blue; */
     height: 100%;
-    max-width:500px;
+    max-width: 500px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -204,7 +205,6 @@
     height: 100%;
     width: 90%;
     margin: 10px;
-
   }
   .instaInnerSlider {
     /* border: solid; */
@@ -231,15 +231,15 @@
     align-items: center;
     flex-direction: column;
   }
-  .instaHeadContainer > h6 {
+  /* .instaHeadContainer > h6 {
     font-size: 30px;
-    color: var(--customRed);
+    color: var(--customColor);
   }
   .instaUnderline {
     border: 2px solid;
     width: 80px;
-    color: var(--customRed);
-  }
+    color: var(--customColor);
+  } */
   .instaParaContainer {
     /* border: solid; */
     height: 60px;
@@ -308,15 +308,15 @@
     align-items: center;
     flex-direction: column;
   }
-  .instaHeadContainer > h6{
+  /* .instaHeadContainer > h6 {
     font-size: 30px;
-    color: var(--customRed);
+    color: var(--customColor);
   }
   .instaUnderline {
     border: 2px solid;
     width: 80px;
-    color: var(--customRed);
-  }
+    color: var(--customColor);
+  } */
   .instaParaContainer {
     /* border: solid green; */
 

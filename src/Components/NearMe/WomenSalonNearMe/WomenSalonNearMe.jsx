@@ -7,13 +7,11 @@ import OurSalon from "../../HomePage/OurSalon/OurSalon";
 import Members from "../../HomePage/Members/Members";
 import NavBg from "../../NavBg/NavBg";
 import { Helmet } from "react-helmet";
-import LastComp from "../../LastComp/LastComp";
 import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
 import ServicePage from "../../MainServicePages/ServicePage/ServicePage";
 import Navi from "../../MainServicePages/Navi/Navi";
 import ServiceCardContain from "../../MainServicePages/ServiceCards/ServiceCardContain";
 import UnisexSalon from "../../MainServicePages/UnisexSalon/UnisexSalon";
-import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
 import CompWomenSalon from "./CompWomenSalon";
 import WomenSalonHead from "./WomenSalonHead";
 
@@ -42,9 +40,8 @@ const WomenSalonNearMe = () => {
       <HelpNearYou />
       <TextLocReviews />
       <ServiceWhy />
-      <WhatsApp />
-      <CompWomenSalon />
-      <LastComp />
+            <CompWomenSalon />
+      
     </div>
   );
 };

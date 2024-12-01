@@ -1,5 +1,4 @@
 import React from "react";
-import LastComp from "../../LastComp/LastComp";
 import LocationImg from "../LocationImg/LocationImg";
 import loc5 from "./../../../Images/seegehalli - whitefield.jpg";
 import ServiceCardContain from "../../MainServicePages/ServiceCards/ServiceCardContain";
@@ -12,7 +11,6 @@ import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 import MeadowsLocAbout from "./MeadowsLocAbout/MeadowsLocAbout";
 import { Helmet } from "react-helmet";
 import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
-import WhatsApp from "../../HomePage/WhatsApp/WhatsApp";
 import ServBreadCrumb from "../../InnerServicePage/InnerNavi/ServBreadCrumb";
 import LocationCard1 from "../LocationCard/LocationCard1";
 import NavBg from "../../NavBg/NavBg";
@@ -67,8 +65,7 @@ const MeadowsLocPage = () => {
       <Partners />
       <InstaFeed />
       <ServiceWhy />
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

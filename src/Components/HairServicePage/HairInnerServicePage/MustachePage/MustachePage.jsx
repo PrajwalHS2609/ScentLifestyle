@@ -3,8 +3,6 @@ import MustacheHead from "./MustacheHead";
 import MustacheWhy from "./MustacheWhy";
 import MustacheBook from "./MustacheBook";
 import MustacheXp from "./MustacheXp";
-import WhatsApp from "../../../HomePage/WhatsApp/WhatsApp";
-import LastComp from "../../../LastComp/LastComp";
 import InnerNavi from "../../../InnerServicePage/InnerNavi/InnerNavi";
 import NavBg from "../../../NavBg/NavBg";
 import { Helmet } from "react-helmet";
@@ -37,8 +35,7 @@ const MustachePage = () => {
       <MustacheXp />
       <MustacheBook />
 
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };

@@ -1,7 +1,6 @@
 import React from "react";
 import "./ContactPage.css";
 import HelpNearYou from "../Help/HelpNearYou";
-import LastComp from "../LastComp/LastComp";
 import ContactMain from "./ContactMain";
 import { Helmet } from "react-helmet";
 import Members from "../HomePage/Members/Members";
@@ -10,7 +9,6 @@ import Partners from "../HomePage/Partners/Partners";
 import InstaFeed from "../HomePage/InstaFeed/InstaFeed";
 import TextLocReviews from "../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../MainServicePages/ServiceWhy/ServiceWhy";
-import WhatsApp from "../HomePage/WhatsApp/WhatsApp";
 import NavBg from "../NavBg/NavBg";
 const ContactPage = () => {
   return (
@@ -36,8 +34,7 @@ const ContactPage = () => {
       <HelpNearYou />
       <TextLocReviews />
       <ServiceWhy />
-      <WhatsApp/>
-      <LastComp />
+      
     </div>
   );
 };

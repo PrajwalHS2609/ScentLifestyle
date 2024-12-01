@@ -1,7 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import WhatsApp from "../../../../HomePage/WhatsApp/WhatsApp";
-import LastComp from "../../../../LastComp/LastComp";
 import BodyDTanTreatmentImg from "./BodyDTanTreatmentImg";
 import BodyDTanTreatmentHead from "./BodyDTanTreatmentHead";
 import BodyDTanTreatmentBenefits from "./BodyDTanTreatmentBenefits";
@@ -52,8 +51,7 @@ const BodyDTanTreatment = () => {
         <br />
         <BodyDTanTreatmentEnhance />
       </div>
-      <WhatsApp />
-      <LastComp />
+            
     </div>
   );
 };
