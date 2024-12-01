@@ -207,7 +207,7 @@ import HairBleach from "./Components/BlogPage/BlogInnerPages/HairBlogInnerPages/
 import Footer from "./Components/Footer/Footer";
 import WhatsApp from "./Components/HomePage/WhatsApp/WhatsApp";
 import Academy from "./Components/Academy/Academy";
-import Christmas from "./Components/Christmas/Christmas";
+import Christmas from './Components/Christmas/Christmas';
 
 const App = () => {
   return (
@@ -215,6 +215,7 @@ const App = () => {
       <BrowserRouter>
         <MainLayout />
         <ScrollTo />
+        <Christmas />
         <Routes>
           {/* ----pageNotfound---- */}
           <Route path="*" element={<Navigate to="/" replace />} />
@@ -829,8 +830,6 @@ const App = () => {
         </Routes>
         <WhatsApp />
         <Footer />
-        <Christmas />
-
       </BrowserRouter>
     </div>
   );

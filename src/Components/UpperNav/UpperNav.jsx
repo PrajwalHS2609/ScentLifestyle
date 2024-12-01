@@ -21,7 +21,7 @@ const UpperNav = () => {
         Shine Bright This December with Our Exclusive Beauty Deals!{" "}
         <span>
           <a href="https://scentlifestyle.com/offer?utm_source=Organic&utm_medium=Festive+Offer&utm_campaign=September+Month&utm_id=Banner+Bar">
-            Get the Deal{" "}
+            Take a Look{" "}
           </a>
         </span>
       </h3>

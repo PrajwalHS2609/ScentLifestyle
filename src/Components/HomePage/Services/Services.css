@@ -1,11 +1,12 @@
 .serviceContainer {
   /* border: solid; */
-  height: 600px;width: 100%;
+  height: 600px;
+  width: 100%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   flex-direction: column;
-  background-image: url("https://img.freepik.com/free-vector/paper-style-smooth-background_23-2148985107.jpg?t=st=1733058906~exp=1733062506~hmac=12533cfd8581e641827573a0955455587bee754f6603d137d56f76486e6ed9de&w=996");
+  background-image: url("./../../../Images/HomeBg/serviceBg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -23,7 +24,7 @@
 #serviceContent1 > h2 {
   font-size: 30px;
   text-align: center;
-  color:var(--mutedTaupe);
+  color: var(--mutedTaupe);
 }
 #serviceContent1 > h5 {
   font-weight: bolder;
