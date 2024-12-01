@@ -11,9 +11,12 @@ const Christmas = () => {
       const colors = ["#d40000", "#186e32", "#FFFFFF"];
       const randomColor = colors[Math.floor(Math.random() * colors.length)];
 
+      // Ensure snowflakes are more evenly distributed across the screen
+      const left = (index / 30) * 100 + "%"; // Distribute positions evenly
+
       return {
         id: index,
-        left: Math.random() * 100 + "%",
+        left,
         animationDuration: Math.random() * 10 + 5 + "s",
         fontSize: Math.random() * 1.5 + 0.5 + "em",
         animationDelay: Math.random() * 5 + "s",
