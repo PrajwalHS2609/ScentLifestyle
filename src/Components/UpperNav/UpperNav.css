@@ -30,6 +30,17 @@
   color: white;
   font-size: 30px;
 }
+.garland {
+  border: white;
+  position: absolute;
+  right: 0px;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+}
+.garland > div {
+  width: 100px;
+}
 @media screen and (min-width: 320px) and (max-width: 768px) {
   .upperNavContainer > h3 {
     text-align: center;

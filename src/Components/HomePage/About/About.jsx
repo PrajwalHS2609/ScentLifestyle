@@ -10,6 +10,7 @@ const About = () => {
       <img
         src={homeAboutUs}
         alt="homeAboutUs"
+        loading="lazy"
       />
       <div className="aboutContent">
         <div className="innerAboutContent">

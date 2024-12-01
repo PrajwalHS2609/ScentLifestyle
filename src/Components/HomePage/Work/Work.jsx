@@ -3,14 +3,11 @@ import "./Work.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
-import homeWorkImg from "./../../../Images/homeWorkImg.png"
+import homeWorkImg from "./../../../Images/homeWorkImg.png";
 const Work = () => {
   return (
     <div className="workContainer">
-      <img
-        src={homeWorkImg}
-        alt="homeWorkImg"
-      />
+      <img src={homeWorkImg} alt="homeWorkImg" loading="lazy" />
       <div className="workContent">
         <div className="innerWorkContent">
           <div className="workContentTxt1">
@@ -30,11 +27,14 @@ const Work = () => {
             </p>
           </div>
           <div className="workContentTxt3">
-          <Link to="/service">  <p>VIEW OUR WORK </p>
-            <FontAwesomeIcon
-              icon={faAngleRight}
-              className="workIcon"
-            ></FontAwesomeIcon></Link>
+            <Link to="/service">
+              {" "}
+              <p>VIEW OUR WORK </p>
+              <FontAwesomeIcon
+                icon={faAngleRight}
+                className="workIcon"
+              ></FontAwesomeIcon>
+            </Link>
           </div>
         </div>
       </div>
