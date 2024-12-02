@@ -92,7 +92,6 @@
   text-decoration: none;
 }
 
-
 .menuIcon {
   margin-top: -4px;
   margin-left: 4px;
@@ -182,12 +181,13 @@
   overflow-y: scroll;
   display: none;
   transition: 1s ease-in-out;
+  background-color: #1d1d20;
   /* transform: translateX(500px); */
 }
 .respMenuScroll {
   height: 100%;
-  width: 80%;
-  margin-left: 45px;
+  width: 100%;
+  margin-left: 0px;
   /* border: solid red; */
 }
 ::-webkit-scrollbar {
@@ -288,15 +288,18 @@
 @media only screen and (min-width: 320px) and (max-width: 768px) {
   .navContainer {
     /* border: solid red; */
-    height: 12vh;
+    height: 80px;
     width: 100%;
   }
   .navContainer1 {
     /* border: solid red; */
-    height: 12vh;
+    height: 80px;
     width: 100%;
   }
-
+  .logo {
+    /* border: green solid; */
+    width: 80px;
+  }
   .menuContent {
     display: none;
   }

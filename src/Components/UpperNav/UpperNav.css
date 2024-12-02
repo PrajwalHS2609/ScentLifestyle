@@ -69,11 +69,11 @@
   }
   .upperNavContainer > h3 {
     text-align: center;
-    padding: 30px;
+    padding: 10px;
     color: white;
     width: 100%;
     text-align: center;
-    font-size: 15px;
+    font-size: 12px;
   }
   .upperNavInsta {
     position: static;
