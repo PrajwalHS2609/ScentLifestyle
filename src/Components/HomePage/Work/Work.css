@@ -64,9 +64,8 @@
     flex-direction: column;
     gap: 20px;
     padding: 20px;
-    background-color: var(--customColorTrans);
     color: white;
-    position: absolute;
+    position: static;
     top: 0;
   }
 }

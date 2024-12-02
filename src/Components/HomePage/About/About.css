@@ -94,7 +94,6 @@
     /* border: solid blue; */
     width: 100%;
     position: static;
-    background-color: var(--customColor);
   }
   .aboutContentTxt1 {
     /* border: solid green; */

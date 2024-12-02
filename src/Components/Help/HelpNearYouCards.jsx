@@ -10,7 +10,8 @@ import Lavelle from "./../../Images/lavelle road.jpg";
 import Jakkur from "./../../Images/jakkur.jpg";
 import varthur from "./../../Images/Varthur - whitefield.jpg";
 import Seege from "./../../Images/seegehalli - whitefield.jpg";
-
+import leftArrow from "./../../Images/left.png";
+import rightArrow from "./../../Images/right.png";
 const HelpNearYouCards = () => {
   function SampleNextArrow(props) {
     const { className, style, onClick } = props;
@@ -23,11 +24,12 @@ const HelpNearYouCards = () => {
           justifyContent: "center",
           alignItems: "center",
           textAlign: "center",
-          background: "#cc2228",
+          background: "white",
           borderTopRightRadius: "10px",
           borderBottomRightRadius: "14px",
           height: "40px",
           cursor: "pointer",
+          color: "red",
         }}
         onClick={onClick}
       />
@@ -44,7 +46,7 @@ const HelpNearYouCards = () => {
           justifyContent: "center",
           alignItems: "center",
           textAlign: "center",
-          background: "#cc2228",
+          background: "white",
           borderTopLeftRadius: "10px",
           borderBottomLeftRadius: "10px",
           height: "40px",
@@ -54,7 +56,45 @@ const HelpNearYouCards = () => {
       />
     );
   }
+  function RespSampleNextArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+      <div
+        className={className}
+        style={{
+          ...style,
 
+          height: "50px",
+          width: "50px",
+          cursor: "pointer",
+          backgroundImage: `url(${rightArrow})`,
+          backgroundSize: "contain",
+          backgroundRepeat: "no-repeat",
+          marginRight: "-25px",
+        }}
+        onClick={onClick}
+      />
+    );
+  }
+  function RespSamplePrevArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+      <div
+        className={className}
+        style={{
+          ...style,
+          height: "50px",
+          width: "50px",
+          cursor: "pointer",
+          backgroundImage: `url(${leftArrow})`,
+          backgroundSize: "contain",
+          backgroundRepeat: "no-repeat",
+          marginLeft: "-25px",
+        }}
+        onClick={onClick}
+      />
+    );
+  }
   const settings = {
     dots: false,
     infinite: false,
@@ -70,14 +110,18 @@ const HelpNearYouCards = () => {
           slidesToShow: 1,
           slidesToScroll: 1,
           initialSlide: 2,
+          nextArrow: <RespSampleNextArrow />,
+          prevArrow: <RespSamplePrevArrow />,
         },
       },
       {
-        breakpoint: 768,
+        breakpoint: 990,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,
           initialSlide: 2,
+          nextArrow: <SampleNextArrow />,
+          prevArrow: <SamplePrevArrow />,
         },
       },
     ],
