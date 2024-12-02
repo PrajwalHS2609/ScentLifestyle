@@ -208,12 +208,14 @@ import Footer from "./Components/Footer/Footer";
 import WhatsApp from "./Components/HomePage/WhatsApp/WhatsApp";
 import Academy from "./Components/Academy/Academy";
 import Christmas from './Components/Christmas/Christmas';
+import SantaClause from "./Components/SantaClause/SantaClause";
 
 const App = () => {
   return (
     <div>
       <BrowserRouter>
         <MainLayout />
+        <SantaClause/>
         <ScrollTo />
         <Christmas />
         <Routes>
