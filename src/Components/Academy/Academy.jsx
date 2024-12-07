@@ -1,12 +1,12 @@
-import React from 'react'
-import "./Academy.css"
-import AcademyCareer from './AcademyCareer/AcademyCareer'
+import React from "react";
+import "./Academy.css";
+import AcademyHeader from "./AcademyHeader/AcademyHeader";
 const Academy = () => {
   return (
-    <div className='academyContainer'>
-      <AcademyCareer/>
+    <div className="academyContainer">
+      <AcademyHeader />
     </div>
-  )
-}
+  );
+};
 
-export default Academy
+export default Academy;

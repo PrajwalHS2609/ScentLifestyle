@@ -207,15 +207,17 @@ import HairBleach from "./Components/BlogPage/BlogInnerPages/HairBlogInnerPages/
 import Footer from "./Components/Footer/Footer";
 import WhatsApp from "./Components/HomePage/WhatsApp/WhatsApp";
 import Academy from "./Components/Academy/Academy";
-import Christmas from './Components/Christmas/Christmas';
+import Christmas from "./Components/Christmas/Christmas";
 import SantaClause from "./Components/SantaClause/SantaClause";
+import BodyWaxingMyth from "./Components/BlogPage/BlogInnerPages/BeautyBlogInnerPages/BodyWaxingMyth/BodyWaxingMyth";
+import ChristmasOffer from "./Components/BlogPage/BlogInnerPages/BlogOffers/ChristmasOffer/ChristmasOffer";
 
 const App = () => {
   return (
     <div>
       <BrowserRouter>
         <MainLayout />
-        <SantaClause/>
+        <SantaClause />
         <ScrollTo />
         <Christmas />
         <Routes>
@@ -526,6 +528,14 @@ const App = () => {
           <Route
             path="/how-often-should-you-bleach-your-hair"
             element={<HairBleach />}
+          />
+          <Route
+            path="/the-truth-about-body-waxing-myths-facts-and-tips"
+            element={<BodyWaxingMyth />}
+          />
+          <Route
+            path="/get-festive-ready-top-christmas-beauty-tips-for-women-and-men"
+            element={<ChristmasOffer />}
           />
           {/* ------------------------/blog------------------------      */}
 

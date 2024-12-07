@@ -2,6 +2,7 @@ import React, { useRef, useState } from "react";
 import BlogCard from "../BlogCard";
 import brazilWaxingBanner from "./../../../../Images/Blog/Everything_About_Brazilian_Waxing/Banner Image.png";
 import bodyDTanTreatmentBanner from "./../../../../Images/Blog/Body_D-Tan_Treatment/Banner.png";
+import bodyWaxingMythBanner from "./../../../../Images/Blog/Body_waxing_myth/Banner.png";
 
 const BlogBeautyEssentials = () => {
   let [toggle, setToggle] = useState(false);
@@ -29,6 +30,12 @@ const BlogBeautyEssentials = () => {
           head="The Role of Body D-Tan in Anti-Aging Skincare"
           para="Aging is a natural process, but with the right skincare strategies, you can maintain radiant and..."
           link="/the-role-of-body-d-tan-in-anti-aging-skincare"
+        />
+        <BlogCard
+          img={bodyWaxingMythBanner}
+          head="The Truth About Body Waxing: Myths, Facts, and Tips"
+          para="Body waxing is a popular hair removal method that has been around for centuries. It’s known for leaving your skin..."
+          link="/the-truth-about-body-waxing-myths-facts-and-tips"
         />
       </div>
 

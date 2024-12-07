@@ -1,6 +1,7 @@
 images changes and download
 add arrow to location resp
 add lazy loading to all blog imgs
-check all loc in levelle,jakkur,meadows
 
 changes in homeservice and homestyle
+
+add brazilian waxing to beauty essential services
