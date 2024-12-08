@@ -12,6 +12,7 @@ import HelpNearYou from "../Help/HelpNearYou";
 import HomeRead from "./HomeRead/HomeRead";
 import ServiceWhy from "./../MainServicePages/ServiceWhy/ServiceWhy";
 import TextLocReviews from "./../TextLocReviews/TextLocReviews";
+import HomeBlog from "./HomeBlog/HomeBlog";
 const InstaFeed = React.lazy(() => import("./InstaFeed/InstaFeed"));
 
 
@@ -43,6 +44,7 @@ const HomePage = () => {
       <HelpNearYou />
       <TextLocReviews />
       <ServiceWhy />
+      <HomeBlog/>
      <HomeRead />
       
     </div>
