@@ -2,7 +2,7 @@ import React from "react";
 
 const BrazilWaxingServiceProcess = () => {
   return (
-    <div className="HairSalonJpTips">
+    <div className="hairSalonInMeadowsService">
       <h3>The Brazilian Waxing Process at SCENT</h3>
       <p>
         When you choose our Brazilian waxing service in Bangalore, you’re opting

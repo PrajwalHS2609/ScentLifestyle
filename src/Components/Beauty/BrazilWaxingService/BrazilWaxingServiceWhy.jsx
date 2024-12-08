@@ -10,7 +10,7 @@ import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
 
 const BrazilWaxingServiceWhy = () => {
   return (
-    <div className="HairSalonJpWhy">
+    <div className="hairSalonInJakkurWhy">
       <h5>Why Choose Brazilian Waxing Service in Bangalore at SCENT?</h5>
       <ul>
         <li>

@@ -1,0 +1,121 @@
+.academyConnect-container {
+  /* border: solid red; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.academyConnectHead-container > h2 {
+  color: var(--charcoalGray);
+  text-align: center;
+  font-size: 40px;
+}
+.academyConnect-wrapper {
+  /* border: solid blue; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.academyConnect-content {
+  /* border: solid green; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.academyConnect-item1 {
+  /* border: solid yellowgreen; */
+  width: 75%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.academyConnect-item2 {
+  /* border: solid orange; */
+  width: 20%;
+  height: 270px;
+  background-color: var(--warmGray);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.academyConnect-itemCard {
+  height: 270px;
+  width: 200px;
+}
+.academyConnect-itemCard > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.academyConnect-item2 > img {
+  width: 150px;
+  height: 150px;
+}
+.academyConnect-item3 {
+  /* border: solid black; */
+  width: 50%;
+  height: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.academyConnect-item3 > p {
+  color: var(--charcoalGray);
+  text-align: justify;
+  width: 500px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.academyConnect-content2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+}
+.academyConnect-content2:nth-child(2) {
+  gap: 20px;
+}
+.academyConnect-content2 > h2 {
+  font-size: 70px;
+  font-weight: 500;
+  color: var(--warmGray);
+}
+.academyConnect-content2 > h3 {
+  font-size: 40px;
+  font-weight: 500;
+  color: var(--warmGray);
+}
+.academyConnect-content2 > p {
+  font-size: 18px;
+  text-align: center;
+  width: 80%;
+}
+.academyConnect-content2 > b {
+    font-size: 18px;
+    text-align: center;
+    width: 80%;
+  }
+.academyConnect-content2 > a > button {
+  border: none;
+  width: 150px;
+  height: 40px;
+  color: white;
+  background-color: black;
+  font-size: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}

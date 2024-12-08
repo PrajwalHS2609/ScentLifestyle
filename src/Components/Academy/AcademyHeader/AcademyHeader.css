@@ -1,0 +1,87 @@
+.academyHeader-container {
+  position: relative;
+  overflow: hidden; /* Ensure waves stay within the container */
+  text-align: center; /* Center content */
+  height: 100vh;
+  width: 100%;
+}
+.academyHeader-cover {
+  /* border: solid blue; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.academyHeader-cover > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: rotateY(-180deg);
+}
+.academyHeader-content {
+  /* border: solid brown; */
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3a313166;
+  padding: 20px;
+}
+.wave {
+  /* border: solid red; */
+  position: absolute;
+  background-color: transparent;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%; /* Adjust wave height as needed */
+  z-index: 1;
+  pointer-events: none; /* Prevent interference with user interactions */
+}
+
+.wave-top {
+  /* border: solid green; */
+  top: 0;
+  transform: rotate(180deg); /* Flip the wave for the top */
+}
+
+.wave-bottom {
+  bottom: 0;
+}
+.academyHeader-contentText {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 10px;
+}
+.academyHeader-contentText > h2 {
+  color: white;
+  font-size: 40px;
+}
+.academyHeader-contentText > h4 {
+  color: white;
+  font-size: 30px;
+  font-weight: 500;
+}
+.academyHeader-contentText > p {
+  font-size: 17px;
+  color: white;
+  text-align: justify;
+  width: 80%;
+}
+.academyHeader-contentText > a > button {
+  border: none;
+  width: 200px;
+  height: 50px;
+  color: white;
+  background-color: black;
+  font-size: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}

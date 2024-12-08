@@ -2,7 +2,7 @@ import React from 'react'
 
 const BrazilWaxingServicePrepare = () => {
   return (
-    <div className="HairSalonJpTips">
+    <div className="hairSalonInMeadowsService">
     <h3>Preparing for Your Brazilian Waxing Service in Bangalore </h3>
     <p>
       To get the most out of your Brazilian waxing service in Bangalore, there

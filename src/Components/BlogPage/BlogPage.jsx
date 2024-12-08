@@ -1,14 +1,12 @@
 import React from "react";
 import NavBg from "../NavBg/NavBg";
 import NestedRoute from "./NestedRoute/NestedRoute";
-import WhatsApp from './../HomePage/WhatsApp/WhatsApp';
 
 const BlogPage = () => {
   return (
     <div className="blogPageContainer">
       <NavBg />
-      <NestedRoute/>
-      
+      <NestedRoute />
     </div>
   );
 };

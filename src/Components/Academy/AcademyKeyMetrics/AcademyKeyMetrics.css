@@ -1,0 +1,26 @@
+.academyKeyMetrics-container {
+  /* border: solid red; */
+  height: 150px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.academyKeyMetrics-content {
+  /* border: solid blue; */
+  width: 30%;
+  height: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 50px;
+  font-weight: bold;
+  gap: 10px;
+}
+.academyKeyMetrics-content>h3{
+  font-size: 20px;
+  font-weight: 500;
+}
