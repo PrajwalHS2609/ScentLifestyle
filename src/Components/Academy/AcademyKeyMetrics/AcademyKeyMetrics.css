@@ -20,7 +20,37 @@
   font-weight: bold;
   gap: 10px;
 }
-.academyKeyMetrics-content>h3{
+.academyKeyMetrics-content > h3 {
   font-size: 20px;
   font-weight: 500;
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .academyKeyMetrics-container {
+    /* border: solid red; */
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+  }
+  .academyKeyMetrics-content {
+    /* border: solid blue; */
+    width: 100%;
+    height: 100%;
+  }
+}
+@media screen and (min-width: 789px) and (max-width: 990px) {
+  .academyKeyMetrics-container {
+    /* border: solid red; */
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+  }
+  .academyKeyMetrics-content {
+    /* border: solid blue; */
+    width: 100%;
+    height: 100%;
+  }
 }
