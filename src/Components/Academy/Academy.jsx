@@ -11,7 +11,7 @@ const Academy = () => {
     <div className="academyContainer">
       <AcademyHeader />
       <AcademyWhyChoose />
-      <AcademyKeyMetrics />
+      {/* <AcademyKeyMetrics /> */}
       <AcademyConnect />
       <TextLocReviews />
       <AcademyModel />

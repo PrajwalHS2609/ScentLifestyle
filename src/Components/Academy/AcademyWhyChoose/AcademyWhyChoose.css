@@ -33,7 +33,7 @@
 .academyWhyChoose-mainCard {
   width: 268px;
   height: 268px;
-  background-color: var(--charcoalGray);
+  background-color: var(--customColor);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -65,7 +65,7 @@
   width: 200px;
   height: 50px;
   color: white;
-  background-color: black;
+  background-color: var(--customColor);
   font-size: 20px;
   border-radius: 10px;
   cursor: pointer;

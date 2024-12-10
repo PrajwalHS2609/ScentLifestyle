@@ -115,7 +115,7 @@
   width: 150px;
   height: 40px;
   color: white;
-  background-color: black;
+  background-color: var(--customColor);
   font-size: 20px;
   border-radius: 10px;
   cursor: pointer;
@@ -155,7 +155,6 @@
   .academyConnect-item3 > p {
     /* border: solid; */
     width: 100%;
-
   }
 }
 @media screen and (min-width: 769px) and (max-width: 990px) {
@@ -193,6 +192,5 @@
   .academyConnect-item3 > p {
     /* border: solid; */
     width: 100%;
-
   }
 }
