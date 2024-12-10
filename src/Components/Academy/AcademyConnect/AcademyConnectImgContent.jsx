@@ -1,37 +1,43 @@
 import React from "react";
 import scentLogo from "./../../../Images/ScentLogo Circle.png";
+import img1 from "./../../../Images/Academy/academyConnect/1.png";
+import img2 from "./../../../Images/Academy/academyConnect/2.png";
+import img3 from "./../../../Images/Academy/academyConnect/3.png";
+import img4 from "./../../../Images/Academy/academyConnect/4.png";
+import img5 from "./../../../Images/Academy/academyConnect/5.png";
+import img6 from "./../../../Images/Academy/academyConnect/6.png";
 
 const AcademyConnectImgContent = () => {
   const connectImg = [
     {
       id: "1",
-      img: "https://img.freepik.com/free-photo/portrait-redhair-girl_1385-2242.jpg?uid=R153459844&ga=GA1.1.2007220466.1732621723&semt=ais_hybrid",
-      alt: "",
+      img: img1,
+      alt: "img1",
     },
     {
       id: "2",
-      img: "https://img.freepik.com/free-photo/portrait-redhair-girl_1385-2242.jpg?uid=R153459844&ga=GA1.1.2007220466.1732621723&semt=ais_hybrid",
-      alt: "",
+      img: img2,
+      alt: "img2",
     },
     {
       id: "3",
-      img: "https://img.freepik.com/free-photo/portrait-redhair-girl_1385-2242.jpg?uid=R153459844&ga=GA1.1.2007220466.1732621723&semt=ais_hybrid",
-      alt: "",
+      img: img3,
+      alt: "img3",
     },
     {
       id: "4",
-      img: "https://img.freepik.com/free-photo/portrait-redhair-girl_1385-2242.jpg?uid=R153459844&ga=GA1.1.2007220466.1732621723&semt=ais_hybrid",
+      img: img4,
       alt: "",
     },
     {
       id: "5",
-      img: "https://img.freepik.com/free-photo/portrait-redhair-girl_1385-2242.jpg?uid=R153459844&ga=GA1.1.2007220466.1732621723&semt=ais_hybrid",
-      alt: "",
+      img: img5,
+      alt: "img5",
     },
     {
       id: "6",
-      img: "https://img.freepik.com/free-photo/portrait-redhair-girl_1385-2242.jpg?uid=R153459844&ga=GA1.1.2007220466.1732621723&semt=ais_hybrid",
-      alt: "",
+      img: img6,
+      alt: "img6",
     },
   ];
   return (
@@ -51,22 +57,20 @@ const AcademyConnectImgContent = () => {
       <div className="academyConnect-content">
         <div className="academyConnect-item3">
           <p>
-            Dive into professional hairstyling excellence with the Sassoon
-            Connect Academy School Connection at SCENT Academy, the
-            exclusive partner of The Sassoon Connect Academy in India since
-            2016. Our academy is your gateway to achieving recognition and
-            prestige in the hairstyling world, standing as a pillar of
-            professionalism and innovation.
+            Immerse yourself in professional hairstyling excellence at SCENT
+            Academy, proudly partnered with Schwarzkopf Professional Academy in
+            India since 2022. As a hub of innovation and professionalism, our
+            academy paves the way for you to gain recognition and prestige in
+            the dynamic world of hairstyling.
           </p>
         </div>
         <div className="academyConnect-item3">
           <p>
-            With instructors trained directly by professionals from the Sassoon
-            Connect Academy, we guarantee the highest standards of industry
-            knowledge and expertise. This partnership offers an immersive
-            learning experience, featuring the exclusive ABC Cut and Colour
-            techniques of the Sassoon Connect Academy, renowned for their
-            precision and artistic approach.
+            Led by instructors trained by experts from the Schwarzkopf
+            Professional Academy, we deliver unmatched industry knowledge and
+            expertise. Through this partnership, we offer an immersive learning
+            experience featuring the exclusive hair Cut and Colour techniques,
+            celebrated for their precision and artistic mastery.
           </p>
         </div>
       </div>

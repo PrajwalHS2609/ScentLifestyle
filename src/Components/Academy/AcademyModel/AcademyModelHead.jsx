@@ -4,7 +4,7 @@ import "./AcademyModel.css";
 const AcademyModelHead = () => {
   return (
     <div className="academyModelHead-container">
-      <h2>SCENT Academy: Model For Us</h2>
+      <h2>Experience a Glamorous Makeover at SCENT Academy!</h2>
     </div>
   );
 };

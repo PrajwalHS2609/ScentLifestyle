@@ -42,9 +42,9 @@
   gap: 20px;
   padding: 10px;
 }
-.academyIcon {
-  color: white;
-  font-size: 80px;
+.academyWhyChoose-mainCard > img {
+  width: 60px;
+  height: 60px;
 }
 .academyWhyChoose-mainCard > h3 {
   text-align: center;

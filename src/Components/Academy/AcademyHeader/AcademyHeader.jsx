@@ -1,26 +1,23 @@
 import React from "react";
 import "./AcademyHeader.css";
 import { Link } from "react-router-dom";
-
+import header from "./../../../Images/Academy/header.png";
 const AcademyHeader = () => {
   return (
     <div className="academyHeader-container">
       <div className="academyHeader-cover">
-        <img
-          src="https://img.freepik.com/free-photo/adorable-young-girl-sitting-chair-barber-using-hair-dryer-shape-her-hair-high-quality-photo_144627-76008.jpg?t=st=1733563479~exp=1733567079~hmac=e404c78b24a39d6509f0fcc0db0fc693d7cdd13d8750ec284af27c1c0d43b972&w=996"
-          alt=""
-        />
+        <img src={header} alt="" />
       </div>
       <div className="academyHeader-content">
         <div className="academyHeader-contentText">
           <h2>ScentLifestyle Academy</h2>
-          <h4>Crafting Experts, Shaping Futures</h4>
+          <h4>Empowering Creativity, Shaping Lifestyles.</h4>
           <p>
-            We empower your beauty aspirations with expert guidance,
-            state-of-the-art facilities, and the exclusive provider of Sassoon
-            Connect in Southeast Asia. Become part of our dynamic community and
-            transform your passion into a fulfilling career. Enroll today and
-            unlock your potential.
+            Discover your beauty ambitions through specialized training,
+            state-of-the-art facilities, and the unique Schwarzkopf Professional
+            Connect platform in Southeast Asia. Become part of our dynamic
+            community and transform your passion into a successful career. Sign
+            up today to realize your full potential!
           </p>
           <Link to={"/contact-us"}>
             {" "}

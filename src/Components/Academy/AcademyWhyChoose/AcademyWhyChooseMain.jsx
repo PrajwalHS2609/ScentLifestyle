@@ -1,75 +1,79 @@
 import React from "react";
 import "./AcademyWhyChoose.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHandshake } from "@fortawesome/free-regular-svg-icons";
+import training from "./../../../Images/Academy/whyScent/training.png";
+import partner from "./../../../Images/Academy/whyScent/hand-shake.png";
+import brush from "./../../../Images/Academy/whyScent/brush.png";
+import curriculum from "./../../../Images/Academy/whyScent/curriculum.png";
+import career from "./../../../Images/Academy/whyScent/mentorship.png";
+import community from "./../../../Images/Academy/whyScent/socialjustice.png";
+import recognition from "./../../../Images/Academy/whyScent/reward.png";
+import flexible from "./../../../Images/Academy/whyScent/book.png";
+
 import { Link } from "react-router-dom";
 const AcademyWhyChooseMain = () => {
   const academyCard = [
     {
       id: "1",
-      icon: faHandshake,
-      head: "GET 100% JOB ASSISTANCE",
-      para: "WE SUPPORT YOUR SUCCESSFUL START IN THE HAIR AND BEAUTY INDUSTRY",
+      icon: training,
+      head: "Expert-Led Training:",
+      para: "Learn from industry-leading professionals with years of experience in beauty and wellness.",
     },
     {
       id: "2",
-      icon: faHandshake,
-      head: "GET 100% JOB ASSISTANCE",
-      para: "WE SUPPORT YOUR SUCCESSFUL START IN THE HAIR AND BEAUTY INDUSTRY",
+      icon: partner,
+      head: "Exclusive Schwarzkopf Partnership",
+      para: " The only academy in Southeast Asia offering exclusive access to Schwarzkopf Professional Connect resources.",
     },
     {
       id: "3",
-      icon: faHandshake,
-      head: "GET 100% JOB ASSISTANCE",
-      para: "WE SUPPORT YOUR SUCCESSFUL START IN THE HAIR AND BEAUTY INDUSTRY",
+      icon: brush,
+      head: "State-of-the-Art Facilities",
+      para: "Train in modern, fully equipped studios designed to provide a hands-on learning experience.",
     },
     {
       id: "4",
-      icon: faHandshake,
-      head: "GET 100% JOB ASSISTANCE",
-      para: "WE SUPPORT YOUR SUCCESSFUL START IN THE HAIR AND BEAUTY INDUSTRY",
+      icon: curriculum,
+      head: "Comprehensive Curriculum:",
+      para: " Gain expertise in hairstyling, beauty treatments, and wellness services with a diverse range of courses.",
     },
     {
       id: "5",
-      icon: faHandshake,
-      head: "GET 100% JOB ASSISTANCE",
-      para: "WE SUPPORT YOUR SUCCESSFUL START IN THE HAIR AND BEAUTY INDUSTRY",
+      icon: career,
+      head: "Career-Focused Approach:",
+      para: " Our programs are designed to help you build a successful career with practical skills and real-world exposure.",
     },
     {
       id: "6",
-      icon: faHandshake,
-      head: "GET 100% JOB ASSISTANCE",
-      para: "WE SUPPORT YOUR SUCCESSFUL START IN THE HAIR AND BEAUTY INDUSTRY",
+      icon: community,
+      head: "Vibrant Community:",
+      para: " Be part of a supportive network of like-minded individuals passionate about beauty and personal growth.",
     },
     {
       id: "7",
-      icon: faHandshake,
-      head: "GET 100% JOB ASSISTANCE",
-      para: "WE SUPPORT YOUR SUCCESSFUL START IN THE HAIR AND BEAUTY INDUSTRY",
+      icon: flexible,
+      head: "Flexible Learning Options:",
+      para: " With personalized schedules and course formats, you can balance your learning journey with other commitments.",
     },
     {
       id: "8",
-      icon: faHandshake,
-      head: "GET 100% JOB ASSISTANCE",
-      para: "WE SUPPORT YOUR SUCCESSFUL START IN THE HAIR AND BEAUTY INDUSTRY",
+      icon: recognition,
+      head: "Industry Recognition",
+      para: " Certifications from ScentLifestyle Academy are widely recognized and respected in the beauty industry.",
     },
   ];
   return (
     <div className="academyWhyChoose-mainContainer">
       {academyCard.map((x) => (
         <div className="academyWhyChoose-mainCard" key={x.id}>
-          <FontAwesomeIcon
-            icon={x.icon}
-            className="academyIcon"
-          ></FontAwesomeIcon>
+          <img src={x.icon} alt={x.head} />
           <h3>{x.head}</h3>
           <p>{x.para}</p>
         </div>
       ))}
       <p>
-        Embark on a transformative journey at SCENT Academy, where we prepare
-        you for a thriving career in the hair and beauty industry with
-        cutting-edge programs and comprehensive support.
+        Begin your journey to success at SCENT Academy, where we equip you with
+        innovative programs and unwavering support to build a flourishing career
+        in the hair and beauty industry.
       </p>
       <Link to={"/contract-us"}>
         <button>ENQUIRE NOW</button>

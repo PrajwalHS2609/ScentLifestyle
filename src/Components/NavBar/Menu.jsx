@@ -97,7 +97,7 @@ const Menu = () => {
           <Link to={"/franchise"}>Franchise</Link>
         </li>
         <li>
-          <Link to={"/blog"}>Blog</Link>
+          <Link to={"/academy"}>Academy</Link>
         </li>
         <li>
           <Link to={"/contact-us"}>Contact us</Link>
@@ -215,8 +215,8 @@ const Menu = () => {
           </ul>
           <ul>
             <h2>
-              <Link onClick={hideSideBar} to={"/blog"}>
-                Blog
+              <Link onClick={hideSideBar} to={"/academy"}>
+                Academy
               </Link>
             </h2>
           </ul>

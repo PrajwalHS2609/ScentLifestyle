@@ -9,14 +9,14 @@ const AcademyConnectTxtContent = () => {
       </div>
       <div className="academyConnect-content2">
         <p>
-          Embrace the luxury, sophistication, and elite training that comes with
-          joining us. Elevate your career with our distinguished curriculum and
-          master the cutting-edge techniques pioneered by the legendary Sassoon
-          Connect Academy. Become an exceptional hairstylist set apart in the
-          industry.
+          Experience the pinnacle of luxury, sophistication, and world-class
+          training at SCENT Academy. Elevate your career with our prestigious
+          curriculum and master the advanced techniques crafted by the renowned
+          Schwarzkopf Professional Academy. Stand out as an exceptional
+          hairstylist in the competitive beauty industry.
         </p>
         <b>
-          Enroll at Scent Academy today and transform your passion into a
+          Join SCENT Academy today and turn your passion into a thriving
           profession.
         </b>
         <Link to={"/contact-us"}>

@@ -8,12 +8,15 @@ const AcademyModelMain = () => {
       <div className="academyModelMain-content">
         <p>
           {" "}
-          Become a model for SCENT Academy’s skilled students in Bangalore and
-          experience a complete transformation across hairdressing, makeup,
-          skincare, and nail art. Immerse yourself in a session of creativity
-          and precision, contributing to the practical learning of our future
-          beauty professionals, while receiving a personalized, fresh look
-          crafted by the next generation of stylists and beauty specialists.
+          Step into the spotlight as a model at SCENT Academy in Bangalore,
+          where you’ll undergo a complete beauty transformation! From expert
+          haircuts and styling to flawless makeup, skincare, and nail art, our
+          talented students will treat you to a unique, personalized look. Not
+          only will you leave looking fabulous, but you’ll also be helping
+          future beauty professionals hone their skills in a real-world setting.
+          Join us for a creative session that promises precision, innovation,
+          and a fresh new you—all while supporting the next generation of
+          stylists and beauty experts.
         </p>
         <Link to={"/contact-us"}>
           <button>SIGN UP</button>
