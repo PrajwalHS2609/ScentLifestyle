@@ -25,7 +25,7 @@ const AcademyHeader = () => {
           </Link>
         </div>
       </div>
-      <svg
+      {/* <svg
         className="wave wave-top"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 1440 500"
@@ -35,7 +35,7 @@ const AcademyHeader = () => {
           fill="white"
           d="M0,80L80,75C160,70,320,60,480,55C640,50,800,45,960,50C1120,55,1280,70,1360,75L1440,80L1440,0L0,0Z"
         />
-      </svg>
+      </svg> */}
     </div>
   );
 };

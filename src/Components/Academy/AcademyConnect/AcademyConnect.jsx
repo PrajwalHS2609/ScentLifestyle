@@ -7,7 +7,6 @@ import AcademyConnectTxtContent from "./AcademyConnectTxtContent";
 const AcademyConnect = () => {
   return (
     <div className="academyConnect-container">
-      <AcademyConnectHead />
       <div className="academyConnect-wrapper">
         <AcademyConnectImgContent />
       </div>

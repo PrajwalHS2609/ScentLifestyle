@@ -39,19 +39,19 @@ const AcademyWhyChooseMain = () => {
     {
       id: "5",
       icon: career,
-      head: "Career-Focused Approach:",
+      head: "Career-Focused Approach",
       para: " Our programs are designed to help you build a successful career with practical skills and real-world exposure.",
     },
     {
       id: "6",
       icon: community,
-      head: "Vibrant Community:",
+      head: "Vibrant Community",
       para: " Be part of a supportive network of like-minded individuals passionate about beauty and personal growth.",
     },
     {
       id: "7",
       icon: flexible,
-      head: "Flexible Learning Options:",
+      head: "Flexible Learning Options",
       para: " With personalized schedules and course formats, you can balance your learning journey with other commitments.",
     },
     {
