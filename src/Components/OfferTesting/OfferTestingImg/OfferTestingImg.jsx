@@ -14,8 +14,8 @@ import casmara from "./../../../Images/OfferImgs/Casmara Facial.png";
 import casmaraMobile from "./../../../Images/OfferImgs/Casmara FacialMobile.png";
 import global from "./../../../Images/OfferImgs/Global & Highlights.png";
 import globalMobile from "./../../../Images/OfferImgs/Global & HighlightsMobile.png";
-import hairBeauty from "./../../../Images/OfferImgs/Hair & Beauty Nails.png";
-import hairBeautyMobile from "./../../../Images/OfferImgs/Hair & Beauty NailsMobile.png";
+import nailsDesktop from "./../../../Images/OfferImgs/NailsDesktop.png";
+import nailsMobile from "./../../../Images/OfferImgs/NailsMobile.png";
 import waxingImg from "./../../../Images/OfferImgs/waxingImg.png";
 import waxingImgMobile from "./../../../Images/OfferImgs/waxingImgMobile.png";
 // import leftArrow from "./../../../Images/left.png";
@@ -88,14 +88,14 @@ const OfferTestingImg = () => {
         <div className="OfferTestingImgContent">
           <img
             className="deskImg"
-            src={hairBeauty}
-            alt="hairBeauty"
+            src={nailsDesktop}
+            alt="nailsDesktop"
             loading="lazy"
           />
           <img
             className="mobileImg"
-            src={hairBeautyMobile}
-            alt="hairBeautyMobile"
+            src={nailsMobile}
+            alt="nailsMobile"
             loading="lazy"
           />{" "}
           <a href="https://api.whatsapp.com/send?phone=919606682700">
