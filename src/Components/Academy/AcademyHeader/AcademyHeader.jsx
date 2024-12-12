@@ -6,7 +6,7 @@ const AcademyHeader = () => {
   return (
     <div className="academyHeader-container">
       <div className="academyHeader-cover">
-        <img src={header} alt="" />
+        <img src={header} alt="" loading="lazy"/>
       </div>
       <div className="academyHeader-content">
         <div className="academyHeader-contentText">

@@ -21,8 +21,8 @@ const WhiteSecretFacial = () => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>
-          Title: White Secret Facial Services in Bangalore | White Facials Salon
-          Near Me{" "}
+          White Secret Facial Services in Bangalore | White Facials Salon Near
+          Me{" "}
         </title>
         <meta
           name="description"
@@ -47,8 +47,6 @@ const WhiteSecretFacial = () => {
       <WhiteSecretFacialDiff />
       <WhiteSecretFacialBenefits />
       <WhiteSecretFacialWhy />
-
-            
     </div>
   );
 };
