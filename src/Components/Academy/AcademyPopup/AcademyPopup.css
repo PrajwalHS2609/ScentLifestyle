@@ -1,13 +1,61 @@
 .academyPopup-container {
-  border: solid red;
+  /* border: solid red; */
   width: 100%;
   height: 100%;
   position: fixed;
   top: 80px;
   left: 0;
   z-index: 8;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+}
+.academyPopup-content {
+  /* border: solid blue; */
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(255, 0, 0, 0.1);
+  flex-direction: column;
+  gap: 10px;
+}
+.academyPopup-item {
+  /* border: solid green; */
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.academyPopupIcon {
+  background-color: var(--customColor);
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 100%;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .academyPopup-container {
+    /* border: solid red; */
+    top: 60px;
+    padding: 10px;
+  }
+  .academyPopup-content {
+    width: 400px;
+  }
+  .academyPopup-item {
+    /* border: solid green; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .academyPopup-item:nth-child(1) {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
 }

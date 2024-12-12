@@ -1,6 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 const AcademyConnectTxtContent = () => {
+  const handlePopUp = (e) => {
+    e.preventDefault();
+    document.querySelector(".academyPopup-container").style.display = "flex";
+  };
   return (
     <>
       <div className="academyConnect-content2">
@@ -19,8 +23,8 @@ const AcademyConnectTxtContent = () => {
           Join SCENT Academy today and turn your passion into a thriving
           profession.
         </b>
-        <Link to={"/contact-us"}>
-          <button>BOOK NOW</button>
+        <Link >
+          <button onClick={handlePopUp}>BOOK NOW</button>
         </Link>
       </div>
     </>

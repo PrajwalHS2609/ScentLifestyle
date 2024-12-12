@@ -3,10 +3,14 @@ import "./AcademyHeader.css";
 import { Link } from "react-router-dom";
 import header from "./../../../Images/Academy/header.png";
 const AcademyHeader = () => {
+  const handlePopUp = (e) => {
+    e.preventDefault();
+    document.querySelector(".academyPopup-container").style.display = "flex";
+  };
   return (
     <div className="academyHeader-container">
       <div className="academyHeader-cover">
-        <img src={header} alt="" loading="lazy"/>
+        <img src={header} alt="" loading="lazy" />
       </div>
       <div className="academyHeader-content">
         <div className="academyHeader-contentText">
@@ -19,9 +23,9 @@ const AcademyHeader = () => {
             community and transform your passion into a successful career. Sign
             up today to realize your full potential!
           </p>
-          <Link to={"/contact-us"}>
+          <Link>
             {" "}
-            <button>Enroll Now</button>
+            <button onClick={handlePopUp}>Enroll Now</button>
           </Link>
         </div>
       </div>

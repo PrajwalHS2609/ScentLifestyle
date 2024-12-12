@@ -3,6 +3,10 @@ import "./AcademyModel.css";
 import salonImg from "./../../../Images/Varthur - whitefield.jpg";
 import { Link } from "react-router-dom";
 const AcademyModelMain = () => {
+  const handlePopUp = (e) => {
+    e.preventDefault();
+    document.querySelector(".academyPopup-container").style.display = "flex";
+  };
   return (
     <div className="academyModelMain-container">
       <div className="academyModelMain-content">
@@ -18,8 +22,8 @@ const AcademyModelMain = () => {
           and a fresh new you—all while supporting the next generation of
           stylists and beauty experts.
         </p>
-        <Link to={"/contact-us"}>
-          <button>SIGN UP</button>
+        <Link>
+          <button onClick={handlePopUp}>SIGN UP</button>
         </Link>
       </div>
 

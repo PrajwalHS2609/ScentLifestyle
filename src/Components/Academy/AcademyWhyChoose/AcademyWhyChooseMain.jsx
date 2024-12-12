@@ -11,6 +11,10 @@ import flexible from "./../../../Images/Academy/whyScent/book.png";
 
 import { Link } from "react-router-dom";
 const AcademyWhyChooseMain = () => {
+  const handlePopUp = (e) => {
+    e.preventDefault();
+    document.querySelector(".academyPopup-container").style.display = "flex";
+  };
   const academyCard = [
     {
       id: "1",
@@ -75,8 +79,8 @@ const AcademyWhyChooseMain = () => {
         innovative programs and unwavering support to build a flourishing career
         in the hair and beauty industry.
       </p>
-      <Link to={"/contract-us"}>
-        <button>ENQUIRE NOW</button>
+      <Link>
+        <button onClick={handlePopUp}>ENQUIRE NOW</button>
       </Link>
     </div>
   );

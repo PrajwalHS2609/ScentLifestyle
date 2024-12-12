@@ -3,6 +3,7 @@ import "./AcademyWhyChoose.css"
 import AcademyWhyChooseHead from './AcademyWhyChooseHead'
 import AcademyWhyChooseMain from './AcademyWhyChooseMain'
 const AcademyWhyChoose = () => {
+
   return (
     <div className="academyWhyChoose-container">
       <AcademyWhyChooseHead/>
