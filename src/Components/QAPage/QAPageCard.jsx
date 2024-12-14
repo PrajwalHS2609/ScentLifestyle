@@ -1,5 +1,6 @@
 import React from "react";
 import "./QAPage.css";
+import { Link } from "react-router-dom";
 
 const QAPageCard = (props) => {
   return (
@@ -25,15 +26,13 @@ const QAPageCard = (props) => {
             </div>
             <div className="QAPageCardCover-innerItem2">
               <h2>
-             {props.questions}
+                <Link to={props.link}> {props.questions}</Link>
               </h2>
             </div>
           </div>
         </div>
         <div className="QAPageCardCover-content2">
-          <p>
-           {props.para}
-          </p>
+          <p>{props.para}</p>
         </div>
         {/* <div className="QAPageCardCover-content3"></div> */}
       </div>
