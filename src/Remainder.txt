@@ -7,3 +7,5 @@ changes in homeservice and homestyle
 add brazilian waxing to beauty essential services
 
 /lp-hair-botoxx add suspense to Unlock Gorgeous Hair
+
+Need to add nested navbar for AcademyEnroll and christmas offer

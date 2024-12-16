@@ -19,7 +19,7 @@ const PediAndManicureWhat = () => {
         </p>
         <li>
           <span>
-            <img src={point} alt="checked" />
+            <img src={point} alt="point" />
             Soaking:
           </span>
           <p>
@@ -29,7 +29,7 @@ const PediAndManicureWhat = () => {
         </li>
         <li>
           <span>
-            <img src={point} alt="checked" />
+            <img src={point} alt="point" />
             Exfoliation:
           </span>
           <p>
@@ -39,7 +39,7 @@ const PediAndManicureWhat = () => {
         </li>
         <li>
           <span>
-            <img src={point} alt="checked" />
+            <img src={point} alt="point" />
             Cutting and Shaping:
           </span>
           <p>
@@ -50,7 +50,7 @@ const PediAndManicureWhat = () => {
         </li>
         <li>
           <span>
-            <img src={point} alt="checked" />
+            <img src={point} alt="point" />
             Callus Removal:
           </span>
           <p>
@@ -61,7 +61,7 @@ const PediAndManicureWhat = () => {
         </li>
         <li>
           <span>
-            <img src={point} alt="checked" />
+            <img src={point} alt="point" />
             Massage:
           </span>
           <p>
@@ -72,7 +72,7 @@ const PediAndManicureWhat = () => {
         </li>
         <li>
           <span>
-            <img src={point} alt="checked" />
+            <img src={point} alt="point" />
             Polish:
           </span>
           <p>
@@ -89,7 +89,7 @@ const PediAndManicureWhat = () => {
         </p>
         <li>
           <span>
-            <img src={point} alt="checked" />
+            <img src={point} alt="point" />
             Soaking:
           </span>
           <p>
@@ -98,14 +98,14 @@ const PediAndManicureWhat = () => {
         </li>
         <li>
           <span>
-            <img src={point} alt="checked" />
+            <img src={point} alt="point" />
             Exfoliation:
           </span>
           <p> Dead skin is removed to reveal fresh, healthy skin.</p>
         </li>
         <li>
           <span>
-            <img src={point} alt="checked" />
+            <img src={point} alt="point" />
             Cuticle Care:
           </span>
           <p>
@@ -115,7 +115,7 @@ const PediAndManicureWhat = () => {
         </li>
         <li>
           <span>
-            <img src={point} alt="checked" />
+            <img src={point} alt="point" />
             Nail Shaping:
           </span>
           <p>
@@ -125,14 +125,14 @@ const PediAndManicureWhat = () => {
         </li>
         <li>
           <span>
-            <img src={point} alt="checked" />
+            <img src={point} alt="point" />
             Massage:
           </span>
           <p>A hand massage nourishes the skin and improves circulation.</p>
         </li>
         <li>
           <span>
-            <img src={point} alt="checked" />
+            <img src={point} alt="point" />
             Polish:
           </span>
           <p> Nails are polished with a chosen color or left natural.</p>

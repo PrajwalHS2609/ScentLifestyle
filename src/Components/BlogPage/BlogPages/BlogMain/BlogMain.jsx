@@ -24,6 +24,7 @@ import eyelashExtensionBanner from "./../../../../Images/Blog/Eyelash Extensions
 import hairBleachBanner from "./../../../../Images/Blog/How Often Should You Bleach Your Hair/Banner.png";
 import bodyWaxingMythBanner from "./../../../../Images/Blog/Body_waxing_myth/Banner.png";
 import christmasOfferBanner from "./../../../../Images/Blog/Christmas_offer/Banner.png";
+import academyEnrollBanner from "./../../../../Images/Blog/Top_10_Reasons_to_ Enroll_in_ Salon_Academy/Banner.png";
 
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
@@ -271,6 +272,24 @@ const BlogMain = () => {
 
           {/* <div className="blogMainReadMore">
             <button onClick={() => handleRead(switchRef2)}>
+              Load {toggle ? "Less" : "More"}
+            </button>
+          </div> */}
+        </div>
+        <div>
+          <div className="blogMainDisplay1">
+            <BlogCard
+              img={academyEnrollBanner}
+              head="Top 10 Reasons to Enroll in Our Premier Salon Academy Today"
+              para="Are you passionate about beauty, hair, or makeup and dream of turning your passion into a successful career?..."
+              link="/top-10-reasons-to-enroll-in-our-premier-salon-academy-today"
+            />
+          </div>
+
+          <div className="blogMainDisplay2" ref={switchRef1}></div>
+
+          {/* <div className="blogMainReadMore">
+            <button onClick={() => handleRead(switchRef1)}>
               Load {toggle ? "Less" : "More"}
             </button>
           </div> */}

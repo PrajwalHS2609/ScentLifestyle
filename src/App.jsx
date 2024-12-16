@@ -220,6 +220,7 @@ import Questions from "./Components/QAPage/Questions";
 import UpperNav from "./Components/UpperNav/UpperNav";
 import NavBar from "./Components/NavBar/NavBar";
 import QuestionAnswer1 from "./Components/QAPage/QuestionAnswerPage/QuestionAnswer1";
+import AcademyEnroll from "./Components/BlogPage/BlogInnerPages/OtherBlogInnerPages/AcademyEnroll/AcademyEnroll";
 
 const MainApp = () => {
   const location = useLocation();
@@ -232,11 +233,16 @@ const MainApp = () => {
     "/lp-hair-highlights-and-streaks",
     "/offer-testing",
   ];
+  const disableScrollTo = ["/q-and-a", "/q-and-a/", "/q-and-a/question1"];
   return (
     <div>
       {!hideNavbarPaths.includes(location.pathname) && <UpperNav />}
       {!hideNavbarPaths.includes(location.pathname) && <NavBar />}
-      {!hideNavbarPaths.includes(location.pathname) && <ScrollTo />}
+      {!(
+        hideNavbarPaths.includes(location.pathname) ||
+        disableScrollTo.includes(location.pathname)
+      ) && <ScrollTo />}
+
       <SantaClause />
       <Christmas />
       <Routes>
@@ -540,6 +546,10 @@ const MainApp = () => {
         <Route
           path="/get-festive-ready-top-christmas-beauty-tips-for-women-and-men"
           element={<ChristmasOffer />}
+        />
+             <Route
+          path="/top-10-reasons-to-enroll-in-our-premier-salon-academy-today"
+          element={<AcademyEnroll />}
         />
         {/* ------------------------/blog------------------------      */}
 

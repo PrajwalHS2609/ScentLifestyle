@@ -1,5 +1,4 @@
 import React from "react";
-import WhatsApp from "../../../../HomePage/WhatsApp/WhatsApp";
 import InnerNavi from "../../../../InnerServicePage/InnerNavi/InnerNavi";
 import NavBg from "../../../../NavBg/NavBg";
 import { Helmet } from "react-helmet";
