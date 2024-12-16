@@ -221,6 +221,8 @@ import UpperNav from "./Components/UpperNav/UpperNav";
 import NavBar from "./Components/NavBar/NavBar";
 import QuestionAnswer1 from "./Components/QAPage/QuestionAnswerPage/QuestionAnswer1";
 import AcademyEnroll from "./Components/BlogPage/BlogInnerPages/OtherBlogInnerPages/AcademyEnroll/AcademyEnroll";
+import BlogOffers from "./Components/BlogPage/BlogPages/BlogOffers/BlogOffers";
+import BlogAcademy from "./Components/BlogPage/BlogPages/BlogAcademy/BlogAcademy";
 
 const MainApp = () => {
   const location = useLocation();
@@ -450,6 +452,14 @@ const MainApp = () => {
             path="/blog/eyebrow-microblading-blog"
             element={<BlogEyeBrow />}
           />
+          <Route
+            path="/blog/offers"
+            element={<BlogOffers />}
+          />
+               <Route
+            path="/blog/academy"
+            element={<BlogAcademy />}
+          />
         </Route>
         <Route
           path="/does-trimming-hair-make-it-grow-faster"
@@ -547,7 +557,7 @@ const MainApp = () => {
           path="/get-festive-ready-top-christmas-beauty-tips-for-women-and-men"
           element={<ChristmasOffer />}
         />
-             <Route
+        <Route
           path="/top-10-reasons-to-enroll-in-our-premier-salon-academy-today"
           element={<AcademyEnroll />}
         />

@@ -33,6 +33,16 @@ const NestedNav = () => {
           Eyebrow Microblading
         </NavLink>
       </li>
+      <li>
+        <NavLink to={"/blog/offers"}>
+          Scent Offers
+        </NavLink>
+      </li>
+      <li>
+        <NavLink to={"/blog/academy"}>
+          Scent Academy
+        </NavLink>
+      </li>
     </div>
   );
 };
