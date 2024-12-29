@@ -1,6 +1,7 @@
 .blogMainContainer {
   /* border: solid red; */
   width: 100%;
+  height: fit-content;
   display: flex;
   justify-content: center;
   align-items: center;

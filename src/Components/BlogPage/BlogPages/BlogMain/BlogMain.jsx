@@ -25,6 +25,7 @@ import hairBleachBanner from "./../../../../Images/Blog/How Often Should You Ble
 import bodyWaxingMythBanner from "./../../../../Images/Blog/Body_waxing_myth/Banner.png";
 import christmasOfferBanner from "./../../../../Images/Blog/Christmas_offer/Banner.png";
 import academyEnrollBanner from "./../../../../Images/Blog/Top_10_Reasons_to_ Enroll_in_ Salon_Academy/Banner.png";
+import clearerBanner from "./../../../../Images/Blog/Clearer Skin, Happier You Acne Cure Facial Secrets/Banner.png";
 
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
@@ -75,14 +76,27 @@ const BlogMain = () => {
 
     return () => window.removeEventListener("resize", handleResize);
   }, []);
-  const CustomDot = ({ onClick, index, active }) => (
-    <button
-      onClick={onClick}
-      className={`custom-dot ${active ? "active" : ""}`}
-    >
-      {index + 1}
-    </button>
-  );
+  const CustomDot = ({ onClick, index, active }) => {
+    const handleClick = () => {
+      // Scroll to the top
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth", // Smooth scroll
+      });
+
+      // Call the onClick passed to the dot
+      onClick();
+    };
+
+    return (
+      <button
+        onClick={handleClick}
+        className={`custom-dot ${active ? "active" : ""}`}
+      >
+        {index + 1}
+      </button>
+    );
+  };
   return (
     <div className="blogMainContainer">
       <Carousel
@@ -283,6 +297,12 @@ const BlogMain = () => {
               head="Top 10 Reasons to Enroll in Our Premier Salon Academy Today"
               para="Are you passionate about beauty, hair, or makeup and dream of turning your passion into a successful career?..."
               link="/top-10-reasons-to-enroll-in-our-premier-salon-academy-today"
+            />
+            <BlogCard
+              img={clearerBanner}
+              head="Clearer Skin, Happier You: Acne Cure Facial Secrets"
+              para="Acne is one of the most common skin concerns affecting people of all ages Whether it's a persistent issue or..."
+              link="/clearer-skin-happier-you-acne-cure-facial-secrets"
             />
           </div>
 

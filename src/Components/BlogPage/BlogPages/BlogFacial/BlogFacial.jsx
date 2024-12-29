@@ -1,8 +1,8 @@
 import React, { useRef, useState } from "react";
-import eyeBrowBanner from "./../../../../Images/Blog/Why_Eyebrow_Shaping/Banner.png";
 import BlogCard from "../BlogCard";
+import clearerBanner from "./../../../../Images/Blog/Clearer Skin, Happier You Acne Cure Facial Secrets/Banner.png";
 
-const BlogEyeBrow = () => {
+const BlogFacial = () => {
   let [toggle, setToggle] = useState(false);
   let switchRef = useRef();
   let handleRead = () => {
@@ -18,9 +18,9 @@ const BlogEyeBrow = () => {
     <div className="blogMainContainer">
       <div className="blogMainDisplay1">
         <BlogCard
-          img={eyeBrowBanner}
+          img={clearerBanner}
           head="Clearer Skin, Happier You: Acne Cure Facial Secrets"
-          para="Acne is one of the most common skin concerns affecting people of all ages..."
+          para="Acne is one of the most common skin concerns affecting people of all ages Whether it's a persistent issue or..."
           link="/clearer-skin-happier-you-acne-cure-facial-secrets"
         />
       </div>
@@ -34,4 +34,4 @@ const BlogEyeBrow = () => {
   );
 };
 
-export default BlogEyeBrow;
+export default BlogFacial;

@@ -13,9 +13,9 @@ const NestedNav = () => {
       <li className="nestedNav3">
         <NavLink to={"/blog/nail-blog"}>Nail</NavLink>
       </li>
-      {/* <li>
+      <li>
         <NavLink to={"/blog/facial-blog"}>Facial</NavLink>
-      </li> */}
+      </li>
       <li className="nestedNav4">
         <NavLink to={"/blog/spa-blog"}>Spa</NavLink>
       </li>

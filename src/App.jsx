@@ -223,6 +223,8 @@ import QuestionAnswer1 from "./Components/QAPage/QuestionAnswerPage/QuestionAnsw
 import AcademyEnroll from "./Components/BlogPage/BlogInnerPages/OtherBlogInnerPages/AcademyEnroll/AcademyEnroll";
 import BlogOffers from "./Components/BlogPage/BlogPages/BlogOffers/BlogOffers";
 import BlogAcademy from "./Components/BlogPage/BlogPages/BlogAcademy/BlogAcademy";
+import BlogFacial from './Components/BlogPage/BlogPages/BlogFacial/BlogFacial';
+import ClearerSkinFacial from './Components/BlogPage/BlogInnerPages/FacialBlogInnerPages/ClearerSkinFacial/ClearerSkinFacial';
 
 const MainApp = () => {
   const location = useLocation();
@@ -443,6 +445,8 @@ const MainApp = () => {
           <Route path="/blog" element={<BlogMain />} />
           <Route path="/blog/hair-blog" element={<BlogHair />} />
           <Route path="/blog/nail-blog" element={<BlogNail />} />
+          <Route path="/blog/facial-blog" element={<BlogFacial />} />
+
           <Route path="/blog/spa-blog" element={<BlogSpa />} />
           <Route
             path="/blog/beauty-essentials-blog"
@@ -452,14 +456,8 @@ const MainApp = () => {
             path="/blog/eyebrow-microblading-blog"
             element={<BlogEyeBrow />}
           />
-          <Route
-            path="/blog/offers"
-            element={<BlogOffers />}
-          />
-               <Route
-            path="/blog/academy"
-            element={<BlogAcademy />}
-          />
+          <Route path="/blog/offers" element={<BlogOffers />} />
+          <Route path="/blog/academy" element={<BlogAcademy />} />
         </Route>
         <Route
           path="/does-trimming-hair-make-it-grow-faster"
@@ -560,6 +558,10 @@ const MainApp = () => {
         <Route
           path="/top-10-reasons-to-enroll-in-our-premier-salon-academy-today"
           element={<AcademyEnroll />}
+        />
+        <Route
+          path="/clearer-skin-happier-you-acne-cure-facial-secrets"
+          element={<ClearerSkinFacial />}
         />
         {/* ------------------------/blog------------------------      */}
 

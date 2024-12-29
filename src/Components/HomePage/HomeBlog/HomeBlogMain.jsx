@@ -5,7 +5,6 @@ import academyEnrollBanner from "./../../../Images/Blog/Top_10_Reasons_to_ Enrol
 import bodyWaxingMythBanner from "./../../../Images/Blog/Body_waxing_myth/Banner.png";
 import christmasOfferBanner from "./../../../Images/Blog/Christmas_offer/Banner.png";
 import { Link } from "react-router-dom";
-import BlogCard from "../../BlogPage/BlogPages/BlogCard";
 const HomeBlogMain = () => {
   return (
     <div className="homeBlogMain">

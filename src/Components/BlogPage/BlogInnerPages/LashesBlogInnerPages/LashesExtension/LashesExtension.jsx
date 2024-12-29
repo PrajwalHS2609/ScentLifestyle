@@ -1,6 +1,5 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import WhatsApp from "../../../../HomePage/WhatsApp/WhatsApp";
 import LashesExtensionImg from "./LashesExtensionImg";
 import LashesExtensionHead from "./LashesExtensionHead";
 import LashesExtensionWhyChoose from "./LashesExtensionWhyChoose";
