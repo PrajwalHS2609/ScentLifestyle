@@ -24,7 +24,7 @@ const BodyWaxingInJakkurTips = () => {
         <p>
           Keeping your skin hydrated and moisturized enhances the effects of
           your{" "}
-          <a href="https://scentlifestyle.com/salon-in-jpnagar">
+          <a href="https://scentlifestyle.com/salon-in-jakkur">
             D-Tan treatment
           </a>
           . Drink plenty of water and use recommended moisturizers to support
