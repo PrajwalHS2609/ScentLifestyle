@@ -168,8 +168,6 @@ import HairBleach from "./Components/BlogPage/BlogInnerPages/HairBlogInnerPages/
 import Footer from "./Components/Footer/Footer";
 import WhatsApp from "./Components/HomePage/WhatsApp/WhatsApp";
 import Academy from "./Components/Academy/Academy";
-import Christmas from "./Components/Christmas/Christmas";
-import SantaClause from "./Components/SantaClause/SantaClause";
 import BodyWaxingMyth from "./Components/BlogPage/BlogInnerPages/BeautyBlogInnerPages/BodyWaxingMyth/BodyWaxingMyth";
 import ChristmasOffer from "./Components/BlogPage/BlogInnerPages/BlogOffers/ChristmasOffer/ChristmasOffer";
 import Questions from "./Components/QAPage/Questions";
@@ -247,8 +245,6 @@ const MainApp = () => {
         disableScrollTo.includes(location.pathname)
       ) && <ScrollTo />}
 
-      <SantaClause />
-      <Christmas />
       <Routes>
         {/* ----pageNotfound---- */}
         <Route path="*" element={<Navigate to="/" replace />} />
