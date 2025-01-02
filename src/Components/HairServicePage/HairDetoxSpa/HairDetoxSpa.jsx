@@ -1,6 +1,5 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import HairSalonInMeadowsImg from "../HairSalonInMeadows/HairSalonInMeadowsImg/HairSalonInMeadowsImg";
 import hairDetoxSpa from "./../../../Images/HairSalonInnerPage/HAIR SPA SERVICES.png";
 import InnerNavi from "../../InnerServicePage/InnerNavi/InnerNavi";
 import Members from "../../HomePage/Members/Members";
@@ -17,6 +16,7 @@ import HairDetoxSpaGuide from "./HairDetoxSpaGuide";
 import HairDetoxSpaWho from "./HairDetoxSpaWho";
 import HairDetoxSpaMaintain from "./HairDetoxSpaMaintain";
 import HairDetoxSpaBook from "./HairDetoxSpaBook";
+import HairSalonInMeadowsImg from "../../LocationServices/HairLocationServices/HairSalonInMeadows/HairSalonInMeadowsImg/HairSalonInMeadowsImg";
 
 const HairDetoxSpa = () => {
   return (

@@ -128,50 +128,11 @@ import Botox from "./Components/HairTreatments/Botox/Botox";
 import Keratin from "./Components/HairTreatments/Keratin/Keratin";
 import Olaplex from "./Components/HairTreatments/Olaplex/Olaplex";
 import Top5Spa from "./Components/BlogPage/BlogInnerPages/SpaInnerPages/Top5Spa/Top5Spa";
-import HairSalonInLavelle from "./Components/HairServicePage/HairSalonInLavelle/HairSalonInLavelle";
-import NailSalonInLavelle from "./Components/NaliSalonPage/NailSalonInLavelle/NailSalonInLavelle";
-import BodyWaxingInLavelle from "./Components/Beauty/BodyWaxingInLavelle/BodyWaxingInLavelle";
-import SpaInLavelle from "./Components/Spa/SpaInLavelle/SpaInLavelle";
-import LashesInLavelle from "./Components/Lashes/LashesInLavelle/LashesInLavelle";
-import BridalMakeUpInLavelle from "./Components/BridalMakeUpPage/BridalMakeUpInLavelle/BridalMakeUpInLavelle";
-import MicroBladingInLavelle from "./Components/MicroBladingPage/MicroBladingInLavelle/MicroBladingInLavelle";
 import SalonFranchise from "./Components/FranchisePage/FranchiseInnerPage/SalonFranchise ";
-import HairSalonInJakkur from "./Components/HairServicePage/HairSalonInJakkur/HairSalonInJakkur";
-import NailSalonInJakkur from "./Components/NaliSalonPage/NailSalonInJakkur/NailSalonInJakkur";
-import FacialInJakkur from "./Components/FacialPage/FacialInJakkur/FacialInJakkur";
-import BodyWaxingInJakkur from "./Components/Beauty/BodyWaxingInJakkur/BodyWaxingInJakkur";
-import SpaInJakkur from "./Components/Spa/SpaInJakkur/SpaInJakkur";
-import LashesInJakkur from "./Components/Lashes/LashesInJakkur/LashesInJakkur";
-import BridalMakeupInJakkur from "./Components/BridalMakeUpPage/BridalMakeupInJakkur/BridalMakeupInJakkur";
-import MicroBladingInJakkur from "./Components/MicroBladingPage/MicroBladingInJakkur/MicroBladingInJakkur";
 import HowOlaplex from "./Components/BlogPage/BlogInnerPages/HairBlogInnerPages/HowOlaplex/HowOlaplex";
-import HairSalonInMeadows from "./Components/HairServicePage/HairSalonInMeadows/HairSalonInMeadows";
-import NailSalonInMeadows from "./Components/NaliSalonPage/NailSalonInMeadows/NailSalonInMeadows";
-import FacialInMeadows from "./Components/FacialPage/FacialInMeadows/FacialInMeadows";
-import BodyWaxingInMeadows from "./Components/Beauty/BodyWaxingInMeadows/BodyWaxingInMeadows";
-import SpaInMeadows from "./Components/Spa/SpaInMeadows/SpaInMeadows";
-import LashesInMeadows from "./Components/Lashes/LashesInMeadows/LashesInMeadows";
-import BridalMakeupInMeadows from "./Components/BridalMakeUpPage/BridalMakeupInMeadows/BridalMakeupInMeadows";
-import MicroBladingInMeadows from "./Components/MicroBladingPage/MicroBladingInMeadows/MicroBladingInMeadows";
 import StepByStep from "./Components/BlogPage/BlogInnerPages/FranchiseInnerPage/StepByStep/StepByStep";
 import WhyEyeBrowPage from "./Components/BlogPage/BlogInnerPages/EyeBrowInnerPages/WhyEyeBrowPage/WhyEyeBrowPage";
 import BlogEyeBrow from "./Components/BlogPage/BlogPages/BlogEyeBrow/BlogEyeBrow";
-import HairSalonInSahakaranagar from "./Components/HairServicePage/HairSalonInSahakaranagar/HairSalonInSahakaranagar";
-import NailSalonInSahakarNagar from "./Components/NaliSalonPage/NailSalonInSahakarNagar/NailSalonInSahakarNagar";
-import FacialInSahakaraNagar from "./Components/FacialPage/FacialInSahakaraNagar/FacialInSahakaraNagar";
-import BeautyInSahakarNagar from "./Components/Beauty/BeautyInSahakarNagar/BeautyInSahakarNagar";
-import SpaInSahakarNagar from "./Components/Spa/SpaInSahakarNagar/SpaInSahakarNagar";
-import LashesInSahakarNagar from "./Components/Lashes/LashesInSahakarNagar/LashesInSahakarNagar";
-import BridalMakeUpInSahakarNagar from "./Components/BridalMakeUpPage/BridalMakeUpInSahakarNagar/BridalMakeUpInSahakarNagar";
-import MicroBladingInSahakarNagar from "./Components/MicroBladingPage/MicroBladingInSahakarNagar/MicroBladingInSahakarNagar";
-import HairSalonInUptown from "./Components/HairServicePage/HairSalonInUptown/HairSalonInUptown";
-import NailSalonInUptown from "./Components/NaliSalonPage/NaliSalonInUptown/NailSalonInUptown";
-import FacialInUptown from "./Components/FacialPage/FacialInUptown/FacialInUptown";
-import BeautyInUptown from "./Components/Beauty/BeautyInUptown/BeautyInUptown";
-import SpaInUptown from "./Components/Spa/SpaInUptown/SpaInUptown";
-import LashesInUptown from "./Components/Lashes/LashesInUptown/LashesInUptown";
-import BridalMakeupInUptown from "./Components/BridalMakeUpPage/BridalMakeupInUptown/BridalMakeupInUptown";
-import MicroBladingInUptown from "./Components/MicroBladingPage/MicroBladingInUptown/MicroBladingInUptown";
 import Glamorous from "./Components/BlogPage/BlogInnerPages/HairBlogInnerPages/Glamorous/Glamorous";
 import HairSalonNearMe from "./Components/NearMe/HairSalonNearMe/HairSalonNearMe";
 import HairBeautyNearMe from "./Components/NearMe/HairBeautyNearMe/HairBeautyNearMe";
@@ -191,11 +152,6 @@ import OctopusHairCut from "./Components/HairServicePage/OctopusHairCut/OctopusH
 import MulletHairCut from "./Components/HairServicePage/MulletHairCut/MulletHairCut";
 import NailExtensionBangalore from "./Components/NaliSalonPage/NailExtensionBangalore/NailExtensionBangalore";
 import HairBotoxTreatment from "./Components/BlogPage/BlogInnerPages/HairBlogInnerPages/HairBotoxTreatment/HairBotoxTreatment";
-import NailExtensionInSahakaraNagar from "./Components/NaliSalonPage/NailExtensionInSahakaraNagar/NailExtensionInSahakaraNagar";
-import NailExtensionInJakkur from "./Components/NaliSalonPage/NailExtensionInJakkur/NailExtensionInJakkur";
-import NailExtensionInLavelle from "./Components/NaliSalonPage/NailExtensionInLavelle/NailExtensionInLavelle";
-import NailExtensionInUptown from "./Components/NaliSalonPage/NailExtensionInUptown/NailExtensionInUptown";
-import NailExtensionInMeadows from "./Components/NaliSalonPage/NailExtensionInMeadows/NailExtensionInMeadows";
 import HairHydrationSpa from "./Components/HairServicePage/HairHydrationSpa/HairHydrationSpa";
 import HairAntiDandruffSpa from "./Components/HairServicePage/HairAntiDandruffSpa/HairAntiDandruffSpa";
 import HairStraightening from "./Components/HairServicePage/HairStraightening/HairStraightening";
@@ -223,8 +179,52 @@ import QuestionAnswer1 from "./Components/QAPage/QuestionAnswerPage/QuestionAnsw
 import AcademyEnroll from "./Components/BlogPage/BlogInnerPages/OtherBlogInnerPages/AcademyEnroll/AcademyEnroll";
 import BlogOffers from "./Components/BlogPage/BlogPages/BlogOffers/BlogOffers";
 import BlogAcademy from "./Components/BlogPage/BlogPages/BlogAcademy/BlogAcademy";
-import BlogFacial from './Components/BlogPage/BlogPages/BlogFacial/BlogFacial';
-import ClearerSkinFacial from './Components/BlogPage/BlogInnerPages/FacialBlogInnerPages/ClearerSkinFacial/ClearerSkinFacial';
+import BlogFacial from "./Components/BlogPage/BlogPages/BlogFacial/BlogFacial";
+import ClearerSkinFacial from "./Components/BlogPage/BlogInnerPages/FacialBlogInnerPages/ClearerSkinFacial/ClearerSkinFacial";
+import HairSalonInSahakaranagar from "./Components/LocationServices/HairLocationServices/HairSalonInSahakaranagar/HairSalonInSahakaranagar";
+import HairSalonInMeadows from "./Components/LocationServices/HairLocationServices/HairSalonInMeadows/HairSalonInMeadows";
+import HairSalonInLavelle from "./Components/LocationServices/HairLocationServices/HairSalonInLavelle/HairSalonInLavelle";
+import HairSalonInJakkur from "./Components/LocationServices/HairLocationServices/HairSalonInJakkur/HairSalonInJakkur";
+import HairSalonInUptown from "./Components/LocationServices/HairLocationServices/HairSalonInUptown/HairSalonInUptown";
+import NailExtensionInMeadows from "./Components/LocationServices/NailLocationServices/NailExtensionInMeadows/NailExtensionInMeadows";
+import NailExtensionInLavelle from "./Components/LocationServices/NailLocationServices/NailExtensionInLavelle/NailExtensionInLavelle";
+import NailSalonInSahakarNagar from "./Components/LocationServices/NailLocationServices/NailSalonInSahakarNagar/NailSalonInSahakarNagar";
+import NailSalonInUptown from "./Components/LocationServices/NailLocationServices/NaliSalonInUptown/NailSalonInUptown";
+import NailExtensionInJakkur from "./Components/LocationServices/NailLocationServices/NailExtensionInJakkur/NailExtensionInJakkur";
+import NailExtensionInUptown from "./Components/LocationServices/NailLocationServices/NailExtensionInUptown/NailExtensionInUptown";
+import FacialInMeadows from "./Components/LocationServices/FacialLocationServices/FacialInMeadows/FacialInMeadows";
+import FacialInSahakaraNagar from "./Components/LocationServices/FacialLocationServices/FacialInSahakaraNagar/FacialInSahakaraNagar";
+import FacialInUptown from "./Components/LocationServices/FacialLocationServices/FacialInUptown/FacialInUptown";
+import FacialInJakkur from "./Components/LocationServices/FacialLocationServices/FacialInJakkur/FacialInJakkur";
+import LashesInUptown from "./Components/LocationServices/LashesLocationServices/LashesInUptown/LashesInUptown";
+import LashesInJakkur from "./Components/LocationServices/LashesLocationServices/LashesInJakkur/LashesInJakkur";
+import LashesInLavelle from "./Components/LocationServices/LashesLocationServices/LashesInLavelle/LashesInLavelle";
+import LashesInMeadows from "./Components/LocationServices/LashesLocationServices/LashesInMeadows/LashesInMeadows";
+import LashesInSahakarNagar from "./Components/LocationServices/LashesLocationServices/LashesInSahakarNagar/LashesInSahakarNagar";
+import MicroBladingInUptown from "./Components/LocationServices/MicroBladingLocationServices/MicroBladingInUptown/MicroBladingInUptown";
+import MicroBladingInJakkur from "./Components/LocationServices/MicroBladingLocationServices/MicroBladingInJakkur/MicroBladingInJakkur";
+import MicroBladingInSahakarNagar from "./Components/LocationServices/MicroBladingLocationServices/MicroBladingInSahakarNagar/MicroBladingInSahakarNagar";
+import MicroBladingInMeadows from "./Components/LocationServices/MicroBladingLocationServices/MicroBladingInMeadows/MicroBladingInMeadows";
+import MicroBladingInLavelle from "./Components/LocationServices/MicroBladingLocationServices/MicroBladingInLavelle/MicroBladingInLavelle";
+import BeautyInSahakarNagar from "./Components/LocationServices/BeautyLocationServices/BeautyInSahakarNagar/BeautyInSahakarNagar";
+import BridalMakeUpInSahakarNagar from "./Components/LocationServices/BridalLocationServices/BridalMakeUpInSahakarNagar/BridalMakeUpInSahakarNagar";
+import SpaInSahakarNagar from "./Components/LocationServices/SpaLocationServices/SpaInSahakarNagar/SpaInSahakarNagar";
+import BridalMakeupInMeadows from "./Components/LocationServices/BridalLocationServices/BridalMakeupInMeadows/BridalMakeupInMeadows";
+import SpaInMeadows from "./Components/LocationServices/SpaLocationServices/SpaInMeadows/SpaInMeadows";
+import SpaInLavelle from "./Components/LocationServices/SpaLocationServices/SpaInLavelle/SpaInLavelle";
+import BridalMakeUpInLavelle from "./Components/LocationServices/BridalLocationServices/BridalMakeUpInLavelle/BridalMakeUpInLavelle";
+import SpaInJakkur from "./Components/LocationServices/SpaLocationServices/SpaInJakkur/SpaInJakkur";
+import BridalMakeupInJakkur from "./Components/LocationServices/BridalLocationServices/BridalMakeupInJakkur/BridalMakeupInJakkur";
+import BeautyInUptown from "./Components/LocationServices/BeautyLocationServices/BeautyInUptown/BeautyInUptown";
+import SpaInUptown from "./Components/LocationServices/SpaLocationServices/SpaInUptown/SpaInUptown";
+import BridalMakeupInUptown from "./Components/LocationServices/BridalLocationServices/BridalMakeupInUptown/BridalMakeupInUptown";
+import NailSalonInLavelle from "./Components/LocationServices/NailLocationServices/NailSalonInLavelle/NailSalonInLavelle";
+import BodyWaxingInLavelle from "./Components/LocationServices/BeautyLocationServices/BodyWaxingInLavelle/BodyWaxingInLavelle";
+import NailSalonInJakkur from "./Components/LocationServices/NailLocationServices/NailSalonInJakkur/NailSalonInJakkur";
+import BodyWaxingInJakkur from "./Components/LocationServices/BeautyLocationServices/BodyWaxingInJakkur/BodyWaxingInJakkur";
+import NailSalonInMeadows from "./Components/LocationServices/NailLocationServices/NailSalonInMeadows/NailSalonInMeadows";
+import BodyWaxingInMeadows from "./Components/LocationServices/BeautyLocationServices/BodyWaxingInMeadows/BodyWaxingInMeadows";
+import HairScalpTreatment from "./Components/HairServicePage/HairScalpTreatment/HairScalpTreatment";
 
 const MainApp = () => {
   const location = useLocation();
@@ -336,6 +336,10 @@ const MainApp = () => {
         <Route
           path="/hair-spa-for-colored-hair-in-bangalore"
           element={<HairColouredSpa />}
+        />
+        <Route
+          path="/hair-scalp-treatment-in-bangalore"
+          element={<HairScalpTreatment />}
         />
         {/* ------------------------------/hairSubService------------------- */}
         {/* --------------------------------------NearMe------------------------ */}
@@ -716,10 +720,6 @@ const MainApp = () => {
         <Route
           path="/eyebrow-microblading-in-sahakara-nagar-bangalore"
           element={<MicroBladingInSahakarNagar />}
-        />
-        <Route
-          path="/nail-extensions-near-sahakaranagar"
-          element={<NailExtensionInSahakaraNagar />}
         />
         {/* ----------------------/InSahakarnagar---------------------- */}
 

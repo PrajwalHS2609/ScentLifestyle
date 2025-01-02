@@ -1,6 +1,5 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import HairSalonInMeadowsImg from "../HairSalonInMeadows/HairSalonInMeadowsImg/HairSalonInMeadowsImg";
 import InnerNavi from "../../InnerServicePage/InnerNavi/InnerNavi";
 import Members from "../../HomePage/Members/Members";
 import OurSalon from "../../HomePage/OurSalon/OurSalon";
@@ -15,6 +14,7 @@ import HairAntiDandruffSpaProcess from './HairAntiDandruffSpaProcess';
 import HairAntiDandruffSpaBenefits from './HairAntiDandruffSpaBenefits';
 import HairAntiDandruffSpaWhy from './HairAntiDandruffSpaWhy';
 import HairAntiDandruffSpaBook from './HairAntiDandruffSpaBook';
+import HairSalonInMeadowsImg from "../../LocationServices/HairLocationServices/HairSalonInMeadows/HairSalonInMeadowsImg/HairSalonInMeadowsImg";
 
 const HairAntiDandruffSpa = () => {
   return (

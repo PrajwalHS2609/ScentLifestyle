@@ -1,7 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import hairHydrationSpa from "./../../../Images/HairSalonInnerPage/HAIR SPA SERVICES.png";
-import HairSalonInMeadowsImg from "../HairSalonInMeadows/HairSalonInMeadowsImg/HairSalonInMeadowsImg";
 import InnerNavi from "../../InnerServicePage/InnerNavi/InnerNavi";
 import Members from "../../HomePage/Members/Members";
 import Partners from "../../HomePage/Partners/Partners";
@@ -17,6 +16,7 @@ import HelpNearYou from "../../Help/HelpNearYou";
 import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
 import HairHydrationSpaTips from "./HairHydrationSpaTips";
+import HairSalonInMeadowsImg from "../../LocationServices/HairLocationServices/HairSalonInMeadows/HairSalonInMeadowsImg/HairSalonInMeadowsImg";
 
 const HairHydrationSpa = () => {
   return (

@@ -1,6 +1,5 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import HairSalonInMeadowsImg from "../HairSalonInMeadows/HairSalonInMeadowsImg/HairSalonInMeadowsImg";
 import InnerNavi from "../../InnerServicePage/InnerNavi/InnerNavi";
 import Members from "../../HomePage/Members/Members";
 import Partners from "../../HomePage/Partners/Partners";
@@ -17,6 +16,7 @@ import HairStraighteningWhat from "./HairStraighteningWhat";
 import HairStraighteningTips from "./HairStraighteningTips";
 import HairStraighteningWhy from "./HairStraighteningWhy";
 import hairStraightening from "./../../../Images/HairSalonInnerPage/HAIR SPA SERVICES.png";
+import HairSalonInMeadowsImg from "../../LocationServices/HairLocationServices/HairSalonInMeadows/HairSalonInMeadowsImg/HairSalonInMeadowsImg";
 
 const HairStraightening = () => {
   return (

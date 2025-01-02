@@ -1,0 +1,78 @@
+.hairSalonInSahakaraWhy {
+    /* border: solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    padding: 30px;
+  }
+  .hairSalonInSahakaraWhy > h5 {
+    font-size: 25px;
+    color: var(--customColor);
+    text-align: center;
+    width: 100%;
+  }
+  .hairSalonInSahakaraWhy > p {
+    font-size: 20px;
+    width: 100%;
+    text-align: justify;
+  }
+  .hairSalonInSahakaraWhy > p > a {
+    color: var(--customColor);
+    text-decoration: none;
+  }
+  .hairSalonInSahakaraWhy > ul > li > p > a {
+    text-decoration: none;
+    color: var(--customColor);
+  }
+  .hairSalonInSahakaraWhy > ul > li {
+    list-style: none;
+    font-size: 20px;
+    text-align: justify;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+    width: 90%;
+  }
+  .hairSalonInSahakaraWhy > ul > li > span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: var(--customColor);
+    text-align: start;
+    font-weight: 500;
+
+  }
+  .hairSalonInSahakaraWhy > ul > li > span > img {
+    width: 20px;
+    height: 20px;
+  }
+  .hairSalonInSahakaraWhy > ul > li > ul > li {
+    list-style: none;
+    margin: 10px;
+    font-size: 20px;
+    text-align: justify;
+  }
+  .hairSalonInSahakaraWhy > ul > li > ul > li>span {
+    color: var(--customColor);
+    font-weight: bold;
+  }
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    .hairSalonInSahakaraWhy {
+      /* border: solid red; */
+      padding: 10px;
+    }
+    .hairSalonInSahakaraWhy > h5 {
+      font-size: 20px;
+      color: var(--customColor);
+      text-align: center;
+      width: 100%;
+    }
+  }
+  
