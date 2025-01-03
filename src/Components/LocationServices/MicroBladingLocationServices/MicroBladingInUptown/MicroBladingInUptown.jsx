@@ -36,7 +36,7 @@ const MicroBladingInUptown = () => {
       </Helmet>
       <MicroBladingLocationImg
         img={microbladingUptownImg}
-        alt={microbladingUptownImg}
+        alt="microbladingUptownImg"
       />
       <InnerNavi
         link="/eyebrow-microblading"

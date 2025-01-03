@@ -39,7 +39,7 @@ const NailExtensionInUptown = () => {
       </Helmet>
       <NailLocationImg
         img={nailExtensionUptownImg}
-        alt={nailExtensionUptownImg}
+        alt="nailExtensionUptownImg"
       />
       <InnerNavi
         link="/nail-salon"

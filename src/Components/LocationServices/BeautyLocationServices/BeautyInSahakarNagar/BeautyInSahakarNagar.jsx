@@ -32,7 +32,7 @@ const BeautyInSahakarNagar = () => {
           href="https://scentlifestyle.com/body-waxing-threading-and-d-tan-in-sahakara-nagar-bangalore"
         />
       </Helmet>
-      <BeautyLocationImg img={beautySahakarImg} alt={beautySahakarImg} />
+      <BeautyLocationImg img={beautySahakarImg} alt="beautySahakarImg" />
       <InnerNavi
         link="/beauty-essentials"
         service="Beauty Essentials"

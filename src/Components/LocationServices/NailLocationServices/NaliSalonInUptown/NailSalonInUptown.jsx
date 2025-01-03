@@ -33,7 +33,7 @@ const NailSalonInUptown = () => {
           href="https://scentlifestyle.com/nail-salon-in-uptown-whitefield"
         />
       </Helmet>
-      <NailLocationImg src={nailUptownImg} alt={nailUptownImg} />
+      <NailLocationImg src={nailUptownImg} alt="nailUptownImg" />
       <InnerNavi
         link="/nail-salon"
         service="Nail Salon"

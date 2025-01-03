@@ -36,7 +36,7 @@ const MicroBladingInSahakarNagar = () => {
       </Helmet>
       <MicroBladingLocationImg
         img={microbladingSahakarImg}
-        alt={microbladingSahakarImg}
+        alt="microbladingSahakarImg"
       />
       <InnerNavi
         link="/eyebrow-microblading"

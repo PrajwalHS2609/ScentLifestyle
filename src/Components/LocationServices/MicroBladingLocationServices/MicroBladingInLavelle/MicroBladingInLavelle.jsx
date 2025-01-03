@@ -35,7 +35,7 @@ const MicroBladingInLavelle = () => {
           href="https://scentlifestyle.com/eyebrow-microblading-in-lavelle-road"
         />
       </Helmet>
-      <MicroBladingLocationImg img={microLavelleImg} alt={microLavelleImg} />
+      <MicroBladingLocationImg img={microLavelleImg} alt="microLavelleImg" />
       <InnerNavi
         link="/facial"
         service="Hair Salon"

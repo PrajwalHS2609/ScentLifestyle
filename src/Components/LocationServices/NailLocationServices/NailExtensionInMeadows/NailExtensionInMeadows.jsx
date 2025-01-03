@@ -36,7 +36,7 @@ const NailExtensionInMeadows = () => {
       </Helmet>
       <NailLocationImg
         img={nailExtensionMeadowsImg}
-        alt={nailExtensionMeadowsImg}
+        alt="nailExtensionMeadowsImg"
       />
       <InnerNavi
         link="/nail-salon"

@@ -34,7 +34,7 @@ const LashesInSahakarNagar = () => {
           href="https://scentlifestyle.com/eye-lashes-in-sahakara-nagar-bangalore"
         />
       </Helmet>
-      <LashesLocationImg img={lashesSahakarImg} alt={lashesSahakarImg} />
+      <LashesLocationImg img={lashesSahakarImg} alt="lashesSahakarImg" />
       <InnerNavi
         link="/eye-lashes"
         service="Eye Lashes"

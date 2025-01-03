@@ -26,7 +26,7 @@ const NailExtensionInJakkur = () => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>
-        Nail Extensions near Jakkur | Nail Extension Price in Jakkur 
+          Nail Extensions near Jakkur | Nail Extension Price in Jakkur
         </title>
         <meta
           name="description"
@@ -39,7 +39,7 @@ const NailExtensionInJakkur = () => {
       </Helmet>
       <NailLocationImg
         img={nailExtensionJakkurImg}
-        alt={nailExtensionJakkurImg}
+        alt="nailExtensionJakkurImg"
       />
       <InnerNavi
         link="/nail-salon"
@@ -62,7 +62,6 @@ const NailExtensionInJakkur = () => {
       <NailExtensionInJakkurLuxury />
       <NailExtensionInJakkurWhy />
       <NailExtensionInJakkurBook />
-            
     </div>
   );
 };

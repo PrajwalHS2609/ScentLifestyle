@@ -34,7 +34,7 @@ const HairSalonInMeadows = () => {
           href="https://scentlifestyle.com/hair-salon-in-meadows-whitefield-bangalore"
         />
       </Helmet>
-      <HairSalonInMeadowsImg img={hairMeadowsImg} alt={hairMeadowsImg} />
+      <HairSalonInMeadowsImg img={hairMeadowsImg} alt="hairMeadowsImg" />
       <InnerNavi
         link="/hair-salon"
         service="Hair Salon"

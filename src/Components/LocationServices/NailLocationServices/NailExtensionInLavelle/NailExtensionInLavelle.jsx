@@ -39,7 +39,7 @@ const NailExtensionInLavelle = () => {
       </Helmet>
       <NailLocationImg
         img={nailExtensionLavelleImg}
-        alt={nailExtensionLavelleImg}
+        alt="nailExtensionLavelleImg"
       />
       <InnerNavi
         link="/nail-salon"

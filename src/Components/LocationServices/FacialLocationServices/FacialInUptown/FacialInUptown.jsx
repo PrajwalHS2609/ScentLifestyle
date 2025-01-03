@@ -35,7 +35,7 @@ const FacialInUptown = () => {
           href="https://scentlifestyle.com/facials-in-uptown-whitefield-bangalore"
         />
       </Helmet>
-      <FacialLocationImg img={facialJpImg} alt={facialJpImg} />
+      <FacialLocationImg img={facialJpImg} alt="facialJpImg" />
       <InnerNavi
         link="/facial"
         service="Facial"

@@ -35,7 +35,7 @@ const NailSalonInSahakarNagar = () => {
         href="https://scentlifestyle.com/hair-salon-in-sahakara-nagar-bangalore"
       />
     </Helmet>
-    <NailLocationImg img={nailSahakarnagarImg} alt={nailSahakarnagarImg} />
+    <NailLocationImg img={nailSahakarnagarImg} alt="nailSahakarnagarImg" />
     <InnerNavi
       link="/nail-salon"
       service="Nail Salon"

@@ -1,6 +1,5 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import BodyWaxingInLavelleImg from "./../BodyWaxingInLavelle/BodyWaxingInLavelleImg";
 import InnerNavi from "../../../InnerServicePage/InnerNavi/InnerNavi";
 import BeautyInUptownHead from "./BeautyInUptownHead";
 import Members from "../../../HomePage/Members/Members";
@@ -16,6 +15,8 @@ import BeautyInUptownBodyWaxing from "./BeautyInUptownBodyWaxing";
 import BeautyInUptownThreading from "./BeautyInUptownThreading";
 import BeautyInUptownDtan from "./BeautyInUptownDtan";
 import BeautyInUptownXp from "./BeautyInUptownXp";
+import bodyWaxingJpImg from "./../../../../Images/SahakarNagar/Waxing, Threding & D-Tan.png";
+import BeautyLocationImg from './../BeautyLocationImg';
 
 const BeautyInUptown = () => {
   return (
@@ -34,7 +35,7 @@ const BeautyInUptown = () => {
           href="https://scentlifestyle.com/body-waxing-threading-and-d-tan-in-uptown-whitefield-bangalore"
         />
       </Helmet>
-      <BodyWaxingInLavelleImg />
+      <BeautyLocationImg img={bodyWaxingJpImg} alt="bodyWaxingJpImg" />
       <InnerNavi
         link="/beauty-essentials"
         service="Beauty Essentials"

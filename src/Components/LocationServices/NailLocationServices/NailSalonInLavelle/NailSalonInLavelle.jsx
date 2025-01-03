@@ -34,7 +34,7 @@ const NailSalonInLavelle = () => {
           href="https://scentlifestyle.com/nail-salon-in-lavelle-road"
         />
       </Helmet>
-      <NailLocationImg img={naillavelleImg} alt={naillavelleImg} />
+      <NailLocationImg img={naillavelleImg} alt="naillavelleImg" />
       <InnerNavi
         link="/nails-salon"
         service="Nail Salon"

@@ -35,7 +35,7 @@ const BridalMakeUpInLavelle = () => {
           href="https://scentlifestyle.com/bridal-makeup-in-lavelle-road"
         />
       </Helmet>
-      <BridalLocationImg img={bridalLavelleImg} alt={bridalLavelleImg} />
+      <BridalLocationImg img={bridalLavelleImg} alt="bridalLavelleImg" />
       <InnerNavi
         link="/facial"
         service="Bridal MakeUp"

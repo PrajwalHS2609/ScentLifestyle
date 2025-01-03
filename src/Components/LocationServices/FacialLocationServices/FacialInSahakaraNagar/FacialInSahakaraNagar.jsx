@@ -34,7 +34,7 @@ const FacialInSahakaraNagar = () => {
           href="https://scentlifestyle.com/facials-in-sahakara-nagar-bangalore"
         />
       </Helmet>
-      <FacialLocationImg img={facialSahakarImg} alt={facialSahakarImg} />
+      <FacialLocationImg img={facialSahakarImg} alt="facialSahakarImg" />
       <InnerNavi
         link="/facial"
         service="Facial"

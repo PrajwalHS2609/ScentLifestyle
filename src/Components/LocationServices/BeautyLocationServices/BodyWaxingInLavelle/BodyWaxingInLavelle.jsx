@@ -20,7 +20,7 @@ const BodyWaxingInLavelle = () => {
           href="https://scentlifestyle.com/body-waxing-threading-and-d-tan-in-lavelle-road"
         />
       </Helmet>
-      <BeautyLocationImg img={beautylavelleImg} alt={beautylavelleImg} />
+      <BeautyLocationImg img={beautylavelleImg} alt="beautylavelleImg" />
       <InnerNavi
         link="/beauty-essentials"
         service="Beauty Essentials"

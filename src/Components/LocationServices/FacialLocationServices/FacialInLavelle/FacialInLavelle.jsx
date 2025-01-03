@@ -16,7 +16,7 @@ import FacialInLavelleDiff from "./FacialInLavelleDiff";
 import FacialInLavelleCustomer from "./FacialInLavelleCustomer";
 import FacialInLavelleBook from "./FacialInLavelleBook";
 import FacialLocationImg from "../FacialLocationImg";
-import facialJpImg from "./../../../Images/SahakarNagar/Facials.png";
+import facialLavelleImg from "./../../../Images/SahakarNagar/Facials.png";
 
 const FacialInLavelle = () => {
   return (
@@ -37,7 +37,7 @@ const FacialInLavelle = () => {
         />
       </Helmet>
       <NavBg />
-      <FacialLocationImg img={facialJpImg} alt={facialJpImg} />
+      <FacialLocationImg img={facialLavelleImg} alt="facialLavelleImg" />
       <InnerNavi
         link="/facial"
         service="Hair Salon"

@@ -42,7 +42,7 @@ const NailExtensionInSahakaraNagar = () => {
       </Helmet>
       <NailLocationImg
         img={nailExtensionSahakaraImg}
-        alt={nailExtensionSahakaraImg}
+        alt="nailExtensionSahakaraImg"
       />
       <InnerNavi
         link="/nail-salon"

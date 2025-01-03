@@ -34,7 +34,7 @@ const BridalMakeUpInSahakarNagar = () => {
           href="https://scentlifestyle.com/bridal-makeup-in-sahakara-nagar-bangalore"
         />
       </Helmet>
-      <BridalLocationImg img={bridalSahakarImg} alt={bridalSahakarImg} />
+      <BridalLocationImg img={bridalSahakarImg} alt="bridalSahakarImg" />
       <InnerNavi
         link="/bridal-makeup"
         service="Bridal Makeup"

@@ -33,7 +33,7 @@ const SpaInJakkur = () => {
           href="https://scentlifestyle.com/spa-in-jakkur"
         />
       </Helmet>
-      <SpaLocationImg img={spaJakkurImg} alt={spaJakkurImg}/>
+      <SpaLocationImg img={spaJakkurImg} alt="spaJakkurImg"/>
       <InnerNavi link="/spa" service="Spa" currService="Spa in Jp Nagar" />
       <SpaInJakkurHead />
       <SpaInJakkurWhy />

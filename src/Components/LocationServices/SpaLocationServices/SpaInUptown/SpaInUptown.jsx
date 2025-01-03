@@ -12,7 +12,7 @@ import TextLocReviews from "../../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../../MainServicePages/ServiceWhy/ServiceWhy";
 import SpaInUptownSignature from "./SpaInUptownSignature";
 import SpaInUptownXp from "./SpaInUptownXp";
-import spaJpImg from "./../../../../Images/SahakarNagar/Spa.png";
+import spaUptownImg from "./../../../../Images/SahakarNagar/Spa.png";
 import SpaLocationImg from './../SpaLocationImg';
 
 const SpaInUptown = () => {
@@ -32,7 +32,7 @@ const SpaInUptown = () => {
           href="https://scentlifestyle.com/spa-in-uptown-whitefield-bangalore"
         />
       </Helmet>
-      <SpaLocationImg img={spaJpImg} alt={spaJpImg} />{" "}
+      <SpaLocationImg img={spaUptownImg} alt="spaJpImg" />{" "}
       <InnerNavi link="/spa" service="Spa" currService="Spa in Uptown" />
       <SpaInUptownHead />
       <SpaInUptownWhyChoose />

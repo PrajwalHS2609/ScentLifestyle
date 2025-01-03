@@ -8,7 +8,6 @@ import InstaFeed from "../../../HomePage/InstaFeed/InstaFeed";
 import HelpNearYou from "../../../Help/HelpNearYou";
 import TextLocReviews from "../../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../../MainServicePages/ServiceWhy/ServiceWhy";
-import FacialInJakkurImg from "./FacialInJakkurImg";
 import FacialInJakkurHead from "./FacialInJakkurHead";
 import FacialInJakkurBenefits from "./FacialInJakkurBenefits";
 import FacialInJakkurTypes from "./FacialInJakkurTypes";
@@ -36,7 +35,7 @@ const FacialInJakkur = () => {
           href="https://scentlifestyle.com/facials-in-jakkur"
         />
       </Helmet>
-      <FacialLocationImg img={facialJakkurImg} alt={facialJakkurImg} />
+      <FacialLocationImg img={facialJakkurImg} alt="facialJakkurImg" />
       <InnerNavi
         link="/facial"
         service="Hair Salon"

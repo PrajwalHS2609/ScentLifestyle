@@ -34,7 +34,7 @@ const HairSalonInUptown = () => {
           href="https://scentlifestyle.com/hair-salon-in-uptown-whitefield-bangalore"
         />
       </Helmet>
-      <HairSalonInLavelleImg img={hairUptownImg} alt={hairUptownImg} />
+      <HairSalonInLavelleImg img={hairUptownImg} alt="hairUptownImg" />
       <InnerNavi
         link="/hair-salon"
         service="Hair Salon"

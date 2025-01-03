@@ -34,7 +34,7 @@ const NailSalonInJakkur = () => {
           href="https://scentlifestyle.com/nail-salon-in-jakkur"
         />
       </Helmet>
-      <NailLocationImg img={nailJakkurImg} alt={nailJakkurImg}/>
+      <NailLocationImg img={nailJakkurImg} alt="nailJakkurImg"/>
       <InnerNavi
         link="/nail-salon"
         service="Hair Salon"

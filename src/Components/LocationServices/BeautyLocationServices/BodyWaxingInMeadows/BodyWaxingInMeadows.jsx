@@ -32,7 +32,7 @@ const BodyWaxingInMeadows = () => {
           href="https://scentlifestyle.com/body-waxing-threading-and-d-tan-in-meadows-whitefield"
         />
       </Helmet>
-      <BeautyLocationImg img={beautyMeadowsImg} alt={beautyMeadowsImg} />
+      <BeautyLocationImg img={beautyMeadowsImg} alt="beautyMeadowsImg" />
       <InnerNavi
         link="/beauty-essentials"
         service="Beauty Essentials"

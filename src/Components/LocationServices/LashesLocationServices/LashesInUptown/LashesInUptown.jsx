@@ -35,7 +35,7 @@ const LashesInUptown = () => {
           href="https://scentlifestyle.com/eye-lashes-in-uptown-whitefield-bangalore"
         />
       </Helmet>
-      <LashesLocationImg img={lashesUptownImg} alt={lashesUptownImg} />
+      <LashesLocationImg img={lashesUptownImg} alt="lashesUptownImg" />
       <InnerNavi
         link="/eye-lashes"
         service="Eye Lashes"

@@ -36,7 +36,7 @@ const BridalMakeupInMeadows = () => {
           href="https://scentlifestyle.com/bridal-makeup-in-meadows-whitefield "
         />
       </Helmet>
-      <BridalLocationImg img={bridalMeadowsImg} alt={bridalMeadowsImg} />
+      <BridalLocationImg img={bridalMeadowsImg} alt="bridalMeadowsImg" />
       <InnerNavi
         link="/bridal-makeup"
         service="Bridal Makeup"

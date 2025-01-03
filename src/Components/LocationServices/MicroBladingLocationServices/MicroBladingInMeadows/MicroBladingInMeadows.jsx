@@ -35,7 +35,7 @@ const MicroBladingInMeadows = () => {
           href="https://scentlifestyle.com/eyebrow-microblading-in-meadows-whitefield"
         />
       </Helmet>
-      <MicroBladingLocationImg img={microbladingMeadowsImg} alt={microbladingMeadowsImg} />
+      <MicroBladingLocationImg img={microbladingMeadowsImg} alt="microbladingMeadowsImg" />
       <InnerNavi
         link="/eyebrow-microblading"
         service="EyeBrow MicroBlading"

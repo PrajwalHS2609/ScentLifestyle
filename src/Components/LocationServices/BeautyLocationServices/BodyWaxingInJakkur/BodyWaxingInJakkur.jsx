@@ -33,7 +33,7 @@ const BodyWaxingInJakkur = () => {
           href="https://scentlifestyle.com/body-waxing-threading-and-d-tan-in-jakkur"
         />
       </Helmet>
-      <BeautyLocationImg  img={bodyWaxingJakkur} alt={bodyWaxingJakkur}/>
+      <BeautyLocationImg  img={bodyWaxingJakkur} alt="bodyWaxingJakkur"/>
       <InnerNavi
         link="/nail-salon"
         service="Hair Salon"

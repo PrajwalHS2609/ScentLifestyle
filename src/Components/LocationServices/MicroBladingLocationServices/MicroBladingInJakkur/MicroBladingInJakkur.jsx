@@ -36,7 +36,7 @@ const MicroBladingInJakkur = () => {
           href="https://scentlifestyle.com/eyebrow-microblading-in-jakkur"
         />
       </Helmet>
-      <MicroBladingLocationImg img={microBladingImg} src={microBladingImg} />
+      <MicroBladingLocationImg img={microBladingImg} src="microBladingImg" />
       <InnerNavi
         link="/nail-salon"
         service="Eyebrow Microblading "

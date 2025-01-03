@@ -35,7 +35,7 @@ const LashesInJakkur = () => {
           href="https://scentlifestyle.com/eye-lashes-in-jakkur"
         />
       </Helmet>
-      <LashesLocationImg img={lashesJakkurImg} alt={lashesJakkurImg} />
+      <LashesLocationImg img={lashesJakkurImg} alt="lashesJakkurImg" />
       <InnerNavi
         link="/eye-lashes"
         service="Eye Lashes"

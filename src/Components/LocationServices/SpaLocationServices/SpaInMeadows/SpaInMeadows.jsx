@@ -32,7 +32,7 @@ const SpaInMeadows = () => {
           href="https://scentlifestyle.com/spa-in-meadows-whitefield"
         />
       </Helmet>
-      <SpaLocationImg img={spaMeadowsImg} alt={spaMeadowsImg} />
+      <SpaLocationImg img={spaMeadowsImg} alt="spaMeadowsImg" />
       <InnerNavi link="/spa" service="Spa" currService="Sap in Meadows" />
       <SpaInMeadowsHead />
       <Members />

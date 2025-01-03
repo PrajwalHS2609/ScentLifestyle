@@ -34,7 +34,7 @@ const SpaInLavelle = () => {
           href="https://scentlifestyle.com/spa-in-lavelle-road"
         />
       </Helmet>
-      <SpaLocationImg img={spalavelleImg} alt={spalavelleImg} />
+      <SpaLocationImg img={spalavelleImg} alt="spalavelleImg" />
       <InnerNavi link="/spa" service="Spa" currService="Spa in Lavelle" />
       <SpaInLavelleHead />
       <SpaInLavelleWhy />

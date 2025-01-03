@@ -32,7 +32,7 @@ const FacialInMeadows = () => {
           href="https://scentlifestyle.com/facials-in-meadows-whitefield"
         />
       </Helmet>
-      <FacialLocationImg img={facialMeadowsImg} alt={facialMeadowsImg} />
+      <FacialLocationImg img={facialMeadowsImg} alt="facialMeadowsImg" />
       <InnerNavi
         link="/facial"
         service="Facial"
