@@ -223,6 +223,9 @@ import BodyWaxingInJakkur from "./Components/LocationServices/BeautyLocationServ
 import NailSalonInMeadows from "./Components/LocationServices/NailLocationServices/NailSalonInMeadows/NailSalonInMeadows";
 import BodyWaxingInMeadows from "./Components/LocationServices/BeautyLocationServices/BodyWaxingInMeadows/BodyWaxingInMeadows";
 import HairScalpTreatment from "./Components/HairServicePage/HairScalpTreatment/HairScalpTreatment";
+import HairMask from "./Components/HairServicePage/HairMask/HairMask";
+import DandruffTreatment from "./Components/HairServicePage/DandruffTreatment/DandruffTreatment";
+import HairScalpMassager from "./Components/HairServicePage/HairScalpMassager/HairScalpMassager";
 
 const MainApp = () => {
   const location = useLocation();
@@ -336,6 +339,15 @@ const MainApp = () => {
         <Route
           path="/hair-scalp-treatment-in-bangalore"
           element={<HairScalpTreatment />}
+        />
+        <Route
+          path="/scalp-massagers-in-bangalore"
+          element={<HairScalpMassager />}
+        />
+        <Route path="/hair-masks-in-bangalore" element={<HairMask />} />
+        <Route
+          path="/dandruff-treatment-in-bangalore"
+          element={<DandruffTreatment />}
         />
         {/* ------------------------------/hairSubService------------------- */}
         {/* --------------------------------------NearMe------------------------ */}
