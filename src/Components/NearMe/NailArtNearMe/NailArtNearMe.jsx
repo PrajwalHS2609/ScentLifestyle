@@ -31,7 +31,7 @@ const NailArtNearMe = () => {
       <InnerNavi
         link={"/nail-salon"}
         service="Nails Service"
-        currService="Nail Art Near ME"
+        currService="Nail Art Near Me"
       />
       <NailArtNearMeHead />
       <Members />

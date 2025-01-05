@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./BlogMain.css";
 import trimBlog from "./../../../../Images/Blog/Does Trimming Hair Make It Grow Faster.png";
 import BouncyHairBlog from "./../../../../Images/Blog/Hair Bouncy and Beautiful Curls During Monsoon.png";
@@ -207,9 +207,24 @@ const BlogMain = () => {
     });
   };
 
+
+  const preloadImages = (page) => {
+    const startIndex = (page - 1) * itemsPerPage;
+    const endIndex = page * itemsPerPage;
+
+    blogs.slice(startIndex, endIndex).forEach((blog) => {
+      const img = new Image();
+      img.src = blog.img;
+    });
+  };
+
+  useEffect(() => {
+    preloadImages(currentPage);
+  }, [currentPage]);
+
   return (
     <div className="blogMainContainer">
-      <div className="blogMainContent">
+      <div className="blogMainContent"   key={currentPage} >
         {currentBlogs.map((blog, index) => (
           <BlogCard
             key={index}
