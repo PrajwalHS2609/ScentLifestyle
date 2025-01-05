@@ -2,7 +2,7 @@ import React from "react";
 
 const DandruffTreatmentBook = () => {
   return (
-    <div className="HairSalonInSahakaraHead">
+    <div className="hairSubServiceHead">
       <h3>Book Your Dandruff Treatment Today</h3>
       <p>
         Don’t let dandruff affect your confidence and comfort any longer.

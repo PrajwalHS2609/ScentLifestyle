@@ -2,7 +2,7 @@ import React from 'react'
 
 const DandruffTreatmentBenefits = () => {
   return (
-    <div className="hairSalonInSahakaraWhat">
+    <div className="hairSubServiceWhat">
     <h3>Benefits of SCENT’s Dandruff Treatment in Bangalore</h3>
     <li>
       <h6>Immediate Relief:</h6>

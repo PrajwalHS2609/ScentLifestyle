@@ -1,9 +1,10 @@
 import React from "react";
 import check from "./../../../Images/checked.png";
+import "./../HairSubService.css"
 
 const DandruffTreatmentWhyChoose = () => {
   return (
-    <div className="hairSalonInSahakaraWhy">
+    <div className="hairSubServiceWhy">
       <h5>Why Choose SCENT for Dandruff Treatment in Bangalore?</h5>
       <p>
         At SCENT, we understand the nuances of scalp health and the importance

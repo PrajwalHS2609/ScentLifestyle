@@ -1,8 +1,8 @@
 import React from "react";
-
+import "./../HairSubService.css"
 const DandruffTreatmentHead = () => {
   return (
-    <div className="HairSalonInSahakaraHead">
+    <div className="hairSubServiceHead">
       <h1>Dandruff Treatment in Bangalore: Effective Solutions at SCENT</h1>
       <p>
         Dandruff is a common scalp condition that affects millions of people,

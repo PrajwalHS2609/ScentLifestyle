@@ -9,44 +9,48 @@
   gap: 30px;
   padding: 20px;
 }
-
-.blogMainDisplay1 {
+.blogMainContent {
   /* border: solid blue; */
   width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 20px;
-  padding: 20px;
-}
-
-.blogMainDisplay2 {
-  /* border: solid blue; */
-  width: 100%;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 20px;
-  padding: 20px;
-}
-.blogCardContainer {
-  /* border: solid green; */
-  width: 30%;
+  height: fit-content;
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 20px;
+}
+.blogMainDisplayContent {
+  /* border: solid blue; */
+  width: 100%;
+  height: fit-content;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 20px;
+}
+
+.blogCardContainer {
+  /* border: solid green; */
+  width: 350px;
+  height: 450px;
+  display: flex;
+  justify-content: flex-start;
   align-items: start;
   flex-direction: column;
-  gap: 10px;
+  gap: 20px;
   padding: 20px;
   margin: 10px;
+  box-shadow: 0 0 10px grey;
+  border-radius: 10px;
 }
 .blogCardImg > img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border-radius: 10px;
 }
 .BlogCardBut {
   /* border: solid brown; */
@@ -55,6 +59,7 @@
 }
 .blogCardTitle > h2 {
   color: var(--customColor);
+  font-size: 20px;
 }
 .BlogCardBut > button {
   width: 100%;
@@ -89,60 +94,76 @@
   cursor: pointer;
   padding: 10px;
 }
-/* --------------------Carousel------------------- */
-.blogMainContainer > div {
-  /* border: solid; */
-  width: 100%;
-  height: 100%;
-  padding-bottom: 20px;
+.blogCardPara > p {
+  text-align: justify;
 }
-.custom-dot {
-  background: none;
-  border: none;
-  font-size: 16px;
-  margin: 0 5px;
-  cursor: pointer;
-  color: #333; /* Default color */
-  border-radius: 100%;
-  height: 30px;
-  width: 30px;
+/* --------------------pagination------------------- */
+
+.pagination {
   display: flex;
   justify-content: center;
-  align-items: center;
-  box-shadow: inset 0 0 5px black;
+  margin-top: 20px;
 }
 
-.custom-dot.active {
-  color: var(--customColor); /* Highlight for active dot */
-  font-weight: bold;
-  font-size: 20px;
+.pageButton {
+  border: 2px solid var(--customColor);
+  padding: 10px 15px;
+  margin: 0 5px;
+  background-color: var(--customColor);
+  cursor: pointer;
+  font-size: 18px;
+  color: white;
 }
+
+.pageButton.active {
+  border: 2px solid var(--customColor);
+  background-color: white;
+  color: var(--customColor);
+}
+
+.pageButton:hover {
+  border: 2px solid var(--customColor);
+  background-color: white;
+  color: var(--customColor);
+}
+
 @media screen and (min-width: 320px) and (max-width: 768px) {
   .blogMainContainer {
     /* border: solid red; */
-    padding: 0px;
+    padding: 10px;
   }
   .blogCardContainer {
     /* border: solid green; */
-    min-width: 300px;
-    gap: 10px;
-    padding: 0px;
-    margin: 10px;
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    gap: 20px;
+    padding: 10px;
   }
-  .blogMainDisplay1 {
+  .blogMainContent {
     /* border: solid blue; */
+    width: 100%;
+    height: fit-content;
+    display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 20px;
   }
-
-  .blogMainDisplay2 {
+  .blogMainDisplayContent {
     /* border: solid blue; */
+    width: 100%;
+    height: fit-content;
+    display: none;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 20px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 990px) {
@@ -153,7 +174,7 @@
   .blogCardContainer {
     /* border: solid green; */
     min-width: 300px;
-    gap: 10px;
+    gap: 20px;
     padding: 0px;
     margin: 10px;
     display: flex;

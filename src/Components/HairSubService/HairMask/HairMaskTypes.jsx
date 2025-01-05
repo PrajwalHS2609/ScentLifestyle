@@ -3,7 +3,7 @@ import point from "./../../../Images/point.png";
 
 const HairMaskTypes = () => {
   return (
-    <div className="hairSalonInSahakaraWhy">
+    <div className="hairSubServiceWhy">
       <h5>Types of Hair Masks We Offer</h5>
       <p>
         SCENT offers a variety of hair masks tailored to address specific hair

@@ -1,9 +1,10 @@
 import React from "react";
 import point from "./../../../Images/point.png";
+import "./../HairSubService.css"
 
 const DandruffTreatmentService = () => {
   return (
-    <div className="hairSalonInSahakaraWhy">
+    <div className="hairSubServiceWhy">
       <h5>Our Dandruff Treatment Services</h5>
       <p>
         SCENT offers a comprehensive range of{" "}

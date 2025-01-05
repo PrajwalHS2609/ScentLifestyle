@@ -2,7 +2,7 @@ import React from "react";
 
 const HairMaskHead = () => {
   return (
-    <div className="HairSalonInSahakaraHead">
+    <div className="hairSubServiceHead">
       <h1>Hair Masks in Bangalore: Revitalize Your Hair with SCENT</h1>
       <p>
         When it comes to hair care, finding the right balance between

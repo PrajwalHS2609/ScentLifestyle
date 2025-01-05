@@ -1,6 +1,5 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import HairSalonInMeadowsImg from "../../LocationServices/HairLocationServices/HairSalonInMeadows/HairSalonInMeadowsImg/HairSalonInMeadowsImg";
 import InnerNavi from "../../InnerServicePage/InnerNavi/InnerNavi";
 import DandruffTreatmentHead from "./DandruffTreatmentHead";
 import DandruffTreatmentUnderstand from "./DandruffTreatmentUnderstand";
@@ -19,6 +18,7 @@ import HelpNearYou from "./../../Help/HelpNearYou";
 import TextLocReviews from "./../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "./../../MainServicePages/ServiceWhy/ServiceWhy";
 import dandruffTreatmentImg from "./../../../Images/SahakarNagar/Hair.png";
+import HairSubServiceImg from "../HairSubServiceImg";
 
 const DandruffTreatment = () => {
   return (
@@ -35,7 +35,7 @@ const DandruffTreatment = () => {
           href="https://scentlifestyle.com/dandruff-treatment-in-bangalore"
         />
       </Helmet>
-      <HairSalonInMeadowsImg
+      <HairSubServiceImg
         img={dandruffTreatmentImg}
         alt="dandruffTreatmentImg"
       />{" "}

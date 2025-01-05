@@ -222,10 +222,12 @@ import NailSalonInJakkur from "./Components/LocationServices/NailLocationService
 import BodyWaxingInJakkur from "./Components/LocationServices/BeautyLocationServices/BodyWaxingInJakkur/BodyWaxingInJakkur";
 import NailSalonInMeadows from "./Components/LocationServices/NailLocationServices/NailSalonInMeadows/NailSalonInMeadows";
 import BodyWaxingInMeadows from "./Components/LocationServices/BeautyLocationServices/BodyWaxingInMeadows/BodyWaxingInMeadows";
-import HairScalpTreatment from "./Components/HairServicePage/HairScalpTreatment/HairScalpTreatment";
-import HairMask from "./Components/HairServicePage/HairMask/HairMask";
-import DandruffTreatment from "./Components/HairServicePage/DandruffTreatment/DandruffTreatment";
-import HairScalpMassager from "./Components/HairServicePage/HairScalpMassager/HairScalpMassager";
+import DandruffTreatment from "./Components/HairSubService/DandruffTreatment/DandruffTreatment";
+import HairScalpMassager from "./Components/HairSubService/HairScalpMassager/HairScalpMassager";
+import HairScalpTreatment from "./Components/HairSubService/HairScalpTreatment/HairScalpTreatment";
+import HairMask from "./Components/HairSubService/HairMask/HairMask";
+import BlogLashes from "./Components/BlogPage/BlogPages/BlogLashes/BlogLashes";
+import NailExtensionInSahakaraNagar from "./Components/LocationServices/NailLocationServices/NailExtensionInSahakaraNagar/NailExtensionInSahakaraNagar";
 
 const MainApp = () => {
   const location = useLocation();
@@ -458,6 +460,7 @@ const MainApp = () => {
           <Route path="/blog/hair-blog" element={<BlogHair />} />
           <Route path="/blog/nail-blog" element={<BlogNail />} />
           <Route path="/blog/facial-blog" element={<BlogFacial />} />
+          <Route path="/blog/eye-lashes-blog" element={<BlogLashes />} />
 
           <Route path="/blog/spa-blog" element={<BlogSpa />} />
           <Route
@@ -728,6 +731,10 @@ const MainApp = () => {
         <Route
           path="/eyebrow-microblading-in-sahakara-nagar-bangalore"
           element={<MicroBladingInSahakarNagar />}
+        />
+                <Route
+          path="nail-extensions-near-sahakaranagar"
+          element={<NailExtensionInSahakaraNagar />}
         />
         {/* ----------------------/InSahakarnagar---------------------- */}
 

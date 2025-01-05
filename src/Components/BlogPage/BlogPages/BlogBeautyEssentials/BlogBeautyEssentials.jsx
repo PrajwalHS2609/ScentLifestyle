@@ -18,7 +18,7 @@ const BlogBeautyEssentials = () => {
   };
   return (
     <div className="blogMainContainer">
-      <div className="blogMainDisplay1">
+      <div className="blogMainContent">
         <BlogCard
           img={brazilWaxingBanner}
           head="Everything You Need to Know About Brazilian Waxing"
@@ -39,7 +39,7 @@ const BlogBeautyEssentials = () => {
         />
       </div>
 
-      <div className="blogMainDisplay2" ref={switchRef}>
+      <div className="blogMainDisplayContent" ref={switchRef}>
         {/* <BlogCard
           img="https://img.freepik.com/free-photo/portrait-attractive-woman-studio_329181-9782.jpg?ga=GA1.1.798303094.1721912336&semt=ais_hybrid"
           head="Raccoon Eyes: Causes, Treatment, and How to Get Rid of It"

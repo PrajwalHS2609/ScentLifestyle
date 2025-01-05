@@ -2,7 +2,7 @@ import React from "react";
 
 const HairMaskBook = () => {
   return (
-    <div className="HairSalonInSahakaraHead">
+    <div className="hairSubServiceHead">
       <h3>Book Your Hair Mask Appointment Today</h3>
       <p>
         Don’t let stress, pollution, or damage dull your hair’s natural beauty.

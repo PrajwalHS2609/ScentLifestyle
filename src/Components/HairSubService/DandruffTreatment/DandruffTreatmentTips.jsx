@@ -3,7 +3,7 @@ import dot from "./../../../Images/dot.png";
 
 const DandruffTreatmentTips = () => {
   return (
-    <div className="hairSalonInSahakaraWhy">
+    <div className="hairSubServiceWhy">
       <h5>Tips to Prevent Dandruff</h5>
       <p>
         While our dandruff treatments in Bangalore are highly effective,

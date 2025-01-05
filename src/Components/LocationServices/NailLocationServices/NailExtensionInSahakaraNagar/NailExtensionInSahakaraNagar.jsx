@@ -19,7 +19,6 @@ import NailExtensionInSahakaraWhyChoose from "./NailExtensionInSahakaraWhyChoose
 import NailExtensionInSahakaraBook from "./NailExtensionInSahakaraBook";
 import { Helmet } from "react-helmet";
 import InnerNavi from "../../../InnerServicePage/InnerNavi/InnerNavi";
-import HairSalonInMeadowsImg from "../../LocationServices/HairLocationServices/HairSalonInMeadows/HairSalonInMeadowsImg/HairSalonInMeadowsImg";
 import NailLocationImg from './../NailLocationImg';
 
 const NailExtensionInSahakaraNagar = () => {

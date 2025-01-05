@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef, useState } from "react";
 import BlogCard from "../BlogCard";
 import eyelashExtensionBanner from "./../../../../Images/Blog/Eyelash Extensions/Banner.png";
 

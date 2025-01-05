@@ -15,8 +15,8 @@ import HairScalpTreatmentWhat from './HairScalpTreatmentWhat';
 import HairScalpTreatmentTips from "./HairScalpTreatmentTips";
 import HairScalpTreatmentTransform from "./HairScalpTreatmentTransform";
 import HairScalpTreatmentHead from './HairScalpTreatmentHead';
-import HairSalonInMeadowsImg from "../../LocationServices/HairLocationServices/HairSalonInMeadows/HairSalonInMeadowsImg/HairSalonInMeadowsImg";
 import hairScalpTreatment from "./../../../Images/SahakarNagar/Hair.png"
+import HairSubServiceImg from "../HairSubServiceImg";
 
 const HairScalpTreatment = () => {
   return (
@@ -33,7 +33,7 @@ const HairScalpTreatment = () => {
           href="https://scentlifestyle.com/hair-scalp-treatment-in-bangalore"
         />
       </Helmet>
-      <HairSalonInMeadowsImg img={hairScalpTreatment} alt="HairScalpTreatment" />{" "}
+      <HairSubServiceImg img={hairScalpTreatment} alt="HairScalpTreatment" />{" "}
       <InnerNavi
         link="/hair-salon"
         service="Hair Salon"

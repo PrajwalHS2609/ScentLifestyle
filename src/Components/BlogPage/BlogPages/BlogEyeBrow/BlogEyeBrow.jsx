@@ -16,7 +16,7 @@ const BlogEyeBrow = () => {
   };
   return (
     <div className="blogMainContainer">
-      <div className="blogMainDisplay1">
+      <div className="blogMainContent">
         <BlogCard
           img={eyeBrowBanner}
           head="Clearer Skin, Happier You: Acne Cure Facial Secrets"
@@ -25,7 +25,7 @@ const BlogEyeBrow = () => {
         />
       </div>
 
-      <div className="blogMainDisplay2" ref={switchRef}></div>
+      <div className="blogMainDisplayContent" ref={switchRef}></div>
 
       <div className="blogMainReadMore">
         <button onClick={handleRead}>Load {toggle ? "Less" : "More"}</button>

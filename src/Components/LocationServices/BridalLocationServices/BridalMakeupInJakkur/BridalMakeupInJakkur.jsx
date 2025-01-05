@@ -23,11 +23,7 @@ const BridalMakeupInJakkur = () => {
     <div>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>
-          Bridal Makeup in Jakkur, Bangalore. Whether you're envisioning a
-          traditional bridal style or a modern twist, our expert makeup artists
-          are here to bring your vision to life.{" "}
-        </title>
+        <title>Bridal Makeup in Jakkur, Bangalore.</title>
         <meta
           name="description"
           content="Bridal Makeup in Jakkur, Bangalore. Whether you're envisioning a traditional bridal style or a modern twist, our expert makeup artists are here to bring your vision to life."
@@ -57,7 +53,6 @@ const BridalMakeupInJakkur = () => {
       <BridalMakeupInJakkurCustomer />
       <BridalMakeupInJakkurHow />
       <BridalMakeupInJakkurBook />
-            
     </div>
   );
 };

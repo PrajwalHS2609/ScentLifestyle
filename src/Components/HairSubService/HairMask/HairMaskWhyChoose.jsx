@@ -3,7 +3,7 @@ import check from "./../../../Images/checked.png";
 
 const HairMaskWhyChoose = () => {
   return (
-    <div className="hairSalonInSahakaraWhy">
+    <div className="hairSubServiceWhy">
       <h5>SCENT: Your Go-To Destination for Hair Masks in Bangalore</h5>
       <p>
         At SCENT, we understand the unique hair care needs of our clients. Our

@@ -2,7 +2,7 @@ import React from "react";
 
 const HairMaskBenefits = () => {
   return (
-    <div className="hairSalonInSahakaraWhat">
+    <div className="hairSubServiceWhat">
       <h3>Benefits of Hair Masks</h3>
       <li>
         <h6>Deep Hydration:</h6>

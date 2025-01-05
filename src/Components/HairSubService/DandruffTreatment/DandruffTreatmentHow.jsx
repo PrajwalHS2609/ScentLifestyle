@@ -1,8 +1,9 @@
 import React from "react";
+import "./../HairSubService.css"
 
 const DandruffTreatmentHow = () => {
   return (
-    <div className="hairSalonInSahakaraWhat">
+    <div className="hairSubServiceWhat">
       <h3>How Our Treatments Work</h3>
       <li>
         <h6> 1. Consultation:</h6>

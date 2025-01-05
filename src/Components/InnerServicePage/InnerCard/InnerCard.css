@@ -38,12 +38,12 @@
   text-align: justify;
 }
 .innerCardGoto {
-  /* border: solid; */
+  border: solid  var(--customColor);
   margin-bottom: -50px;
   height: 40px;
   width: 90%;
   border-radius: 5px;
-  background-color: var(--customRed);
+  background-color: var(--customColor);
   display: flex;
   justify-content: flex-start;
   align-items: center;

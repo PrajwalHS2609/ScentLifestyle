@@ -1,6 +1,5 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import HairSalonInMeadowsImg from "../../LocationServices/HairLocationServices/HairSalonInMeadows/HairSalonInMeadowsImg/HairSalonInMeadowsImg";
 import hairScalpMassage from "./../../../Images/SahakarNagar/Hair.png";
 import HairScalpMassagerHead from "./HairScalpMassagerHead";
 import HairScalpMassagerBenefits from "./HairScalpMassagerBenefits";
@@ -17,6 +16,7 @@ import InstaFeed from "../../HomePage/InstaFeed/InstaFeed";
 import HelpNearYou from "../../Help/HelpNearYou";
 import TextLocReviews from "../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
+import HairSubServiceImg from "../HairSubServiceImg";
 
 const HairScalpMassager = () => {
   return (
@@ -35,7 +35,7 @@ const HairScalpMassager = () => {
           href="https://scentlifestyle.com/scalp-massagers-in-bangalore"
         />
       </Helmet>
-      <HairSalonInMeadowsImg img={hairScalpMassage} alt="hairScalpMassage" />{" "}
+      <HairSubServiceImg img={hairScalpMassage} alt="hairScalpMassage" />{" "}
       <InnerNavi
         link="/hair-salon"
         service="Hair Salon"

@@ -1,8 +1,9 @@
 import React from "react";
+import "./../HairSubService.css"
 
 const DandruffTreatmentUnderstand = () => {
   return (
-    <div className="hairSalonInSahakaraWhat">
+    <div className="hairSubServiceWhat">
       <h3>Understanding Dandruff and Its Causes</h3>
       <p>
         Dandruff is not just a cosmetic concern; it can significantly impact

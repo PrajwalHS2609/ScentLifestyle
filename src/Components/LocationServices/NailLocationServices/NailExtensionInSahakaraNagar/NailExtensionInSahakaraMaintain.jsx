@@ -1,5 +1,5 @@
 import React from "react";
-import point from "./../../../Images/point.png";
+import point from "./../../../../Images/point.png";
 
 const NailExtensionInSahakaraMaintain = () => {
   return (

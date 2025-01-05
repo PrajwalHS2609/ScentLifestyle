@@ -1,0 +1,344 @@
+.hairSubServiceHead {
+  /* border: solid red; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 30px;
+}
+.hairSubServiceHead > h1 {
+  color: var(--customColor);
+  width: 100%;
+  text-align: center;
+}
+.hairSubServiceHead > h2 {
+  color: var(--customColor);
+  text-align: center;
+  width: 100%;
+  font-size: 25px;
+}
+.hairSubServiceHead > h3 {
+  color: var(--customColor);
+  text-align: start;
+  width: 100%;
+  font-size: 25px;
+}
+.hairSubServiceHead > h4 {
+  color: var(--customColor);
+  text-align: start;
+  width: 100%;
+  font-size: 25px;
+}
+.hairSubServiceHead > h5 {
+  color: var(--customColor);
+  text-align: start;
+  width: 100%;
+  font-size: 25px;
+}
+
+.hairSubServiceHead > ul > li {
+  list-style: none;
+  margin: 10px;
+  font-size: 20px;
+  text-align: justify;
+}
+.hairSubServiceHead > ul > li > h6 {
+  font-size: 20px;
+  text-align: justify;
+  color: var(--customColor);
+}
+.hairSubServiceHead > ul > li > a {
+  text-decoration: none;
+  color: var(--customColor);
+}
+
+.hairSubServiceHead > ul > li > span {
+  color: var(--customColor);
+  font-weight: bold;
+}
+.hairSubServiceHead > p {
+  text-align: justify;
+  font-size: 20px;
+}
+.hairSubServiceHead > p > a {
+  color: var(--customColor);
+  text-decoration: none;
+}
+/* --------------------------------------------------------------------------------- */
+.hairSubServiceWhat {
+  /* border: solid red; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  padding: 30px;
+}
+.hairSubServiceWhat > h2 {
+  color: var(--customColor);
+  width: 100%;
+  text-align: center;
+  font-size: 25px;
+}
+.hairSubServiceWhat > h3 {
+  color: var(--customColor);
+  width: 100%;
+  text-align: start;
+  font-size: 25px;
+}
+.hairSubServiceWhat > h3 {
+  color: var(--customColor);
+  width: 100%;
+  text-align: center;
+  font-size: 25px;
+}
+.hairSubServiceWhat > h4 {
+  color: var(--customColor);
+  width: 100%;
+  text-align: start;
+  font-size: 25px;
+}
+.hairSubServiceWhat > p {
+  width: 100%;
+  font-size: 20px;
+  text-align: justify;
+}
+.hairSubServiceWhat > p > a {
+  color: var(--customColor);
+  text-decoration: none;
+}
+.hairSubServiceWhat > li > h6 {
+  color: var(--customColor);
+  font-size: 20px;
+}
+.hairSubServiceWhat > li > span {
+  color: var(--customColor);
+  font-size: 20px;
+  font-weight: 600;
+}
+.hairSubServiceWhat > li > p > a {
+  color: var(--customColor);
+  text-decoration: none;
+}
+.hairSubServiceWhat > li {
+  /* border: solid; */
+  width: 100%;
+  font-size: 20px;
+  text-align: start;
+  list-style: none;
+}
+.hairSubServiceWhat > li > span {
+  /* border: solid; */
+  color: var(--customColor);
+}
+.hairSubServiceWhat > li > a {
+  text-decoration: none;
+  color: var(--customColor);
+}
+/* ------------------------------------------------------------------------- */
+.hairSubServiceWhy {
+  /* border: solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  padding: 30px;
+}
+.hairSubServiceWhy > h5 {
+  font-size: 25px;
+  color: var(--customColor);
+  text-align: center;
+  width: 100%;
+}
+.hairSubServiceWhy > h6 {
+  font-size: 20px;
+  color: var(--customColor);
+  text-align: start;
+  width: 100%;
+  font-weight: bold;
+}
+.hairSubServiceWhy > p {
+  font-size: 20px;
+  width: 100%;
+  text-align: justify;
+}
+.hairSubServiceWhy > p > a {
+  color: var(--customColor);
+  text-decoration: none;
+}
+.hairSubServiceWhy > ul > li > p > a {
+  text-decoration: none;
+  color: var(--customColor);
+}
+.hairSubServiceWhy > ul > li {
+  list-style: none;
+  font-size: 20px;
+  text-align: justify;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 10px;
+  width: 95%;
+}
+.hairSubServiceWhy > ul > li > span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: var(--customColor);
+  text-align: start;
+  font-weight: 500;
+}
+.hairSubServiceWhy > ul > li > span > img {
+  width: 20px;
+  height: 20px;
+}
+.hairSubServiceWhy > ul > li > ul > li {
+  list-style: none;
+  margin: 10px;
+  font-size: 20px;
+  text-align: justify;
+}
+.hairSubServiceWhy > ul > li > ul > li > span {
+  color: var(--customColor);
+  font-weight: bold;
+}
+/* ------------------------------------------------------------------------------------ */
+.hairSubServiceCustomer {
+  /* border: solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  width: 100%;
+}
+.hairSubServiceCustomer > h5 {
+  text-align: center;
+  width: 100%;
+  font-size: 25px;
+  color: var(--customColor);
+}
+.hairSubServiceCustomer > p {
+  font-size: 20px;
+  text-align: justify;
+}
+.hairSubServiceCustomer > p > a {
+  text-decoration: none;
+  color: var(--customColor);
+}
+.hairSubServiceCustomerContent {
+  /* border: solid blue; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+}
+.hairSubServiceCustomerContent > h6 {
+  font-size: 25px;
+  color: var(--customColor);
+  text-align: center;
+  width: 100%;
+  font-weight: bold;
+}
+.hairSubServiceCustomerContent > p {
+  font-size: 20px;
+  text-align: justify;
+  width: 70%;
+  line-height: 35px;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 0 5px rgb(171, 171, 171);
+}
+.hairSubServiceCustomerContent > p > span {
+  color: var(--customColor);
+  font-weight: bold;
+}
+.quote {
+  font-size: 30px;
+}
+/* ------------------------------------------------------------------------------ */
+.hairSubServiceImg {
+  /* border: solid red; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hairSubServiceImg > img {
+  width: 100%;
+  height: 100%;
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .hairSubServiceImg {
+    /* border: solid red; */
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .hairSubServiceHead > h1 {
+    font-size: 25px;
+    text-align: center;
+  }
+  .hairSubServiceHead > h2 {
+    text-align: center;
+    font-size: 20px;
+  }
+  .hairSubServiceHead > h3 {
+    text-align: center;
+    font-size: 20px;
+  }
+  .hairSubServiceHead > h4 {
+    text-align: center;
+    font-size: 20px;
+  }
+  .hairSubServiceHead > h5 {
+    text-align: center;
+    font-size: 20px;
+  }
+  /* --------------------------------------------------------------------- */
+  .hairSubServiceWhat > h2 {
+    color: var(--customColor);
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+  }
+  .hairSubServiceWhat > h3 {
+    color: var(--customColor);
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+  }
+  /* ------------------------------------------------------------------------- */
+  .hairSubServiceWhy {
+    /* border: solid red; */
+    padding: 10px;
+  }
+  .hairSubServiceWhy > h5 {
+    font-size: 20px;
+    color: var(--customColor);
+    text-align: center;
+    width: 100%;
+  }
+  /* ------------------------------------------------------------------------- */
+  .hairSubServicerCustomerContent > p {
+    /* border: solid; */
+    font-size: 20px;
+    text-align: justify;
+    width: 100%;
+    line-height: 35px;
+    border-radius: 10px;
+    padding: 10px;
+  }
+}

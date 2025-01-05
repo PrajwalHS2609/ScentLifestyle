@@ -1,5 +1,5 @@
 import React from "react";
-import checked from "./../../../Images/checked.png";
+import checked from "./../../../../Images/checked.png";
 
 const NailExtensionInSahakaraWhyChoose = () => {
   return (

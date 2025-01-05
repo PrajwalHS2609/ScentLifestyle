@@ -29,7 +29,7 @@ const BlogHair = () => {
   };
   return (
     <div className="blogMainContainer">
-      <div className="blogMainDisplay1">
+      <div className="blogMainContent">
         <BlogCard
           img={trimBlog}
           head="Does Trimming Hair Make It Grow Faster?"
@@ -68,7 +68,7 @@ const BlogHair = () => {
         />
       </div>
 
-      <div className="blogMainDisplay2" ref={switchRef}>
+      <div className="blogMainDisplayContent" ref={switchRef}>
         <BlogCard
           img={hairKeratin}
           head="Why You Should Consider Keratin Hair Treatment"
