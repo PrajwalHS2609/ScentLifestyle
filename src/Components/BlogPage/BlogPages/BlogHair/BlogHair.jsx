@@ -14,6 +14,7 @@ import hairColorBanner from "./../../../../Images/Blog/25+ Hair Colors/Banner.pn
 import hairBotoxTreatmentBanner from "./../../../../Images/Blog/Hair_Botox_Treatment/Banner.png";
 import hairSpaTreatmentBanner from "./../../../../Images/Blog/Hair_Spa_Treatments/Banner.png";
 import hairBleachBanner from "./../../../../Images/Blog/How Often Should You Bleach Your Hair/Banner.png";
+import sheaButterBanner from "./../../../../Images/Blog/Shea Butter Hair Spa/Banner.png";
 
 const BlogHair = () => {
   let [toggle, setToggle] = useState(false);
@@ -116,6 +117,12 @@ const BlogHair = () => {
           head="How Often Should You Bleach Your Hair? Expert Advice"
           para="Bleaching your hair can be a transformative experience, offering a fresh and..."
           link="/how-often-should-you-bleach-your-hair"
+        />
+        <BlogCard
+          img={sheaButterBanner}
+          head="Revitalize Your Hair with the Magic of Shea Butter Hair Spa!"
+          para="Hair is one of the most defining aspects of our appearance, yet it often suffers from exposure to pollution..."
+          link="/revitalize-you-hair-with-the-magic-of-shea-butter-hair-spa"
         />
       </div>
 

@@ -22,7 +22,6 @@ const ClearerSkinFacialHeader = () => {
         , their benefits, and why they might be the perfect solution for
         achieving radiant, acne-free skin.
       </p>
-      <br />
     </div>
   );
 };

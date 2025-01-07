@@ -99,7 +99,7 @@
   .pediAndMainCureBenefits > h3 {
     color: var(--customColor);
     width: 100%;
-    text-align: start;
+    text-align: center;
     font-size: 20px;
   }
 }

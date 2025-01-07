@@ -154,7 +154,6 @@ import NailExtensionBangalore from "./Components/NaliSalonPage/NailExtensionBang
 import HairBotoxTreatment from "./Components/BlogPage/BlogInnerPages/HairBlogInnerPages/HairBotoxTreatment/HairBotoxTreatment";
 import HairHydrationSpa from "./Components/HairServicePage/HairHydrationSpa/HairHydrationSpa";
 import HairAntiDandruffSpa from "./Components/HairServicePage/HairAntiDandruffSpa/HairAntiDandruffSpa";
-import HairStraightening from "./Components/HairServicePage/HairStraightening/HairStraightening";
 import HairDetoxSpa from "./Components/HairServicePage/HairDetoxSpa/HairDetoxSpa";
 import HairColouredSpa from "./Components/HairServicePage/HairColouredSpa/HairColouredSpa";
 import HairSpaTreatment from "./Components/BlogPage/BlogInnerPages/HairBlogInnerPages/HairSpaTreatment/HairSpaTreatment";
@@ -228,6 +227,8 @@ import HairScalpTreatment from "./Components/HairSubService/HairScalpTreatment/H
 import HairMask from "./Components/HairSubService/HairMask/HairMask";
 import BlogLashes from "./Components/BlogPage/BlogPages/BlogLashes/BlogLashes";
 import NailExtensionInSahakaraNagar from "./Components/LocationServices/NailLocationServices/NailExtensionInSahakaraNagar/NailExtensionInSahakaraNagar";
+import HairStraightening from "./Components/HairSubService/HairStraightening/HairStraightening";
+import SheaButterHairSpa from "./Components/BlogPage/BlogInnerPages/HairBlogInnerPages/SheaButterHairSpa/SheaButterHairSpa";
 
 const MainApp = () => {
   const location = useLocation();
@@ -578,6 +579,10 @@ const MainApp = () => {
           path="/clearer-skin-happier-you-acne-cure-facial-secrets"
           element={<ClearerSkinFacial />}
         />
+        <Route
+          path="/revitalize-you-hair-with-the-magic-of-shea-butter-hair-spa"
+          element={<SheaButterHairSpa />}
+        />
         {/* ------------------------/blog------------------------      */}
 
         <Route path="/pre-bridal-treatments" element={<PrebridalPackage />} />
@@ -732,7 +737,7 @@ const MainApp = () => {
           path="/eyebrow-microblading-in-sahakara-nagar-bangalore"
           element={<MicroBladingInSahakarNagar />}
         />
-                <Route
+        <Route
           path="nail-extensions-near-sahakaranagar"
           element={<NailExtensionInSahakaraNagar />}
         />

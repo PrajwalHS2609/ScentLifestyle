@@ -16,7 +16,7 @@ import HairStraighteningWhat from "./HairStraighteningWhat";
 import HairStraighteningTips from "./HairStraighteningTips";
 import HairStraighteningWhy from "./HairStraighteningWhy";
 import hairStraightening from "./../../../Images/HairSalonInnerPage/HAIR SPA SERVICES.png";
-import HairSalonInMeadowsImg from "../../LocationServices/HairLocationServices/HairSalonInMeadows/HairSalonInMeadowsImg/HairSalonInMeadowsImg";
+import HairSubServiceImg from "../HairSubServiceImg";
 
 const HairStraightening = () => {
   return (
@@ -36,7 +36,7 @@ const HairStraightening = () => {
           href="https://scentlifestyle.com/hair-straightening-salon-in-bangalore"
         />
       </Helmet>
-      <HairSalonInMeadowsImg img={hairStraightening} alt={hairStraightening} />{" "}
+      <HairSubServiceImg img={hairStraightening} alt={hairStraightening} />{" "}
       <InnerNavi
         link="/hair-salon"
         service="Hair Salon"

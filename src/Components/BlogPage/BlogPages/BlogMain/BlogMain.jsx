@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./BlogMain.css";
+import BlogCard from "../BlogCard";
 import trimBlog from "./../../../../Images/Blog/Does Trimming Hair Make It Grow Faster.png";
 import BouncyHairBlog from "./../../../../Images/Blog/Hair Bouncy and Beautiful Curls During Monsoon.png";
 import BotoxImg from "./../../../../Images/Blog/HairBotoxImgs/HairBotox1.png";
@@ -26,7 +27,8 @@ import bodyWaxingMythBanner from "./../../../../Images/Blog/Body_waxing_myth/Ban
 import christmasOfferBanner from "./../../../../Images/Blog/Christmas_offer/Banner.png";
 import academyEnrollBanner from "./../../../../Images/Blog/Top_10_Reasons_to_ Enroll_in_ Salon_Academy/Banner.png";
 import clearerBanner from "./../../../../Images/Blog/Clearer Skin, Happier You Acne Cure Facial Secrets/Banner.png";
-import BlogCard from "../BlogCard";
+import sheaButterBanner from "./../../../../Images/Blog/Shea Butter Hair Spa/Banner.png";
+
 const BlogMain = () => {
   const blogs = [
     {
@@ -185,6 +187,12 @@ const BlogMain = () => {
       para: "Acne is one of the most common skin concerns affecting people of all ages Whether it's a persistent issue or...",
       link: "/clearer-skin-happier-you-acne-cure-facial-secrets",
     },
+    {
+      img: sheaButterBanner,
+      head: "Revitalize Your Hair with the Magic of Shea Butter Hair Spa!",
+      para: "Hair is one of the most defining aspects of our appearance, yet it often suffers from exposure to pollution...",
+      link: "/revitalize-you-hair-with-the-magic-of-shea-butter-hair-spa",
+    },
   ];
   const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = 9; // Number of blogs per page
@@ -207,7 +215,6 @@ const BlogMain = () => {
     });
   };
 
-
   const preloadImages = (page) => {
     const startIndex = (page - 1) * itemsPerPage;
     const endIndex = page * itemsPerPage;
@@ -224,7 +231,7 @@ const BlogMain = () => {
 
   return (
     <div className="blogMainContainer">
-      <div className="blogMainContent"   key={currentPage} >
+      <div className="blogMainContent" key={currentPage}>
         {currentBlogs.map((blog, index) => (
           <BlogCard
             key={index}
