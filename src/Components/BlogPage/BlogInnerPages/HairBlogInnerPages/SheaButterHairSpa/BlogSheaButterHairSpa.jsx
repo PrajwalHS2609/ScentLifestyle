@@ -11,10 +11,9 @@ import HairServImg from "../../HairBotox/HairServImg";
 import sheaButterHowOften from "./../../../../../Images/Blog/Shea Butter Hair Spa/How Often Should You Get a Shea Butter Hair Spa.png";
 import sheaButterHow from "./../../../../../Images/Blog/Shea Butter Hair Spa/How to Do a Shea Butter Hair Spa at Home.png";
 import sheaButterWhat from "./../../../../../Images/Blog/Shea Butter Hair Spa/What is Shea Butter Hair Spa.png";
-import ReactPlayer from "react-player";
 import InstaImages from "../../../../HomePage/InstaFeed/InstaImages";
 
-const SheaButterHairSpa = () => {
+const BlogSheaButterHairSpa = () => {
   return (
     <div>
       <Helmet>
@@ -54,4 +53,4 @@ const SheaButterHairSpa = () => {
   );
 };
 
-export default SheaButterHairSpa;
+export default BlogSheaButterHairSpa;

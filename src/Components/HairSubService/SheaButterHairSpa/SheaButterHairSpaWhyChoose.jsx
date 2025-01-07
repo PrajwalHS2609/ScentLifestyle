@@ -1,4 +1,5 @@
 import React from "react";
+import check from "./../../../Images/checked.png";
 
 const SheaButterHairSpaWhyChoose = () => {
   return (

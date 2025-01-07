@@ -228,7 +228,8 @@ import HairMask from "./Components/HairSubService/HairMask/HairMask";
 import BlogLashes from "./Components/BlogPage/BlogPages/BlogLashes/BlogLashes";
 import NailExtensionInSahakaraNagar from "./Components/LocationServices/NailLocationServices/NailExtensionInSahakaraNagar/NailExtensionInSahakaraNagar";
 import HairStraightening from "./Components/HairSubService/HairStraightening/HairStraightening";
-import SheaButterHairSpa from "./Components/BlogPage/BlogInnerPages/HairBlogInnerPages/SheaButterHairSpa/SheaButterHairSpa";
+import BlogSheaButterHairSpa from "./Components/BlogPage/BlogInnerPages/HairBlogInnerPages/SheaButterHairSpa/BlogSheaButterHairSpa";
+import SheaButterHairSpa from './Components/HairSubService/SheaButterHairSpa/SheaButterHairSpa';
 
 const MainApp = () => {
   const location = useLocation();
@@ -585,7 +586,7 @@ const MainApp = () => {
         />
         <Route
           path="/revitalize-you-hair-with-the-magic-of-shea-butter-hair-spa"
-          element={<SheaButterHairSpa />}
+          element={<BlogSheaButterHairSpa />}
         />
         {/* ------------------------/blog------------------------      */}
 

@@ -9,30 +9,36 @@ const SheaButterHairSpaTips = () => {
         simple tips:
       </p>
       <li>
-        <h6> Deep Conditioning:</h6>
-        <p>Restores your hair’s natural moisture and elasticity.</p>
+        <h6>
+          {" "}
+          1. Use sulfate-free shampoos and conditioners to preserve the
+          treatment’s benefits.
+        </h6>
       </li>
       <li>
-        <h6>Improved Hair Texture:</h6>
-        <p>Leaves your hair feeling soft, smooth, and luxurious.</p>
+        <h6>
+          2. Minimize heat styling and use a heat protectant when necessary.
+        </h6>{" "}
       </li>
       <li>
-        <h6>Enhanced Shine:</h6>
-        <p> Boosts your hair’s natural gloss and radiance.</p>
+        <h6>
+          3. Protect your hair from sun damage by wearing a hat or using a
+          UV-protective spray.
+        </h6>
       </li>
       <li>
-        <h6> Damage Repair:</h6>
-        <p>
-          Reverses the effects of over-styling, coloring, and environmental
-          stress.
-        </p>
+        <h6>
+          {" "}
+          4. Stay hydrated and eat a balanced diet to promote overall hair
+          health.
+        </h6>
       </li>
       <li>
-        <h6> Relaxation:</h6>
-        <p>
-          Enjoy a calming and indulgent experience that relieves stress and
-          rejuvenates your senses.
-        </p>
+        <h6>
+          {" "}
+          5. Schedule regular hair spa sessions at SCENT for ongoing nourishment
+          and care.
+        </h6>
       </li>
     </div>
   );

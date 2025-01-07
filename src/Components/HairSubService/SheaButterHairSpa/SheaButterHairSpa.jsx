@@ -9,6 +9,15 @@ import SheaButterHairSpaWhy from "./SheaButterHairSpaWhy";
 import SheaButterHairSpaWho from "./SheaButterHairSpaWho";
 import SheaButterHairSpaTips from "./SheaButterHairSpaTips";
 import SheaButterHairSpaBook from "./SheaButterHairSpaBook";
+import { Helmet } from "react-helmet";
+import Members from "../../HomePage/Members/Members";
+import OurSalon from "../../HomePage/OurSalon/OurSalon";
+import Partners from "../../HomePage/Partners/Partners";
+import InstaFeed from "../../HomePage/InstaFeed/InstaFeed";
+import HelpNearYou from "../../Help/HelpNearYou";
+import TextLocReviews from "../../TextLocReviews/TextLocReviews";
+import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
+import sheaButterBanner from "./../../../Images/HairSubService/Shea Butter Hair Spa in Bangalore.png";
 
 const SheaButterHairSpa = () => {
   return (
@@ -25,7 +34,7 @@ const SheaButterHairSpa = () => {
           href="https://scentlifestyle.com/shea-butter-hair-spa-in-bangalore"
         />
       </Helmet>
-      <HairSubServiceImg img={""} alt="" />{" "}
+      <HairSubServiceImg img={sheaButterBanner} alt="Shea Butter Banner" />{" "}
       <InnerNavi
         link="/hair-salon"
         service="Hair Salon"
@@ -33,6 +42,13 @@ const SheaButterHairSpa = () => {
       />
       <SheaButterHairSpaHead />
       <SheaButterHairSpaWhyChoose />
+      <Members />
+      <OurSalon />
+      <Partners />
+      <InstaFeed />
+      <HelpNearYou />
+      <TextLocReviews />
+      <ServiceWhy />
       <SheaButterHairSpaBenefits />
       <SheaButterHairSpaWhat />
       <SheaButterHairSpaWhy />
