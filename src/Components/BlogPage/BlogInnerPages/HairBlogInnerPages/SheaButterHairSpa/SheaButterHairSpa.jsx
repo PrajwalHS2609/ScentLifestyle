@@ -35,7 +35,7 @@ const SheaButterHairSpa = () => {
         <SheaButterHairSpaImg />
         <SheaButterHairSpaHead />
         <br />
-        <HairServImg hairBotoxImg={sheaButterHowOften} />
+        <HairServImg hairBotoxImg={sheaButterWhat} />
         <SheaButterHairSpaWhat />
         <br />
         <InstaImages vid="https://www.youtube.com/shorts/NeJANcK7fyg" />
@@ -45,7 +45,7 @@ const SheaButterHairSpa = () => {
         <HairServImg hairBotoxImg={sheaButterHow} />
         <SheaButterHairSpaHow />
         <br />
-        <HairServImg hairBotoxImg={sheaButterWhat} />
+        <HairServImg hairBotoxImg={sheaButterHowOften} />
         <SheaButterHairSpaHowOften />
         <br />
         <SheaButterHairSpaWhyChoose />
