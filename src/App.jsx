@@ -352,6 +352,10 @@ const MainApp = () => {
           path="/dandruff-treatment-in-bangalore"
           element={<DandruffTreatment />}
         />
+        <Route
+          path="/shea-butter-hair-spa-in-bangalore"
+          element={<SheaButterHairSpa />}
+        />
         {/* ------------------------------/hairSubService------------------- */}
         {/* --------------------------------------NearMe------------------------ */}
         <Route path="/nails-salon-near-me" element={<NailSalonNearMe />} />
