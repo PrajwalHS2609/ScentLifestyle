@@ -229,7 +229,8 @@ import BlogLashes from "./Components/BlogPage/BlogPages/BlogLashes/BlogLashes";
 import NailExtensionInSahakaraNagar from "./Components/LocationServices/NailLocationServices/NailExtensionInSahakaraNagar/NailExtensionInSahakaraNagar";
 import HairStraightening from "./Components/HairSubService/HairStraightening/HairStraightening";
 import BlogSheaButterHairSpa from "./Components/BlogPage/BlogInnerPages/HairBlogInnerPages/SheaButterHairSpa/BlogSheaButterHairSpa";
-import SheaButterHairSpa from './Components/HairSubService/SheaButterHairSpa/SheaButterHairSpa';
+import SheaButterHairSpa from "./Components/HairSubService/SheaButterHairSpa/SheaButterHairSpa";
+import BlogPedicureTreatmentDry from "./Components/BlogPage/BlogInnerPages/NailBlogInnerPages/PedicureTreatmentDry/BlogPedicureTreatmentDry";
 
 const MainApp = () => {
   const location = useLocation();
@@ -587,6 +588,10 @@ const MainApp = () => {
         <Route
           path="/revitalize-you-hair-with-the-magic-of-shea-butter-hair-spa"
           element={<BlogSheaButterHairSpa />}
+        />
+        <Route
+          path="/best-pedicure-treatments-for-dry-and-cracked-heel"
+          element={<BlogPedicureTreatmentDry />}
         />
         {/* ------------------------/blog------------------------      */}
 

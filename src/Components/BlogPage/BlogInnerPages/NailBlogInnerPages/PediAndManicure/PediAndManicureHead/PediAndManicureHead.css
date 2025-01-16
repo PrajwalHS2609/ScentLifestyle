@@ -59,19 +59,44 @@
 }
 
 .pediManicureHead > ul {
-  width: 80%;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
+  gap: 10px;
+}
+.pediManicureHead > ul > h4 {
+  font-size: 22px;
+  color: var(--customColor);
+  text-align: start;
+  width: 100%;
+}
+.pediManicureHead > ul > p {
+  font-size: 20px;
+  width: 100%;
+  text-align: justify;
 }
 .pediManicureHead > ul > li {
   font-size: 20px;
   margin: 10px;
+  list-style: none;
+  
+}
+.pediManicureHead > ul > li > p {
+  text-align: justify;
 }
 .pediManicureHead > ul > li > span {
   color: var(--customColor);
-  font-weight: bold;
+  font-weight: 500;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+.pediManicureHead > ul > li > span > img {
+  width: 20px;
+  height: 20px;
 }
 @media screen and (min-width: 320px) and (max-width: 768px) {
   .pediManicureHead > h1 {

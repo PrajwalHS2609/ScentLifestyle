@@ -28,6 +28,7 @@ import christmasOfferBanner from "./../../../../Images/Blog/Christmas_offer/Bann
 import academyEnrollBanner from "./../../../../Images/Blog/Top_10_Reasons_to_ Enroll_in_ Salon_Academy/Banner.png";
 import clearerBanner from "./../../../../Images/Blog/Clearer Skin, Happier You Acne Cure Facial Secrets/Banner.png";
 import sheaButterBanner from "./../../../../Images/Blog/Shea Butter Hair Spa/Banner.png";
+import pedicureTreatmentDryBanner from "./../../../../Images/Blog/Best Pedicure Treatments for Dry and Cracked Heels/Banner.png";
 
 const BlogMain = () => {
   const blogs = [
@@ -192,6 +193,12 @@ const BlogMain = () => {
       head: "Revitalize Your Hair with the Magic of Shea Butter Hair Spa!",
       para: "Hair is one of the most defining aspects of our appearance, yet it often suffers from exposure to pollution...",
       link: "/revitalize-you-hair-with-the-magic-of-shea-butter-hair-spa",
+    },
+    {
+      img: pedicureTreatmentDryBanner,
+      head: "Best Pedicure Treatments for Dry and Cracked Heels",
+      para: "Dry and cracked heels can be a common yet frustrating issue, especially for those who are on their feet all day or...",
+      link: "/best-pedicure-treatments-for-dry-and-cracked-heel",
     },
   ];
   const [currentPage, setCurrentPage] = useState(1);
