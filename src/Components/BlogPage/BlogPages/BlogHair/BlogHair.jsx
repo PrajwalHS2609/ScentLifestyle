@@ -15,6 +15,7 @@ import hairBotoxTreatmentBanner from "./../../../../Images/Blog/Hair_Botox_Treat
 import hairSpaTreatmentBanner from "./../../../../Images/Blog/Hair_Spa_Treatments/Banner.png";
 import hairBleachBanner from "./../../../../Images/Blog/How Often Should You Bleach Your Hair/Banner.png";
 import sheaButterBanner from "./../../../../Images/Blog/Shea Butter Hair Spa/Banner.png";
+import scalpDetoxBanner from "./../../../../Images/Blog/Scalp_Detox/Banner.png";
 
 const BlogHair = () => {
   let [toggle, setToggle] = useState(false);
@@ -123,6 +124,12 @@ const BlogHair = () => {
           head="Revitalize Your Hair with the Magic of Shea Butter Hair Spa!"
           para="Hair is one of the most defining aspects of our appearance, yet it often suffers from exposure to pollution..."
           link="/revitalize-you-hair-with-the-magic-of-shea-butter-hair-spa"
+        />
+        <BlogCard
+          img={scalpDetoxBanner}
+          head="Scalp Detox: Why It’s the Secret to Gorgeous Hair?"
+          para="When it comes to achieving long, thick, and shiny hair, most people focus on the quality of..."
+          link="/scalp-detox-why-its-the-secret-to-gorgeous-hair"
         />
       </div>
 

@@ -13,7 +13,7 @@ import ServiceWhy from "../../../MainServicePages/ServiceWhy/ServiceWhy";
 import SpaInSahakarNagarBenefits from './SpaInSahakarNagarBenefits';
 import SpaInSahakarNagarWhy from "./SpaInSahakarNagarWhy";
 import SpaInSahakarNagarHow from "./SpaInSahakarNagarHow";
-import SpaLocationImg from "../SpaLocationImg";
+import SpaLocationImg from "../../SpaLocationServices/SpaLocationImg";
 
 const SpaInSahakarNagar = () => {
   return (

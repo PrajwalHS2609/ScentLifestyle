@@ -29,6 +29,7 @@ import academyEnrollBanner from "./../../../../Images/Blog/Top_10_Reasons_to_ En
 import clearerBanner from "./../../../../Images/Blog/Clearer Skin, Happier You Acne Cure Facial Secrets/Banner.png";
 import sheaButterBanner from "./../../../../Images/Blog/Shea Butter Hair Spa/Banner.png";
 import pedicureTreatmentDryBanner from "./../../../../Images/Blog/Best Pedicure Treatments for Dry and Cracked Heels/Banner.png";
+import scalpDetoxBanner from "./../../../../Images/Blog/Scalp_Detox/Banner.png";
 
 const BlogMain = () => {
   const blogs = [
@@ -199,6 +200,12 @@ const BlogMain = () => {
       head: "Best Pedicure Treatments for Dry and Cracked Heels",
       para: "Dry and cracked heels can be a common yet frustrating issue, especially for those who are on their feet all day or...",
       link: "/best-pedicure-treatments-for-dry-and-cracked-heel",
+    },
+    {
+      img: scalpDetoxBanner,
+      head: "Scalp Detox: Why It’s the Secret to Gorgeous Hair?",
+      para: "When it comes to achieving long, thick, and shiny hair, most people focus on the quality of...",
+      link: "scalp-detox-why-its-the-secret-to-gorgeous-hair",
     },
   ];
   const [currentPage, setCurrentPage] = useState(1);

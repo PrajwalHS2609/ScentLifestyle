@@ -15,7 +15,7 @@ import NailSalonInSahakarNagarArt from './NailSalonInSahakarNagarArt';
 import NailSalonInSahakarNagarExtension from './NailSalonInSahakarNagarExtension';
 import NailSalonInSahakarNagarHealth from './NailSalonInSahakarNagarHealth';
 import InnerNavi from '../../../InnerServicePage/InnerNavi/InnerNavi';
-import NailLocationImg from '../NailLocationImg';
+import NailLocationImg from '../../NailLocationServices/NailLocationImg';
 
 const NailSalonInSahakarNagar = () => {
   return (

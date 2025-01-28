@@ -14,7 +14,7 @@ import MicroBladingInSahakarProcess from "./MicroBladingInSahakarProcess";
 import MicroBladingInSahakarWhyChoose from "./MicroBladingInSahakarWhyChoose";
 import MicroBladingInSahakarBook from "./MicroBladingInSahakarBook";
 import microbladingSahakarImg from "./../../../../Images/SahakarNagar/Eyeborw Microblading.png";
-import MicroBladingLocationImg from "../MicroBladingLocationImg";
+import MicroBladingLocationImg from "../../MicroBladingLocationServices/MicroBladingLocationImg";
 
 const MicroBladingInSahakarNagar = () => {
   return (

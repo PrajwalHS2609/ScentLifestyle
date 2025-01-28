@@ -13,7 +13,7 @@ import TextLocReviews from "../../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../../MainServicePages/ServiceWhy/ServiceWhy";
 import BeautyInSahakarNagarBenefits from "./BeautyInSahakarNagarBenefits";
 import BeautyInSahakarNagarBook from "./BeautyInSahakarNagarBook";
-import BeautyLocationImg from "../BeautyLocationImg";
+import BeautyLocationImg from "../../BeautyLocationServices/BeautyLocationImg";
 
 const BeautyInSahakarNagar = () => {
   return (

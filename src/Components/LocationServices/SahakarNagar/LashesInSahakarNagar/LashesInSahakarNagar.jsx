@@ -14,7 +14,7 @@ import LashesInSahakarNagarBenefit from "./LashesInSahakarNagarBenefit";
 import LashesInSahakarNagarBook from "./LashesInSahakarNagarBook";
 import lashesSahakarImg from "./../../../../Images/SahakarNagar/Eye Lashes.png";
 import LashesInSahakarNagarWhyChoose from "./LashesInSahakarNagarWhyChoose";
-import LashesLocationImg from "../LashesLocationImg";
+import LashesLocationImg from "../../LashesLocationServices/LashesLocationImg";
 
 const LashesInSahakarNagar = () => {
   return (

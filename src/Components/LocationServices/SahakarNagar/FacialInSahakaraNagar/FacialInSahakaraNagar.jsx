@@ -14,7 +14,7 @@ import ServiceWhy from "../../../MainServicePages/ServiceWhy/ServiceWhy";
 import FacialInSahakaraNagarXp from "./FacialInSahakaraNagarXp";
 import FacialInSahakaraNagarImp from './FacialInSahakaraNagarImp';
 import FacialInSahakaraNagarBook from './FacialInSahakaraNagarBook';
-import FacialLocationImg from "../FacialLocationImg";
+import FacialLocationImg from './../../FacialLocationServices/FacialLocationImg';
 
 const FacialInSahakaraNagar = () => {
   return (

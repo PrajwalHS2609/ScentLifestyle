@@ -19,7 +19,7 @@ import NailExtensionInSahakaraWhyChoose from "./NailExtensionInSahakaraWhyChoose
 import NailExtensionInSahakaraBook from "./NailExtensionInSahakaraBook";
 import { Helmet } from "react-helmet";
 import InnerNavi from "../../../InnerServicePage/InnerNavi/InnerNavi";
-import NailLocationImg from './../NailLocationImg';
+import NailLocationImg from "../../NailLocationServices/NailLocationImg";
 
 const NailExtensionInSahakaraNagar = () => {
   return (

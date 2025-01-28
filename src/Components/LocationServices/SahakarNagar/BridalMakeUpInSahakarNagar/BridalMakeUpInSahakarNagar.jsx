@@ -14,7 +14,7 @@ import BridalMakeUpInSahakarService from "./BridalMakeUpInSahakarService";
 import BridalMakeUpInSahakarBook from "./BridalMakeUpInSahakarBook";
 import BridalMakeUpInSahakarWhat from "./BridalMakeUpInSahakarWhat";
 import bridalSahakarImg from "./../../../../Images/SahakarNagar/Bridal Makeup.png";
-import BridalLocationImg from "../BridalLocationImg";
+import BridalLocationImg from "../../BridalLocationServices/BridalLocationImg";
 
 const BridalMakeUpInSahakarNagar = () => {
   return (
