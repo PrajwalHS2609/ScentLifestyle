@@ -24,9 +24,7 @@ const HomeRead = () => {
           <li>
             Welcome to <a href="https://scentlifestyle.com/">SCENT Salon Spa</a>
             , your premier destination for beauty and relaxation in Bangalore!
-            With six luxurious locations across the city at,
-            <a href="https://scentlifestyle.com/salon-in-jpnagar"> JP Nagar </a>
-            ,
+            With six luxurious locations across the city at ,
             <a href="https://scentlifestyle.com/salon-in-lavelle-road">
               {" "}
               Lavelle Road{" "}
@@ -417,7 +415,7 @@ const HomeRead = () => {
         </div>
         <button className="readBut">
           <h6 className="openBut" onClick={open}>
-          Read {toggle ? "Less" : "More"}
+            Read {toggle ? "Less" : "More"}
           </h6>
         </button>
       </div>

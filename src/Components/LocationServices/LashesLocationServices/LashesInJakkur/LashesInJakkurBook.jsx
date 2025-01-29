@@ -12,7 +12,7 @@ const LashesInJakkurBook = () => {
         services? Booking your appointment is easy! Contact us today to schedule
         a consultation or service. Our friendly staff is here to answer any
         questions you may have and to help you achieve the perfect look with{" "}
-        <a href="https://scentlifestyle.com/eye-lashes-in-jakkurx`">
+        <a href="https://scentlifestyle.com/eye-lashes-in-jakkur`">
           Eye Lashes in Jakkur
         </a>
         .
