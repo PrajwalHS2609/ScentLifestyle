@@ -232,6 +232,10 @@ import LashesInSahakarNagar from "./Components/LocationServices/SahakarNagar/Las
 import BridalMakeUpInSahakarNagar from "./Components/LocationServices/SahakarNagar/BridalMakeUpInSahakarNagar/BridalMakeUpInSahakarNagar";
 import MicroBladingInSahakarNagar from "./Components/LocationServices/SahakarNagar/MicroBladingInSahakarNagar/MicroBladingInSahakarNagar";
 import NailExtensionInSahakaraNagar from "./Components/LocationServices/SahakarNagar/NailExtensionInSahakaraNagar/NailExtensionInSahakaraNagar";
+import HairBotoxNearSahakarNagar from "./Components/LocationServices/SahakarNagar/HairBotoxTreatmentNearSahakarNagar/HairBotoxNearSahakarNagar";
+import HairBotoxNearWhitefield from "./Components/LocationServices/Whitefield/HairBotoxTreatmentNearWhitefield/HairBotoxNearWhitefield";
+import HairBotoxNearJakkur from "./Components/LocationServices/Jakkur/HairBotoxTreatmentNearJakkur/HairBotoxNearJakkur";
+import HairBotoxTreatmentNearLavelle from "./Components/LocationServices/Lavelle/HairBotoxTreatmentNearLavelle/HairBotoxTreatmentNearLavelle";
 
 const MainApp = () => {
   const location = useLocation();
@@ -757,6 +761,11 @@ const MainApp = () => {
           path="nail-extensions-near-sahakaranagar"
           element={<NailExtensionInSahakaraNagar />}
         />
+        <Route
+          path="hair-botox-treatments-near-sahakara-nagar"
+          element={<HairBotoxNearSahakarNagar />}
+        />
+
         {/* ----------------------/InSahakarnagar---------------------- */}
 
         {/* ----------------------InMeadows---------------------- */}
@@ -794,7 +803,10 @@ const MainApp = () => {
           element={<NailExtensionInMeadows />}
         />
         {/* ----------------------/InMeadows---------------------- */}
-
+        <Route
+          path="hair-botox-treatments-near-whitefield"
+          element={<HairBotoxNearWhitefield />}
+        />
         {/* -------------------InLavelleRoad-------------------- */}
         <Route
           path="/hair-salon-in-lavelle-road"
@@ -825,6 +837,10 @@ const MainApp = () => {
           path="/nail-extensions-near-lavelle-road"
           element={<NailExtensionInLavelle />}
         />
+        <Route
+          path="hair-botox-treatments-near-lavelle-road"
+          element={<HairBotoxTreatmentNearLavelle />}
+        />
         {/* -----------------------/InLavelleRoad-------------------- */}
         {/*-----------------InJakkur------------------------------------ */}
         <Route path="/hair-salon-in-jakkur" element={<HairSalonInJakkur />} />
@@ -848,7 +864,10 @@ const MainApp = () => {
           path="/nail-extensions-near-jakkur"
           element={<NailExtensionInJakkur />}
         />
-
+        <Route
+          path="hair-botox-treatments-near-jakkur"
+          element={<HairBotoxNearJakkur />}
+        />
         {/* -----------------------InUptown--------------------------- */}
         <Route
           path="/hair-salon-in-uptown-whitefield-bangalore"

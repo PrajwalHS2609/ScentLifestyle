@@ -32,7 +32,6 @@ const HairBotoxNearSahakarNagarHead = () => {
         this treatment.
       </p>
       <br />
-      <div className="HairSalonInSahakaraHead">
         <h3>What is Hair Botox?</h3>
         <p>
           Hair Botox is a deep conditioning treatment that helps to restore and
@@ -43,7 +42,7 @@ const HairBotoxNearSahakarNagarHead = () => {
         </p>
         <p>
           Unlike regular keratin treatments,{" "}
-          <a href="">Hair Botox Treatments near Sahakara Nagar </a> don’t
+          <a href="https://scentlifestyle.com/hair-treatments">Hair Botox Treatments near Sahakara Nagar </a> don’t
           involve harmful chemicals or formaldehyde. Instead, the treatment uses
           a blend of nourishing ingredients like vitamins, proteins, and natural
           oils that help repair damaged strands, reduce frizz, and add volume.
@@ -51,7 +50,6 @@ const HairBotoxNearSahakarNagarHead = () => {
           with hair that has been affected by heat styling, environmental
           stress, and chemical treatments.
         </p>
-      </div>
     </div>
   );
 };
