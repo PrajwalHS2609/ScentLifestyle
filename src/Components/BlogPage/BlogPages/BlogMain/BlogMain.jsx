@@ -30,6 +30,8 @@ import clearerBanner from "./../../../../Images/Blog/Clearer Skin, Happier You A
 import sheaButterBanner from "./../../../../Images/Blog/Shea Butter Hair Spa/Banner.png";
 import pedicureTreatmentDryBanner from "./../../../../Images/Blog/Best Pedicure Treatments for Dry and Cracked Heels/Banner.png";
 import scalpDetoxBanner from "./../../../../Images/Blog/Scalp_Detox/Banner.png";
+import tenReasonHaircutBanner from "./../../../../Images/Blog/10_Reason_HairCut/Banner.png";
+import doScalpMassagesBanner from "./../../../../Images/Blog/Do_Scalp_Massage_Promote/Banner.png";
 
 const BlogMain = () => {
   const blogs = [
@@ -205,7 +207,20 @@ const BlogMain = () => {
       img: scalpDetoxBanner,
       head: "Scalp Detox: Why It’s the Secret to Gorgeous Hair?",
       para: "When it comes to achieving long, thick, and shiny hair, most people focus on the quality of...",
-      link: "scalp-detox-why-its-the-secret-to-gorgeous-hair",
+      link: "/scalp-detox-why-its-the-secret-to-gorgeous-hair",
+    },
+
+    {
+      img: tenReasonHaircutBanner,
+      head: "10 Reasons to Schedule Regular Haircuts",
+      para: "A great haircut is more than just a grooming necessity—it’s a way to express your personality, enhance your ...",
+      link: "/10-reasons-to-schedule-regular-haircuts",
+    },
+    {
+      img: doScalpMassagesBanner,
+      head: "Do Scalp Massages Truly Promote Hair Growth?",
+      para: "Hair care is a universal concern, and everyone dreams of lush, healthy hair. Among the many hair care...",
+      link: "/do-scalp-massages-truly-promote-hair-growth",
     },
   ];
   const [currentPage, setCurrentPage] = useState(1);

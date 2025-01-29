@@ -236,6 +236,8 @@ import HairBotoxNearSahakarNagar from "./Components/LocationServices/SahakarNaga
 import HairBotoxNearWhitefield from "./Components/LocationServices/Whitefield/HairBotoxTreatmentNearWhitefield/HairBotoxNearWhitefield";
 import HairBotoxNearJakkur from "./Components/LocationServices/Jakkur/HairBotoxTreatmentNearJakkur/HairBotoxNearJakkur";
 import HairBotoxTreatmentNearLavelle from "./Components/LocationServices/Lavelle/HairBotoxTreatmentNearLavelle/HairBotoxTreatmentNearLavelle";
+import TenReasonHaircut from "./Components/BlogPage/BlogInnerPages/HairBlogInnerPages/TenReasonHaircut/TenReasonHaircut";
+import DoScalpMassages from "./Components/BlogPage/BlogInnerPages/HairBlogInnerPages/DoScalpMassages/DoScalpMassages";
 
 const MainApp = () => {
   const location = useLocation();
@@ -602,7 +604,14 @@ const MainApp = () => {
           path="/scalp-detox-why-its-the-secret-to-gorgeous-hair"
           element={<ScalpDetox />}
         />
-
+        <Route
+          path="/10-reasons-to-schedule-regular-haircuts"
+          element={<TenReasonHaircut />}
+        />
+        <Route
+          path="/do-scalp-massages-truly-promote-hair-growth"
+          element={<DoScalpMassages />}
+        />
         {/* ------------------------/blog------------------------      */}
 
         <Route path="/pre-bridal-treatments" element={<PrebridalPackage />} />
