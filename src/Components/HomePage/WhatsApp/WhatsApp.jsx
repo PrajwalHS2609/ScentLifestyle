@@ -11,7 +11,7 @@ const WhatsApp = () => {
         accountName="SCENT"
         avatar={Scent} // Optional
         statusMessage="Typically replies within 5 min" // Optional
-        chatMessage="🎄Hello December! Treat yourself or someone special to SCENT’s exclusive holiday beauty offers. Pamper,glow and celebrate in style book today!" // Optional
+        chatMessage="Welcome, February! Celebrate love with SCENT’s exclusive offers. Treat yourself or a loved one to glow-enhancing treatments. Book now and shine bright this month with SCENT." // Optional
         placeholder="Type a message..." // Optional
       />
     </div>
