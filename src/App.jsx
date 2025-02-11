@@ -238,6 +238,7 @@ import HairBotoxNearJakkur from "./Components/LocationServices/Jakkur/HairBotoxT
 import HairBotoxTreatmentNearLavelle from "./Components/LocationServices/Lavelle/HairBotoxTreatmentNearLavelle/HairBotoxTreatmentNearLavelle";
 import TenReasonHaircut from "./Components/BlogPage/BlogInnerPages/HairBlogInnerPages/TenReasonHaircut/TenReasonHaircut";
 import DoScalpMassages from "./Components/BlogPage/BlogInnerPages/HairBlogInnerPages/DoScalpMassages/DoScalpMassages";
+import TrendyHairHighlight from "./Components/BlogPage/BlogInnerPages/HairBlogInnerPages/TrendyHairHighlight/TrendyHairHighlight";
 
 const MainApp = () => {
   const location = useLocation();
@@ -611,6 +612,10 @@ const MainApp = () => {
         <Route
           path="/do-scalp-massages-truly-promote-hair-growth"
           element={<DoScalpMassages />}
+        />
+        <Route
+          path="/2025-trendy-hair-highlights-youll-love"
+          element={<TrendyHairHighlight />}
         />
         {/* ------------------------/blog------------------------      */}
 

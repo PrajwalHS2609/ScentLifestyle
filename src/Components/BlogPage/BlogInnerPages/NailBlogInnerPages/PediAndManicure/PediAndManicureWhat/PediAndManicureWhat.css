@@ -53,6 +53,12 @@
   gap: 10px;
   width: 100%;
 }
+.pediManicureWhat > ul > li>h6 {
+  color: var(--customColor);
+  font-size: 18px;
+  font-weight:600;
+}
+
 .pediManicureWhat > ul > li > ul > li {
   list-style: none;
   font-size: 20px;
@@ -74,6 +80,8 @@
   color: var(--customColor);
   text-align: start;
 }
+
+
 .pediManicureWhat > ul > li > span {
   display: flex;
   justify-content: center;

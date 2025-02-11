@@ -18,6 +18,7 @@ import sheaButterBanner from "./../../../../Images/Blog/Shea Butter Hair Spa/Ban
 import scalpDetoxBanner from "./../../../../Images/Blog/Scalp_Detox/Banner.png";
 import tenReasonHaircutBanner from "./../../../../Images/Blog/10_Reason_HairCut/Banner.png";
 import doScalpMassagesBanner from "./../../../../Images/Blog/Do_Scalp_Massage_Promote/Banner.png";
+import HairTrends from "./../../../../Images/Blog/2025HairTrends/Banner.png";
 
 const BlogHair = () => {
   let [toggle, setToggle] = useState(false);
@@ -145,6 +146,12 @@ const BlogHair = () => {
           head="Do Scalp Massages Truly Promote Hair Growth?"
           para="Hair care is a universal concern, and everyone dreams of lush, healthy hair. Among the many hair care..."
           link="/do-scalp-massages-truly-promote-hair-growth"
+        />
+        <BlogCard
+          img={HairTrends}
+          head="2025 Trendy Hair Highlights You’ll Love!"
+          para="Are you looking to refresh your look with the hottest hair highlights trends of 2025? Whether you're..."
+          link="/2025-trendy-hair-highlights-youll-love"
         />
       </div>
 
