@@ -37,7 +37,7 @@ const HairBotoxNearSahakarNagar = () => {
       <InnerNavi
         link="/hair-salon"
         service="Hair Salon"
-        currService="Hair Botox in Sahakara Nagar"
+        currService="Hair Botox Near Sahakara Nagar"
       />
       <HairBotoxNearSahakarNagarHead />
       <Members />

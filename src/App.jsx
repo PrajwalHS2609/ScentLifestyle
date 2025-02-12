@@ -239,6 +239,10 @@ import HairBotoxTreatmentNearLavelle from "./Components/LocationServices/Lavelle
 import TenReasonHaircut from "./Components/BlogPage/BlogInnerPages/HairBlogInnerPages/TenReasonHaircut/TenReasonHaircut";
 import DoScalpMassages from "./Components/BlogPage/BlogInnerPages/HairBlogInnerPages/DoScalpMassages/DoScalpMassages";
 import TrendyHairHighlight from "./Components/BlogPage/BlogInnerPages/HairBlogInnerPages/TrendyHairHighlight/TrendyHairHighlight";
+import HairBotoxInSahakarNagar from "./Components/LocationServices/SahakarNagar/HairBotoxInSahakarNagar/HairBotoxInSahakarNagar";
+import HairBotoxInLavelle from "./Components/LocationServices/Lavelle/HairBotoxInLavelle/HairBotoxInLavelle";
+import HairBotoxInJakkur from "./Components/LocationServices/Jakkur/HairBotoxInJakkur/HairBotoxInJakkur";
+import HairBotoxInWhitefield from "./Components/LocationServices/Whitefield/HairBotoxInWhitefield/HairBotoxInWhitefield";
 
 const MainApp = () => {
   const location = useLocation();
@@ -772,12 +776,16 @@ const MainApp = () => {
           element={<MicroBladingInSahakarNagar />}
         />
         <Route
-          path="nail-extensions-near-sahakaranagar"
+          path="/nail-extensions-near-sahakaranagar"
           element={<NailExtensionInSahakaraNagar />}
         />
         <Route
-          path="hair-botox-treatments-near-sahakara-nagar"
+          path="/hair-botox-treatments-near-sahakara-nagar"
           element={<HairBotoxNearSahakarNagar />}
+        />
+        <Route
+          path="/hair-botox-treatment-in-sahakara-nagar"
+          element={<HairBotoxInSahakarNagar />}
         />
 
         {/* ----------------------/InSahakarnagar---------------------- */}
@@ -817,10 +825,18 @@ const MainApp = () => {
           element={<NailExtensionInMeadows />}
         />
         {/* ----------------------/InMeadows---------------------- */}
+        {/* ----------------------InWhitefield---------------------- */}
+
         <Route
-          path="hair-botox-treatments-near-whitefield"
+          path="/hair-botox-treatments-near-whitefield"
           element={<HairBotoxNearWhitefield />}
         />
+        <Route
+          path="/hair-botox-treatment-in-whitefield"
+          element={<HairBotoxInWhitefield />}
+        />
+        {/* ----------------------/InWhitefield---------------------- */}
+
         {/* -------------------InLavelleRoad-------------------- */}
         <Route
           path="/hair-salon-in-lavelle-road"
@@ -855,6 +871,10 @@ const MainApp = () => {
           path="hair-botox-treatments-near-lavelle-road"
           element={<HairBotoxTreatmentNearLavelle />}
         />
+        <Route
+          path="/hair-botox-treatment-in-lavelle-road"
+          element={<HairBotoxInLavelle />}
+        />
         {/* -----------------------/InLavelleRoad-------------------- */}
         {/*-----------------InJakkur------------------------------------ */}
         <Route path="/hair-salon-in-jakkur" element={<HairSalonInJakkur />} />
@@ -881,6 +901,10 @@ const MainApp = () => {
         <Route
           path="hair-botox-treatments-near-jakkur"
           element={<HairBotoxNearJakkur />}
+        />
+        <Route
+          path="/hair-botox-treatment-in-jakkur"
+          element={<HairBotoxInJakkur />}
         />
         {/* -----------------------InUptown--------------------------- */}
         <Route
