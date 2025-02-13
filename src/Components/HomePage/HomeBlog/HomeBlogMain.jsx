@@ -1,31 +1,31 @@
 import React from "react";
 import "./HomeBlog.css";
 import HomeBlogCard from "./HomeBlogCard";
-import clearerBanner from "./../../../Images/Blog/Clearer Skin, Happier You Acne Cure Facial Secrets/Banner.png";
-import sheaButterBanner from "./../../../Images/Blog/Shea Butter Hair Spa/Banner.png";
-import pedicureTreatmentDryBanner from "./../../../Images/Blog/Best Pedicure Treatments for Dry and Cracked Heels/Banner.png";
+import doScalpMassagesBanner from "./../../../Images/Blog/Do_Scalp_Massage_Promote/Banner.png";
+import HairTrends from "./../../../Images/Blog/2025HairTrends/Banner.png";
+import prefectPreDateBanner from "./../../../Images/Blog/PerfectPreDate/Banner.png";
 import { Link } from "react-router-dom";
 const HomeBlogMain = () => {
   return (
     <div className="homeBlogMain">
       <div className="homeBlogMainContainer">
         <HomeBlogCard
-          img={pedicureTreatmentDryBanner}
-          head="Best Pedicure Treatments for Dry and Cracked Heels"
-          para="Dry and cracked heels can be a common yet frustrating issue, especially for those who are on their feet all day or..."
-          link="/best-pedicure-treatments-for-dry-and-cracked-heel"
-        />{" "}
-        <HomeBlogCard
-          img={sheaButterBanner}
-          head="Revitalize Your Hair with the Magic of Shea Butter Hair Spa!"
-          para="Hair is one of the most defining aspects of our appearance, yet it often suffers from exposure to pollution..."
-          link="/revitalize-you-hair-with-the-magic-of-shea-butter-hair-spa"
+          img={doScalpMassagesBanner}
+          head="Do Scalp Massages Truly Promote Hair Growth?"
+          para="Hair care is a universal concern, and everyone dreams of lush, healthy hair. Among the many hair care..."
+          link="/do-scalp-massages-truly-promote-hair-growth"
         />
         <HomeBlogCard
-          img={clearerBanner}
-          head="Clearer Skin, Happier You: Acne Cure Facial Secrets"
-          para="Acne is one of the most common skin concerns affecting people of all ages Whether it's a persistent issue or..."
-          link="/clearer-skin-happier-you-acne-cure-facial-secrets"
+          img={HairTrends}
+          head="2025 Trendy Hair Highlights You’ll Love!"
+          para="Are you looking to refresh your look with the hottest hair highlights trends of 2025? Whether you're..."
+          link="/2025-trendy-hair-highlights-youll-love"
+        />
+        <HomeBlogCard
+          img={prefectPreDateBanner}
+          head="The Perfect Pre-Date Beauty Routine for a Magical Valentine's Day"
+          para="Valentine’s Day is the perfect occasion to celebrate love, whether you’re planning a romantic..."
+          link="/the-perfect-pre-date-beauty-routine-for-a-magical-valentines-day"
         />
       </div>
       <div className="homeBlogBtn">

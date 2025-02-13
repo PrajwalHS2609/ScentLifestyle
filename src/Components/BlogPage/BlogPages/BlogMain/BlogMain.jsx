@@ -33,6 +33,7 @@ import scalpDetoxBanner from "./../../../../Images/Blog/Scalp_Detox/Banner.png";
 import tenReasonHaircutBanner from "./../../../../Images/Blog/10_Reason_HairCut/Banner.png";
 import doScalpMassagesBanner from "./../../../../Images/Blog/Do_Scalp_Massage_Promote/Banner.png";
 import HairTrends from "./../../../../Images/Blog/2025HairTrends/Banner.png";
+import prefectPreDateBanner from "./../../../../Images/Blog/PerfectPreDate/Banner.png";
 
 const BlogMain = () => {
   const blogs = [
@@ -228,6 +229,12 @@ const BlogMain = () => {
       head: "2025 Trendy Hair Highlights You’ll Love!",
       para: "Are you looking to refresh your look with the hottest hair highlights trends of 2025? Whether you're...",
       link: "/2025-trendy-hair-highlights-youll-love",
+    },
+    {
+      img: prefectPreDateBanner,
+      head: "The Perfect Pre-Date Beauty Routine for a Magical Valentine's Day",
+      para: "Valentine’s Day is the perfect occasion to celebrate love, whether you’re planning a romantic ...",
+      link: "/the-perfect-pre-date-beauty-routine-for-a-magical-valentines-day",
     },
   ];
   const [currentPage, setCurrentPage] = useState(1);

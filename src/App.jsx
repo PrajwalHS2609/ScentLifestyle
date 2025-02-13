@@ -243,6 +243,7 @@ import HairBotoxInSahakarNagar from "./Components/LocationServices/SahakarNagar/
 import HairBotoxInLavelle from "./Components/LocationServices/Lavelle/HairBotoxInLavelle/HairBotoxInLavelle";
 import HairBotoxInJakkur from "./Components/LocationServices/Jakkur/HairBotoxInJakkur/HairBotoxInJakkur";
 import HairBotoxInWhitefield from "./Components/LocationServices/Whitefield/HairBotoxInWhitefield/HairBotoxInWhitefield";
+import PerfectPreDate from "./Components/BlogPage/BlogInnerPages/OtherBlogInnerPages/PerfectPreDate/PerfectPreDate";
 
 const MainApp = () => {
   const location = useLocation();
@@ -620,6 +621,10 @@ const MainApp = () => {
         <Route
           path="/2025-trendy-hair-highlights-youll-love"
           element={<TrendyHairHighlight />}
+        />
+        <Route
+          path="/the-perfect-pre-date-beauty-routine-for-a-magical-valentines-day"
+          element={<PerfectPreDate />}
         />
         {/* ------------------------/blog------------------------      */}
 
