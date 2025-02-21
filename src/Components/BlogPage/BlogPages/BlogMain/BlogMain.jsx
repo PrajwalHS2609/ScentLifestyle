@@ -34,6 +34,7 @@ import tenReasonHaircutBanner from "./../../../../Images/Blog/10_Reason_HairCut/
 import doScalpMassagesBanner from "./../../../../Images/Blog/Do_Scalp_Massage_Promote/Banner.png";
 import HairTrends from "./../../../../Images/Blog/2025HairTrends/Banner.png";
 import prefectPreDateBanner from "./../../../../Images/Blog/PerfectPreDate/Banner.png";
+import reasonsToTreatFeetBanner from "./../../../../Images/Blog/top_reasons_treat_feet/Banner.png";
 
 const BlogMain = () => {
   const blogs = [
@@ -235,6 +236,12 @@ const BlogMain = () => {
       head: "The Perfect Pre-Date Beauty Routine for a Magical Valentine's Day",
       para: "Valentine’s Day is the perfect occasion to celebrate love, whether you’re planning a romantic ...",
       link: "/the-perfect-pre-date-beauty-routine-for-a-magical-valentines-day",
+    },
+    {
+      img: reasonsToTreatFeetBanner,
+      head: "Top Reasons to Treat Your Feet to a Pedicalm-Glyco Foot Facial",
+      para: "Time to give your feet the happy feet they deserve! Pedicalm-Glyco Foot Facial will have them feeling...",
+      link: "/top-reasons-to-treat-your-feet-to-a-pedicalm-glyco-foot-facial",
     },
   ];
   const [currentPage, setCurrentPage] = useState(1);

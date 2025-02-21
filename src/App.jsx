@@ -249,6 +249,7 @@ import KeratinTreatmentInLavelle from "./Components/LocationServices/Lavelle/Ker
 import KeratinTreatmentInJakkur from "./Components/LocationServices/Jakkur/KeratinTreatmentInJakkur/KeratinTreatmentInJakkur";
 import KeratinTreatmentInSahakarNagar from "./Components/LocationServices/SahakarNagar/KeratinTreatmentInSahakarNagar/KeratinTreatmentInSahakarNagar";
 import KeratinTreatmentInWhitefield from "./Components/LocationServices/Whitefield/KeratinTreatmentInWhitefield/KeratinTreatmentInWhitefield";
+import ReasonsToTreatFeet from "./Components/BlogPage/BlogInnerPages/NailBlogInnerPages/ReasonsToTreatFeet/ReasonsToTreatFeet";
 
 const MainApp = () => {
   const location = useLocation();
@@ -631,6 +632,11 @@ const MainApp = () => {
           path="/the-perfect-pre-date-beauty-routine-for-a-magical-valentines-day"
           element={<PerfectPreDate />}
         />
+        <Route
+          path="/top-reasons-to-treat-your-feet-to-a-pedicalm-glyco-foot-facial"
+          element={<ReasonsToTreatFeet />}
+        />
+
         {/* ------------------------/blog------------------------      */}
 
         <Route path="/pre-bridal-treatments" element={<PrebridalPackage />} />
@@ -797,7 +803,7 @@ const MainApp = () => {
           path="/hair-botox-treatment-in-sahakara-nagar"
           element={<HairBotoxInSahakarNagar />}
         />
-       <Route
+        <Route
           path="/keratin-hair-treatments-in-sahakara-nagar"
           element={<KeratinTreatmentInSahakarNagar />}
         />
@@ -848,7 +854,7 @@ const MainApp = () => {
           path="/hair-botox-treatment-in-whitefield"
           element={<HairBotoxInWhitefield />}
         />
-               <Route
+        <Route
           path="/keratin-hair-treatments-in-whitefield"
           element={<KeratinTreatmentInWhitefield />}
         />

@@ -1,6 +1,7 @@
 import React, { useRef, useState } from "react";
 import BlogCard from "../BlogCard";
 import pedimanicurebanner from "./../../../../Images/Blog/Pedi&manicureBlog/Banner Image.png";
+import reasonsToTreatFeetBanner from "./../../../../Images/Blog/top_reasons_treat_feet/Banner.png";
 
 const BlogNail = () => {
   let [toggle, setToggle] = useState(false);
@@ -22,6 +23,12 @@ const BlogNail = () => {
           head="Exploring the Benefits of Professional Pedicures and Manicures "
           para="When it comes to self-care and personal grooming, professional pedicures and manicures are ..."
           link="/exploring-the-benefits-of-professional-pedicures-and-manicures"
+        />
+        <BlogCard
+          img={reasonsToTreatFeetBanner}
+          head="Top Reasons to Treat Your Feet to a Pedicalm-Glyco Foot Facial "
+          para="Time to give your feet the happy feet they deserve! Pedicalm-Glyco Foot Facial will have them feeling..."
+          link="/top-reasons-to-treat-your-feet-to-a-pedicalm-glyco-foot-facial"
         />
       </div>
 
