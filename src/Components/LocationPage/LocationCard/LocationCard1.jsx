@@ -84,7 +84,7 @@ const LocationCard1 = (props) => {
           </div>
         </div>
         <div className="locButton">
-          <a href="https://api.whatsapp.com/send?phone=919742232700">
+          <a href="https://scent.zenoti.com/webstoreNew/services">
             <button>Book Now</button>
           </a>
         </div>

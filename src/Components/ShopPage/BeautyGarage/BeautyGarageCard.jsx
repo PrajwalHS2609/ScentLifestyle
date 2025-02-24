@@ -1,7 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faIndianRupee } from "@fortawesome/free-solid-svg-icons";
-import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
+import { faIndianRupee,faArrowRight } from "@fortawesome/free-solid-svg-icons";
+// import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 
 const BeautyGarageCard = (props) => {
   return (
@@ -23,10 +23,10 @@ const BeautyGarageCard = (props) => {
           </pre>
         </div>
         <button>
-        <a href="https://api.whatsapp.com/send?phone=919742232700">
+        <a href="https://scent.zenoti.com/webstoreNew/services">
           Buy 
           <FontAwesomeIcon
-            icon={faWhatsapp}
+            icon={faArrowRight}
             className="beautyWhats"
           ></FontAwesomeIcon>
           </a>

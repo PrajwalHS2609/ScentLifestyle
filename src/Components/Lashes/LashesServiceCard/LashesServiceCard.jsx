@@ -17,7 +17,7 @@ const LashesServiceCard = (props) => {
               <p>{props.para}</p>
             </div>
             <div className="lashesCardBut">
-              <a href="https://api.whatsapp.com/send?phone=919742232700">
+              <a href="https://scent.zenoti.com/webstoreNew/services">
                 <button>BOOK AN APPOINTMENT</button>
               </a>
             </div>
@@ -49,7 +49,7 @@ const LashesServiceCard = (props) => {
               <p>{props.para}</p>
             </div>
             <div className="respLashesServiceCardBut">
-              <a href="https://api.whatsapp.com/send?phone=919742232700">
+              <a href="https://scent.zenoti.com/webstoreNew/services">
                 <button>BOOK AN APPOINTMENT</button>
               </a>
             </div>

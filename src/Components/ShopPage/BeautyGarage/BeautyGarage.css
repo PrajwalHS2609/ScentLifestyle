@@ -62,7 +62,7 @@
   width: 90%;
 }
 .beautyGarageCardHead > h2 {
-  font-size: 110%;
+  font-size: 15px;
   text-align: center;
   color: var(--customColor);
 }
@@ -113,6 +113,6 @@ text-decoration: none;
   gap: 10px;
 }
 .beautyWhats {
-  height: 90%;
+font-size: 20px;
   color: #00a884;
 }

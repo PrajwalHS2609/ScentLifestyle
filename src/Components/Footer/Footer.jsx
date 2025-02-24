@@ -149,7 +149,7 @@ const Footer = () => {
                 </a>
               </div>
               <div className="block">
-                <a href="https://api.whatsapp.com/send?phone=919742232700">
+                <a href="https://scent.zenoti.com/webstoreNew/services">
                   <FontAwesomeIcon
                     icon={faWhatsapp}
                     className="footerIcon"

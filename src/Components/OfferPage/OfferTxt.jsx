@@ -7,7 +7,7 @@ const OfferTxt = () => {
         <h3>Book Now </h3>
       </div>
       <button className="offerTxtWrapper">
-        <a href="https://api.whatsapp.com/send?phone=919742232700">{""}</a>
+        <a href="https://scent.zenoti.com/webstoreNew/services">{""}</a>
         <div className="offerTxtContent" id="offerTxtContent2">
           <sup>for</sup>
           <h3>Rs.7999/-</h3>

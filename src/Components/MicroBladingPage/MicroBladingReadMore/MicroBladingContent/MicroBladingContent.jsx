@@ -28,7 +28,7 @@ const MicroBladingContent = () => {
           premier eyebrow microblading service.
         </p>
         <button>
-          <a href="https://api.whatsapp.com/send?phone=919742232700">Book Now</a>
+          <a href="https://scent.zenoti.com/webstoreNew/services">Book Now</a>
         </button>
       </div>
     </div>

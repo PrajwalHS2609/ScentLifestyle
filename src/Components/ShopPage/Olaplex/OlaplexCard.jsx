@@ -1,6 +1,8 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
+// import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+
 import "./Olaplex.css";
 
 const OlaplexCard = (props) => {
@@ -14,10 +16,10 @@ const OlaplexCard = (props) => {
           <h2>{props.txt}</h2>
         </div>
         <button>
-          <a href="https://api.whatsapp.com/send?phone=919742232700">
+          <a href="https://scent.zenoti.com/webstoreNew/services">
             Buy
             <FontAwesomeIcon
-              icon={faWhatsapp}
+              icon={faArrowRight}
               className="olaplexWhats"
             ></FontAwesomeIcon>
           </a>

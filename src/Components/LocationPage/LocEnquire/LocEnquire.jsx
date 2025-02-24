@@ -5,7 +5,7 @@ const LocEnquire = () => {
     <div className="enquireLocContainer">
       <div className="enquireLocContent">
         <button>
-          <a href="https://api.whatsapp.com/send?phone=919742232700">Book an Appointment</a>
+          <a href="https://scent.zenoti.com/webstoreNew/services">Book an Appointment</a>
         </button>
       </div>
     </div>

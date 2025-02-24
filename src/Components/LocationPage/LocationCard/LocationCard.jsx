@@ -29,7 +29,7 @@ const LocationCard = (props) => {
         </div>
         <div className="locCardAddressButton">
           <button>
-            <a href="https://api.whatsapp.com/send?phone=919742232700">
+            <a href="https://scent.zenoti.com/webstoreNew/services">
               Book Now
             </a>
           </button>

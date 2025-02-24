@@ -9,7 +9,7 @@ const Video = () => {
     <div className="vidContainer">
       <video className="videoContent" src={scentVid} autoPlay loop muted />
       <div className="vidTxt">
-        <a href="https://api.whatsapp.com/send?phone=919742232700">
+        <a href="https://scent.zenoti.com/webstoreNew/services">
           {" "}
           <pre>Book an Appointment Now</pre>
         </a>
