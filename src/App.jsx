@@ -250,6 +250,7 @@ import KeratinTreatmentInJakkur from "./Components/LocationServices/Jakkur/Kerat
 import KeratinTreatmentInSahakarNagar from "./Components/LocationServices/SahakarNagar/KeratinTreatmentInSahakarNagar/KeratinTreatmentInSahakarNagar";
 import KeratinTreatmentInWhitefield from "./Components/LocationServices/Whitefield/KeratinTreatmentInWhitefield/KeratinTreatmentInWhitefield";
 import ReasonsToTreatFeet from "./Components/BlogPage/BlogInnerPages/NailBlogInnerPages/ReasonsToTreatFeet/ReasonsToTreatFeet";
+import AromaBodySpa from "./Components/BlogPage/BlogInnerPages/BeautyBlogInnerPages/AromaBodySpa/AromaBodySpa";
 
 const MainApp = () => {
   const location = useLocation();
@@ -636,7 +637,10 @@ const MainApp = () => {
           path="/top-reasons-to-treat-your-feet-to-a-pedicalm-glyco-foot-facial"
           element={<ReasonsToTreatFeet />}
         />
-
+       <Route
+          path="/aroma-body-spa-rejuvenate-your-senses-with-the-power-of-essential-oils"
+          element={<AromaBodySpa />}
+        />
         {/* ------------------------/blog------------------------      */}
 
         <Route path="/pre-bridal-treatments" element={<PrebridalPackage />} />

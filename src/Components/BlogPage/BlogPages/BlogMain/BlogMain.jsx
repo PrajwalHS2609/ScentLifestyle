@@ -35,9 +35,16 @@ import doScalpMassagesBanner from "./../../../../Images/Blog/Do_Scalp_Massage_Pr
 import HairTrends from "./../../../../Images/Blog/2025HairTrends/Banner.png";
 import prefectPreDateBanner from "./../../../../Images/Blog/PerfectPreDate/Banner.png";
 import reasonsToTreatFeetBanner from "./../../../../Images/Blog/top_reasons_treat_feet/Banner.png";
+import aromaBodySpaBanner from "./../../../../Images/Blog/Aroma_Body_Spa/Banner.png";
 
 const BlogMain = () => {
   const blogs = [
+    {
+      img: aromaBodySpaBanner,
+      head: "Aroma Body Spa: Rejuvenate Your Senses with the Power of Essential Oils",
+      para: "In today's fast-paced world, stress, fatigue, and tension have become a part of daily life...",
+      link: "/aroma-body-spa-rejuvenate-your-senses-with-the-power-of-essential-oils",
+    },
     {
       img: reasonsToTreatFeetBanner,
       head: "Top Reasons to Treat Your Feet to a Pedicalm-Glyco Foot Facial",
@@ -169,6 +176,78 @@ const BlogMain = () => {
       head: "Everything You Need to Know About Brazilian Waxing",
       para: "When it comes to smooth, flawless skin, nothing beats the confidence that comes with a professional Brazilian waxing service. At SCENT, we take pride in ...",
       link: "/everything-you-need-to-know-about-brazilian-waxing",
+    },
+    {
+      img: whyKeratinBanner,
+      head: "Why Keratin Hair Treatment is the Ultimate Solution for Damaged Hair?",
+      para: "Hair is often considered one of the most important features that enhance beauty, making it a major part...",
+      link: "/why-keratin-hair-treatment-is-the-ultimate-solution-for-damaged-hair",
+    },
+    {
+      img: GlamorousImg,
+      head: "Get Ready for a Glamorous Night Out: 5 Quick and Easy Hairstyles",
+      para: "A glamorous night out calls for a stunning hairstyle that complements your outfit and makes you feel confident and ...",
+      link: "/get-ready-for-a-glamorous-night-out-5-quick-and-easy-hairstyles",
+    },
+    {
+      img: eyeBrowBanner,
+      head: "Why Eyebrow Shaping is the Secret to a Polished Look",
+      para: "When it comes to beauty and grooming, eyebrows often take center stage. They frame your...",
+      link: "/why-eyebrow-shaping-is-the-secret-to-a-polished-look",
+    },
+    {
+      img: franchiseBanner,
+      head: "Step-by-Step Guide to Setting up a Successful Salon Franchise in Bangalore",
+      para: "Setting up a salon franchise in Bangalore is a lucrative business opportunity for ...",
+      link: "/step-by-step-guide-to-setting-up-a-successful-salon-franchise-in-bangalore",
+    },
+    {
+      img: olaplexBanner,
+      head: "How Olaplex Helps Maintain Healthy Hair after Coloring?",
+      para: "Coloring your hair can be a fun way to express yourself, but it can also be a challenge to maintain ...",
+      link: "/how-olaplex-helps-maintain-healthy-hair-after-coloring",
+    },
+    {
+      img: top5Spa,
+      head: "The Top 5 Reasons to Book a Hair Spa Today! ",
+      para: "Hair care is more than just shampooing and conditioning—it’s about deep  ...",
+      link: "/the-top-5-reasons-to-book-a-hair-spa-today",
+    },
+    {
+      img: BouncyHairBlog,
+      head: "Tips for Maintaining Hair Bouncy and Beautiful Curls During Monsoon",
+      para: "Discover essential tips for maintaining bouncy and beautiful curls during the monsoon season. Learn how to ...",
+      link: "/tips-for-maintaining-hair-bouncy-and-beautiful-curls-during-monsoon",
+    },
+    {
+      img: top10,
+      head: "Top 10 Trending Women Hair Colours & Highlights for 2024",
+      para: "As we step into 2024, the world of hair fashion is buzzing with exciting new...",
+      link: "/top-10-trending-women-hair-colours-and-highlights-for-2024",
+    },
+    {
+      img: hairKeratin,
+      head: "Why You Should Consider Keratin Hair Treatment",
+      para: "In recent years, the beauty and hair care industry has seen a significant surge in  ...",
+      link: "/why-you-should-consider-keratin-hair-treatment",
+    },
+    {
+      img: BotoxImg,
+      head: "How Hair Botox Treatments Can Transform Your Tresses",
+      para: "In the quest for luscious, smooth, and youthful-looking hair, the beauty industry has introduced ...",
+      link: "/how-hair-botox-treatments-can-transform-your-tresses",
+    },
+    {
+      img: ChicSleek,
+      head: "Chic & Sleek - Women’s Haircuts That Define You",
+      para: "When it comes to expressing your personal style, few things make as bold a statement as your haircut. A well-chosen haircut not only ...",
+      link: "/chic-and-sleek-womens-haircuts-that-define-you",
+    },
+    {
+      img: trimBlog,
+      head: "Does Trimming Hair Make It Grow Faster?",
+      para: "Trimming your hair regularly is key to maintaining long, healthy locks. The frequency of trims depends ...",
+      link: "/does-trimming-hair-make-it-grow-faster",
     },
   ];
   const [currentPage, setCurrentPage] = useState(1);

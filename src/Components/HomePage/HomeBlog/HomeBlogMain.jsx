@@ -3,12 +3,18 @@ import "./HomeBlog.css";
 import HomeBlogCard from "./HomeBlogCard";
 import doScalpMassagesBanner from "./../../../Images/Blog/Do_Scalp_Massage_Promote/Banner.png";
 import HairTrends from "./../../../Images/Blog/2025HairTrends/Banner.png";
-import prefectPreDateBanner from "./../../../Images/Blog/PerfectPreDate/Banner.png";
+import aromaBodySpaBanner from "./../../../Images/Blog/Aroma_Body_Spa/Banner.png";
 import { Link } from "react-router-dom";
 const HomeBlogMain = () => {
   return (
     <div className="homeBlogMain">
       <div className="homeBlogMainContainer">
+      <HomeBlogCard
+          img={aromaBodySpaBanner}
+          head="Aroma Body Spa: Rejuvenate Your Senses with the Power of Essential Oils"
+          para="In today's fast-paced world, stress, fatigue, and tension have become a part of daily life..."
+          link="/aroma-body-spa-rejuvenate-your-senses-with-the-power-of-essential-oils"
+        />
         <HomeBlogCard
           img={doScalpMassagesBanner}
           head="Do Scalp Massages Truly Promote Hair Growth?"
@@ -21,12 +27,7 @@ const HomeBlogMain = () => {
           para="Are you looking to refresh your look with the hottest hair highlights trends of 2025? Whether you're..."
           link="/2025-trendy-hair-highlights-youll-love"
         />
-        <HomeBlogCard
-          img={prefectPreDateBanner}
-          head="The Perfect Pre-Date Beauty Routine for a Magical Valentine's Day"
-          para="Valentine’s Day is the perfect occasion to celebrate love, whether you’re planning a romantic..."
-          link="/the-perfect-pre-date-beauty-routine-for-a-magical-valentines-day"
-        />
+
       </div>
       <div className="homeBlogBtn">
         <Link to={"/blog"}>
