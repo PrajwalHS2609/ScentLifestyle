@@ -10,12 +10,14 @@
   justify-content: center;
   align-items: center;
   position: relative;
+
 }
 .upperNavContainer > h3 {
   text-align: center;
   padding: 10px;
   font-size: 15px;
   color: white;
+
 }
 .upperNavContainer > h3 > span {
   /* border: solid white; */
@@ -73,6 +75,7 @@
     color: white;
     width: 100%;
     text-align: center;
+    line-height: 25px;
     font-size: 12px;
   }
   .upperNavInsta {
