@@ -294,7 +294,7 @@ const MainApp = () => {
         <Route path="/bridal-makeup" element={<BridalMakeUpPage />} />
         <Route path="/eyebrow-microblading" element={<MicroBladingPage />} />
         <Route path="/terms" element={<TermsPage />} />
-        <Route path="/about" element={<AboutPage />} />
+        <Route path="/about-us" element={<AboutPage />} />
         <Route path="/philosophy" element={<ScentPhiloPage />} />
         <Route path="/crew" element={<StyleCrewPage />} />
         <Route path="/myself" element={<AboutMyselfPage />} />

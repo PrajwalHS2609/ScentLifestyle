@@ -23,7 +23,7 @@ const HairTreatmentLandingCare = () => {
             the end result that can well be avoided. Remember, your hair is an
             index of your personality which can make or mar your looks.
           </p>
-          <Link to={"/about"}>
+          <Link to={"/about-us"}>
             <button>More About Us</button>
           </Link>
         </div>
@@ -41,7 +41,7 @@ const HairTreatmentLandingCare = () => {
             all eyes.
           </p>
  
-          <Link to={"/about"}>
+          <Link to={"/about-us"}>
             <button>More About Us</button>
           </Link>
         </div>

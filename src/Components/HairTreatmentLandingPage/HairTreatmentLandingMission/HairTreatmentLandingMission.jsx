@@ -21,7 +21,7 @@ const HairTreatmentLandingMission = () => {
             addressed. Therefore, the term Special Needs comes into play
             whenever an individual differs from the normal majority of category…
           </p>
-          <Link to={"/about"}>
+          <Link to={"/about-us"}>
             <button>More About Us</button>
           </Link>
         </div>

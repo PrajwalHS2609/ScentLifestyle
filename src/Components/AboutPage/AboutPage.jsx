@@ -1,41 +1,24 @@
 import React from "react";
-import AboutImg from "./AboutImg";
-import AboutTxt from "./AboutTxt";
-import "./AboutPage.css";
-import AboutPageHead from "./AboutPageHead";
-import NavBg from "../NavBg/NavBg";
-import ServiceWhy from "../MainServicePages/ServiceWhy/ServiceWhy";
-import TextLocReviews from "../TextLocReviews/TextLocReviews";
-import HelpNearYou from "../Help/HelpNearYou";
-import InstaFeed from "../HomePage/InstaFeed/InstaFeed";
-import Partners from "../HomePage/Partners/Partners";
-import OurSalon from "../HomePage/OurSalon/OurSalon";
-import Members from "../HomePage/Members/Members";
-import { Helmet } from "react-helmet";
+import "./About.css";
+import AboutHeader from "./AboutHeader";
+import AboutOwner from "./AboutOwner";
+import AboutContent from "./AboutContent";
+import AboutVision from "./AboutVision";
+// import AboutEconomics from "./AboutEconomics";
+// import AboutMarket from "./AboutMarket";
+// import AboutSize from "./AboutSize";
+// import AboutEnd from "./AboutEnd";
 const AboutPage = () => {
   return (
-    <div className="aboutPgContainer">
-      <Helmet>
-        <meta charSet="utf-8" />
-        <title>About SCENT Salon Spa in Bangalore - Since 2008</title>
-        <meta
-          name="description"
-          content="Scent is a sanctum where life comes to beauty and beauty to life. A makeover at scent will be the crown of your looks."
-        />
-        <link rel="canonical" href="https://scentlifestyle.com/about" />
-      </Helmet>
-      <NavBg />
-      <AboutImg />
-      <AboutPageHead />
-      <AboutTxt />
-      <Members />
-      <OurSalon />
-      <Partners />
-      <InstaFeed />
-      <HelpNearYou />
-      <TextLocReviews />
-      <ServiceWhy />
-      
+    <div className="about-container">
+      <AboutHeader />
+      <AboutOwner/>
+      <AboutContent/>
+      <AboutVision/>
+      {/* <AboutEconomics/>
+      <AboutMarket/>
+      <AboutSize/>
+      <AboutEnd/> */}
     </div>
   );
 };

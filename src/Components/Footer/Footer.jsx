@@ -45,7 +45,7 @@ const Footer = () => {
         <div className="footerItem1" id="footerItem2">
           <div className="footerTxt1">
             <h3 >
-              <Link to={"/about"}>About us</Link>
+              <Link to={"/about-us"}>About us</Link>
             </h3>
           </div>
           <div className="footerTxt2">
