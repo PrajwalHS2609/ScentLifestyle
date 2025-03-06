@@ -19,7 +19,6 @@ const UpperNav = () => {
     <div className="upperNavContainer">
       <h3>
         Glow Into March with Our Exclusive Beauty Deals!{" "}
-        <br />
         <span>
           <a href="https://scentlifestyle.com/offer?utm_source=Organic&utm_medium=Festive+Offer&utm_campaign=September+Month&utm_id=Banner+Bar">
             Take a Look{" "}

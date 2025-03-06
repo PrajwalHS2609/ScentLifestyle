@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 import sahakaranagar from "./../../Images/sahakaranagar.jpg";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 const AboutContent = () => {
   return (
@@ -22,9 +22,9 @@ const AboutContent = () => {
           salons , with great technical knowledge scent is the brand that is
           poised to grow
         </p>
-        <Link to={"/contact-us"}>
+        {/* <Link to={"/contact-us"}>
           <button>Book Now</button>
-        </Link>
+        </Link> */}
       </div>
       <img src={sahakaranagar} alt="sahakaranagar" />
     </div>
