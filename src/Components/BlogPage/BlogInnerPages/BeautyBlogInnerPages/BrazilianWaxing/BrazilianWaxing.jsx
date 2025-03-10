@@ -1,7 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import NavBg from "../../../../NavBg/NavBg";
-import WhatsApp from "../../../../HomePage/WhatsApp/WhatsApp";
 import BrazilianWaxingImg from "./BrazilianWaxingImg";
 import BrazilianWaxingHead from "./BrazilianWaxingHead";
 import BrazilianWaxingWhat from "./BrazilianWaxingWhat";

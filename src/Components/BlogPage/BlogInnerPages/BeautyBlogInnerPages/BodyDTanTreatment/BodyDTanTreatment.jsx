@@ -1,6 +1,5 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import WhatsApp from "../../../../HomePage/WhatsApp/WhatsApp";
 import BodyDTanTreatmentImg from "./BodyDTanTreatmentImg";
 import BodyDTanTreatmentHead from "./BodyDTanTreatmentHead";
 import BodyDTanTreatmentBenefits from "./BodyDTanTreatmentBenefits";

@@ -1,7 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import NavBg from "../../../../NavBg/NavBg";
-import WhatsApp from "../../../../HomePage/WhatsApp/WhatsApp";
 import InnerNavi from "../../../../InnerServicePage/InnerNavi/InnerNavi";
 import ChicSleekHead from "./ChicSleekHead";
 import ChicSleekPower from "./ChicSleekPower";

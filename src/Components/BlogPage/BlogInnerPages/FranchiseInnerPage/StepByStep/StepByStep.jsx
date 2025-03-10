@@ -22,7 +22,6 @@ import StepByStepLaunch from "./StepByStepLaunch";
 import StepByStepFocus from "./StepByStepFocus";
 import StepByStepMonitor from "./StepByStepMonitor";
 import StepByStepFinal from "./StepByStepFinal";
-import WhatsApp from "../../../../HomePage/WhatsApp/WhatsApp";
 
 const StepByStep = () => {
   return (

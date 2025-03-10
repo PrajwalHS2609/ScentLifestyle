@@ -18,7 +18,6 @@ import Top5SpaStrengthImg from "./../../../../../Images/Blog/The_Top_5_Hair_Spa_
 import Top5SpaRelaxImg from "./../../../../../Images/Blog/The_Top_5_Hair_Spa_Today/Relax.png";
 import Top5SpaImprovingImg from "./../../../../../Images/Blog/The_Top_5_Hair_Spa_Today/Improving Scalp Health and Reducing Dandruff.png";
 import Top5SpaReviveImg from "./../../../../../Images/Blog/The_Top_5_Hair_Spa_Today/Revive.png";
-import WhatsApp from "../../../../HomePage/WhatsApp/WhatsApp";
 
 const Top5Spa = () => {
   return (

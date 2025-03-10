@@ -12,7 +12,6 @@ import HowOlaplexWhat from "./HowOlaplexWhat";
 import HowOlaplexWhy from "./HowOlaplexWhy";
 import HowOlaplexInvest from "./HowOlaplexInvest";
 import HowOlaplexMaintain from "./HowOlaplexMaintain";
-import WhatsApp from "../../../../HomePage/WhatsApp/WhatsApp";
 
 const HowOlaplex = () => {
   return (

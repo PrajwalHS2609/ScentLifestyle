@@ -5,7 +5,6 @@ import WhyKeratinImg from "./WhyKeratinImg";
 import WhyKeratinHead from "./WhyKeratinHead";
 import WhyKeratinHow from "./WhyKeratinHow";
 import WhyKeratinBenefits from "./WhyKeratinBenefits";
-import WhatsApp from "../../../../HomePage/WhatsApp/WhatsApp";
 import whyKeratinBanner2 from "./../../../../../Images/Blog/Why_Keratin_Hair/2.png";
 import whyKeratinBanner3 from "./../../../../../Images/Blog/Why_Keratin_Hair/3.png";
 import whyKeratinBanner4 from "./../../../../../Images/Blog/Why_Keratin_Hair/4.png";

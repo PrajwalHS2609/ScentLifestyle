@@ -251,6 +251,11 @@ import KeratinTreatmentInSahakarNagar from "./Components/LocationServices/Sahaka
 import KeratinTreatmentInWhitefield from "./Components/LocationServices/Whitefield/KeratinTreatmentInWhitefield/KeratinTreatmentInWhitefield";
 import ReasonsToTreatFeet from "./Components/BlogPage/BlogInnerPages/NailBlogInnerPages/ReasonsToTreatFeet/ReasonsToTreatFeet";
 import AromaBodySpa from "./Components/BlogPage/BlogInnerPages/BeautyBlogInnerPages/AromaBodySpa/AromaBodySpa";
+import ScalpMassagerInSahakarNagar from "./Components/LocationServices/SahakarNagar/ScalpMassagerInSahakarNagar/ScalpMassagerInSahakarNagar";
+import ScalpMassagerInWhitefield from "./Components/LocationServices/Whitefield/ScalpMassagerInWhitefield/ScalpMassagerInWhitefield";
+import ScalpMassagerInLavelle from "./Components/LocationServices/Lavelle/ScalpMassagerInLavelle/ScalpMassagerInLavelle";
+import ScalpMassagerInJakkur from "./Components/LocationServices/Jakkur/ScalpMassagerInJakkur/ScalpMassagerInJakkur";
+import ScalpMassagerInUptown from "./Components/LocationServices/Uptown/ScalpMassagerInUptown/ScalpMassagerInUptown";
 
 const MainApp = () => {
   const location = useLocation();
@@ -637,7 +642,7 @@ const MainApp = () => {
           path="/top-reasons-to-treat-your-feet-to-a-pedicalm-glyco-foot-facial"
           element={<ReasonsToTreatFeet />}
         />
-       <Route
+        <Route
           path="/aroma-body-spa-rejuvenate-your-senses-with-the-power-of-essential-oils"
           element={<AromaBodySpa />}
         />
@@ -811,6 +816,10 @@ const MainApp = () => {
           path="/keratin-hair-treatments-in-sahakara-nagar"
           element={<KeratinTreatmentInSahakarNagar />}
         />
+        <Route
+          path="/scalp-massagers-in-sahakara-nagar"
+          element={<ScalpMassagerInSahakarNagar />}
+        />
         {/* ----------------------/InSahakarnagar---------------------- */}
 
         {/* ----------------------InMeadows---------------------- */}
@@ -862,6 +871,10 @@ const MainApp = () => {
           path="/keratin-hair-treatments-in-whitefield"
           element={<KeratinTreatmentInWhitefield />}
         />
+        <Route
+          path="/scalp-massagers-in-whitefield"
+          element={<ScalpMassagerInWhitefield />}
+        />
         {/* ----------------------/InWhitefield---------------------- */}
 
         {/* -------------------InLavelleRoad-------------------- */}
@@ -906,6 +919,10 @@ const MainApp = () => {
           path="/keratin-hair-treatments-in-lavelle-road"
           element={<KeratinTreatmentInLavelle />}
         />
+        <Route
+          path="/scalp-massagers-in-lavelle-road"
+          element={<ScalpMassagerInLavelle />}
+        />
         {/* -----------------------/InLavelleRoad-------------------- */}
         {/*-----------------InJakkur------------------------------------ */}
         <Route path="/hair-salon-in-jakkur" element={<HairSalonInJakkur />} />
@@ -940,6 +957,10 @@ const MainApp = () => {
         <Route
           path="/keratin-hair-treatments-in-jakkur"
           element={<KeratinTreatmentInJakkur />}
+        />
+        <Route
+          path="/keratin-hair-treatments-in-jakkur"
+          element={<ScalpMassagerInJakkur />}
         />
         {/* -----------------------InUptown--------------------------- */}
         <Route
@@ -982,6 +1003,10 @@ const MainApp = () => {
         <Route
           path="/keratin-hair-treatments-in-uptown-whitefield"
           element={<KeratinTreatmentInUptown />}
+        />
+              <Route
+          path="/scalp-massagers-in-uptown-whitefield"
+          element={<ScalpMassagerInUptown />}
         />
         {/* -----------------------/InUptown--------------------------- */}
         <Route path="/q-and-a" element={<QAPage />}>

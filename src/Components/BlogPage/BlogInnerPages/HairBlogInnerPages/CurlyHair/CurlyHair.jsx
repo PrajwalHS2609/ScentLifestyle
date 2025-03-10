@@ -1,6 +1,5 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import WhatsApp from "../../../../HomePage/WhatsApp/WhatsApp";
 import CurlyHairHead from "./CurlyHairHead";
 import CurlyHairUnderstand from "./CurlyHairUnderstand";
 import CurlyHairAssess from "./CurlyHairAssess";

@@ -1,7 +1,6 @@
 import React from "react";
 import "./AcademyConnect.css";
 
-import AcademyConnectHead from "./AcademyConnectHead";
 import AcademyConnectImgContent from "./AcademyConnectImgContent";
 import AcademyConnectTxtContent from "./AcademyConnectTxtContent";
 const AcademyConnect = () => {

@@ -1,7 +1,6 @@
 import React from "react";
 import HairServImg from "../../HairBotox/HairServImg";
 import { Helmet } from "react-helmet";
-import WhatsApp from "../../../../HomePage/WhatsApp/WhatsApp";
 import WhyEyeBrowHead from "./WhyEyeBrowHead";
 import WhyEyeBrowFrame from "./WhyEyeBrowFrame";
 import WhyEyeBrowImg from "./WhyEyeBrowImg";

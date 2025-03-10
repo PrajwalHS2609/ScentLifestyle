@@ -1,5 +1,4 @@
 import React from "react";
-import WhatsApp from "../../../../HomePage/WhatsApp/WhatsApp";
 import { Helmet } from "react-helmet";
 import HairBleachImg from "./HairBleachImg";
 import HairBleachHead from "./HairBleachHead";

@@ -1,6 +1,5 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import WhatsApp from "../../../../HomePage/WhatsApp/WhatsApp";
 import HairColorTryImg from "./HairColorTryImg";
 import HairColorTryIntro from "./HairColorTryIntro";
 import HairColorTryColors from "./HairColorTryColors";

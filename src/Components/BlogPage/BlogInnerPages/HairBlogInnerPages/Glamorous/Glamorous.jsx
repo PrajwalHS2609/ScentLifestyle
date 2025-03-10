@@ -15,7 +15,6 @@ import glamorousBun from "./../../../../../Images/Blog/Get Ready for a Glamorous
 import glamorousTwist from "./../../../../../Images/Blog/Get Ready for a Glamorous Night/The Half-Up, Half-Down Twist.png";
 import glamorousWaves from "./../../../../../Images/Blog/Get Ready for a Glamorous Night/The Glamorous Hollywood Waves.png";
 import glamorousCrown from "./../../../../../Images/Blog/Get Ready for a Glamorous Night/The Braided Crown.png";
-import WhatsApp from "../../../../HomePage/WhatsApp/WhatsApp";
 
 
 const Glamorous = () => {

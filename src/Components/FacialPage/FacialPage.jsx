@@ -11,7 +11,6 @@ import InstaFeed from "../HomePage/InstaFeed/InstaFeed.jsx";
 import { Helmet } from "react-helmet";
 import NavBg from "../NavBg/NavBg.jsx";
 import TextLocReviews from "../TextLocReviews/TextLocReviews.jsx";
-import WhatsApp from "../HomePage/WhatsApp/WhatsApp.jsx";
 import ServBreadCrumb from "../InnerServicePage/InnerNavi/ServBreadCrumb.jsx";
 const FacialPage = () => {
   return (
