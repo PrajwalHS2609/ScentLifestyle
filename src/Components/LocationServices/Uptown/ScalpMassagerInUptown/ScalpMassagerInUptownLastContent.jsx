@@ -2,7 +2,7 @@ import React from "react";
 
 const ScalpMassagerInUptownLastContent = () => {
   return (
-    <div className="hairSalonInSahakaraHead">
+    <div className="HairSalonInSahakaraHead">
       <p>
         One of the key aspects people consider while purchasing scalp massagers
         is the{" "}

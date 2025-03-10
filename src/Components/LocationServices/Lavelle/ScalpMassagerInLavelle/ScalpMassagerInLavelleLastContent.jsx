@@ -2,7 +2,7 @@ import React from "react";
 
 const ScalpMassagerInLavelleLastContent = () => {
   return (
-    <div className="hairSalonInSahakaraHead">
+    <div className="HairSalonInSahakaraHead">
       <p>
         When considering <a href="https://scentlifestyle.com/scalp-massagers-in-bangalore">scalp massagers price in Lavelle Road</a>,
         it is essential to understand the various types available and their

@@ -2,7 +2,7 @@ import React from "react";
 
 const ScalpMassagerInWhitefieldLast = () => {
   return (
-    <div className="hairSalonInSahakaraHead">
+    <div className="HairSalonInSahakaraHead">
       <p>
         When exploring{" "}
         <a href="https://scentlifestyle.com/hair-scalp-treatment-in-bangalore">

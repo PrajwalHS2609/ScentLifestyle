@@ -2,7 +2,7 @@ import React from "react";
 
 const ScalpMassagerInLavelleHead = () => {
   return (
-    <div className="hairSalonInSahakaraHead">
+    <div className="HairSalonInSahakaraHead">
       <h1>Scalp Massagers in Lavelle Road</h1>
       <p>
         Scalp massagers in Lavelle Road have become increasingly popular among
