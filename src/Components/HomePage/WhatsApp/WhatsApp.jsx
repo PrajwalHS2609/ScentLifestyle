@@ -11,7 +11,10 @@ const WhatsApp = () => {
         accountName="SCENT"
         avatar={Scent} // Optional
         statusMessage="Typically replies within 5 min" // Optional
-        chatMessage="Welcome, February! Celebrate love with SCENT’s exclusive offers. Treat yourself or a loved one to glow-enhancing treatments. Book now and shine bright this month with SCENT." // Optional
+        chatMessage="🌸Hello from SCENT Salon!🌸
+Pamper yourself with our exclusive beauty & wellness services! ✨
+ From glow-enhancing facials to luxurious hair & spa treatments, we’ve got everything to make you shine. Book your appointment today and indulge in a little self-care! 💆‍♀💖
+📍 Visit us or call us at  +91 9742232700 to book now! 🌸"
         placeholder="Type a message..." // Optional
       />
     </div>
