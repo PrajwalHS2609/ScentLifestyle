@@ -30,6 +30,10 @@
 .styles-module_chatBody__VBxQH {
   overflow-y: scroll;
 }
+.styles-module_chatBody__VBxQH .styles-module_message__Z9MOV{
+  max-width: 500px!important;
+  width: 400px!important;
+}
 @media screen and (min-width: 320px) and (max-width: 768px) {
   .whatsAppContainer > a > img {
     /* border: solid blue; */
@@ -43,5 +47,8 @@
     right: 5px;
     width: 100px;
   }
-
+  .styles-module_chatBody__VBxQH .styles-module_message__Z9MOV{
+    max-width: 500px!important;
+    width: 250px!important;
+  }
 }
