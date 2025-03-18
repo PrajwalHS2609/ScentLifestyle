@@ -19,7 +19,7 @@ import NailExtensionInSahakaraWhyChoose from "./NailExtensionInSahakaraWhyChoose
 import NailExtensionInSahakaraBook from "./NailExtensionInSahakaraBook";
 import { Helmet } from "react-helmet";
 import InnerNavi from "../../../InnerServicePage/InnerNavi/InnerNavi";
-import NailLocationImg from "../../NailLocationServices/NailLocationImg";
+import LocationServicesImg from "../../LocationServicesImg";
 
 const NailExtensionInSahakaraNagar = () => {
   return (
@@ -39,7 +39,7 @@ const NailExtensionInSahakaraNagar = () => {
           href="https://scentlifestyle.com/nail-extensions-near-sahakaranagar"
         />
       </Helmet>
-      <NailLocationImg
+      <LocationServicesImg
         img={nailExtensionSahakaraImg}
         alt="nailExtensionSahakaraImg"
       />

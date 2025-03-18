@@ -16,7 +16,7 @@ import HairDetoxSpaGuide from "./HairDetoxSpaGuide";
 import HairDetoxSpaWho from "./HairDetoxSpaWho";
 import HairDetoxSpaMaintain from "./HairDetoxSpaMaintain";
 import HairDetoxSpaBook from "./HairDetoxSpaBook";
-import HairSalonInMeadowsImg from "../../LocationServices/HairLocationServices/HairSalonInMeadows/HairSalonInMeadowsImg/HairSalonInMeadowsImg";
+import HairSalonInMeadowsImg from "../../LocationServices/Meadows/HairSalonInMeadows/HairSalonInMeadowsImg/HairSalonInMeadowsImg";
 
 const HairDetoxSpa = () => {
   return (

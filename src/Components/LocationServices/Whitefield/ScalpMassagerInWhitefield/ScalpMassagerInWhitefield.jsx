@@ -1,6 +1,5 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import HairSalonInLavelleImg from "../../HairLocationServices/HairSalonInLavelle/HairSalonInLavelleImg/HairSalonInLavelleImg";
 import hairTreatment from "./../../../../Images/Hair Treatments/Keratin.png";
 import ScalpMassagerInWhitefieldHead from "./ScalpMassagerInWhitefieldHead";
 import ScalpMassagerInWhitefieldLast from "./ScalpMassagerInWhitefieldLast";
@@ -12,6 +11,7 @@ import HelpNearYou from "./../../../Help/HelpNearYou";
 import TextLocReviews from "./../../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "./../../../MainServicePages/ServiceWhy/ServiceWhy";
 import InnerNavi from "../../../InnerServicePage/InnerNavi/InnerNavi";
+import HairSalonInLavelleImg from "../../Lavelle/HairSalonInLavelle/HairSalonInLavelleImg/HairSalonInLavelleImg";
 
 const ScalpMassagerInWhitefield = () => {
   return (

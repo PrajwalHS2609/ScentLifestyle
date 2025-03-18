@@ -14,7 +14,7 @@ import HelpNearYou from "../../../Help/HelpNearYou";
 import TextLocReviews from "../../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../../MainServicePages/ServiceWhy/ServiceWhy";
 import hairSahakarnagar from "./../../../../Images/SahakarNagar/Hair.png"
-import HairSalonInLavelleImg from './../../HairLocationServices/HairSalonInLavelle/HairSalonInLavelleImg/HairSalonInLavelleImg';
+import HairSalonInLavelleImg from "../../Lavelle/HairSalonInLavelle/HairSalonInLavelleImg/HairSalonInLavelleImg";
 const HairSalonInSahakaranagar = () => {
   return (
     <div>

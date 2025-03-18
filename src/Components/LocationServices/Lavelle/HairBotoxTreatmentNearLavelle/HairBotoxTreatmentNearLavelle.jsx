@@ -7,7 +7,6 @@ import InstaFeed from "../../../HomePage/InstaFeed/InstaFeed";
 import HelpNearYou from "../../../Help/HelpNearYou";
 import TextLocReviews from "../../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../../MainServicePages/ServiceWhy/ServiceWhy";
-import HairSalonInLavelleImg from "../../HairLocationServices/HairSalonInLavelle/HairSalonInLavelleImg/HairSalonInLavelleImg";
 import hairSahakarnagar from "./../../../../Images/SahakarNagar/Hair.png";
 import HairBotoxTreatmentNearLavelleHead from "./HairBotoxTreatmentNearLavelleHead";
 import HairBotoxTreatmentNearLavelleBenefits from "./HairBotoxTreatmentNearLavelleBenefits";
@@ -15,6 +14,7 @@ import HairBotoxTreatmentNearLavelleWhyChoose from "./HairBotoxTreatmentNearLave
 import HairBotoxTreatmentNearLavelleWhat from "./HairBotoxTreatmentNearLavelleWhat";
 import HairBotoxTreatmentNearLavelleTips from "./HairBotoxTreatmentNearLavelleTips";
 import InnerNavi from "../../../InnerServicePage/InnerNavi/InnerNavi";
+import HairSalonInLavelleImg from "../HairSalonInLavelle/HairSalonInLavelleImg/HairSalonInLavelleImg";
 
 const HairBotoxTreatmentNearLavelle = () => {
   return (

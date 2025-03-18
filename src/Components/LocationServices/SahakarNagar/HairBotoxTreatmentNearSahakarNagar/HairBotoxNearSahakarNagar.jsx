@@ -7,7 +7,6 @@ import InstaFeed from "../../../HomePage/InstaFeed/InstaFeed";
 import HelpNearYou from "../../../Help/HelpNearYou";
 import TextLocReviews from "../../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../../MainServicePages/ServiceWhy/ServiceWhy";
-import HairSalonInLavelleImg from "./../../HairLocationServices/HairSalonInLavelle/HairSalonInLavelleImg/HairSalonInLavelleImg";
 import InnerNavi from "../../../InnerServicePage/InnerNavi/InnerNavi";
 import hairSahakarnagar from "./../../../../Images/SahakarNagar/Hair.png";
 import HairBotoxNearSahakarNagarHead from "./HairBotoxNearSahakarNagarHead";
@@ -15,6 +14,7 @@ import HairBotoxNearSahakarNagarWhyChoose from "./HairBotoxNearSahakarNagarWhyCh
 import HairBotoxNearSahakarNagarHowLong from "./HairBotoxNearSahakarNagarHowLong";
 import HairBotoxNearSahakarNagarBenefits from "./HairBotoxNearSahakarNagarBenefits";
 import HairBotoxNearSahakarNagarHow from "./HairBotoxNearSahakarNagarHow";
+import HairSalonInLavelleImg from "../../Lavelle/HairSalonInLavelle/HairSalonInLavelleImg/HairSalonInLavelleImg";
 
 const HairBotoxNearSahakarNagar = () => {
   return (

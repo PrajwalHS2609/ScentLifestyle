@@ -1,5 +1,4 @@
 import React from "react";
-import HairSalonInLavelleImg from "../../HairLocationServices/HairSalonInLavelle/HairSalonInLavelleImg/HairSalonInLavelleImg";
 import hairTreatment from "./../../../../Images/Hair Treatments/Keratin.png";
 import KeratinInJakkurContentHead from './KeratinInJakkurContentHead';
 import KeratinInJakkurContentLast from './KeratinInJakkurContentLast';
@@ -12,6 +11,7 @@ import TextLocReviews from "../../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../../MainServicePages/ServiceWhy/ServiceWhy";
 import { Helmet } from "react-helmet";
 import InnerNavi from "../../../InnerServicePage/InnerNavi/InnerNavi";
+import HairSalonInLavelleImg from "../../Lavelle/HairSalonInLavelle/HairSalonInLavelleImg/HairSalonInLavelleImg";
 
 const KeratinTreatmentInJakkur = () => {
   return (

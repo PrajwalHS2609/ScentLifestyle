@@ -14,7 +14,7 @@ import LashesInSahakarNagarBenefit from "./LashesInSahakarNagarBenefit";
 import LashesInSahakarNagarBook from "./LashesInSahakarNagarBook";
 import lashesSahakarImg from "./../../../../Images/SahakarNagar/Eye Lashes.png";
 import LashesInSahakarNagarWhyChoose from "./LashesInSahakarNagarWhyChoose";
-import LashesLocationImg from "../../LashesLocationServices/LashesLocationImg";
+import LocationServicesImg from "../../LocationServicesImg";
 
 const LashesInSahakarNagar = () => {
   return (
@@ -34,7 +34,7 @@ const LashesInSahakarNagar = () => {
           href="https://scentlifestyle.com/eye-lashes-in-sahakara-nagar-bangalore"
         />
       </Helmet>
-      <LashesLocationImg img={lashesSahakarImg} alt="lashesSahakarImg" />
+      <LocationServicesImg img={lashesSahakarImg} alt="lashesSahakarImg" />
       <InnerNavi
         link="/eye-lashes"
         service="Eye Lashes"

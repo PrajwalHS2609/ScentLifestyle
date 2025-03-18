@@ -14,7 +14,7 @@ import ServiceWhy from "../../../MainServicePages/ServiceWhy/ServiceWhy";
 import FacialInSahakaraNagarXp from "./FacialInSahakaraNagarXp";
 import FacialInSahakaraNagarImp from './FacialInSahakaraNagarImp';
 import FacialInSahakaraNagarBook from './FacialInSahakaraNagarBook';
-import FacialLocationImg from './../../FacialLocationServices/FacialLocationImg';
+import LocationServicesImg from "../../LocationServicesImg";
 
 const FacialInSahakaraNagar = () => {
   return (
@@ -34,7 +34,7 @@ const FacialInSahakaraNagar = () => {
           href="https://scentlifestyle.com/facials-in-sahakara-nagar-bangalore"
         />
       </Helmet>
-      <FacialLocationImg img={facialSahakarImg} alt="facialSahakarImg" />
+      <LocationServicesImg img={facialSahakarImg} alt="facialSahakarImg" />
       <InnerNavi
         link="/facial"
         service="Facial"

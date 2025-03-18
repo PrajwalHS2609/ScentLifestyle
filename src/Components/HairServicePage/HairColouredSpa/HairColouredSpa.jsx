@@ -16,7 +16,7 @@ import HairColouredSpaMaintain from "./HairColouredSpaMaintain";
 import HairColouredSpaWhy from "./HairColouredSpaWhy";
 import HairColouredSpaTips from "./HairColouredSpaTips";
 import HairColouredSpaBook from "./HairColouredSpaBook";
-import HairSalonInMeadowsImg from "../../LocationServices/HairLocationServices/HairSalonInMeadows/HairSalonInMeadowsImg/HairSalonInMeadowsImg";
+import HairSalonInMeadowsImg from "../../LocationServices/Meadows/HairSalonInMeadows/HairSalonInMeadowsImg/HairSalonInMeadowsImg";
 
 const HairColouredSpa = () => {
   return (

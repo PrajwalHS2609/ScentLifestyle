@@ -15,7 +15,7 @@ import NailSalonInSahakarNagarArt from './NailSalonInSahakarNagarArt';
 import NailSalonInSahakarNagarExtension from './NailSalonInSahakarNagarExtension';
 import NailSalonInSahakarNagarHealth from './NailSalonInSahakarNagarHealth';
 import InnerNavi from '../../../InnerServicePage/InnerNavi/InnerNavi';
-import NailLocationImg from '../../NailLocationServices/NailLocationImg';
+import LocationServicesImg from '../../LocationServicesImg';
 
 const NailSalonInSahakarNagar = () => {
   return (
@@ -35,7 +35,7 @@ const NailSalonInSahakarNagar = () => {
         href="https://scentlifestyle.com/hair-salon-in-sahakara-nagar-bangalore"
       />
     </Helmet>
-    <NailLocationImg img={nailSahakarnagarImg} alt="nailSahakarnagarImg" />
+    <LocationServicesImg img={nailSahakarnagarImg} alt="nailSahakarnagarImg" />
     <InnerNavi
       link="/nail-salon"
       service="Nail Salon"

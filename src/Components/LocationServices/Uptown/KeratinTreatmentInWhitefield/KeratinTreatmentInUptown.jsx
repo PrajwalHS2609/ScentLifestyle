@@ -9,9 +9,9 @@ import TextLocReviews from "./../../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "./../../../MainServicePages/ServiceWhy/ServiceWhy";
 import KeratinInUptownLastContent from "./KeratinInUptownLastContent";
 import KeratinInWhitefieldHead from "../../Whitefield/KeratinTreatmentInWhitefield/KeratinInWhitefieldHead";
-import HairSalonInLavelleImg from "../../HairLocationServices/HairSalonInLavelle/HairSalonInLavelleImg/HairSalonInLavelleImg";
 import { Helmet } from "react-helmet";
 import InnerNavi from "../../../InnerServicePage/InnerNavi/InnerNavi";
+import HairSalonInLavelleImg from "../../Lavelle/HairSalonInLavelle/HairSalonInLavelleImg/HairSalonInLavelleImg";
 const KeratinTreatmentInUptown = () => {
   return (
     <div>

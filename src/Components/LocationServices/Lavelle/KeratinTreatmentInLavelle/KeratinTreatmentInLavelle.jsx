@@ -1,7 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import hairTreatment from "./../../../../Images/Hair Treatments/Keratin.png";
-import HairSalonInLavelleImg from "../../HairLocationServices/HairSalonInLavelle/HairSalonInLavelleImg/HairSalonInLavelleImg";
 import InnerNavi from "../../../InnerServicePage/InnerNavi/InnerNavi";
 import Members from "../../../HomePage/Members/Members";
 import OurSalon from "../../../HomePage/OurSalon/OurSalon";
@@ -12,6 +11,7 @@ import TextLocReviews from "../../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../../MainServicePages/ServiceWhy/ServiceWhy";
 import KeratinTreatmentInLavelleHead from './KeratinTreatmentInLavelleHead';
 import KeratinTreatmentInLavelleContentLast from './KeratinTreatmentInLavelleContentLast';
+import HairSalonInLavelleImg from "../HairSalonInLavelle/HairSalonInLavelleImg/HairSalonInLavelleImg";
 
 const KeratinTreatmentInLavelle = () => {
   return (

@@ -7,7 +7,6 @@ import InstaFeed from "../../../HomePage/InstaFeed/InstaFeed";
 import HelpNearYou from "../../../Help/HelpNearYou";
 import TextLocReviews from "../../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../../MainServicePages/ServiceWhy/ServiceWhy";
-import HairSalonInLavelleImg from "../../HairLocationServices/HairSalonInLavelle/HairSalonInLavelleImg/HairSalonInLavelleImg";
 import hairSahakarnagar from "./../../../../Images/SahakarNagar/Hair.png";
 import { Helmet } from "react-helmet";
 import HairBotoxNearJakkurHead from './HairBotoxNearJakkurHead';
@@ -16,6 +15,7 @@ import HairBotoxNearJakkurBest from './HairBotoxNearJakkurBest';
 import HairBotoxNearJakkurProcess from './HairBotoxNearJakkurProcess';
 import HairBotoxNearJakkurHowLong from './HairBotoxNearJakkurHowLong';
 import HairBotoxNearJakkurWho from './HairBotoxNearJakkurWho';
+import HairSalonInLavelleImg from "../../Lavelle/HairSalonInLavelle/HairSalonInLavelleImg/HairSalonInLavelleImg";
 
 const HairBotoxNearJakkur = () => {
   return (

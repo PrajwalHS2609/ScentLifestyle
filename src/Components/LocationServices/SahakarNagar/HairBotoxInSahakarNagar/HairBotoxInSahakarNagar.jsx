@@ -1,7 +1,6 @@
 import React from "react";
 import hairSahakarnagar from "./../../../../Images/SahakarNagar/Hair.png";
 import { Helmet } from "react-helmet";
-import HairSalonInLavelleImg from "../../HairLocationServices/HairSalonInLavelle/HairSalonInLavelleImg/HairSalonInLavelleImg";
 import InnerNavi from "../../../InnerServicePage/InnerNavi/InnerNavi";
 import HairBotoxInSahakarNagarHead from "./HairBotoxInSahakarNagarHead";
 import Members from "../../../HomePage/Members/Members";
@@ -18,6 +17,7 @@ import HairBotoxInSahakarNagarVerses from "./HairBotoxInSahakarNagarVerses";
 import HairBotoxInSahakarNagarMaintain from "./HairBotoxInSahakarNagarMaintain";
 import HairBotoxInSahakarNagarBook from "./HairBotoxInSahakarNagarBook";
 import HairBotoxInSahakarNagarWhy from "./HairBotoxInSahakarNagarWhy";
+import HairSalonInLavelleImg from "../../Lavelle/HairSalonInLavelle/HairSalonInLavelleImg/HairSalonInLavelleImg";
 
 const HairBotoxInSahakarNagar = () => {
   return (

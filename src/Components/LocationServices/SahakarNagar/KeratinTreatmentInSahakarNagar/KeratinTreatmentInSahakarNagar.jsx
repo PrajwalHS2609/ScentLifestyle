@@ -2,7 +2,6 @@ import React from "react";
 import KeratinSahakarNagarContentHead from "./KeratinSahakarNagarContentHead";
 import KeratinSahakarNagarContentLast from "./KeratinSahakarNagarContentLast";
 import hairTreatment from "./../../../../Images/Hair Treatments/Keratin.png";
-import HairSalonInLavelleImg from "../../HairLocationServices/HairSalonInLavelle/HairSalonInLavelleImg/HairSalonInLavelleImg";
 import Members from './../../../HomePage/Members/Members';
 import OurSalon from './../../../HomePage/OurSalon/OurSalon';
 import Partners from './../../../HomePage/Partners/Partners';
@@ -12,6 +11,7 @@ import TextLocReviews from './../../../TextLocReviews/TextLocReviews';
 import ServiceWhy from './../../../MainServicePages/ServiceWhy/ServiceWhy';
 import { Helmet } from "react-helmet";
 import InnerNavi from "../../../InnerServicePage/InnerNavi/InnerNavi";
+import HairSalonInLavelleImg from "../../Lavelle/HairSalonInLavelle/HairSalonInLavelleImg/HairSalonInLavelleImg";
 
 const KeratinTreatmentInSahakarNagar = () => {
   return (

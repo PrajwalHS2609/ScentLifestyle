@@ -13,7 +13,7 @@ import ServiceWhy from "../../../MainServicePages/ServiceWhy/ServiceWhy";
 import SpaInSahakarNagarBenefits from './SpaInSahakarNagarBenefits';
 import SpaInSahakarNagarWhy from "./SpaInSahakarNagarWhy";
 import SpaInSahakarNagarHow from "./SpaInSahakarNagarHow";
-import SpaLocationImg from "../../SpaLocationServices/SpaLocationImg";
+import LocationServicesImg from "../../LocationServicesImg";
 
 const SpaInSahakarNagar = () => {
   return (
@@ -32,7 +32,7 @@ const SpaInSahakarNagar = () => {
           href="https://scentlifestyle.com/spa-in-sahakara-nagar-bangalore"
         />
       </Helmet>
-      <SpaLocationImg img={spaSahakarImg} alt="spaSahakarImg" />
+      <LocationServicesImg img={spaSahakarImg} alt="spaSahakarImg" />
       <InnerNavi link="/spa" service="Spa" currService="Sap in Meadows" />
       <SpaInSahakarNagarHead />
       <SpaInSahakarNagarWhy />

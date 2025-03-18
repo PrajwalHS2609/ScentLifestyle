@@ -1,6 +1,5 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
-import HairSalonInMeadowsImg from '../../LocationServices/HairLocationServices/HairSalonInMeadows/HairSalonInMeadowsImg/HairSalonInMeadowsImg'
 import hairMaskImg from "./../../../Images/SahakarNagar/Hair.png";
 import InnerNavi from '../../InnerServicePage/InnerNavi/InnerNavi';
 import HairMaskHead from './HairMaskHead';
@@ -18,6 +17,7 @@ import InstaFeed from '../../HomePage/InstaFeed/InstaFeed';
 import HelpNearYou from '../../Help/HelpNearYou';
 import TextLocReviews from '../../TextLocReviews/TextLocReviews';
 import ServiceWhy from '../../MainServicePages/ServiceWhy/ServiceWhy';
+import HairSalonInMeadowsImg from '../../LocationServices/Meadows/HairSalonInMeadows/HairSalonInMeadowsImg/HairSalonInMeadowsImg';
 
 const HairMask = () => {
   return (

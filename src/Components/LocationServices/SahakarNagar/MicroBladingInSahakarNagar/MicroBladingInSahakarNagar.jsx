@@ -14,7 +14,7 @@ import MicroBladingInSahakarProcess from "./MicroBladingInSahakarProcess";
 import MicroBladingInSahakarWhyChoose from "./MicroBladingInSahakarWhyChoose";
 import MicroBladingInSahakarBook from "./MicroBladingInSahakarBook";
 import microbladingSahakarImg from "./../../../../Images/SahakarNagar/Eyeborw Microblading.png";
-import MicroBladingLocationImg from "../../MicroBladingLocationServices/MicroBladingLocationImg";
+import LocationServicesImg from "../../LocationServicesImg";
 
 const MicroBladingInSahakarNagar = () => {
   return (
@@ -34,7 +34,7 @@ const MicroBladingInSahakarNagar = () => {
           href="https://scentlifestyle.com/eyebrow-microblading-in-sahakara-nagar-bangalore"
         />
       </Helmet>
-      <MicroBladingLocationImg
+      <LocationServicesImg
         img={microbladingSahakarImg}
         alt="microbladingSahakarImg"
       />

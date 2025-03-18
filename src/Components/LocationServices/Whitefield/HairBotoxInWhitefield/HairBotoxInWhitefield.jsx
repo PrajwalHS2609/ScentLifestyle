@@ -1,6 +1,5 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
-import HairSalonInLavelleImg from '../../HairLocationServices/HairSalonInLavelle/HairSalonInLavelleImg/HairSalonInLavelleImg'
 import hairSahakarnagar from "./../../../../Images/SahakarNagar/Hair.png";
 import InnerNavi from '../../../InnerServicePage/InnerNavi/InnerNavi';
 import HairBotoxInWhitefieldHead from './HairBotoxInWhitefieldHead';
@@ -18,6 +17,7 @@ import HairBotoxInWhitefieldVerses from './HairBotoxInWhitefieldVerses';
 import HairBotoxInWhitefieldMaintain from './HairBotoxInWhitefieldMaintain';
 import HairBotoxInWhitefieldBook from './HairBotoxInWhitefieldBook';
 import HairBotoxInWhitefieldWhy from './HairBotoxInWhitefieldWhy';
+import HairSalonInLavelleImg from '../../Lavelle/HairSalonInLavelle/HairSalonInLavelleImg/HairSalonInLavelleImg';
 const HairBotoxInWhitefield = () => {
   return (
 <div>

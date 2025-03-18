@@ -1,6 +1,5 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import HairSalonInLavelleImg from "../../HairLocationServices/HairSalonInLavelle/HairSalonInLavelleImg/HairSalonInLavelleImg";
 import InnerNavi from "../../../InnerServicePage/InnerNavi/InnerNavi";
 import hairSahakarnagar from "./../../../../Images/SahakarNagar/Hair.png";
 import HairBotoxInJakkurHead from "./HairBotoxInJakkurHead";
@@ -18,6 +17,7 @@ import HairBotoxInJakkurVerses from "./HairBotoxInJakkurVerses";
 import HairBotoxInJakkurMaintain from "./HairBotoxInJakkurMaintain";
 import HairBotoxInJakkurBook from "./HairBotoxInJakkurBook";
 import HairBotoxInJakkurWhy from "./HairBotoxInJakkurWhy";
+import HairSalonInLavelleImg from "../../Lavelle/HairSalonInLavelle/HairSalonInLavelleImg/HairSalonInLavelleImg";
 
 
 const HairBotoxInJakkur = () => {

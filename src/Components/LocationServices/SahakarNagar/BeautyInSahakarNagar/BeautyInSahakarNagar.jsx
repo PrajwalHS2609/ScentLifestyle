@@ -13,7 +13,7 @@ import TextLocReviews from "../../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../../MainServicePages/ServiceWhy/ServiceWhy";
 import BeautyInSahakarNagarBenefits from "./BeautyInSahakarNagarBenefits";
 import BeautyInSahakarNagarBook from "./BeautyInSahakarNagarBook";
-import BeautyLocationImg from "../../BeautyLocationServices/BeautyLocationImg";
+import LocationServicesImg from "../../LocationServicesImg";
 
 const BeautyInSahakarNagar = () => {
   return (
@@ -32,7 +32,7 @@ const BeautyInSahakarNagar = () => {
           href="https://scentlifestyle.com/body-waxing-threading-and-d-tan-in-sahakara-nagar-bangalore"
         />
       </Helmet>
-      <BeautyLocationImg img={beautySahakarImg} alt="beautySahakarImg" />
+      <LocationServicesImg img={beautySahakarImg} alt="beautySahakarImg" />
       <InnerNavi
         link="/beauty-essentials"
         service="Beauty Essentials"

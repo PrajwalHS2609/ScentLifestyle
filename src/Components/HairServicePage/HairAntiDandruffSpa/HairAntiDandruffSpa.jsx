@@ -14,7 +14,7 @@ import HairAntiDandruffSpaProcess from './HairAntiDandruffSpaProcess';
 import HairAntiDandruffSpaBenefits from './HairAntiDandruffSpaBenefits';
 import HairAntiDandruffSpaWhy from './HairAntiDandruffSpaWhy';
 import HairAntiDandruffSpaBook from './HairAntiDandruffSpaBook';
-import HairSalonInMeadowsImg from "../../LocationServices/HairLocationServices/HairSalonInMeadows/HairSalonInMeadowsImg/HairSalonInMeadowsImg";
+import HairSalonInMeadowsImg from "../../LocationServices/Meadows/HairSalonInMeadows/HairSalonInMeadowsImg/HairSalonInMeadowsImg";
 
 const HairAntiDandruffSpa = () => {
   return (

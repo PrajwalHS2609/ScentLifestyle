@@ -2,7 +2,6 @@ import React from "react";
 import ScalpMassagerInSahakarNagarHead from "./ScalpMassagerInSahakarNagarHead";
 import ScalpMassagerInSahakarNagarLast from "./ScalpMassagerInSahakarNagarLast";
 import InnerNavi from "../../../InnerServicePage/InnerNavi/InnerNavi";
-import HairSalonInLavelleImg from "../../HairLocationServices/HairSalonInLavelle/HairSalonInLavelleImg/HairSalonInLavelleImg";
 import { Helmet } from "react-helmet";
 import hairTreatment from "./../../../../Images/Hair Treatments/Keratin.png";
 import Members from "../../../HomePage/Members/Members";
@@ -12,6 +11,7 @@ import InstaFeed from "../../../HomePage/InstaFeed/InstaFeed";
 import HelpNearYou from "../../../Help/HelpNearYou";
 import TextLocReviews from "../../../TextLocReviews/TextLocReviews";
 import ServiceWhy from "../../../MainServicePages/ServiceWhy/ServiceWhy";
+import HairSalonInLavelleImg from "../../Lavelle/HairSalonInLavelle/HairSalonInLavelleImg/HairSalonInLavelleImg";
 
 const ScalpMassagerInSahakarNagar = () => {
   return (

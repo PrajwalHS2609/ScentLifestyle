@@ -14,7 +14,7 @@ import BridalMakeUpInSahakarService from "./BridalMakeUpInSahakarService";
 import BridalMakeUpInSahakarBook from "./BridalMakeUpInSahakarBook";
 import BridalMakeUpInSahakarWhat from "./BridalMakeUpInSahakarWhat";
 import bridalSahakarImg from "./../../../../Images/SahakarNagar/Bridal Makeup.png";
-import BridalLocationImg from "../../BridalLocationServices/BridalLocationImg";
+import LocationServicesImg from "../../LocationServicesImg";
 
 const BridalMakeUpInSahakarNagar = () => {
   return (
@@ -34,7 +34,7 @@ const BridalMakeUpInSahakarNagar = () => {
           href="https://scentlifestyle.com/bridal-makeup-in-sahakara-nagar-bangalore"
         />
       </Helmet>
-      <BridalLocationImg img={bridalSahakarImg} alt="bridalSahakarImg" />
+      <LocationServicesImg img={bridalSahakarImg} alt="bridalSahakarImg" />
       <InnerNavi
         link="/bridal-makeup"
         service="Bridal Makeup"
