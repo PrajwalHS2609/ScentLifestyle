@@ -2,14 +2,20 @@ import React from "react";
 import "./HomeBlog.css";
 import HomeBlogCard from "./HomeBlogCard";
 import doScalpMassagesBanner from "./../../../Images/Blog/Do_Scalp_Massage_Promote/Banner.png";
-import HairTrends from "./../../../Images/Blog/2025HairTrends/Banner.png";
+import topNailArtBanner from "./../../../Images/Blog/Top_10_Nail_Art/Banner.png";
 import aromaBodySpaBanner from "./../../../Images/Blog/Aroma_Body_Spa/Banner.png";
 import { Link } from "react-router-dom";
 const HomeBlogMain = () => {
   return (
     <div className="homeBlogMain">
       <div className="homeBlogMainContainer">
-      <HomeBlogCard
+        <HomeBlogCard
+          img={topNailArtBanner}
+          head="Top 10 Nail Art Trends You Need to Try This Year!"
+          para="Nail art is constantly evolving, and every year brings a fresh wave of creative, bold, and elegant..."
+          link="/top-10-nail-art-trends-you-need-to-try-this-year"
+        />
+        <HomeBlogCard
           img={aromaBodySpaBanner}
           head="Aroma Body Spa: Rejuvenate Your Senses with the Power of Essential Oils"
           para="In today's fast-paced world, stress, fatigue, and tension have become a part of daily life..."
@@ -21,13 +27,6 @@ const HomeBlogMain = () => {
           para="Hair care is a universal concern, and everyone dreams of lush, healthy hair. Among the many hair care..."
           link="/do-scalp-massages-truly-promote-hair-growth"
         />
-        <HomeBlogCard
-          img={HairTrends}
-          head="2025 Trendy Hair Highlights You’ll Love!"
-          para="Are you looking to refresh your look with the hottest hair highlights trends of 2025? Whether you're..."
-          link="/2025-trendy-hair-highlights-youll-love"
-        />
-
       </div>
       <div className="homeBlogBtn">
         <Link to={"/blog"}>

@@ -2,6 +2,7 @@ import React, { useRef, useState } from "react";
 import BlogCard from "../BlogCard";
 import pedimanicurebanner from "./../../../../Images/Blog/Pedi&manicureBlog/Banner Image.png";
 import reasonsToTreatFeetBanner from "./../../../../Images/Blog/top_reasons_treat_feet/Banner.png";
+import topNailArtBanner from "./../../../../Images/Blog/Top_10_Nail_Art/Banner.png";
 
 const BlogNail = () => {
   let [toggle, setToggle] = useState(false);
@@ -33,12 +34,12 @@ const BlogNail = () => {
       </div>
 
       <div className="blogMainDisplay2" ref={switchRef}>
-        {/* <BlogCard
-          img="https://img.freepik.com/free-photo/portrait-attractive-woman-studio_329181-9782.jpg?ga=GA1.1.798303094.1721912336&semt=ais_hybrid"
-          head="Raccoon Eyes: Causes, Treatment, and How to Get Rid of It"
-          para="Ever noticed those unsightly dark circles around your eyes? In..."
-          link="/"
-        /> */}
+        <BlogCard
+          img={topNailArtBanner}
+          head="Top 10 Nail Art Trends You Need to Try This Year!"
+          para="Nail art is constantly evolving, and every year brings a fresh wave of creative, bold, and elegant..."
+          link="/top-10-nail-art-trends-you-need-to-try-this-year"
+        />
       </div>
 
       <div className="blogMainReadMore">

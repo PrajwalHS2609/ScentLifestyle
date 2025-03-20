@@ -36,9 +36,17 @@ import HairTrends from "./../../../../Images/Blog/2025HairTrends/Banner.png";
 import prefectPreDateBanner from "./../../../../Images/Blog/PerfectPreDate/Banner.png";
 import reasonsToTreatFeetBanner from "./../../../../Images/Blog/top_reasons_treat_feet/Banner.png";
 import aromaBodySpaBanner from "./../../../../Images/Blog/Aroma_Body_Spa/Banner.png";
+import topNailArtBanner from "./../../../../Images/Blog/Top_10_Nail_Art/Banner.png";
 
 const BlogMain = () => {
   const blogs = [
+    
+    {
+      img: topNailArtBanner,
+      head: "Top 10 Nail Art Trends You Need to Try This Year!",
+      para: "Nail art is constantly evolving, and every year brings a fresh wave of creative, bold, and elegant...",
+      link: "/top-10-nail-art-trends-you-need-to-try-this-year",
+    },
     {
       img: aromaBodySpaBanner,
       head: "Aroma Body Spa: Rejuvenate Your Senses with the Power of Essential Oils",
