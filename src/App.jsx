@@ -257,6 +257,11 @@ import FacialInUptown from "./Components/LocationServices/Uptown/FacialInUptown/
 import SpaInUptown from "./Components/LocationServices/Uptown/SpaInUptown/SpaInUptown";
 import LashesInUptown from "./Components/LocationServices/Uptown/LashesInUptown/LashesInUptown";
 import TopNailArts from "./Components/BlogPage/BlogInnerPages/NailBlogInnerPages/TopNailArts/TopNailArts";
+import OlaplexTreatmentInUptown from "./Components/LocationServices/Uptown/OlaplexTreatmentInUptown/OlaplexTreatmentInUptown";
+import OlaplexTreatmentInLavelle from "./Components/LocationServices/Lavelle/OlaplexTreatmentInLavelle/OlaplexTreatmentInLavelle";
+import OlaplexTreatmentInJakkur from "./Components/LocationServices/Jakkur/OlaplexTreatmentInJakkur/OlaplexTreatmentInJakkur";
+import OlaplexTreatmentInWhitefield from './Components/LocationServices/Whitefield/OlaplexTreatmentInWhitefield/OlaplexTreatmentInWhitefield';
+import OlaplexTreatmentInSahakar from "./Components/LocationServices/SahakarNagar/OlaplexTreatmentInSahakar/OlaplexTreatmentInSahakar";
 
 const MainApp = () => {
   const location = useLocation();
@@ -819,6 +824,10 @@ const MainApp = () => {
           path="/scalp-massagers-in-sahakara-nagar"
           element={<ScalpMassagerInSahakarNagar />}
         />
+             <Route
+          path="/olaplex-hair-treatment-in-sahakara-road"
+          element={<OlaplexTreatmentInSahakar />}
+        />
         {/* ----------------------/InSahakarnagar---------------------- */}
         {/* ----------------------InMeadows---------------------- */}
         <Route
@@ -872,6 +881,10 @@ const MainApp = () => {
           path="/scalp-massagers-in-whitefield"
           element={<ScalpMassagerInWhitefield />}
         />
+                <Route
+          path="/olaplex-hair-treatment-in-whitefield"
+          element={<OlaplexTreatmentInWhitefield />}
+        />
         {/* ----------------------/InWhitefield---------------------- */}
         {/* -------------------InLavelleRoad-------------------- */}
         <Route
@@ -919,6 +932,10 @@ const MainApp = () => {
           path="/scalp-massagers-in-lavelle-road"
           element={<ScalpMassagerInLavelle />}
         />
+        <Route
+          path="/olaplex-hair-treatment-in-lavelle-road"
+          element={<OlaplexTreatmentInLavelle />}
+        />
         {/* -----------------------/InLavelleRoad-------------------- */}
         {/*-----------------InJakkur------------------------------------ */}
         <Route
@@ -960,6 +977,10 @@ const MainApp = () => {
         <Route
           path="/keratin-hair-treatments-in-jakkur"
           element={<ScalpMassagerInJakkur />}
+        />
+        <Route
+          path="/olaplex-hair-treatment-in-jakkur"
+          element={<OlaplexTreatmentInJakkur />}
         />
         {/* -----------------------InUptown--------------------------- */}
         <Route
@@ -1005,6 +1026,10 @@ const MainApp = () => {
         <Route
           path="/scalp-massagers-in-uptown-whitefield"
           element={<ScalpMassagerInUptown />}
+        />
+        <Route
+          path="/olaplex-hair-treatment-in-uptown-whitefield"
+          element={<OlaplexTreatmentInUptown />}
         />
         {/* -----------------------/InUptown--------------------------- */}
         <Route path="/q-and-a" element={<QAPage />}>
