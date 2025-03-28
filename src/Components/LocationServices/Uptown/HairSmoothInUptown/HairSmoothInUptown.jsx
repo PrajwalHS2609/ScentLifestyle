@@ -32,7 +32,7 @@ const HairSmoothInUptown = () => {
     <InnerNavi
       link="/hair-salon"
       service="Hair Salon"
-      currService="Scalp Massager In Jakkur"
+      currService="Hair Smoothening in Uptown"
     />
     <HairSmoothInUptownHead />
     <Members />
