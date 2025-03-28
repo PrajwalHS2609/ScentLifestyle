@@ -23,7 +23,7 @@
 .pediAndMainCureBenefits > h3 {
   color: var(--customColor);
   width: 100%;
-  text-align: center;
+  text-align: start;
   font-size: 25px;
 }
 .pediAndMainCureBenefits > p {

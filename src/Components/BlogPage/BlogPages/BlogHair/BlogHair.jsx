@@ -19,6 +19,7 @@ import scalpDetoxBanner from "./../../../../Images/Blog/Scalp_Detox/Banner.png";
 import tenReasonHaircutBanner from "./../../../../Images/Blog/10_Reason_HairCut/Banner.png";
 import doScalpMassagesBanner from "./../../../../Images/Blog/Do_Scalp_Massage_Promote/Banner.png";
 import HairTrends from "./../../../../Images/Blog/2025HairTrends/Banner.png";
+import summerCareBanner from "./../../../../Images/Blog/Summer_Hair/Banner.png";
 
 const BlogHair = () => {
   let [toggle, setToggle] = useState(false);
@@ -152,6 +153,12 @@ const BlogHair = () => {
           head="2025 Trendy Hair Highlights You’ll Love!"
           para="Are you looking to refresh your look with the hottest hair highlights trends of 2025? Whether you're..."
           link="/2025-trendy-hair-highlights-youll-love"
+        />
+        <BlogCard
+          img={summerCareBanner}
+          head="Summer Hair Care Tips to Beat the Heat"
+          para="Summer is a season of sunshine, vacations, and outdoor adventures, but while we enjoy the..."
+          link="/summer-hair-care-tips-to-beat-the-heat"
         />
       </div>
 

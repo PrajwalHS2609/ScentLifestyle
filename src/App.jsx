@@ -260,8 +260,14 @@ import TopNailArts from "./Components/BlogPage/BlogInnerPages/NailBlogInnerPages
 import OlaplexTreatmentInUptown from "./Components/LocationServices/Uptown/OlaplexTreatmentInUptown/OlaplexTreatmentInUptown";
 import OlaplexTreatmentInLavelle from "./Components/LocationServices/Lavelle/OlaplexTreatmentInLavelle/OlaplexTreatmentInLavelle";
 import OlaplexTreatmentInJakkur from "./Components/LocationServices/Jakkur/OlaplexTreatmentInJakkur/OlaplexTreatmentInJakkur";
-import OlaplexTreatmentInWhitefield from './Components/LocationServices/Whitefield/OlaplexTreatmentInWhitefield/OlaplexTreatmentInWhitefield';
+import OlaplexTreatmentInWhitefield from "./Components/LocationServices/Whitefield/OlaplexTreatmentInWhitefield/OlaplexTreatmentInWhitefield";
 import OlaplexTreatmentInSahakar from "./Components/LocationServices/SahakarNagar/OlaplexTreatmentInSahakar/OlaplexTreatmentInSahakar";
+import SummerCare from "./Components/BlogPage/BlogInnerPages/HairBlogInnerPages/SummerCare/SummerCare";
+import HairSmoothInSahakaraNagar from "./Components/LocationServices/SahakarNagar/HairSmoothInSahakaraNagar/HairSmoothInSahakaraNagar";
+import HairSmoothInWhitefield from "./Components/LocationServices/Whitefield/HairSmoothInWhitefield/HairSmoothInWhitefield";
+import HairSmoothInJakkur from "./Components/LocationServices/Jakkur/HairSmoothInJakkur/HairSmoothInJakkur";
+import HairSmoothInUptown from "./Components/LocationServices/Uptown/HairSmoothInUptown/HairSmoothInUptown";
+import HairSmoothLavelle from "./Components/LocationServices/Lavelle/HairSmoothLavelle/HairSmoothLavelle";
 
 const MainApp = () => {
   const location = useLocation();
@@ -653,6 +659,10 @@ const MainApp = () => {
           path="/top-10-nail-art-trends-you-need-to-try-this-year"
           element={<TopNailArts />}
         />{" "}
+        <Route
+          path="/summer-hair-care-tips-to-beat-the-heat"
+          element={<SummerCare />}
+        />{" "}
         {/* ------------------------/blog------------------------      */}
         <Route path="/pre-bridal-treatments" element={<PrebridalPackage />} />
         <Route path="/organic-facial-services" element={<OrganicFacial />} />
@@ -824,9 +834,13 @@ const MainApp = () => {
           path="/scalp-massagers-in-sahakara-nagar"
           element={<ScalpMassagerInSahakarNagar />}
         />
-             <Route
+        <Route
           path="/olaplex-hair-treatment-in-sahakara-road"
           element={<OlaplexTreatmentInSahakar />}
+        />
+        <Route
+          path="/hair-smoothening-in-sahakara-nagar"
+          element={<HairSmoothInSahakaraNagar />}
         />
         {/* ----------------------/InSahakarnagar---------------------- */}
         {/* ----------------------InMeadows---------------------- */}
@@ -881,9 +895,13 @@ const MainApp = () => {
           path="/scalp-massagers-in-whitefield"
           element={<ScalpMassagerInWhitefield />}
         />
-                <Route
+        <Route
           path="/olaplex-hair-treatment-in-whitefield"
           element={<OlaplexTreatmentInWhitefield />}
+        />
+        <Route
+          path="/hair-smoothening-in-whitefield"
+          element={<HairSmoothInWhitefield />}
         />
         {/* ----------------------/InWhitefield---------------------- */}
         {/* -------------------InLavelleRoad-------------------- */}
@@ -936,6 +954,10 @@ const MainApp = () => {
           path="/olaplex-hair-treatment-in-lavelle-road"
           element={<OlaplexTreatmentInLavelle />}
         />
+        <Route
+          path="/hair-smoothening-in-lavelle-road"
+          element={<HairSmoothLavelle />}
+        />
         {/* -----------------------/InLavelleRoad-------------------- */}
         {/*-----------------InJakkur------------------------------------ */}
         <Route
@@ -981,6 +1003,10 @@ const MainApp = () => {
         <Route
           path="/olaplex-hair-treatment-in-jakkur"
           element={<OlaplexTreatmentInJakkur />}
+        />
+        <Route
+          path="/hair-smoothening-in-jakkur"
+          element={<HairSmoothInJakkur />}
         />
         {/* -----------------------InUptown--------------------------- */}
         <Route
@@ -1030,6 +1056,10 @@ const MainApp = () => {
         <Route
           path="/olaplex-hair-treatment-in-uptown-whitefield"
           element={<OlaplexTreatmentInUptown />}
+        />
+        <Route
+          path="/olaplex-hair-treatment-in-uptown-whitefield"
+          element={<HairSmoothInUptown />}
         />
         {/* -----------------------/InUptown--------------------------- */}
         <Route path="/q-and-a" element={<QAPage />}>

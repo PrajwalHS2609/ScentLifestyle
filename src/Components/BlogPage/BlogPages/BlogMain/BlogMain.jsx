@@ -37,10 +37,16 @@ import prefectPreDateBanner from "./../../../../Images/Blog/PerfectPreDate/Banne
 import reasonsToTreatFeetBanner from "./../../../../Images/Blog/top_reasons_treat_feet/Banner.png";
 import aromaBodySpaBanner from "./../../../../Images/Blog/Aroma_Body_Spa/Banner.png";
 import topNailArtBanner from "./../../../../Images/Blog/Top_10_Nail_Art/Banner.png";
+import summerCareBanner from "./../../../../Images/Blog/Summer_Hair/Banner.png";
 
 const BlogMain = () => {
   const blogs = [
-    
+    {
+      img: summerCareBanner,
+      head: "Summer Hair Care Tips to Beat the Heat",
+      para: "Summer is a season of sunshine, vacations, and outdoor adventures, but while we enjoy the...",
+      link: "/summer-hair-care-tips-to-beat-the-heat",
+    },
     {
       img: topNailArtBanner,
       head: "Top 10 Nail Art Trends You Need to Try This Year!",
