@@ -18,6 +18,7 @@
   align-items: center;
   gap: 80px;
   background-color: black;
+  padding: 20px;
 }
 #socialTxt {
   display: flex;

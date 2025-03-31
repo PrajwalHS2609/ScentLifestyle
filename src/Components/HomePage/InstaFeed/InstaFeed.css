@@ -157,7 +157,7 @@
     width: 50%;
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 979px) {
   .instaContainer {
     /* border: solid; */
     width: 100%;
@@ -212,7 +212,7 @@
     width: 100%;
   }
 }
-@media screen and (min-width: 990px) {
+@media screen and (min-width: 990px) and (max-width: 1200px) {
   .instaContainer {
     /* border: solid; */
     height: 100%;
@@ -260,15 +260,15 @@
   }
   .instaImgWrapper {
     /* border: solid blue; */
-    width: 100%;
-    height: 70%;
+    width: 80%;
+    height: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
   }
   .instaFeedVidContainer {
-    /* border: solid red ; */
+      /* border: solid red ; */
     width: 328px;
     margin: 0px;
     height: 550px;

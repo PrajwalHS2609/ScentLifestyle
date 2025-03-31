@@ -131,3 +131,17 @@
     font-size: 150%;
   }
 }
+@media only screen and (min-width: 990px) and (max-width: 1200px) {
+  .memberSlideContent {
+    /* border: solid red; */
+    width: 100%;
+    height: 95%;
+  }
+  .memberSlide > img {
+
+    width: 100%;
+    height: 100%;
+    margin-left: 0;
+    /* filter: grayscale(1); */
+  }
+}
