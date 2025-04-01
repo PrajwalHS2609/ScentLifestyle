@@ -38,9 +38,16 @@ import reasonsToTreatFeetBanner from "./../../../../Images/Blog/top_reasons_trea
 import aromaBodySpaBanner from "./../../../../Images/Blog/Aroma_Body_Spa/Banner.png";
 import topNailArtBanner from "./../../../../Images/Blog/Top_10_Nail_Art/Banner.png";
 import summerCareBanner from "./../../../../Images/Blog/Summer_Hair/Banner.png";
+import bestEyelashExtensionBanner from "./../../../../Images/Blog/The_Best_Eyelash_Extension/Banner.png";
 
 const BlogMain = () => {
   const blogs = [
+    {
+      img: bestEyelashExtensionBanner,
+      head: "The Best Eyelash Extension Styles for Brides and Special Events",
+      para: "A wedding or a special event is one of the most significant moments in a ...",
+      link: "/the-best-eyelash-extension-styles-for-brides-and-special-events ",
+    },
     {
       img: summerCareBanner,
       head: "Summer Hair Care Tips to Beat the Heat",

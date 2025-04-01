@@ -268,6 +268,7 @@ import HairSmoothInWhitefield from "./Components/LocationServices/Whitefield/Hai
 import HairSmoothInJakkur from "./Components/LocationServices/Jakkur/HairSmoothInJakkur/HairSmoothInJakkur";
 import HairSmoothInUptown from "./Components/LocationServices/Uptown/HairSmoothInUptown/HairSmoothInUptown";
 import HairSmoothLavelle from "./Components/LocationServices/Lavelle/HairSmoothLavelle/HairSmoothLavelle";
+import BestEyelashExtension from "./Components/BlogPage/BlogInnerPages/LashesBlogInnerPages/BestEyelashExtension/BestEyelashExtension";
 
 const MainApp = () => {
   const location = useLocation();
@@ -662,7 +663,11 @@ const MainApp = () => {
         <Route
           path="/summer-hair-care-tips-to-beat-the-heat"
           element={<SummerCare />}
-        />{" "}
+        />
+        <Route
+          path="/the-best-eyelash-extension-styles-for-brides-and-special-events"
+          element={<BestEyelashExtension />}
+        />
         {/* ------------------------/blog------------------------      */}
         <Route path="/pre-bridal-treatments" element={<PrebridalPackage />} />
         <Route path="/organic-facial-services" element={<OrganicFacial />} />
