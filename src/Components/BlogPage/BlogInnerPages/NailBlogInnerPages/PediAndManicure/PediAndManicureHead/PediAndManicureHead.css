@@ -39,14 +39,14 @@
   text-decoration: none;
   color: var(--customColor);
 }
-.pediManicureHead {
+/* .pediManicureHead {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   gap: 20px;
-}
+} */
 .pediManicureHead > p {
   font-size: 20px;
   width: 100%;

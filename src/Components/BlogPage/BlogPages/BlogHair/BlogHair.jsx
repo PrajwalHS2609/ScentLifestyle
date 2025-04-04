@@ -20,9 +20,16 @@ import tenReasonHaircutBanner from "./../../../../Images/Blog/10_Reason_HairCut/
 import doScalpMassagesBanner from "./../../../../Images/Blog/Do_Scalp_Massage_Promote/Banner.png";
 import HairTrends from "./../../../../Images/Blog/2025HairTrends/Banner.png";
 import summerCareBanner from "./../../../../Images/Blog/Summer_Hair/Banner.png";
+import olaplexBenefitsBanner from "./../../../../Images/Blog/10 Amazing Benefits of Olaplex Hair Treatment/Banner.png";
 
 const BlogHair = () => {
   const hairBlog = [
+    {
+      img: olaplexBenefitsBanner,
+      head: "10 Amazing Benefits of Olaplex Hair Treatment",
+      para: "In a world where hair is constantly exposed to heat styling, coloring, pollution, and ...",
+      link: "/10-amazing-benefits-of-olaplex-hair-treatment",
+    },
     {
       img: summerCareBanner,
       head: "Summer Hair Care Tips to Beat the Heat",

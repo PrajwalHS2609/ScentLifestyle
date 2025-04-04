@@ -39,9 +39,16 @@ import aromaBodySpaBanner from "./../../../../Images/Blog/Aroma_Body_Spa/Banner.
 import topNailArtBanner from "./../../../../Images/Blog/Top_10_Nail_Art/Banner.png";
 import summerCareBanner from "./../../../../Images/Blog/Summer_Hair/Banner.png";
 import bestEyelashExtensionBanner from "./../../../../Images/Blog/The_Best_Eyelash_Extension/Banner.png";
+import olaplexBenefitsBanner from "./../../../../Images/Blog/10 Amazing Benefits of Olaplex Hair Treatment/Banner.png";
 
 const BlogMain = () => {
   const blogs = [
+    {
+      img: olaplexBenefitsBanner,
+      head: "10 Amazing Benefits of Olaplex Hair Treatment",
+      para: "In a world where hair is constantly exposed to heat styling, coloring, pollution, and ...",
+      link: "/10-amazing-benefits-of-olaplex-hair-treatment",
+    },
     {
       img: bestEyelashExtensionBanner,
       head: "The Best Eyelash Extension Styles for Brides and Special Events",

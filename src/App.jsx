@@ -269,6 +269,7 @@ import HairSmoothInJakkur from "./Components/LocationServices/Jakkur/HairSmoothI
 import HairSmoothInUptown from "./Components/LocationServices/Uptown/HairSmoothInUptown/HairSmoothInUptown";
 import HairSmoothLavelle from "./Components/LocationServices/Lavelle/HairSmoothLavelle/HairSmoothLavelle";
 import BestEyelashExtension from "./Components/BlogPage/BlogInnerPages/LashesBlogInnerPages/BestEyelashExtension/BestEyelashExtension";
+import TenOlaplexBenefits from "./Components/BlogPage/BlogInnerPages/HairBlogInnerPages/TenOlaplexBenefits/TenOlaplexBenefits";
 
 const MainApp = () => {
   const location = useLocation();
@@ -667,6 +668,10 @@ const MainApp = () => {
         <Route
           path="/the-best-eyelash-extension-styles-for-brides-and-special-events"
           element={<BestEyelashExtension />}
+        />
+        <Route
+          path="/10-amazing-benefits-of-olaplex-hair-treatment"
+          element={<TenOlaplexBenefits />}
         />
         {/* ------------------------/blog------------------------      */}
         <Route path="/pre-bridal-treatments" element={<PrebridalPackage />} />
