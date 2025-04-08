@@ -3,7 +3,7 @@ import point from "./../../../../../Images/point.png";
 
 const GlamorousBun = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>2. The Messy Bun with a Twist</h5>
       <p>
         Messy buns are the go-to hairstyle for when you're in a rush, but adding

@@ -3,7 +3,7 @@ import bodyWaxingMythBanner from "./../../../../../Images/Blog/Body_waxing_myth/
 
 const BodyWaxingMythImg = () => {
   return (
-    <div className="hairTrimImg">
+    <div className="blogImg-content">
       <img src={bodyWaxingMythBanner} alt="bodyWaxingMythBanner" loading="lazy" />
     </div>
   );

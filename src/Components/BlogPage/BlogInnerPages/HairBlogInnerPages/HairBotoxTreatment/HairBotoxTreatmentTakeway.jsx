@@ -2,7 +2,7 @@ import React from "react";
 
 const HairBotoxTreatmentTakeway = () => {
   return (
-    <div className="pediManicureHead">
+    <div className="blogHead-content">
       <h5>The Takeaway: Is Hair Botox Right for You?</h5>
       <p>
         Hair Botox is an excellent choice if you’re looking for a gentle,

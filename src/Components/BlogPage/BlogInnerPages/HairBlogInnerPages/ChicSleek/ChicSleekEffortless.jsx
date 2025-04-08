@@ -3,7 +3,7 @@ import point from "./../../../../../Images/point.png";
 
 const ChicSleekEffortless = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>The Effortless Appeal of Long Layers</h5>
       <p>
         Long layers are perfect for women who love the look of long hair but

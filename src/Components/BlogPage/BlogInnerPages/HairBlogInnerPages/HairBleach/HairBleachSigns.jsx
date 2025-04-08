@@ -3,7 +3,7 @@ import dot from "./../../../../../Images/dot.png";
 
 const HairBleachSigns = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>Signs Your Hair Is Ready for Bleaching Again</h5>
       <p>
         Before scheduling your next bleaching session, check for these signs

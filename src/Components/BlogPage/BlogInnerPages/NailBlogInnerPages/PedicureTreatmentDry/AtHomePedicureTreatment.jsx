@@ -2,7 +2,7 @@ import React from "react";
 
 const AtHomePedicureTreatment = () => {
   return (
-    <div className="pediManicureHead">
+    <div className="blogHead-content">
       <h2>At-Home Pedicure Treatments for Dry and Cracked Heels</h2>
       <p>
         If visiting a salon isn’t an option, you can still pamper your feet at

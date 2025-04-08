@@ -2,7 +2,7 @@ import React from "react";
 
 const GlamorousFinal = () => {
   return (
-    <div className="pediManicureHead">
+    <div className="blogHead-content">
       <h3>Final Thoughts</h3>
       <p>
         Getting ready for a night out doesn’t have to be stressful, and your

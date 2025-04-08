@@ -2,7 +2,7 @@ import React from "react";
 
 const ClearerSkinFacialWhat = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>What Are Acne Cure Facials?</h5>
       <p>
         Acne Cure Facials are specialized{" "}

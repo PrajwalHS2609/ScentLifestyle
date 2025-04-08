@@ -2,7 +2,7 @@ import React from "react";
 
 const BrazilianWaxingTips = () => {
   return (
-    <div className="pediAndMainCureBenefits">
+    <div className="blogBenefits-content">
       <h3>Aftercare Tips for Brazilian Waxing</h3>
       <p>
         Proper aftercare is essential to maintaining the smooth, hair-free

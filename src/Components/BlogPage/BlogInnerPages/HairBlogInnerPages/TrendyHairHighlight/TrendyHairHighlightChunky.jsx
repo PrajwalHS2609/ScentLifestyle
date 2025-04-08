@@ -3,7 +3,7 @@ import point from "./../../../../../Images/point.png";
 
 const TrendyHairHighlightChunky = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>6. Chunky Highlights for a Retro Comeback 🎀</h5>
       <p>
         Taking inspiration from the early 2000s, chunky hair highlights are

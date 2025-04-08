@@ -13,6 +13,8 @@ import HairColorTryMaintainBanner from "./../../../../../Images/Blog/25+ Hair Co
 import HairColorTryWhyBanner from "./../../../../../Images/Blog/25+ Hair Colors/Why Hair Color is a Powerful Form of Self-Expression.png";
 import HairColorTryHowBanner from "./../../../../../Images/Blog/25+ Hair Colors/How to Choose from the 25+ Hair Colors Every Woman Should Try.png";
 import HairColorTryChoosing from "./HairColorTryChoosing";
+import BlogPost from "../../../BlogPost/BlogPost";
+import BlogCategories from "../../../BlogCategories/BlogCategories";
 
 const HairColorTry = () => {
   return (
@@ -29,26 +31,31 @@ const HairColorTry = () => {
           href="https://scentlifestyle.com/25-hair-colors-every-woman-should-try"
         />
       </Helmet>
-      <div className="hairTrimContent">
-        <HairColorTryImg />
-        <HairColorTryIntro />
-        <br />
-        <HairServImg hairBotoxImg={HairColorTryChooseBanner} />
-        <HairColorTryChoosing />
-        <br />
-        <HairServImg hairBotoxImg={HairColorTryColorsBanner} />
-        <HairColorTryColors />
-        <br />
-        <HairServImg hairBotoxImg={HairColorTryMaintainBanner} />
-        <HairColorTryMaintain />
-        <br />
-        <HairServImg hairBotoxImg={HairColorTryHowBanner} />
-        <HairColorTryHow />
-        <br />
-        <HairServImg hairBotoxImg={HairColorTryWhyBanner} />
-        <HairColorTryWhy />
+      <div className="blog-container">
+        <div className="blog-wrapper1">
+          <HairColorTryImg />
+          <HairColorTryIntro />
+          <br />
+          <HairServImg hairBotoxImg={HairColorTryChooseBanner} />
+          <HairColorTryChoosing />
+          <br />
+          <HairServImg hairBotoxImg={HairColorTryColorsBanner} />
+          <HairColorTryColors />
+          <br />
+          <HairServImg hairBotoxImg={HairColorTryMaintainBanner} />
+          <HairColorTryMaintain />
+          <br />
+          <HairServImg hairBotoxImg={HairColorTryHowBanner} />
+          <HairColorTryHow />
+          <br />
+          <HairServImg hairBotoxImg={HairColorTryWhyBanner} />
+          <HairColorTryWhy />
+        </div>
+        <div className="blog-wrapper2">
+          <BlogPost />
+          <BlogCategories />
+        </div>{" "}
       </div>
-            
     </div>
   );
 };

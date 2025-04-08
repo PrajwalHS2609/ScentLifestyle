@@ -3,7 +3,7 @@ import point from "./../../../../../Images/point.png";
 
 const WhyEyeBrowImp = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>6. The Importance of Professional Eyebrow Shaping</h5>
       <p>
         While DIY eyebrow grooming is possible, visiting a professional for

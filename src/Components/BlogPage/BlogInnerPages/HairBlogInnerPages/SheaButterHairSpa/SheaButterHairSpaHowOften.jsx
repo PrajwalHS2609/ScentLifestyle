@@ -2,7 +2,7 @@ import React from 'react'
 
 const SheaButterHairSpaHowOften = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>How Often Should You Get a Shea Butter Hair Spa?</h5>
       <p>
         For best results, it is recommended to do a{" "}

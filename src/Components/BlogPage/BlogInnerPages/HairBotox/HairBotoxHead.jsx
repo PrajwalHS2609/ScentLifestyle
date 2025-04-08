@@ -2,7 +2,7 @@ import React from 'react'
 
 const HairBotoxHead = () => {
   return (
-    <div className="hairTrimHead">
+    <div className="blogHead-content">
       <h1>How Hair Botox Treatments Can Transform Your Tresses </h1>
       <p>
         In the quest for luscious, smooth, and youthful-looking hair, the beauty

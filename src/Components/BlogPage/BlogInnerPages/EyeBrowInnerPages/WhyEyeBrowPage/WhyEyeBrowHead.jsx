@@ -2,7 +2,7 @@ import React from "react";
 
 const WhyEyeBrowHead = () => {
   return (
-    <div className="pediManicureHead">
+    <div className="blogHead-content">
       <h1>Why Eyebrow Shaping is the Secret to a Polished Look?</h1>
       <p>
         When it comes to beauty and grooming, eyebrows often take center stage.

@@ -2,7 +2,7 @@ import React from "react";
 
 const TrendyHairHighlightHead = () => {
   return (
-    <div className="pediManicureHead">
+    <div className="blogHead-content">
       <h1>2025 Trendy Hair Highlights You’ll Love!</h1>
       <p>
         Are you looking to refresh your look with the <a href="https://scentlifestyle.com/2025-trendy-hair-highlights-youll-love">hottest hair highlights

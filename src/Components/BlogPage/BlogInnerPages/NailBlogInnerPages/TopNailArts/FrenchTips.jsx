@@ -3,7 +3,7 @@ import point from "./../../../../../Images/point.png";
 
 const FrenchTips = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>5. French Tips Reinvented</h5>
       <p>
         Classic French tips are being reimagined in bold and creative ways.

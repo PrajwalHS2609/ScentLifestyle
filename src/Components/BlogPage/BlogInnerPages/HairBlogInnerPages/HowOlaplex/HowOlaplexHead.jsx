@@ -2,7 +2,7 @@ import React from "react";
 
 const HowOlaplexHead = () => {
   return (
-    <div className="pediManicureHead">
+    <div className="blogHead-content">
       <h1>How Olaplex Helps Maintain Healthy Hair after Coloring? </h1>
       <p>
         Coloring your hair can be a fun way to express yourself, but it can also

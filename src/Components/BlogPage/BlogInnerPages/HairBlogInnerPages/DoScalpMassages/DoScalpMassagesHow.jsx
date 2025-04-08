@@ -3,7 +3,7 @@ import point from "./../../../../../Images/point.png";
 
 const DoScalpMassagesHow = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>How to Perform Scalp Massages for Hair Growth</h5>
       <p>
         For those eager to try scalp massages, the technique is critical. Here’s

@@ -3,7 +3,7 @@ import point from "./../../../../../Images/point.png";
 
 const BestEyelashExtensionTips = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>Eyelash Extension Care Tips for Brides</h5>
       <p>
         To ensure your Eyelash Extensions for Brides last beautifully through

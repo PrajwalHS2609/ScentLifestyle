@@ -2,7 +2,7 @@ import React from "react";
 
 const ClearerSkinFacialScience = () => {
   return (
-    <div className="pediAndMainCureBenefits">
+    <div className="blogBenefits-content">
       <h3>The Science Behind Acne Cure Facials</h3>
       <p>
         Acne Cure Facials combine multiple steps to treat acne comprehensively.

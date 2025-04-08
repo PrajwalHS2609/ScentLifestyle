@@ -3,7 +3,7 @@ import point from "./../../../../../Images/point.png";
 
 const SheaButterHairSpaHow = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>How to Do a Shea Butter Hair Spa at Home</h5>
       <p>
         While visiting a professional salon for a Hair Spa is always a great

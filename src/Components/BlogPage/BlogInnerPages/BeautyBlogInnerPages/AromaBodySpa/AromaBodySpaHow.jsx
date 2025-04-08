@@ -2,7 +2,7 @@ import React from "react";
 
 const AromaBodySpaHow = () => {
   return (
-    <div className="pediManicureHead">
+    <div className="blogHead-content">
       <h5>How Often Should You Get an Aroma Body Spa?</h5>
       <p>
         The frequency of an{" "}

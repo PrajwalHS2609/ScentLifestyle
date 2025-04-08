@@ -2,7 +2,7 @@ import React from "react";
 
 const TenReasonHaircutSplitEnd = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>2. Prevent Split Ends</h5>
       <p>
         Split ends are the enemy of smooth, sleek hair. Left untreated, they can

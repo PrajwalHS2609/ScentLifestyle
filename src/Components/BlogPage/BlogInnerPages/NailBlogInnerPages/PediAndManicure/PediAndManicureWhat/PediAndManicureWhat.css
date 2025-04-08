@@ -1,4 +1,4 @@
-.pediManicureWhat {
+.blogWhat-content {
   /* border: solid red; */
   display: flex;
   justify-content: center;
@@ -8,40 +8,40 @@
   width: 90%;
   padding: 20px;
 }
-.pediManicureWhat > h5 {
+.blogWhat-content > h5 {
   font-size: 25px;
   color: var(--customColor);
   text-align: center;
   width: 100%;
 }
-.pediManicureWhat > p {
+.blogWhat-content > p {
   font-size: 20px;
   width: 100%;
   text-align: justify;
 }
-.pediManicureWhat > p > a {
+.blogWhat-content > p > a {
   color: var(--customColor);
   text-decoration: none;
 }
-.pediManicureWhat > ul > p {
+.blogWhat-content > ul > p {
   font-size: 20px;
   width: 100%;
   text-align: justify;
 }
-.pediManicureWhat > ul > p > span {
+.blogWhat-content > ul > p > span {
   color: var(--customColor);
   font-weight: bold;
 }
-.pediManicureWhat > ul > h4 {
+.blogWhat-content > ul > h4 {
   color: var(--customColor);
   font-size: 20px;
   text-align: start;
 }
-.pediManicureWhat > ul > li > p > a {
+.blogWhat-content > ul > li > p > a {
   text-decoration: none;
   color: var(--customColor);
 }
-.pediManicureWhat > ul > li {
+.blogWhat-content > ul > li {
   list-style: none;
   font-size: 20px;
   text-align: justify;
@@ -53,13 +53,13 @@
   gap: 10px;
   width: 100%;
 }
-.pediManicureWhat > ul > li>h6 {
+.blogWhat-content > ul > li>h6 {
   color: var(--customColor);
   font-size: 18px;
   font-weight:600;
 }
 
-.pediManicureWhat > ul > li > ul > li {
+.blogWhat-content > ul > li > ul > li {
   list-style: none;
   font-size: 20px;
   text-align: justify;
@@ -72,7 +72,7 @@
   width: 100%;
 }
 
-.pediManicureWhat > ul > li > ul > li > span {
+.blogWhat-content > ul > li > ul > li > span {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -82,7 +82,7 @@
 }
 
 
-.pediManicureWhat > ul > li > span {
+.blogWhat-content > ul > li > span {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -90,16 +90,16 @@
   color: var(--customColor);
   text-align: start;
 }
-.pediManicureWhat > ul > li > span > img {
+.blogWhat-content > ul > li > span > img {
   width: 20px;
   height: 20px;
 }
 @media screen and (min-width: 320px) and (max-width: 768px) {
-  .pediManicureWhat {
+  .blogWhat-content {
     /* border: solid red; */
     padding: 5px;
   }
-  .pediManicureWhat > ul > li > ul {
+  .blogWhat-content > ul > li > ul {
     margin-right: 30px;
   }
 }

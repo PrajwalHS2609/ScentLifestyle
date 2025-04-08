@@ -15,7 +15,8 @@ import glamorousBun from "./../../../../../Images/Blog/Get Ready for a Glamorous
 import glamorousTwist from "./../../../../../Images/Blog/Get Ready for a Glamorous Night/The Half-Up, Half-Down Twist.png";
 import glamorousWaves from "./../../../../../Images/Blog/Get Ready for a Glamorous Night/The Glamorous Hollywood Waves.png";
 import glamorousCrown from "./../../../../../Images/Blog/Get Ready for a Glamorous Night/The Braided Crown.png";
-
+import BlogPost from "../../../BlogPost/BlogPost";
+import BlogCategories from "../../../BlogCategories/BlogCategories";
 
 const Glamorous = () => {
   return (
@@ -34,29 +35,34 @@ const Glamorous = () => {
           href="https://scentlifestyle.com/get-ready-for-a-glamorous-night-out-5-quick-and-easy-hairstyles"
         />
       </Helmet>
-      <div className="hairTrimContent">
-        <GlamorousImg />
-        <InnerNavi link="/blog" service="Blog" currService="Hair blog" />
-        <GlamorousHead />
-        <br />
-        <HairServImg hairBotoxImg={glamorousPony} />
-        <GlamorousPony />
-        <br />
-        <HairServImg hairBotoxImg={glamorousBun} />
-        <GlamorousBun />
-        <br />
-        <HairServImg hairBotoxImg={glamorousTwist} />
-        <GlamorousTwist />
-        <br />
-        <HairServImg hairBotoxImg={glamorousWaves} />
-        <GlamorousWaves />
-        <br />
-        <HairServImg hairBotoxImg={glamorousCrown} />
-        <GlamorousCrown/>
-        <br />
-        <GlamorousFinal/>
+      <div className="blog-container">
+        <div className="blog-wrapper1">
+          <GlamorousImg />
+          <InnerNavi link="/blog" service="Blog" currService="Hair blog" />
+          <GlamorousHead />
+          <br />
+          <HairServImg hairBotoxImg={glamorousPony} />
+          <GlamorousPony />
+          <br />
+          <HairServImg hairBotoxImg={glamorousBun} />
+          <GlamorousBun />
+          <br />
+          <HairServImg hairBotoxImg={glamorousTwist} />
+          <GlamorousTwist />
+          <br />
+          <HairServImg hairBotoxImg={glamorousWaves} />
+          <GlamorousWaves />
+          <br />
+          <HairServImg hairBotoxImg={glamorousCrown} />
+          <GlamorousCrown />
+          <br />
+          <GlamorousFinal />
+        </div>
+        <div className="blog-wrapper2">
+          <BlogPost />
+          <BlogCategories />
+        </div>
       </div>
-      
     </div>
   );
 };

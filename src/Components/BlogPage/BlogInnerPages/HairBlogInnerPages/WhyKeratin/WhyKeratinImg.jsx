@@ -3,7 +3,7 @@ import whyKeratinBanner from "./../../../../../Images/Blog/Why_Keratin_Hair/Bann
 
 const WhyKeratinImg = () => {
   return (
-    <div className="hairTrimImg">
+    <div className="blogImg-content">
       <img src={whyKeratinBanner} alt="whyKeratinBanner" loading="lazy" />
     </div>
   )

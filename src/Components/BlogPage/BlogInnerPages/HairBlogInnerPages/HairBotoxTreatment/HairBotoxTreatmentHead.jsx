@@ -2,7 +2,7 @@ import React from "react";
 
 const HairBotoxTreatmentHead = () => {
   return (
-    <div className="pediManicureHead">
+    <div className="blogHead-content">
       <h1>
         Hair Botox Treatment: All You Need to Know for Smooth, Healthy Hair
       </h1>

@@ -3,7 +3,7 @@ import point from "./../../../../../Images/point.png";
 
 const TrendyHairHighlightIcy = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>4. Icy Platinum Streaks for a Bold Edge ❄️</h5>
       <p>
         Icy platinum highlights are making a strong comeback in 2025! This

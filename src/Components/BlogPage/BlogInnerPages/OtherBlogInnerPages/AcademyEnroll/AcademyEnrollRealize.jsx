@@ -2,7 +2,7 @@ import React from "react";
 
 const AcademyEnrollRealize = () => {
   return (
-    <div className="pediManicureHead">
+    <div className="blogHead-content">
       <h3>Realize Your Dreams Today</h3>
       <p>
         If you’re ready to transform your passion for beauty into a fulfilling

@@ -2,7 +2,7 @@ import React from "react";
 
 const ScalpDetoxWhat = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>What is Scalp Detox?</h5>
       <p>
         A scalp detox is the process of cleansing your scalp to remove the

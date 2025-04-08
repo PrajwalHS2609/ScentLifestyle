@@ -2,7 +2,7 @@ import React from "react";
 
 const HowOlaplexWhat = () => {
   return (
-    <div className="pediManicureHead">
+    <div className="blogHead-content">
       <h2>What Makes Olaplex Unique?</h2>
       <p>
         Olaplex is a revolutionary hair treatment that uses a patented active

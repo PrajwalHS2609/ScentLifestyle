@@ -3,7 +3,7 @@ import "./PediAndManicureHead.css";
 
 const PediAndManicureHead = () => {
   return (
-    <div className="pediManicureHead">
+    <div className="blogHead-content">
       <h1>Exploring the Benefits of Professional Pedicures and Manicures</h1>
       <p>
         When it comes to self-care and personal grooming,{" "}

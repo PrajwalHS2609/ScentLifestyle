@@ -3,7 +3,7 @@ import checked from "./../../../../../Images/checked.png";
 
 const HairSpaTreatmentWhyScent = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>Why SCENT is Your Go-To Destination for Hair Spa Treatments</h5>
       <p>
         At SCENT, we understand the importance of tailored care. Our

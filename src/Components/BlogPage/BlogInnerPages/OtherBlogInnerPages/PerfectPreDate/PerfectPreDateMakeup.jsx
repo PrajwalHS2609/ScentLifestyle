@@ -3,7 +3,7 @@ import point from "./../../../../../Images/point.png";
 
 const PerfectPreDateMakeup = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>Makeup Magic: Enhance Your Natural Beauty</h5>
       <p>
         Your makeup should complement your natural beauty and make you feel

@@ -3,7 +3,7 @@ import bodyDTanTreatmentImg from "./../../../../../Images/Blog/Body_D-Tan_Treatm
 
 const BodyDTanTreatmentImg = () => {
   return (
-    <div className="hairTrimImg">
+    <div className="blogImg-content">
       <img
         src={bodyDTanTreatmentImg}
         alt="bodyDTanTreatmentImg"

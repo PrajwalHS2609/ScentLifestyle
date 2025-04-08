@@ -3,7 +3,7 @@ import point from "./../../../../../Images/point.png";
 
 const BrazilianWaxingPain = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>Brazilian Waxing: Pain Level and Comfort</h5>
       <p>
         A common concern for those considering Brazilian Waxing is the pain

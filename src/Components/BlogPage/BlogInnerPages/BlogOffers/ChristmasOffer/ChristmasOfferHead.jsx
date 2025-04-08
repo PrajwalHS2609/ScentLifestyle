@@ -2,7 +2,7 @@ import React from 'react'
 
 const ChristmasOfferHead = () => {
   return (
-    <div className="pediManicureHead">
+    <div className="blogHead-content">
     <h1>The Truth About Body Waxing: Myths, Facts, and Tipse</h1>
     <p>
       Body waxing is a popular hair removal method that has been around for

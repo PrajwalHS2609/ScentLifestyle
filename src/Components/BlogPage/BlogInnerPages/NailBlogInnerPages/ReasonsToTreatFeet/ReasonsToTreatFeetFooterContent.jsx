@@ -2,7 +2,7 @@ import React from "react";
 
 const ReasonsToTreatFeetFooterContent = () => {
   return (
-    <div className="pediManicureHead">
+    <div className="blogHead-content">
       <p>
         Cracked heels can be both painful and unsightly, but the Pedicalm-Glyco
         Foot Facial is designed to address this issue effectively. By deeply

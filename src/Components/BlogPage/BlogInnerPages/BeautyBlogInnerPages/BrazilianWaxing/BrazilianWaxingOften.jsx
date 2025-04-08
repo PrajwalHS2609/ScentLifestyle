@@ -2,7 +2,7 @@ import React from "react";
 
 const BrazilianWaxingOften = () => {
   return (
-    <div className="pediManicureHead">
+    <div className="blogHead-content">
       <h3>How Often Should You Get Brazilian Waxing?</h3>
       <p>
         The frequency of Brazilian Waxing largely depends on your personal hair

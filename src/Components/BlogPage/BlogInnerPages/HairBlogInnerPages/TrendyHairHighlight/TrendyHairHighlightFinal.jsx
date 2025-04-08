@@ -2,7 +2,7 @@ import React from "react";
 
 const TrendyHairHighlightFinal = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>Final Thoughts</h5>
       <p>
         Whether you prefer a subtle{" "}

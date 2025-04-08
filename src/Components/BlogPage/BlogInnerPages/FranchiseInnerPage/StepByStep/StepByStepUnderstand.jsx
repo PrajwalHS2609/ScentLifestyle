@@ -3,7 +3,7 @@ import checked from "./../../../../../Images/checked.png";
 
 const StepByStepUnderstand = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>2. Understand the Bangalore Market</h5>
       <p>
         Before setting up your salon franchise, it's crucial to conduct thorough

@@ -3,7 +3,7 @@ import point from "./../../../../../Images/point.png";
 
 const HairSpaTreatmentDiff = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>The difference between Hair Spa for Women and Hair Spa for Men</h5>
       <p>
         While the fundamentals of hair spa treatments remain consistent, there

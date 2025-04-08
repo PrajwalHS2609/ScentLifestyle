@@ -2,7 +2,7 @@ import React from 'react'
 
 const CurlyHairTemporary = () => {
   return (
-    <div className='pediManicureWhat'>
+    <div className='blogWhat-content'>
       <h5>7. Try Temporary Curly Styles First</h5>
       <p>
         If you’re still uncertain,

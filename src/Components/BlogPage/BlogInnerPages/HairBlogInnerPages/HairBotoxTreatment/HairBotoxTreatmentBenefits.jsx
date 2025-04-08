@@ -3,7 +3,7 @@ import checked from "./../../../../../Images/checked.png";
 
 const HairBotoxTreatmentBenefits = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>Benefits of Hair Botox Treatment</h5>
       <p>
         Hair Botox treatment offers several unique benefits that cater to

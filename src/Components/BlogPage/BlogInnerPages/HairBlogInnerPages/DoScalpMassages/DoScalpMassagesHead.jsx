@@ -2,7 +2,7 @@ import React from "react";
 
 const DoScalpMassagesHead = () => {
   return (
-    <div className="pediManicureHead">
+    <div className="blogHead-content">
       <h1>Do Scalp Massages Truly Promote Hair Growth?</h1>
       <p>
         Hair care is a universal concern, and everyone dreams of lush, healthy

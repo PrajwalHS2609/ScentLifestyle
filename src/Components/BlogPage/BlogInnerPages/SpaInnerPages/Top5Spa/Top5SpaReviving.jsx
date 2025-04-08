@@ -2,7 +2,7 @@ import React from "react";
 
 const Top5SpaReviving = () => {
   return (
-    <div className="pediManicureHead">
+    <div className="blogHead-content">
       <h2>5. Reviving Damaged Hair and Improving Texture</h2>
       <p>
         Lastly, one of the most compelling reasons to book a hair spa today is

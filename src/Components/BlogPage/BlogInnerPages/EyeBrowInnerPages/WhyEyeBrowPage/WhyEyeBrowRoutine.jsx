@@ -3,7 +3,7 @@ import point from "./../../../../../Images/point.png";
 
 const WhyEyeBrowRoutine = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>4. It Complements Your Makeup Routine</h5>
       <p>
         One of the main reasons{" "}

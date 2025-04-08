@@ -2,7 +2,7 @@ import React from "react";
 
 const Top5SpaHead = () => {
   return (
-    <div className="pediManicureHead">
+    <div className="blogHead-content">
       <h1>The Top 5 Reasons to Book a Hair Spa Today</h1>
       <p>
         Hair care is more than just shampooing and conditioning—it’s about deep

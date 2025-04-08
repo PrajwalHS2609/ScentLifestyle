@@ -3,7 +3,7 @@ import summerCareBanner from "./../../../../../Images/Blog/Summer_Hair/Banner.pn
 
 const SummerCareImg = () => {
   return (
-    <div className="hairTrimImg">
+    <div className="blogImg-content">
       <img src={summerCareBanner} alt="summer hair Care Banner" loading="lazy" />
     </div>
   )

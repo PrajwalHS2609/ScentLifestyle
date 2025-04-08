@@ -3,7 +3,7 @@ import point from "./../../../../../Images/point.png";
 
 const GlamorousWaves = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>4. The Glamorous Hollywood Waves</h5>
       <p>
         For a truly glamorous night out, you can never go wrong with old

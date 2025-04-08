@@ -2,7 +2,7 @@ import React from "react";
 
 const TopNailArtsHead = () => {
   return (
-    <div className="pediManicureHead">
+    <div className="blogHead-content">
       <h1>Top 10 Nail Art Trends You Need to Try This Year!</h1>
       <p>
         Nail art is constantly evolving, and every year brings a fresh wave of

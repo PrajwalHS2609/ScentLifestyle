@@ -3,7 +3,7 @@ import point from "./../../../../../Images/point.png";
 
 function HairBleachHowTo() {
   return (
-    <div className="pediAndMainCureBenefits">
+    <div className="blogBenefits-content">
       <h3>How to Care for Your Hair between Bleaching Sessions</h3>
       <p>
         Proper aftercare is essential for maintaining healthy hair and preparing

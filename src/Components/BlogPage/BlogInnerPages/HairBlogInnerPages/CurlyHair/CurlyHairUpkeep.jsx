@@ -3,7 +3,7 @@ import point from "./../../../../../Images/point.png";
 
 const CurlyHairUpkeep = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>5. Are You Ready for the Upkeep?</h5>
       <p>
         One of the most important factors in deciding on{" "}

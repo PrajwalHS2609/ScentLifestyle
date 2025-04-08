@@ -2,7 +2,7 @@ import React from "react";
 
 const Top5SpaWhy = () => {
   return (
-    <div className="pediManicureHead">
+    <div className="blogHead-content">
       <h2>Why You Should Book a Hair Spa Today at SCENT</h2>
       <p>
         If you’re convinced by the reasons mentioned above, the next step is{" "}

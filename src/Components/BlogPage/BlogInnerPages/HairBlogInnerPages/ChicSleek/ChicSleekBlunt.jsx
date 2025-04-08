@@ -3,7 +3,7 @@ import point from "./../../../../../Images/point.png";
 
 const ChicSleekBlunt = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>The Classic Elegance of the Blunt Cut</h5>
       <p>
         Blunt cuts are all about clean lines and sharp edges. This haircut is

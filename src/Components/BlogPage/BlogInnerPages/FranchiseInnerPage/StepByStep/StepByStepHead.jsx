@@ -2,7 +2,7 @@ import React from "react";
 
 const StepByStepHead = () => {
   return (
-    <div className="pediManicureHead">
+    <div className="blogHead-content">
       <h1>
         Step-by-Step Guide to Setting up a Successful Salon Franchise in
         Bangalore{" "}

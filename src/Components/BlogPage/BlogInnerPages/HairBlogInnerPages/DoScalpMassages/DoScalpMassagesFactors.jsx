@@ -2,7 +2,7 @@ import React from "react";
 
 const DoScalpMassagesFactors = () => {
   return (
-    <div className="pediAndMainCureBenefits">
+    <div className="blogBenefits-content">
       <h3>Factors That Influence Hair Growth</h3>
       <p>
         It’s important to note that while{" "}

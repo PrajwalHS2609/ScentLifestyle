@@ -4,7 +4,7 @@ import HairServImg from "../HairBotox/HairServImg";
 
 const CinnamonSpice = () => {
   return (
-    <div className="hairTrimHead">
+    <div className="blogHead-content">
       <HairServImg hairBotoxImg={CinnamonImg} />
       <h2>1. Cinnamon Spice</h2>
       <p>

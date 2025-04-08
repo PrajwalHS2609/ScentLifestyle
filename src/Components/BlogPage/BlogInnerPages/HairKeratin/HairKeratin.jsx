@@ -15,6 +15,8 @@ import hairKeratinProcess from "./../../../../Images/Blog/Keratin_Hair_Treatment
 import hairKeratinMaintain from "./../../../../Images/Blog/Keratin_Hair_Treatment/Post-Treatment Care and Maintenance.png";
 import hairKeratinMisconception from "./../../../../Images/Blog/Keratin_Hair_Treatment/Common Misconceptions About Keratin Hair Treatment.png";
 import hairKeratinRight from "./../../../../Images/Blog/Keratin_Hair_Treatment/Is Keratin Hair Treatment Right for You.png";
+import BlogPost from "../../BlogPost/BlogPost";
+import BlogCategories from "../../BlogCategories/BlogCategories";
 
 const HairKeratin = () => {
   return (
@@ -32,26 +34,27 @@ const HairKeratin = () => {
         />
       </Helmet>
       <NavBg />
-      <div className="hairTrimContent">
-        <HairKeratinImg />
-        <InnerNavi
-          link="/blog"
-          service="Blog"
-          currService="Hair Blog"
-        />
-        <HairKeratinHead />
-        <HairServImg hairBotoxImg={hairKeratinBenefits} />
-        <HairKeratinBenefits />
-        <HairServImg hairBotoxImg={hairKeratinProcess} />
-        <HairKeratinProcess />
-        <HairServImg hairBotoxImg={hairKeratinMaintain} />
-        <HairKeratinMaintain />
-        <HairServImg hairBotoxImg={hairKeratinMisconception} />
-        <HairKeratinMisconception />
-        <HairServImg hairBotoxImg={hairKeratinRight} />
-        <HairKeratinRight />
+      <div className="blog-container">
+        <div className="blog-wrapper1">
+          <HairKeratinImg />
+          <InnerNavi link="/blog" service="Blog" currService="Hair Blog" />
+          <HairKeratinHead />
+          <HairServImg hairBotoxImg={hairKeratinBenefits} />
+          <HairKeratinBenefits />
+          <HairServImg hairBotoxImg={hairKeratinProcess} />
+          <HairKeratinProcess />
+          <HairServImg hairBotoxImg={hairKeratinMaintain} />
+          <HairKeratinMaintain />
+          <HairServImg hairBotoxImg={hairKeratinMisconception} />
+          <HairKeratinMisconception />
+          <HairServImg hairBotoxImg={hairKeratinRight} />
+          <HairKeratinRight />
+        </div>
+        <div className="blog-wrapper2">
+          <BlogPost />
+          <BlogCategories />
+        </div>
       </div>
-            
     </div>
   );
 };

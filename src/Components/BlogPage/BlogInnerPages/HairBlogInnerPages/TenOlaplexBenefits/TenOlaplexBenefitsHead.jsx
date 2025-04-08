@@ -2,7 +2,7 @@ import React from "react";
 
 const TenOlaplexBenefitsHead = () => {
   return (
-    <div className="pediManicureHead">
+    <div className="blogHead-content">
       <h1>10 Amazing Benefits of Olaplex Hair Treatment</h1>
       <p>
         In a world where hair is constantly exposed to heat styling, coloring,

@@ -2,7 +2,7 @@ import React from "react";
 
 const HairBotoxTreatmentFaq = () => {
   return (
-    <div className="pediAndMainCureBenefits">
+    <div className="blogBenefits-content">
       <h3>FAQs around Hair Botox Treatment</h3>
       <p>
         To help you make an informed decision, here are some frequently asked

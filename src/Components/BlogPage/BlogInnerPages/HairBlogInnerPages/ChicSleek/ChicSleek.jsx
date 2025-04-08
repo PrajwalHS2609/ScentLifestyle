@@ -24,6 +24,8 @@ import ChicSleekLobImg from "./../../../../../Images/Blog/Chic & Sleek/The Versa
 import ChicSleekBobImg from "./../../../../../Images/Blog/Chic & Sleek/Chic and Timeless_ The Bob.png";
 import ChicSleekMaintainImg from "./../../../../../Images/Blog/Chic & Sleek/Maintaining Your Chic & Sleek Haircut.png";
 import ChicSleekBannerImg from "./ChicSleekBannerImg";
+import BlogPost from "../../../BlogPost/BlogPost";
+import BlogCategories from "../../../BlogCategories/BlogCategories";
 
 const ChicSleek = () => {
   return (
@@ -41,31 +43,36 @@ const ChicSleek = () => {
         />
       </Helmet>
       <NavBg />
-      <div className="hairTrimContent">
-        <ChicSleekBannerImg />
-        <InnerNavi link="/blog" service="Blog" currService="Hair blog" />
-        <ChicSleekHead />
-        <HairServImg hairBotoxImg={ChicSleekPowerImg} />
-        <ChicSleekPower />
-        <HairServImg hairBotoxImg={ChicSleekBobImg} />
-        <ChicSleekBob />
-        <HairServImg hairBotoxImg={ChicSleekPixieImg} />
-        <ChicSleekPixie />
-        <HairServImg hairBotoxImg={ChicSleekEffortlessImg} />
-        <ChicSleekEffortless />
-        <HairServImg hairBotoxImg={ChicSleekShagImg} />
-        <ChicSleekShag />
-        <HairServImg hairBotoxImg={ChicSleekLobImg} />
-        <ChicSleekLob />
-        <HairServImg hairBotoxImg={ChicSleekBluntImg} />
-        <ChicSleekBlunt />
-        <HairServImg hairBotoxImg={ChicSleekCurlyImg} />
-        <ChicSleekCurly />
-        <ChicSleekImp />
-        <HairServImg hairBotoxImg={ChicSleekMaintainImg} />
-        <ChicSleekMaintain />
+      <div className="blog-container">
+        <div className="blog-wrapper1">
+          <ChicSleekBannerImg />
+          <InnerNavi link="/blog" service="Blog" currService="Hair blog" />
+          <ChicSleekHead />
+          <HairServImg hairBotoxImg={ChicSleekPowerImg} />
+          <ChicSleekPower />
+          <HairServImg hairBotoxImg={ChicSleekBobImg} />
+          <ChicSleekBob />
+          <HairServImg hairBotoxImg={ChicSleekPixieImg} />
+          <ChicSleekPixie />
+          <HairServImg hairBotoxImg={ChicSleekEffortlessImg} />
+          <ChicSleekEffortless />
+          <HairServImg hairBotoxImg={ChicSleekShagImg} />
+          <ChicSleekShag />
+          <HairServImg hairBotoxImg={ChicSleekLobImg} />
+          <ChicSleekLob />
+          <HairServImg hairBotoxImg={ChicSleekBluntImg} />
+          <ChicSleekBlunt />
+          <HairServImg hairBotoxImg={ChicSleekCurlyImg} />
+          <ChicSleekCurly />
+          <ChicSleekImp />
+          <HairServImg hairBotoxImg={ChicSleekMaintainImg} />
+          <ChicSleekMaintain />
+        </div>
+        <div className="blog-wrapper2">
+          <BlogPost />
+          <BlogCategories />
+        </div>{" "}
       </div>
-            
     </div>
   );
 };

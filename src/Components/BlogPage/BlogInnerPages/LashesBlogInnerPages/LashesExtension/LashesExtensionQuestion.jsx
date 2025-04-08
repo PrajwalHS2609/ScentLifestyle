@@ -2,7 +2,7 @@ import React from "react";
 
 const LashesExtensionQuestion = () => {
   return (
-    <div className="pediAndMainCureBenefits">
+    <div className="blogBenefits-content">
       <h3>Common Questions About Eyelash Extensions</h3>
       <li>
         <h6>1. Are Eyelash Extensions Safe for Women with Sensitive Eyes?</h6>

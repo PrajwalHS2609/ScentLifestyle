@@ -3,7 +3,7 @@ import doScalpMassagesBanner from "./../../../../../Images/Blog/Do_Scalp_Massage
 
 const DoScalpMassagesImg = () => {
   return (
-    <div className="hairTrimImg">
+    <div className="blogImg-content">
     <img src={doScalpMassagesBanner} alt="doScalpMassagesBanner" loading="lazy"/>
   </div>
   )

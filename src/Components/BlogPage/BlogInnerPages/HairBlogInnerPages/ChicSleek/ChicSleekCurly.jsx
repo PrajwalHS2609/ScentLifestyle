@@ -3,7 +3,7 @@ import point from "./../../../../../Images/point.png";
 
 const ChicSleekCurly = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>Embracing Your Curls: The Curly Cut</h5>
       <p>
         For women with curly hair, finding the right haircut can be a challenge.

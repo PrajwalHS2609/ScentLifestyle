@@ -2,7 +2,7 @@ import React from "react";
 
 const ClearerSkinFacialFinal = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>Final Thoughts</h5>
       <p>
         Achieving clearer skin isn’t just about aesthetics—it’s about feeling

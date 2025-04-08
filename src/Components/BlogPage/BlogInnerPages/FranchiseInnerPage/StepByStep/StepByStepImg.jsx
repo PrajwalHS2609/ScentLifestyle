@@ -3,7 +3,7 @@ import stepbystepBanner from "./../../../../../Images/Blog/Step-by-Step Guide/Ba
 
 const StepByStepImg = () => {
   return (
-    <div className="hairTrimImg">
+    <div className="blogImg-content">
       <img src={stepbystepBanner} alt="stepbystepBanner" loading="lazy" />
     </div>
   );

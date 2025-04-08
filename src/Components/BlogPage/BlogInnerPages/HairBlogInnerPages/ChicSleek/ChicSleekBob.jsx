@@ -3,7 +3,7 @@ import point from "./../../../../../Images/point.png";
 
 const ChicSleekBob = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>Chic and Timeless: The Bob</h5>
       <p>
         The bob is a classic haircut that has stood the test of time. From the

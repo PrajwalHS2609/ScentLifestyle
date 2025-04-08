@@ -2,7 +2,7 @@ import React from "react";
 
 const HairBleachHead = () => {
   return (
-    <div className="pediManicureHead">
+    <div className="blogHead-content">
       <h1>How Often Should You Bleach Your Hair? Expert Advice</h1>
       <p>
         Bleaching your hair can be a transformative experience, offering a fresh

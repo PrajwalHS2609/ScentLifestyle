@@ -3,7 +3,7 @@ import checked from "./../../../../../Images/checked.png";
 
 const HairBotoxTreatmentWhy = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>Why is Hair Botox a Good Choice?</h5>
       <p>
         The benefits of Hair Botox go beyond just appearance. It's a holistic

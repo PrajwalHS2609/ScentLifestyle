@@ -2,7 +2,7 @@ import React from "react";
 
 const ScalpDetoxHead = () => {
   return (
-    <div className="pediManicureHead">
+    <div className="blogHead-content">
       <h1>Scalp Detox: Why It’s the Secret to Gorgeous Hair?</h1>
       <p>
         When it comes to achieving long, thick, and shiny hair, most people

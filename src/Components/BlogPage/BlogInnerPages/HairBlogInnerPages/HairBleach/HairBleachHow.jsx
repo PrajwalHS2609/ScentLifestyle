@@ -3,7 +3,7 @@ import point from "./../../../../../Images/point.png";
 
 const HairBleachHow = () => {
   return (
-    <div className="pediAndMainCureBenefits">
+    <div className="blogBenefits-content">
       <h3>How Often Can You Bleach Your Hair?</h3>
       <p>
         The general rule of thumb is to wait at least 6 to 8 weeks between

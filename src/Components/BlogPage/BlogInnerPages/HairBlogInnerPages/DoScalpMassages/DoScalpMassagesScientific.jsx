@@ -2,7 +2,7 @@ import React from "react";
 
 const DoScalpMassagesScientific = () => {
   return (
-    <div className="pediAndMainCureBenefits">
+    <div className="blogBenefits-content">
       <h3>Scientific Evidence Supporting Scalp Massages</h3>
       <p>
         While there is limited research, some studies have suggested that

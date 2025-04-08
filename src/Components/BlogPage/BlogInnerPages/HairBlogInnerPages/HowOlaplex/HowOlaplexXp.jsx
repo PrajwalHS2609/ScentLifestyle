@@ -2,7 +2,7 @@ import React from "react";
 
 const HowOlaplexXp = () => {
   return (
-    <div className="pediManicureHead">
+    <div className="blogHead-content">
       <h2>
         Olaplex No.1 Bond Multiplier and No.2 Bond Perfector: The Salon
         Experience

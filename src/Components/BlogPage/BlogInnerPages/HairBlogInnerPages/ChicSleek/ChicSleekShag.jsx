@@ -3,7 +3,7 @@ import point from "./../../../../../Images/point.png";
 
 const ChicSleekShag = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>The Modern Shag: Retro Meets Contemporary</h5>
       <p>
         The shag haircut, popularized in the 1970s, has made a major comeback in

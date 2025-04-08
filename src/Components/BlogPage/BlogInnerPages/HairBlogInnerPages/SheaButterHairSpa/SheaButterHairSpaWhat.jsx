@@ -2,7 +2,7 @@ import React from "react";
 
 const SheaButterHairSpaWhat = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>What is Shea Butter Hair Spa?</h5>
       <p>
         A Hair Spa is a specialized treatment that deeply conditions and

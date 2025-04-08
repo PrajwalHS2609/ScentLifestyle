@@ -3,7 +3,7 @@ import point from "./../../../../../Images/point.png";
 
 const HairColorTryHow = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>How to Choose from the 25+ Hair Colors Every Woman Should Try</h5>
       <p>
         With so many options, picking the right color can feel overwhelming.

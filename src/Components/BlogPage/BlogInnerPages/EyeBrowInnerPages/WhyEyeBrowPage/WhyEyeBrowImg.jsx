@@ -3,7 +3,7 @@ import eyeBrowBanner from "./../../../../../Images/Blog/Why_Eyebrow_Shaping/Bann
 
 const WhyEyeBrowImg = () => {
   return (
-    <div className="hairTrimImg">
+    <div className="blogImg-content">
       <img src={eyeBrowBanner} alt="eyeBrowBanner" loading="lazy" />
     </div>
   );

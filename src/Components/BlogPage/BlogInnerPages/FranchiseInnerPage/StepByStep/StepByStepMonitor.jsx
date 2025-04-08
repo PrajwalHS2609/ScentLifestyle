@@ -3,7 +3,7 @@ import checked from "./../../../../../Images/checked.png";
 
 const StepByStepMonitor = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>9. Monitor Performance and Adapt</h5>
       <p>
         Once your salon franchise is up and running, it’s important to

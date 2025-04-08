@@ -2,7 +2,7 @@ import React from "react";
 
 const ClearerSkinFacialHeader = () => {
   return (
-    <div className="pediManicureHead">
+    <div className="blogHead-content">
       <h1>Clearer Skin, Happier You: Acne Cure Facial Secrets</h1>
       <p>
         Acne is one of the most common skin concerns affecting people of all

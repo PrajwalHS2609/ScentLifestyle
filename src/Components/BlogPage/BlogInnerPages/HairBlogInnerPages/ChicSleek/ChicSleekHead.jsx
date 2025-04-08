@@ -2,7 +2,7 @@ import React from "react";
 
 const ChicSleekHead = () => {
   return (
-    <div className="pediManicureHead">
+    <div className="blogHead-content">
       <h1>Chic & Sleek: Women’s Haircuts That Define You</h1>
       <p>
         When it comes to expressing your personal style, few things make as bold

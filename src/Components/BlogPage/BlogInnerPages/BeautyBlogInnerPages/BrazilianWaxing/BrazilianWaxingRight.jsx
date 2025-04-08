@@ -2,7 +2,7 @@ import React from "react";
 
 const BrazilianWaxingRight = () => {
   return (
-    <div className="pediManicureHead">
+    <div className="blogHead-content">
       <h3>Is Brazilian Waxing Right for You?</h3>
       <p>
         Brazilian Waxing isn’t for everyone, and that’s okay! The decision to

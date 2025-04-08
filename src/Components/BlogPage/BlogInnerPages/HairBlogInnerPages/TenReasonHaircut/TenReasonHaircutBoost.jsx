@@ -2,7 +2,7 @@ import React from "react";
 
 const TenReasonHaircutBoost = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>4. Boost Your Confidence</h5>
       <p>
         There’s something undeniably empowering about a great haircut. Whether

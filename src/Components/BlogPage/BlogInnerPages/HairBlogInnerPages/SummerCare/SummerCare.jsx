@@ -3,6 +3,8 @@ import SummerCareImg from "./SummerCareImg";
 import SummerCareHead from "./SummerCareHead";
 import SummerCareContent from "./SummerCareContent";
 import { Helmet } from "react-helmet";
+import BlogPost from "../../../BlogPost/BlogPost";
+import BlogCategories from "../../../BlogCategories/BlogCategories";
 
 const SummerCare = () => {
   return (
@@ -21,11 +23,17 @@ const SummerCare = () => {
           href="https://scentlifestyle.com/revitalize-you-hair-with-the-magic-of-shea-butter-hair-spa"
         />
       </Helmet>
-      <div className="hairTrimContent">
-        <SummerCareImg />
-        <SummerCareHead />
-        <br />
-        <SummerCareContent />
+      <div className="blog-container">
+        <div className="blog-wrapper1">
+          <SummerCareImg />
+          <SummerCareHead />
+          <br />
+          <SummerCareContent />
+        </div>
+        <div className="blog-wrapper2">
+          <BlogPost />
+          <BlogCategories />
+        </div>
       </div>
     </div>
   );

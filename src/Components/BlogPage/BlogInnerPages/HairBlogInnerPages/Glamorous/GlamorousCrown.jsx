@@ -3,7 +3,7 @@ import point from "./../../../../../Images/point.png";
 
 const GlamorousCrown = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>5. The Braided Crown</h5>
       <p>
         If you're looking for something unique and eye-catching, the braided

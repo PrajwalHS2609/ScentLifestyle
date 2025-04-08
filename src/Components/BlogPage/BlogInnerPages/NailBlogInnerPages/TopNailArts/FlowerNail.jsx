@@ -2,7 +2,7 @@ import React from "react";
 
 const FlowerNail = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>10. Pressed Flower Nails: Nature-Inspired Beauty</h5>
       <p>
         Bringing a touch of nature to your manicure,{" "}

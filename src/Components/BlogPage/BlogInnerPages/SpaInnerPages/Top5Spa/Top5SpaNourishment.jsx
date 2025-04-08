@@ -2,7 +2,7 @@ import React from "react";
 
 const Top5SpaNourishment = () => {
   return (
-    <div className="pediManicureHead">
+    <div className="blogHead-content">
       <h2>1. Deep Nourishment and Hydration</h2>
       <p>
         The primary reason to{" "}

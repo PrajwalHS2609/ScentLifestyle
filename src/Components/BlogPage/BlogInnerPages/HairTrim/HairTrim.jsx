@@ -1,14 +1,16 @@
 import React from "react";
 import "./HairTrim.css";
 import NavBg from "../../../NavBg/NavBg";
-import HairTrimHead from "./HairTrimHead";
-import HairTrimImg from "./HairTrimImg";
 import HairTrimFaq from "./HairTrimFaq";
 import InnerNavi from "../../../InnerServicePage/InnerNavi/InnerNavi";
 import { Helmet } from "react-helmet";
+import HairTrimImg from "./HairTrimImg";
+import BlogPost from "../../BlogPost/BlogPost";
+import BlogCategories from "../../BlogCategories/BlogCategories";
+import HairTrimHead from "./HairTrimHead";
 const HairTrim = () => {
   return (
-    <div className="hairTrim">
+    <div >
       <Helmet>
         <meta charSet="UTF-8" />
         <title>Does Trimming Hair Make It Grow Faster?</title>
@@ -22,13 +24,18 @@ const HairTrim = () => {
         />
       </Helmet>
       <NavBg />
-      <div className="hairTrimContent">
-        <HairTrimImg />
-        <InnerNavi link="/blog" service="Blog" currService="Hair" />
-        <HairTrimHead />
-        <HairTrimFaq />
+      <div className="blog-container">
+        <div className="blog-wrapper1">
+          <HairTrimImg />
+          <InnerNavi link="/blog" service="Blog" currService="Hair" />
+          <HairTrimHead />
+          <HairTrimFaq />
+        </div>
+        <div className="blog-wrapper2">
+          <BlogPost />
+          <BlogCategories />
+        </div>
       </div>
-            
     </div>
   );
 };

@@ -4,7 +4,7 @@ import SmokeyLilacImg from "./../../../../Images/Blog/Top 10 hairColor/Smokey Li
 
 const SmokeyLilac = () => {
   return (
-    <div className="hairTrimHead">
+    <div className="blogHead-content">
       <HairServImg hairBotoxImg={SmokeyLilacImg} />
       <h2>9. Smokey Lilac</h2>
       <p>

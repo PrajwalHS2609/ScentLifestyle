@@ -6,7 +6,7 @@ import stateOfArt from "./../../../../../Images/Blog/Top_10_Reasons_to_ Enroll_i
 
 const AcademyEnrollReasons = () => {
   return (
-    <div className="pediAndMainCureBenefits">
+    <div className="blogBenefits-content">
       <li>
         <HairServImg hairBotoxImg={expertTrainers} />
 

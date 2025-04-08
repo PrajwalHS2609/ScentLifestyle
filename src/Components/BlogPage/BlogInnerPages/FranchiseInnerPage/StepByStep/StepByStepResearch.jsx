@@ -3,7 +3,7 @@ import point from "./../../../../../Images/point.png";
 
 const StepByStepResearch = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>1. Research and Choose the Right Salon Franchise Brand</h5>
       <p>
         The first step to setting up a successful{" "}

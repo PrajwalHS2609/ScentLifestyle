@@ -2,7 +2,7 @@ import React from "react";
 
 const StepByStepFinal = () => {
   return (
-    <div className="pediManicureHead">
+    <div className="blogHead-content">
       <h2>Final Thoughts</h2>
       <p>
         Setting up a successful{" "}

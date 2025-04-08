@@ -2,7 +2,7 @@ import React from "react";
 
 const SummerCareHead = () => {
   return (
-    <div className="pediManicureHead">
+    <div className="blogHead-content">
       <h1>Summer Hair Care Tips to Beat the Heat!</h1>
       <p>
         Summer is a season of sunshine, vacations, and outdoor adventures, but

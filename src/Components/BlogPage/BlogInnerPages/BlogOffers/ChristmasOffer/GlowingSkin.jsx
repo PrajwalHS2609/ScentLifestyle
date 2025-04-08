@@ -2,7 +2,7 @@ import React from "react";
 
 const GlowingSkin = () => {
   return (
-    <div className="pediAndMainCureBenefits">
+    <div className="blogBenefits-content">
       <h3>1. Achieve Glowing Skin for the Holidays</h3>
       <p>
         One of the top beauty concerns around the festive season is achieving

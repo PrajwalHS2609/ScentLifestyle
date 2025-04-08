@@ -3,7 +3,7 @@ import hairKeratin from "./../../../../Images/Blog/Keratin_Hair_Treatment/Banner
 
 const HairKeratinImg = () => {
   return (
-    <div className="hairTrimImg">
+    <div className="blogImg-content">
       <img src={hairKeratin} alt="hairKeratin" loading='lazy'/>
     </div>
   );

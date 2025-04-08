@@ -3,7 +3,7 @@ import point from "./../../../../../Images/point.png";
 
 const ChicSleekMaintain = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5> Maintaining Your Chic & Sleek Haircut</h5>
       <p>
         Once you’ve found the perfect haircut, maintaining it is key to keeping

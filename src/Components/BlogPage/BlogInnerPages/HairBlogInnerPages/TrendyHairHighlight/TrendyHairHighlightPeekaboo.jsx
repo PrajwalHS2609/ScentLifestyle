@@ -3,7 +3,7 @@ import point from "./../../../../../Images/point.png";
 
 const TrendyHairHighlightPeekaboo = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>9. Peekaboo Highlights for a Pop of Color 🌈</h5>
       <p>
         Want a hidden surprise in your hair? Peekaboo highlights allow you to

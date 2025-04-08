@@ -2,7 +2,7 @@ import React from "react";
 
 const LashesExtensionBlogWhy = () => {
   return (
-    <div className="pediManicureHead">
+    <div className="blogHead-content">
       <h3>Why Eyelash Extensions for Women Are Worth the Investment</h3>
       <p>
         For special occasions,{" "}

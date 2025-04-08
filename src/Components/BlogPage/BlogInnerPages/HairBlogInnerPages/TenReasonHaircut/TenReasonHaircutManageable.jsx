@@ -2,7 +2,7 @@ import React from "react";
 
 const TenReasonHaircutManageable = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>5. Keep Your Hair Manageable</h5>
       <p>
         Hair that hasn’t been trimmed in a while can become unruly and difficult

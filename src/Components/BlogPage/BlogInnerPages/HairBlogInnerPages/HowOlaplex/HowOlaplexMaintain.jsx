@@ -3,7 +3,7 @@ import point from "./../../../../../Images/point.png";
 
 const HowOlaplexMaintain = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>Maintaining Hair Health at Home with Olaplex Products</h5>
       <p>
         After your salon visit, maintaining your hair’s health at home is

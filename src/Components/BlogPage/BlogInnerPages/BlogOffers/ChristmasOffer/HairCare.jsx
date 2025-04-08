@@ -2,7 +2,7 @@ import React from "react";
 
 const HairCare = () => {
   return (
-    <div className="pediAndMainCureBenefits">
+    <div className="blogBenefits-content">
       <h3>3. Hair Care: Get Ready for the Holiday Season</h3>
       <p>
         The holiday season is the perfect time to embrace a new hairstyle,

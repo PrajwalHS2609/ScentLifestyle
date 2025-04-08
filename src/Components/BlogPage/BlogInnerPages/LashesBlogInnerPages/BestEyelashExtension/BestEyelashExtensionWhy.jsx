@@ -2,7 +2,7 @@ import React from "react";
 
 const BestEyelashExtensionWhy = () => {
   return (
-    <div className="pediAndMainCureBenefits">
+    <div className="blogBenefits-content">
       <h3>Why Eyelash Extensions Are a Must for Brides and Special Events</h3>
       <p>
         Eyelash extensions are a game-changer for special occasions. They add

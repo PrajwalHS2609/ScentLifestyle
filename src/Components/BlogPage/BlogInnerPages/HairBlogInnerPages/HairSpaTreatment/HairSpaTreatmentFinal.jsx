@@ -2,7 +2,7 @@ import React from "react";
 
 const HairSpaTreatmentFinal = () => {
   return (
-    <div className="pediManicureHead">
+    <div className="blogHead-content">
       <h5>Final Thoughts</h5>
       <p>
         Incorporating regular{" "}

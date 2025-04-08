@@ -16,14 +16,15 @@ import scalpDetoxBest from "./../../../../../Images/Blog/Scalp_Detox/Best Produc
 import scalpDetoxHow from "./../../../../../Images/Blog/Scalp_Detox/How Can Hair Scalp Massages Aid in Scalp Detox.png";
 import scalpDetoxBenefits from "./../../../../../Images/Blog/Scalp_Detox/The Benefits of Scalp Detox.png";
 import scalpDetoxTherapy from "./../../../../../Images/Blog/Scalp_Detox/Hair Scalp Therapy_ Long-Term Benefits.png";
+import BlogPost from "../../../BlogPost/BlogPost";
+import BlogCategories from "../../../BlogCategories/BlogCategories";
 
 const ScalpDetox = () => {
   return (
     <div>
       <Helmet>
         <meta charSet="UTF-8" />
-        <title>
-        Scalp Detox - Why It’s the Secret to Gorgeous Hair?        </title>
+        <title>Scalp Detox - Why It’s the Secret to Gorgeous Hair? </title>
         <meta
           name="description"
           content="Scalp Detox - Why It's the Secret to Gorgeous Hair?  When it comes to achieving long, thick, and shiny hair, most people focus on the quality of the products they use on their hair strands."
@@ -33,27 +34,33 @@ const ScalpDetox = () => {
           href="https://scentlifestyle.com/scalp-detox-why-its-the-secret-to-gorgeous-hair"
         />
       </Helmet>
-      <div className="hairTrimContent">
-        <ScalpDetoxImg />
-        <ScalpDetoxHead />
-        <br />
-        <HairServImg hairBotoxImg={scalpDetoxBestWhat} />
-        <ScalpDetoxWhat />
-        <br />
-        <HairServImg hairBotoxImg={scalpDetoxBenefits} />
-        <ScalpDetoxBenefits />
-        <br />
-        <HairServImg hairBotoxImg={scalpDetoxHow} />
-        <ScalpDetoxHow />
-        <br />
-        <HairServImg hairBotoxImg={scalpDetoxBest} />
-        <ScalpDetoxBest />
-        <br />
-        <HairServImg hairBotoxImg={scalpDetoxTherapy} />
-        <ScalpDetoxTherapy />
-        <br />
-        <HairServImg hairBotoxImg={scalpDetoxHowOften} />
-        <ScalpDetoxHowOften />
+      <div className="blog-container">
+        <div className="blog-wrapper1">
+          <ScalpDetoxImg />
+          <ScalpDetoxHead />
+          <br />
+          <HairServImg hairBotoxImg={scalpDetoxBestWhat} />
+          <ScalpDetoxWhat />
+          <br />
+          <HairServImg hairBotoxImg={scalpDetoxBenefits} />
+          <ScalpDetoxBenefits />
+          <br />
+          <HairServImg hairBotoxImg={scalpDetoxHow} />
+          <ScalpDetoxHow />
+          <br />
+          <HairServImg hairBotoxImg={scalpDetoxBest} />
+          <ScalpDetoxBest />
+          <br />
+          <HairServImg hairBotoxImg={scalpDetoxTherapy} />
+          <ScalpDetoxTherapy />
+          <br />
+          <HairServImg hairBotoxImg={scalpDetoxHowOften} />
+          <ScalpDetoxHowOften />
+        </div>
+        <div className="blog-wrapper2">
+          <BlogPost />
+          <BlogCategories />
+        </div>
       </div>
     </div>
   );

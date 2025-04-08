@@ -3,7 +3,7 @@ import point from "./../../../../../Images/point.png";
 
 const ChicSleekImp = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>The Importance of Customization</h5>
       <p>
         One of the most important aspects of choosing the right haircut is

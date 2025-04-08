@@ -16,6 +16,8 @@ import SmokeyLilac from "./SmokeyLilac";
 import DeepBurgundy from "./DeepBurgundy";
 import Top10Choosing from "./Top10Choosing";
 import Top10How from "./Top10How";
+import BlogPost from "../../BlogPost/BlogPost";
+import BlogCategories from "../../BlogCategories/BlogCategories";
 
 const Top10HairColor = () => {
   return (
@@ -33,24 +35,29 @@ const Top10HairColor = () => {
         />
       </Helmet>
       <NavBg />
-      <div className="hairTrimContent">
-        <Top10HairColorImg />
-        <InnerNavi link="/blog" service="Blog" currService="Hair Blog" />
-        <Top10HairColorHead />
-        <CinnamonSpice/>
-        <CoolPlatinum/>
-        <SoftCaramel/>
-        <RichChocolate/>
-        <PeachyRose/>
-        <AshBrown/>
-        <FieryRed/>
-        <GoldenHoney/>
-        <SmokeyLilac/>
-        <DeepBurgundy/>
-        <Top10Choosing/>
-        <Top10How/>
+      <div className="blog-container">
+        <div className="blog-wrapper1">
+          <Top10HairColorImg />
+          <InnerNavi link="/blog" service="Blog" currService="Hair Blog" />
+          <Top10HairColorHead />
+          <CinnamonSpice />
+          <CoolPlatinum />
+          <SoftCaramel />
+          <RichChocolate />
+          <PeachyRose />
+          <AshBrown />
+          <FieryRed />
+          <GoldenHoney />
+          <SmokeyLilac />
+          <DeepBurgundy />
+          <Top10Choosing />
+          <Top10How />
+        </div>
+        <div className="blog-wrapper2">
+          <BlogPost />
+          <BlogCategories />
+        </div>{" "}
       </div>
-            
     </div>
   );
 };

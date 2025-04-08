@@ -3,7 +3,7 @@ import point from "./../../../../../Images/point.png";
 
 const HairBleachAlternate = () => {
   return (
-    <div className="pediAndMainCureBenefits">
+    <div className="blogBenefits-content">
       <h3>Alternative Solutions to Frequent Bleaching</h3>
       <p>
         If you’re looking for lighter hair without the risks of frequent

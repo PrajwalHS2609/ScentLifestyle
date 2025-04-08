@@ -3,7 +3,7 @@ import checked from "./../../../../../Images/checked.png";
 
 const StepByStepHier = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>6. Hire and Train a Skilled Team</h5>
       <p>
         Your staff is the backbone of your salon franchise, and their skills,

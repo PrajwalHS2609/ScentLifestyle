@@ -14,6 +14,8 @@ import perfectPreDateLuxury from "./../../../../../Images/Blog/PerfectPreDate/A 
 import perfectPreDateNailCare from "./../../../../../Images/Blog/PerfectPreDate/Nail Care for the Finishing Touch.png";
 import perfectPreDateStart from "./../../../../../Images/Blog/PerfectPreDate/Start with a Relaxing Skincare Routine.png";
 import PerfectPreDateImg from "./PerfectPreDateImg";
+import BlogPost from "../../../BlogPost/BlogPost";
+import BlogCategories from "../../../BlogCategories/BlogCategories";
 
 const PerfectPreDate = () => {
   return (
@@ -32,27 +34,33 @@ const PerfectPreDate = () => {
           href="https://scentlifestyle.com/the-perfect-pre-date-beauty-routine-for-a-magical-valentines-day"
         />
       </Helmet>
-      <div className="hairTrimContent">
-        <PerfectPreDateImg />
-        <PerfectPreDateHead />
-        <br />
-        <HairServImg hairBotoxImg={perfectPreDateStart} />
-        <PerfectPreDateStart />
-        <br />
-        <HairServImg hairBotoxImg={perfectPreDateLuxury} />
-        <PerfectPreDateLuxury />
-        <br />
-        <PerfectPreDateRadiant />
-        <br />
-        <HairServImg hairBotoxImg={perfectPreDateNailCare} />
-        <PerfectPreDateNailCare />
-        <br />
-        <HairServImg hairBotoxImg={perfectPreDateMakeup} />
-        <PerfectPreDateMakeup />
-        <br />
-        <PerfectPreDatePerfect />
-        <br />
-        <PerfectPreDateFinal />
+      <div className="blog-container">
+        <div className="blog-wrapper1">
+          <PerfectPreDateImg />
+          <PerfectPreDateHead />
+          <br />
+          <HairServImg hairBotoxImg={perfectPreDateStart} />
+          <PerfectPreDateStart />
+          <br />
+          <HairServImg hairBotoxImg={perfectPreDateLuxury} />
+          <PerfectPreDateLuxury />
+          <br />
+          <PerfectPreDateRadiant />
+          <br />
+          <HairServImg hairBotoxImg={perfectPreDateNailCare} />
+          <PerfectPreDateNailCare />
+          <br />
+          <HairServImg hairBotoxImg={perfectPreDateMakeup} />
+          <PerfectPreDateMakeup />
+          <br />
+          <PerfectPreDatePerfect />
+          <br />
+          <PerfectPreDateFinal />
+        </div>
+        <div className="blog-wrapper2">
+          <BlogPost />
+          <BlogCategories />
+        </div>
       </div>
     </div>
   );

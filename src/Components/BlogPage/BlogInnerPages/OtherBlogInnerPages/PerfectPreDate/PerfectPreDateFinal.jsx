@@ -3,7 +3,7 @@ import check from "./../../../../../Images/checked.png";
 
 const PerfectPreDateFinal = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>Final Touches Before You Head Out</h5>
       <ul>
         <li>

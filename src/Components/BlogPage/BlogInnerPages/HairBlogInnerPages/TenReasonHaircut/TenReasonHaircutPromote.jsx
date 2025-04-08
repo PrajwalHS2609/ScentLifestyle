@@ -2,7 +2,7 @@ import React from "react";
 
 const TenReasonHaircutPromote = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>6. Promote Hair Growth</h5>
       <p>
         While haircuts don’t directly affect{" "}

@@ -18,6 +18,8 @@ import BrazilianWaxingPainImg from "./../../../../../Images/Blog/Everything_Abou
 import BrazilianWaxingOftenImg from "./../../../../../Images/Blog/Everything_About_Brazilian_Waxing/How Often Should You Get Brazilian Waxing.png";
 import HairServImg from "../../HairBotox/HairServImg";
 import InnerNavi from "../../../../InnerServicePage/InnerNavi/InnerNavi";
+import BlogPost from "../../../BlogPost/BlogPost";
+import BlogCategories from "../../../BlogCategories/BlogCategories";
 
 const BrazilianWaxing = () => {
   return (
@@ -35,29 +37,34 @@ const BrazilianWaxing = () => {
         />
       </Helmet>
       <NavBg />
-      <div className="hairTrimContent">
-        <BrazilianWaxingImg />
-        <InnerNavi
-          link="/blog"
-          service="Blog"
-          currService="Beauty Essentials Blog"
-        />
-        <BrazilianWaxingHead />
-        <HairServImg hairBotoxImg={BrazilianWaxingWhatImg} />
-        <BrazilianWaxingWhat />
-        <BrazilianWaxingPrepare />
-        <HairServImg hairBotoxImg={BrazilianWaxingPainImg} />
-        <BrazilianWaxingPain />
-        <BrazilianWaxingTips />
-        <HairServImg hairBotoxImg={BrazilianWaxingOftenImg} />
-        <BrazilianWaxingOften />
-        <BrazilianWaxingBenefits />
-        <BrazilianWaxingMisconception />
-        <HairServImg hairBotoxImg={BrazilianWaxingRightImg} />
-        <BrazilianWaxingRight />
-        <BrazilianWaxingAtScent />
+      <div className="blog-container">
+        <div className="blog-wrapper1">
+          <BrazilianWaxingImg />
+          <InnerNavi
+            link="/blog"
+            service="Blog"
+            currService="Beauty Essentials Blog"
+          />
+          <BrazilianWaxingHead />
+          <HairServImg hairBotoxImg={BrazilianWaxingWhatImg} />
+          <BrazilianWaxingWhat />
+          <BrazilianWaxingPrepare />
+          <HairServImg hairBotoxImg={BrazilianWaxingPainImg} />
+          <BrazilianWaxingPain />
+          <BrazilianWaxingTips />
+          <HairServImg hairBotoxImg={BrazilianWaxingOftenImg} />
+          <BrazilianWaxingOften />
+          <BrazilianWaxingBenefits />
+          <BrazilianWaxingMisconception />
+          <HairServImg hairBotoxImg={BrazilianWaxingRightImg} />
+          <BrazilianWaxingRight />
+          <BrazilianWaxingAtScent />
+        </div>
+        <div className="blog-wrapper2">
+          <BlogPost />
+          <BlogCategories />
+        </div>
       </div>
-            
     </div>
   );
 };

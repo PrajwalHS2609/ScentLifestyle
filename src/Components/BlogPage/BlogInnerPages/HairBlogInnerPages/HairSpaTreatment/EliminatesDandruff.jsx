@@ -3,7 +3,7 @@ import point from "./../../../../../Images/point.png";
 
 const EliminatesDandruff = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>4. Eliminates Dandruff and Scalp Issues</h5>
       <p>
         Scalp health is the foundation of healthy hair. Dandruff, itchiness, or

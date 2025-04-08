@@ -18,6 +18,8 @@ import Top5SpaStrengthImg from "./../../../../../Images/Blog/The_Top_5_Hair_Spa_
 import Top5SpaRelaxImg from "./../../../../../Images/Blog/The_Top_5_Hair_Spa_Today/Relax.png";
 import Top5SpaImprovingImg from "./../../../../../Images/Blog/The_Top_5_Hair_Spa_Today/Improving Scalp Health and Reducing Dandruff.png";
 import Top5SpaReviveImg from "./../../../../../Images/Blog/The_Top_5_Hair_Spa_Today/Revive.png";
+import BlogPost from "../../../BlogPost/BlogPost";
+import BlogCategories from "../../../BlogCategories/BlogCategories";
 
 const Top5Spa = () => {
   return (
@@ -35,25 +37,30 @@ const Top5Spa = () => {
         />
       </Helmet>
       <NavBg />
-      <div className="hairTrimContent">
-        <Top5SpaImg />
-        <InnerNavi link="/blog" service="Blog" currService="Spa Blog" />
-        <Top5SpaHead />
-        <HairServImg hairBotoxImg={Top5SpaNourishmentImg} />
-        <Top5SpaNourishment />
-        <HairServImg hairBotoxImg={Top5SpaStrengthImg} />
-        <Top5SpaStrengthening />
-        <HairServImg hairBotoxImg={Top5SpaImprovingImg} />
-        <Top5SpaImproving />
-        <HairServImg hairBotoxImg={Top5SpaRelaxImg} />
-        <Top5SpaRelaxation />
-        <HairServImg hairBotoxImg={Top5SpaReviveImg} />
-        <Top5SpaReviving />
-        <Top5SpaBouns />
-        <Top5SpaWhy />
-        <Top5SpaYour />{" "}
+      <div className="blog-container">
+        <div className="blog-wrapper1">
+          <Top5SpaImg />
+          <InnerNavi link="/blog" service="Blog" currService="Spa Blog" />
+          <Top5SpaHead />
+          <HairServImg hairBotoxImg={Top5SpaNourishmentImg} />
+          <Top5SpaNourishment />
+          <HairServImg hairBotoxImg={Top5SpaStrengthImg} />
+          <Top5SpaStrengthening />
+          <HairServImg hairBotoxImg={Top5SpaImprovingImg} />
+          <Top5SpaImproving />
+          <HairServImg hairBotoxImg={Top5SpaRelaxImg} />
+          <Top5SpaRelaxation />
+          <HairServImg hairBotoxImg={Top5SpaReviveImg} />
+          <Top5SpaReviving />
+          <Top5SpaBouns />
+          <Top5SpaWhy />
+          <Top5SpaYour />{" "}
+        </div>
+        <div className="blog-wrapper2">
+          <BlogPost />
+          <BlogCategories />
+        </div>
       </div>
-            
     </div>
   );
 };

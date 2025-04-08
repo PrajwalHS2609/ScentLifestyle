@@ -4,7 +4,7 @@ import softCaramelImg from "./../../../../Images/Blog/Top 10 hairColor/Soft Cara
 
 const SoftCaramel = () => {
   return (
-    <div className="hairTrimHead">
+    <div className="blogHead-content">
       <HairServImg hairBotoxImg={softCaramelImg} />
       <h2>3. Soft Caramel Highlights</h2>
       <p>

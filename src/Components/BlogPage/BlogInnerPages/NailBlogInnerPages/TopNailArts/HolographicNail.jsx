@@ -2,7 +2,7 @@ import React from "react";
 
 const HolographicNail = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>8. Holographic Nails: Light Up Your Look</h5>
       <p>
         Holographic nails add a multi-dimensional, futuristic touch to your

@@ -3,7 +3,7 @@ import point from "./../../../../../Images/point.png";
 
 const BodyDTanTreatmentHow = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>How to Incorporate Body D-Tan into Your Skincare Routine</h5>
       <p>
         To truly understand The Role of Body D-Tan in Anti-Aging Skincare, it’s

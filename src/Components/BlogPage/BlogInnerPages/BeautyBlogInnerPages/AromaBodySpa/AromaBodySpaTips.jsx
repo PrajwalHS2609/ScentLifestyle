@@ -3,7 +3,7 @@ import point from "./../../../../../Images/point.png";
 
 const AromaBodySpaTips = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>Tips for an Enhanced Spa Experience</h5>
       <p>To make the most of your full body spa, consider these tips:</p>
       <ul>

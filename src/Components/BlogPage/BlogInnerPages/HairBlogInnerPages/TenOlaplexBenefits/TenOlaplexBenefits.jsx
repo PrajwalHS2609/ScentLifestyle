@@ -7,7 +7,8 @@ import TenOlaplexBenefitsFinal from "./TenOlaplexBenefitsFinal";
 import HairServImg from "../../HairBotox/HairServImg";
 import olaplexBenefitsImg from "./../../../../../Images/Blog/10 Amazing Benefits of Olaplex Hair Treatment/Repairs Damaged Hair from Within.png";
 import olaplexBenefitsFinalImg from "./../../../../../Images/Blog/10 Amazing Benefits of Olaplex Hair Treatment/final thoughts.png";
-
+import BlogCategories from "../../../BlogCategories/BlogCategories";
+import BlogPost from "../../../BlogPost/BlogPost";
 const TenOlaplexBenefits = () => {
   return (
     <div>
@@ -23,15 +24,21 @@ const TenOlaplexBenefits = () => {
           href="https://scentlifestyle.com/10-amazing-benefits-of-olaplex-hair-treatment"
         />
       </Helmet>
-      <div className="hairTrimContent">
-        <TenOlaplexBenefitsImg />
-        <TenOlaplexBenefitsHead />
-        <br />
-        <HairServImg hairBotoxImg={olaplexBenefitsImg} />
-        <TenOlaplexTreatmentBenefits />
-        <br />
-        <HairServImg hairBotoxImg={olaplexBenefitsFinalImg} />
-        <TenOlaplexBenefitsFinal />
+      <div className="blog-container">
+        <div className="blog-wrapper1">
+          <TenOlaplexBenefitsImg />
+          <TenOlaplexBenefitsHead />
+          <br />
+          <HairServImg hairBotoxImg={olaplexBenefitsImg} />
+          <TenOlaplexTreatmentBenefits />
+          <br />
+          <HairServImg hairBotoxImg={olaplexBenefitsFinalImg} />
+          <TenOlaplexBenefitsFinal />
+        </div>
+        <div className="blog-wrapper2">
+          <BlogPost />
+          <BlogCategories />
+        </div>
       </div>
     </div>
   );

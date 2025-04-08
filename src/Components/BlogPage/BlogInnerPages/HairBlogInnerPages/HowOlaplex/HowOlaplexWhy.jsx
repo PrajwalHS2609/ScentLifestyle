@@ -3,7 +3,7 @@ import checked from "./../../../../../Images/checked.png";
 
 const HowOlaplexWhy = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>Why Choose Olaplex for Maintaining Healthy Hair After Coloring?</h5>
       <p>
         Using Olaplex products consistently can make a significant difference in

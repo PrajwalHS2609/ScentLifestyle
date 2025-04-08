@@ -2,7 +2,7 @@ import React from "react";
 
 const BodyDTanTreatmentCommon = () => {
   return (
-    <div className="pediAndMainCureBenefits">
+    <div className="blogBenefits-content">
       <h3>Common Misconceptions About Body D-Tan</h3>
       <p>
         While Body D-Tan treatments are highly effective, there are several

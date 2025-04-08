@@ -2,7 +2,7 @@ import React from "react";
 
 const HairKeratinHead = () => {
   return (
-    <div className="hairTrimHead">
+    <div className="blogHead-content">
       <h1>Why You Should Consider Keratin Hair Treatment</h1>
       <p>
         In recent years, the beauty and hair care industry has seen a

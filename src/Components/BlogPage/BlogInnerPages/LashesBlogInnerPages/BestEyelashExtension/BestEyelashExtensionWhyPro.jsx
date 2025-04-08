@@ -2,7 +2,7 @@ import React from "react";
 
 const BestEyelashExtensionWhyPro = () => {
   return (
-    <div className="pediManicureHead">
+    <div className="blogHead-content">
       <h5>
         Why Professional Eyelash Extensions Are Worth It for Special Events
       </h5>

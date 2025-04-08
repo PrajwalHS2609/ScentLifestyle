@@ -517,6 +517,7 @@ const MainApp = () => {
           <Route path="/blog/offers" element={<BlogOffers />} />
           <Route path="/blog/academy" element={<BlogAcademy />} />
         </Route>
+        {/* --------------------------------------------------------------------------------- */}
         <Route
           path="/does-trimming-hair-make-it-grow-faster"
           element={<HairTrim />}
@@ -553,6 +554,7 @@ const MainApp = () => {
           path="/chic-and-sleek-womens-haircuts-that-define-you"
           element={<ChicSleek />}
         />
+
         <Route
           path="/the-top-5-reasons-to-book-a-hair-spa-today"
           element={<Top5Spa />}
@@ -613,6 +615,7 @@ const MainApp = () => {
           path="/get-festive-ready-top-christmas-beauty-tips-for-women-and-men"
           element={<ChristmasOffer />}
         />
+
         <Route
           path="/top-10-reasons-to-enroll-in-our-premier-salon-academy-today"
           element={<AcademyEnroll />}

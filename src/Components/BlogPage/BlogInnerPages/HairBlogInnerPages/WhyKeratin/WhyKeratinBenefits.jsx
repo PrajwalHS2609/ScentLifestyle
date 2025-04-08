@@ -2,7 +2,7 @@ import React from "react";
 
 const WhyKeratinBenefits = () => {
   return (
-    <div className="pediAndMainCureBenefits">
+    <div className="blogBenefits-content">
       <h3>Benefits of Keratin Hair Treatment for Damaged Hair</h3>
 
       <li>

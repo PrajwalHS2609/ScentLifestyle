@@ -3,7 +3,7 @@ import point from "./../../../../../Images/point.png";
 
 const HairBotoxTreatmentMaintain = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>Maintaining Hair Botox Results</h5>
       <p>
         Proper maintenance can help extend the life of your Hair Botox

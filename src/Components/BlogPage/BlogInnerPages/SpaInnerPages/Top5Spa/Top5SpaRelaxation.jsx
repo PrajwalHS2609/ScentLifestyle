@@ -2,7 +2,7 @@ import React from "react";
 
 const Top5SpaRelaxation = () => {
   return (
-    <div className="pediManicureHead">
+    <div className="blogHead-content">
       <h2>4. Relaxation and Stress Relief</h2>
       <p>
         The benefits of booking a hair spa today go beyond just the physical

@@ -3,7 +3,7 @@ import checked from "./../../../../../Images/checked.png";
 
 const SheaButterHairSpaWhyChoose = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>Why Choose Shea Butter for Your Hair Spa?</h5>
       <p>
         With so many Hair Spa treatments available, you might wonder why Shea

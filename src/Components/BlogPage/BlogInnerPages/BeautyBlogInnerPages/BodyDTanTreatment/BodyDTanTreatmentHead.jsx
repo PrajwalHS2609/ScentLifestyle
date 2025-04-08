@@ -4,7 +4,7 @@ import HairServImg from "../../HairBotox/HairServImg";
 
 const BodyDTanTreatmentHead = () => {
   return (
-    <div className="pediManicureHead">
+    <div className="blogHead-content">
       <h1>The Role of Body D-Tan in Anti-Aging Skincare</h1>
       <p>
         Aging is a natural process, but with the right skincare strategies, you

@@ -3,7 +3,7 @@ import point from "./../../../../../Images/point.png";
 
 const ChicSleekLob = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>The Versatility of the Lob</h5>
       <p>
         The lob, or long bob, is another haircut that has gained immense

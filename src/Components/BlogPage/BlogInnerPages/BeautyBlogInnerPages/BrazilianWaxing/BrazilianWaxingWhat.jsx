@@ -2,7 +2,7 @@ import React from "react";
 
 const BrazilianWaxingWhat = () => {
   return (
-    <div className="pediAndMainCureBenefits">
+    <div className="blogBenefits-content">
       <h3>What to Expect During Your Brazilian Waxing Appointment</h3>
       <p>
         If you’re new to Brazilian Waxing, it’s natural to feel a bit nervous.

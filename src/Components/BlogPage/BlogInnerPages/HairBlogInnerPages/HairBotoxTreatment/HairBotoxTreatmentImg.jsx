@@ -3,7 +3,7 @@ import hairBotoxTreatmentImg from "./../../../../../Images/Blog/Hair_Botox_Treat
 
 const HairBotoxTreatmentImg = () => {
   return (
-    <div className="hairTrimImg">
+    <div className="blogImg-content">
       <img
         src={hairBotoxTreatmentImg}
         alt="hairBotoxTreatmentImg"

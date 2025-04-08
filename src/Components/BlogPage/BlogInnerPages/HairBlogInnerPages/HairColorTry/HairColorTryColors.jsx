@@ -2,7 +2,7 @@ import React from "react";
 
 const HairColorTryColors = () => {
   return (
-    <div className="pediAndMainCureBenefits">
+    <div className="blogBenefits-content">
       <h1>25+ Hair Colors Every Woman Should Try</h1>
       <p>
         Let’s dive into the list of{" "}

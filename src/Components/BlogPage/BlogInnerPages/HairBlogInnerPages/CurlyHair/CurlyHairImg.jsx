@@ -3,7 +3,7 @@ import curlyHairBanner from "./../../../../../Images/Blog/Is Curly Hair the Righ
 
 const CurlyHairImg = () => {
   return (
-    <div className="hairTrimImg">
+    <div className="blogImg-content">
       <img src={curlyHairBanner} alt="curlyHairBanner" loading="lazy" />
     </div>
   );

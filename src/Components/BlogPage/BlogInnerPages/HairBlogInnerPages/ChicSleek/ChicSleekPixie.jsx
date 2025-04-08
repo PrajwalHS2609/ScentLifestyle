@@ -3,7 +3,7 @@ import point from "./../../../../../Images/point.png";
 
 const ChicSleekPixie = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>Bold and Beautiful: The Pixie Cut</h5>
       <p>
         For women who want to make a bold statement, the pixie cut is the

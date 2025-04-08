@@ -2,7 +2,7 @@ import React from "react";
 
 const TenReasonHaircutChoose = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>Choosing the Right Salon</h5>
       <p>
         Finding a salon that{" "}

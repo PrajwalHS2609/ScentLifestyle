@@ -5,6 +5,8 @@ import ReasonsToTreatFeetFooterContent from "./ReasonsToTreatFeetFooterContent";
 import reasonsToTreatFeetMiddle from "./../../../../../Images/Blog/top_reasons_treat_feet/Middle of the content.png";
 import HairServImg from "../../HairBotox/HairServImg";
 import { Helmet } from "react-helmet";
+import BlogPost from "../../../BlogPost/BlogPost";
+import BlogCategories from "../../../BlogCategories/BlogCategories";
 
 const ReasonsToTreatFeet = () => {
   return (
@@ -23,13 +25,19 @@ const ReasonsToTreatFeet = () => {
           href="https://scentlifestyle.com/top-reasons-to-treat-your-feet-to-a-pedicalm-glyco-foot-facial"
         />
       </Helmet>
-      <div className="hairTrimContent">
-        <ReasonsToTreatFeetImg />
-        <ReasonsToTreatFeetHead />
-        <br />
-        <HairServImg hairBotoxImg={reasonsToTreatFeetMiddle} />
-        <br />
-        <ReasonsToTreatFeetFooterContent />
+      <div className="blog-container">
+        <div className="blog-wrapper1">
+          <ReasonsToTreatFeetImg />
+          <ReasonsToTreatFeetHead />
+          <br />
+          <HairServImg hairBotoxImg={reasonsToTreatFeetMiddle} />
+          <br />
+          <ReasonsToTreatFeetFooterContent />
+        </div>
+        <div className="blog-wrapper2">
+          <BlogPost />
+          <BlogCategories />
+        </div>
       </div>
     </div>
   );

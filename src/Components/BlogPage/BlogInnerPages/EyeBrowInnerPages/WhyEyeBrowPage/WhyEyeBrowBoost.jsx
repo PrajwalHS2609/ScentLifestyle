@@ -3,7 +3,7 @@ import point from "./../../../../../Images/point.png";
 
 const WhyEyeBrowBoost = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>2. Boosts Confidence and Self-Esteem</h5>
       <p>
         There’s something undeniably powerful about well-groomed eyebrows. When

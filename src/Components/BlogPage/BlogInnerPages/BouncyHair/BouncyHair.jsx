@@ -4,10 +4,12 @@ import NavBg from "../../../NavBg/NavBg";
 import BouncyHairImg from "./BouncyHairImg";
 import InnerNavi from "../../../InnerServicePage/InnerNavi/InnerNavi";
 import BouncyHairHead from "./BouncyHairHead";
+import BlogPost from "../../BlogPost/BlogPost";
+import BlogCategories from "../../BlogCategories/BlogCategories";
 
 const BouncyHair = () => {
   return (
-    <div className="hairTrim">
+    <div>
       <Helmet>
         <meta charSet="UTF-8" />
         <title>
@@ -23,12 +25,17 @@ const BouncyHair = () => {
         />
       </Helmet>
       <NavBg />
-      <div className="hairTrimContent">
-        <BouncyHairImg />
-        <InnerNavi link="/blog" service="Blog" currService="Hair Blog" />
-        <BouncyHairHead />
+      <div className="blog-container">
+        <div className="blog-wrapper1">
+          <BouncyHairImg />
+          <InnerNavi link="/blog" service="Blog" currService="Hair Blog" />
+          <BouncyHairHead />
+        </div>
+        <div className="blog-wrapper2">
+          <BlogPost />
+          <BlogCategories />
+        </div>
       </div>
-            
     </div>
   );
 };

@@ -2,7 +2,7 @@ import React from "react";
 
 const DoScalpMassagesBenefits = () => {
   return (
-    <div className="pediAndMainCureBenefits">
+    <div className="blogBenefits-content">
       <h3>Benefits Beyond Hair Growth</h3>
       <p>
         Even if the direct link between scalp massages and hair growth is still

@@ -3,7 +3,7 @@ import checked from "./../../../../../Images/checked.png";
 
 const MedicalPedicureTreatment = () => {
   return (
-    <div className="pediManicureHead">
+    <div className="blogHead-content">
       <h2>3. Medical Pedicure for Severely Cracked Heels</h2>
       <p>
         A medical pedicure is a specialized treatment designed for individuals

@@ -3,7 +3,7 @@ import point from "./../../../../../Images/point.png";
 
 const OrganicPedicureTreatment = () => {
   return (
-    <div className="pediManicureHead">
+    <div className="blogHead-content">
       <h2>2. Organic Pedicure for Cracked Heels</h2>
       <p>
         For those who prefer a natural approach, an{" "}

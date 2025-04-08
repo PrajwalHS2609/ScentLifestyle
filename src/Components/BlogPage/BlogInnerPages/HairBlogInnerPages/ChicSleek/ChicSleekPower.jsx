@@ -2,7 +2,7 @@ import React from "react";
 
 const ChicSleekPower = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5> The Power of a Good Haircut</h5>
       <p>
         Your haircut is more than just a style; it’s a reflection of your

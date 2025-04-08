@@ -4,7 +4,7 @@ import understandPedicureBanner from "./../../../../../Images/Blog/Best Pedicure
 
 const PedicureTreatmentDryHead = () => {
   return (
-    <div className="pediManicureHead">
+    <div className="blogHead-content">
       <h1>Best Pedicure Treatments for Dry and Cracked Heels</h1>
       <p>
         Dry and cracked heels can be a common yet frustrating issue, especially

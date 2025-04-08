@@ -3,7 +3,7 @@ import point from "./../../../../../Images/point.png";
 
 const MakeupTips = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>4. Makeup Tips: Get the Perfect Holiday Look</h5>
       <p>
         Makeup plays a key role in enhancing your holiday look. Whether you

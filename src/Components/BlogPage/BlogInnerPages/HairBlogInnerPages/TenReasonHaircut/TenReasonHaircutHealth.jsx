@@ -2,7 +2,7 @@ import React from "react";
 
 const TenReasonHaircutHealth = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>1. Maintain Healthy Hair</h5>
       <p>
         One of the primary reasons{" "}

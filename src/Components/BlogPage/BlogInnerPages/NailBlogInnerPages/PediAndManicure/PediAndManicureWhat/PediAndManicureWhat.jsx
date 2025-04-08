@@ -4,7 +4,7 @@ import "./PediAndManicureWhat.css";
 
 const PediAndManicureWhat = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>What Is a Professional Pedicure and Manicure?</h5>
       <p>
         Before diving into the benefits, it's essential to understand what

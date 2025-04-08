@@ -33,7 +33,7 @@ const HairBleach = () => {
           href="https://scentlifestyle.com/how-often-should-you-bleach-your-hair"
         />
       </Helmet>
-      <div className="hairTrimContent">
+      <div className="blog-container">
         <HairBleachImg />
         <HairBleachHead />
         <br />

@@ -2,7 +2,7 @@ import React from "react";
 
 const AromaBodySpaBenefits = () => {
   return (
-    <div className="pediAndMainCureBenefits">
+    <div className="blogBenefits-content">
       <h3>The Benefits of an Aroma Body Spa</h3>
 
       <li>

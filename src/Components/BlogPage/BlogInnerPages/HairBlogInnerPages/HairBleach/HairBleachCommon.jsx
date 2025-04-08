@@ -2,7 +2,7 @@ import React from "react";
 
 const HairBleachCommon = () => {
   return (
-    <div className="pediAndMainCureBenefits">
+    <div className="blogBenefits-content">
       <h3>Common Mistakes to Avoid</h3>
 
       <li>

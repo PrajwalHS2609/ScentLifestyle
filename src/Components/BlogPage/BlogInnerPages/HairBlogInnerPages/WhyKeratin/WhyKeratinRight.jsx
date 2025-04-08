@@ -3,7 +3,7 @@ import point from "./../../../../../Images/point.png";
 
 const WhyKeratinRight = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>Is Keratin Hair Treatment Right for You?</h5>
       <p>
         If you’re dealing with{" "}

@@ -3,7 +3,7 @@ import point from "./../../../../../Images/point.png";
 
 const BoostHairGrowth = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>3. Boosts Hair Growth</h5>
       <p>
         One of the lesser-known yet highly effective Top Benefits of Regular

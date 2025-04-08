@@ -16,6 +16,8 @@ import TenReasonHaircutChoose from "./TenReasonHaircutChoose";
 import tenReasonHaircutchoose from "./../../../../../Images/Blog/10_Reason_HairCut/Choosing the Right Salon.png";
 import tenReasonHaircutHow from "./../../../../../Images/Blog/10_Reason_HairCut/How Often Should You Get a Haircut.png";
 import HairServImg from "../../HairBotox/HairServImg";
+import BlogPost from "../../../BlogPost/BlogPost";
+import BlogCategories from "../../../BlogCategories/BlogCategories";
 
 const TenReasonHaircut = () => {
   return (
@@ -32,33 +34,39 @@ const TenReasonHaircut = () => {
           href="https://scentlifestyle.com/10-reasons-to-schedule-regular-haircuts  "
         />
       </Helmet>
-      <div className="hairTrimContent">
-        <TenReasonHaircutImg />
-        <TenReasonHaircutHead />
-        <br />
-        <TenReasonHaircutHealth />
-        <br />
-        <TenReasonHaircutSplitEnd />
-        <br />
-        <TenReasonHaircutEnchance />
-        <br />
-        <TenReasonHaircutBoost />
-        <br />
-        <TenReasonHaircutManageable />
-        <br />
-        <TenReasonHaircutPromote />
-        <br />
-        <TenReasonHaircutStayOnTop />
-        <br />
-        <TenReasonHaircutAddress />
-        <br />
-        <TenReasonHaircutPrioritize />
-        <br />
-        <HairServImg hairBotoxImg={tenReasonHaircutHow} />
-        <TenReasonHaircutHow />
-        <br />
-        <HairServImg hairBotoxImg={tenReasonHaircutchoose} />
-        <TenReasonHaircutChoose />
+      <div className="blog-container">
+        <div className="blog-wrapper1">
+          <TenReasonHaircutImg />
+          <TenReasonHaircutHead />
+          <br />
+          <TenReasonHaircutHealth />
+          <br />
+          <TenReasonHaircutSplitEnd />
+          <br />
+          <TenReasonHaircutEnchance />
+          <br />
+          <TenReasonHaircutBoost />
+          <br />
+          <TenReasonHaircutManageable />
+          <br />
+          <TenReasonHaircutPromote />
+          <br />
+          <TenReasonHaircutStayOnTop />
+          <br />
+          <TenReasonHaircutAddress />
+          <br />
+          <TenReasonHaircutPrioritize />
+          <br />
+          <HairServImg hairBotoxImg={tenReasonHaircutHow} />
+          <TenReasonHaircutHow />
+          <br />
+          <HairServImg hairBotoxImg={tenReasonHaircutchoose} />
+          <TenReasonHaircutChoose />
+        </div>
+        <div className="blog-wrapper2">
+          <BlogPost />
+          <BlogCategories />
+        </div>
       </div>
     </div>
   );

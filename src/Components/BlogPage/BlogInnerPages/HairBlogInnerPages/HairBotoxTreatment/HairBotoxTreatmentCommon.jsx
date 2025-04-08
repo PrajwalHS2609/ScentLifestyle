@@ -3,7 +3,7 @@ import dot from "./../../../../../Images/dot.png";
 
 const HairBotoxTreatmentCommon = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>Common Hair Issues Addressed by Hair Botox</h5>
       <p>
         Hair Botox is suitable for various hair types and concerns. It can help

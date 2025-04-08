@@ -3,7 +3,7 @@ import point from "./../../../../../Images/point.png";
 
 const RelievesStress = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>7. Relieves Stress and Promotes Relaxation</h5>
       <p>
         Hair spa sessions aren’t just about physical benefits—they also provide

@@ -15,6 +15,8 @@ import hairCareImg from "./../../../../../Images/Blog/Christmas_offer/Hair Care_
 import makeUpTipsImg from "./../../../../../Images/Blog/Christmas_offer/Makeup Tips_ Get the Perfect Holiday Look.png";
 import mensGroomingTips from "./../../../../../Images/Blog/Christmas_offer/Men’s Christmas Grooming Tips.png";
 import fitnessAndBodyCareTips from "./../../../../../Images/Blog/Christmas_offer/Fitness and Body Care for the Holidays.png";
+import BlogPost from "../../../BlogPost/BlogPost";
+import BlogCategories from "../../../BlogCategories/BlogCategories";
 
 const ChristmasOffer = () => {
   return (
@@ -33,27 +35,33 @@ const ChristmasOffer = () => {
           href="https://scentlifestyle.com/get-festive-ready-top-christmas-beauty-tips-for-women-and-men"
         />
       </Helmet>
-      <div className="hairTrimContent">
-        <ChristmasOfferImg />
-        <ChristmasOfferHead />
-        <br />
-        <HairServImg hairBotoxImg={glowingImg} />
-        <GlowingSkin />
-        <br />
-        <HairServImg hairBotoxImg={nailCareImg} />
-        <NailCare />
-        <br />
-        <HairServImg hairBotoxImg={hairCareImg} />
-        <HairCare />
-        <br />
-        <HairServImg hairBotoxImg={makeUpTipsImg} />
-        <MakeupTips />
-        <br />
-        <HairServImg hairBotoxImg={mensGroomingTips} />
-        <MensGroomingTips />
-        <br />
-        <HairServImg hairBotoxImg={fitnessAndBodyCareTips} />
-        <FitnessAndBodyCare />
+      <div className="blog-container">
+        <div className="blog-wrapper1">
+          <ChristmasOfferImg />
+          <ChristmasOfferHead />
+          <br />
+          <HairServImg hairBotoxImg={glowingImg} />
+          <GlowingSkin />
+          <br />
+          <HairServImg hairBotoxImg={nailCareImg} />
+          <NailCare />
+          <br />
+          <HairServImg hairBotoxImg={hairCareImg} />
+          <HairCare />
+          <br />
+          <HairServImg hairBotoxImg={makeUpTipsImg} />
+          <MakeupTips />
+          <br />
+          <HairServImg hairBotoxImg={mensGroomingTips} />
+          <MensGroomingTips />
+          <br />
+          <HairServImg hairBotoxImg={fitnessAndBodyCareTips} />
+          <FitnessAndBodyCare />
+        </div>
+        <div className="blog-wrapper2">
+          <BlogPost />
+          <BlogCategories />
+        </div>
       </div>
     </div>
   );

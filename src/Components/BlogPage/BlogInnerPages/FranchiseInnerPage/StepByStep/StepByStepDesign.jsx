@@ -3,7 +3,7 @@ import point from "./../../../../../Images/point.png";
 
 const StepByStepDesign = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>5. Design Your Salon Layout and Interior</h5>
       <p>
         The interior design and layout of your salon franchise play a

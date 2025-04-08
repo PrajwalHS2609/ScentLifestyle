@@ -3,7 +3,7 @@ import checked from "./../../../../../Images/checked.png";
 
 const StepByStepObtain = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>4. Obtain the Necessary Licenses and Permits</h5>
       <p>
         Before launching your{" "}

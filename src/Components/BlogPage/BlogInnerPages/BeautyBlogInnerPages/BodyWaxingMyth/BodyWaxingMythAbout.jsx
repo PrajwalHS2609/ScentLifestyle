@@ -2,7 +2,7 @@ import React from "react";
 
 const BodyWaxingMythAbout = () => {
   return (
-    <div className="pediAndMainCureBenefits">
+    <div className="blogBenefits-content">
       <h3>Myths about Body Waxing</h3>
 
       <li>

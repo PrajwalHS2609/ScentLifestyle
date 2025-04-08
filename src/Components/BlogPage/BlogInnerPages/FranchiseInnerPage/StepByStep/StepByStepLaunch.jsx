@@ -3,7 +3,7 @@ import point from "./../../../../../Images/point.png";
 
 const StepByStepLaunch = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>7. Launch a Strong Marketing Campaign</h5>
       <p>
         A successful salon franchise needs a strong marketing strategy to

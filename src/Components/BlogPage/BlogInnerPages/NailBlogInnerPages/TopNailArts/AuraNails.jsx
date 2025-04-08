@@ -2,7 +2,7 @@ import React from "react";
 
 const AuraNails = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>2. Aura Nails: Mystical & Mesmerizing</h5>
       <p>
         Inspired by the halo effect of energy fields, aura nails feature an

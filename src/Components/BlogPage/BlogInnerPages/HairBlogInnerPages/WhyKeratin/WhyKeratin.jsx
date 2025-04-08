@@ -11,6 +11,8 @@ import whyKeratinBanner4 from "./../../../../../Images/Blog/Why_Keratin_Hair/4.p
 import whyKeratinBanner5 from "./../../../../../Images/Blog/Why_Keratin_Hair/5.png";
 import WhyKeratinRight from "./WhyKeratinRight";
 import WhyKeratinWhat from "./WhyKeratinWhat";
+import BlogPost from "../../../BlogPost/BlogPost";
+import BlogCategories from "../../../BlogCategories/BlogCategories";
 
 const WhyKeratin = () => {
   return (
@@ -29,19 +31,24 @@ const WhyKeratin = () => {
           href="https://scentlifestyle.com/why-keratin-hair-treatment-is-the-ultimate-solution-for-damaged-hair"
         />
       </Helmet>
-      <div className="hairTrimContent">
-        <WhyKeratinImg />
-        <WhyKeratinHead />
-        <HairServImg hairBotoxImg={whyKeratinBanner2} />
-        <WhyKeratinWhat />
-        <HairServImg hairBotoxImg={whyKeratinBanner3} />
-        <WhyKeratinHow />
-        <HairServImg hairBotoxImg={whyKeratinBanner4} />
-        <WhyKeratinBenefits />
-        <HairServImg hairBotoxImg={whyKeratinBanner5} />
-        <WhyKeratinRight />
+      <div className="blog-container">
+        <div className="blog-wrapper1">
+          <WhyKeratinImg />
+          <WhyKeratinHead />
+          <HairServImg hairBotoxImg={whyKeratinBanner2} />
+          <WhyKeratinWhat />
+          <HairServImg hairBotoxImg={whyKeratinBanner3} />
+          <WhyKeratinHow />
+          <HairServImg hairBotoxImg={whyKeratinBanner4} />
+          <WhyKeratinBenefits />
+          <HairServImg hairBotoxImg={whyKeratinBanner5} />
+          <WhyKeratinRight />
+        </div>
+        <div className="blog-wrapper2">
+          <BlogPost />
+          <BlogCategories />
+        </div>
       </div>
-            
     </div>
   );
 };

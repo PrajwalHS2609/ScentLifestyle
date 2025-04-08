@@ -3,7 +3,7 @@ import point from "./../../../../../Images/point.png";
 
 const LashesExtensionPrepare = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>Preparing for Your Eyelash Extension Appointment</h5>
       <p>
         To ensure the best results for your special occasion, proper preparation

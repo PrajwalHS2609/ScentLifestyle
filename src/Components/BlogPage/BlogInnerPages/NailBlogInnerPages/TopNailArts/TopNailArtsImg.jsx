@@ -3,7 +3,7 @@ import topNailBanner from "./../../../../../Images/Blog/Top_10_Nail_Art/Banner.p
 
 const TopNailArtsImg = () => {
   return (
-    <div className="hairTrimImg">
+    <div className="blogImg-content">
       <img src={topNailBanner} alt="top Nail Banner" loading="lazy" />
     </div>
   );

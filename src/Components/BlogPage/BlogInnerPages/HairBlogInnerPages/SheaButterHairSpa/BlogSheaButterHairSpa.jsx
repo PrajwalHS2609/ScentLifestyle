@@ -12,6 +12,8 @@ import sheaButterHowOften from "./../../../../../Images/Blog/Shea Butter Hair Sp
 import sheaButterHow from "./../../../../../Images/Blog/Shea Butter Hair Spa/How to Do a Shea Butter Hair Spa at Home.png";
 import sheaButterWhat from "./../../../../../Images/Blog/Shea Butter Hair Spa/What is Shea Butter Hair Spa.png";
 import InstaImages from "../../../../HomePage/InstaFeed/InstaImages";
+import BlogPost from "../../../BlogPost/BlogPost";
+import BlogCategories from "../../../BlogCategories/BlogCategories";
 
 const BlogSheaButterHairSpa = () => {
   return (
@@ -30,24 +32,30 @@ const BlogSheaButterHairSpa = () => {
           href="https://scentlifestyle.com/revitalize-you-hair-with-the-magic-of-shea-butter-hair-spa"
         />
       </Helmet>
-      <div className="hairTrimContent">
-        <SheaButterHairSpaImg />
-        <SheaButterHairSpaHead />
-        <br />
-        <HairServImg hairBotoxImg={sheaButterWhat} />
-        <SheaButterHairSpaWhat />
-        <br />
-        <InstaImages vid="https://www.youtube.com/shorts/NeJANcK7fyg" />
+      <div className="blog-container">
+        <div className="blog-wrapper1">
+          <SheaButterHairSpaImg />
+          <SheaButterHairSpaHead />
+          <br />
+          <HairServImg hairBotoxImg={sheaButterWhat} />
+          <SheaButterHairSpaWhat />
+          <br />
+          <InstaImages vid="https://www.youtube.com/shorts/NeJANcK7fyg" />
 
-        <SheaButterHairSpaBenefits />
-        <br />
-        <HairServImg hairBotoxImg={sheaButterHow} />
-        <SheaButterHairSpaHow />
-        <br />
-        <HairServImg hairBotoxImg={sheaButterHowOften} />
-        <SheaButterHairSpaHowOften />
-        <br />
-        <SheaButterHairSpaWhyChoose />
+          <SheaButterHairSpaBenefits />
+          <br />
+          <HairServImg hairBotoxImg={sheaButterHow} />
+          <SheaButterHairSpaHow />
+          <br />
+          <HairServImg hairBotoxImg={sheaButterHowOften} />
+          <SheaButterHairSpaHowOften />
+          <br />
+          <SheaButterHairSpaWhyChoose />
+        </div>
+        <div className="blog-wrapper2">
+          <BlogPost />
+          <BlogCategories />
+        </div>
       </div>
     </div>
   );

@@ -15,6 +15,8 @@ import eyeBrowBoost from "./../../../../../Images/Blog/Why_Eyebrow_Shaping/Boost
 import eyeBrowDefine from "./../../../../../Images/Blog/Why_Eyebrow_Shaping/Defines Your Personal Style.png";
 import eyeBrowRoutine from "./../../../../../Images/Blog/Why_Eyebrow_Shaping/It Complements Your Makeup Routine.png";
 import eyeBrowYouthful from "./../../../../../Images/Blog/Why_Eyebrow_Shaping/Keeps Your Face Looking Youthful.png";
+import BlogPost from "../../../BlogPost/BlogPost";
+import BlogCategories from "../../../BlogCategories/BlogCategories";
 
 const WhyEyeBrowPage = () => {
   return (
@@ -31,23 +33,28 @@ const WhyEyeBrowPage = () => {
           href="https://scentlifestyle.com/why-eyebrow-shaping-is-the-secret-to-a-polished-look"
         />
       </Helmet>
-      <div className="hairTrimContent">
-        <WhyEyeBrowImg />
-        <WhyEyeBrowHead />
-        <HairServImg hairBotoxImg={eyeBrowFrame} />
-        <WhyEyeBrowFrame />
-        <HairServImg hairBotoxImg={eyeBrowBoost} />
-        <WhyEyeBrowBoost />
-        <HairServImg hairBotoxImg={eyeBrowDefine} />
-        <WhyEyeBrowDefine />
-        <HairServImg hairBotoxImg={eyeBrowRoutine} />
-        <WhyEyeBrowRoutine />
-        <HairServImg hairBotoxImg={eyeBrowYouthful} />
-        <WhyEyeBrowSolution />
-        <WhyEyeBrowImp />
-        <WhyEyeBrowYouthful />
+      <div className="blog-container">
+        <div className="blog-wrapper1">
+          <WhyEyeBrowImg />
+          <WhyEyeBrowHead />
+          <HairServImg hairBotoxImg={eyeBrowFrame} />
+          <WhyEyeBrowFrame />
+          <HairServImg hairBotoxImg={eyeBrowBoost} />
+          <WhyEyeBrowBoost />
+          <HairServImg hairBotoxImg={eyeBrowDefine} />
+          <WhyEyeBrowDefine />
+          <HairServImg hairBotoxImg={eyeBrowRoutine} />
+          <WhyEyeBrowRoutine />
+          <HairServImg hairBotoxImg={eyeBrowYouthful} />
+          <WhyEyeBrowSolution />
+          <WhyEyeBrowImp />
+          <WhyEyeBrowYouthful />
+        </div>
+        <div className="blog-wrapper2">
+          <BlogPost />
+          <BlogCategories />
+        </div>
       </div>
-            
     </div>
   );
 };

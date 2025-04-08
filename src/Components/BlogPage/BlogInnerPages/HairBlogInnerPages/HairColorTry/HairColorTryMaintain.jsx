@@ -3,7 +3,7 @@ import checked from "./../../../../../Images/checked.png";
 
 const HairColorTryMaintain = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>Styling and Maintenance Tips for Colored Hair</h5>
       <p>
         Achieving the perfect color is just the beginning. Maintaining vibrant

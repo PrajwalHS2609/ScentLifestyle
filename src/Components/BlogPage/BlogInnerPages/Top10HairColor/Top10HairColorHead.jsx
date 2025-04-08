@@ -2,7 +2,7 @@ import React from "react";
 
 const Top10HairColorHead = () => {
   return (
-    <div className="hairTrimHead">
+    <div className="blogHead-content">
       <h1>Top 10 Trending Women Hair Colours & Highlights for 2024</h1>
       <p>
         As we step into 2024, the world of hair fashion is buzzing with exciting

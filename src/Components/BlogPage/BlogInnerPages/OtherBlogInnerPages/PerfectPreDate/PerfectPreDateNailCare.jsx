@@ -3,7 +3,7 @@ import dot from "./../../../../../Images/dot.png";
 
 const PerfectPreDateNailCare = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>Nail Care for the Finishing Touch</h5>
       <p>
         Your hands will be in the spotlight, whether you're holding hands or

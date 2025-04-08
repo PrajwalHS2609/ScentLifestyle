@@ -2,7 +2,7 @@ import React from "react";
 
 const HairBleachUnderstand = () => {
   return (
-    <div className="pediManicureHead">
+    <div className="blogHead-content">
       <h5>Understanding Hair Bleaching</h5>
       <p>
         Hair bleaching involves a chemical process that strips your hair of its

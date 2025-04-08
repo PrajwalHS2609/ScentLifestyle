@@ -3,7 +3,7 @@ import point from "./../../../../../Images/point.png";
 
 const TipsPedicureTreatment = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>Tips to Prevent Dry and Cracked Heels </h5>
       <p>
         While a good pedicure treatment can work wonders, prevention is always

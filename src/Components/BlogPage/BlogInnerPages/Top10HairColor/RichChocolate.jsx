@@ -4,7 +4,7 @@ import richChocolateImg from "./../../../../Images/Blog/Top 10 hairColor/Rich Ch
 
 const RichChocolate = () => {
   return (
-    <div className="hairTrimHead">
+    <div className="blogHead-content">
       <HairServImg hairBotoxImg={richChocolateImg} />
       <h2>4. Rich Chocolate Brown</h2>
       <p>

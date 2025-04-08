@@ -22,6 +22,8 @@ import StepByStepLaunch from "./StepByStepLaunch";
 import StepByStepFocus from "./StepByStepFocus";
 import StepByStepMonitor from "./StepByStepMonitor";
 import StepByStepFinal from "./StepByStepFinal";
+import BlogPost from "../../../BlogPost/BlogPost";
+import BlogCategories from "../../../BlogCategories/BlogCategories";
 
 const StepByStep = () => {
   return (
@@ -41,30 +43,35 @@ const StepByStep = () => {
           href="https://scentlifestyle.com/step-by-step-guide-to-setting-up-a-successful-salon-franchise-in-bangalore"
         />
       </Helmet>
-      <div className="hairTrimContent">
-        <StepByStepImg />
-        <StepByStepHead />
-        <HairServImg hairBotoxImg={research} />
-        <StepByStepResearch />
-        <HairServImg hairBotoxImg={understand} />
-        <StepByStepUnderstand />
-        <HairServImg hairBotoxImg={secure} />
-        <StepByStepSecure />
-        <HairServImg hairBotoxImg={obtain} />
-        <StepByStepObtain />
-        <HairServImg hairBotoxImg={design} />
-        <StepByStepDesign />
-        <HairServImg hairBotoxImg={hire} />
-        <StepByStepHier />
-        <HairServImg hairBotoxImg={launch} />
-        <StepByStepLaunch />
-        <HairServImg hairBotoxImg={focus} />
-        <StepByStepFocus />
-        <HairServImg hairBotoxImg={monitor} />
-        <StepByStepMonitor />
-        <StepByStepFinal />
+      <div className="blog-container">
+        <div className="blog-wrapper1">
+          <StepByStepImg />
+          <StepByStepHead />
+          <HairServImg hairBotoxImg={research} />
+          <StepByStepResearch />
+          <HairServImg hairBotoxImg={understand} />
+          <StepByStepUnderstand />
+          <HairServImg hairBotoxImg={secure} />
+          <StepByStepSecure />
+          <HairServImg hairBotoxImg={obtain} />
+          <StepByStepObtain />
+          <HairServImg hairBotoxImg={design} />
+          <StepByStepDesign />
+          <HairServImg hairBotoxImg={hire} />
+          <StepByStepHier />
+          <HairServImg hairBotoxImg={launch} />
+          <StepByStepLaunch />
+          <HairServImg hairBotoxImg={focus} />
+          <StepByStepFocus />
+          <HairServImg hairBotoxImg={monitor} />
+          <StepByStepMonitor />
+          <StepByStepFinal />
+        </div>
+        <div className="blog-wrapper2">
+          <BlogPost />
+          <BlogCategories />
+        </div>
       </div>
-      
     </div>
   );
 };

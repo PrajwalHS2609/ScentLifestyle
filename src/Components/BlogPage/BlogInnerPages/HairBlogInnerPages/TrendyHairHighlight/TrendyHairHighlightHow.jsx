@@ -3,7 +3,7 @@ import checked from "./../../../../../Images/checked.png";
 
 const TrendyHairHighlightHow = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>How to Maintain Your Hair Highlights</h5>
       <p>
         Getting stunning hair highlights color is just the beginning. To keep

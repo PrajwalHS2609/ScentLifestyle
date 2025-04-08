@@ -3,7 +3,7 @@ import point from "./../../../../../Images/point.png";
 
 const CurlyHairProsCons = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>8. Pros and Consf Curly Hair</h5>
       <p>
         Here’s a quick rundownf the benefits and challengesf curly hair to help

@@ -3,7 +3,7 @@ import hairBleachBanner from "./../../../../../Images/Blog/How Often Should You 
 
 const HairBleachImg = () => {
   return (
-    <div className="hairTrimImg">
+    <div className="blogImg-content">
       <img src={hairBleachBanner} alt="hairBleachBanner" loading="lazy" />
     </div>
   );

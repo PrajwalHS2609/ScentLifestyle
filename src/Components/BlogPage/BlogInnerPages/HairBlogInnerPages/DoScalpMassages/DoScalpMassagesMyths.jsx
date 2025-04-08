@@ -2,7 +2,7 @@ import React from "react";
 
 const DoScalpMassagesMyths = () => {
   return (
-    <div className="pediAndMainCureBenefits">
+    <div className="blogBenefits-content">
       <h3>Myths About Scalp Massages and Hair Growth</h3>
       <p>
         Despite their benefits, it’s important to debunk some common

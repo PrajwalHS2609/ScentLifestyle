@@ -2,7 +2,7 @@ import React from "react";
 
 const CurlyHairHead = () => {
   return (
-    <div className="pediManicureHead">
+    <div className="blogHead-content">
       <h1>Is Curly Hair the Right Style for You? Here’s How to Find Out</h1>
       <p>
         Curly hair is vibrant, full of life, and a surefire way to make a

@@ -2,7 +2,7 @@ import React from "react";
 
 const BrazilianWaxingAtScent = () => {
   return (
-    <div className="pediManicureHead">
+    <div className="blogHead-content">
       <h3>Brazilian Waxing at SCENT</h3>
       <p>
         If you’re considering{" "}

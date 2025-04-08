@@ -4,7 +4,7 @@ import FieryRedImg from "./../../../../Images/Blog/Top 10 hairColor/Fiery Red.pn
 
 const FieryRed = () => {
   return (
-    <div className="hairTrimHead">
+    <div className="blogHead-content">
       <HairServImg hairBotoxImg={FieryRedImg} />
       <h2>7. Fiery Red</h2>
       <p>

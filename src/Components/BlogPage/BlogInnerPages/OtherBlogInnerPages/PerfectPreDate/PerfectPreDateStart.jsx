@@ -2,7 +2,7 @@ import React from "react";
 
 const PerfectPreDateStart = () => {
   return (
-    <div className="pediAndMainCureBenefits">
+    <div className="blogBenefits-content">
       <h2>Start with a Relaxing Skincare Routine</h2>
       <p>
         Flawless skin is the foundation of any great beauty look. Start

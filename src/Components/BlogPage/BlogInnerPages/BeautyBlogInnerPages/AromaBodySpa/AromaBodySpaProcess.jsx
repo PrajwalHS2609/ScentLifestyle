@@ -2,7 +2,7 @@ import React from "react";
 
 const AromaBodySpaProcess = () => {
   return (
-    <div className="pediAndMainCureBenefits">
+    <div className="blogBenefits-content">
       <h3>The Process of an Aroma Body Spa</h3>
       <p>
         A typical Aroma Body Spa session follows a structured process to ensure

@@ -2,7 +2,7 @@ import React from "react";
 
 const ValvetNails = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>4. Velvet Nails: Luxe & Textured</h5>
       <p>
         Velvet nails create an illusion of soft, plush fabric by using magnetic

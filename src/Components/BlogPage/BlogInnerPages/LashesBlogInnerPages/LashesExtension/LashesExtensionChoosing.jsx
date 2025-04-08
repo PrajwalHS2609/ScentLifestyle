@@ -3,7 +3,7 @@ import point from "./../../../../../Images/point.png";
 
 const LashesExtensionChoosing = () => {
   return (
-    <div className="pediAndMainCureBenefits">
+    <div className="blogBenefits-content">
       <h3>Common Questions About Eyelash Extensions</h3>
       <p>
         Not all eyelash extensions are created equal. To achieve the perfect

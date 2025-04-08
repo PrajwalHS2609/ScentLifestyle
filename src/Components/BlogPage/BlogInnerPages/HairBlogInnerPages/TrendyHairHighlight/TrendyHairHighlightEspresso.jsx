@@ -3,7 +3,7 @@ import point from "./../../../../../Images/point.png";
 
 function TrendyHairHighlightEspresso() {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>10. Espresso & Caramel Highlights for Dimension ☕</h5>
       <p>
         Dark-haired beauties, this one’s for you! Espresso hair with caramel

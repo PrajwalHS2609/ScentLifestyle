@@ -2,7 +2,7 @@ import React from "react";
 
 const WhyKeratinHow = () => {
   return (
-    <div className="pediAndMainCureBenefits">
+    <div className="blogBenefits-content">
       <h3>How Does Keratin Hair Treatment Work?</h3>
       <p>
         The primary function of{" "}

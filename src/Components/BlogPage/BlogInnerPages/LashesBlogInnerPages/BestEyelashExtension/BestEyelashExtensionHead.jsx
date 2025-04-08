@@ -2,7 +2,7 @@ import React from "react";
 
 const BestEyelashExtensionHead = () => {
   return (
-    <div className="pediManicureHead">
+    <div className="blogHead-content">
       <h1>The Best Eyelash Extension Styles for Brides and Special Events</h1>
       <p>
         A wedding or a special event is one of the most significant moments in a

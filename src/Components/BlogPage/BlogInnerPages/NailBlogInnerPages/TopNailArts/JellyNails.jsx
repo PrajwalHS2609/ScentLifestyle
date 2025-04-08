@@ -2,7 +2,7 @@ import React from "react";
 
 const JellyNails = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>9. Jelly Nails: Transparent & Playful</h5>
       <p>
         Jelly nails feature a see-through, translucent finish that gives a fun

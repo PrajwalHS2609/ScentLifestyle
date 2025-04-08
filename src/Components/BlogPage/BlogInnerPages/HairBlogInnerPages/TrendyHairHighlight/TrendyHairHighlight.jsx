@@ -18,6 +18,8 @@ import TrendyHairHighlightFinal from "./TrendyHairHighlightFinal";
 import HairServImg from "../../HairBotox/HairServImg";
 import HairTrendsWhy from "./../../../../../Images/Blog/2025HairTrends/Why Hair Highlights.png";
 import HairTrendsHow from "./../../../../../Images/Blog/2025HairTrends/How to Maintain Your Hair Highlights.png";
+import BlogPost from "../../../BlogPost/BlogPost";
+import BlogCategories from "../../../BlogCategories/BlogCategories";
 
 const TrendyHairHighlight = () => {
   return (
@@ -34,37 +36,43 @@ const TrendyHairHighlight = () => {
           href="https://scentlifestyle.com/2025-trendy-hair-highlights-youll-love"
         />
       </Helmet>
-      <div className="hairTrimContent">
-        <TrendyHairHighlightImg />
-        <TrendyHairHighlightHead />
-        <br />
-        <HairServImg hairBotoxImg={HairTrendsWhy} />
-        <TrendyHairHighlightWhy />
-        <br />
-        <TrendyHairHighlightFaceFraming />
-        <br />
-        <TrendyHairHighlightCaramel />
-        <br />
-        <TrendyHairHighlightMocha />
-        <br />
-        <TrendyHairHighlightIcy />
-        <br />
-        <TrendyHairHighlightRoseGold />
-        <br />
-        <TrendyHairHighlightChunky />
-        <br />
-        <TrendyHairHighlightChocolate />
-        <br />
-        <TrendyHairHighlightAshBrown />
-        <br />
-        <TrendyHairHighlightPeekaboo />
-        <br />
-        <TrendyHairHighlightEspresso />
-        <br />
-        <HairServImg hairBotoxImg={HairTrendsHow} />
-        <TrendyHairHighlightHow />
-        <br />
-        <TrendyHairHighlightFinal />
+      <div className="blog-container">
+        <div className="blog-wrapper1">
+          <TrendyHairHighlightImg />
+          <TrendyHairHighlightHead />
+          <br />
+          <HairServImg hairBotoxImg={HairTrendsWhy} />
+          <TrendyHairHighlightWhy />
+          <br />
+          <TrendyHairHighlightFaceFraming />
+          <br />
+          <TrendyHairHighlightCaramel />
+          <br />
+          <TrendyHairHighlightMocha />
+          <br />
+          <TrendyHairHighlightIcy />
+          <br />
+          <TrendyHairHighlightRoseGold />
+          <br />
+          <TrendyHairHighlightChunky />
+          <br />
+          <TrendyHairHighlightChocolate />
+          <br />
+          <TrendyHairHighlightAshBrown />
+          <br />
+          <TrendyHairHighlightPeekaboo />
+          <br />
+          <TrendyHairHighlightEspresso />
+          <br />
+          <HairServImg hairBotoxImg={HairTrendsHow} />
+          <TrendyHairHighlightHow />
+          <br />
+          <TrendyHairHighlightFinal />
+        </div>
+        <div className="blog-wrapper2">
+          <BlogPost />
+          <BlogCategories />
+        </div>
       </div>
     </div>
   );

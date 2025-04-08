@@ -4,7 +4,7 @@ import HairServImg from "../../HairBotox/HairServImg";
 
 const AromaBodySpaHead = () => {
   return (
-    <div className="pediManicureHead">
+    <div className="blogHead-content">
       <h1>
         Aroma Body Spa: Rejuvenate Your Senses with the Power of Essential Oils
       </h1>

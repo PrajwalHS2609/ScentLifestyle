@@ -2,7 +2,7 @@ import React from "react";
 
 const BodyDTanTreatmentVerses = () => {
   return (
-    <div className="pediManicureHead">
+    <div className="blogHead-content">
       <h5>Professional Body D-Tan vs. DIY Remedies</h5>
       <p>
         While there are plenty of DIY remedies for tan removal, professional

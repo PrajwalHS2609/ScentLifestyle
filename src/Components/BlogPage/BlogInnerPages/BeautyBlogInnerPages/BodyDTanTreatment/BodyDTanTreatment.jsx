@@ -13,6 +13,8 @@ import bodyDTanTreatmentHowImg from "./../../../../../Images/Blog/Body_D-Tan_Tre
 import bodyDTanTreatmentWhyImg from "./../../../../../Images/Blog/Body_D-Tan_Treatment/Why Choose D-Tan for Anti-Aging.png";
 import bodyDTanTreatmentChoosingImg from "./../../../../../Images/Blog/Body_D-Tan_Treatment/Choosing the Right Body D-Tan Treatment.png";
 import HairServImg from "../../HairBotox/HairServImg";
+import BlogPost from "../../../BlogPost/BlogPost";
+import BlogCategories from "../../../BlogCategories/BlogCategories";
 
 const BodyDTanTreatment = () => {
   return (
@@ -29,28 +31,33 @@ const BodyDTanTreatment = () => {
           href="https://scentlifestyle.com/the-role-of-body-d-tan-in-anti-aging-skincare"
         />
       </Helmet>
-      <div className="hairTrimContent">
-        <BodyDTanTreatmentImg />
-        <BodyDTanTreatmentHead />
-        <br />
-        <BodyDTanTreatmentBenefits />
-        <br />
-        <BodyDTanTreatmentScience />
-        <br />
-        <HairServImg hairBotoxImg={bodyDTanTreatmentHowImg} />
-        <BodyDTanTreatmentHow />
-        <br />
-        <HairServImg hairBotoxImg={bodyDTanTreatmentWhyImg} />
-        <BodyDTanTreatmentWhyChoose />
-        <br />
-        <BodyDTanTreatmentCommon />
-        <br />
-        <HairServImg hairBotoxImg={bodyDTanTreatmentChoosingImg} />
-        <BodyDTanTreatmentVerses />
-        <br />
-        <BodyDTanTreatmentEnhance />
+      <div className="blog-container">
+        <div className="blog-wrapper1">
+          <BodyDTanTreatmentImg />
+          <BodyDTanTreatmentHead />
+          <br />
+          <BodyDTanTreatmentBenefits />
+          <br />
+          <BodyDTanTreatmentScience />
+          <br />
+          <HairServImg hairBotoxImg={bodyDTanTreatmentHowImg} />
+          <BodyDTanTreatmentHow />
+          <br />
+          <HairServImg hairBotoxImg={bodyDTanTreatmentWhyImg} />
+          <BodyDTanTreatmentWhyChoose />
+          <br />
+          <BodyDTanTreatmentCommon />
+          <br />
+          <HairServImg hairBotoxImg={bodyDTanTreatmentChoosingImg} />
+          <BodyDTanTreatmentVerses />
+          <br />
+          <BodyDTanTreatmentEnhance />
+        </div>
+        <div className="blog-wrapper2">
+          <BlogPost />
+          <BlogCategories />
+        </div>{" "}
       </div>
-            
     </div>
   );
 };

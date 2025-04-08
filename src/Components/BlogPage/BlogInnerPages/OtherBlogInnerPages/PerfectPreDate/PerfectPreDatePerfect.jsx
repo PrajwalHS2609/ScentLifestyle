@@ -3,7 +3,7 @@ import point from "./../../../../../Images/point.png";
 
 const PerfectPreDatePerfect = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>The Perfect Outfit & Accessories</h5>
       <p>
         Your outfit should reflect your personal style while making you feel

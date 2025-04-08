@@ -3,7 +3,7 @@ import point from "./../../../../../Images/point.png";
 
 const TrendyHairHighlightFaceFraming = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>1. Face-Framing Money Piece Highlights 💫</h5>
       <p>
         The money piece highlight trend continues to dominate in 2025! This

@@ -2,7 +2,7 @@ import React from "react";
 
 const Top5SpaStrengthening = () => {
   return (
-    <div className="pediManicureHead">
+    <div className="blogHead-content">
       <h2>2. Strengthening Hair from Root to Tip</h2>
       <p>
         Another significant{" "}

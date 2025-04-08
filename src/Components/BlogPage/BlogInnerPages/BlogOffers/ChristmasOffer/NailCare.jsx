@@ -2,7 +2,7 @@ import React from "react";
 
 const NailCare = () => {
   return (
-    <div className="pediAndMainCureBenefits">
+    <div className="blogBenefits-content">
       <h3>2. Nail Care: Festive and Fun Nailss</h3>
       <p>
         During the holidays, your nails can be one of your best accessories.

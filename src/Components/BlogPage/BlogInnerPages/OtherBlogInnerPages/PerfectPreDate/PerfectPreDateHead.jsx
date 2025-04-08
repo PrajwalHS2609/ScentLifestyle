@@ -2,7 +2,7 @@ import React from "react";
 
 const PerfectPreDateHead = () => {
   return (
-    <div className="pediManicureHead">
+    <div className="blogHead-content">
       <h1>The Perfect Pre-Date Beauty Routine for a Magical Valentine's Day</h1>
       <p>
         Valentine’s Day is the perfect occasion to celebrate love, whether

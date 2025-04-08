@@ -3,7 +3,7 @@ import point from "./../../../../../Images/point.png";
 
 const CurlyHairTypes = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>4. Explore Different Types of Curly Hairstyles</h5>
       <p>
         Curly hair isn’t one-size-fits-all. From loose, beachy waves to tight

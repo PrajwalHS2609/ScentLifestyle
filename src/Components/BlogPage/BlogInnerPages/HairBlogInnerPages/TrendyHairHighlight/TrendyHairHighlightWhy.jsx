@@ -1,7 +1,7 @@
 import React from "react";
 const TrendyHairHighlightWhy = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>Why Hair Highlights?</h5>
       <p>
         Hair highlights are one of the most versatile and stylish ways to change

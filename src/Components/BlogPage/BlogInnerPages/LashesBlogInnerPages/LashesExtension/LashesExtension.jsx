@@ -14,6 +14,8 @@ import lashesExtensionMaintain from "./../../../../../Images/Blog/Eyelash Extens
 import lashesExtensionWhy from "./../../../../../Images/Blog/Eyelash Extensions/Why Eyelash Extensions for Women Are Worth the Investment.png";
 import HairServImg from "../../HairBotox/HairServImg";
 import LashesExtensionBlogWhy from "./LashesExtensionBlogWhy";
+import BlogPost from "../../../BlogPost/BlogPost";
+import BlogCategories from "../../../BlogCategories/BlogCategories";
 
 const LashesExtensionBlog = () => {
   return (
@@ -32,28 +34,33 @@ const LashesExtensionBlog = () => {
           href="https://scentlifestyle.com/eyelash-extensions-for-special-occasions-your-go-to-glam-look"
         />
       </Helmet>
-      <div className="hairTrimContent">
-        <LashesExtensionImg />
-        <LashesExtensionHead />
-        <br />
-        <HairServImg hairBotoxImg={lashesExtensionWhyChoose} />
-        <LashesExtensionWhyChoose />
-        <br />
-        <HairServImg hairBotoxImg={lashesExtensionChoosing} />
-        <LashesExtensionChoosing />
-        <br />
-        <HairServImg hairBotoxImg={lashesExtensionPrepare} />
-        <LashesExtensionPrepare />
-        <br />
-        <HairServImg hairBotoxImg={lashesExtensionMaintain} />
-        <LashesExtensionMaintain />
-        <br />
-        <LashesExtensionQuestion />
-        <br />
-        <HairServImg hairBotoxImg={lashesExtensionWhy} />
-        <LashesExtensionBlogWhy />
+      <div className="blog-container">
+        <div className="blog-wrapper1">
+          <LashesExtensionImg />
+          <LashesExtensionHead />
+          <br />
+          <HairServImg hairBotoxImg={lashesExtensionWhyChoose} />
+          <LashesExtensionWhyChoose />
+          <br />
+          <HairServImg hairBotoxImg={lashesExtensionChoosing} />
+          <LashesExtensionChoosing />
+          <br />
+          <HairServImg hairBotoxImg={lashesExtensionPrepare} />
+          <LashesExtensionPrepare />
+          <br />
+          <HairServImg hairBotoxImg={lashesExtensionMaintain} />
+          <LashesExtensionMaintain />
+          <br />
+          <LashesExtensionQuestion />
+          <br />
+          <HairServImg hairBotoxImg={lashesExtensionWhy} />
+          <LashesExtensionBlogWhy />
+        </div>
+        <div className="blog-wrapper2">
+          <BlogPost />
+          <BlogCategories />
+        </div>{" "}
       </div>
-            
     </div>
   );
 };

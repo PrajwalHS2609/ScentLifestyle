@@ -3,7 +3,7 @@ import point from "./../../../../../Images/point.png";
 
 const ClearerSkinFacialMaximize = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>How to Maximize the Benefits of Acne Cure Facials</h5>
       <p>
         To make the most out of your Acne Cure Facial treatments, consider the

@@ -2,7 +2,7 @@ import React from "react";
 
 const HairSpaTreatmentWhy = () => {
   return (
-    <div className="pediManicureHead">
+    <div className="blogHead-content">
       <h5>Why Regular Hair Spa Treatments Are Essential</h5>
       <p>
         In today’s fast-paced world, our hair undergoes stress from various

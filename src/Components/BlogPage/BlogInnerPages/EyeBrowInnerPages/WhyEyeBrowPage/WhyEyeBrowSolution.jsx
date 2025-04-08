@@ -3,7 +3,7 @@ import point from "./../../../../../Images/point.png";
 
 const WhyEyeBrowSolution = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>5. A Quick and Easy Grooming Solution</h5>
       <p>
         In today’s fast-paced world, not everyone has time for an elaborate

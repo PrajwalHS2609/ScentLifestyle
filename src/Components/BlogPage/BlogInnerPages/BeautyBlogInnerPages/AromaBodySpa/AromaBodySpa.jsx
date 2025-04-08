@@ -11,6 +11,8 @@ import aromaBodySpaBenefits from "./../../../../../Images/Blog/Aroma_Body_Spa/Th
 import aromaBodySpaProcess from "./../../../../../Images/Blog/Aroma_Body_Spa/The Process of an Aroma Body Spa.png";
 import aromaBodySpaTips from "./../../../../../Images/Blog/Aroma_Body_Spa/Tips for an Enhanced Spa Experience.png";
 import AromaBodySpaImg from "./AromaBodySpaImg";
+import BlogPost from "../../../BlogPost/BlogPost";
+import BlogCategories from "../../../BlogCategories/BlogCategories";
 
 const AromaBodySpa = () => {
   return (
@@ -30,23 +32,29 @@ const AromaBodySpa = () => {
           href="https://scentlifestyle.com/aroma-body-spa-rejuvenate-your-senses-with-the-power-of-essential-oils"
         />
       </Helmet>
-      <div className="hairTrimContent">
-        <AromaBodySpaImg />
-        <AromaBodySpaHead />
-        <br />
-        <HairServImg hairBotoxImg={aromaBodySpaBenefits} />
-        <AromaBodySpaBenefits />
-        <br />
-        <HairServImg hairBotoxImg={aromaBodySpaProcess} />
-        <AromaBodySpaProcess />
-        <br />
-        <AromaBodySpaChoosing />
-        <br />
-        <AromaBodySpaHow />
-        <br />
-        <HairServImg hairBotoxImg={aromaBodySpaTips} />
-        <AromaBodySpaTips />
-        <br />
+      <div className="blog-container">
+        <div className="blog-wrapper1">
+          <AromaBodySpaImg />
+          <AromaBodySpaHead />
+          <br />
+          <HairServImg hairBotoxImg={aromaBodySpaBenefits} />
+          <AromaBodySpaBenefits />
+          <br />
+          <HairServImg hairBotoxImg={aromaBodySpaProcess} />
+          <AromaBodySpaProcess />
+          <br />
+          <AromaBodySpaChoosing />
+          <br />
+          <AromaBodySpaHow />
+          <br />
+          <HairServImg hairBotoxImg={aromaBodySpaTips} />
+          <AromaBodySpaTips />
+          <br />
+        </div>
+        <div className="blog-wrapper2">
+          <BlogPost />
+          <BlogCategories />
+        </div>
       </div>
     </div>
   );

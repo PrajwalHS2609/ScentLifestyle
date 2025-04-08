@@ -2,7 +2,7 @@ import React from "react";
 
 const SummerCareContent = () => {
   return (
-    <div className="pediAndMainCureBenefits">
+    <div className="blogBenefits-content">
       <h3>1. Start with a Relaxing Skincare Routine</h3>
       <p>
         Flawless skin is the foundation of any great beauty look. Start

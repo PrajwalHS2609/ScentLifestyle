@@ -3,7 +3,7 @@ import checked from "./../../../../../Images/checked.png";
 
 const StepByStepFocus = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>8. Focus on Customer Experience</h5>
       <p>
         Customer experience is the key to building a successful salon franchise.

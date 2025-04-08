@@ -3,7 +3,7 @@ import check from "./../../../../../Images/checked.png";
 
 const AcademyEnrollWhy = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>Why Choose the Best Salon Academy of Bangalore?</h5>
       <p>
         Choosing the right training institute is crucial for a successful career

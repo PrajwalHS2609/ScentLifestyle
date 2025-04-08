@@ -3,7 +3,7 @@ import checked from "./../../../../../Images/checked.png";
 
 const ClassicPedicureTreatment = () => {
   return (
-    <div className="pediManicureHead">
+    <div className="blogHead-content">
       <h2>1. Classic Pedicure Treatment for Dry Heels</h2>
       <p>
         A Classic Pedicure Treatment is one of the most popular and

@@ -2,7 +2,7 @@ import React from "react";
 
 const ChromeNails = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>1. Chrome Nails: The Ultimate Shine</h5>
       <p>
         Chrome nails have taken over the fashion world, and they are here to

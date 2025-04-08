@@ -2,7 +2,7 @@ import React from "react";
 
 const BodyDTanTreatmentScience = () => {
   return (
-    <div className="pediManicureHead">
+    <div className="blogHead-content">
       <h5>The Science Behind Body D-Tan and Anti-Aging</h5>
       <p>
         Body D-Tan treatments work by utilizing active ingredients like kojic

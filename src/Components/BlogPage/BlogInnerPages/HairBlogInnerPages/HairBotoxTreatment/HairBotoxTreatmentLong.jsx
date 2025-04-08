@@ -2,7 +2,7 @@ import React from "react";
 
 const HairBotoxTreatmentLong = () => {
   return (
-    <div className="pediManicureHead">
+    <div className="blogHead-content">
       <h5>How Long Does Hair Botox Last?</h5>
       <p>
         The effects of Hair Botox typically last between 2 to 4 months,

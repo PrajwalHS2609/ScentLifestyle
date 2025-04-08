@@ -2,7 +2,7 @@ import React from "react";
 
 const ScalpDetoxBest = () => {
   return (
-    <div className="pediAndMainCureBenefits">
+    <div className="blogBenefits-content">
       <h3>Best Products for Scalp Detox – Beauty Garage Scalp Sense Range</h3>
       <li>
         <h6>

@@ -2,7 +2,7 @@ import React from "react";
 
 const WhyKeratinHead = () => {
   return (
-    <div className="pediManicureHead">
+    <div className="blogHead-content">
       <h1>
         Why Keratin Hair Treatment is the Ultimate Solution for Damaged Hair?
       </h1>

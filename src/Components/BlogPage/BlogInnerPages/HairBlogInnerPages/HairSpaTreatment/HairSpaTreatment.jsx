@@ -21,6 +21,8 @@ import HairSpaTreatmentHow from "./HairSpaTreatmentHow";
 import HairSpaTreatmentWhy from "./HairSpaTreatmentWhy";
 import HairSpaTreatmentFinal from "./HairSpaTreatmentFinal";
 import HairSpaTreatmentWhyScent from "./HairSpaTreatmentWhyScent";
+import BlogPost from "../../../BlogPost/BlogPost";
+import BlogCategories from "../../../BlogCategories/BlogCategories";
 
 const HairSpaTreatment = () => {
   return (
@@ -37,35 +39,40 @@ const HairSpaTreatment = () => {
           href="https://scentlifestyle.com/top-benefits-of-regular-hair-spa-treatments"
         />
       </Helmet>
-      <div className="hairTrimContent">
-        <HairSpaTreatmentImg />
-        <HairSpaTreatmentHead />
-        <br />
-        <HairServImg hairBotoxImg={hairWhyImg} />
-        <HairSpaTreatmentWhy />
-        <DeepNourishment />
-        <RepairHairDamage />
-        <BoostHairGrowth />
-        <EliminatesDandruff />
-        <TamesFrizz />
-        <AddsShine />
-        <RelievesStress />
-        <EnhancesColor />
-        <CustomizableHairType />
-        <br />
-        <HairServImg hairBotoxImg={hairDiffImg} />
-        <HairSpaTreatmentDiff />
-        <br />
-        <HairSpaTreatmentHow />
-        <br />
-        <HairServImg hairBotoxImg={hairWhyScentImg} />
-        <HairSpaTreatmentWhyScent />
-        <br />
-        <HairServImg hairBotoxImg={hairFinalImg} />
-        <HairSpaTreatmentFinal />
-        <br />
+      <div className="blog-container">
+        <div className="blog-wrapper1">
+          <HairSpaTreatmentImg />
+          <HairSpaTreatmentHead />
+          <br />
+          <HairServImg hairBotoxImg={hairWhyImg} />
+          <HairSpaTreatmentWhy />
+          <DeepNourishment />
+          <RepairHairDamage />
+          <BoostHairGrowth />
+          <EliminatesDandruff />
+          <TamesFrizz />
+          <AddsShine />
+          <RelievesStress />
+          <EnhancesColor />
+          <CustomizableHairType />
+          <br />
+          <HairServImg hairBotoxImg={hairDiffImg} />
+          <HairSpaTreatmentDiff />
+          <br />
+          <HairSpaTreatmentHow />
+          <br />
+          <HairServImg hairBotoxImg={hairWhyScentImg} />
+          <HairSpaTreatmentWhyScent />
+          <br />
+          <HairServImg hairBotoxImg={hairFinalImg} />
+          <HairSpaTreatmentFinal />
+          <br />
+        </div>
+        <div className="blog-wrapper2">
+          <BlogPost />
+          <BlogCategories />
+        </div>
       </div>
-            
     </div>
   );
 };

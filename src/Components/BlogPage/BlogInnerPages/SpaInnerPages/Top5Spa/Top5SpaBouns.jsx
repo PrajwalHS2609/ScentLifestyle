@@ -3,7 +3,7 @@ import point from "./../../../../../Images/point.png";
 
 const Top5SpaBouns = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>Bonus Reasons to Book a Hair Spa Today</h5>
       <p>
         While the top 5 reasons to book a hair spa today have been covered,

@@ -4,7 +4,7 @@ import checked from "./../../../../../Images/checked.png";
 const BodyDTanTreatmentBenefits = () => {
   
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>Benefits of Body D-Tan in Anti-Aging Skincare</h5>
 
       <ul>

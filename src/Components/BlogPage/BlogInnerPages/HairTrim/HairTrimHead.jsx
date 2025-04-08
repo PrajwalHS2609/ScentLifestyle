@@ -2,7 +2,7 @@ import React from "react";
 import "./HairTrim.css";
 const HairTrimHead = () => {
   return (
-    <div className="hairTrimHead">
+    <div className="blogHead-content">
       <h1>Does Trimming Hair Make It Grow Faster?</h1>
       <p>
         Trimming your hair regularly is key to maintaining long, healthy locks.
@@ -10,14 +10,14 @@ const HairTrimHead = () => {
         split ends and damaged hair helps your hair appear thicker and prevents
         damage from traveling up the hair shaft.
       </p>
-      <div className="hairTrimHeadContent">
+      <div className="blogHead-contentContent">
         <p>
           <span> Textured Hair Trimming Frequency :</span> For textured hair,
           opt for a trim every 2-3 months to keep the ends soft and healthy,
           promoting voluminous growth.
         </p>
       </div>
-      <div className="hairTrimHeadContent">
+      <div className="blogHead-contentContent">
         <h3>Non-Textured Hair Trimming Frequency:</h3>
         <ul>
           <li>

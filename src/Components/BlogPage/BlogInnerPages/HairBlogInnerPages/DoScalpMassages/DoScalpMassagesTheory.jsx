@@ -2,7 +2,7 @@ import React from "react";
 
 const DoScalpMassagesTheory = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>The Theory Behind Scalp Massages</h5>
       <p>
         Scalp massages are believed to stimulate blood circulation in the scalp,

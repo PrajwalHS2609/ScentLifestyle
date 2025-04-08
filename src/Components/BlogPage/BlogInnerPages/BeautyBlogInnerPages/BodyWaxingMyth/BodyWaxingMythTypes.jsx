@@ -2,7 +2,7 @@ import React from "react";
 
 const BodyWaxingMythTypes = () => {
   return (
-    <div className="pediAndMainCureBenefits">
+    <div className="blogBenefits-content">
       <h3>Types of Body Waxing</h3>
       <li>
         <h6> Hand Waxing</h6>

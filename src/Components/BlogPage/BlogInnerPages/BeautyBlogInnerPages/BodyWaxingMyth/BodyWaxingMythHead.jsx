@@ -2,7 +2,7 @@ import React from "react";
 
 const BodyWaxingMythHead = () => {
   return (
-    <div className="pediManicureHead">
+    <div className="blogHead-content">
       <h1>Get Festive Ready: Top Christmas Beauty Tips for Women & Men</h1>
       <p>
         The holiday season is here, and with it comes an exciting opportunity to

@@ -2,7 +2,7 @@ import React from "react";
 
 const ScalpDetoxHowOften = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>How Often Should You Detox Your Scalp?</h5>
       <p>
         The frequency of your{" "}

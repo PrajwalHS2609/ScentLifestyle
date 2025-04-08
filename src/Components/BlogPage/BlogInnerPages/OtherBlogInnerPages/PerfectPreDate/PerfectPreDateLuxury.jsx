@@ -3,7 +3,7 @@ import point from "./../../../../../Images/point.png";
 
 const PerfectPreDateLuxury = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>A Luxurious Hair Care Routine</h5>
       <p>
         Your hair is your crowning glory, and taking the time to pamper it will

@@ -16,6 +16,8 @@ import doScalpMassagesTheory from "./../../../../../Images/Blog/Do_Scalp_Massage
 import doScalpMassagesBenefits from "./../../../../../Images/Blog/Do_Scalp_Massage_Promote/Benefits Beyond Hair Growth.png";
 import { Helmet } from "react-helmet";
 import HairServImg from "../../HairBotox/HairServImg";
+import BlogPost from "../../../BlogPost/BlogPost";
+import BlogCategories from "../../../BlogCategories/BlogCategories";
 
 const DoScalpMassages = () => {
   return (
@@ -32,29 +34,35 @@ const DoScalpMassages = () => {
           href="https://scentlifestyle.com/do-scalp-massages-truly-promote-hair-growth"
         />
       </Helmet>
-      <div className="hairTrimContent">
-        <DoScalpMassagesImg />
-        <DoScalpMassagesHead />
-        <br />
-        <HairServImg hairBotoxImg={doScalpMassagesTheory} />
-        <DoScalpMassagesTheory />
-        <br />
-        <HairServImg hairBotoxImg={doScalpMassagesScientific} />
-        <DoScalpMassagesScientific />
-        <br />
-        <HairServImg hairBotoxImg={doScalpMassagesHow} />
-        <DoScalpMassagesHow />
-        <br />
-        <HairServImg hairBotoxImg={doScalpMassagesBenefits} />
-        <DoScalpMassagesBenefits />
-        <br />
-        <DoScalpMassagesFactors />
-        <br />
-        <HairServImg hairBotoxImg={doScalpMassagesMyths} />
-        <DoScalpMassagesMyths />
-        <br />
-        <HairServImg hairBotoxImg={doScalpMassagesPremium} />
-        <DoScalpMassagesPremium />
+      <div className="blog-container">
+        <div className="blog-wrapper1">
+          <DoScalpMassagesImg />
+          <DoScalpMassagesHead />
+          <br />
+          <HairServImg hairBotoxImg={doScalpMassagesTheory} />
+          <DoScalpMassagesTheory />
+          <br />
+          <HairServImg hairBotoxImg={doScalpMassagesScientific} />
+          <DoScalpMassagesScientific />
+          <br />
+          <HairServImg hairBotoxImg={doScalpMassagesHow} />
+          <DoScalpMassagesHow />
+          <br />
+          <HairServImg hairBotoxImg={doScalpMassagesBenefits} />
+          <DoScalpMassagesBenefits />
+          <br />
+          <DoScalpMassagesFactors />
+          <br />
+          <HairServImg hairBotoxImg={doScalpMassagesMyths} />
+          <DoScalpMassagesMyths />
+          <br />
+          <HairServImg hairBotoxImg={doScalpMassagesPremium} />
+          <DoScalpMassagesPremium />
+        </div>
+        <div className="blog-wrapper2">
+          <BlogPost />
+          <BlogCategories />
+        </div>
       </div>
     </div>
   );

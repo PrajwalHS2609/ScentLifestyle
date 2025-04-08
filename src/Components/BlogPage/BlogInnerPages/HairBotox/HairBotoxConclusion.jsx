@@ -2,7 +2,7 @@ import React from "react";
 
 const HairBotoxConclusion = () => {
   return (
-    <div className="hairTrimHead">
+    <div className="blogHead-content">
       <h2>Transform Your Tresses with Hair Botox at SCENT</h2>
       <p>
         Hair Botox is a revolutionary treatment that can transform your tresses

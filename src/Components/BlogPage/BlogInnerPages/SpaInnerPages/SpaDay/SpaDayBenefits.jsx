@@ -2,7 +2,7 @@ import React from "react";
 
 const SpaDayBenefits = () => {
   return (
-    <div className="pediAndMainCureBenefits">
+    <div className="blogBenefits-content">
       <h3>The Social and Psychological Benefits</h3>
       <li>
         <h6>Social Interaction:</h6>While a spa day can be a solo experience, it

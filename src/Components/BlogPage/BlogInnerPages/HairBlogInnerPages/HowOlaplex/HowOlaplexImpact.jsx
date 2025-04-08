@@ -2,7 +2,7 @@ import React from "react";
 
 const HowOlaplexImpact = () => {
   return (
-    <div className="pediManicureHead">
+    <div className="blogHead-content">
       <h2>The Impact of Coloring on Hair Health</h2>
       <p>
         Coloring your hair, especially with bleach or permanent dyes, can cause

@@ -3,7 +3,7 @@ import point from "./../../../../../Images/point.png";
 
 const GlamorousPony = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>1. The Sleek Low Ponytail</h5>
       <p>
         A low ponytail might sound basic, but when done right, it can look

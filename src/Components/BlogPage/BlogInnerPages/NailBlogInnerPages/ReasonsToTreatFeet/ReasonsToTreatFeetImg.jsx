@@ -3,7 +3,7 @@ import reasonsToTreatFeetBanner from "./../../../../../Images/Blog/top_reasons_t
 
 const ReasonsToTreatFeetImg = () => {
   return (
-    <div className="hairTrimImg">
+    <div className="blogImg-content">
       <img
         src={reasonsToTreatFeetBanner}
         alt="reasons To Treat Feet Banner"

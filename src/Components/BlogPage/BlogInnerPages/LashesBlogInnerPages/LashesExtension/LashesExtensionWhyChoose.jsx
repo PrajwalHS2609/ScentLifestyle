@@ -3,7 +3,7 @@ import checked from "./../../../../../Images/checked.png";
 
 const LashesExtensionWhyChoose = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>Why Choose Eyelash Extensions for Special Occasions?</h5>
 
       <ul>

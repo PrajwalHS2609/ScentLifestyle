@@ -3,7 +3,7 @@ import hairColorTryImg from "./../../../../../Images/Blog/25+ Hair Colors/Banner
 
 const HairColorTryImg = () => {
   return (
-    <div className="hairTrimImg">
+    <div className="blogImg-content">
       <img src={hairColorTryImg} alt="hairColorTryImg" loading="lazy" />
     </div>
   );

@@ -3,7 +3,7 @@ import point from "./../../../../../Images/point.png";
 
 const WhyEyeBrowDefine = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>3. Defines Your Personal Style</h5>
       <p>
         Your eyebrows can say a lot about your personal style. Whether you

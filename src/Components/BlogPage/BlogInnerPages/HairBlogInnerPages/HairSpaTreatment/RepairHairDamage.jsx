@@ -3,7 +3,7 @@ import point from "./../../../../../Images/point.png";
 
 const RepairHairDamage = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>2. Repairs Hair Damage</h5>
       <p>
         Damaged hair is a common issue caused by bleaching, coloring, and

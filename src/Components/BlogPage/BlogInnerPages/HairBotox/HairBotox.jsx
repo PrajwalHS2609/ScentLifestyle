@@ -13,6 +13,8 @@ import HairBotoxBenefits from "./HairBotoxBenefits";
 import HairBotoxWho from "./HairBotoxWho/HairBotoxWho";
 import HairBotoxXp from "./HairBotoxXp";
 import HairServImg from "./HairServImg";
+import BlogPost from "../../BlogPost/BlogPost";
+import BlogCategories from "../../BlogCategories/BlogCategories";
 const HairBotox = () => {
   return (
     <div className="hairTrim">
@@ -29,24 +31,25 @@ const HairBotox = () => {
         />
       </Helmet>
       <NavBg />
-      <div className="hairTrimContent">
-        <HairBotoxImg />
-        <InnerNavi
-          link="/blog"
-          service="Blog"
-          currService="Hair Blog"
-        />
-        <HairBotoxHead />
-        <HairBotoxWhat />
-        <HairServImg hairBotoxImg={HairBotox1} />
-        <HairBotoxHow />
-        <HairServImg hairBotoxImg={HairBotox2} />
-        <HairBotoxBenefits />
-        <HairServImg hairBotoxImg={HairBotox3} />
-        <HairBotoxWho />
-        <HairBotoxXp />
+      <div className="blog-container">
+        <div className="blog-wrapper1">
+          <HairBotoxImg />
+          <InnerNavi link="/blog" service="Blog" currService="Hair Blog" />
+          <HairBotoxHead />
+          <HairBotoxWhat />
+          <HairServImg hairBotoxImg={HairBotox1} />
+          <HairBotoxHow />
+          <HairServImg hairBotoxImg={HairBotox2} />
+          <HairBotoxBenefits />
+          <HairServImg hairBotoxImg={HairBotox3} />
+          <HairBotoxWho />
+          <HairBotoxXp />
+        </div>
+        <div className="blog-wrapper2">
+          <BlogPost />
+          <BlogCategories />
+        </div>
       </div>
-            
     </div>
   );
 };

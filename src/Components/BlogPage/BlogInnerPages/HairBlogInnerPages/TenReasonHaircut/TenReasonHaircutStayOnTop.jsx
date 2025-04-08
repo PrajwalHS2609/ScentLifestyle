@@ -2,7 +2,7 @@ import React from "react";
 
 const TenReasonHaircutStayOnTop = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>8. Stay on Top of Trends</h5>
       <p>
         Hair trends are constantly evolving, and scheduling regular appointments

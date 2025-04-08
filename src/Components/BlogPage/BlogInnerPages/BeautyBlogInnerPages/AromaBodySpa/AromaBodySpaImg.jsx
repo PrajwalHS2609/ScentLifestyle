@@ -3,7 +3,7 @@ import aromaBodySpaBanner from "./../../../../../Images/Blog/Aroma_Body_Spa/Bann
 
 const AromaBodySpaImg = () => {
   return (
-    <div className="hairTrimImg">
+    <div className="blogImg-content">
       <img
         src={aromaBodySpaBanner}
         alt="aroma Body Spa Banner"

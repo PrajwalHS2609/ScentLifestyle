@@ -3,7 +3,7 @@ import point from "./../../../../../Images/point.png";
 
 const TrendyHairHighlightCaramel = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>2. Caramel Balayage for a Sun-Kissed Glow ☀️</h5>
       <p>
         If you're looking for a warm and natural vibe, caramel balayage is the

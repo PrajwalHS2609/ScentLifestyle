@@ -2,7 +2,7 @@ import React from "react";
 
 const HairSpaTreatmentHow = () => {
   return (
-    <div className="pediManicureHead">
+    <div className="blogHead-content">
       <h5>How Often Should You Get Hair Spa Treatments?</h5>
       <p>
         To reap the <a href="https://scentlifestyle.com/top-benefits-of-regular-hair-spa-treatments">Top Benefits of Regular Hair Spa Treatments</a>,

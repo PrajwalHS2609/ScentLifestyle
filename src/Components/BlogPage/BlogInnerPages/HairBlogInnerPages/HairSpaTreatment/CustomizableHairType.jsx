@@ -3,7 +3,7 @@ import point from "./../../../../../Images/point.png";
 
 const CustomizableHairType = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>9. Customizable to Your Hair Type</h5>
       <p>
         Another of the Top Benefits of Regular Hair Spa Treatments is that they

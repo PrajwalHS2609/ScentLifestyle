@@ -2,7 +2,7 @@ import React from "react";
 
 const TenReasonHaircutPrioritize = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>10. Prioritize Self-Care</h5>
       <p>
         Making time for{" "}

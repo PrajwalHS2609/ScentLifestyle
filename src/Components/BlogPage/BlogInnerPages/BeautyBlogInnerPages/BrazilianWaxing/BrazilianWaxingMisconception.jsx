@@ -2,7 +2,7 @@ import React from "react";
 
 const BrazilianWaxingMisconception = () => {
   return (
-    <div className="pediAndMainCureBenefits">
+    <div className="blogBenefits-content">
       <h3>Common Misconceptions About Brazilian Waxing</h3>
       <p>
         Despite its popularity, there are still many misconceptions about

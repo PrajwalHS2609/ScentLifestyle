@@ -3,7 +3,7 @@ import dot from "./../../../../../Images/dot.png";
 
 const HairBleachExpert = () => {
   return (
-    <div className="pediAndMainCureBenefits">
+    <div className="blogBenefits-content">
       <h3>Expert Tips for Your Next Bleaching Session</h3>
       <p>
         When it’s time to bleach your hair again, follow these tips for the best

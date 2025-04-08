@@ -2,8 +2,8 @@ import React from "react";
 
 const TenOlaplexBenefitsFinal = () => {
   return (
-    <div className="pediManicureHead">
-      <h1>Final Thoughts</h1>
+    <div className="blogHead-content">
+      <h3>Final Thoughts</h3>
       <p>
         If you’ve been dealing with breakage, dryness, or the aftermath of
         chemical treatments, Olaplex Hair Treatment could be the game-changer

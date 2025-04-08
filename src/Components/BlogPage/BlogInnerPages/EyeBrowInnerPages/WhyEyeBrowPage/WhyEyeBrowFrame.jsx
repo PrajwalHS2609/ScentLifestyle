@@ -3,7 +3,7 @@ import point from "./../../../../../Images/point.png";
 
 const WhyEyeBrowFrame = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>1. Eyebrows Frame Your Face</h5>
       <p>
         One of the most important roles of eyebrows is framing your face. Just

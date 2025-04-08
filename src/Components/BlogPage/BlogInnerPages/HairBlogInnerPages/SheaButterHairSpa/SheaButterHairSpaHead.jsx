@@ -2,7 +2,7 @@ import React from "react";
 
 const SheaButterHairSpaHead = () => {
   return (
-    <div className="pediManicureHead">
+    <div className="blogHead-content">
       <h1>Revitalize Your Hair with the Magic of Shea Butter Hair Spa!</h1>
       <p>
         Hair is one of the most defining aspects of our appearance, yet it often

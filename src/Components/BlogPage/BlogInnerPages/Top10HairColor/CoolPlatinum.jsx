@@ -4,7 +4,7 @@ import HairServImg from "../HairBotox/HairServImg";
 
 const CoolPlatinum = () => {
   return (
-    <div className="hairTrimHead">
+    <div className="blogHead-content">
       <HairServImg hairBotoxImg={coolPlatinumImg} />
       <h2>2. Cool Platinum Blonde</h2>
       <p>

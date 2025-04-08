@@ -3,7 +3,7 @@ import point from "./../../../../../Images/point.png";
 
 const CurlyHairAssess = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>2. Assess Your Face Shape</h5>
       <p>
         Just like with any hairstyle, curly hair can look vastly different

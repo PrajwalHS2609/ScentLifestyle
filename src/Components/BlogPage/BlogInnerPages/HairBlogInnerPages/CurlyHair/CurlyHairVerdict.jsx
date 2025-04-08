@@ -2,7 +2,7 @@ import React from 'react'
 
 const CurlyHairVerdict = () => {
   return (
-    <div className='pediManicureWhat'>
+    <div className='blogWhat-content'>
        <h5>10. The Verdict: Is Curly Hair for You?</h5>
       <p>
         Choosing to go curly is a personal decision that depends on your

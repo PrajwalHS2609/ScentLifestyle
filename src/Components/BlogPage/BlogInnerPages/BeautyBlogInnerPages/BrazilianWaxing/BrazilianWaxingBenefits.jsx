@@ -2,7 +2,7 @@ import React from "react";
 
 const BrazilianWaxingBenefits = () => {
   return (
-    <div className="pediAndMainCureBenefits">
+    <div className="blogBenefits-content">
       <h3>Benefits of Brazilian Waxing</h3>
       <p>
         Brazilian Waxing offers a range of benefits that make it a popular

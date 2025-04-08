@@ -2,7 +2,7 @@ import React from "react";
 
 const ClearerSkinFacialBenefits = () => {
   return (
-    <div className="pediAndMainCureBenefits">
+    <div className="blogBenefits-content">
       <h3>Key Benefits of Acne Cure Facials</h3>
       <p>
         Investing in Acne Cure Facials offers several benefits beyond just

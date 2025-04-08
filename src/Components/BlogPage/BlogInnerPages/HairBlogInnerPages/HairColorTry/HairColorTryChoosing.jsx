@@ -3,7 +3,7 @@ import checked from "./../../../../../Images/checked.png";
 
 const HairColorTryChoosing = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>Choosing the Perfect Hair Color</h5>
       <p>
         Choosing a hair color involves a mix of personal style, skin tone

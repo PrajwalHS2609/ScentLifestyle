@@ -2,7 +2,7 @@ import React from "react";
 
 const HairColorTryIntro = () => {
   return (
-    <div className="pediManicureHead">
+    <div className="blogHead-content">
       <h3>Introduction</h3>
       <p>
         In the world of beauty, hair color is one of the most transformative

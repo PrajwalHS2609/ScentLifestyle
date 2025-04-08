@@ -2,7 +2,7 @@ import React from "react";
 
 const ReasonsToTreatFeetHead = () => {
   return (
-    <div className="pediManicureHead">
+    <div className="blogHead-content">
       <h1> Top Reasons to Treat Your Feet to a Pedicalm-Glyco Foot Facial</h1>
       <p>
         Time to give your feet the happy feet they deserve!{" "}

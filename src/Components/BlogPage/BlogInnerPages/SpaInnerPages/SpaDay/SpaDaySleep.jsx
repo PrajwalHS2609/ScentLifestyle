@@ -2,7 +2,7 @@ import React from "react";
 
 const SpaDaySleep = () => {
   return (
-    <div className="pediAndMainCureBenefits">
+    <div className="blogBenefits-content">
       <h3>The Benefits of Professional Pedicures and Manicures</h3>
       <li>
         <h6>1. Better Sleep:</h6>Stress and anxiety often interfere with sleep

@@ -2,7 +2,7 @@ import React from "react";
 
 const HairSpaTreatmentHead = () => {
   return (
-    <div className="pediManicureHead">
+    <div className="blogHead-content">
       <h1>Top Benefits of Regular Hair Spa Treatments </h1>
       <p>
         Hair is one of the most defining aspects of personal style and grooming

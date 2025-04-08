@@ -14,9 +14,11 @@ import HairBotoxTreatmentCost from "./HairBotoxTreatmentCost";
 import HairBotoxTreatmentMaintain from "./HairBotoxTreatmentMaintain";
 import HairBotoxTreatmentFaq from "./HairBotoxTreatmentFaq";
 import HairBotoxTreatmentTakeway from "./HairBotoxTreatmentTakeway";
-import HairBotoxTreatmentScience from './HairBotoxTreatmentScience';
+import HairBotoxTreatmentScience from "./HairBotoxTreatmentScience";
 import hairBotoxScienceImg from "./../../../../../Images/Blog/Hair_Botox_Treatment/The Science Behind Hair Botox.png";
 import hairBotoxWhyImg from "./../../../../../Images/Blog/Hair_Botox_Treatment/Why is Hair Botox a Good Choice.png";
+import BlogPost from "../../../BlogPost/BlogPost";
+import BlogCategories from "../../../BlogCategories/BlogCategories";
 
 const HairBotoxTreatment = () => {
   return (
@@ -35,37 +37,42 @@ const HairBotoxTreatment = () => {
           href="https://scentlifestyle.com/hair-botox-treatment-all-you-need-to-know"
         />
       </Helmet>
-      <div className="hairTrimContent">
-        <HairBotoxTreatmentImg />
-        <HairBotoxTreatmentHead />
-        <br />
-        <HairServImg hairBotoxImg={hairBotoxScienceImg} />
-        <HairBotoxTreatmentScience />
-        <br />
-        <HairServImg hairBotoxImg={hairBotoxWhyImg} />
-        <HairBotoxTreatmentWhy />
-        <br />
-        <HairBotoxTreatmentProcess />
-        <br />
-        <HairBotoxTreatmentBenefits />
-        <br />
-        <HairBotoxTreatmentCommon />
-        <br />
-        <HairBotoxTreatmentLong />
-        <br />
-        <HairBotoxTreatmentXp />
-        <br />
-        <HairBotoxTreatmentVerses />
-        <br />
-        <HairBotoxTreatmentCost />
-        <br />
-        <HairBotoxTreatmentMaintain />
-        <br />
-        <HairBotoxTreatmentFaq />
-        <br />
-        <HairBotoxTreatmentTakeway />
+      <div className="blog-container">
+        <div className="blog-wrapper1">
+          <HairBotoxTreatmentImg />
+          <HairBotoxTreatmentHead />
+          <br />
+          <HairServImg hairBotoxImg={hairBotoxScienceImg} />
+          <HairBotoxTreatmentScience />
+          <br />
+          <HairServImg hairBotoxImg={hairBotoxWhyImg} />
+          <HairBotoxTreatmentWhy />
+          <br />
+          <HairBotoxTreatmentProcess />
+          <br />
+          <HairBotoxTreatmentBenefits />
+          <br />
+          <HairBotoxTreatmentCommon />
+          <br />
+          <HairBotoxTreatmentLong />
+          <br />
+          <HairBotoxTreatmentXp />
+          <br />
+          <HairBotoxTreatmentVerses />
+          <br />
+          <HairBotoxTreatmentCost />
+          <br />
+          <HairBotoxTreatmentMaintain />
+          <br />
+          <HairBotoxTreatmentFaq />
+          <br />
+          <HairBotoxTreatmentTakeway />
+        </div>
+        <div className="blog-wrapper2">
+          <BlogPost />
+          <BlogCategories />
+        </div>
       </div>
-            
     </div>
   );
 };

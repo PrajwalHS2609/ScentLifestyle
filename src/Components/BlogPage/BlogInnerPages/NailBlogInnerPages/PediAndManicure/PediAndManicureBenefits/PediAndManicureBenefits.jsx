@@ -3,7 +3,7 @@ import "./PediAndManicureBenefits.css";
 
 const PediAndManicureBenefits = () => {
   return (
-    <div className="pediAndMainCureBenefits">
+    <div className="blogBenefits-content">
       <h3>The Benefits of Professional Pedicures and Manicures</h3>
       <li>
         <h6>Improved Nail Health :</h6>

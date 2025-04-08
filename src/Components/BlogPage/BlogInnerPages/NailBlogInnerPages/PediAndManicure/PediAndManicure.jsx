@@ -9,6 +9,8 @@ import PediAndManicureWhat from "./PediAndManicureWhat/PediAndManicureWhat";
 import pedimanicureBenefits from "./../../../../../Images/Blog/Pedi&manicureBlog/The Benefits of Professional Pedicures and Manicures.png";
 import pedimanicureWhat from "./../../../../../Images/Blog/Pedi&manicureBlog/What Is a Professional Pedicure and Manicure.png";
 import HairServImg from "../../HairBotox/HairServImg";
+import BlogPost from "../../../BlogPost/BlogPost";
+import BlogCategories from "../../../BlogCategories/BlogCategories";
 
 const PediAndManicure = () => {
   return (
@@ -28,20 +30,21 @@ const PediAndManicure = () => {
         />
       </Helmet>
       <NavBg />
-      <div className="hairTrimContent">
-        <PediAndManicureImg />
-        <InnerNavi
-          link="/blog"
-          service="Blog"
-          currService="Nail Blog"
-        />
-        <PediAndManicureHead />
-        <HairServImg hairBotoxImg={pedimanicureWhat} />
-        <PediAndManicureWhat />
-        <HairServImg hairBotoxImg={pedimanicureBenefits} />
-        <PediAndManicureBenefits />
+      <div className="blog-container">
+        <div className="blog-wrapper1">
+          <PediAndManicureImg />
+          <InnerNavi link="/blog" service="Blog" currService="Nail Blog" />
+          <PediAndManicureHead />
+          <HairServImg hairBotoxImg={pedimanicureWhat} />
+          <PediAndManicureWhat />
+          <HairServImg hairBotoxImg={pedimanicureBenefits} />
+          <PediAndManicureBenefits />
+        </div>
+        <div className="blog-wrapper2">
+          <BlogPost />
+          <BlogCategories />
+        </div>
       </div>
-            
     </div>
   );
 };

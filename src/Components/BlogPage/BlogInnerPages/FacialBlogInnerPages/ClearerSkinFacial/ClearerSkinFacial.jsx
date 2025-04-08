@@ -12,9 +12,11 @@ import ClearerSkinFacialWhoBenefit from "./ClearerSkinFacialWhoBenefit";
 import ClearerSkinFacialFinal from "./ClearerSkinFacialFinal";
 import ClearerSkinFacialMaximize from "./ClearerSkinFacialMaximize";
 import HairServImg from "../../HairBotox/HairServImg";
-import clearerSkinWhyChooseImg from "./../../../../../Images/Blog/Clearer Skin, Happier You Acne Cure Facial Secrets/Why Choose Acne Cure Facials Over DIY Treatments.png"
-import clearerSkinMaximizeImg from "./../../../../../Images/Blog/Clearer Skin, Happier You Acne Cure Facial Secrets/How to Maximize the Benefits of Acne Cure Facials.png"
-import clearerSkinWhatImg from "./../../../../../Images/Blog/Clearer Skin, Happier You Acne Cure Facial Secrets/What Are Acne Cure Facials.png"
+import clearerSkinWhyChooseImg from "./../../../../../Images/Blog/Clearer Skin, Happier You Acne Cure Facial Secrets/Why Choose Acne Cure Facials Over DIY Treatments.png";
+import clearerSkinMaximizeImg from "./../../../../../Images/Blog/Clearer Skin, Happier You Acne Cure Facial Secrets/How to Maximize the Benefits of Acne Cure Facials.png";
+import clearerSkinWhatImg from "./../../../../../Images/Blog/Clearer Skin, Happier You Acne Cure Facial Secrets/What Are Acne Cure Facials.png";
+import BlogPost from "../../../BlogPost/BlogPost";
+import BlogCategories from "../../../BlogCategories/BlogCategories";
 
 const ClearerSkinFacial = () => {
   return (
@@ -31,30 +33,36 @@ const ClearerSkinFacial = () => {
           href="https://scentlifestyle.com/clearer-skin-happier-you-acne-cure-facial-secrets"
         />
       </Helmet>
-      <div className="hairTrimContent">
-        <ClearerSkinFacialImg />
-        <ClearerSkinFacialHeader />
-        <br />
-        <HairServImg hairBotoxImg={clearerSkinWhatImg} />
-        <ClearerSkinFacialWhat />
-        <br />
-        <ClearerSkinFacialScience />
-        <br />
-        <ClearerSkinFacialBenefits />
-        <br />
-        <HairServImg hairBotoxImg={clearerSkinMaximizeImg} />
-        <ClearerSkinFacialMaximize/>
-        <br />
-        <ClearerSkinFacialExpect />
-        <br />
-        <ClearerSkinFacialWhen />
-        <br />
-        <HairServImg hairBotoxImg={clearerSkinWhyChooseImg} />
-        <ClearerSkinFacialWhyChoose />
-        <br />
-        <ClearerSkinFacialWhoBenefit />
-        <br />
-        <ClearerSkinFacialFinal />
+      <div className="blog-container">
+        <div className="blog-wrapper1">
+          <ClearerSkinFacialImg />
+          <ClearerSkinFacialHeader />
+          <br />
+          <HairServImg hairBotoxImg={clearerSkinWhatImg} />
+          <ClearerSkinFacialWhat />
+          <br />
+          <ClearerSkinFacialScience />
+          <br />
+          <ClearerSkinFacialBenefits />
+          <br />
+          <HairServImg hairBotoxImg={clearerSkinMaximizeImg} />
+          <ClearerSkinFacialMaximize />
+          <br />
+          <ClearerSkinFacialExpect />
+          <br />
+          <ClearerSkinFacialWhen />
+          <br />
+          <HairServImg hairBotoxImg={clearerSkinWhyChooseImg} />
+          <ClearerSkinFacialWhyChoose />
+          <br />
+          <ClearerSkinFacialWhoBenefit />
+          <br />
+          <ClearerSkinFacialFinal />
+        </div>
+        <div className="blog-wrapper2">
+          <BlogPost />
+          <BlogCategories />
+        </div>
       </div>
     </div>
   );

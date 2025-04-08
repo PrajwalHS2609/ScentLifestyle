@@ -12,6 +12,8 @@ import HowOlaplexWhat from "./HowOlaplexWhat";
 import HowOlaplexWhy from "./HowOlaplexWhy";
 import HowOlaplexInvest from "./HowOlaplexInvest";
 import HowOlaplexMaintain from "./HowOlaplexMaintain";
+import BlogPost from "../../../BlogPost/BlogPost";
+import BlogCategories from "../../../BlogCategories/BlogCategories";
 
 const HowOlaplex = () => {
   return (
@@ -28,20 +30,25 @@ const HowOlaplex = () => {
           href="https://scentlifestyle.com/how-olaplex-helps-maintain-healthy-hair-after-coloring"
         />
       </Helmet>
-      <div className="hairTrimContent">
-        <HowOlaplexImg />
-        <HowOlaplexHead />
-        <HairServImg hairBotoxImg={olplexImpact} />
-        <HowOlaplexImpact />
-        <HairServImg hairBotoxImg={olaplexWhat} />
-        <HowOlaplexWhat />
-        <HowOlaplexMaintain />
-        <HairServImg hairBotoxImg={OlaplexWhy} />
-        <HowOlaplexWhy />
-        <HairServImg hairBotoxImg={olaplexInvest} />
-        <HowOlaplexInvest />
+      <div className="blog-container">
+        <div className="blog-wrapper1">
+          <HowOlaplexImg />
+          <HowOlaplexHead />
+          <HairServImg hairBotoxImg={olplexImpact} />
+          <HowOlaplexImpact />
+          <HairServImg hairBotoxImg={olaplexWhat} />
+          <HowOlaplexWhat />
+          <HowOlaplexMaintain />
+          <HairServImg hairBotoxImg={OlaplexWhy} />
+          <HowOlaplexWhy />
+          <HairServImg hairBotoxImg={olaplexInvest} />
+          <HowOlaplexInvest />
+        </div>
+        <div className="blog-wrapper2">
+          <BlogPost />
+          <BlogCategories />
+        </div>
       </div>
-      
     </div>
   );
 };

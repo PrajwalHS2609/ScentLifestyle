@@ -2,7 +2,7 @@ import React from "react";
 
 const WhyKeratinWhat = () => {
   return (
-    <div className="pediManicureHead">
+    <div className="blogHead-content">
       <h2>What is Keratin Hair Treatment? </h2>
       <p>
         Keratin is a type of protein that naturally occurs in hair, skin, and

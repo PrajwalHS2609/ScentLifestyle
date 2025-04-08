@@ -3,7 +3,7 @@ import point from "./../../../../../Images/point.png";
 
 const BestEyelashExtensionChoose = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>Choosing the Right Eyelash Extension Style for Brides and Events</h5>
       <p>
         The ideal Eyelash Extension style depends on personal preference, eye

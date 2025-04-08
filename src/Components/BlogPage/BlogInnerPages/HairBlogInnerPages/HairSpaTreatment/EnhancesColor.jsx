@@ -3,7 +3,7 @@ import point from "./../../../../../Images/point.png";
 
 const EnhancesColor = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>8. Enhances Color Longevity</h5>
       <p>
         For individuals with dyed or highlighted hair, maintaining color

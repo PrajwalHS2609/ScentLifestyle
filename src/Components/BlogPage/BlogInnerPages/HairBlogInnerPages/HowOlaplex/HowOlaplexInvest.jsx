@@ -2,7 +2,7 @@ import React from "react";
 
 const HowOlaplexInvest = () => {
   return (
-    <div className="pediManicureHead">
+    <div className="blogHead-content">
       <h2>Invest in Your Hair with Olaplex</h2>
       <p>
         Maintaining healthy hair after coloring is crucial for keeping it

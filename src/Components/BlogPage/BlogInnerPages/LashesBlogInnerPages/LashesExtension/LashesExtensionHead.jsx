@@ -2,7 +2,7 @@ import React from "react";
 
 const LashesExtensionHead = () => {
   return (
-    <div className="pediManicureHead">
+    <div className="blogHead-content">
       <h1>Eyelash Extensions for Special Occasions: Your Go-To Glam Look </h1>
       <p>
         Special occasions call for making unforgettable impressions, and nothing

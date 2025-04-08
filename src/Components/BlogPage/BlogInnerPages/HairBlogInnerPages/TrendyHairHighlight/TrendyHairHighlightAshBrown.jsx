@@ -3,7 +3,7 @@ import point from "./../../../../../Images/point.png";
 
 const TrendyHairHighlightAshBrown = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>8. Ash Brown & Cool-Toned Highlights 🌫️</h5>
       <p>
         For those who prefer a sleek, cool-toned look, ash brown highlights are

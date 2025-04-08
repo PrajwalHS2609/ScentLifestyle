@@ -3,7 +3,7 @@ import lashesExtensionImg from "./../../../../../Images/Blog/Eyelash Extensions/
 
 const LashesExtensionImg = () => {
   return (
-    <div className="hairTrimImg">
+    <div className="blogImg-content">
     <img src={lashesExtensionImg} alt="lashesExtensionImg" loading="lazy" />
   </div>
   )

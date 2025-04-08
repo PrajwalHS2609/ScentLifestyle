@@ -2,7 +2,7 @@ import React from "react";
 
 const HairColorTryWhy = () => {
   return (
-    <div className="pediManicureHead">
+    <div className="blogHead-content">
       <h3>Why Hair Color is a Powerful Form of Self-Expression</h3>
       <p>
         Changing your hair color can do more than just alter your appearance—it

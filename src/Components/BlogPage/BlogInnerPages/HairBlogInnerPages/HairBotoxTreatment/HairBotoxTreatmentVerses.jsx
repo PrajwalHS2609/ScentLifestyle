@@ -2,7 +2,7 @@ import React from "react";
 
 const HairBotoxTreatmentVerses = () => {
   return (
-    <div className="pediAndMainCureBenefits">
+    <div className="blogBenefits-content">
       <h3>Hair Botox vs. Keratin Treatment</h3>
       <p>
         Both Hair Botox and keratin treatments are designed to smooth and

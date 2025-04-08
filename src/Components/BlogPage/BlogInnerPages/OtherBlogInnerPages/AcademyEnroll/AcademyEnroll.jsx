@@ -9,6 +9,8 @@ import HairServImg from "../../HairBotox/HairServImg";
 import academyEnrollWhy from "./../../../../../Images/Blog/Top_10_Reasons_to_ Enroll_in_ Salon_Academy/Why Choose the Best Salon Academy of Bangalore.png";
 import academyEnrollRealize from "./../../../../../Images/Blog/Top_10_Reasons_to_ Enroll_in_ Salon_Academy/Realize Your Dreams Today.png";
 import AcademyEnrollRealize from "./AcademyEnrollRealize";
+import BlogPost from "../../../BlogPost/BlogPost";
+import BlogCategories from "../../../BlogCategories/BlogCategories";
 
 const AcademyEnroll = () => {
   return (
@@ -27,19 +29,25 @@ const AcademyEnroll = () => {
           href="https://buildurspace.com/top-10-reasons-to-enroll-in-our-premier-salon-academy-today"
         />
       </Helmet>
-      <div className="hairTrimContent">
-        <AcademyEnrollImg />
-        <InnerNavi link="/blog" service="Blog" currService="Academy Enroll" />
-        <AcademyEnrollHead />
-        <br />
-        <AcademyEnrollReasons />
-        <br />
-        <HairServImg hairBotoxImg={academyEnrollWhy} />
-        <AcademyEnrollWhy />
-        <br />
-        <br />
-        <HairServImg hairBotoxImg={academyEnrollRealize} />
-        <AcademyEnrollRealize />
+      <div className="blog-container">
+        <div className="blog-wrapper1">
+          <AcademyEnrollImg />
+          <InnerNavi link="/blog" service="Blog" currService="Academy Enroll" />
+          <AcademyEnrollHead />
+          <br />
+          <AcademyEnrollReasons />
+          <br />
+          <HairServImg hairBotoxImg={academyEnrollWhy} />
+          <AcademyEnrollWhy />
+          <br />
+          <br />
+          <HairServImg hairBotoxImg={academyEnrollRealize} />
+          <AcademyEnrollRealize />
+        </div>
+        <div className="blog-wrapper2">
+          <BlogPost />
+          <BlogCategories />
+        </div>
       </div>
     </div>
   );

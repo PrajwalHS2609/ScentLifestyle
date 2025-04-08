@@ -2,7 +2,7 @@ import React from "react";
 
 const TenOlaplexTreatmentBenefits = () => {
   return (
-    <div className="pediAndMainCureBenefits">
+    <div className="blogBenefits-content">
       <li>
         <h6>1. Repairs Damaged Hair from Within</h6>
         <p>

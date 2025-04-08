@@ -2,24 +2,23 @@
   /* border: solid red; */
   width: 100%;
 }
-.hairTrimContent {
+.blog-container {
   /* border: solid red; */
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
   gap: 20px;
   width: 100%;
   padding: 10px;
 }
-.hairTrimImg {
+.blogImg-content {
   /* border: solid rebeccapurple; */
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 10px;
 }
-.hairTrimImg > img {
+.blogImg-content > img {
   width: 70%;
   border-radius: 10px;
 }
@@ -36,7 +35,7 @@
   justify-content: center;
   align-items: center;
 }
-.hairTrimHead {
+.blogHead-content {
   /* border: solid blue; */
   width: 90%;
   padding: 20px;
@@ -46,32 +45,32 @@
   flex-direction: column;
   gap: 20px;
 }
-.hairTrimHead > h1 {
+.blogHead-content > h1 {
   font-size: 30px;
   color: var(--customColor);
   text-align: center;
 }
-.hairTrimHead > h2 {
+.blogHead-content > h2 {
   font-size: 30px;
   color: var(--customColor);
   text-align: center;
 }
-.hairTrimHead > h3 {
+.blogHead-content > h3 {
   font-size: 25px;
   color: var(--customColor);
   text-align: start;
   width: 100%;
 }
-.hairTrimHead > p {
+.blogHead-content > p {
   width: 100%;
   font-size: 20px;
   text-align: justify;
 }
-.hairTrimHead > p > a {
+.blogHead-content > p > a {
   text-decoration: none;
   color: var(--customColor);
 }
-.hairTrimHeadContent {
+.blogHead-contentContent {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -79,34 +78,34 @@
   flex-direction: column;
   gap: 20px;
 }
-.hairTrimHeadContent > p {
+.blogHead-contentContent > p {
   font-size: 20px;
   width: 100%;
   text-align: justify;
 }
-.hairTrimHeadContent > p > span {
+.blogHead-contentContent > p > span {
   color: var(--customColor);
   font-size: 20px;
   font-weight: bold;
 }
-.hairTrimHeadContent > h3 {
+.blogHead-contentContent > h3 {
   font-size: 20px;
   width: 100%;
   color: var(--customColor);
   text-align: start;
 }
-.hairTrimHeadContent > ul {
+.blogHead-contentContent > ul {
   width: 80%;
   display: flex;
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
 }
-.hairTrimHeadContent > ul > li {
+.blogHead-contentContent > ul > li {
   font-size: 20px;
   margin: 10px;
 }
-.hairTrimHeadContent > ul > li > span {
+.blogHead-contentContent > ul > li > span {
   color: var(--customColor);
   font-weight: bold;
 }
@@ -137,12 +136,12 @@
   font-size: 20px;
 }
 @media screen and (min-width: 320px) and (max-width: 768px) {
-  .hairTrimHead {
+  .blogHead-content {
     /* border: solid blue; */
     width: 100%;
     padding: 10px;
   }
-  .hairTrimImg > img {
+  .blogImg-content > img {
     width: 100%;
     height: 100%;
     padding: 0;

@@ -3,7 +3,7 @@ import point from "./../../../../../Images/point.png";
 
 const TamesFrizz = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>5. Tames Frizz and Improves Manageability</h5>
       <p>
         Frizz can make even the best haircut look untamed. Hair spa treatments

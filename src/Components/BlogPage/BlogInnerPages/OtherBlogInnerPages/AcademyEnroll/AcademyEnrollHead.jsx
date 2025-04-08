@@ -2,7 +2,7 @@ import React from "react";
 
 const AcademyEnrollHead = () => {
   return (
-    <div className="pediManicureHead">
+    <div className="blogHead-content">
       <h1>Top 10 Reasons to Enroll in Our Premier Salon Academy Today</h1>
       <p>
         Are you passionate about beauty, hair, or makeup and dream of turning

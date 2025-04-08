@@ -2,7 +2,7 @@ import React from "react";
 
 const ClearerSkinFacialExpect = () => {
   return (
-    <div className="pediAndMainCureBenefits">
+    <div className="blogBenefits-content">
       <h3>What to Expect During an Acne Cure Facial</h3>
       <p>
         First-time clients often wonder what the process feels like. Here's a

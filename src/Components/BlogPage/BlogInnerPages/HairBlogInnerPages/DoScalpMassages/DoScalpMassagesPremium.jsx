@@ -2,7 +2,7 @@ import React from "react";
 
 const DoScalpMassagesPremium = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>Premium Salon Scalp Massage Experience</h5>
       <p>
         For the ultimate scalp massage experience, visiting a premium salon can

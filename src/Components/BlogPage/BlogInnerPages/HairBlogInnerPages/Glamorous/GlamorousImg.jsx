@@ -3,7 +3,7 @@ import glamorousBanner from "./../../../../../Images/Blog/Get Ready for a Glamor
 
 const GlamorousImg = () => {
   return (
-    <div className="hairTrimImg">
+    <div className="blogImg-content">
     <img src={glamorousBanner} alt="glamorousBanner" loading="lazy"/>
   </div>
   )

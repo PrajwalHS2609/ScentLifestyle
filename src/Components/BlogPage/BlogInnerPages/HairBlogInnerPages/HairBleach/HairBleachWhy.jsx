@@ -3,7 +3,7 @@ import checked from "./../../../../../Images/checked.png";
 
 const HairBleachWhy = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>Why Is It Important to Wait Between Sessions?</h5>
       <p>
         Bleaching your hair too often can lead to irreversible damage. Here’s

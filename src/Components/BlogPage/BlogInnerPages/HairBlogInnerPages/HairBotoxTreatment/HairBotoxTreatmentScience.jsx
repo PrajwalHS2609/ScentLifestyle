@@ -2,7 +2,7 @@ import React from "react";
 
 const HairBotoxTreatmentScience = () => {
   return (
-    <div className="pediManicureHead">
+    <div className="blogHead-content">
       <h5>The Science Behind Hair Botox</h5>
       <p>
         Hair Botox is often made up of essential ingredients like vitamins (B5

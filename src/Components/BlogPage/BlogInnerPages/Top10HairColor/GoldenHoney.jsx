@@ -4,7 +4,7 @@ import GoldenHoneyImg from "./../../../../Images/Blog/Top 10 hairColor/Golden Ho
 
 const GoldenHoney = () => {
   return (
-      <div className="hairTrimHead">
+      <div className="blogHead-content">
         <HairServImg hairBotoxImg={GoldenHoneyImg} />
         <h2>8. Golden Honey Blonde</h2>
         <p>

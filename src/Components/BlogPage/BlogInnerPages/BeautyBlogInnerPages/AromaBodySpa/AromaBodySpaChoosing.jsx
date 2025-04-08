@@ -3,7 +3,7 @@ import point from "./../../../../../Images/point.png";
 
 const AromaBodySpaChoosing = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>Choosing the Right Essential Oils for Your Aroma Body Spa</h5>
       <p>
         Each essential oil has unique properties that contribute to different

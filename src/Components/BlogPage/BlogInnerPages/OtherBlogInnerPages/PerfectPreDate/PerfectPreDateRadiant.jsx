@@ -3,7 +3,7 @@ import point from "./../../../../../Images/point.png";
 
 const PerfectPreDateRadiant = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>Get That Radiant Glow with Body Care</h5>
       <p>
         Smooth and glowing skin will make you feel your best and enhance your

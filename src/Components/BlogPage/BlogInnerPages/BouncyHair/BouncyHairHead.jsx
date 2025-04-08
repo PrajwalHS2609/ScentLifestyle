@@ -2,7 +2,7 @@ import React from "react";
 
 const BouncyHairHead = () => {
   return (
-    <div className="hairTrimHead">
+    <div className="blogHead-content">
       <h1>
         Tips for Maintaining Hair Bouncy and Beautiful Curls during Monsoon
       </h1>

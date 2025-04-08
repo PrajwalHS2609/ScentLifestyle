@@ -3,7 +3,7 @@ import point from "./../../../../../Images/point.png";
 
 const MensGroomingTips = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>5. Men’s Christmas Grooming Tips</h5>
       <p>
         Men too can embrace the holiday spirit with{" "}

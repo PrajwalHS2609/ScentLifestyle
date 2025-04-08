@@ -2,7 +2,7 @@ import React from "react";
 
 const ClearerSkinFacialWhyChoose = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>Why Choose Acne Cure Facials Over DIY Treatments?</h5>
       <p>
         While at-home remedies and over-the-counter products may offer temporary

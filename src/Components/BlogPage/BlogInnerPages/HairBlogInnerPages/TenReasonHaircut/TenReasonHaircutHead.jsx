@@ -2,7 +2,7 @@ import React from "react";
 
 const TenReasonHaircutHead = () => {
   return (
-    <div className="pediManicureHead">
+    <div className="blogHead-content">
       <h1>10 Reasons to Schedule Regular Haircuts</h1>
       <p>
         A great haircut is more than just a grooming necessity—it’s a way to

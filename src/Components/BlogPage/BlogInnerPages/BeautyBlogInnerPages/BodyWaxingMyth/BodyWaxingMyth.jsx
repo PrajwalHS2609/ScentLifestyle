@@ -11,6 +11,8 @@ import bodyWaxingMythTypes from "./../../../../../Images/Blog/Body_waxing_myth/T
 import bodyWaxingMythFacts from "./../../../../../Images/Blog/Body_waxing_myth/Facts About Body Waxing.png";
 import bodyWaxingMythTips from "./../../../../../Images/Blog/Body_waxing_myth/Tips for a Better Waxing Experience.png";
 import { Helmet } from "react-helmet";
+import BlogCategories from "../../../BlogCategories/BlogCategories";
+import BlogPost from "../../../BlogPost/BlogPost";
 
 const BodyWaxingMyth = () => {
   return (
@@ -27,21 +29,27 @@ const BodyWaxingMyth = () => {
           href="https://scentlifestyle.com/the-truth-about-body-waxing-myths-facts-and-tips"
         />
       </Helmet>
-      <div className="hairTrimContent">
-        <BodyWaxingMythImg />
-        <BodyWaxingMythHead />
-        <br />
-        <HairServImg hairBotoxImg={bodyWaxingMythAbout} />
-        <BodyWaxingMythAbout />
-        <br />
-        <HairServImg hairBotoxImg={bodyWaxingMythFacts} />
-        <BodyWaxingMythFacts />
-        <br />
-        <HairServImg hairBotoxImg={bodyWaxingMythTypes} />
-        <BodyWaxingMythTypes />
-        <br />
-        <HairServImg hairBotoxImg={bodyWaxingMythTips} />
-        <BodyWaxingMythTips />
+      <div className="blog-container">
+        <div className="blog-wrapper1">
+          <BodyWaxingMythImg />
+          <BodyWaxingMythHead />
+          <br />
+          <HairServImg hairBotoxImg={bodyWaxingMythAbout} />
+          <BodyWaxingMythAbout />
+          <br />
+          <HairServImg hairBotoxImg={bodyWaxingMythFacts} />
+          <BodyWaxingMythFacts />
+          <br />
+          <HairServImg hairBotoxImg={bodyWaxingMythTypes} />
+          <BodyWaxingMythTypes />
+          <br />
+          <HairServImg hairBotoxImg={bodyWaxingMythTips} />
+          <BodyWaxingMythTips />
+        </div>
+        <div className="blog-wrapper2">
+          <BlogPost />
+          <BlogCategories />
+        </div>{" "}
       </div>
     </div>
   );

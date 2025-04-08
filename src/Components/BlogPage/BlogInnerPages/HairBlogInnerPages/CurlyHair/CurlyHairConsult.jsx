@@ -1,7 +1,7 @@
 import React from "react";
 const CurlyHairConsult = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>9. Consulting with a Professional Stylist</h5>
       <p>
         Finally, a consultation with a professional stylist can be incredibly

@@ -3,7 +3,7 @@ import point from "./../../../../../Images/point.png";
 
 const TrendyHairHighlightChocolate = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>7. Chocolate Brown with Cinnamon Highlights 🍂</h5>
       <p>
         For those who love warm, earthy tones, chocolate brown with cinnamon

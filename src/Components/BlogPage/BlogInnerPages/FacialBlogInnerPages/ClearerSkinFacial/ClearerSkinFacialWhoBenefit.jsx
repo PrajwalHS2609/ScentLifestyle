@@ -3,7 +3,7 @@ import checked from "./../../../../../Images/checked.png";
 
 const ClearerSkinFacialWhoBenefit = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>Who Can Benefit from Acne Cure Facials?</h5>
       <p>Acne Cure Facials are suitable for anyone dealing with:</p>
       <ul>

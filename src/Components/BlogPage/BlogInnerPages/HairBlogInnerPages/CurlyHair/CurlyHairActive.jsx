@@ -1,7 +1,7 @@
 import React from "react";
 const CurlyHairActive = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>6. How Active Is Your Lifestyle?</h5>
       <p>
         Curly hair requires a bit more attention, especially if you live an

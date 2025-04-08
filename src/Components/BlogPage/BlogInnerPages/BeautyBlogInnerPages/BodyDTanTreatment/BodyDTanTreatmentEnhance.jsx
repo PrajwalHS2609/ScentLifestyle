@@ -2,7 +2,7 @@ import React from "react";
 
 const BodyDTanTreatmentEnhance = () => {
   return (
-    <div className="pediAndMainCureBenefits">
+    <div className="blogBenefits-content">
       <h3>Enhancing Anti-Aging Skincare with a Body D-Tan</h3>
       <p>
         Combining The Role of Body D-Tan in Anti-Aging Skincare with a holistic

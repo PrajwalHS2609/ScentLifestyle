@@ -9,10 +9,12 @@ import SpaDayImg from "./SpaDayImg";
 import SpaDayEnhanced from "./SpaDayEnhanced";
 import SpaDaySleep from "./SpaDaySleep";
 import SpaDayIncorporating from "./SpaDayIncorporating ";
-import spaDayEnhance from "./../../../../../Images/Blog/How a Spa Day/Enhanced Mood and Emotional Well-Being.png"
-import spaDayBenefits from "./../../../../../Images/Blog/How a Spa Day/The Social and Psychological Benefits.png"
-import spaDayStress from "./../../../../../Images/Blog/How a Spa Day/Stress Relief Through Spa Treatments.png"
+import spaDayEnhance from "./../../../../../Images/Blog/How a Spa Day/Enhanced Mood and Emotional Well-Being.png";
+import spaDayBenefits from "./../../../../../Images/Blog/How a Spa Day/The Social and Psychological Benefits.png";
+import spaDayStress from "./../../../../../Images/Blog/How a Spa Day/Stress Relief Through Spa Treatments.png";
 import HairServImg from "../../HairBotox/HairServImg";
+import BlogPost from "../../../BlogPost/BlogPost";
+import BlogCategories from "../../../BlogCategories/BlogCategories";
 
 const SpaDay = () => {
   return (
@@ -30,20 +32,25 @@ const SpaDay = () => {
         />
       </Helmet>
       <NavBg />
-      <div className="hairTrimContent">
-        <SpaDayImg />
-        <InnerNavi link="/blog" service="Blog" currService="Spa Blog" />
-        <SpaDayHead />
-        <HairServImg hairBotoxImg={spaDayStress} />
-        <SpadayStress />
-        <HairServImg hairBotoxImg={spaDayEnhance} />
-        <SpaDayEnhanced />
-        <SpaDaySleep />
-        <HairServImg hairBotoxImg={spaDayBenefits} />
-        <SpaDayBenefits />
-        <SpaDayIncorporating />
+      <div className="blog-container">
+        <div className="blog-wrapper1">
+          <SpaDayImg />
+          <InnerNavi link="/blog" service="Blog" currService="Spa Blog" />
+          <SpaDayHead />
+          <HairServImg hairBotoxImg={spaDayStress} />
+          <SpadayStress />
+          <HairServImg hairBotoxImg={spaDayEnhance} />
+          <SpaDayEnhanced />
+          <SpaDaySleep />
+          <HairServImg hairBotoxImg={spaDayBenefits} />
+          <SpaDayBenefits />
+          <SpaDayIncorporating />
+        </div>
+        <div className="blog-wrapper2">
+          <BlogPost />
+          <BlogCategories />
+        </div>
       </div>
-            
     </div>
   );
 };

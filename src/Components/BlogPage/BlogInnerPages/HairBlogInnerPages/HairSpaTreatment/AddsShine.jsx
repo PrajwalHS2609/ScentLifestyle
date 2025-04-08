@@ -3,7 +3,7 @@ import point from "./../../../../../Images/point.png";
 
 const AddsShine = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>6. Adds Shine and Volume</h5>
       <p>
         Limp, lifeless hair is often a sign of neglected care. One of the Top

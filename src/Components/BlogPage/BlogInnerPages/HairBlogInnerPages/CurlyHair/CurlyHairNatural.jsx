@@ -3,7 +3,7 @@ import point from "./../../../../../Images/point.png";
 
 const CurlyHairNatural = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>3. Consider Your Natural Hair Texture</h5>
       <p>
         Your natural hair texture can be a strong indicator of how easily you’ll

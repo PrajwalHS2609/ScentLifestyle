@@ -2,7 +2,7 @@ import React from "react";
 
 const SpaDayHead = () => {
   return (
-    <div className="pediManicureHead">
+    <div className="blogHead-content">
       <h1>How a Spa Day Can Boost Your Mental Health</h1>
       <p>
         In today’s fast-paced world, where stress and anxiety are common, taking

@@ -2,7 +2,7 @@ import React from "react";
 
 const ScalpDetoxHow = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>How Can Hair Scalp Massages Aid in Scalp Detox?</h5>
       <p>
         Incorporating{" "}

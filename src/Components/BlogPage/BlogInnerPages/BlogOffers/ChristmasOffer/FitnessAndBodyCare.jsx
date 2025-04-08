@@ -2,7 +2,7 @@ import React from "react";
 
 const FitnessAndBodyCare = () => {
   return (
-    <div className="pediAndMainCureBenefits">
+    <div className="blogBenefits-content">
       <h3>6. Fitness and Body Care for the Holidays</h3>
       <p>
         In addition to grooming and beauty, staying fit and taking care of your

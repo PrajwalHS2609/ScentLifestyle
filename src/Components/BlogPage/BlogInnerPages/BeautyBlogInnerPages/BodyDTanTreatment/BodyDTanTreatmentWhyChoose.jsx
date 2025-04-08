@@ -2,7 +2,7 @@ import React from "react";
 
 const BodyDTanTreatmentWhyChoose = () => {
   return (
-    <div className="pediManicureHead">
+    <div className="blogHead-content">
       <h5>Why Choose D-Tan for Anti-Aging?</h5>
       <p>
         Unlike chemical-based treatments,

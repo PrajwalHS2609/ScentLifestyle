@@ -2,7 +2,7 @@ import React from "react";
 
 const HairBotoxTreatmentProcess = () => {
   return (
-    <div className="pediAndMainCureBenefits">
+    <div className="blogBenefits-content">
       <h3>The Hair Botox Process: What to Expect</h3>
       <p>
         Hair Botox is usually applied similarly to a{" "}

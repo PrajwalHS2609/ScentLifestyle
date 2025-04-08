@@ -2,7 +2,7 @@ import React from "react";
 
 const ThreeDNailArt = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>6. 3D Nail Art: Bold & Beautiful</h5>
       <p>
         Nail art is stepping into the third dimension! From gemstones and pearls

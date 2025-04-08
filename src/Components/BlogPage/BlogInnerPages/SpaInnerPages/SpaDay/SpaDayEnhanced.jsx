@@ -2,7 +2,7 @@ import React from "react";
 
 const SpaDayEnhanced = () => {
   return (
-    <div className="pediAndMainCureBenefits">
+    <div className="blogBenefits-content">
       <h3>Enhanced Mood and Emotional Well-Being</h3>
       <li>
         <h6>Improved Mood:</h6>Spa treatments often involve sensory experiences

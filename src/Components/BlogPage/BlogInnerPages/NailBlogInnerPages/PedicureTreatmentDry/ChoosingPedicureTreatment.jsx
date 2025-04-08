@@ -2,7 +2,7 @@ import React from "react";
 
 const ChoosingPedicureTreatment = () => {
   return (
-    <div className="pediManicureHead">
+    <div className="blogHead-content">
       <h5>Choosing the Right Pedicure Treatment for You</h5>
       <p>
         The best pedicure treatment depends on your specific needs and

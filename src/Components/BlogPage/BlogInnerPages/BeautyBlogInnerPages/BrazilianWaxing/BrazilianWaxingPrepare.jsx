@@ -3,7 +3,7 @@ import point from "./../../../../../Images/point.png";
 
 const BrazilianWaxingPrepare = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>How to Prepare for Brazilian Waxing</h5>
       <p>
         Proper preparation can make your Brazilian Waxing experience much more

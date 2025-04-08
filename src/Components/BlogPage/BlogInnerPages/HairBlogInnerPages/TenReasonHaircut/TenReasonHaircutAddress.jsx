@@ -2,7 +2,7 @@ import React from "react";
 
 const TenReasonHaircutAddress = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>9. Address Seasonal Changes</h5>
       <p>
         Your hair’s needs can vary depending on the season. In summer,{" "}

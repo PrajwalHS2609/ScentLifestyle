@@ -3,7 +3,7 @@ import bestEyelashExtensionBanner from "./../../../../../Images/Blog/The_Best_Ey
 
 const BestEyelashExtensionImg = () => {
   return (
-    <div className="hairTrimImg">
+    <div className="blogImg-content">
       <img src={bestEyelashExtensionBanner} alt="Best Eyelash Extension Banner" loading="lazy" />
     </div>
   )

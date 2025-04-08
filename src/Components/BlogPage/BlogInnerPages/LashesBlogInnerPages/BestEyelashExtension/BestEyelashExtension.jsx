@@ -11,6 +11,8 @@ import whyProImg from "./../../../../../Images/Blog/The_Best_Eyelash_Extension/W
 import whyImg from "./../../../../../Images/Blog/The_Best_Eyelash_Extension/Why Eyelash Extensions Are a Must for Brides and Special Events.png";
 import tipsImg from "./../../../../../Images/Blog/The_Best_Eyelash_Extension/Eyelash Extension Care Tips for Brides.png";
 import choosingImg from "./../../../../../Images/Blog/The_Best_Eyelash_Extension/Choosing the Right Eyelash Extension Style for Brides and Events.png";
+import BlogPost from "../../../BlogPost/BlogPost";
+import BlogCategories from "../../../BlogCategories/BlogCategories";
 
 const BestEyelashExtension = () => {
   return (
@@ -29,21 +31,27 @@ const BestEyelashExtension = () => {
           href="https://scentlifestyle.com/the-best-eyelash-extension-styles-for-brides-and-special-events"
         />
       </Helmet>
-      <div className="hairTrimContent">
-        <BestEyelashExtensionImg />
-        <BestEyelashExtensionHead />
-        <br />
-        <HairServImg hairBotoxImg={whyImg} />
-        <BestEyelashExtensionWhy />
-        <br />
-        <HairServImg hairBotoxImg={choosingImg} />
-        <BestEyelashExtensionChoose />
-        <br />
-        <HairServImg hairBotoxImg={tipsImg} />
-        <BestEyelashExtensionTips />
-        <br />
-        <HairServImg hairBotoxImg={whyProImg} />
-        <BestEyelashExtensionWhyPro />
+      <div className="blog-container">
+        <div className="blog-wrapper1">
+          <BestEyelashExtensionImg />
+          <BestEyelashExtensionHead />
+          <br />
+          <HairServImg hairBotoxImg={whyImg} />
+          <BestEyelashExtensionWhy />
+          <br />
+          <HairServImg hairBotoxImg={choosingImg} />
+          <BestEyelashExtensionChoose />
+          <br />
+          <HairServImg hairBotoxImg={tipsImg} />
+          <BestEyelashExtensionTips />
+          <br />
+          <HairServImg hairBotoxImg={whyProImg} />
+          <BestEyelashExtensionWhyPro />
+        </div>
+        <div className="blog-wrapper2">
+          <BlogPost />
+          <BlogCategories />
+        </div>
       </div>
     </div>
   );

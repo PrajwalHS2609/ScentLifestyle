@@ -3,7 +3,7 @@ import point from "./../../../../../Images/point.png";
 
 const SpadayStress = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>Stress Relief Through Spa Treatments</h5>
       <p>
         Before diving into the benefits, it's essential to understand what

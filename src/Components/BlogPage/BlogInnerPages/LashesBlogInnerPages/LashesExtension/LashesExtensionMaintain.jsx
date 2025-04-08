@@ -3,7 +3,7 @@ import checked from "./../../../../../Images/checked.png";
 
 const LashesExtensionMaintain = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>Maintaining Your Eyelash Extensions for Long-Lasting Glam</h5>
       <p>
         Eyelash extensions are a low-maintenance beauty solution, but proper

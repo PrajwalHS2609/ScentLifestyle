@@ -3,7 +3,7 @@ import point from "./../../../../../Images/point.png";
 
 const TrendyHairHighlightMocha = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>3. Mocha & Honey Blonde Highlights 🍯</h5>
       <p>
         For brunettes who want to lighten their locks without going full blonde,

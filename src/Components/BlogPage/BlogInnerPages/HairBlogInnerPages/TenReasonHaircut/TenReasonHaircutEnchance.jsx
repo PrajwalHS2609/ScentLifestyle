@@ -2,7 +2,7 @@ import React from "react";
 
 const TenReasonHaircutEnchance = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>3. Enhance Your Style</h5>
       <p>
         A haircut isn’t just about maintenance—it’s about showcasing your

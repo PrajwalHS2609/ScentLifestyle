@@ -2,7 +2,7 @@ import React from "react";
 
 const ClearerSkinFacialWhen = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>When Will You See Results?</h5>
       <p>
         While you may notice an immediate glow and smoother skin after your

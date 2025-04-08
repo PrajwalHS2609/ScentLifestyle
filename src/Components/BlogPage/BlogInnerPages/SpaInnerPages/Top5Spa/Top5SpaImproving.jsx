@@ -2,7 +2,7 @@ import React from "react";
 
 const Top5SpaImproving = () => {
   return (
-    <div className="pediManicureHead">
+    <div className="blogHead-content">
       <h2>3. Improving Scalp Health and Reducing Dandruff</h2>
       <p>
         A healthy scalp is crucial for healthy hair. When you book a hair spa

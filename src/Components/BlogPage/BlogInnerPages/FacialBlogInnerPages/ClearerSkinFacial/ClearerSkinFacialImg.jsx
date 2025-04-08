@@ -3,7 +3,7 @@ import clearerSkinBanner from "./../../../../../Images/Blog/Clearer Skin, Happie
 
 const ClearerSkinFacialImg = () => {
   return (
-    <div className="hairTrimImg">
+    <div className="blogImg-content">
     <img src={clearerSkinBanner} alt="clearerSkinBanner" loading="lazy" />
   </div>
   )

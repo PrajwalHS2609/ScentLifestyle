@@ -4,7 +4,7 @@ import HairServImg from "../../HairBotox/HairServImg";
 
 const BrazilianWaxingHead = () => {
   return (
-    <div className="pediManicureHead">
+    <div className="blogHead-content">
       <h1>Everything You Need to Know About Brazilian Waxing</h1>
       <p>
         Brazilian Waxing is one of the most popular{" "}

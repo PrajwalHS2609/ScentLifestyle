@@ -2,7 +2,7 @@ import React from "react";
 
 const GlamorousHead = () => {
   return (
-    <div className="pediManicureHead">
+    <div className="blogHead-content">
       <h1>Get Ready for a Glamorous Night Out: 5 Quick and Easy Hairstyles</h1>
       <p>
         A glamorous night out calls for a stunning hairstyle that complements

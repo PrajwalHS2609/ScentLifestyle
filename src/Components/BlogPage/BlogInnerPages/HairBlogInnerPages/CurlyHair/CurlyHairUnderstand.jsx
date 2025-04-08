@@ -2,7 +2,7 @@ import React from "react";
 
 const CurlyHairUnderstand = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>1. Understanding the Appeal of Curly Hair</h5>
       <p>
         Curly hair often feels bold and dynamic, adding a unique charm to a

@@ -3,7 +3,7 @@ import point from "./../../../../../Images/point.png";
 
 const TenReasonHaircutHow = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>How Often Should You Get a Haircut?</h5>
       <p>
         The frequency of your haircuts depends on your hair type, style, and

@@ -3,7 +3,7 @@ import olaplexBenefitsBanner from "./../../../../../Images/Blog/10 Amazing Benef
 
 const TenOlaplexBenefitsImg = () => {
   return (
-    <div className="hairTrimImg">
+    <div className="blogImg-content">
       <img src={olaplexBenefitsBanner} alt="olaplex Benefits Banner" loading="lazy" />
     </div>
   )

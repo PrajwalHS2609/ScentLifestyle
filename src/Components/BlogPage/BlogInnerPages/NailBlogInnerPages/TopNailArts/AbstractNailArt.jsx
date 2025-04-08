@@ -2,7 +2,7 @@ import React from "react";
 
 const AbstractNailArt = () => {
   return (
-    <div className="pediManicureWhat">
+    <div className="blogWhat-content">
       <h5>7. Abstract & Minimalist Nail Art</h5>
       <p>
         For those who appreciate modern simplicity, abstract nail art is the
