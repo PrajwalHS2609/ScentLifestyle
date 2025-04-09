@@ -9,14 +9,14 @@ import { Link } from "react-router-dom";
 import ServiceHead from "./ServiceHead";
 import leftArrow from "./../../../Images/left.png";
 import rightArrow from "./../../../Images/right.png";
-import hair from "./../../../Images/homeService/Hair.png";
-import facial from "./../../../Images/homeService/Facials.png";
-import spa from "./../../../Images/homeService/Spa.png";
-import nails from "./../../../Images/homeService/Nails.png";
-import beautyEssentials from "./../../../Images/homeService/Beauty Essentials.png";
-import lashes from "./../../../Images/homeService/Eyelashes.png";
-import bride from "./../../../Images/homeService/Bridal Makeup.png";
-import micro from "./../../../Images/homeService/Eyebrow Microblading.png";
+import hair from "./../../../video/HomeServiceVids/hairVid.mp4";
+import facial from "./../../../video/HomeServiceVids/facialsVid.mp4";
+import spa from "./../../../video/HomeServiceVids/spaVid.mp4";
+import nails from "./../../../video/HomeServiceVids/nailsVid.mp4";
+import beautyEssentials from "./../../../video/HomeServiceVids/beautyVid.mp4";
+import lashes from "./../../../video/HomeServiceVids/lashesVid.mp4";
+import bridal from "./../../../video/HomeServiceVids/bridalVid.mp4";
+import micro from "./../../../video/HomeServiceVids/microbladingVid.mp4";
 
 const Services = () => {
   function SampleNextArrow(props) {
@@ -127,7 +127,7 @@ const Services = () => {
       },
     ],
   };
-  
+
   return (
     <div className="serviceContainer">
       <ServiceHead />
@@ -135,7 +135,8 @@ const Services = () => {
         <Slider {...settings}>
           <div className="serviceSlideContainer">
             <div className="serviceSlideContent">
-              <img src={hair} alt="Hair" loading=""/>
+              {/* <img src={hair} alt="Hair" loading=""/> */}
+              <video src={hair} autoPlay loop muted></video>
             </div>
             <h3>
               <Link to={"/hair-salon"}>Hair</Link>
@@ -143,7 +144,9 @@ const Services = () => {
           </div>
           <div className="serviceSlideContainer">
             <div className="serviceSlideContent">
-              <img src={nails} alt="Nails" loading=""/>
+              {/* <img src={nails} alt="Nails" loading="" /> */}
+              <video src={nails} autoPlay loop muted></video>
+
             </div>
             <h3>
               <Link to={"/nails-salon"}>Nails</Link>
@@ -151,7 +154,9 @@ const Services = () => {
           </div>
           <div className="serviceSlideContainer">
             <div className="serviceSlideContent">
-              <img src={facial} alt="Facial" loading=""/>
+              {/* <img src={facial} alt="Facial" loading="" /> */}
+              <video src={facial} autoPlay loop muted></video>
+
             </div>
             <h3>
               <Link to={"/facial"}>Facials</Link>
@@ -159,7 +164,9 @@ const Services = () => {
           </div>
           <div className="serviceSlideContainer">
             <div className="serviceSlideContent">
-              <img src={beautyEssentials} alt="Beauty Essentials" loading=""/>
+              {/* <img src={beautyEssentials} alt="Beauty Essentials" loading="" /> */}
+              <video src={beautyEssentials} autoPlay loop muted></video>
+
             </div>
             <h3>
               <Link to={"/beauty-essentials"}>Beauty Essentials</Link>
@@ -168,7 +175,9 @@ const Services = () => {
 
           <div className="serviceSlideContainer">
             <div className="serviceSlideContent">
-              <img src={spa} alt="Spa" loading=""/>
+              {/* <img src={spa} alt="Spa" loading="" /> */}
+              <video src={spa} autoPlay loop muted></video>
+
             </div>
             <h3>
               <Link to={"/spa"}>Spa</Link>
@@ -176,7 +185,9 @@ const Services = () => {
           </div>
           <div className="serviceSlideContainer">
             <div className="serviceSlideContent">
-              <img src={lashes} alt="lashes" loading=""/>
+              {/* <img src={lashes} alt="lashes" loading="" /> */}
+              <video src={lashes} autoPlay loop muted></video>
+
             </div>
             <h3>
               <Link to={"/eye-lashes"}>Lashes</Link>
@@ -184,7 +195,9 @@ const Services = () => {
           </div>
           <div className="serviceSlideContainer">
             <div className="serviceSlideContent">
-              <img src={bride} alt="bride" loading=""/>
+              {/* <img src={bridal} alt="bride" loading="" /> */}
+              <video src={bridal} autoPlay loop muted></video>
+
             </div>
             <h3>
               <Link to={"/bridal-makeup"}>Bridal Makeup</Link>
@@ -192,7 +205,9 @@ const Services = () => {
           </div>
           <div className="serviceSlideContainer">
             <div className="serviceSlideContent">
-              <img src={micro} alt="micro" loading=""/>
+              {/* <img src={micro} alt="micro" loading="" /> */}
+              <video src={micro} autoPlay loop muted></video>
+
             </div>
             <h3>
               <Link to={"/eyebrow-microblading"}>Eyebrow Microblading</Link>
@@ -214,4 +229,3 @@ const Services = () => {
 };
 
 export default Services;
-
