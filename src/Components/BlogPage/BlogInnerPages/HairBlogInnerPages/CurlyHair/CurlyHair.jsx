@@ -23,8 +23,7 @@ import curlyHairVerdict from "./../../../../../Images/Blog/Is Curly Hair the Rig
 import CurlyHairVerdict from "./CurlyHairVerdict";
 import CurlyHairTemporary from "./CurlyHairTemporary";
 import CurlyHairImg from "./CurlyHairImg";
-import BlogPost from "../../../BlogPost/BlogPost";
-import BlogCategories from "../../../BlogCategories/BlogCategories";
+import BlogSideBar from "../../../BlogSideBar/BlogSideBar";
 
 const CurlyHair = () => {
   return (
@@ -79,8 +78,8 @@ const CurlyHair = () => {
           <CurlyHairVerdict />
         </div>
         <div className="blog-wrapper2">
-          <BlogPost />
-          <BlogCategories />
+        <BlogSideBar/>
+
         </div>
       </div>
     </div>

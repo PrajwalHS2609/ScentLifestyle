@@ -16,8 +16,7 @@ import TenReasonHaircutChoose from "./TenReasonHaircutChoose";
 import tenReasonHaircutchoose from "./../../../../../Images/Blog/10_Reason_HairCut/Choosing the Right Salon.png";
 import tenReasonHaircutHow from "./../../../../../Images/Blog/10_Reason_HairCut/How Often Should You Get a Haircut.png";
 import HairServImg from "../../HairBotox/HairServImg";
-import BlogPost from "../../../BlogPost/BlogPost";
-import BlogCategories from "../../../BlogCategories/BlogCategories";
+import BlogSideBar from "../../../BlogSideBar/BlogSideBar";
 
 const TenReasonHaircut = () => {
   return (
@@ -64,8 +63,8 @@ const TenReasonHaircut = () => {
           <TenReasonHaircutChoose />
         </div>
         <div className="blog-wrapper2">
-          <BlogPost />
-          <BlogCategories />
+        <BlogSideBar/>
+
         </div>
       </div>
     </div>

@@ -11,8 +11,7 @@ import bodyWaxingMythTypes from "./../../../../../Images/Blog/Body_waxing_myth/T
 import bodyWaxingMythFacts from "./../../../../../Images/Blog/Body_waxing_myth/Facts About Body Waxing.png";
 import bodyWaxingMythTips from "./../../../../../Images/Blog/Body_waxing_myth/Tips for a Better Waxing Experience.png";
 import { Helmet } from "react-helmet";
-import BlogCategories from "../../../BlogCategories/BlogCategories";
-import BlogPost from "../../../BlogPost/BlogPost";
+import BlogSideBar from "../../../BlogSideBar/BlogSideBar";
 
 const BodyWaxingMyth = () => {
   return (
@@ -47,8 +46,8 @@ const BodyWaxingMyth = () => {
           <BodyWaxingMythTips />
         </div>
         <div className="blog-wrapper2">
-          <BlogPost />
-          <BlogCategories />
+        <BlogSideBar/>
+
         </div>{" "}
       </div>
     </div>

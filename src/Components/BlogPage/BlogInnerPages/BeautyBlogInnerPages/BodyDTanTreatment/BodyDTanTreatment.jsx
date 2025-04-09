@@ -13,8 +13,7 @@ import bodyDTanTreatmentHowImg from "./../../../../../Images/Blog/Body_D-Tan_Tre
 import bodyDTanTreatmentWhyImg from "./../../../../../Images/Blog/Body_D-Tan_Treatment/Why Choose D-Tan for Anti-Aging.png";
 import bodyDTanTreatmentChoosingImg from "./../../../../../Images/Blog/Body_D-Tan_Treatment/Choosing the Right Body D-Tan Treatment.png";
 import HairServImg from "../../HairBotox/HairServImg";
-import BlogPost from "../../../BlogPost/BlogPost";
-import BlogCategories from "../../../BlogCategories/BlogCategories";
+import BlogSideBar from "../../../BlogSideBar/BlogSideBar";
 
 const BodyDTanTreatment = () => {
   return (
@@ -54,8 +53,7 @@ const BodyDTanTreatment = () => {
           <BodyDTanTreatmentEnhance />
         </div>
         <div className="blog-wrapper2">
-          <BlogPost />
-          <BlogCategories />
+        <BlogSideBar/>
         </div>{" "}
       </div>
     </div>

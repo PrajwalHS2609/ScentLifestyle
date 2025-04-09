@@ -14,8 +14,7 @@ import perfectPreDateLuxury from "./../../../../../Images/Blog/PerfectPreDate/A 
 import perfectPreDateNailCare from "./../../../../../Images/Blog/PerfectPreDate/Nail Care for the Finishing Touch.png";
 import perfectPreDateStart from "./../../../../../Images/Blog/PerfectPreDate/Start with a Relaxing Skincare Routine.png";
 import PerfectPreDateImg from "./PerfectPreDateImg";
-import BlogPost from "../../../BlogPost/BlogPost";
-import BlogCategories from "../../../BlogCategories/BlogCategories";
+import BlogSideBar from "../../../BlogSideBar/BlogSideBar";
 
 const PerfectPreDate = () => {
   return (
@@ -58,8 +57,8 @@ const PerfectPreDate = () => {
           <PerfectPreDateFinal />
         </div>
         <div className="blog-wrapper2">
-          <BlogPost />
-          <BlogCategories />
+        <BlogSideBar/>
+
         </div>
       </div>
     </div>

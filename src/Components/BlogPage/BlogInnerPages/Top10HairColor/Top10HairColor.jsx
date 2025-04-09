@@ -16,8 +16,7 @@ import SmokeyLilac from "./SmokeyLilac";
 import DeepBurgundy from "./DeepBurgundy";
 import Top10Choosing from "./Top10Choosing";
 import Top10How from "./Top10How";
-import BlogPost from "../../BlogPost/BlogPost";
-import BlogCategories from "../../BlogCategories/BlogCategories";
+import BlogSideBar from "../../BlogSideBar/BlogSideBar";
 
 const Top10HairColor = () => {
   return (
@@ -54,8 +53,7 @@ const Top10HairColor = () => {
           <Top10How />
         </div>
         <div className="blog-wrapper2">
-          <BlogPost />
-          <BlogCategories />
+        <BlogSideBar/>
         </div>{" "}
       </div>
     </div>

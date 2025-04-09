@@ -7,8 +7,7 @@ import TenOlaplexBenefitsFinal from "./TenOlaplexBenefitsFinal";
 import HairServImg from "../../HairBotox/HairServImg";
 import olaplexBenefitsImg from "./../../../../../Images/Blog/10 Amazing Benefits of Olaplex Hair Treatment/Repairs Damaged Hair from Within.png";
 import olaplexBenefitsFinalImg from "./../../../../../Images/Blog/10 Amazing Benefits of Olaplex Hair Treatment/final thoughts.png";
-import BlogCategories from "../../../BlogCategories/BlogCategories";
-import BlogPost from "../../../BlogPost/BlogPost";
+import BlogSideBar from "../../../BlogSideBar/BlogSideBar";
 const TenOlaplexBenefits = () => {
   return (
     <div>
@@ -36,8 +35,7 @@ const TenOlaplexBenefits = () => {
           <TenOlaplexBenefitsFinal />
         </div>
         <div className="blog-wrapper2">
-          <BlogPost />
-          <BlogCategories />
+          <BlogSideBar />
         </div>
       </div>
     </div>

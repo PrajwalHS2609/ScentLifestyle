@@ -15,8 +15,7 @@ import hairKeratinProcess from "./../../../../Images/Blog/Keratin_Hair_Treatment
 import hairKeratinMaintain from "./../../../../Images/Blog/Keratin_Hair_Treatment/Post-Treatment Care and Maintenance.png";
 import hairKeratinMisconception from "./../../../../Images/Blog/Keratin_Hair_Treatment/Common Misconceptions About Keratin Hair Treatment.png";
 import hairKeratinRight from "./../../../../Images/Blog/Keratin_Hair_Treatment/Is Keratin Hair Treatment Right for You.png";
-import BlogPost from "../../BlogPost/BlogPost";
-import BlogCategories from "../../BlogCategories/BlogCategories";
+import BlogSideBar from "../../BlogSideBar/BlogSideBar";
 
 const HairKeratin = () => {
   return (
@@ -51,8 +50,8 @@ const HairKeratin = () => {
           <HairKeratinRight />
         </div>
         <div className="blog-wrapper2">
-          <BlogPost />
-          <BlogCategories />
+        <BlogSideBar/>
+
         </div>
       </div>
     </div>

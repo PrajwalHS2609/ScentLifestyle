@@ -1,8 +1,8 @@
 import React from "react";
-import "./../BlogPage.css";
-import summerCareBanner from "./../../../Images/Blog/Summer_Hair/Banner.png";
-import bestEyelashExtensionBanner from "./../../../Images/Blog/The_Best_Eyelash_Extension/Banner.png";
-import olaplexBenefitsBanner from "./../../../Images/Blog/10 Amazing Benefits of Olaplex Hair Treatment/Banner.png";
+import "./../../BlogPage.css";
+import summerCareBanner from "./../../../../Images/Blog/Summer_Hair/Banner.png";
+import bestEyelashExtensionBanner from "./../../../../Images/Blog/The_Best_Eyelash_Extension/Banner.png";
+import olaplexBenefitsBanner from "./../../../../Images/Blog/10 Amazing Benefits of Olaplex Hair Treatment/Banner.png";
 import { Link } from "react-router-dom";
 const BlogPost = () => {
   const blogPost = [

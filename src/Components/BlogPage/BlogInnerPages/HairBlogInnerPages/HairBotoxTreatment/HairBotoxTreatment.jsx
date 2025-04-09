@@ -17,8 +17,7 @@ import HairBotoxTreatmentTakeway from "./HairBotoxTreatmentTakeway";
 import HairBotoxTreatmentScience from "./HairBotoxTreatmentScience";
 import hairBotoxScienceImg from "./../../../../../Images/Blog/Hair_Botox_Treatment/The Science Behind Hair Botox.png";
 import hairBotoxWhyImg from "./../../../../../Images/Blog/Hair_Botox_Treatment/Why is Hair Botox a Good Choice.png";
-import BlogPost from "../../../BlogPost/BlogPost";
-import BlogCategories from "../../../BlogCategories/BlogCategories";
+import BlogSideBar from "../../../BlogSideBar/BlogSideBar";
 
 const HairBotoxTreatment = () => {
   return (
@@ -69,8 +68,8 @@ const HairBotoxTreatment = () => {
           <HairBotoxTreatmentTakeway />
         </div>
         <div className="blog-wrapper2">
-          <BlogPost />
-          <BlogCategories />
+        <BlogSideBar/>
+
         </div>
       </div>
     </div>

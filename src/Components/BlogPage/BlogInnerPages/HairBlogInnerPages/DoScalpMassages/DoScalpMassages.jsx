@@ -16,9 +16,7 @@ import doScalpMassagesTheory from "./../../../../../Images/Blog/Do_Scalp_Massage
 import doScalpMassagesBenefits from "./../../../../../Images/Blog/Do_Scalp_Massage_Promote/Benefits Beyond Hair Growth.png";
 import { Helmet } from "react-helmet";
 import HairServImg from "../../HairBotox/HairServImg";
-import BlogPost from "../../../BlogPost/BlogPost";
-import BlogCategories from "../../../BlogCategories/BlogCategories";
-
+import BlogSideBar from "../../../BlogSideBar/BlogSideBar";
 const DoScalpMassages = () => {
   return (
     <div>
@@ -60,8 +58,7 @@ const DoScalpMassages = () => {
           <DoScalpMassagesPremium />
         </div>
         <div className="blog-wrapper2">
-          <BlogPost />
-          <BlogCategories />
+        <BlogSideBar/>
         </div>
       </div>
     </div>

@@ -16,8 +16,7 @@ import scalpDetoxBest from "./../../../../../Images/Blog/Scalp_Detox/Best Produc
 import scalpDetoxHow from "./../../../../../Images/Blog/Scalp_Detox/How Can Hair Scalp Massages Aid in Scalp Detox.png";
 import scalpDetoxBenefits from "./../../../../../Images/Blog/Scalp_Detox/The Benefits of Scalp Detox.png";
 import scalpDetoxTherapy from "./../../../../../Images/Blog/Scalp_Detox/Hair Scalp Therapy_ Long-Term Benefits.png";
-import BlogPost from "../../../BlogPost/BlogPost";
-import BlogCategories from "../../../BlogCategories/BlogCategories";
+import BlogSideBar from "../../../BlogSideBar/BlogSideBar";
 
 const ScalpDetox = () => {
   return (
@@ -58,8 +57,7 @@ const ScalpDetox = () => {
           <ScalpDetoxHowOften />
         </div>
         <div className="blog-wrapper2">
-          <BlogPost />
-          <BlogCategories />
+          <BlogSideBar />
         </div>
       </div>
     </div>

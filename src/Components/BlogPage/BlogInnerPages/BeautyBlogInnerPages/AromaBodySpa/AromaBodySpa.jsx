@@ -11,8 +11,7 @@ import aromaBodySpaBenefits from "./../../../../../Images/Blog/Aroma_Body_Spa/Th
 import aromaBodySpaProcess from "./../../../../../Images/Blog/Aroma_Body_Spa/The Process of an Aroma Body Spa.png";
 import aromaBodySpaTips from "./../../../../../Images/Blog/Aroma_Body_Spa/Tips for an Enhanced Spa Experience.png";
 import AromaBodySpaImg from "./AromaBodySpaImg";
-import BlogPost from "../../../BlogPost/BlogPost";
-import BlogCategories from "../../../BlogCategories/BlogCategories";
+import BlogSideBar from "../../../BlogSideBar/BlogSideBar";
 
 const AromaBodySpa = () => {
   return (
@@ -52,8 +51,7 @@ const AromaBodySpa = () => {
           <br />
         </div>
         <div className="blog-wrapper2">
-          <BlogPost />
-          <BlogCategories />
+          <BlogSideBar />
         </div>
       </div>
     </div>

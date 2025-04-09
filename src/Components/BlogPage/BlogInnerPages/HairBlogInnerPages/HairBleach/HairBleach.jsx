@@ -12,11 +12,12 @@ import HairBleachAlternate from "./HairBleachAlternate";
 import HairBleachExpert from "./HairBleachExpert";
 import HairBleachUnderstand from "./HairBleachUnderstand";
 import hairBleachCommonImg from "./../../../../../Images/Blog/How Often Should You Bleach Your Hair/Common Mistakes to Avoid.png";
-import hairBleachUnderstandImg from "./../../../../../Images/Blog/How Often Should You Bleach Your Hair/Understanding Hair Bleaching.png"
+import hairBleachUnderstandImg from "./../../../../../Images/Blog/How Often Should You Bleach Your Hair/Understanding Hair Bleaching.png";
 import hairBleachHowImg from "./../../../../../Images/Blog/How Often Should You Bleach Your Hair/How Often Can You Bleach Your Hair.png";
 import hairBleachSignsImg from "./../../../../../Images/Blog/How Often Should You Bleach Your Hair/Signs Your Hair Is Ready for Bleaching Again.png";
 import hairBleachHowToImg from "./../../../../../Images/Blog/How Often Should You Bleach Your Hair/How to Care for Your Hair between Bleaching Sessions.png";
 import hairBleachExpertImg from "./../../../../../Images/Blog/How Often Should You Bleach Your Hair/Expert Tips for Your Next Bleaching Session.png";
+import BlogSideBar from "../../../BlogSideBar/BlogSideBar";
 
 const HairBleach = () => {
   return (
@@ -34,32 +35,36 @@ const HairBleach = () => {
         />
       </Helmet>
       <div className="blog-container">
-        <HairBleachImg />
-        <HairBleachHead />
-        <br />
-        <HairServImg hairBotoxImg={hairBleachUnderstandImg} />
-        <HairBleachUnderstand />
-        <br />
-        <HairServImg hairBotoxImg={hairBleachHowImg} />
-        <HairBleachHow />
-        <br />
-        <HairBleachWhy />
-        <br />
-        <HairServImg hairBotoxImg={hairBleachSignsImg} />
-        <HairBleachSigns />
-        <br />
-        <HairServImg hairBotoxImg={hairBleachHowToImg} />
-        <HairBleachHowTo />
-        <br />
-        <HairBleachAlternate />
-        <br />
-        <HairServImg hairBotoxImg={hairBleachExpertImg} />
-        <HairBleachExpert />
-        <br />
-        <HairServImg hairBotoxImg={hairBleachCommonImg} />
-        <HairBleachCommon />
+        <div className="blog-wrapper1">
+          <HairBleachImg />
+          <HairBleachHead />
+          <br />
+          <HairServImg hairBotoxImg={hairBleachUnderstandImg} />
+          <HairBleachUnderstand />
+          <br />
+          <HairServImg hairBotoxImg={hairBleachHowImg} />
+          <HairBleachHow />
+          <br />
+          <HairBleachWhy />
+          <br />
+          <HairServImg hairBotoxImg={hairBleachSignsImg} />
+          <HairBleachSigns />
+          <br />
+          <HairServImg hairBotoxImg={hairBleachHowToImg} />
+          <HairBleachHowTo />
+          <br />
+          <HairBleachAlternate />
+          <br />
+          <HairServImg hairBotoxImg={hairBleachExpertImg} />
+          <HairBleachExpert />
+          <br />
+          <HairServImg hairBotoxImg={hairBleachCommonImg} />
+          <HairBleachCommon />
+        </div>
+        <div className="blog-wrapper2">
+          <BlogSideBar />
+        </div>
       </div>
-            
     </div>
   );
 };

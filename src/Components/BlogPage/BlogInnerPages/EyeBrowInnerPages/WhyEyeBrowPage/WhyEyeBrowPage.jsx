@@ -15,8 +15,7 @@ import eyeBrowBoost from "./../../../../../Images/Blog/Why_Eyebrow_Shaping/Boost
 import eyeBrowDefine from "./../../../../../Images/Blog/Why_Eyebrow_Shaping/Defines Your Personal Style.png";
 import eyeBrowRoutine from "./../../../../../Images/Blog/Why_Eyebrow_Shaping/It Complements Your Makeup Routine.png";
 import eyeBrowYouthful from "./../../../../../Images/Blog/Why_Eyebrow_Shaping/Keeps Your Face Looking Youthful.png";
-import BlogPost from "../../../BlogPost/BlogPost";
-import BlogCategories from "../../../BlogCategories/BlogCategories";
+import BlogSideBar from "../../../BlogSideBar/BlogSideBar";
 
 const WhyEyeBrowPage = () => {
   return (
@@ -51,8 +50,7 @@ const WhyEyeBrowPage = () => {
           <WhyEyeBrowYouthful />
         </div>
         <div className="blog-wrapper2">
-          <BlogPost />
-          <BlogCategories />
+          <BlogSideBar />
         </div>
       </div>
     </div>

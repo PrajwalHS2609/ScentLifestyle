@@ -5,12 +5,11 @@ import HairTrimFaq from "./HairTrimFaq";
 import InnerNavi from "../../../InnerServicePage/InnerNavi/InnerNavi";
 import { Helmet } from "react-helmet";
 import HairTrimImg from "./HairTrimImg";
-import BlogPost from "../../BlogPost/BlogPost";
-import BlogCategories from "../../BlogCategories/BlogCategories";
 import HairTrimHead from "./HairTrimHead";
+import BlogSideBar from "../../BlogSideBar/BlogSideBar";
 const HairTrim = () => {
   return (
-    <div >
+    <div>
       <Helmet>
         <meta charSet="UTF-8" />
         <title>Does Trimming Hair Make It Grow Faster?</title>
@@ -32,8 +31,7 @@ const HairTrim = () => {
           <HairTrimFaq />
         </div>
         <div className="blog-wrapper2">
-          <BlogPost />
-          <BlogCategories />
+          <BlogSideBar />
         </div>
       </div>
     </div>

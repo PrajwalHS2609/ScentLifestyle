@@ -12,8 +12,7 @@ import sheaButterHowOften from "./../../../../../Images/Blog/Shea Butter Hair Sp
 import sheaButterHow from "./../../../../../Images/Blog/Shea Butter Hair Spa/How to Do a Shea Butter Hair Spa at Home.png";
 import sheaButterWhat from "./../../../../../Images/Blog/Shea Butter Hair Spa/What is Shea Butter Hair Spa.png";
 import InstaImages from "../../../../HomePage/InstaFeed/InstaImages";
-import BlogPost from "../../../BlogPost/BlogPost";
-import BlogCategories from "../../../BlogCategories/BlogCategories";
+import BlogSideBar from "../../../BlogSideBar/BlogSideBar";
 
 const BlogSheaButterHairSpa = () => {
   return (
@@ -53,8 +52,7 @@ const BlogSheaButterHairSpa = () => {
           <SheaButterHairSpaWhyChoose />
         </div>
         <div className="blog-wrapper2">
-          <BlogPost />
-          <BlogCategories />
+        <BlogSideBar/>
         </div>
       </div>
     </div>

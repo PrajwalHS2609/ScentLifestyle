@@ -9,8 +9,7 @@ import HairServImg from "../../HairBotox/HairServImg";
 import academyEnrollWhy from "./../../../../../Images/Blog/Top_10_Reasons_to_ Enroll_in_ Salon_Academy/Why Choose the Best Salon Academy of Bangalore.png";
 import academyEnrollRealize from "./../../../../../Images/Blog/Top_10_Reasons_to_ Enroll_in_ Salon_Academy/Realize Your Dreams Today.png";
 import AcademyEnrollRealize from "./AcademyEnrollRealize";
-import BlogPost from "../../../BlogPost/BlogPost";
-import BlogCategories from "../../../BlogCategories/BlogCategories";
+import BlogSideBar from "../../../BlogSideBar/BlogSideBar";
 
 const AcademyEnroll = () => {
   return (
@@ -45,8 +44,7 @@ const AcademyEnroll = () => {
           <AcademyEnrollRealize />
         </div>
         <div className="blog-wrapper2">
-          <BlogPost />
-          <BlogCategories />
+        <BlogSideBar/>
         </div>
       </div>
     </div>

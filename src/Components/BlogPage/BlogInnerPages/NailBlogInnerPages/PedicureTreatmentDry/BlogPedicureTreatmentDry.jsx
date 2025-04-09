@@ -14,8 +14,7 @@ import classicPedicureBanner from "./../../../../../Images/Blog/Best Pedicure Tr
 import organicPedicureBanner from "./../../../../../Images/Blog/Best Pedicure Treatments for Dry and Cracked Heels/Organic Pedicure for Cracked Heels.png";
 import medicalPedicureBanner from "./../../../../../Images/Blog/Best Pedicure Treatments for Dry and Cracked Heels/Medical Pedicure for Severely Cracked Heels.png";
 import tipsPedicureBanner from "./../../../../../Images/Blog/Best Pedicure Treatments for Dry and Cracked Heels/Tips to Prevent Dry and Cracked Heels.png";
-import BlogPost from "../../../BlogPost/BlogPost";
-import BlogCategories from "../../../BlogCategories/BlogCategories";
+import BlogSideBar from "../../../BlogSideBar/BlogSideBar";
 
 const BlogPedicureTreatmentDry = () => {
   return (
@@ -62,8 +61,7 @@ const BlogPedicureTreatmentDry = () => {
           <ChoosingPedicureTreatment />
         </div>
         <div className="blog-wrapper2">
-          <BlogPost />
-          <BlogCategories />
+          <BlogSideBar />
         </div>
       </div>
     </div>

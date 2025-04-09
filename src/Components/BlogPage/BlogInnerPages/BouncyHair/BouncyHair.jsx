@@ -4,8 +4,7 @@ import NavBg from "../../../NavBg/NavBg";
 import BouncyHairImg from "./BouncyHairImg";
 import InnerNavi from "../../../InnerServicePage/InnerNavi/InnerNavi";
 import BouncyHairHead from "./BouncyHairHead";
-import BlogPost from "../../BlogPost/BlogPost";
-import BlogCategories from "../../BlogCategories/BlogCategories";
+import BlogSideBar from "../../BlogSideBar/BlogSideBar";
 
 const BouncyHair = () => {
   return (
@@ -32,8 +31,7 @@ const BouncyHair = () => {
           <BouncyHairHead />
         </div>
         <div className="blog-wrapper2">
-          <BlogPost />
-          <BlogCategories />
+          <BlogSideBar />
         </div>
       </div>
     </div>

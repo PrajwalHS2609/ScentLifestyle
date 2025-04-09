@@ -12,8 +12,7 @@ import HowOlaplexWhat from "./HowOlaplexWhat";
 import HowOlaplexWhy from "./HowOlaplexWhy";
 import HowOlaplexInvest from "./HowOlaplexInvest";
 import HowOlaplexMaintain from "./HowOlaplexMaintain";
-import BlogPost from "../../../BlogPost/BlogPost";
-import BlogCategories from "../../../BlogCategories/BlogCategories";
+import BlogSideBar from "../../../BlogSideBar/BlogSideBar";
 
 const HowOlaplex = () => {
   return (
@@ -45,8 +44,7 @@ const HowOlaplex = () => {
           <HowOlaplexInvest />
         </div>
         <div className="blog-wrapper2">
-          <BlogPost />
-          <BlogCategories />
+        <BlogSideBar/>
         </div>
       </div>
     </div>

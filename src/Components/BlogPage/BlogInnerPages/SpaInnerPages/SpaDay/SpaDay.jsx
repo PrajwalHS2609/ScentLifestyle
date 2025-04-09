@@ -13,8 +13,7 @@ import spaDayEnhance from "./../../../../../Images/Blog/How a Spa Day/Enhanced M
 import spaDayBenefits from "./../../../../../Images/Blog/How a Spa Day/The Social and Psychological Benefits.png";
 import spaDayStress from "./../../../../../Images/Blog/How a Spa Day/Stress Relief Through Spa Treatments.png";
 import HairServImg from "../../HairBotox/HairServImg";
-import BlogPost from "../../../BlogPost/BlogPost";
-import BlogCategories from "../../../BlogCategories/BlogCategories";
+import BlogSideBar from "../../../BlogSideBar/BlogSideBar";
 
 const SpaDay = () => {
   return (
@@ -47,8 +46,7 @@ const SpaDay = () => {
           <SpaDayIncorporating />
         </div>
         <div className="blog-wrapper2">
-          <BlogPost />
-          <BlogCategories />
+        <BlogSideBar/>
         </div>
       </div>
     </div>

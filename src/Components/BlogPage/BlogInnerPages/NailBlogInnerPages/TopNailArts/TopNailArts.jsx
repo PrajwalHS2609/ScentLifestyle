@@ -16,8 +16,7 @@ import FlowerNail from "./FlowerNail";
 import abstractImg from "./../../../../../Images/Blog/Top_10_Nail_Art/Abstract & Minimalist Nail Art.png";
 import chromeImg from "./../../../../../Images/Blog/Top_10_Nail_Art/Chrome Nails_ The Ultimate Shine.png";
 import frenchImg from "./../../../../../Images/Blog/Top_10_Nail_Art/French Tips Reinvented.png";
-import BlogPost from "../../../BlogPost/BlogPost";
-import BlogCategories from "../../../BlogCategories/BlogCategories";
+import BlogSideBar from "../../../BlogSideBar/BlogSideBar";
 
 const TopNailArts = () => {
   return (
@@ -63,8 +62,7 @@ const TopNailArts = () => {
           <FlowerNail />
         </div>
         <div className="blog-wrapper2">
-          <BlogPost />
-          <BlogCategories />
+          <BlogSideBar />
         </div>{" "}
       </div>
     </div>

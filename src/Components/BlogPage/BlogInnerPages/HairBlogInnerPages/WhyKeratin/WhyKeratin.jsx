@@ -11,8 +11,7 @@ import whyKeratinBanner4 from "./../../../../../Images/Blog/Why_Keratin_Hair/4.p
 import whyKeratinBanner5 from "./../../../../../Images/Blog/Why_Keratin_Hair/5.png";
 import WhyKeratinRight from "./WhyKeratinRight";
 import WhyKeratinWhat from "./WhyKeratinWhat";
-import BlogPost from "../../../BlogPost/BlogPost";
-import BlogCategories from "../../../BlogCategories/BlogCategories";
+import BlogSideBar from "../../../BlogSideBar/BlogSideBar";
 
 const WhyKeratin = () => {
   return (
@@ -45,8 +44,7 @@ const WhyKeratin = () => {
           <WhyKeratinRight />
         </div>
         <div className="blog-wrapper2">
-          <BlogPost />
-          <BlogCategories />
+          <BlogSideBar />
         </div>
       </div>
     </div>

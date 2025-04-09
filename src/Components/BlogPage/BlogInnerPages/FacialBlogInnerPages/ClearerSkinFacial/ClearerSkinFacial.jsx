@@ -15,8 +15,7 @@ import HairServImg from "../../HairBotox/HairServImg";
 import clearerSkinWhyChooseImg from "./../../../../../Images/Blog/Clearer Skin, Happier You Acne Cure Facial Secrets/Why Choose Acne Cure Facials Over DIY Treatments.png";
 import clearerSkinMaximizeImg from "./../../../../../Images/Blog/Clearer Skin, Happier You Acne Cure Facial Secrets/How to Maximize the Benefits of Acne Cure Facials.png";
 import clearerSkinWhatImg from "./../../../../../Images/Blog/Clearer Skin, Happier You Acne Cure Facial Secrets/What Are Acne Cure Facials.png";
-import BlogPost from "../../../BlogPost/BlogPost";
-import BlogCategories from "../../../BlogCategories/BlogCategories";
+import BlogSideBar from "../../../BlogSideBar/BlogSideBar";
 
 const ClearerSkinFacial = () => {
   return (
@@ -60,8 +59,8 @@ const ClearerSkinFacial = () => {
           <ClearerSkinFacialFinal />
         </div>
         <div className="blog-wrapper2">
-          <BlogPost />
-          <BlogCategories />
+        <BlogSideBar/>
+
         </div>
       </div>
     </div>

@@ -24,8 +24,7 @@ import ChicSleekLobImg from "./../../../../../Images/Blog/Chic & Sleek/The Versa
 import ChicSleekBobImg from "./../../../../../Images/Blog/Chic & Sleek/Chic and Timeless_ The Bob.png";
 import ChicSleekMaintainImg from "./../../../../../Images/Blog/Chic & Sleek/Maintaining Your Chic & Sleek Haircut.png";
 import ChicSleekBannerImg from "./ChicSleekBannerImg";
-import BlogPost from "../../../BlogPost/BlogPost";
-import BlogCategories from "../../../BlogCategories/BlogCategories";
+import BlogSideBar from "../../../BlogSideBar/BlogSideBar";
 
 const ChicSleek = () => {
   return (
@@ -69,8 +68,7 @@ const ChicSleek = () => {
           <ChicSleekMaintain />
         </div>
         <div className="blog-wrapper2">
-          <BlogPost />
-          <BlogCategories />
+          <BlogSideBar />
         </div>{" "}
       </div>
     </div>

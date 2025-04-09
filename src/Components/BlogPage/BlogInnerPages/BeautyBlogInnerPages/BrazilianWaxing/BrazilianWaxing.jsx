@@ -18,8 +18,7 @@ import BrazilianWaxingPainImg from "./../../../../../Images/Blog/Everything_Abou
 import BrazilianWaxingOftenImg from "./../../../../../Images/Blog/Everything_About_Brazilian_Waxing/How Often Should You Get Brazilian Waxing.png";
 import HairServImg from "../../HairBotox/HairServImg";
 import InnerNavi from "../../../../InnerServicePage/InnerNavi/InnerNavi";
-import BlogPost from "../../../BlogPost/BlogPost";
-import BlogCategories from "../../../BlogCategories/BlogCategories";
+import BlogSideBar from "../../../BlogSideBar/BlogSideBar";
 
 const BrazilianWaxing = () => {
   return (
@@ -61,8 +60,7 @@ const BrazilianWaxing = () => {
           <BrazilianWaxingAtScent />
         </div>
         <div className="blog-wrapper2">
-          <BlogPost />
-          <BlogCategories />
+          <BlogSideBar />
         </div>
       </div>
     </div>

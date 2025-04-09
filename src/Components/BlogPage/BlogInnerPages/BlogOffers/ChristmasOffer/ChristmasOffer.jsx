@@ -15,8 +15,7 @@ import hairCareImg from "./../../../../../Images/Blog/Christmas_offer/Hair Care_
 import makeUpTipsImg from "./../../../../../Images/Blog/Christmas_offer/Makeup Tips_ Get the Perfect Holiday Look.png";
 import mensGroomingTips from "./../../../../../Images/Blog/Christmas_offer/Men’s Christmas Grooming Tips.png";
 import fitnessAndBodyCareTips from "./../../../../../Images/Blog/Christmas_offer/Fitness and Body Care for the Holidays.png";
-import BlogPost from "../../../BlogPost/BlogPost";
-import BlogCategories from "../../../BlogCategories/BlogCategories";
+import BlogSideBar from "../../../BlogSideBar/BlogSideBar";
 
 const ChristmasOffer = () => {
   return (
@@ -59,8 +58,8 @@ const ChristmasOffer = () => {
           <FitnessAndBodyCare />
         </div>
         <div className="blog-wrapper2">
-          <BlogPost />
-          <BlogCategories />
+        <BlogSideBar/>
+
         </div>
       </div>
     </div>

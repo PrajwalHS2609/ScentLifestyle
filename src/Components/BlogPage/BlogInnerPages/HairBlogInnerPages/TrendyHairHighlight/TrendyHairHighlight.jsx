@@ -18,8 +18,7 @@ import TrendyHairHighlightFinal from "./TrendyHairHighlightFinal";
 import HairServImg from "../../HairBotox/HairServImg";
 import HairTrendsWhy from "./../../../../../Images/Blog/2025HairTrends/Why Hair Highlights.png";
 import HairTrendsHow from "./../../../../../Images/Blog/2025HairTrends/How to Maintain Your Hair Highlights.png";
-import BlogPost from "../../../BlogPost/BlogPost";
-import BlogCategories from "../../../BlogCategories/BlogCategories";
+import BlogSideBar from "../../../BlogSideBar/BlogSideBar";
 
 const TrendyHairHighlight = () => {
   return (
@@ -70,8 +69,7 @@ const TrendyHairHighlight = () => {
           <TrendyHairHighlightFinal />
         </div>
         <div className="blog-wrapper2">
-          <BlogPost />
-          <BlogCategories />
+          <BlogSideBar />
         </div>
       </div>
     </div>

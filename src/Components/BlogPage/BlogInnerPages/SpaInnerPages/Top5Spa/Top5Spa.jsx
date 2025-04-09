@@ -18,8 +18,7 @@ import Top5SpaStrengthImg from "./../../../../../Images/Blog/The_Top_5_Hair_Spa_
 import Top5SpaRelaxImg from "./../../../../../Images/Blog/The_Top_5_Hair_Spa_Today/Relax.png";
 import Top5SpaImprovingImg from "./../../../../../Images/Blog/The_Top_5_Hair_Spa_Today/Improving Scalp Health and Reducing Dandruff.png";
 import Top5SpaReviveImg from "./../../../../../Images/Blog/The_Top_5_Hair_Spa_Today/Revive.png";
-import BlogPost from "../../../BlogPost/BlogPost";
-import BlogCategories from "../../../BlogCategories/BlogCategories";
+import BlogSideBar from "../../../BlogSideBar/BlogSideBar";
 
 const Top5Spa = () => {
   return (
@@ -57,8 +56,8 @@ const Top5Spa = () => {
           <Top5SpaYour />{" "}
         </div>
         <div className="blog-wrapper2">
-          <BlogPost />
-          <BlogCategories />
+        <BlogSideBar/>
+
         </div>
       </div>
     </div>

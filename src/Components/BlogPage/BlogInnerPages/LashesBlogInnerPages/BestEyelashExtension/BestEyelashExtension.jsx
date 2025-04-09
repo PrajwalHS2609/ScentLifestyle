@@ -11,8 +11,7 @@ import whyProImg from "./../../../../../Images/Blog/The_Best_Eyelash_Extension/W
 import whyImg from "./../../../../../Images/Blog/The_Best_Eyelash_Extension/Why Eyelash Extensions Are a Must for Brides and Special Events.png";
 import tipsImg from "./../../../../../Images/Blog/The_Best_Eyelash_Extension/Eyelash Extension Care Tips for Brides.png";
 import choosingImg from "./../../../../../Images/Blog/The_Best_Eyelash_Extension/Choosing the Right Eyelash Extension Style for Brides and Events.png";
-import BlogPost from "../../../BlogPost/BlogPost";
-import BlogCategories from "../../../BlogCategories/BlogCategories";
+import BlogSideBar from "../../../BlogSideBar/BlogSideBar";
 
 const BestEyelashExtension = () => {
   return (
@@ -49,8 +48,7 @@ const BestEyelashExtension = () => {
           <BestEyelashExtensionWhyPro />
         </div>
         <div className="blog-wrapper2">
-          <BlogPost />
-          <BlogCategories />
+          <BlogSideBar />
         </div>
       </div>
     </div>

@@ -14,8 +14,7 @@ import lashesExtensionMaintain from "./../../../../../Images/Blog/Eyelash Extens
 import lashesExtensionWhy from "./../../../../../Images/Blog/Eyelash Extensions/Why Eyelash Extensions for Women Are Worth the Investment.png";
 import HairServImg from "../../HairBotox/HairServImg";
 import LashesExtensionBlogWhy from "./LashesExtensionBlogWhy";
-import BlogPost from "../../../BlogPost/BlogPost";
-import BlogCategories from "../../../BlogCategories/BlogCategories";
+import BlogSideBar from "../../../BlogSideBar/BlogSideBar";
 
 const LashesExtensionBlog = () => {
   return (
@@ -57,8 +56,7 @@ const LashesExtensionBlog = () => {
           <LashesExtensionBlogWhy />
         </div>
         <div className="blog-wrapper2">
-          <BlogPost />
-          <BlogCategories />
+        <BlogSideBar/>
         </div>{" "}
       </div>
     </div>

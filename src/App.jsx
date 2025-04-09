@@ -615,7 +615,6 @@ const MainApp = () => {
           path="/get-festive-ready-top-christmas-beauty-tips-for-women-and-men"
           element={<ChristmasOffer />}
         />
-
         <Route
           path="/top-10-reasons-to-enroll-in-our-premier-salon-academy-today"
           element={<AcademyEnroll />}
@@ -664,6 +663,7 @@ const MainApp = () => {
           path="/top-10-nail-art-trends-you-need-to-try-this-year"
           element={<TopNailArts />}
         />{" "}
+
         <Route
           path="/summer-hair-care-tips-to-beat-the-heat"
           element={<SummerCare />}

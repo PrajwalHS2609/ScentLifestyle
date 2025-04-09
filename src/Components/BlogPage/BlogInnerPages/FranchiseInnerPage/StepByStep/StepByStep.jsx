@@ -22,8 +22,7 @@ import StepByStepLaunch from "./StepByStepLaunch";
 import StepByStepFocus from "./StepByStepFocus";
 import StepByStepMonitor from "./StepByStepMonitor";
 import StepByStepFinal from "./StepByStepFinal";
-import BlogPost from "../../../BlogPost/BlogPost";
-import BlogCategories from "../../../BlogCategories/BlogCategories";
+import BlogSideBar from "../../../BlogSideBar/BlogSideBar";
 
 const StepByStep = () => {
   return (
@@ -68,8 +67,7 @@ const StepByStep = () => {
           <StepByStepFinal />
         </div>
         <div className="blog-wrapper2">
-          <BlogPost />
-          <BlogCategories />
+        <BlogSideBar/>
         </div>
       </div>
     </div>

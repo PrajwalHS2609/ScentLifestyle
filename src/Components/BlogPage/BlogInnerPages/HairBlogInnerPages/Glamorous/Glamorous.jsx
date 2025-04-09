@@ -15,8 +15,7 @@ import glamorousBun from "./../../../../../Images/Blog/Get Ready for a Glamorous
 import glamorousTwist from "./../../../../../Images/Blog/Get Ready for a Glamorous Night/The Half-Up, Half-Down Twist.png";
 import glamorousWaves from "./../../../../../Images/Blog/Get Ready for a Glamorous Night/The Glamorous Hollywood Waves.png";
 import glamorousCrown from "./../../../../../Images/Blog/Get Ready for a Glamorous Night/The Braided Crown.png";
-import BlogPost from "../../../BlogPost/BlogPost";
-import BlogCategories from "../../../BlogCategories/BlogCategories";
+import BlogSideBar from "../../../BlogSideBar/BlogSideBar";
 
 const Glamorous = () => {
   return (
@@ -59,8 +58,7 @@ const Glamorous = () => {
           <GlamorousFinal />
         </div>
         <div className="blog-wrapper2">
-          <BlogPost />
-          <BlogCategories />
+          <BlogSideBar />
         </div>
       </div>
     </div>

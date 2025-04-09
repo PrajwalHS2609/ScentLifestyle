@@ -21,8 +21,7 @@ import HairSpaTreatmentHow from "./HairSpaTreatmentHow";
 import HairSpaTreatmentWhy from "./HairSpaTreatmentWhy";
 import HairSpaTreatmentFinal from "./HairSpaTreatmentFinal";
 import HairSpaTreatmentWhyScent from "./HairSpaTreatmentWhyScent";
-import BlogPost from "../../../BlogPost/BlogPost";
-import BlogCategories from "../../../BlogCategories/BlogCategories";
+import BlogSideBar from "../../../BlogSideBar/BlogSideBar";
 
 const HairSpaTreatment = () => {
   return (
@@ -69,8 +68,7 @@ const HairSpaTreatment = () => {
           <br />
         </div>
         <div className="blog-wrapper2">
-          <BlogPost />
-          <BlogCategories />
+        <BlogSideBar/>
         </div>
       </div>
     </div>

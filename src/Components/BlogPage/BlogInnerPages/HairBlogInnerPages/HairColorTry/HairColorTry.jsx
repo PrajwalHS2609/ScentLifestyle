@@ -13,8 +13,7 @@ import HairColorTryMaintainBanner from "./../../../../../Images/Blog/25+ Hair Co
 import HairColorTryWhyBanner from "./../../../../../Images/Blog/25+ Hair Colors/Why Hair Color is a Powerful Form of Self-Expression.png";
 import HairColorTryHowBanner from "./../../../../../Images/Blog/25+ Hair Colors/How to Choose from the 25+ Hair Colors Every Woman Should Try.png";
 import HairColorTryChoosing from "./HairColorTryChoosing";
-import BlogPost from "../../../BlogPost/BlogPost";
-import BlogCategories from "../../../BlogCategories/BlogCategories";
+import BlogSideBar from "../../../BlogSideBar/BlogSideBar";
 
 const HairColorTry = () => {
   return (
@@ -52,8 +51,8 @@ const HairColorTry = () => {
           <HairColorTryWhy />
         </div>
         <div className="blog-wrapper2">
-          <BlogPost />
-          <BlogCategories />
+        <BlogSideBar/>
+
         </div>{" "}
       </div>
     </div>

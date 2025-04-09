@@ -9,8 +9,7 @@ import PediAndManicureWhat from "./PediAndManicureWhat/PediAndManicureWhat";
 import pedimanicureBenefits from "./../../../../../Images/Blog/Pedi&manicureBlog/The Benefits of Professional Pedicures and Manicures.png";
 import pedimanicureWhat from "./../../../../../Images/Blog/Pedi&manicureBlog/What Is a Professional Pedicure and Manicure.png";
 import HairServImg from "../../HairBotox/HairServImg";
-import BlogPost from "../../../BlogPost/BlogPost";
-import BlogCategories from "../../../BlogCategories/BlogCategories";
+import BlogSideBar from "../../../BlogSideBar/BlogSideBar";
 
 const PediAndManicure = () => {
   return (
@@ -41,8 +40,7 @@ const PediAndManicure = () => {
           <PediAndManicureBenefits />
         </div>
         <div className="blog-wrapper2">
-          <BlogPost />
-          <BlogCategories />
+          <BlogSideBar />
         </div>
       </div>
     </div>

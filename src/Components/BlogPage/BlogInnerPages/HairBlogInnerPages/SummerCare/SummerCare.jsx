@@ -3,8 +3,7 @@ import SummerCareImg from "./SummerCareImg";
 import SummerCareHead from "./SummerCareHead";
 import SummerCareContent from "./SummerCareContent";
 import { Helmet } from "react-helmet";
-import BlogPost from "../../../BlogPost/BlogPost";
-import BlogCategories from "../../../BlogCategories/BlogCategories";
+import BlogSideBar from "../../../BlogSideBar/BlogSideBar";
 
 const SummerCare = () => {
   return (
@@ -31,8 +30,7 @@ const SummerCare = () => {
           <SummerCareContent />
         </div>
         <div className="blog-wrapper2">
-          <BlogPost />
-          <BlogCategories />
+          <BlogSideBar />
         </div>
       </div>
     </div>

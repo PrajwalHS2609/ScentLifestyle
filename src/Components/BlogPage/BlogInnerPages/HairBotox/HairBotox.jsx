@@ -13,8 +13,7 @@ import HairBotoxBenefits from "./HairBotoxBenefits";
 import HairBotoxWho from "./HairBotoxWho/HairBotoxWho";
 import HairBotoxXp from "./HairBotoxXp";
 import HairServImg from "./HairServImg";
-import BlogPost from "../../BlogPost/BlogPost";
-import BlogCategories from "../../BlogCategories/BlogCategories";
+import BlogSideBar from "../../BlogSideBar/BlogSideBar";
 const HairBotox = () => {
   return (
     <div className="hairTrim">
@@ -46,8 +45,7 @@ const HairBotox = () => {
           <HairBotoxXp />
         </div>
         <div className="blog-wrapper2">
-          <BlogPost />
-          <BlogCategories />
+          <BlogSideBar/>
         </div>
       </div>
     </div>
