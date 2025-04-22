@@ -5,9 +5,9 @@
   height: 100%;
   padding: 20px;
   background-color: white;
-  background-image: url("./../../../Images/HomeBg/WhyBg.jpg");
+  /* background-image: url("./../../../Images/HomeBg/WhyBg.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
 }
 .serviceWhyHeadContainer {
   /* border: solid; */
@@ -53,6 +53,7 @@
 .serviceWhyCardContent1 > img {
   width: 50%;
   height: 50%;
+  object-fit: contain;
 }
 
 .serviceWhyCardContent2 {

@@ -6,7 +6,9 @@ const ServiceHead = () => {
     <div className="serviceContent" id="serviceContent1">
       <h2>
         Our <br />
-        <span> Salon Services</span>
+        <span> Salon Services 
+          <div className="serviceContent-Underline"></div>
+        </span>
       </h2>
     </div>
   );

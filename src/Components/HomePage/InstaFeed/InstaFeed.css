@@ -7,11 +7,11 @@
   align-items: center;
   flex-direction: column;
   /* margin-top: 100px; */
-  background-color: #b8a08c;
+  background-color: white;
   padding: 10px;
-  background-image: url("./../../../Images/HomeBg/instafeedBg.png");
+  /* background-image: url("./../../../Images/HomeBg/instafeedBg.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
 }
 .instaHeadContainer {
   /* border: solid; */
@@ -23,12 +23,12 @@
 }
 .instaHeadContainer > h6 {
   font-size: 30px;
-  color: var(--lightBeige);
+  color: var(--customColorBlack);
 }
 .instaUnderline {
   border: 2px solid;
   width: 80px;
-  color: var(--lightBeige);
+  color: var(--customColorBlack);
 }
 .instaParaContainer {
   /* border: solid; */

@@ -9,7 +9,13 @@ import BrazilWaxingServiceProcess from "./BrazilWaxingServiceProcess";
 import BrazilWaxingServiceBenefits from "./BrazilWaxingServiceBenefits";
 import BrazilWaxingServicePrepare from "./BrazilWaxingServicePrepare";
 import BrazilWaxingServiceTips from "./BrazilWaxingServiceTips";
-
+import Members from "../../HomePage/Members/Members";
+import OurSalon from "../../HomePage/OurSalon/OurSalon";
+import Partners from "../../HomePage/Partners/Partners";
+import InstaFeed from "../../HomePage/InstaFeed/InstaFeed";
+import HelpNearYou from "../../Help/HelpNearYou";
+import TextLocReviews from "../../TextLocReviews/TextLocReviews";
+import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
 const BrazilWaxingService = () => {
   return (
     <div>
@@ -36,11 +42,17 @@ const BrazilWaxingService = () => {
       />
       <BrazilWaxingServiceHead />
       <BrazilWaxingServiceWhy />
+      <Members />
+      <OurSalon />
+      <Partners />
+      <InstaFeed />
+      <HelpNearYou />
+      <TextLocReviews />
+      <ServiceWhy />
       <BrazilWaxingServiceProcess />
       <BrazilWaxingServiceBenefits />
       <BrazilWaxingServicePrepare />
       <BrazilWaxingServiceTips />
-            
     </div>
   );
 };

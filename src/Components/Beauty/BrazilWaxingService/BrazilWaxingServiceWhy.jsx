@@ -1,16 +1,9 @@
 import React from "react";
 import checked from "./../../../Images/checked.png";
-import Members from "../../HomePage/Members/Members";
-import OurSalon from "../../HomePage/OurSalon/OurSalon";
-import Partners from "../../HomePage/Partners/Partners";
-import InstaFeed from "../../HomePage/InstaFeed/InstaFeed";
-import HelpNearYou from "../../Help/HelpNearYou";
-import TextLocReviews from "../../TextLocReviews/TextLocReviews";
-import ServiceWhy from "../../MainServicePages/ServiceWhy/ServiceWhy";
-
+import "./../../LocationServices/LocationServices.css";
 const BrazilWaxingServiceWhy = () => {
   return (
-    <div className="hairSalonInJakkurWhy">
+    <div className="locationServicesWhy">
       <h5>Why Choose Brazilian Waxing Service in Bangalore at SCENT?</h5>
       <ul>
         <li>
@@ -79,13 +72,6 @@ const BrazilWaxingServiceWhy = () => {
           </p>
         </li>
       </ul>
-      <Members />
-      <OurSalon />
-      <Partners />
-      <InstaFeed />
-      <HelpNearYou />
-      <TextLocReviews />
-      <ServiceWhy />
     </div>
   );
 };

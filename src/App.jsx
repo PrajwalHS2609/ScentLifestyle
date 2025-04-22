@@ -270,6 +270,11 @@ import HairSmoothInUptown from "./Components/LocationServices/Uptown/HairSmoothI
 import HairSmoothLavelle from "./Components/LocationServices/Lavelle/HairSmoothLavelle/HairSmoothLavelle";
 import BestEyelashExtension from "./Components/BlogPage/BlogInnerPages/LashesBlogInnerPages/BestEyelashExtension/BestEyelashExtension";
 import TenOlaplexBenefits from "./Components/BlogPage/BlogInnerPages/HairBlogInnerPages/TenOlaplexBenefits/TenOlaplexBenefits";
+import BodyWaxingRight from "./Components/BlogPage/BlogInnerPages/BeautyBlogInnerPages/BodyWaxingRight/BodyWaxingRight";
+import BodyWaxingInSahakarNagar from "./Components/LocationServices/SahakarNagar/BodyWaxingSahakarNagar/BodyWaxingInSahakarNagar";
+import BodyWaxingInWhitefield from "./Components/LocationServices/Whitefield/BodyWaxingInWhitefield/BodyWaxingInWhitefield";
+import BodyWaxingInUptown from './Components/LocationServices/Uptown/BodyWaxingInUptown/BodyWaxingInUptown';
+import BodyWaxingServInLavelle from "./Components/LocationServices/Lavelle/BodyWaxingServInLavelle/BodyWaxingServInLavelle";
 
 const MainApp = () => {
   const location = useLocation();
@@ -554,7 +559,6 @@ const MainApp = () => {
           path="/chic-and-sleek-womens-haircuts-that-define-you"
           element={<ChicSleek />}
         />
-
         <Route
           path="/the-top-5-reasons-to-book-a-hair-spa-today"
           element={<Top5Spa />}
@@ -663,7 +667,6 @@ const MainApp = () => {
           path="/top-10-nail-art-trends-you-need-to-try-this-year"
           element={<TopNailArts />}
         />{" "}
-
         <Route
           path="/summer-hair-care-tips-to-beat-the-heat"
           element={<SummerCare />}
@@ -675,6 +678,10 @@ const MainApp = () => {
         <Route
           path="/10-amazing-benefits-of-olaplex-hair-treatment"
           element={<TenOlaplexBenefits />}
+        />
+        <Route
+          path="/is-body-waxing-right-for-you-pros-cons-and-tips"
+          element={<BodyWaxingRight />}
         />
         {/* ------------------------/blog------------------------      */}
         <Route path="/pre-bridal-treatments" element={<PrebridalPackage />} />
@@ -855,6 +862,10 @@ const MainApp = () => {
           path="/hair-smoothening-in-sahakara-nagar"
           element={<HairSmoothInSahakaraNagar />}
         />
+        <Route
+          path="/body-waxing-services-in-sahakara-nagar"
+          element={<BodyWaxingInSahakarNagar />}
+        />
         {/* ----------------------/InSahakarnagar---------------------- */}
         {/* ----------------------InMeadows---------------------- */}
         <Route
@@ -916,6 +927,10 @@ const MainApp = () => {
           path="/hair-smoothening-in-whitefield"
           element={<HairSmoothInWhitefield />}
         />
+        <Route
+          path="/body-waxing-services-in-whitefield"
+          element={<BodyWaxingInWhitefield />}
+        />
         {/* ----------------------/InWhitefield---------------------- */}
         {/* -------------------InLavelleRoad-------------------- */}
         <Route
@@ -971,6 +986,10 @@ const MainApp = () => {
           path="/hair-smoothening-in-lavelle-road"
           element={<HairSmoothLavelle />}
         />
+        <Route
+          path="/body-waxing-services-in-lavelle-road"
+          element={<BodyWaxingServInLavelle/>}
+        />
         {/* -----------------------/InLavelleRoad-------------------- */}
         {/*-----------------InJakkur------------------------------------ */}
         <Route
@@ -1020,6 +1039,10 @@ const MainApp = () => {
         <Route
           path="/hair-smoothening-in-jakkur"
           element={<HairSmoothInJakkur />}
+        />
+        <Route
+          path="/body-waxing-services-in-jakkur"
+          element={<BodyWaxingInJakkur />}
         />
         {/* -----------------------InUptown--------------------------- */}
         <Route
@@ -1073,6 +1096,10 @@ const MainApp = () => {
         <Route
           path="/olaplex-hair-treatment-in-uptown-whitefield"
           element={<HairSmoothInUptown />}
+        />
+              <Route
+          path="/body-waxing-services-in-uptown-whitefield"
+          element={<BodyWaxingInUptown />}
         />
         {/* -----------------------/InUptown--------------------------- */}
         <Route path="/q-and-a" element={<QAPage />}>

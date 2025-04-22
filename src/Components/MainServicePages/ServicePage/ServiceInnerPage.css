@@ -62,7 +62,7 @@
 .serviceCoverUnderline {
   border: 2px solid;
   width: 100px;
-  color: var(--customColor);
+  color: var(--customColorWhite);
 }
 .serviceOverCoverTxt > p {
   /* border: solid; */
@@ -152,7 +152,6 @@
   .serviceCoverUnderline {
     border: 2px solid;
     width: 100px;
-    color: var(--customColor);
   }
   .serviceOverCoverTxt > p {
     /* border: solid; */
@@ -220,7 +219,6 @@
   .serviceCoverUnderline {
     border: 2px solid;
     width: 100px;
-    color: var(--customColor);
   }
   .serviceOverCoverTxt > p {
     /* border: solid; */

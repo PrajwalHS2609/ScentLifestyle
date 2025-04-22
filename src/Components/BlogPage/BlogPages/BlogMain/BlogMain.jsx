@@ -40,9 +40,18 @@ import topNailArtBanner from "./../../../../Images/Blog/Top_10_Nail_Art/Banner.p
 import summerCareBanner from "./../../../../Images/Blog/Summer_Hair/Banner.png";
 import bestEyelashExtensionBanner from "./../../../../Images/Blog/The_Best_Eyelash_Extension/Banner.png";
 import olaplexBenefitsBanner from "./../../../../Images/Blog/10 Amazing Benefits of Olaplex Hair Treatment/Banner.png";
+import bodyWaxingRightBanner from "./../../../../Images/Blog/BodyWaxingRight/Banner.png";
 
 const BlogMain = () => {
   const blogs = [
+    
+
+    {
+      img: bodyWaxingRightBanner,
+      head: "Is Body Waxing Right for You? Pros, Cons & Tips",
+      para: "In the world of hair removal, body waxing stands out as one of the most popular and ...",
+      link: "/is-body-waxing-right-for-you-pros-cons-and-tips",
+    },
     {
       img: olaplexBenefitsBanner,
       head: "10 Amazing Benefits of Olaplex Hair Treatment",

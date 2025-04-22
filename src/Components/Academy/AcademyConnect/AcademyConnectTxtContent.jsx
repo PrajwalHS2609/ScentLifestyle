@@ -23,7 +23,20 @@ const AcademyConnectTxtContent = () => {
           Join SCENT Academy today and turn your passion into a thriving
           profession.
         </b>
-        <Link >
+        <div className="academyContact-container">
+          <div className="academyContact-content">
+            <h3>Training Manager</h3>
+            <a href="tel:9148542700">+91 91485 42700</a>
+          </div>
+          {/* <a href="tel:9606682700">
+            {" "}
+            <div className="academyContact-content">
+              <h3>Operations Manager </h3>
+              <span> +91 96066 82700</span>
+            </div>
+          </a> */}
+        </div>
+        <Link>
           <button onClick={handlePopUp}>BOOK NOW</button>
         </Link>
       </div>

@@ -144,7 +144,7 @@
   background-color: white;
 }
 .dropItems:hover pre {
-  color: #cc2228;
+  color: var(--customColor);
   text-shadow: none;
 }
 #dropItem2 {

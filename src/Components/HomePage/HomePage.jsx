@@ -2,11 +2,8 @@ import React, { Suspense } from "react";
 import Video from "./Video/Video";
 import { Helmet } from "react-helmet";
 import Services from "./Services/Services";
-import Style from "./Style/Style";
-import About from "./About/About";
 import Members from "./Members/Members";
 import OurSalon from "./OurSalon/OurSalon";
-import Work from "./Work/Work";
 import Partners from "./Partners/Partners";
 import HelpNearYou from "../Help/HelpNearYou";
 import HomeRead from "./HomeRead/HomeRead";
@@ -14,8 +11,6 @@ import ServiceWhy from "./../MainServicePages/ServiceWhy/ServiceWhy";
 import TextLocReviews from "./../TextLocReviews/TextLocReviews";
 import HomeBlog from "./HomeBlog/HomeBlog";
 const InstaFeed = React.lazy(() => import("./InstaFeed/InstaFeed"));
-
-
 
 const HomePage = () => {
   return (
@@ -32,11 +27,11 @@ const HomePage = () => {
       </Helmet>
       <Video />
       <Services />
-      <Style />
-      <About />
+      {/* <Style />
+      <About /> */}
       <Members />
+      {/* <Work /> */}
       <OurSalon />
-      <Work />
       <Partners />
       <Suspense fallback={<p>Loading....</p>}>
         <InstaFeed />
@@ -44,9 +39,8 @@ const HomePage = () => {
       <HelpNearYou />
       <TextLocReviews />
       <ServiceWhy />
-      <HomeBlog/>
-     <HomeRead />
-      
+      <HomeBlog />
+      <HomeRead />
     </div>
   );
 };

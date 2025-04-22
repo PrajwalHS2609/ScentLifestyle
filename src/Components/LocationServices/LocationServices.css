@@ -1,0 +1,335 @@
+.locationServicesHead {
+    /* border: solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+  }
+  .locationServicesHead > h1 {
+    color: var(--customColor);
+    width: 100%;
+    text-align: center;
+  }
+  .locationServicesHead > h2 {
+    color: var(--customColor);
+    text-align: center;
+    width: 100%;
+    font-size: 25px;
+  }
+  .locationServicesHead > h3 {
+    color: var(--customColor);
+    text-align: start;
+    width: 100%;
+    font-size: 25px;
+  }
+  .locationServicesHead > h4 {
+    color: var(--customColor);
+    text-align: start;
+    width: 100%;
+    font-size: 25px;
+  }
+  .locationServicesHead > h5 {
+    color: var(--customColor);
+    text-align: start;
+    width: 100%;
+    font-size: 25px;
+  }
+  
+  .locationServicesHead > ul > li {
+    list-style: none;
+    margin: 10px;
+    font-size: 20px;
+    text-align: justify;
+  }
+  .locationServicesHead > ul > li > h6 {
+    font-size: 20px;
+    text-align: justify;
+    color: var(--customColor);
+  }
+  .locationServicesHead > ul > li > a {
+    text-decoration: none;
+    color: var(--customColor);
+  }
+  
+  .locationServicesHead > ul > li > span {
+    color: var(--customColor);
+    font-weight: bold;
+  }
+  .locationServicesHead > p {
+    text-align: justify;
+    font-size: 20px;
+  }
+  .locationServicesHead > p > a {
+    color: var(--customColor);
+    text-decoration:underline;
+  }
+  
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    .locationServicesHead > h1 {
+      font-size: 25px;
+      text-align: center;
+    }
+    .locationServicesHead > h2 {
+      text-align: center;
+      font-size: 20px;
+    }
+    .locationServicesHead > h3 {
+      text-align: center;
+      font-size: 20px;
+    }
+    .locationServicesHead > h4 {
+      text-align: center;
+      font-size: 20px;
+    }
+    .locationServicesHead > h5 {
+      text-align: center;
+      font-size: 20px;
+    }
+  }
+  
+/* --------------------------------------Why----------------------------------------------------------- */
+.locationServicesWhy {
+    /* border: solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    padding: 30px;
+  }
+  .locationServicesWhy > h5 {
+    font-size: 25px;
+    color: var(--customColor);
+    text-align: center;
+    width: 100%;
+  }
+  .locationServicesWhy > h6 {
+    font-size: 20px;
+    color: var(--customColor);
+    text-align: start;
+    width: 100%;
+    font-weight: bold;
+  }
+  .locationServicesWhy > p {
+    font-size: 20px;
+    width: 100%;
+    text-align: justify;
+  }
+  .locationServicesWhy > p > a {
+    color: var(--customColor);
+    text-decoration: none;
+  }
+  .locationServicesWhy > ul > li > p > a {
+    text-decoration: none;
+    color: var(--customColor);
+  }
+  .locationServicesWhy > ul > li {
+    list-style: none;
+    font-size: 20px;
+    text-align: justify;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+    width: 95%;
+  }
+  .locationServicesWhy > ul > li > span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: var(--customColor);
+    text-align: start;
+    font-weight: 500;
+  }
+  .locationServicesWhy > ul > li > span > img {
+    width: 20px;
+    height: 20px;
+  }
+  .locationServicesWhy > ul > li > ul > li {
+    list-style: none;
+    margin: 10px;
+    font-size: 20px;
+    text-align: justify;
+  }
+  .locationServicesWhy > ul > li > ul > li > span {
+    color: var(--customColor);
+    font-weight: bold;
+  }
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    .locationServicesWhy {
+      /* border: solid red; */
+      padding: 10px;
+    }
+    .locationServicesWhy > h5 {
+      font-size: 20px;
+      color: var(--customColor);
+      text-align: center;
+      width: 100%;
+    }
+  }
+  
+/* ------------------------------------What----------------------------------------- */
+
+.locationServicesWhat {
+    /* border: solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px;
+  }
+  .locationServicesWhat > h2 {
+    color: var(--customColor);
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+  }
+  .locationServicesWhat > h3 {
+    color: var(--customColor);
+    width: 100%;
+    text-align: start;
+    font-size: 25px;
+  }
+  .locationServicesWhat > h3 {
+    color: var(--customColor);
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+  }
+  .locationServicesWhat > h4 {
+    color: var(--customColor);
+    width: 100%;
+    text-align: start;
+    font-size: 25px;
+  }
+  .locationServicesWhat > p {
+    width: 100%;
+    font-size: 20px;
+    text-align: justify;
+  }
+  .locationServicesWhat > p > a {
+    color: var(--customColor);
+    text-decoration: none;
+  }
+  .locationServicesWhat > li > h6 {
+    color: var(--customColor);
+    font-size: 20px;
+  }
+  .locationServicesWhat > li > span {
+    color: var(--customColor);
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .locationServicesWhat > li > p > a {
+    color: var(--customColor);
+    text-decoration: none;
+  }
+  .locationServicesWhat > li {
+    /* border: solid; */
+    width: 100%;
+    font-size: 20px;
+    text-align: start;
+    list-style: none;
+  }
+  .locationServicesWhat > li > span {
+    /* border: solid; */
+    color: var(--customColor);
+  }
+  .locationServicesWhat > li > a {
+    text-decoration: none;
+    color: var(--customColor);
+  }
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    .locationServicesWhat > h2 {
+      color: var(--customColor);
+      width: 100%;
+      text-align: center;
+      font-size: 20px;
+    }
+    .locationServicesWhat > h3 {
+      color: var(--customColor);
+      width: 100%;
+      text-align: center;
+      font-size: 20px;
+    }
+  }
+  
+
+/* ----------------------------------Customer------------------------------------------ */
+.locationServicesCustomer {
+    /* border: solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+  }
+  .locationServicesCustomer > h5 {
+    text-align: center;
+    width: 100%;
+    font-size: 25px;
+    color: var(--customColor);
+  }
+  .locationServicesCustomer > p {
+    font-size: 20px;
+    text-align: justify;
+  }
+  .locationServicesCustomer > p > a {
+    text-decoration: none;
+    color: var(--customColor);
+  }
+  .locationServicesCustomerContent {
+    /* border: solid blue; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .locationServicesCustomerContent>h6{
+    font-size: 25px;
+    color: var(--customColor);
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+  }
+  .locationServicesCustomerContent > p {
+    font-size: 20px;
+    text-align: justify;
+    width: 70%;
+    line-height: 35px;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 5px rgb(171, 171, 171);
+  }
+  .locationServicesCustomerContent > p > span {
+    color: var(--customColor);
+    font-weight: bold;
+  }
+  .quote {
+    font-size: 30px;
+  }
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    .locationServicesCustomerContent > p {
+      /* border: solid; */
+      font-size: 20px;
+      text-align: justify;
+      width: 100%;
+      line-height: 35px;
+      border-radius: 10px;
+      padding: 10px;
+    }
+  }
+  

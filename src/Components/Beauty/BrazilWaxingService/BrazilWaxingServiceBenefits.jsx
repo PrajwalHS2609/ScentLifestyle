@@ -2,7 +2,7 @@ import React from "react";
 
 const BrazilWaxingServiceBenefits = () => {
   return (
-    <div className="hairSalonInMeadowsService">
+    <div className="locationServicesWhat">
       <h3>
         Benefits of Choosing Brazilian Waxing Service in Bangalore at SCENT
       </h3>

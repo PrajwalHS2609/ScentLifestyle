@@ -4,6 +4,13 @@ import BodyWaxingInLavelleHead from "./BodyWaxingInLavelleHead";
 import { Helmet } from "react-helmet";
 import beautylavelleImg from "./../../../../Images/SahakarNagar/Waxing, Threding & D-Tan.png";
 import LocationServicesImg from "../../LocationServicesImg";
+import Members from "../../../HomePage/Members/Members";
+import OurSalon from "../../../HomePage/OurSalon/OurSalon";
+import ServiceWhy from "../../../MainServicePages/ServiceWhy/ServiceWhy";
+import TextLocReviews from "../../../TextLocReviews/TextLocReviews";
+import HelpNearYou from "../../../Help/HelpNearYou";
+import InstaFeed from "../../../HomePage/InstaFeed/InstaFeed";
+import Partners from "../../../HomePage/Partners/Partners";
 
 const BodyWaxingInLavelle = () => {
   return (
@@ -27,6 +34,13 @@ const BodyWaxingInLavelle = () => {
         currService="Body Waxing in Lavelle"
       />
       <BodyWaxingInLavelleHead />
+      <Members />
+      <OurSalon />
+      <Partners />
+      <InstaFeed />
+      <HelpNearYou />
+      <TextLocReviews />
+      <ServiceWhy />
             
     </div>
   );

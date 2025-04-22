@@ -15,7 +15,7 @@
   align-items: center;
 }
 #contactMainContent1 {
-  background-color: #cc2228;
+  background-color: var(--customColorBlack);
 }
 .contactsContainer {
   /* border: solid green; */

@@ -1,4 +1,4 @@
-.homeReadContainer {
+  .homeReadContainer {
   /* border: solid; */
   /* height: 70vh; */
   width: 100%;
@@ -53,7 +53,7 @@
 }
 .homeReadHeadContainer > ul > li > a {
   color: var(--customColor);
-  text-decoration: none;
+  text-decoration: underline;
 }
 .homeReadDisplayContainer {
   /* border: solid green; */
@@ -75,7 +75,7 @@
 }
 .homeReadDisplayContainer > ul > li > p > a {
   color: var(--customColor);
-  text-decoration: none;
+  text-decoration: underline;
 }
 .homeReadDisplayContainer > ul {
   /* border: solid red; */
@@ -113,7 +113,7 @@
 }
 .homeReadDisplayContainer > ul > li > a {
   color: var(--customColor);
-  text-decoration: none;
+  text-decoration: underline;
 }
 .homeReadDisplayContainer > ul > li > span {
     color: var(--customColor);

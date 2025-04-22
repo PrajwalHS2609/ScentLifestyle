@@ -17,7 +17,7 @@ const ChristmasOfferHead = () => {
       Whether you're considering{" "}
       <a href="https://scentlifestyle.com/beauty-essentials">hand waxing</a>,
       leg waxing, or even{" "}
-      <a href="https://scentlifestyle.com/brazilian-waxing-services-in-bangalorex">
+      <a href="https://scentlifestyle.com/brazilian-waxing-services-in-bangalore">
         Brazilian waxing
       </a>
       , read on to learn everything you need to know.

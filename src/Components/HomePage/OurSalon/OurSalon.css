@@ -10,7 +10,7 @@
   gap: 20px;
   position: relative;
   overflow: hidden;
-  background-color: white;
+  background-color: var(--customColorWhite);
 
 }
 .salonContainer > img {
@@ -33,11 +33,11 @@
 .salonContent1 > p {
   font-size: 30px;
   text-align: center;
-  color: var(--customColor);
+  color: var(--customColorBlack);
 }
 .salonUnderline {
   border: 2px solid;
-  color: var(--customColor);
+  color: var(--customColorBlack);
   width: 100px;
 }
 .salonContent2 {
@@ -50,7 +50,7 @@
 }
 .salonItem {
   border: solid;
-  color: var(--customColor);
+  color: var(--customColorBlack);
   border-radius: 50%;
   height: 100%;
   width: 20%;
@@ -59,7 +59,7 @@
   align-items: center;
 }
 .salonItem > p {
-  color: black;
+  color: var(--customColorBlack);
   font-size: 15px;
   font-weight: bold;
   text-align: center;
@@ -83,11 +83,11 @@
   font-weight: lighter;
   text-decoration: underline;
   cursor: pointer;
-  color: var(--customColor);
+  color: var(--customColorBlack);
   font-weight: bold;
 }
 .salonIcon {
-  color: var(--customColor);
+  color: var(--customColorBlack);
 }
 @media only screen and (max-width: 600px) {
   .salonContainer {
@@ -114,7 +114,7 @@
   .salonContent1 > p {
     font-size: 170%;
     text-align: center;
-    color: var(--customColor);
+    color: var(--customColorBlack);
     /* border: solid; */
     width: 90%;
   }
@@ -162,7 +162,7 @@
   .salonContent1 > p {
     font-size: 170%;
     text-align: center;
-    color: var(--customColor);
+    color: var(--customColorBlack);
     /* border: solid; */
     width: 90%;
   }
@@ -207,11 +207,11 @@
   .salonContent1 > p {
     font-size: 30px;
     text-align: center;
-    color: var(--customColor);
+    color: var(--customColorBlack);
   }
   .salonUnderline {
     border: 2px solid;
-    color: var(--customColor);
+    color: var(--customColorBlack);
     width: 100px;
   }
   .salonContent2 {
@@ -224,7 +224,7 @@
   }
   .salonItem {
     border: solid;
-    color: var(--customColor);
+    color: var(--customColorBlack);
     border-radius: 50%;
     height: 100%;
     width: 20%;

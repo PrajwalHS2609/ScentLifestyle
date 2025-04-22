@@ -5,13 +5,19 @@
   align-items: flex-start;
   flex-direction: column;
   gap: 20px;
-  width: 90%;
+  width: 100%;
   padding: 20px;
+}
+.blogWhat-content > h3 {
+  font-size: 25px;
+  color: var(--customColor);
+  text-align: start;
+  width: 100%;
 }
 .blogWhat-content > h5 {
   font-size: 25px;
   color: var(--customColor);
-  text-align: center;
+  text-align: start;
   width: 100%;
 }
 .blogWhat-content > p {
@@ -79,6 +85,7 @@
   gap: 10px;
   color: var(--customColor);
   text-align: start;
+  font-weight: bold;
 }
 
 
@@ -89,6 +96,8 @@
   gap: 10px;
   color: var(--customColor);
   text-align: start;
+  font-weight: 600;
+
 }
 .blogWhat-content > ul > li > span > img {
   width: 20px;

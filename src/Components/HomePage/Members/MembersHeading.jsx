@@ -10,6 +10,7 @@ const MembersHeading = () => {
         <h4>
           Creative <span>Team</span>
         </h4>
+        <div className="memberUnderline"></div>
       </div>
     </div>
   );

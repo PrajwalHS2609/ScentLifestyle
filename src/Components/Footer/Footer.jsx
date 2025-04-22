@@ -165,7 +165,7 @@ const Footer = () => {
           <div className="footerCopy1">
             <p>SCENT © Copyright 2023</p>
           </div>
-          <div className="footerCopy1">
+          <div className="footerCopy2">
             <a href="https://tryseoservices.com/">
               <img src={TSS} alt="" />
             </a>

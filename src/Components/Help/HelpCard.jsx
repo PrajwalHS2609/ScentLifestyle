@@ -35,7 +35,7 @@ const HelpCard = (props) => {
               icon={faPhone}
               className="menuIcon"
             ></FontAwesomeIcon>
-            :{props.no}
+          {props.no}
           </p>
         </div>
       </div>

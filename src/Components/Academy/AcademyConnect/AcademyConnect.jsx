@@ -11,6 +11,7 @@ const AcademyConnect = () => {
       </div>
       <div className="academyConnect-wrapper">
         <AcademyConnectTxtContent />
+
       </div>
     </div>
   );
