@@ -273,8 +273,9 @@ import TenOlaplexBenefits from "./Components/BlogPage/BlogInnerPages/HairBlogInn
 import BodyWaxingRight from "./Components/BlogPage/BlogInnerPages/BeautyBlogInnerPages/BodyWaxingRight/BodyWaxingRight";
 import BodyWaxingInSahakarNagar from "./Components/LocationServices/SahakarNagar/BodyWaxingSahakarNagar/BodyWaxingInSahakarNagar";
 import BodyWaxingInWhitefield from "./Components/LocationServices/Whitefield/BodyWaxingInWhitefield/BodyWaxingInWhitefield";
-import BodyWaxingInUptown from './Components/LocationServices/Uptown/BodyWaxingInUptown/BodyWaxingInUptown';
+import BodyWaxingInUptown from "./Components/LocationServices/Uptown/BodyWaxingInUptown/BodyWaxingInUptown";
 import BodyWaxingServInLavelle from "./Components/LocationServices/Lavelle/BodyWaxingServInLavelle/BodyWaxingServInLavelle";
+import MoroccanOilHairTreatment from "./Components/BlogPage/BlogInnerPages/HairBlogInnerPages/MoroccanOilHairTreatment/MoroccanOilHairTreatment";
 
 const MainApp = () => {
   const location = useLocation();
@@ -801,6 +802,10 @@ const MainApp = () => {
           path="/olaplex-hair-treatments-in-bangalore"
           element={<Olaplex />}
         />
+        <Route
+          path="/how-moroccanoil-hair-treatment-can-rescue-damaged-hair"
+          element={<MoroccanOilHairTreatment />}
+        />
         {/* -----------------InSahakarNagar-------------- */}
         <Route
           path="/hair-salon-in-sahakara-nagar-bangalore"
@@ -988,7 +993,7 @@ const MainApp = () => {
         />
         <Route
           path="/body-waxing-services-in-lavelle-road"
-          element={<BodyWaxingServInLavelle/>}
+          element={<BodyWaxingServInLavelle />}
         />
         {/* -----------------------/InLavelleRoad-------------------- */}
         {/*-----------------InJakkur------------------------------------ */}
@@ -1097,7 +1102,7 @@ const MainApp = () => {
           path="/olaplex-hair-treatment-in-uptown-whitefield"
           element={<HairSmoothInUptown />}
         />
-              <Route
+        <Route
           path="/body-waxing-services-in-uptown-whitefield"
           element={<BodyWaxingInUptown />}
         />

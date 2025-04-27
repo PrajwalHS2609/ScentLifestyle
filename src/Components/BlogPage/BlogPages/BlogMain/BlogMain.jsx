@@ -41,10 +41,16 @@ import summerCareBanner from "./../../../../Images/Blog/Summer_Hair/Banner.png";
 import bestEyelashExtensionBanner from "./../../../../Images/Blog/The_Best_Eyelash_Extension/Banner.png";
 import olaplexBenefitsBanner from "./../../../../Images/Blog/10 Amazing Benefits of Olaplex Hair Treatment/Banner.png";
 import bodyWaxingRightBanner from "./../../../../Images/Blog/BodyWaxingRight/Banner.png";
+import moroccanOilBanner from "./../../../../Images/Blog/moroccan_oil/Banner.png";
 
 const BlogMain = () => {
   const blogs = [
-    
+    {
+      img: moroccanOilBanner,
+      head: "How Moroccanoil Hair Treatment Can Rescue Damaged Hair?",
+      para: "When it comes to rescuing dry, brittle, and damaged hair, the solution often lies ...",
+      link: "/how-moroccanoil-hair-treatment-can-rescue-damaged-hair",
+    },
 
     {
       img: bodyWaxingRightBanner,
