@@ -21,9 +21,17 @@ import doScalpMassagesBanner from "./../../../../Images/Blog/Do_Scalp_Massage_Pr
 import HairTrends from "./../../../../Images/Blog/2025HairTrends/Banner.png";
 import summerCareBanner from "./../../../../Images/Blog/Summer_Hair/Banner.png";
 import olaplexBenefitsBanner from "./../../../../Images/Blog/10 Amazing Benefits of Olaplex Hair Treatment/Banner.png";
+import moroccanOilBanner from "./../../../../Images/Blog/moroccan_oil/Banner.png";
 
 const BlogHair = () => {
   const hairBlog = [
+    {
+      img: moroccanOilBanner,
+      head: "How Moroccanoil Hair Treatment Can Rescue Damaged Hair?",
+      para: "When it comes to rescuing dry, brittle, and damaged hair, the solution often lies ...",
+      link: "/how-moroccanoil-hair-treatment-can-rescue-damaged-hair",
+    },
+
     {
       img: olaplexBenefitsBanner,
       head: "10 Amazing Benefits of Olaplex Hair Treatment",
