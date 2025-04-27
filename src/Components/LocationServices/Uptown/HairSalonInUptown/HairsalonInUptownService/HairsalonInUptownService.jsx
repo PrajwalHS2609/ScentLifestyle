@@ -81,7 +81,7 @@ const HairsalonInUptownService = () => {
         <p>
           Your wedding day is one of the most important days of your life, and
           the{" "}
-          <a href="https://scentlifestyle.com/haixr-salon-in-uptown-whitefield-bangalore">
+          <a href="https://scentlifestyle.com/hair-salon-in-uptown-whitefield-bangalore">
             Hair Salon in Uptown Whitefield
           </a>{" "}
           is here to make sure your hair is flawless. Our bridal hair services
