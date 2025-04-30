@@ -4,7 +4,8 @@ import BlogPost from "./BlogPost/BlogPost";
 import BlogCategories from "./BlogCategories/BlogCategories";
 import BlogOffer from "./BlogOffer/BlogOffer";
 
-const BlogSideBar = () => {
+const 
+BlogSideBar = () => {
   return (
     <div className="blogSideBar-container">
       <BlogPost />

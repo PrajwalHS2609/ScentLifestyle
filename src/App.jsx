@@ -276,6 +276,7 @@ import BodyWaxingInWhitefield from "./Components/LocationServices/Whitefield/Bod
 import BodyWaxingInUptown from "./Components/LocationServices/Uptown/BodyWaxingInUptown/BodyWaxingInUptown";
 import BodyWaxingServInLavelle from "./Components/LocationServices/Lavelle/BodyWaxingServInLavelle/BodyWaxingServInLavelle";
 import MoroccanOilHairTreatment from "./Components/BlogPage/BlogInnerPages/HairBlogInnerPages/MoroccanOilHairTreatment/MoroccanOilHairTreatment";
+import TenHairColorAllAges from "./Components/BlogPage/BlogInnerPages/HairBlogInnerPages/TenHairColorAllAges/TenHairColorAllAges";
 
 const MainApp = () => {
   const location = useLocation();
@@ -806,6 +807,11 @@ const MainApp = () => {
           path="/how-moroccanoil-hair-treatment-can-rescue-damaged-hair"
           element={<MoroccanOilHairTreatment />}
         />
+                <Route
+          path="/10-stunning-hair-color-ideas-for-women-of-all-ages"
+          element={<TenHairColorAllAges />}
+        />
+
         {/* -----------------InSahakarNagar-------------- */}
         <Route
           path="/hair-salon-in-sahakara-nagar-bangalore"

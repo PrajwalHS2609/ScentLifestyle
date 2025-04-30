@@ -22,9 +22,16 @@ import HairTrends from "./../../../../Images/Blog/2025HairTrends/Banner.png";
 import summerCareBanner from "./../../../../Images/Blog/Summer_Hair/Banner.png";
 import olaplexBenefitsBanner from "./../../../../Images/Blog/10 Amazing Benefits of Olaplex Hair Treatment/Banner.png";
 import moroccanOilBanner from "./../../../../Images/Blog/moroccan_oil/Banner.png";
+import tenHairColorBanner from "./../../../../Images/Blog/ten_hair_colors_for_all_ages/Banner.png";
 
 const BlogHair = () => {
   const hairBlog = [
+    {
+      img: tenHairColorBanner,
+      head: "10 Stunning Hair Color Ideas for Women of All Ages",
+      para: "Hair color is one of the most powerful and exciting ways to express your personality...",
+      link: "/10-stunning-hair-color-ideas-for-women-of-all-ages",
+    },
     {
       img: moroccanOilBanner,
       head: "How Moroccanoil Hair Treatment Can Rescue Damaged Hair?",
