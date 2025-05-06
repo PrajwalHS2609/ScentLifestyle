@@ -13,7 +13,7 @@ const Contacts = () => {
             icon={faPhone}
             className="franIcon"
           ></FontAwesomeIcon>
-          <a href="tel:9742232700">+91 9742232700</a>
+          <a href="tel:9742232700">+91 9606682700</a>
         </p>
       </div>
       <div className="contacts2">
@@ -42,7 +42,7 @@ const Contacts = () => {
             icon={faPhone}
             className="franIcon"
           ></FontAwesomeIcon>
-          <a href="tel:9742232700">+91 9742232700</a>
+          <a href="tel:9742232700">+91 9606682700</a>
         </p>
       </div>
     </div>
