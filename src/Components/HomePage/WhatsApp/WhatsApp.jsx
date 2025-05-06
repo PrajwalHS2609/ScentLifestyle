@@ -14,7 +14,7 @@ const WhatsApp = () => {
         chatMessage="🌸Hello from SCENT Salon!🌸
 Pamper yourself with our exclusive beauty & wellness services! ✨
  From glow-enhancing facials to luxurious hair & spa treatments, we’ve got everything to make you shine. Book your appointment today and indulge in a little self-care! 💆‍♀💖
-📍 Visit us or call us at  +91 9742232700 to book now! 🌸"
+📍 Visit us or call us at  +91 9606682700 to book now! 🌸"
         placeholder="Type a message..." // Optional
       />
     </div>

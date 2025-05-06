@@ -18,7 +18,7 @@ const ContactPage = () => {
         <title>Contact Us for Salon Franchise & Memberships in India</title>
         <meta
           name="description"
-          content="Contact SCENT for Salon Franchise & Memberships in Bangalore, India. Reach us at +91 9742232700 or Email: franchisee@scentlifestyle.com"
+          content="Contact SCENT for Salon Franchise & Memberships in Bangalore, India. Reach us at +91 9606682700 or Email: franchisee@scentlifestyle.com"
         />
         <link
           rel="canonical"

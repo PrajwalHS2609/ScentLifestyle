@@ -20,7 +20,7 @@ const OfferPage = () => {
       }
       gtag("js", new Date());
       gtag("config", "AW-1013026110/i9WkCK6VmsMZEL6ahuMD", {
-        phone_conversion_number: "+91 9742232700",
+        phone_conversion_number: "+91 9606682700",
       });
     };
 
